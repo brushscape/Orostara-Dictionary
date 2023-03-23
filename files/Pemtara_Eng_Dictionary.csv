@@ -192,8 +192,10 @@ ikmasput,,,,,weak,,,Pemtara,ik masput,little strength
 iknop,,,,,narrow,,,Pemtara,ik nop,small width or a little width
 ikos,,,dwarf planet,,,,,Pemtara,ik hosa,little planet
 ikpais,,,,,cheap,,,Pemtara,ik pais,little money
+ikpir,,,"kitty, kitten",,,,,Pemtara,ik pir,
 iksatam,,,,,quiet,,,Pemtara,ik satam,little noise
 iksupes,,,,,thin,,,Pemtara,ik supes,little circumference
+iktak,,,"puppy, pup",,,,,Pemtara,ik tak,
 iktur,,,,,near,,,Pemtara,ik tur,small distance or a little distance
 imaj,yes,,image,imagine,,,,English,image,
 imopir,yes,,,,still/motionless,,,French,immobile,
@@ -876,5 +878,3 @@ yuksek,yes,,height,rise,high/tall,,,Turkish,yüksek,
 yun,yes,,luck/chance,,lucky,,,Mandarin Chinese,运气,Yùnqì
 yunet,yes,,unit,,,,,English,unit,
 yusar,yes,,,ease,easy,,,Arabic,يُسَهّل,yusahhl
-iktak,,,"puppy, pup",,,,,Pemtara,ik tak,
-ikpir,,,"kitty, kitten",,,,,Pemtara,ik pir,
