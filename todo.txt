@@ -1,0 +1,14 @@
+fix the cvs file upload
+add comments
+BUG search 'manager' in english
+
+Extra page ideas:
+common prefixes and suffixes sheet
+honorifics
+whole basic dictionary (basic only)
+
+Prettify:
+make conjugated words slightly bigger font
+put word and etymology on the same line
+top bar with back buttons and title of page
+side bar with option for search and other page ideas

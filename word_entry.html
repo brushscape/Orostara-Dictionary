@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--xlsx.js (C) 2013-present SheetJS http://sheetjs.com-->
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="style/dictionary_style.css">
+  <script src='src/process_CSV.js'></script>
+  <script src='src/page_func.js'></script>
+  <script src='src/dictionary_search_func.js'></script>
+  <script src='src/dict_memory_func.js'></script>
+  <script src='src/dict_process_pem_word.js'></script>
+  <script src='src/dict_process_eng_word.js'></script>
+</head>
+
+
+<body onload = "load()">
+  <input type="file" id="csvFile" accept=".csv" />
+  <input type="submit" value="Submit" onclick="readCSVFile()"/>
+
+<button type='button' onclick='goback()' id='backBut'><</button>
+<button type='button' onclick='goforward()' id='forBut'>></button>
+
+<div class='searchBlock'>
+  <div class='searchLangCol' id='ss'>
+    <div class='wordEntry'>
+      <div>Enter <b>Pemtara</b> Word Here:</div>
+      <input type='text' class='searchbar' id='pemSearchBar'>
+    </div>
+    <div id='buttons' class='buttons'>
+      <button type='button' onclick='pemClick()' class='langButton' id='pemButton'>Translate</button>
+    </div>
+    <div class='notFound' id='notFoundPem'>
+      <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
+      <div style='font-size:3vh;'>
+        Please check spelling and try again.
+        <br>
+        Search function works best when words are in their base form.
+      </div>
+    </div>
+  </div>
+  <div class='searchLangCol' id='ss'>
+    <div class='wordEntry'>
+      <div>Enter <b>English</b> Word Here:</div>
+      <input type='text' class='searchbar' id='engSearchBar'>
+    </div>
+    <div id='buttons' class='buttons'>
+      <button type='button' onclick='engClick()' class='langButton' id='engButton'>Translate</button>
+    </div>
+    <div class='notFound' id='notFoundEng'>
+      <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
+      <div style='font-size:3vh;'>
+        Please check spelling or type a synonym and try again.
+        <br>
+        Search function works best when words are singular and/or in present tense.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='notFound' id='notFound'>
+  <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
+  <div style='font-size:3vh;'>
+    Please check spelling or, if English, type a synonym and try again.
+    <br>
+    Search function works best when English words are singular and/or in present tense, and Pemtara words are in their base form.
+  </div>
+</div>
+
+<div id='wordDefContainer' class='wordDefContainer'>
+  <div id='wordDef' class='wordDef'>
+    <h1 id='word'>
+      WORD
+    </h1>
+    <div class='etym' id='etym'>
+      from <i>blankword</i> in Language
+    </div>
+    <h2>
+      Definition
+    </h2>
+    <div id='def'>
+      Put a definition here
+      other, list, here, prepositions, time markers, pronouns, etc
+    </div>
+    <br>
+
+    <div id='noun'>
+      <b>worda</b> - noun, list, here
+    </div>
+    <div id='verb'>
+      <b>wordo</b> - verb, list, here
+    </div>
+    <div id='des'>
+      <b>wordi/worde</b> - desc, list, here
+    </div>
+    <br>
+  </div>
+  <div id='extraWordDefs' class='extraWordDefs'></div>
+</div>
+
+</body>
+
+
+</html>
