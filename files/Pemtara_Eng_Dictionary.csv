@@ -1,4 +1,3 @@
-Pemtara,BasicDict,Notes,Nouns,Verbs,Descriptors,Other,OtherType,RootLanguage,RLWord,RL Word Pronunciation
 afas,yes,,phase,,,,,Hindi,अवस्था,avastha
 afon,yes,,invention,invent,,,,French,inventer,
 afsar,yes,,chance/opportunity,,,,,Hindi,अवसर,avasar
@@ -10,8 +9,11 @@ ajir,yes,,,,urgent,,,Arabic,عاجل,eajil
 ajtun,yes,,danger,,,,,German,Achtung,
 ak,yes,,,,,beyond/next,preposition,Hindi,आगे,aage
 akas,yes,,sky/weather,,,,,Hindi,आकाश,aakaash
+akasnit,,,rain,,,,,Pemtara,akas nit,
+akaspek,,,snow,,,,,Pemtara,akas pek,
 akat,yes,,,,hard/stiff/tough,,,Hindi,अकड़न,akadan
 akser,yes,,stock/share,,,,,Russian,акции,ákcija
+akten,,,tomorrow,,,,,Pemtara,ak ten,
 am,yes,,,,,yes,,Tamil,ஆம்,Ām
 amar,yes,romantic love only,romance,love,romantic ,,,Spanish,amar,
 amus,yes,,joke/amusement,amuse/entertain ,amusing/entertaining/light-hearted,,,French,amuser,
@@ -48,7 +50,7 @@ asas,yes,,basis/foundation,,,,,Persian,اساس,asâs
 asrin,yes,,origin/source,,original,,,Javanese,asline,
 asukar,yes,,sugar,,sweet,,,Portuguese,açúcar,
 asun,yes,,problem/issue,,,,,Spanish,asunto,
-asur,yes,,blue,,,,,Spanish,azul,
+asur,yes,color,blue,,,,,Spanish,azul,
 atar,yes,,respect,,,,,Hindi,आदर,aadar
 atikar,yes,,,,official/formal,,,Tamil,அதிகாரி,Atikāri
 atios,yes,,,,,bye/goodbye,,Spanish,adiós,
@@ -91,7 +93,7 @@ faktor,yes,,factor,,,,,German,Faktor,
 fakuan,yes,,judge,,,,,Mandarin Chinese,法官,Fǎguān
 fam,yes,,warmth,heat,warm,,,German,warm,
 famen,yes,,valve,,,,,Mandarin Chinese,阀门,Fámén
-fan,yes,,fraction/decimal,,,,,Vietnamese,phần,
+fan,yes,,fraction/decimal,,,per,,Vietnamese,phần,
 fanhuy,yes,,,return,,,,Mandarin Chinese,返回,Fǎnhuí
 fankujik,,,crime,,,,,Pemtara,fan kujik,against rule
 fanmut,yes,,powder,,,,,Cantonese,粉末,fan mut
@@ -139,6 +141,7 @@ fukorkan,,,lung,,,,,Pemtara,fuk orkan,air organ
 fuok,yes,,fire,burn,firey,,,Italian,fuoco,
 fur,yes,,flower,,,,,Hindi,फूल,phool
 fus,yes,,senior/top,,superior,over/above,,Russian,выше,vyshe
+ha,yes,exclamation marker ,,,,,particle ,Pemtara,ham,
 haf,yes,,air/wind,airate,airy/windy,,,Turkish,hava,
 haj,yes,,eight,,,,,Japanese,八,hachi
 Hajos,yes,,Neptune,,,,,Pemtara,haj hos,8th planet
@@ -146,7 +149,7 @@ hakik,yes,,real,,real/actual/really/actually,,,Arabic,حقيقي,haqiqiun
 ham,yes,,,,all/every/entire/whole,very,,Persian,همه,hame
 han,yes,specifically to touch with your hand,hand,touch,,,,English,hand,
 hapsan,yes,,,fit/suit,,,,Cantonese,合身,hap san
-har,yes,,green,,,,,Hindi,हरा,hara
+har,yes,color,green,,,,,Hindi,हरा,hara
 haraf,yes,,,shake/shiver/tremble,,,,Gujarati,હલાવો,Halāvō
 has,yes,,humor/laughter,laugh,funny/humorous,,,Hindi,हास्य,haasy
 hasar,yes,,thousand,,,,,Hindi,हज़ार,hazaar
@@ -162,7 +165,6 @@ hera,yes,Affectionate honorific suffix that means 'someone I care about',,,,,,Pe
 herup,yes,,reptile/amphibian,,,,,English,herp,
 hesap,yes,,account,account,accountable,,,Turkish,hesap,
 hintuk,yes,,shape,form,,,,Vietnamese,hình thức,
-hir,yes,,,,,here,,English,here,
 hirom,yes,,,spread,,,,Japanese,広める,Hiromeru
 hiyak,yes,,hundred,,,,,Japanese,百,Hyaku
 hojun,yes,,,,available,,,Cantonese,可用,ho jung
@@ -172,7 +174,7 @@ huan,yes,,health,heal,,,,Mandarin Chinese,荒地,Huāngdì
 huanap,,,doctor,,,,,Pemtara,huan napa,heal person
 huanjak,,,hospital,,,,,Pemtara,huan jaka,health place
 huanjin,yes,,environment/nature,,natural,,,Mandarin Chinese,环境,Pachī
-huis,yes,,grey/gray,,,,,Mandarin Chinese,灰色,Huīsè
+huis,yes,color,grey/gray,,,,,Mandarin Chinese,灰色,Huīsè
 huk,yes,,hook,,,,,English,hook,
 huor,yes,,energy,,,,,Mandarin Chinese,活力,Huólì
 hupin,yes,,peace,,,,,Mandarin Chinese,和平,Hépíng
@@ -181,7 +183,7 @@ if,yes,,,,,if,,English,if,
 ifat,yes,,phrase,,,,,Turkish,ifade,
 ij,yes,,motivation/will,motivate,,,,Marathi,इच्छा,Icchā
 ijin,yes,,,,,for,,Turkish,için,
-ik,yes,,,,less/a little,,,Japanese,以下,Ika
+ik,yes,to a small degree,,,less/a little,,,Japanese,以下,Ika
 ikam,,,,,least,,,Pemtara,ik ham,
 iketat,,,,,young,,,Pemtara,ik etat,little age
 ikfarus,,,clit/clitoris,,,,,Pemtara,ik farus,little phallus
@@ -222,7 +224,8 @@ jar,yes,,,climb,,,,Urdu,چڑھنا,caṛhnā
 jas,yes,,hour,,,,,Russian,час,chas
 jat,yes,,bush ,,,,,Hindi,झाड़ी,jhaadee
 jatap,yes,,attract/captivate,attraction,attractive/alluring,,,Arabic,جاذب,jaḏaba
-jeh,yes,,that,,,,,Bangla,যে,Yē
+jeh,yes,,that/(colloquially) you/them,,,,,Bangla,যে,Yē
+jejak,,,,,,there,,Pemtara,jeh jak,
 jem,yes,,joy/enjoyment/fun/delight,like/enjoy/fond,happy/fun/enjoyable,,,Gujarati,જેમ,Jēma
 jen,yes,,degree,,,,,Mandarin Chinese,程度,Chéngdù
 jerun,yes,,wheel,,,,,Mandarin Chinese,车轮,Chēlún
@@ -276,11 +279,11 @@ kan,yes,,ear,listen,,,,Urdu,کان,kān
 kanan,yes,,computer/calculator,compute/calculate,,,,Marathi,गणना,Gaṇanā
 kanat,yes,,reflection,reflect,,,,Tamil,கண்ணாடி,Kaṇṇāṭi
 kanatmuk,,,mirror,,,,,Pemtara,kanat muka,reflect object
-kansik,yes,,orange,,,,,Cantonese,橙色,caang sik
+kansik,yes,color,orange,,,,,Cantonese,橙色,caang sik
 kap,yes,,ability/value,able/can,able,,,Urdu,قابل,qābi
 kaper,yes,,hair,,,,,Portuguese,cabelo,
 kapes,yes,specifically to touch with your head,head,touch,,,,Spanish,cabeza,
-kar,yes,,black,,dark,,,Bangla,কালো,Kālō
+kar,yes,color,black,,dark,,,Bangla,কালো,Kālō
 karap,yes,,,,bad,,,Bangla,খারাপ,kharap
 karim,yes,,word,,,,,Arabic,كلمة,kalima
 karin,yes,,,,kind/nice,,,Italian,carino,
@@ -305,6 +308,7 @@ ker,yes,,game,,,,,Hindi,खेल,khel
 keser,yes,,,exhaust,tired/exhausted/weary,,,Javanese,kesel,
 keyjuk,yes,,muscle,,muscular,,,Cantonese,肌肉,gei juk
 keynan,yes,,skill,,,,,Cantonese,技能,gei nang
+ki,yes,question maker,,,,,particle,Pemtara,kiy,
 kif,yes,,gift,give/share,,,,English,give,
 kifaj,,,why,,,,,Pemtara,kiy faj,what reason
 kijak,,,where,,,,,Pemtara,kiy jak,what place
@@ -356,6 +360,7 @@ kumban,yes,,lip,kiss,,,,Hindi,चुंबन,chumban
 kun,yes,,group,,,,,Japanese,群,gun
 kunaman,yes,,quality,,,,,Bangla,গুণমান,Guṇamāna
 kuoj,yes,,,,international,,,Mandarin Chinese,国际的,Guójì
+kup,yes,as in 'too much',,,,too,,Bangla,___,Khuba
 kupam,yes,,anger/rage/wrath,,angry,,,Tamil,கோபம்,Kōpam
 kuram,yes,,gram,,,,,German,Gramm,
 kuris,yes,,lube,slip/slide,slippery,,,French,glisser,
@@ -384,11 +389,11 @@ mapur,yes,,flight,fly,,,,Javanese,mabur,
 mar,yes,,wound,hurt,,,,Italian,Male,
 maren,yes,,,,dry,,,Korean,마른,maleun
 markas,yes,,center/middle,,,,,Arabic,مركز,markáz
-maron,yes,,brown,,,,,Spanish,marrón,
+maron,yes,color,brown,,,,,Spanish,marrón,
 marpit,yes,,commerce,exchange/trade,,,,Telugu,మార్పిడి,Mārpiḍi
-mas,yes,,,,more/a lot/many,,,Urdu,مزید,mazid
-masam,yes,,season/time of year,,,,,Urdu,موسم,masam
+mas,yes,to a large degree,,,more/a lot/many,,,Urdu,مزید,mazid
 masam,,,,,most,,,Pemtara,mas ham ,
+masaojen,,,,,,good morning,,Pemtara,mas saojen,
 masekir,,,,chase/hunt,,,,Pemtara,mas sekir,follow a lot (or very follow?)
 masetan,,,,,cold,,,Pemtara,mas tanut,a lot cool
 masfam,,,,,hot,,,Pemtara,mas fam,a lot warm
@@ -396,6 +401,7 @@ masin,yes,,machine,,,,,French,machine,
 masjan,,,,hurry,,,,Pemtara,mas jan,go a lot
 masjem,,,,love,,,,Pemtara,mas jem,like a lot
 maskatit,,,,run,,,,Pemtara,mas katit,walk a lot/very
+masnoj,,,,,,good night/good evening,,Pemtara,mas noj,
 maspater,,,,fight,,,,Pemtara,mas pater,hit a lot
 masput,yes,,strength,,strong/firm/stable,,,Urdu,مضبوط,mazbūt
 mat,yes,,,,,also/too,,Japanese,また,mata
@@ -428,7 +434,7 @@ mitar,yes,,meter,,,,,Hindi,मीटर,meetar
 miten,yes,,,have/borrow/rent,,,,German,mieten,
 mitiy,yes,,media,,,,,English,media,
 Mm,,,,,,Mmhm,,Pemtara,Am,Yes
-mofan,yes,,yellow,,,,,Vietnamese,màu vàng,
+mofan,yes,color,yellow,,,,,Vietnamese,màu vàng,
 mok,yes,,throat,swallow,,,,Korean,목,mog
 mokrur,,,esaphogus ,,,,,Pemtara,mok rur,throat tube
 montan,yes,,mountain,,,,,Spanish,montaña,
@@ -466,6 +472,7 @@ nejkun,,,galaxy,,,,,Pemtara,nej kun,star group
 nek,yes,,neck,,,,,English,neck,
 net,yes,,leader,lead/guide,,,,Hindi,नेता,neta
 nien,yes,,year,,,,,Mandarin Chinese,年,Nián
+niensikan,,time of year,season,,,,,Pemtara,nien sikan,
 nihao,yes,,,,,hi/hello,,Mandarin Chinese,你好,Nǐ hǎo
 nij,yes,,,,,down,preposition,Bangla,নিচে,Nicē
 nikaran,yes,,,remove,,,,Hindi,निकालना,nikaalana
@@ -538,20 +545,22 @@ pejan,yes,,back,,,behind/after/in back of,,Bangla,পেছনে,Pēchanē
 pejankos,,,spine,,,,,Pemtara,pejan kos,back bone
 pejor,yes,,parent,,,,,Tamil,பெற்றோர்,Peṟṟōr
 pek,yes,,ice,,,,,Javanese,beku,
-pekun,yes,,purple,,,,,Bangla,বেগুনি,Bēguni
+pekun,yes,color,purple,,,,,Bangla,বেগুনি,Bēguni
 pem,yes,,snake,,,,,Korean,뱀,baem
+Pemtara,BasicDict,Notes,Nouns,Verbs,Descriptors,Other,OtherType,RootLanguage,RLWord,RL Word Pronunciation
 pener,yes,,truth,,true/correct/accurate,really/truly,,Javanese,bener,
 pep,yes,,,drink,,,,Spanish,beber,
 per,yes,,,,,per,,Italian,per,
+per,yes,,,,,last/previous,,Hindi,____,pahale
 perek,yes,,nail,,,,,Bangla,পেরেক,Pērēka
 perfek,yes,,,,perfect/flawless,,,Spanish,perfecto,
+perten,,,yesterday,,,,,Pemtara,per ten,
 pet,yes,,tree,,,,,Hindi,पेड़,ped
 petan,yes,,,sit,,,,Hindi,बैठना,baithana
 petanmip,,,chair,,,,,Pemtara,petan mipa,sit furniture
 petkun,,,forest,,,,,Pemtara,pet kun,tree group
 peuj,yes,,spouse,,,,,Korean,배우자,baeuja
 pien,yes,,side/wall,,,,,Mandarin Chinese,边,Biān
-pihain,yes,,,,,behind,preposition,English,behind,
 pij,yes,,seed,,,,,Bangla,বীজ,Bīja
 pijik,yes,,business,,busy,,,Telugu,బిజీగా,Bijīgā
 pimien,yes,,avoid,,,,,Mandarin Chinese,避免,Bìmiǎn
@@ -576,7 +585,6 @@ por,yes,,bridge,,,,,Persian,پل,pol
 poritik,yes,,politics,,political,,,French,politique,
 pos,yes,,model,pose,,,,English,pose,
 posak,yes,,clothing,dress/wear,,,,Hindi,पोशाक,poshaak
-posforyat,yes,,,allow/let,,,,Russain,позволять,pozvolyat'
 posip,yes,,posibility,,possible,maybe,,Spanish,posible,
 positif,yes,,,,positive,,,Spanish,positivo,
 pot,yes,,contest/competition,compete,competitive ,,,Telugu,పోటీ,Pōṭī
@@ -617,7 +625,7 @@ rauan,yes,,door,,,,,Javanese,lawang,
 rehos,yes,,,,,away,,Spanish,lejos,
 rekin,yes,,,,,but,conjunction,Hindi,लेकिन,lekin
 resat,yes,,solution/answer/resolution,solve/resolve,,,,Russian,решать,reshat
-ret,yes,,red,,,,,English,red,
+ret,yes,color,red,,,,,English,red,
 retak,yes,,,crack,,,,Javanese,retak,
 retuir,yes,,,reduce/decrease/shrink/subtract,,,,French,réduire,
 rey,yes,,class/category/genre,,,,,Mandarin Chinese,类,Lèi
@@ -706,6 +714,7 @@ sikat,yes,,,brush,,,,Javanese,sikat,
 sikoen,yes,,market,,,,,Cantonese,市场,si coeng
 sim,yes,,present,,current,now,time,Turkish,Şimdi,
 simin,yes,,mission,,,,,Mandarin Chinese,使命,Shǐmìng
+simten,,,today,,,,,Pemtara,sim ten,
 sin,yes,,five,,,,,Portuguese,cinco,
 sinar,yes,,sign/symbol,signal,,,,Portuguese,sinal,
 sinkey,yes,,nerve,,,,,Japanese,神経,Shinkei
@@ -713,7 +722,7 @@ sinroy,yes,,,regret/apologize/forgive,,sorry,,Vietnamese,Xin lỗi,
 sior,yes,,repair/correction,fix/correct,,,,Mandarin Chinese,修理,Xiūlǐ
 sios,yes,,,break,,,,Mandarin Chinese,休息,Xiūxí
 sipok,yes,,billion,,,,,Korean,십억,sibeok
-sir,yes,,white,,,,,Japanese,白,Shiro
+sir,yes,color,white,,,,,Japanese,白,Shiro
 sirapur,yes,,syllable,,,,,English,syllable,
 sirkur,yes,,circle/ring,roll,,,,Portuguese,círculo,
 sis,yes,,child,,childish,,,Bangla,শিশু,Śiśu
@@ -798,6 +807,7 @@ tian,yes,,attention,focus,attentive,,,Punjabi,ਧਿਆਨ,Dhi'āna
 tiar,yes,,second/moment,,,,,Mandarin Chinese,第二,Dì èr
 tiepkan,yes,,,approach,,,,Vietnamese,tiếp cận,
 tifisir,yes,,trouble/difficulty,,difficult/hard/tough,,,Spanish,difícil,
+tik,yes,time maker,,,,,particle,English,tic,
 tiket,yes,,ticket,,,,,English,ticket,
 tikon,yes,,offer,,,,,Mandarin Chinese,提供,Tígōng
 tiksun,yes,,,,sharp/keen,,,Bangla,তীক্ষ্ণ,Tīkṣṇa
@@ -831,7 +841,6 @@ turan,yes,,,,,during/while/as,time,Spanish,durante,
 turikon,yes,,triangle,,,,,Hindi,त्रिकोण,trikon
 turis,yes,,,,sad/unhappy/sorrowful,,,Spanish,triste,
 turum,yes,,condition/state/situation ,,conditional/situational,,,Turkish,durum,
-tusar,yes,,snow,,,,,Bangla,তুষার,
 Tusin,yes,,Saturn,,,,,Mandarin Chinese,土星,Tǔxīng
 tut,yes,,,doubt,,,,Spanish,duda,
 tuy,yes,,darkness,,dark,,,Italian,buio,
@@ -840,7 +849,7 @@ uanjan,yes,,,finish,complete,,,Mandarin Chinese,完全,Wánquán
 uek,yes,,,wake,,,,English,wake,
 uj,yes,,question,ask/invite,inquisitive ,,,Urdu,پوچھنا,
 ujaf,yes,the direction of right (vs left),right,,,,,Marathi,उजवे,Ujavē
-um,yes,,,,,about/that,conjunction,German,um,
+um,yes,,,,,about/that,particle,German,um,
 umam,yes,,,,savory/umami,,,Japanese,うま味,umami
 umut,yes,,hope,,,,,Turkish,umut,
 unar,yes,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,Tamil,உணர்வு,Uṇarvu
@@ -860,10 +869,12 @@ yaktup,yes,,writing/essay/book/article,write,,,,Arabic,يكتب,yaktub
 yanam,yes,,,sleep,sleepy/tired,,,Arabic,ينام,yanam
 yarsam,yes,,drawing,draw,,,,Arabic,يرسم,yarsam
 yat,yes,,list,,,,,Marathi,यादी,Yādī
-yeh,yes,,this,,,,,Hindi,यह,yah
+yeh,yes,,this/(colloquially) I/me,,,,,Hindi,यह,yah
+yejak,,,,,,here,,Pemtara,yeh jak,
 yen,yes,,,,similar,as/like/such as,,Tamil,என,Eṉa
 yenar,yes,,,fill,,,,Spanish,llenar,
 yes,yes,,leaf,,,,,Mandarin Chinese,叶子,Yèzi
+yetruk,yes,,,allow/let,,,,Arabic,____,yatrak
 yis,yes,,art,,artistic,,,Mandarin Chinese,艺术,yìshù
 yisnap,,,artist,,,,,Pemtara,yis napa,art person
 yitay,yes,,generation,,,,,Mandarin Chinese,一代,Yīdài
