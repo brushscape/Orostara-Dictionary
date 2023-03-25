@@ -25,9 +25,8 @@ function searchEnglish(word){
 
   //go through every dictionary entry
   for(var i=0; i<pemtaraDict.length; i++){
-    console.log(pemtaraDict[i]);
     var entriesToCheck = [pemtaraDict[i].Nouns,pemtaraDict[i].Verbs,pemtaraDict[i].Descriptors,pemtaraDict[i].Other];
-    console.log(entriesToCheck);
+
     for(var j=0; j<entriesToCheck.length; j++){
       //search each entry option
       var array = entriesToCheck[j];
