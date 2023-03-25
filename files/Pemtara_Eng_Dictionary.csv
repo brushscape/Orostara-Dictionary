@@ -1,3 +1,4 @@
+Pemtara,BasicDict,Notes,Nouns,Verbs,Descriptors,Other,OtherType,RootLanguage,RLWord,RL Word Pronunciation
 afas,yes,,phase,,,,,Hindi,अवस्था,avastha
 afon,yes,,invention,invent,,,,French,inventer,
 afsar,yes,,chance/opportunity,,,,,Hindi,अवसर,avasar
@@ -547,7 +548,6 @@ pejor,yes,,parent,,,,,Tamil,பெற்றோர்,Peṟṟōr
 pek,yes,,ice,,,,,Javanese,beku,
 pekun,yes,color,purple,,,,,Bangla,বেগুনি,Bēguni
 pem,yes,,snake,,,,,Korean,뱀,baem
-Pemtara,BasicDict,Notes,Nouns,Verbs,Descriptors,Other,OtherType,RootLanguage,RLWord,RL Word Pronunciation
 pener,yes,,truth,,true/correct/accurate,really/truly,,Javanese,bener,
 pep,yes,,,drink,,,,Spanish,beber,
 per,yes,,,,,per,,Italian,per,
@@ -807,7 +807,7 @@ tian,yes,,attention,focus,attentive,,,Punjabi,ਧਿਆਨ,Dhi'āna
 tiar,yes,,second/moment,,,,,Mandarin Chinese,第二,Dì èr
 tiepkan,yes,,,approach,,,,Vietnamese,tiếp cận,
 tifisir,yes,,trouble/difficulty,,difficult/hard/tough,,,Spanish,difícil,
-tik,yes,time maker,,,,,particle,English,tic,
+tik,yes,time marker,,,,,particle,English,tic,
 tiket,yes,,ticket,,,,,English,ticket,
 tikon,yes,,offer,,,,,Mandarin Chinese,提供,Tígōng
 tiksun,yes,,,,sharp/keen,,,Bangla,তীক্ষ্ণ,Tīkṣṇa

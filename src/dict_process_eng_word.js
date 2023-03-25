@@ -25,52 +25,24 @@ function searchEnglish(word){
 
   //go through every dictionary entry
   for(var i=0; i<pemtaraDict.length; i++){
-    var j;
-
-    //search nouns in an entry first
-    var array = pemtaraDict[i].Nouns;
-    if(!Array.isArray(array)){
-      array = [pemtaraDict[i].Nouns];
+    console.log(pemtaraDict[i]);
+    var entriesToCheck = [pemtaraDict[i].Nouns,pemtaraDict[i].Verbs,pemtaraDict[i].Descriptors,pemtaraDict[i].Other];
+    console.log(entriesToCheck);
+    for(var j=0; j<entriesToCheck.length; j++){
+      //search each entry option
+      var array = entriesToCheck[j];
+      if(!Array.isArray(array)){
+        if(array == ''){ //skip if entry is empty
+          continue;
+        }
+        array = [entriesToCheck[j]];
+      }
+      if(arrayHasWord(array, word)){
+        //word found in this entry. skip to next entry
+        entryArr.push(pemtaraDict[i]);
+        break;
+      }
     }
-    if(arrayHasWord(array, word)){
-      //word found in this entry. skip to next entry
-      entryArr.push(pemtaraDict[i]);
-      continue;
-    }
-
-    //now verbs
-    array = pemtaraDict[i].Verbs;
-    if(!Array.isArray(array)){
-      array = [pemtaraDict[i].Verbs];
-    }
-    if(arrayHasWord(array, word)){
-      //word found in this entry. skip to next entry
-      entryArr.push(pemtaraDict[i]);
-      continue;
-    }
-
-    //descriptors
-    array = pemtaraDict[i].Descriptors;
-    if(!Array.isArray(array)){
-      array = [pemtaraDict[i].Descriptors];
-    }
-    if(arrayHasWord(array, word)){
-      //word found in this entry. skip to next entry
-      entryArr.push(pemtaraDict[i]);
-      continue;
-    }
-
-    //other
-    array = pemtaraDict[i].Other;
-    if(!Array.isArray(array)){
-      array = [pemtaraDict[i].Other];
-    }
-    if(arrayHasWord(array, word)){
-      //word found in this entry. skip to next entry
-      entryArr.push(pemtaraDict[i]);
-      continue;
-    }
-
   }
   return entryArr;
 }
