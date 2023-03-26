@@ -61,7 +61,6 @@ atkas,yes,,failure,fail,,,,Russian,отказ,
 atras,yes,,,,,backward,,Spanish,atrás,
 auan,yes,,noon,,,,,Javanese,awan,
 aus,yes,,,,,off,,German,aus,
-ay,yes,,beauty,decorate,pretty/beautiful,,,Javanese,ayu,
 ay/ayjo,yes,,,,,ow/ouch,,Cantonese,哎哟,aai jo
 ayam,yes,,dimension,,,,,Hindi,आयाम,aayaam
 aynuk,yes,,ink,print,,,,Hindi,आईएनके,aaeeenake
@@ -105,7 +104,6 @@ far,yes,,lie/trick,,false/untrue,,,Spanish,falso,
 faram,yes,,week,,,,,Tamil,வாரம்,Vāram
 farsis,yes,,,exercise,,,,Urdu,ورزش,varziś
 farus,yes,,phallus,,,,,English,phallus,
-fasan,yes,the season of spring,spring,,,,,Hindi,वसंत,vasant
 fasien,yes,,discovery,discover/reveal/show/find out,,,,Mandarin Chinese,发现,Fāxiàn
 fasir,yes,,,,easy,,,Spanish,fácil,
 fason,yes,,mail,send,,,,Mandarin Chinese,发送,Fāsòng
@@ -230,7 +228,7 @@ jejak,,,,,,there,,Pemtara,jeh jak,
 jem,yes,,joy/enjoyment/fun/delight,like/enjoy/fond,happy/fun/enjoyable,,,Gujarati,જેમ,Jēma
 jen,yes,,degree,,,,,Mandarin Chinese,程度,Chéngdù
 jerun,yes,,wheel,,,,,Mandarin Chinese,车轮,Chēlún
-jet,yes,,hole,dig/drill,,,,Hindi,छेद,chhed
+jet,yes,"also a swear, lowgrade like 'shit' or 'balls'",hole,dig/drill,,,,Hindi,छेद,chhed
 jetan,yes,,consciousness,,conscious ,,,Bangla,চেতনা,Cētanā
 jiak,yes,,price/bill/invoice,charge,,,,Mandarin Chinese,价格,Jiàgé
 jiatin,yes,,family,,,,,Mandarin Chinese,家庭,Jiātíng
@@ -255,7 +253,7 @@ jisun,yes,,size,,big,,,Mandarin Chinese,尺寸,Chǐcùn
 jit,yes,,,,automatic,,,Japanese,自動,Jidō
 jitram,yes,,film/movie,,,,,Telugu,చిత్రం,Citraṁ
 jiy,yes,,possession/property,have/possess/own,,,,Mandarin Chinese,具有,Jùyǒu
-jok,yes,,eye/sight,look/seem,,,,Bangla,চোখ,Cōkha
+jok,yes,,eye/sight/appearance,look/seem/appear,,,,Bangla,চোখ,Cōkha
 jokim,yes,,risk,bet/gamble/wager,,,,Hindi,जोखिम,jokhim
 jot,yes,,,wait,,,,Vietnamese,Chờ đợi,
 joum,yes,,density,,thick/dense/viscous,,,Mandarin Chinese,稠密,Chóumì
@@ -265,13 +263,12 @@ junan,yes,,choice/option/decision,choose/pick/decide ,,,,Hindi,चुनना,c
 junpey,yes,,preparation,prepare,ready,,,Mandarin Chinese,准备,Zhǔnbèi
 junren,yes,,adult,,mature,,,Mandarin Chinese,成人,Chéngrén
 jusa,yes,Honorific suffix,,,,exec,,Mandarin Chinese,执行,Zhíxíng
-jusien,yes,,appearance,appear,,,,Mandarin Chinese,出现,Chūxiàn
 kadim,yes,specifically to touch with your foot,foot,touch,,,,Arabic,قدم,qudim
 kafar,yes,,wish,want/desire,,,,Telugu,కావాలి,Kāvāli
 kaik,yes,,approximation,guess,,,,Mandarin Chinese,猜测,Cāicè
-kajar,yes,,waste/trash,,,,,Gujarati,કચરો,Kacarō
+kajar,yes,,waste/trash/(polite) poop,,,,,Gujarati,કચરો,Kacarō
 kajrur,,,rectum,,,,,Pemtara,kaj rur,waste tube
-kak,yes,,excriment,poop,,,,Spanish,caca,
+kak,yes,"also a swear, used like 'shit' but slightly less vulgar",excriment,poop,,,,Spanish,caca,
 kaket,yes,,surprise,,surprising/sudden,,,Javanese,kaget,
 kam,yes,,employment/job,employ/hire/work,,,,Hindi,काम,kaam
 kamin,yes,,path,,,,,Spanish,camino,
@@ -287,7 +284,6 @@ kapes,yes,specifically to touch with your head,head,touch,,,,Spanish,cabeza,
 kar,yes,color,black,,dark,,,Bangla,কালো,Kālō
 karap,yes,,,,bad,,,Bangla,খারাপ,kharap
 karim,yes,,word,,,,,Arabic,كلمة,kalima
-karin,yes,,,,kind/nice,,,Italian,carino,
 kas,yes,,,,,almost,,Spanish,casi,
 kasan,yes,,simulation,simulate,virtual,,,Korean,가상,gasang
 kasmos,yes,,space/universe/cosmos,,,,,English,cosmos,
@@ -299,7 +295,6 @@ kataray,yes,,,command,,,,Tamil,கட்டளை,Kaṭṭaḷai
 katay,yes,,story/tale/fiction,,fictional,,,Tamil,கதை,Katai
 katik,yes,,,tighten,tight/secure,,,Telugu,గట్టిగా,Gaṭṭigā
 katit,yes,,tour,walk,,,,Russian,ходить,khodit
-kautin,yes,,autumn/fall,,,,,Cantonese,秋天,cautin
 kay,yes,,cow,,,,,Urdu,گائے,gāe
 keit,yes,,,,other,,,Cantonese,其他,kei taa
 kekon,yes,,marriage,marry,,,,Japanese,結婚,kekkon
@@ -364,7 +359,7 @@ kuoj,yes,,,,international,,,Mandarin Chinese,国际的,Guójì
 kup,yes,as in 'too much',,,,too,,Bangla,___,Khuba
 kupam,yes,,anger/rage/wrath,,angry,,,Tamil,கோபம்,Kōpam
 kuram,yes,,gram,,,,,German,Gramm,
-kuris,yes,,lube,slip/slide,slippery,,,French,glisser,
+kuris,yes,also slang for slick,lube,slip/slide,slippery,,,French,glisser,
 kurit,yes,general nonspecific touch,skin,touch,,,,Javanese,kulit,
 kurpay,yes,,,beg,,please,,Hindi,कृपया,krpaya
 kurtur,yes,,culture,,,,,Italian,cultura,
@@ -445,7 +440,6 @@ moter,yes,,pattern,,,,,Italian,modello,
 motmin,yes,,loner,,alone/solitary,,,Vietnamese,một mình,
 motsinar,,,omen,,,,,Pemtara,mot sinar,death sign
 muas,yes,,,,parallel,,,Arabic,موازي,muazi
-muaton,yes,,winter,,,,,Vietnamese,mùa đông,
 muk,yes,,object/item/thing,,,,,Vietnamese,mục,
 muktik,yes,,purpose,,,,,Vietnamese,mục đích,
 mupan,yes,,board,,,,,Mandarin Chinese,木板,chum
@@ -665,7 +659,6 @@ saman,yes,,front,,,before/in front of,preposition,Bangla,সামনে,Sāman�
 sampur,yes,,sample,,,,,English,sample,
 samrap,yes,,,stand,,,,Mandarin Chinese,站立,zaam laap
 samtar,yes,,,,flat,,,Hindi,समतल,samatal
-samur,yes,,summer,,,,,English,summer,
 sanjun,yes,,favor,,,,,Mandarin Chinese,赞成,Zànchéng
 sankit,yes,,music,,musical,,,Hindi,संगीत,sangeet
 santes,yes,,message,text/dm,,,,Marathi,संदेश,Sandēśa
@@ -837,7 +830,7 @@ tun,yes,,tonne/ton,,,,,Mandarin Chinese,吨,Dūn
 tunrun,yes,,valley,,,,,Vietnamese,hung lũng,
 tupar,yes,,,,,again,,Urdu,دوبارہ,dobâre
 tur,yes,,distance,extend,far/distant,,,Hindi,दूरी,dooree
-turan,yes,,,,,during/while/as,time,Spanish,durante,
+turan,yes,,,,,during/while/as/as long as,time,Spanish,durante,
 turikon,yes,,triangle,,,,,Hindi,त्रिकोण,trikon
 turis,yes,,,,sad/unhappy/sorrowful,,,Spanish,triste,
 turum,yes,,condition/state/situation ,,conditional/situational,,,Turkish,durum,
@@ -889,3 +882,17 @@ yuksek,yes,,height,rise,high/tall,,,Turkish,yüksek,
 yun,yes,,luck/chance,,lucky,,,Mandarin Chinese,运气,Yùnqì
 yunet,yes,,unit,,,,,English,unit,
 yusar,yes,,,ease,easy,,,Arabic,يُسَهّل,yusahhl
+je,,slang,you,,,,,Pemtara,jeh,
+ye,,slang,I/me,,,,,Pemtara,yeh,
+sison,yes,time of year,season,,,,,English,season,
+tansison,,time of year,winter,,,,,Pemtara,tanut sison,
+famsison,,time of year,summer,,,,,Pemtara,fam sison,
+sensison,,time of year,spring,,,,,Pemtara,senjan sison,
+retsison,,time of year,fall/autumn,,,,,Pemtara,retuir sison,
+ajok,,,beauty,decorate,pretty/beautiful,,,Pemtara,aj jok,
+ajtait,,,,,nice/kind,,,Pemtara,aj tait,
+tait,yes,,attitude,,,,,Mandarin Chinese,__,T�id�
+kaj,,"slang swear, very derogatory when used against someone",shit/garbage/,kill/die/kill yourself,useless/stupid,,,Pemtara,kajar,
+kakjet,,slang swear,asshole/shithole,,,,,Pemtara,kak jet ,
+nakon,,slang insult and meaner than what it's derived from,dimwit,,stupid,,,Pemtara,nakonmin,
+nakonmin,,,,,unintelligent/stupid,,,Pemtara,na konmin,
