@@ -105,14 +105,14 @@ faram,yes,,week,,,,,Tamil,வாரம்,Vāram
 farsis,yes,,,exercise,,,,Urdu,ورزش,varziś
 farus,yes,,phallus,,,,,English,phallus,
 fasien,yes,,discovery,discover/reveal/show/find out,,,,Mandarin Chinese,发现,Fāxiàn
-fasir,yes,,,,easy,,,Spanish,fácil,
+fasir,yes,,,ease,easy,,,Spanish,fácil,
 fason,yes,,mail,send,,,,Mandarin Chinese,发送,Fāsòng
 fay,yes,,,,,wow,,Persian,وای,vây
 feij,yes,,bean,,,,,Portuguese,feijão,
 feik,yes,,,,fake,,,English,fake,
 fekam,yes,,speed,,fast/quick,,,Tamil,வேகம்,Vēkam
 fen,yes,,distribution,distribute,,,,Mandarin Chinese,分发,Fēnfā
-fer,yes,,sight,see/watch,,,,Spanish,ver,
+fer,yes,,sight,see/watch/notice,,,,Spanish,ver,
 feres,yes,,metal,,metallic,,,Persian,فلز,felez
 ferkurik,yes,,,randomize,random,,,German,willkürlich,
 fies,yes,,party,,,,,Spanish,fiesta,
@@ -387,7 +387,7 @@ maren,yes,,,,dry,,,Korean,마른,maleun
 markas,yes,,center/middle,,,,,Arabic,مركز,markáz
 maron,yes,color,brown,,,,,Spanish,marrón,
 marpit,yes,,commerce,exchange/trade,,,,Telugu,మార్పిడి,Mārpiḍi
-mas,yes,to a large degree,,,more/a lot/many,,,Urdu,مزید,mazid
+mas,yes,to a large degree,,,more/a lot/many/(colloquially) good,,,Urdu,مزید,mazid
 masam,,,,,most,,,Pemtara,mas ham ,
 masaojen,,,,,,good morning,,Pemtara,mas saojen,
 masekir,,,,chase/hunt,,,,Pemtara,mas sekir,follow a lot (or very follow?)
@@ -542,7 +542,7 @@ pejor,yes,,parent,,,,,Tamil,பெற்றோர்,Peṟṟōr
 pek,yes,,ice,,,,,Javanese,beku,
 pekun,yes,color,purple,,,,,Bangla,বেগুনি,Bēguni
 pem,yes,,snake,,,,,Korean,뱀,baem
-pener,yes,,truth,,true/correct/accurate,really/truly,,Javanese,bener,
+pener,yes,,truth,,true/correct/accurate/right,really/truly,,Javanese,bener,
 pep,yes,,,drink,,,,Spanish,beber,
 per,yes,,,,,per,,Italian,per,
 per,yes,,,,,last/previous,,Hindi,____,pahale
@@ -781,7 +781,7 @@ tatuan,yes,,,interrupt/interject,,,,Mandarin Chinese,打断,Dǎ duàn
 tay,yes,,code,encode/encrypt,cryptic,,,Mandarin Chinese,代码,Dàimǎ
 tayfun,yes,,credit,grant a loan,,,,Cantonese,贷款,taai fun
 taysin,yes,,improvement,improve,,,,Cantonese,提升,tai sing
-tayun,yes,,,determine/identify,,,,Urdu,تعین,tuayyin
+tayun,yes,,,determine/identify/recognize,,,,Urdu,تعین,tuayyin
 tefin,yes,,definition,define,,,,Spanish,definir,
 tempak,yes,,projectile,shoot,,,,Javanese,tembak,
 ten,yes,,day,,,,,Russian,день,den'
@@ -809,7 +809,7 @@ tin,yes,,three,,,,,Punjabi,ਤਿੰਨ,Tina
 tip,yes,,,,deep,,,English,deep,
 tir,yes,,heart,,,,,Hindi,दिल,dil
 tiret,yes,,direction,direct,,,,Italian,diretto,
-tirjas,yes,,entertainment,entertain,interesting/engaging/entertaining ,,,Hindi,दिलचस्प,dilachasp
+tirjas,yes,,entertainment,entertain/interest,interesting/engaging/entertaining ,,,Hindi,दिलचस्प,dilachasp
 tiryat,yes,,loss,lose,,,,Russian,терять,teryat'
 titam,yes,,program/project,,,,,Tamil,திட்டம்,Tiṭṭam
 tiujin,yes,,challenge,,,,,Cantonese,挑战,tiu zin
@@ -881,7 +881,6 @@ yukat,yes,,plan/strategy,,,,,Arabic,يخطط,yukhatat
 yuksek,yes,,height,rise,high/tall,,,Turkish,yüksek,
 yun,yes,,luck/chance,,lucky,,,Mandarin Chinese,运气,Yùnqì
 yunet,yes,,unit,,,,,English,unit,
-yusar,yes,,,ease,easy,,,Arabic,يُسَهّل,yusahhl
 je,,slang,you,,,,,Pemtara,jeh,
 ye,,slang,I/me,,,,,Pemtara,yeh,
 sison,yes,time of year,season,,,,,English,season,
@@ -892,7 +891,8 @@ retsison,,time of year,fall/autumn,,,,,Pemtara,retuir sison,
 ajok,,,beauty,decorate,pretty/beautiful,,,Pemtara,aj jok,
 ajtait,,,,,nice/kind,,,Pemtara,aj tait,
 tait,yes,,attitude,,,,,Mandarin Chinese,__,T�id�
-kaj,,"slang swear, very derogatory when used against someone",shit/garbage/,kill/die/kill yourself,useless/stupid,,,Pemtara,kajar,
+kaj,,"slang swear, very derogatory when used against someone",shit/garbage/,kill/die/kill yourself,useless/stupid,fuck,,Pemtara,kajar,
 kakjet,,slang swear,asshole/shithole,,,,,Pemtara,kak jet ,
 nakon,,slang insult and meaner than what it's derived from,dimwit,,stupid,,,Pemtara,nakonmin,
 nakonmin,,,,,unintelligent/stupid,,,Pemtara,na konmin,
+ikyuksek,,,,,short,,,Pemtara,ik yuksek,
