@@ -1,9 +1,4 @@
-make menu buttons work
-make other pages
 add comments
-BUG search 'manager' in english
 
 Extra page ideas:
-common prefixes and suffixes sheet
-honorifics
-whole basic dictionary (basic only)
+whole basic dictionary? (basic only, no compound words)

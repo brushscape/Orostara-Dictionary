@@ -100,7 +100,7 @@ fanmut,yes,,powder,,,,,Cantonese,粉末,fan mut
 fansun,yes,,minute,,,,,Cantonese,分钟,fan sung
 fantuy,yes,,,,opposite,against,,Mandarin Chinese,反对,Fǎnduì
 fanyin,yes,,reaction/response,react/respond,,,,Mandarin Chinese,反应,Fǎnyìng
-far,yes,,lie/trick,,false/untrue,,,Spanish,falso,
+far,yes,,lie/trick/pretend,play,false/untrue,,,Spanish,falso,
 faram,yes,,week,,,,,Tamil,வாரம்,Vāram
 farsis,yes,,,exercise,,,,Urdu,ورزش,varziś
 farus,yes,,phallus,,,,,English,phallus,
@@ -120,7 +120,7 @@ fifaram,yes,,detail,,,,,Tamil,விவரம்,Vivaram
 fifir,yes,,life,live,alive,,,Spanish,vivir,
 fifit,yes,,diversity,diversify,diverse,,,Gujarati,વિવિધ,Vividha
 fijir,yes,,electricity ,electricute/zap/shock,,,,Gujarati,વીજળી,Vījaḷī
-fik,yes,,container,contain/include,inside,in/into/throughout,,Punjabi,ਵਿੱਚ,Vica
+fik,yes,,container/box/cup/vase/vessel,contain/include,inside,in/into/throughout,,Punjabi,ਵਿੱਚ,Vica
 fikar,yes,,thought/mind,think/assume/contemplate,,,,Gujarati,વિચારો,
 fikarorkan,,,brain,,,,,Pemtara,fikar orkan,think organ
 fikyapit,yes,,advertisement,advertise,,,,Hindi,विज्ञापित,vigyaapit
@@ -181,7 +181,7 @@ husten,yes,,,cough,,,,German,Husten,
 if,yes,,,,,if,,English,if,
 ifat,yes,,phrase,,,,,Turkish,ifade,
 ij,yes,,motivation/will,motivate,,,,Marathi,इच्छा,Icchā
-ijin,yes,,,,,for,,Turkish,için,
+ijin,yes,,,,,for/per,,Turkish,için,
 ik,yes,to a small degree,,,less/a little,,,Japanese,以下,Ika
 ikam,,,,,least,,,Pemtara,ik ham,
 iketat,,,,,young,,,Pemtara,ik etat,little age
@@ -338,7 +338,7 @@ kopiy,yes,,duplicate/clone,copy/multiply,same/identical,,,Spanish,Copiar,
 kor,yes,,ball/sphere,,round,,,Punjabi,ਗੋਲਾ,Gōlā
 koref,yes,,task,delegate,,,,Turkish,görev,
 korkey,yes,,policy,,,,,Tamil,கொள்கை,Koḷkai
-korkos,yes,,rabbit,,,,,Bangla,খরগোশ,khôrgoś
+korkos,yes,,rabbit/bunny,,,,,Bangla,খরগোশ,khôrgoś
 korom,yes,,column,,,,,English,column,
 kos,yes,,bone,,,,,Russian,кость,kost'
 kosinhar,yes,,,cook,,,,Portuguese,cozinhar,
@@ -544,7 +544,6 @@ pekun,yes,color,purple,,,,,Bangla,বেগুনি,Bēguni
 pem,yes,,snake,,,,,Korean,뱀,baem
 pener,yes,,truth,,true/correct/accurate/right,really/truly,,Javanese,bener,
 pep,yes,,,drink,,,,Spanish,beber,
-per,yes,,,,,per,,Italian,per,
 per,yes,,,,,last/previous,,Hindi,____,pahale
 perek,yes,,nail,,,,,Bangla,পেরেক,Pērēka
 perfek,yes,,,,perfect/flawless,,,Spanish,perfecto,
@@ -817,7 +816,7 @@ toj,yes,,,read,,,,Shanghainese,读,doq
 tok,yes,,,cheat/hack,,,,Hindi,धोखा,dhokha
 tom,yes,,tail,,,,,Persian,دم,dom
 tomar,yes,,,,tame/domesticated,,,Portuguese,domar,
-ton,yes,can be used as an honorific suffix (general term not just used for significant others; can apply to anyone you have any sort of casual or intimate relationship with) ,partner,,,partner,,Korean,동료,donglyo
+ton,yes,can be used as an honorific suffix,partner,,,partner,,Korean,동료,donglyo
 top,yes,,help/service/benefit,assist/serve,,,,Korean,돕다,dobda
 tor,yes,,duty,,,,,Russian,долг,dolg
 tos,yes,,friend,befriend,friendly,,,Hindi,दोस्त,dost
@@ -830,7 +829,7 @@ tun,yes,,tonne/ton,,,,,Mandarin Chinese,吨,Dūn
 tunrun,yes,,valley,,,,,Vietnamese,hung lũng,
 tupar,yes,,,,,again,,Urdu,دوبارہ,dobâre
 tur,yes,,distance,extend,far/distant,,,Hindi,दूरी,dooree
-turan,yes,,,,,during/while/as/as long as,time,Spanish,durante,
+turan,yes,,,,,during/while/as/as long as/simultaneously,time,Spanish,durante,
 turikon,yes,,triangle,,,,,Hindi,त्रिकोण,trikon
 turis,yes,,,,sad/unhappy/sorrowful,,,Spanish,triste,
 turum,yes,,condition/state/situation ,,conditional/situational,,,Turkish,durum,
@@ -881,8 +880,8 @@ yukat,yes,,plan/strategy,,,,,Arabic,يخطط,yukhatat
 yuksek,yes,,height,rise,high/tall,,,Turkish,yüksek,
 yun,yes,,luck/chance,,lucky,,,Mandarin Chinese,运气,Yùnqì
 yunet,yes,,unit,,,,,English,unit,
-je,,slang,you,,,,,Pemtara,jeh,
-ye,,slang,I/me,,,,,Pemtara,yeh,
+je,,slang/informal,you,,,,,Pemtara,jeh,
+ye,,slang/informal,I/me,,,,,Pemtara,yeh,
 sison,yes,time of year,season,,,,,English,season,
 tansison,,time of year,winter,,,,,Pemtara,tanut sison,
 famsison,,time of year,summer,,,,,Pemtara,fam sison,
@@ -896,3 +895,5 @@ kakjet,,slang swear,asshole/shithole,,,,,Pemtara,kak jet ,
 nakon,,slang insult and meaner than what it's derived from,dimwit,,stupid,,,Pemtara,nakonmin,
 nakonmin,,,,,unintelligent/stupid,,,Pemtara,na konmin,
 ikyuksek,,,,,short,,,Pemtara,ik yuksek,
+yenap,,neutral formal; use more specific honorifics when possible,I/me,,,,,Pemtara,yeh nap,
+jenap,,neural formal; use more specific honorifics when possible,you/he/she/them,,,,,Pemtara,jeh nap,

@@ -1,7 +1,13 @@
+
+.translator{
+    display:flex;
+}
+
 .buttonContainer{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     width: 100%;
 
 }
@@ -13,7 +19,7 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: calc(14px + 1vw);
+    font-size: calc(20px + 0.5vw);
     border-radius: 50px;
     margin: 1vh;
     font-family: Optima, Helvetica, Ariel, sans-serif;
@@ -52,15 +58,17 @@ button:disabled{
   flex-direction: column;
   align-items: center;
   width: 100%;
+  font-size:calc(20px + 0.5vh);
 }
 
 .searchBar{
   width: 40%;
-  height: 15px;
+  height: calc(20px + 0.5vh);
   border-radius: 20px;
-  margin: calc(5px + 1vw);
-  padding: calc(1px + 1vw);
+  margin: calc(5px + 1vh);
+  padding: calc(5px + 1vh);
   font-family: Optima, Helvetica, Ariel, sans-serif;
+  font-size: calc(17px + 0.5vh);
 }
 
 .notFound{
@@ -68,4 +76,22 @@ button:disabled{
   flex-direction: column;
   color: firebrick;
   margin-top: 10vh;
+}
+
+.notFoundLarge{
+    font-size: calc(25px + 0.5vh);
+    margin-bottom: 3vh;
+}
+
+.notFoundSmall{
+    font-size: calc(12px + 0.5vh);
+}
+
+.directions{
+    font-size: calc(12px + 0.5vh);
+    margin-left: calc(12px + 0.5vh);
+    color: var(--light);
+    display:flex;
+    flex-grow: 4;
+    justify-content: right;
 }

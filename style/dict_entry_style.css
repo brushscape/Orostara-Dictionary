@@ -40,8 +40,16 @@
 }
 
 .def{
+    display: flex;
+    flex-direction: column;
     font-size: calc(12.5px + 1vw);
     margin-bottom: calc(5px + 1vw);
+}
+
+.notes{
+    margin-top: 2vh;
+    font-size: calc(11px + 1vw);
+    color: DarkGrey;
 }
 
 .conj{

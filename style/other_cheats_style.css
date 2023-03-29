@@ -1,0 +1,40 @@
+.partsOfSpeech{
+    display: none;
+}
+
+.prefixSuffix{
+    display: none;
+}
+
+.honorifics{
+    display: none;
+}
+
+.otherCheats{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+.exampleSentences{
+    text-align: left;
+    margin-left: 15px;
+}
+
+table{
+    margin-left: 15px;
+    text-align: left;
+    border-collapse: collapse;
+    width: calc(200px + 30vw);
+}
+
+td, th {
+  border: 1px solid var(--light);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--grey);
+}

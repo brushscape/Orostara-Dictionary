@@ -6,6 +6,7 @@
 
   <link rel="stylesheet" href="style/dict_search_style.css">
   <link rel="stylesheet" href="style/dict_entry_style.css">
+  <link rel="stylesheet" href="style/other_cheats_style.css">
   <link rel="stylesheet" href="style/page_style.css">
   <script src='src/process_CSV.js'></script>
   <script src='src/page_func.js'></script>
@@ -19,74 +20,342 @@
 <body onload = "load()">
 
 <div class='menuBar'>
-    <div class='title'>Pemtara Cheatsheet</div>
+    <div class='title'>PEMTARA CHEATSHEET</div>
     <div class='menuItemContainer'>
         <div class='menuItem' id='translatorPg'>Translator</div>
-        <div class='menuItem' id='translatorPg'>Parts of Speech</div>
-        <div class='menuItem' id='translatorPg'>Common Prefixes & Suffixes</div>
-        <div class='menuItem' id='translatorPg'>Honorifics</div>
+        <div class='menuItem' id='partsOfSpeechPg'>Parts of Speech</div>
+        <div class='menuItem' id='prefixSuffixPg'>Common Prefixes & Suffixes</div>
+        <div class='menuItem' id='honorificsPg'>Honorifics</div>
     </div>
 </div>
 
 <div class='pageBody'>
-    <div class='buttonContainer'>
-        <button type='button' class='fbButton' onclick='goback()' id='backBut'><</button>
-        <button type='button' class='fbButton' onclick='goforward()' id='forBut'>></button>
-    </div>
-    <div class='searchBlock'>
-        <div class='wordEntry'>
-            <div>Enter <b class='langSelect' id='langSelect'>Pemtara</b> Word Here:</div>
-            <input type='text' class='searchBar' id='searchBar'>
-            <button type='button' onclick='translateClicked()' class='langButton' id='translateButton'>Translate</button>
+    <div id='translator' class='translator pageBody'>
+        <div class='buttonContainer'>
+            <button type='button' class='fbButton' onclick='goback()' id='backBut'><</button>
+            <button type='button' class='fbButton' onclick='goforward()' id='forBut'>></button>
+            <div class='directions'> Click the language in bold to switch between Pemtara and English</div>
         </div>
-        <div class='notFound' id='notFoundPem'>
-            <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
-            <div style='font-size:3vh;'>
-                Please check spelling and try again.
-                <br>
-                Search function works best when words are in their base form.
+        <div class='searchBlock'>
+            <div class='wordEntry'>
+                <div>Enter <b class='langSelect' id='langSelect'>Pemtara</b> Word Here:</div>
+                <input type='text' class='searchBar' id='searchBar'>
+                <button type='button' onclick='translateClicked()' class='langButton' id='translateButton'>Translate</button>
+            </div>
+            <div class='notFound' id='notFoundPem'>
+                <div class='notFoundLarge'>Word not found in dictionary.</div>
+                <div class='notFoundSmall'>
+                    Please check spelling and try again.
+                    <br>
+                    Search function works best when words are in their base form.
+                </div>
+            </div>
+            <div class='notFound' id='notFoundEng'>
+                <div class='notFoundLarge'>Word not found in dictionary.</div>
+                <div class='notFoundSmall'>
+                    Please check spelling or type a synonym and try again.
+                    <br>
+                    Search function works best when words are singular and/or in present tense.
+                </div>
             </div>
         </div>
-        <div class='notFound' id='notFoundEng'>
-            <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
-            <div style='font-size:3vh;'>
-                Please check spelling or type a synonym and try again.
-                <br>
-                Search function works best when words are singular and/or in present tense.
-            </div>
-        </div>
-    </div>
 
-    <div id='wordDefContainer' class='wordDefContainer'>
-        <div id='wordDef' class='wordDef'>
-            <div class='wordOriginContain'>
-                <div class='word' id='word'>WORD</div>
-                <div class='etym' id='etym'> from <i>blankword</i> in Language </div>
-            </div>
-            <div id='def' class='def'>
-            Put a definition here
-            other, list, here, prepositions, time markers, pronouns, etc
-            </div>
-            <br>
+        <div id='wordDefContainer' class='wordDefContainer'>
+            <div id='wordDef' class='wordDef'>
+                <div class='wordOriginContain'>
+                    <div class='word' id='word'>WORD</div>
+                    <div class='etym' id='etym'> from <i>blankword</i> in Language </div>
+                </div>
+                <div id='def' class='def'>
+                    <div id='other'>other, list, here, prepositions, time markers, pronouns, etc</div>
+                    <div id='notes' class='notes'>Put a definition here</div>
+                </div>
+                <br>
 
-            <div id='nounContain' class='conj'>
-                <i><b id='noun'>worda</b></i>
-                <div class='marker'>n.</div>
-                <div id='nounFill' class='wordList'> - noun, list, here</div>
+                <div id='nounContain' class='conj'>
+                    <i><b id='noun'>worda</b></i>
+                    <div class='marker'>n.</div>
+                    <div id='nounFill' class='wordList'> - noun, list, here</div>
+                </div>
+                <div id='verbContain' class='conj'>
+                    <i><b id='verb'>wordo</b></i>
+                    <div class='marker'>v.</div>
+                    <div id='verbFill' class='wordList'> - verb, list, here</div>
+                </div>
+                <div id='desContain' class='conj'>
+                    <i><b id='des'>wordi/worde</b></i>
+                    <div class='marker'>adj./adv.</div>
+                    <div id='desFill' class='wordList'> - desc, list, here</div>
+                </div>
+                <br>
             </div>
-            <div id='verbContain' class='conj'>
-                <i><b id='verb'>wordo</b></i>
-                <div class='marker'>v.</div>
-                <div id='verbFill' class='wordList'> - verb, list, here</div>
-            </div>
-            <div id='desContain' class='conj'>
-                <i><b id='des'>wordi/worde</b></i>
-                <div class='marker'>adj./adv.</div>
-                <div id='desFill' class='wordList'> - desc, list, here</div>
-            </div>
-            <br>
+            <div id='extraWordDefs' class='extraWordDefs'></div>
         </div>
-        <div id='extraWordDefs' class='extraWordDefs'></div>
+    </div>
+    <div id='partsOfSpeech' class='partsOfSpeech otherCheats'>
+        <h2>Suffixes Denote Parts of Speach</h2>
+        <table>
+            <tr>
+                <th>Ending</th>
+                <th>Part of Speech</th>
+            </tr>
+            <tr>
+                <td>-a</td>
+                <td>noun</td>
+            </tr>
+            <tr>
+                <td>-o</td>
+                <td>verb</td>
+            </tr>
+            <tr>
+                <td>-n</td>
+                <td>object</td>
+            </tr>
+            <tr>
+                <td>-i</td>
+                <td>adjective</td>
+            </tr>
+            <tr>
+                <td>-e</td>
+                <td>adverb</td>
+            </tr>
+            <tr>
+                <td>-u</td>
+                <td>command</td>
+            </tr>
+        </table>
+        <h2>Example Sentences</h2>
+        <p class='exampleSentences'>
+            The fish likes clean water.
+            <br>
+            Peisa jemo safi nitan.
+            <br>
+            <br>
+            Quickly, catch the bug!
+            <br>
+            Fekame juaju kitan!
+            <br>
+            <br>
+            The rabbit wants to see a bird.
+            <br>
+            Korkosa kafar-fero parinan.
+            <br>
+            <br>
+            I walk to the store.
+            <br>
+            Yenapa katito ir pantara.
+        </p>
+        <h2>Common Particles</h2>
+        <table>
+            <tr>
+                <th>Particle</th>
+                <th>Usage</th>
+            </tr>
+            <tr>
+                <td>um</td>
+                <td>indicate a dependent clause</td>
+            </tr>
+            <tr>
+                <td>tik</td>
+                <td>indicate the time-frame and/or tense of the verb</td>
+            </tr>
+            <tr>
+                <td>ki</td>
+                <td>indicate a statement is a question</td>
+            </tr>
+            <tr>
+                <td>ha</td>
+                <td>indicate a statement is an exclamation (optional)</td>
+            </tr>
+        </table>
+        <h2>Example Sentences</h2>
+        <p class='exampleSentences'>
+            Did I see you yesterday?
+            <br>
+            Perten tik fero jenapan ki?
+            <br>
+            <br>
+            Come here right now!
+            <br>
+            Simsim tik janu yejak ha!
+            <br>
+            <br>
+            I can't remember what I was doing.
+            <br>
+            Nakap-memoro um seyo kiyan tik atit.
+            <br>
+            <br>
+            My friend heard you can eat and sleep simultaneously.
+            <br>
+            Atit tik tosa as yenapa finano um kap-heko an yanamo turan.
+        </p>
+    </div>
+    <div id='prefixSuffix' class='prefixSuffix otherCheats'>
+        <h2> Prefixes </h2>
+        <table>
+            <tr>
+                <th>Prefix</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>ye-</td>
+                <td>this</td>
+            </tr>
+            <tr>
+                <td>je-</td>
+                <td>that</td>
+            </tr>
+            <tr>
+                <td>ki-</td>
+                <td>what</td>
+            </tr>
+            <tr>
+                <td>ik-</td>
+                <td>a little; to a small degree</td>
+            </tr>
+            <tr>
+                <td>kuj-</td>
+                <td>some; to a medium degree</td>
+            </tr>
+            <tr>
+                <td>mas-</td>
+                <td>a lot; to a large degree</td>
+            </tr>
+            <tr>
+                <td>ham-</td>
+                <td>very; intensifier</td>
+            </tr>
+            <tr>
+                <td>na-</td>
+                <td>not</td>
+            </tr>
+            <tr>
+                <td>ur-</td>
+                <td>un-; as in to undo something</td>
+            </tr>
+            <tr>
+                <td>fan-</td>
+                <td>anti; against</td>
+            </tr>
+        </table>
+        <h2> Suffixes </h2>
+        <table>
+            <tr>
+                <th>Suffix</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>-nap</td>
+                <td>person</td>
+            </tr>
+            <tr>
+                <td>-jak</td>
+                <td>place</td>
+            </tr>
+            <tr>
+                <td>-muk</td>
+                <td>object</td>
+            </tr>
+            <tr>
+                <td>-kun</td>
+                <td>group</td>
+            </tr>
+            <tr>
+                <td>-up</td>
+                <td>material</td>
+            </tr>
+            <tr>
+                <td>-rum</td>
+                <td>room</td>
+            </tr>
+            <tr>
+                <td>-mip</td>
+                <td>furniture</td>
+            </tr>
+            <tr>
+                <td>-rais</td>
+                <td>vehicle</td>
+            </tr>
+        </table>
+    </div>
+    <div id='honorifics' class='honorifics otherCheats'>
+        <h2> Formal Honorifics in Ascending Rank </h2>
+        <table>
+            <tr>
+                <th>Honorific</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>-paya</td>
+                <td>baby; infant</td>
+            </tr>
+            <tr>
+                <td>-suta</td>
+                <td>student</td>
+            </tr>
+            <tr>
+                <td>-esta</td>
+                <td>intern</td>
+            </tr>
+            <tr>
+                <td>-koka</td>
+                <td>junior-level employee</td>
+            </tr>
+            <tr>
+                <td>-meta</td>
+                <td>mid-level employee</td>
+            </tr>
+            <tr>
+                <td>-arsa</td>
+                <td>senior-level employee</td>
+            </tr>
+            <tr>
+                <td>-jina</td>
+                <td>manager</td>
+            </tr>
+            <tr>
+                <td>-jusa</td>
+                <td>executive</td>
+            </tr>
+        </table>
+        <h2> Neutral Formal Honorifics </h2>
+        <table>
+            <tr>
+                <th>Honorific</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>-napa</td>
+                <td>person</td>
+            </tr>
+            <tr>
+                <td>-tosa</td>
+                <td>friend</td>
+            </tr>
+            <tr>
+                <td>-tona</td>
+                <td>partner</td>
+            </tr>
+        </table>
+        <h2> Informal Affectionate Honorifics (not commonly used) </h2>
+        <table>
+            <tr>
+                <th>Honorific</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>-mira</td>
+                <td>person I take care of</td>
+            </tr>
+            <tr>
+                <td>-hera</td>
+                <td>person I care about</td>
+            </tr>
+            <tr>
+                <td>-para</td>
+                <td>person who takes care of me</td>
+            </tr>
+        </table>
     </div>
 </div>
 

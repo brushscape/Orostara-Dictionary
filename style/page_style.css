@@ -14,14 +14,13 @@
 }
 .menuBar{
     width: 100%;
-    height: calc(60px + 5vh);
     background-color: var(--dark);
     color: AliceBlue;
     display: flex;
     flex-direction: column;
-    padding-top: 5vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
+    padding-top: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     justify-content: flex-end;
     border-radius: 20px 20px 0 0;
 }
@@ -51,11 +50,14 @@
     justify-content: center;
     align-items: flex-end;
     font-size: calc(10px + 1vw);
+    border-color: var(--white);
+    border-width: thick;
 }
 
 .menuItem:hover{
     background-color: var(--medium);
     color: var(--grey);
+    cursor: default;
 }
 
 body {
@@ -67,5 +69,5 @@ body {
     justify-content:center;
     text-align: center;
     font-family: Optima, Helvetica, Ariel, sans-serif;
-    font-size: calc(14px + 1vw);
+    font-size: calc(14px + 1vh);
 }

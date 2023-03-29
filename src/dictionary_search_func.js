@@ -83,11 +83,21 @@ function displayEntry(entry, searchedTerm, only, el){
     getChildElement(wordDefEl,'def').style.display = 'none';
   }else{
     childEl = getChildElement(wordDefEl,'def');
-    if(entry.Notes == ''){ //only other if no notes
-      childEl.innerHTML = displayWordList(entry.Other, searchedTerm, true);
-    }else{ //both or only notes are displayed the same way
-      childEl.innerHTML = '*'+entry.Notes+'<br>&nbsp;<br>'+displayWordList(entry.Other, searchedTerm, true);
+    console.log()
+    if(entry.Notes == ''){
+      getChildElement(childEl,'notes').style.display='none';
+    }else{
+      getChildElement(childEl,'notes').innerHTML='*'+entry.Notes;
+      getChildElement(childEl,'notes').style.display='flex';
     }
+
+    if(entry.Other ==''){
+      getChildElement(childEl,'other').style.display='none';
+    }else{
+      getChildElement(childEl,'other').innerHTML = displayWordList(entry.Other, searchedTerm, true);
+      getChildElement(childEl,'other').style.display='flex';
+    }
+
     childEl.style.display = 'flex';
   }
 
