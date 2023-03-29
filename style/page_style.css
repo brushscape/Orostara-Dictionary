@@ -1,0 +1,71 @@
+:root {
+  --light: #5983d9;
+  --medium: #416abf;
+  --dark: #2c529e;
+  --white: AliceBlue;
+  --grey: #c0cff0;
+}
+
+.pageBody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.menuBar{
+    width: 100%;
+    height: calc(60px + 5vh);
+    background-color: var(--dark);
+    color: AliceBlue;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    justify-content: flex-end;
+    border-radius: 20px 20px 0 0;
+}
+
+.title{
+    font-size: calc(30px + 1vh);
+    align-self: center;
+    margin: 3vh;
+    font-weight: bold;
+    letter-spacing: 0.3vw;
+}
+
+.menuItemContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.menuItem{
+    display: flex;
+    flex-grow: 1;
+    background-color: var(--light);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: calc(3px + 1vw);
+    border-radius: 20px 20px 0 0;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: calc(10px + 1vw);
+}
+
+.menuItem:hover{
+    background-color: var(--medium);
+    color: var(--grey);
+}
+
+body {
+    margin:1vw;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    font-family: Optima, Helvetica, Ariel, sans-serif;
+    font-size: calc(14px + 1vw);
+}

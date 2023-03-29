@@ -4,7 +4,9 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
-  <link rel="stylesheet" href="style/dictionary_style.css">
+  <link rel="stylesheet" href="style/dict_search_style.css">
+  <link rel="stylesheet" href="style/dict_entry_style.css">
+  <link rel="stylesheet" href="style/page_style.css">
   <script src='src/process_CSV.js'></script>
   <script src='src/page_func.js'></script>
   <script src='src/dictionary_search_func.js'></script>
@@ -15,84 +17,77 @@
 
 
 <body onload = "load()">
-<button type='button' onclick='goback()' id='backBut'><</button>
-<button type='button' onclick='goforward()' id='forBut'>></button>
 
-<div class='searchBlock'>
-  <div class='searchLangCol' id='ss'>
-    <div class='wordEntry'>
-      <div>Enter <b>Pemtara</b> Word Here:</div>
-      <input type='text' class='searchbar' id='pemSearchBar'>
+<div class='menuBar'>
+    <div class='title'>Pemtara Cheatsheet</div>
+    <div class='menuItemContainer'>
+        <div class='menuItem' id='translatorPg'>Translator</div>
+        <div class='menuItem' id='translatorPg'>Parts of Speech</div>
+        <div class='menuItem' id='translatorPg'>Common Prefixes & Suffixes</div>
+        <div class='menuItem' id='translatorPg'>Honorifics</div>
     </div>
-    <div id='buttons' class='buttons'>
-      <button type='button' onclick='pemClick()' class='langButton' id='pemButton'>Translate</button>
-    </div>
-    <div class='notFound' id='notFoundPem'>
-      <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
-      <div style='font-size:3vh;'>
-        Please check spelling and try again.
-        <br>
-        Search function works best when words are in their base form.
-      </div>
-    </div>
-  </div>
-  <div class='searchLangCol' id='ss'>
-    <div class='wordEntry'>
-      <div>Enter <b>English</b> Word Here:</div>
-      <input type='text' class='searchbar' id='engSearchBar'>
-    </div>
-    <div id='buttons' class='buttons'>
-      <button type='button' onclick='engClick()' class='langButton' id='engButton'>Translate</button>
-    </div>
-    <div class='notFound' id='notFoundEng'>
-      <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
-      <div style='font-size:3vh;'>
-        Please check spelling or type a synonym and try again.
-        <br>
-        Search function works best when words are singular and/or in present tense.
-      </div>
-    </div>
-  </div>
 </div>
 
-<div class='notFound' id='notFound'>
-  <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
-  <div style='font-size:3vh;'>
-    Please check spelling or, if English, type a synonym and try again.
-    <br>
-    Search function works best when English words are singular and/or in present tense, and Pemtara words are in their base form.
-  </div>
-</div>
+<div class='pageBody'>
+    <div class='buttonContainer'>
+        <button type='button' class='fbButton' onclick='goback()' id='backBut'><</button>
+        <button type='button' class='fbButton' onclick='goforward()' id='forBut'>></button>
+    </div>
+    <div class='searchBlock'>
+        <div class='wordEntry'>
+            <div>Enter <b class='langSelect' id='langSelect'>Pemtara</b> Word Here:</div>
+            <input type='text' class='searchBar' id='searchBar'>
+            <button type='button' onclick='translateClicked()' class='langButton' id='translateButton'>Translate</button>
+        </div>
+        <div class='notFound' id='notFoundPem'>
+            <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
+            <div style='font-size:3vh;'>
+                Please check spelling and try again.
+                <br>
+                Search function works best when words are in their base form.
+            </div>
+        </div>
+        <div class='notFound' id='notFoundEng'>
+            <div style='font-size:7vh;margin-bottom:3vh;'>Word not found in dictionary.</div>
+            <div style='font-size:3vh;'>
+                Please check spelling or type a synonym and try again.
+                <br>
+                Search function works best when words are singular and/or in present tense.
+            </div>
+        </div>
+    </div>
 
-<div id='wordDefContainer' class='wordDefContainer'>
-  <div id='wordDef' class='wordDef'>
-    <h1 id='word'>
-      WORD
-    </h1>
-    <div class='etym' id='etym'>
-      from <i>blankword</i> in Language
-    </div>
-    <h2>
-      Definition
-    </h2>
-    <div id='def'>
-      Put a definition here
-      other, list, here, prepositions, time markers, pronouns, etc
-    </div>
-    <br>
+    <div id='wordDefContainer' class='wordDefContainer'>
+        <div id='wordDef' class='wordDef'>
+            <div class='wordOriginContain'>
+                <div class='word' id='word'>WORD</div>
+                <div class='etym' id='etym'> from <i>blankword</i> in Language </div>
+            </div>
+            <div id='def' class='def'>
+            Put a definition here
+            other, list, here, prepositions, time markers, pronouns, etc
+            </div>
+            <br>
 
-    <div id='noun'>
-      <b>worda</b> - noun, list, here
+            <div id='nounContain' class='conj'>
+                <i><b id='noun'>worda</b></i>
+                <div class='marker'>n.</div>
+                <div id='nounFill' class='wordList'> - noun, list, here</div>
+            </div>
+            <div id='verbContain' class='conj'>
+                <i><b id='verb'>wordo</b></i>
+                <div class='marker'>v.</div>
+                <div id='verbFill' class='wordList'> - verb, list, here</div>
+            </div>
+            <div id='desContain' class='conj'>
+                <i><b id='des'>wordi/worde</b></i>
+                <div class='marker'>adj./adv.</div>
+                <div id='desFill' class='wordList'> - desc, list, here</div>
+            </div>
+            <br>
+        </div>
+        <div id='extraWordDefs' class='extraWordDefs'></div>
     </div>
-    <div id='verb'>
-      <b>wordo</b> - verb, list, here
-    </div>
-    <div id='des'>
-      <b>wordi/worde</b> - desc, list, here
-    </div>
-    <br>
-  </div>
-  <div id='extraWordDefs' class='extraWordDefs'></div>
 </div>
 
 </body>

@@ -2,7 +2,11 @@
 
 function load(){
   readCSVFile();
+  setupDictionarySearch();
+
+}
+
+function setupDictionarySearch(){
   updateForBackButtons();
   setupButtons();
-
 }

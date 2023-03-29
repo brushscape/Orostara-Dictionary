@@ -1,0 +1,90 @@
+.wordDefContainer{
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.wordDef{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: left;
+  margin-bottom: calc(20px + 5vh);
+}
+
+.wordOriginContain{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: calc(5px + 1vw);
+}
+
+.word{
+    font-size: calc(25px + 2vw);
+    font-weight: bold;
+}
+
+.etym{
+    font-size: calc(8px + 1vw);
+    color: DarkGrey;
+    margin-left: calc(4px + 2vw);
+    margin-bottom: calc(2px + 0.5vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.def{
+    font-size: calc(12.5px + 1vw);
+    margin-bottom: calc(5px + 1vw);
+}
+
+.conj{
+    display: flex;
+    flex-direciton: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.marker{
+    font-size: calc(8px + 1vw);
+    color: DarkGrey;
+    margin-bottom: calc(1px + 0.1vw);
+}
+
+.wordList{
+    font-size: calc(11px + 1vw);
+    margin-left: calc(4px + 2vw);
+    margin-bottom: calc(0.5px + 0.1vw);
+}
+
+.extraWordDefs{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.conjContain{
+  display: flex;
+  flex-direction: row;
+}
+
+.pemLinkWord{
+  color: var(--light);
+  text-decoration: underline;
+  border-radius: 15px;
+  padding: 0 5px 5px 5px;
+}
+
+.pemLinkWord:hover{
+  color: var(--dark);
+  cursor: default;
+  background-color: var(--white);
+
+}

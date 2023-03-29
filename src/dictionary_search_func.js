@@ -10,20 +10,31 @@ function clearPage(){
 }
 
 function setupButtons(){
-  $('#pemSearchBar').keyup(function(event) {
+  $('#searchBar').keyup(function(event) {
       if (event.which == 13) {//if enter key
-          pemClick();
+          translateClicked();
           this.select();
           event.preventDefault();
        }
   });
-  $('#engSearchBar').keyup(function(event) {
-      if (event.which == 13) {//if enter key
-          engClick();
-          this.select();
-          event.preventDefault();
-       }
+
+  $('#langSelect').click(function(event) {
+      if(this.innerHTML == 'Pemtara'){
+        this.innerHTML = 'English';
+      }else{
+        this.innerHTML = 'Pemtara';
+      }
+      document.getElementById('searchBar').select();
   });
+}
+
+function translateClicked(){
+  var searchedWord = cleanupTextInput(document.getElementById('searchBar').value);
+  if(document.getElementById('langSelect').innerHTML == 'Pemtara'){
+    pemClick(searchedWord);
+  }else{
+    engClick(searchedWord);
+  }
 }
 
 function cleanupTextInput(input){
@@ -81,27 +92,33 @@ function displayEntry(entry, searchedTerm, only, el){
   }
 
   if(entry.Nouns == ''){
-    getChildElement(wordDefEl,'noun').style.display = 'none';
+    getChildElement(wordDefEl,'nounContain').style.display = 'none';
   }else{
     childEl = getChildElement(wordDefEl,'noun');
-    childEl.innerHTML = '<b>'+entry.Pemtara+'a </b>&nbsp;n. &nbsp;&nbsp;'+displayWordList(entry.Nouns, searchedTerm, true);
-    childEl.style.display = 'flex';
+    childEl.innerHTML = '<b>'+entry.Pemtara+'a </b>&nbsp;';
+    childEl = getChildElement(wordDefEl,'nounFill');
+    childEl.innerHTML = '&nbsp;&nbsp;'+displayWordList(entry.Nouns, searchedTerm, true);
+    getChildElement(wordDefEl,'nounContain').style.display = 'flex';
   }
 
   if(entry.Verbs == ''){
-    getChildElement(wordDefEl,'verb').style.display = 'none';
+    getChildElement(wordDefEl,'verbContain').style.display = 'none';
   }else{
     childEl = getChildElement(wordDefEl,'verb');
-    childEl.innerHTML = '<b>'+entry.Pemtara+'o </b>&nbsp;v. &nbsp;&nbsp;'+displayWordList(entry.Verbs, searchedTerm, true);
-    childEl.style.display = 'flex';
+    childEl.innerHTML = '<b>'+entry.Pemtara+'o </b>&nbsp;';
+    childEl = getChildElement(wordDefEl,'verbFill');
+    childEl.innerHTML = '&nbsp;&nbsp;'+displayWordList(entry.Verbs, searchedTerm, true);
+    getChildElement(wordDefEl,'verbContain').style.display = 'flex';
   }
 
   if(entry.Descriptors == ''){
-    getChildElement(wordDefEl,'des').style.display = 'none';
+    getChildElement(wordDefEl,'desContain').style.display = 'none';
   }else{
     childEl = getChildElement(wordDefEl,'des');
-    childEl.innerHTML = '<b>'+entry.Pemtara+'i / '+entry.Pemtara+'e </b>&nbsp;adj/adv. &nbsp;&nbsp;'+displayWordList(entry.Descriptors, searchedTerm, true);
-    childEl.style.display = 'flex';
+    childEl.innerHTML = '<b>'+entry.Pemtara+'i / '+entry.Pemtara+'e </b>&nbsp;';
+    childEl = getChildElement(wordDefEl,'desFill');
+    childEl.innerHTML = '&nbsp;&nbsp;'+displayWordList(entry.Descriptors, searchedTerm, true);
+    getChildElement(wordDefEl,'desContain').style.display = 'flex';
   }
 
   document.getElementById('wordDefContainer').style.display='flex';
@@ -111,17 +128,17 @@ function displayRootWord(word, lang){
   var italics = ["English", "Spanish", "French", "Italian", "Portuguese", "Javanese", "Vietnamese", "German"];
 
   if(italics.indexOf(lang) != -1){
-    return "<i>"+word+"</i>";
+    return "<i>"+word.toLowerCase()+"</i>";
   }else if (lang == "Pemtara"){
     //TODO Make links
     if(word.indexOf(' ') == -1){
       return returnLink(word,1);
     }else {
       var words = word.split(' ');
-      return returnLink(words[0],1)+" and "+returnLink(words[1],2);
+      return returnLink(words[0],1)+"&nbsp;and&nbsp;"+returnLink(words[1],2);
     }
   }else{
-    return word;
+    return word.toLowerCase();
   }
 
 }
@@ -141,7 +158,7 @@ function gotoWord(word){
 
 function returnLink(word,num){
   if(searchPemtara(word) != 0){
-    return "&nbsp;<div class='pemLinkWord' id='"+num+"' onclick='gotoWord"+num+"()'>"+word+"</div>&nbsp;";
+    return "<u><div class='pemLinkWord' id='"+num+"' onclick='gotoWord"+num+"()'>"+word+"</div></u>";
   }
   else if(word == '' || word == 'N,A'){
     return '?';
@@ -189,6 +206,12 @@ function displayWordList(list1, searched, commaSeparated){
 
 function getChildElement(el, id){
   for(var i=0; i<el.children.length; i++){
+    if(el.children[i].children.length != 0){
+      var found = getChildElement(el.children[i],id);
+      if(found != -1){
+        return found;
+      }
+    }
     if(el.children[i].id == id){
       return el.children[i];
     }

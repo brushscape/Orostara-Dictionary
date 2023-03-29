@@ -1,8 +1,7 @@
 /* jshint esversion: 8 */
 
-function pemClick(){
+function pemClick(searchedWord){
   clearPage();
-  var searchedWord = cleanupTextInput(document.getElementById('pemSearchBar').value);
   var lastChar = searchedWord.charAt(searchedWord.length-1);
   var endList = ['a', 'e', 'o', 'i', 'u'];
   var specialCases = ['na', 'nihao', 'mira', 'hera', 'meta', 'para', 'suta', 'jusa', 'esta', 'arsa', 'koka', 'jina'];

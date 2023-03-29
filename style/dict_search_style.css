@@ -1,0 +1,71 @@
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+button{
+    background-color: var(--light);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(14px + 1vw);
+    border-radius: 50px;
+    margin: 1vh;
+    font-family: Optima, Helvetica, Ariel, sans-serif;
+}
+button:hover{
+    background-color: var(--medium);
+    color: var(--grey);
+}
+button:disabled{
+    background-color: #c3c9d6;
+    color: #d3d9e6;
+}
+
+.langSelect{
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.langSelect:hover{
+    color: var(--light);
+    cursor: default;
+    background-color: var(--white);
+}
+
+.searchBlock{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 20px;
+  margin: 5vh;
+  height: 30vh;
+}
+
+.wordEntry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.searchBar{
+  width: 40%;
+  height: 15px;
+  border-radius: 20px;
+  margin: calc(5px + 1vw);
+  padding: calc(1px + 1vw);
+  font-family: Optima, Helvetica, Ariel, sans-serif;
+}
+
+.notFound{
+  display: none;
+  flex-direction: column;
+  color: firebrick;
+  margin-top: 10vh;
+}

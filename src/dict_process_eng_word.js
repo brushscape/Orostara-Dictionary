@@ -1,8 +1,7 @@
 /* jshint esversion: 8 */
 
-function engClick(){
+function engClick(searchedWord){
   clearPage();
-  var searchedWord = cleanupTextInput(document.getElementById('engSearchBar').value);
   var found = engEntry(searchedWord);
   if(found){
     incMemory('English',searchedWord);
@@ -10,6 +9,10 @@ function engClick(){
 }
 
 function engEntry(searchedWord){
+  if(searchedWord.length == 0){
+    document.getElementById('notFoundEng').style.display='flex';
+    return false;
+  }
   var entryArr = searchEnglish(searchedWord);
   if(entryArr.length == 0){
     document.getElementById('notFoundEng').style.display='flex';
