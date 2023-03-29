@@ -4,13 +4,23 @@
   --dark: #2c529e;
   --white: AliceBlue;
   --grey: #c0cff0;
+  --minimini: calc(5px + 0.5vw);
+  --mini: calc(8px + 0.5vw);
+  --small: calc(11px + 0.5vw);
+  --midSize: calc(14px + 0.5vw);
+  --large: calc(17px + 0.25vw);
+  --huge: calc(20px + 0.25vw);
+  --hugehuge: calc(25px + 0.25vw);
 }
 
 .pageBody{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-self: center;
+    margin-left: var(--small);
+    margin-right: var(--small);
 }
 .menuBar{
     width: 100%;
@@ -26,9 +36,9 @@
 }
 
 .title{
-    font-size: calc(30px + 1vh);
+    font-size: calc(30px + 1vw);
     align-self: center;
-    margin: 3vh;
+    margin: var(--midSize);
     font-weight: bold;
     letter-spacing: 0.3vw;
 }
@@ -49,9 +59,9 @@
     border-radius: 20px 20px 0 0;
     justify-content: center;
     align-items: flex-end;
-    font-size: calc(10px + 1vw);
-    border-color: var(--white);
-    border-width: thick;
+    font-size: var(--midSize);
+    border-color: var(--dark);
+    border-style: solid;
 }
 
 .menuItem:hover{
@@ -61,13 +71,19 @@
 }
 
 body {
-    margin:1vw;
-    width: 90%;
-    height: 100%;
+    width: 98vw;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-family: Optima, Helvetica, Ariel, sans-serif;
-    font-size: calc(14px + 1vh);
+    font-size: var(--midSize);
+}
+
+.h2{
+    font-size: var(--large);
+    text-align: left;
+    margin-top: var(--midSize);
+    margin-bottom: var(--midSize);
 }

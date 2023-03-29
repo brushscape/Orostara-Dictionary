@@ -335,7 +335,6 @@ konfiar,yes,,,entrust,,,,Spanish,confiar,
 konmin,yes,,intelligence,,intelligent/smart ,,,Mandarin Chinese,聪明,Cōngmíng
 konsep,yes,,concept,conceptualize ,,,,Spanish,concepto,
 kopiy,yes,,duplicate/clone,copy/multiply,same/identical,,,Spanish,Copiar,
-kor,yes,,ball/sphere,,round,,,Punjabi,ਗੋਲਾ,Gōlā
 koref,yes,,task,delegate,,,,Turkish,görev,
 korkey,yes,,policy,,,,,Tamil,கொள்கை,Koḷkai
 korkos,yes,,rabbit/bunny,,,,,Bangla,খরগোশ,khôrgoś
@@ -558,7 +557,6 @@ pij,yes,,seed,,,,,Bangla,বীজ,Bīja
 pijik,yes,,business,,busy,,,Telugu,బిజీగా,Bijīgā
 pimien,yes,,avoid,,,,,Mandarin Chinese,避免,Bìmiǎn
 pin,yes,,dot/point/spot,,,,,Hindi,बिंदु,bindu
-pinfan,yes,,square,,,,,Mandarin Chinese,平方,Píngfāng
 pinjan,yes,,flavor,taste,,,,Mandarin Chinese,品尝,Pǐncháng
 pinjun,yes,,mean,normalize,average,,,Mandarin Chinese,平均,Píngjūn
 pintan,yes,,equality,equate,equal,,,Vietnamese,bình đẳng,
@@ -716,7 +714,7 @@ sios,yes,,,break,,,,Mandarin Chinese,休息,Xiūxí
 sipok,yes,,billion,,,,,Korean,십억,sibeok
 sir,yes,color,white,,,,,Japanese,白,Shiro
 sirapur,yes,,syllable,,,,,English,syllable,
-sirkur,yes,,circle/ring,roll,,,,Portuguese,círculo,
+aner,yes,,ring/torus,,,,,Portuguese,anel,
 sis,yes,,child,,childish,,,Bangla,শিশু,Śiśu
 siton,yes,,system,,,,,Mandarin Chinese,系统,Xìtǒng
 sivay,yes,,,,,except/besides,,Hindi,सिवाय,sivaay
@@ -830,7 +828,6 @@ tunrun,yes,,valley,,,,,Vietnamese,hung lũng,
 tupar,yes,,,,,again,,Urdu,دوبارہ,dobâre
 tur,yes,,distance,extend,far/distant,,,Hindi,दूरी,dooree
 turan,yes,,,,,during/while/as/as long as/simultaneously,time,Spanish,durante,
-turikon,yes,,triangle,,,,,Hindi,त्रिकोण,trikon
 turis,yes,,,,sad/unhappy/sorrowful,,,Spanish,triste,
 turum,yes,,condition/state/situation ,,conditional/situational,,,Turkish,durum,
 Tusin,yes,,Saturn,,,,,Mandarin Chinese,土星,Tǔxīng
@@ -890,10 +887,38 @@ retsison,,time of year,fall/autumn,,,,,Pemtara,retuir sison,
 ajok,,,beauty,decorate,pretty/beautiful,,,Pemtara,aj jok,
 ajtait,,,,,nice/kind,,,Pemtara,aj tait,
 tait,yes,,attitude,,,,,Mandarin Chinese,__,T�id�
-kaj,,"slang swear, very derogatory when used against someone",shit/garbage/,kill/die/kill yourself,useless/stupid,fuck,,Pemtara,kajar,
+kaj,,slang swear; very derogatory when used against someone,shit/garbage/,kill/die/kill yourself,useless/stupid,fuck,,Pemtara,kajar,
 kakjet,,slang swear,asshole/shithole,,,,,Pemtara,kak jet ,
 nakon,,slang insult and meaner than what it's derived from,dimwit,,stupid,,,Pemtara,nakonmin,
 nakonmin,,,,,unintelligent/stupid,,,Pemtara,na konmin,
 ikyuksek,,,,,short,,,Pemtara,ik yuksek,
 yenap,,neutral formal; use more specific honorifics when possible,I/me,,,,,Pemtara,yeh nap,
 jenap,,neural formal; use more specific honorifics when possible,you/he/she/them,,,,,Pemtara,jeh nap,
+tij,yes,,volume,,,,,Mandarin Chinese,__,T_j_
+rinhin,,named for the number of points on the shape,circle/oval,roll,,,,Pemtara,rin hintuk,
+tinhin,,named for the number of points on the shape,triangle,,,,,Pemtara,tin hintuk,
+serhin,,named for the number of points on the shape,square/rectangle/diamond,,,,,Pemtara,ser hintuk,
+sinhin,,named for the number of points on the shape,pentagon,,,,,Pemtara,sin hintuk,
+rukhin,,named for the number of points on the shape,hexagon,,,,,Pemtara,ruk hintuk,
+jijhin,,named for the number of points on the shape,septagon,,,,,Pemtara,jij hintuk,
+hajhin,,named for the number of points on the shape,octagon,,,,,Pemtara,haj hintuk,
+ektij,,named for the number of faces on the object,sphere/ball,,round,,,Pemtara,ek tij,
+tintij,,named for the number of faces on the object,cylinder,,,,,Pemtara,tin tij,
+toytij,,named for the number of faces on the object,cone,,,,,Pemtara,toy tij,
+sintij,,with a square base; named for the number of faces on the object,pyramid,,,,,Pemtara,sin tij,
+ruktij,,named for the number of faces on the object,cube/rectangular prism/box,,,,,Pemtara,ruk tij,
+hajtij,,named for the number of faces on the object,diamond/octahedron,,,,,Pemtara,haj tij,
+ahoptoytij,,,dodecahedron,,,,,Pemtara,ahoptoy tij,
+ahopek,,,eleven/11,,,,,Pemtara,ahop ek,
+ahoptoy,,,twelve/12,,,,,Pemtara,ahop toy,
+ahoptin,,,thirteen/13,,,,,Pemtara,ahop tin,
+ahopser,,,fourteen/14,,,,,Pemtara,ahop ser,
+ahopsin,,,fifteen/15,,,,,Pemtara,ahop sin,
+ahopruk,,,sixteen/16,,,,,Pemtara,ahop ruk,
+ahopjij,,,seventeen/17,,,,,Pemtara,ahop jij,
+ahophaj,,,eighteen/18,,,,,Pemtara,ahop haj,
+ahoptes,,,nineteen/19,,,,,Pemtara,ahop tes,
+toyahop,,,twenty/20,,,,,Pemtara,toy ahop,
+toyahoptij,,named for the number of faces on the object,icosahedron,,,,,Pemtara,toyahop tij,
+sertij,,named for the number of faces on the object,tetrahedron,,,,,Pemtara,ser tij,
+tinhintij,,,triangular prism,,,,,Pemtara,tinhin tij,

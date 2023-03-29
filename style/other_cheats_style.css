@@ -15,6 +15,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 30px;
+    text-align: left;
 }
 
 .exampleSentences{
@@ -27,6 +28,7 @@ table{
     text-align: left;
     border-collapse: collapse;
     width: calc(200px + 30vw);
+    margin-bottom: var(--small);
 }
 
 td, th {

@@ -14,7 +14,7 @@ function setupDictionarySearch(){
 }
 
 function setupMenuButtons(){
-  document.getElementById('translatorPg').style.borderStyle = 'solid';
+  document.getElementById('translatorPg').style.borderColor = 'var(--white)';
   $('.menuItem').click(function(event) {
       var page;
       var str = this.innerHTML.substring(0,4).toLowerCase();
@@ -37,8 +37,8 @@ function setupMenuButtons(){
       if(currPage != page){
         document.getElementById(currPage).style.display = 'none';
         document.getElementById(page).style.display = 'flex';
-        document.getElementById(currPage+'Pg').style.borderStyle = 'none';
-        this.style.borderStyle = 'solid';
+        document.getElementById(currPage+'Pg').style.borderColor = 'var(--dark)';
+        this.style.borderColor = 'var(--white)';
         currPage = page;
       }
   });

@@ -140,11 +140,13 @@ function displayRootWord(word, lang){
   if(italics.indexOf(lang) != -1){
     return "<i>"+word.toLowerCase()+"</i>";
   }else if (lang == "Pemtara"){
-    //TODO Make links
-    if(word.indexOf(' ') == -1){
-      return returnLink(word,1);
+    var word1 = cleanupTextInput(word);
+    if(word1.indexOf(' ') == -1){
+      //only one word
+      return returnLink(word1,1);
     }else {
-      var words = word.split(' ');
+      var word1 = cleanupTextInput(word);
+      var words = word1.split(' ');
       return returnLink(words[0],1)+"&nbsp;and&nbsp;"+returnLink(words[1],2);
     }
   }else{
