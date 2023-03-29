@@ -4,13 +4,13 @@
   --dark: #2c529e;
   --white: AliceBlue;
   --grey: #c0cff0;
-  --minimini: calc(5px + 0.5vw);
-  --mini: calc(8px + 0.5vw);
-  --small: calc(11px + 0.5vw);
-  --midSize: calc(14px + 0.5vw);
-  --large: calc(17px + 0.25vw);
-  --huge: calc(20px + 0.25vw);
-  --hugehuge: calc(25px + 0.25vw);
+  --minimini: calc(12px + 0.5vw);
+  --mini: calc(14px + 0.5vw);
+  --small: calc(18px + 0.5vw);
+  --midSize: calc(20px + 0.5vw);
+  --large: calc(22px + 0.25vw);
+  --huge: calc(24px + 0.25vw);
+  --hugehuge: calc(26px + 0.25vw);
 }
 
 .pageBody{

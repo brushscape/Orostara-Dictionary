@@ -31,8 +31,7 @@
 .etym{
     font-size: var(--mini);
     color: DarkGrey;
-    margin-left: calc(4px + 0.5vw);
-    margin-bottom: calc(2px + 0.5vw);
+    margin-left: var(--mini);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -95,4 +94,9 @@
   cursor: default;
   background-color: var(--white);
 
+}
+
+.line{
+    color: var(--white);
+    width: 100%;
 }
