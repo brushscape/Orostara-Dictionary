@@ -18,7 +18,6 @@ aj,yes,,,,good,,,Hindi,अच्छा,achchha
 ajir,yes,,,,urgent,,,Arabic,عاجل,eajil
 ajok,,,beauty,decorate,pretty/beautiful,,,Pemtara,aj jok,
 ajtait,,,,,nice/kind,,,Pemtara,aj tait,
-tok,yes,,danger,,scary/threatening/terrifying,,,Marathi,धोका,Dhōkā
 ak,yes,,,,,beyond/next,preposition,Hindi,आगे,aage
 akas,yes,,sky/weather,,,,,Hindi,आकाश,aakaash
 akasnit,,,rain,,,,,Pemtara,akas nit,
@@ -38,7 +37,6 @@ ankur,yes,,angle,,angular,,,English,angle,
 anrasmak,yes,,deal,,,,,Turkish,anlaşmak,
 antat,yes,,,,,across,preposition,Telugu,అంతటా,Antaṭā
 anuk,yes,,score/grade,,,,,Hindi,अंक,ank
-kefur,yes,,feeling/emotion,feel/sense by emotion,emotional,,,German,Gefühl,
 apontar,yes,,,point/indicate/show,,,,Portuguese,apontar,
 apruf,yes,,,accept/admit/approve,acceptable,,,English,approve,
 apsorut,yes,,,,absolute,,,English,absolute,
@@ -173,6 +171,7 @@ haten,yes,,development,develop,,,,Japanese,発展,Hatten
 hatsup,yes,,,launch/throw/toss,,,,Japanese,発売,Hatsubai
 hay,yes,,sea/ocean,,,,,Mandarin Chinese,海,Hǎi
 hayjan,yes,,wave,,,,,Pemtara,hay jan,
+haypuran,,,coast/shore/beach,,,,,Pemtara,hay puran,
 hef,yes,,boss,,,,,Spanish,jefe,
 hek,yes,,meal/food,eat,,,,Cantonese,吃,hek
 hekorkan,,,stomach,,,,,Pemtara,hek orkan,eat organ
@@ -186,9 +185,6 @@ hiyak,yes,,hundred,,,,,Japanese,百,Hyaku
 hojun,yes,,,,available,,,Cantonese,可用,ho jung
 hon,yes,,existence,be/exist/is/become,,,,Punjabi,ਹੋਣਾ,Hōṇā
 hos,yes,,planet/world,,,,,Japanese,星,Hoshi
-yuh,yes,,health,heal,,,,Mandarin Chinese,愈合,Yùhé
-yunap,,,doctor,,,,,Pemtara,yuh napa,heal person
-yujak,,,hospital,,,,,Pemtara,yuh jaka,health place
 huanjin,yes,,environment/nature,,natural,,,Mandarin Chinese,环境,Huánjìng
 huis,yes,color,grey/gray,,,,,Mandarin Chinese,灰色,Huīsè
 huk,yes,,hook,,,,,English,hook,
@@ -197,6 +193,7 @@ husten,yes,,,cough,,,,German,Husten,
 if,yes,,,,,if,,English,if,
 ij,yes,,motivation/will/energy,motivate,,,,Marathi,इच्छा,Icchā
 ijin,yes,,,,,for/per,,Turkish,için,
+ijkefur,,,excitement,excite,exciting,,,Pemtara,ij kefur,
 ik,yes,to a small degree,,,less/a little,,,Japanese,以下,Ika
 ikam,,,,,least,,,Pemtara,ik ham,
 iketat,,,,,young,,,Pemtara,ik etat,little age
@@ -320,6 +317,7 @@ katay,yes,,story/tale/fiction,,fictional,,,Tamil,கதை,Katai
 katik,yes,,,tighten,tight/secure,,,Telugu,గట్టిగా,Gaṭṭigā
 katit,yes,,tour,walk,,,,Russian,ходить,khodit
 kay,yes,,cow,,,,,Urdu,گائے,gāe
+kefur,yes,,feeling/emotion,feel/sense by emotion,emotional,,,German,Gefühl,
 keit,yes,,,,other,,,Cantonese,其他,kei taa
 kekon,yes,,marriage,marry,,,,Japanese,結婚,kekkon
 ken,yes,,root/basis,,,,,Shanghainese,根,ken
@@ -469,6 +467,7 @@ mutrak,yes,,,must/have to/need,,,,Turkish,mutlak,
 mutur,yes,,urine,pee,,,,Marathi,मूत्र,Mūtra
 na,yes,,,,not,no,,Bangla,না,Nā
 nafar,yes,,tape/strip/band/belt,,,,,Persian,نوار,navâr
+naij,,,,exhaust,tired/exhausted/weary,,,Pemtara,na ij,
 nakfor,yes,,,,,forward,,German,nach vorne,
 nakon,,slang insult and meaner than what it's derived from,dimwit,,stupid,,,Pemtara,nakonmin,
 nakonmin,,,,,unintelligent/stupid,,,Pemtara,na konmin,
@@ -498,6 +497,7 @@ nirman,yes,,building,build,,,,Hindi,निर्माण,nirmaan
 nis,yes,,junior/bottom,,inferior,under/below/beneath/low,preposition,Russian,ниже,nizhe
 nisan,yes,,,mark,,,,Hindi,निशान,nishaan
 nisjet,,,anus,,,,,Pemtara,nis jet,bottom hole
+niskefur,,,sadness/sorrow/depression,,sad/depressed,,,Pemtara,nis kefur,
 nistait,,,,,sad/sorrowful/depressing,,,Pemtara,nis tait,low attitude
 nit,yes,,water,,,,,Telugu,నీటి,Nīṭi
 noj,yes,,evening/night,,,,,Spanish,noche,
@@ -602,6 +602,7 @@ positif,yes,,,,positive,,,Spanish,positivo,
 pot,yes,,contest/competition,compete,competitive ,,,Telugu,పోటీ,Pōṭī
 potaf,yes,,length,,long,,,Telugu,పొడవు,Poḍavu
 poter,yes,,,bother/irritate,,,,English,bother,
+potertait,,,,,annoying/irritating/bothersome,,,Pemtara,poter tait,
 pufen,yes,,part/section/piece,divide,,,,Mandarin Chinese,部分,Bùfèn
 pumak,yes,,paper,,,,,Russian,бумага,bumaga
 punsek,yes,,analysis/research,analyze/study/investigate,studious,,,Japanese,分析,Bunseki
@@ -841,7 +842,9 @@ tiryat,yes,,loss,lose,,,,Russian,терять,teryat'
 titam,yes,,program/project,,,,,Tamil,திட்டம்,Tiṭṭam
 tiujin,yes,,challenge,,,,,Cantonese,挑战,tiu zin
 toj,yes,,,read,,,,Shanghainese,读,doq
-yakis,yes,,,cheat/hack,,,,Arabic,يغش,yaghish
+tok,yes,,danger,,scary/threatening/terrifying,,,Marathi,धोका,Dhōkā
+tokefur,,,fear/fright/nerves,scare,scared/afraid/nervous,,,Pemtara,tok kefur,
+toktait,,,,,scary/frightening,,,Pemtara,tok tait,
 tom,yes,,tail,,,,,Persian,دم,dom
 tomar,yes,,,,tame/domesticated,,,Portuguese,domar,
 ton,yes,can be used as an honorific suffix,partner,,,partner,,Korean,동료,donglyo
@@ -886,8 +889,10 @@ utam,yes,,,,main,,,Javanese,utama,
 utar,yes,,north,,,,,Hindi,उत्तर,uttar
 yaf,yes,,key,,,,,Spanish,llave,
 yak,yes,,,,,around,preposition,Korean,약,yag
+yakis,yes,,,cheat/hack,,,,Arabic,يغش,yaghish
 yaktup,yes,,writing/essay/book/article,write,,,,Arabic,يكتب,yaktub
 yanam,yes,,,sleep,sleepy/tired,,,Arabic,ينام,yanam
+yanfikar,,,,dream,,,,Pemtara,yanam fikar,
 yarsam,yes,,drawing,draw,,,,Arabic,يرسم,yarsam
 yat,yes,,list,,,,,Marathi,यादी,Yādī
 ye,,slang; informal,,,,I/me,,Pemtara,yeh,
@@ -906,15 +911,10 @@ yoniy,yes,,vulva,,,,,Hindi,योनी,yonee
 yop,yes,,,,,by/beside/with,preposition,Korean,옆에,yeop-e
 yor,yes,,tear,cry,,,,Spanish,llorar,
 youj,yes,,,,especially/particularly ,,,Mandarin Chinese,尤其,Yóuqí
+yuh,yes,,health,heal,,,,Mandarin Chinese,愈合,Yùhé
+yujak,,,hospital,,,,,Pemtara,yuh jaka,health place
 yukat,yes,,plan/strategy,,,,,Arabic,يخطط,yukhatat
 yuksek,yes,,height,rise,high/tall,,,Turkish,yüksek,
 yun,yes,,luck/chance,,lucky,,,Mandarin Chinese,运气,Yùnqì
+yunap,,,doctor,,,,,Pemtara,yuh napa,heal person
 yunet,yes,,unit,,,,,English,unit,
-naij,,,,exhaust,tired/exhausted/weary,,,Pemtara,na ij,
-haypuran,,,coast/shore/beach,,,,,Pemtara,hay puran,
-yanfikar,,,,dream,,,,Pemtara,yanam fikar,
-ijkefur,,,excitement,excite,exciting,,,Pemtara,ij kefur,
-toktait,,,,,scary/frightening,,,Pemtara,tok tait,
-tokefur,,,fear/fright/nerves,scare,scared/afraid/nervous,,,Pemtara,tok kefur,
-niskefur,,,sadness/sorrow/depression,,sad/depressed,,,Pemtara,nis kefur,
-potertait,,,,,annoying/irritating/bothersome,,,Pemtara,poter tait,
