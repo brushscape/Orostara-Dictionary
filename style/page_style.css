@@ -14,13 +14,13 @@
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
   :root {
-      --minimini: calc(15px + 0.25vw);
-      --mini: calc(18px + 0.25vw);
-      --small: calc(21px + 0.25vw);
-      --midSize: calc(24px + 0.25vw);
-      --large: calc(27px + 0.25vw);
-      --huge: calc(30px + 0.25vw);
-      --hugehuge: calc(33px + 0.25vw);
+      --minimini: calc(18px + 0.25vw);
+      --mini: calc(21px + 0.25vw);
+      --small: calc(24px + 0.25vw);
+      --midSize: calc(28px + 0.25vw);
+      --large: calc(32px + 0.25vw);
+      --huge: calc(36px + 0.25vw);
+      --hugehuge: calc(40px + 0.25vw);
   }
 }
 
