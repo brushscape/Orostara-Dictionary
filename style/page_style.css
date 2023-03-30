@@ -1,4 +1,9 @@
 :root {
+    --light: #5983d9;
+    --medium: #416abf;
+    --dark: #2c529e;
+    --white: AliceBlue;
+    --grey: #c0cff0;
     --minimini: calc(20px + 0.25vw);
     --mini: calc(23px + 0.25vw);
     --small: calc(26px + 0.25vw);
@@ -21,26 +26,6 @@
   }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px
-@media screen and (max-width: 600px) {
-  :root {
-      --minimini: calc(20px + 0.25vw);
-      --mini: calc(23px + 0.25vw);
-      --small: calc(26px + 0.25vw);
-      --midSize: calc(30px + 0.25vw);
-      --large: calc(34px + 0.25vw);
-      --huge: calc(38px + 0.25vw);
-      --hugehuge: calc(42px + 0.25vw);
-  }
-}*/
-
-:root {
-  --light: #5983d9;
-  --medium: #416abf;
-  --dark: #2c529e;
-  --white: AliceBlue;
-  --grey: #c0cff0;
-}
 
 .pageBody{
     width: 100%;

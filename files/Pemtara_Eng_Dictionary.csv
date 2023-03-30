@@ -84,7 +84,6 @@ ektij,,named for the number of faces on the object,sphere/ball,,round,,,Pemtara,
 emon,yes,,magnet,,,,,French,aimant,
 en,yes,,,,,on/onto,,Spanish,en,
 enten,yes,,,understand,,,,Spanish,entender,
-eper,yes,,,,,ever,,English,ever,
 erek,yes,,election,elect,,,,Spanish,electo,
 erman,yes,,sibling,,,,,Spanish,hermano,
 esat,yes,,,,exact,,,Portuguese,exato,
@@ -102,7 +101,6 @@ fakat,yes,,,,,just/only/merely,,Persian,فقط,aqat
 faktor,yes,,factor,,,,,German,Faktor,
 fakuan,yes,,judge,,,,,Mandarin Chinese,法官,Fǎguān
 famen,yes,,valve,,,,,Mandarin Chinese,阀门,Fámén
-famsison,,time of year,summer,,,,,Pemtara,fam sison,
 fan,yes,,fraction/decimal,,,per,,Vietnamese,phần,
 fanhuy,yes,,,return,,,,Mandarin Chinese,返回,Fǎnhuí
 fankujik,,,crime,,,,,Pemtara,fan kujik,against rule
@@ -149,7 +147,8 @@ fukay,yes,,,cover,,,,Mandarin Chinese,覆盖,Fùgài
 fukorkan,,,lung,,,,,Pemtara,fuk orkan,air organ
 fuok,yes,,fire,burn,firey,,,Italian,fuoco,
 fur,yes,,flower,,,,,Hindi,फूल,phool
-fus,yes,,senior/top,,superior,over/above,,Russian,выше,vyshe
+fus,yes,,senior/top,,superior,over/above/high,,Russian,выше,vyshe
+fusison,,time of year,summer,,,,,Pemtara,fus sison,
 fustait,,,confidence,,confident,,,Pemtara,fus tait,
 ha,yes,exclamation marker ,,,,,particle ,Pemtara,ham,
 haf,yes,,air/wind,airate,airy/windy,,,Turkish,hava,
@@ -161,6 +160,7 @@ hakik,yes,,real,,real/actual/really/actually,,,Arabic,حقيقي,haqiqiun
 ham,yes,,,,all/every/entire/whole,very,,Persian,همه,hame
 hamasuh,,,,,hot/sweltering,,,Pemtara,ham masuh,
 hamiksuh,,,,,cold/freezing,,,Pemtara,ham iksuh,
+hamtik,,,,,,always,,Pemtara,ham tik,
 han,yes,specifically to touch with your hand,hand,touch,,,,English,hand,
 hapsan,yes,,,fit/suit,,,,Cantonese,合身,hap san
 har,yes,color,green,,,,,Hindi,हरा,hara
@@ -240,7 +240,7 @@ jas,yes,,hour,,,,,Russian,час,chas
 jat,yes,,bush ,,,,,Hindi,झाड़ी,jhaadee
 jatap,yes,,attract/captivate,attraction,attractive/alluring,,,Arabic,جاذب,jaḏaba
 je,,slang; informal,,,,you,,Pemtara,jeh,
-jeh,yes,,that/(colloquially) you/them,,,,,Bangla,যে,Yē
+jeh,yes,,that,,,,,Bangla,যে,Yē
 jejak,,,,,,there,,Pemtara,jeh jak,
 jem,yes,,joy/enjoyment/fun/delight,like/enjoy/fond,happy/fun/enjoyable,,,Gujarati,જેમ,Jēma
 jen,yes,,degree,,,,,Mandarin Chinese,程度,Chéngdù
@@ -481,6 +481,7 @@ naris,yes,,nose,sniff,,,,Spanish,nariz,
 narof,,,,,smooth,,,Pemtara,na rof,no texture
 nasey,,,,,lazy,,,Pemtara,na sey,no activity
 nat,yes,,country/nation/federation,,federal,,,Tamil,நாடு,Nāṭu
+natik,,,,,,never,,Pemtara,na tik,
 nay,yes,,,,new,,,Hindi,नया,naya
 nej,yes,,star,,,,,Arabic,نجمة,najma
 nejkun,,,galaxy,,,,,Pemtara,nej kun,star group
@@ -496,6 +497,7 @@ nikurnap,,,actor,,,,,Pemtara,nikur napa,perform person
 nirman,yes,,building,build,,,,Hindi,निर्माण,nirmaan
 nis,yes,,junior/bottom,,inferior,under/below/beneath/low,preposition,Russian,ниже,nizhe
 nisan,yes,,,mark,,,,Hindi,निशान,nishaan
+nisison,,time of year,winter,,,,,Pemtara,nis sison,
 nisjet,,,anus,,,,,Pemtara,nis jet,bottom hole
 niskefur,,,sadness/sorrow/depression,,sad/depressed,,,Pemtara,nis kefur,
 nistait,,,,,sad/sorrowful/depressing,,,Pemtara,nis tait,low attitude
@@ -556,7 +558,7 @@ paus,yes,,insurance,ensure ,,,,Shanghainese,保险,pau xi
 pay,yes,,baby,,,,,Javanese,bayi,
 payorkan,,,uterus,,,,,Pemtara,pay orkan,baby organ
 peis,yes,,fish,,,,,Portuguese,peixe,
-pejan,yes,,back,,,behind/after/in back of,,Bangla,পেছনে,Pēchanē
+pejan,yes,,back,retreat,,behind/after/in back of,,Bangla,পেছনে,Pēchanē
 pejankos,,,spine,,,,,Pemtara,pejan kos,back bone
 pejor,yes,,parent,,,,,Tamil,பெற்றோர்,Peṟṟōr
 pek,yes,,ice,,,,,Javanese,beku,
@@ -610,7 +612,7 @@ pur,yes,,,,bad,,,Bangla,ਬੁਰਾ,Burā
 puran,yes,,edge/border,,,,,Bangla,প্রান্ত,Prānta
 purar,yes,,,jump,,,,Portuguese,pular,
 purayok,yes,,experiment,,,,,Hindi,प्रयोग,prayog
-purotus,yes,,,yield/surrender/give in,,,,Spanish,producir,
+purotus,yes,,,yield/surrender/give in/give up/concede,,,,Spanish,producir,
 purtait,,,rage/anger/wrath,,angry/mad/grumpy/pissy,,,Pemtara,pur tait,
 putum,yes,,,,,enough,,Tamil,போதும்,Pōtum
 raf,yes,,adipose,,fat,,,Telugu,లావు,Lāvu
@@ -636,7 +638,7 @@ rasum,yes,,,,reasonable/rational/sensible,,,Russian,разумный,razumnyy
 rat,yes,,rat,,,,,Spanish,rato,
 ratakan,yes,,,hang,,,,Punjabi,ਲਟਕਣਾ,Laṭakaṇā
 rauan,yes,,door,,,,,Javanese,lawang,
-rehos,yes,,,,,away,,Spanish,lejos,
+rehos,yes,,,go away,,away,,Spanish,lejos,
 rekin,yes,,,,,but,conjunction,Hindi,लेकिन,lekin
 resat,yes,,solution/answer/resolution,solve/resolve,,,,Russian,решать,reshat
 ret,yes,color,red,,,,,English,red,
@@ -787,14 +789,13 @@ tait,yes,,attitude/mood,,,,,Mandarin Chinese,态度,Tàidù
 tak,yes,,dog,,,,,English,Dog,
 takor,yes,,agreement,agree,,,,Italian,d'accordo,
 taksin,yes,,south,,,,,Telugu,దక్షిణ,Dakṣiṇa
-tam,yes,,brake,stop,,,,Bangla,থামা,Thāmā
+tam,yes,,brake/break,stop/pause,,,,Bangla,থামা,Thāmā
 tamak,yes,,egg,,,,,Japanese,卵,Tamago
 tamakorkan,,,ovary,,,,,Pemtara,tamak orkan,egg organ
 tamtor,yes,,,fill,full,,,Turkish,tam dolu,
 tan,yes,,teeth/tooth,bite,,,,Hindi,दाँत,daant
 tanhuan,yes,the mechanical device,spring,,,,,Mandarin Chinese,弹簧,tánhuáng
 tankap,yes,,level,,,,,Cantonese,等级,dang kap
-tansison,,time of year,winter,,,,,Pemtara,tanut sison,
 tapan,yes,,,push/shove/pull,,,,Gujarati,દબાણ,Dabāṇa
 tar,yes,,speech/language/statement,talk/speak/say/tell,,,,English,talk,
 tarat,yes,,pain,hurt,painful,,,Punjabi,ਦਰਦ,Darada
@@ -895,8 +896,8 @@ yanfikar,,,,dream,,,,Pemtara,yanam fikar,
 yarsam,yes,,drawing,draw,,,,Arabic,يرسم,yarsam
 yat,yes,,list,,,,,Marathi,यादी,Yādī
 ye,,slang; informal,,,,I/me,,Pemtara,yeh,
-yeh,yes,,this/(colloquially) I/me,,,,,Hindi,यह,yah
-yejak,,,,,,here,,Pemtara,yeh jak,
+yeh,yes,,this,,,,,Hindi,यह,yah
+yejak,,,,come here/be here,,here,,Pemtara,yeh jak,
 yenap,,neutral formal; use more specific honorifics when possible,I/me,,,,,Pemtara,yeh nap,
 yenar,yes,,,fill,,,,Spanish,llenar,
 yes,yes,,leaf,,,,,Mandarin Chinese,叶子,Yèzi

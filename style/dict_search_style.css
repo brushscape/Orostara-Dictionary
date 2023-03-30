@@ -19,9 +19,9 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: var(--huge);
+    font-size: var(--hugehuge);
     border-radius: 50px;
-    margin: 1vh;
+    margin: 1vw;
     font-family: Optima, Helvetica, Ariel, sans-serif;
 }
 button:hover{
@@ -89,5 +89,6 @@ button:disabled{
     color: var(--light);
     display:flex;
     flex-grow: 4;
-    justify-content: right;
+    justify-content: flex-end;
+    text-align: right;
 }

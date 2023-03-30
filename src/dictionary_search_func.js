@@ -18,6 +18,10 @@ function setupButtons(){
        }
   });
 
+  $('#searchBar').focus(function(event) {
+      this.select();
+  });
+
   $('#langSelect').click(function(event) {
       if(this.innerHTML == 'Pemtara'){
         this.innerHTML = 'English';
