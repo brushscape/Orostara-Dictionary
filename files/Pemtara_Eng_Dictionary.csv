@@ -129,7 +129,7 @@ fifaram,yes,,detail,,,,,Tamil,விவரம்,Vivaram
 fifir,yes,,life,live,alive,,,Spanish,vivir,
 fifit,yes,,diversity,diversify,diverse,,,Gujarati,વિવિધ,Vividha
 fijir,yes,,electricity ,electricute/zap/shock,,,,Gujarati,વીજળી,Vījaḷī
-fik,yes,,container/box/cup/vase/vessel,contain/include,inside,in/into/throughout,,Punjabi,ਵਿੱਚ,Vica
+fik,yes,,entrance,enter/put in/include,inside,in/into/throughout,,Punjabi,ਵਿੱਚ,Vica
 fikar,yes,,thought/mind,think/assume/contemplate,,,,Gujarati,વિચારો,
 fikarorkan,,,brain,,,,,Pemtara,fikar orkan,think organ
 fikyapit,yes,,advertisement,advertise,,,,Hindi,विज्ञापन,vigyaapit
@@ -276,7 +276,7 @@ jok,yes,,eye/sight/appearance,look/seem/appear,,,,Bangla,চোখ,Cōkha
 jokim,yes,,risk,bet/gamble/wager,,,,Hindi,जोखिम,jokhim
 jot,yes,,,wait,,,,Vietnamese,Chờ đợi,
 joum,yes,,density,,thick/dense/viscous,,,Mandarin Chinese,稠密,Chóumì
-juaj,yes,,trap,catch,,,,Mandarin Chinese,抓住,Zhuā zhù
+juaj,yes,,trap/container/box/cup/vessel,catch/contain,,,,Mandarin Chinese,抓住,Zhuā zhù
 jum,yes,,,dance,,,,Korean,춤,chum
 junan,yes,,choice/option/decision,choose/pick/decide ,,,,Hindi,चुनना,chunana
 junpey,yes,,preparation,prepare,ready,,,Mandarin Chinese,准备,Zhǔnbèi
@@ -523,7 +523,7 @@ otak,yes,,concentration,focus/concentrate,,,,Turkish,odak,
 oter,yes,,hotel,,,,,Spanish,hotel,
 otnak,yes,,,,,however/though/nevertheless/still/yet,conjunction,Russian,однако,odnako
 paen,yes,the direction of left (vs right),left,,,,,Hindi,बाएं,baen
-pahar,yes,,,exclude,outside,out,preposition,Hindi,बाहर,baahar
+pahar,yes,,exit,leave/exit/exclude,outside,out,preposition,Hindi,बाहर,baahar
 paik,yes,,,,,up,preposition,Telugu,పైకి,Paiki
 pais,yes,,money/dollar/credit/payment,pay,rich/expensive,,,Gujarati,પૈસા,Paisā
 paisnap,,,accountant,,,,,Pemtara,pais napa,money person
@@ -782,7 +782,6 @@ suter,yes,,stem,,,,,Italian,stelo,
 sutir,yes,,style,,,,,German,Stil,
 sutram,yes,,principle,,,,,Telugu,సూత్రం,Sūtraṁ
 suy,yes,,,,,so/therefore/thus,conjunction,Shanghainese,所以,su-i
-tahan,yes,,,endure/last,,,,Javanese,tahan,
 taip,yes,,type/kind,,,,,English,type,
 tait,yes,,attitude/mood,,,,,Mandarin Chinese,态度,Tàidù
 tak,yes,,dog,,,,,English,Dog,
@@ -863,7 +862,7 @@ tun,yes,,tonne/ton,,,,,Mandarin Chinese,吨,Dūn
 tunrun,yes,,valley,,,,,Vietnamese,hung lũng,
 tupar,yes,,,,,again,,Urdu,دوبارہ,dobâre
 tur,yes,,distance,extend,far/distant,,,Hindi,दूरी,dooree
-turan,yes,,,,simultaneous,during/while/as/as long as/simultaneously,time,Spanish,durante,
+turan,yes,,,,simultaneous/simultaneously,during/while/as/as long as,time,Spanish,durante,
 turum,yes,,condition/state/situation ,,conditional/situational,,,Turkish,durum,
 Tusin,yes,,Saturn,,,,,Mandarin Chinese,土星,Tǔxīng
 tut,yes,,,doubt,,,,Spanish,duda,
