@@ -2,6 +2,8 @@
 
 //var localFilePath = 'files/Pemtara_Eng_Dictionary.csv';
 var filePath = 'https://raw.githubusercontent.com/brushscape/Pemtara-Dictionary/main/files/Pemtara_Eng_Dictionary.csv';
+var basicWords = 0;
+var constructWords = 0;
 
 function readCSVFile(){
   $.get(filePath, function (csvdata) {
@@ -19,7 +21,17 @@ function readCSVFile(){
           }
         }
         pemtaraDict.push(rowObj);
+        if(rowObj.BasicDict == 'yes'){
+          basicWords++;
+        }
+        else{
+          constructWords++;
+        }
       }
+
+      document.getElementById('basicNum').innerHTML = basicWords;
+      document.getElementById('constructNum').innerHTML = constructWords;
+      document.getElementById('totalNum').innerHTML = constructWords + basicWords;
   });
 
   console.log('done');

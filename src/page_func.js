@@ -31,6 +31,9 @@ function setupMenuButtons(){
         case 'hono':
           page = 'honorifics';
           break;
+        case 'stat':
+          page = 'stats';
+          break;
         default:
           page = '';
       }

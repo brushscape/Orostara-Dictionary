@@ -144,7 +144,7 @@ function displayEntry(entry, searchedTerm, only, el){
 }
 
 function displayRootWord(word, lang){
-  var italics = ["English", "Spanish", "French", "Italian", "Portuguese", "Javanese", "Vietnamese", "German"];
+  var italics = ["English", "Spanish", "French", "Italian", "Portuguese", "Javanese", "Vietnamese", "German", "Latin"];
 
   if(italics.indexOf(lang) != -1){
     return "<i>"+word.toLowerCase()+"</i>";
