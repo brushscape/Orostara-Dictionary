@@ -59,9 +59,18 @@ function displayEntryArry(entryArr, searchedTerm){
 
       var newDef = originDef.cloneNode(true);
       displayEntry(entryArr[i], searchedTerm, false, newDef);
+      extraContainer.appendChild(createLine());
       extraContainer.appendChild(newDef);
     }
   }
+}
+
+function createLine(){
+  var el = document.createElement('hr');
+  el.id = 'line';
+  el.className = 'line';
+
+  return el;
 }
 
 function displayEntry(entry, searchedTerm, only, el){
