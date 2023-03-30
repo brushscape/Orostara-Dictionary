@@ -88,7 +88,6 @@ fais,yes,,face,,,,,English,face,
 faj,yes,,reason,cause,,because/through/with,,Urdu,وجہ,vajah
 fajan,yes,,evolution ,evolve,,,,Mandarin Chinese,发展,Fāzhǎn
 fakat,yes,,,,,just/only/merely,,Persian,فقط,aqat
-fakiyam,yes,,sentence/statement,,,,,Tamil,வாக்கியம்,Vākkiyam
 faktor,yes,,factor,,,,,German,Faktor,
 fakuan,yes,,judge,,,,,Mandarin Chinese,法官,Fǎguān
 fam,yes,,warmth,heat,warm,,,German,warm,
@@ -179,7 +178,6 @@ huor,yes,,energy,,,,,Mandarin Chinese,活力,Huólì
 hupin,yes,,peace,,,,,Mandarin Chinese,和平,Hépíng
 husten,yes,,,cough,,,,German,Husten,
 if,yes,,,,,if,,English,if,
-ifat,yes,,phrase,,,,,Turkish,ifade,
 ij,yes,,motivation/will,motivate,,,,Marathi,इच्छा,Icchā
 ijin,yes,,,,,for/per,,Turkish,için,
 ik,yes,to a small degree,,,less/a little,,,Japanese,以下,Ika
@@ -228,7 +226,7 @@ jejak,,,,,,there,,Pemtara,jeh jak,
 jem,yes,,joy/enjoyment/fun/delight,like/enjoy/fond,happy/fun/enjoyable,,,Gujarati,જેમ,Jēma
 jen,yes,,degree,,,,,Mandarin Chinese,程度,Chéngdù
 jerun,yes,,wheel,,,,,Mandarin Chinese,车轮,Chēlún
-jet,yes,"also a swear, lowgrade like 'shit' or 'balls'",hole,dig/drill,,,,Hindi,छेद,chhed
+jet,yes,also a swear; lowgrade like 'shit' or 'balls',hole,dig/drill,,,,Hindi,छेद,chhed
 jetan,yes,,consciousness,,conscious ,,,Bangla,চেতনা,Cētanā
 jiak,yes,,price/bill/invoice,charge,,,,Mandarin Chinese,价格,Jiàgé
 jiatin,yes,,family,,,,,Mandarin Chinese,家庭,Jiātíng
@@ -268,7 +266,7 @@ kafar,yes,,wish,want/desire,,,,Telugu,కావాలి,Kāvāli
 kaik,yes,,approximation,guess,,,,Mandarin Chinese,猜测,Cāicè
 kajar,yes,,waste/trash/(polite) poop,,,,,Gujarati,કચરો,Kacarō
 kajrur,,,rectum,,,,,Pemtara,kaj rur,waste tube
-kak,yes,"also a swear, used like 'shit' but slightly less vulgar",excriment,poop,,,,Spanish,caca,
+kak,yes,also a swear; used like 'shit' but slightly less vulgar,excriment,poop,,,,Spanish,caca,
 kaket,yes,,surprise,,surprising/sudden,,,Javanese,kaget,
 kam,yes,,employment/job,employ/hire/work,,,,Hindi,काम,kaam
 kamin,yes,,path,,,,,Spanish,camino,
@@ -334,7 +332,7 @@ konek,yes,,connection/relation,connect/relate,,,,Spanish,conectar,
 konfiar,yes,,,entrust,,,,Spanish,confiar,
 konmin,yes,,intelligence,,intelligent/smart ,,,Mandarin Chinese,聪明,Cōngmíng
 konsep,yes,,concept,conceptualize ,,,,Spanish,concepto,
-kopiy,yes,,duplicate/clone,copy/multiply,same/identical,,,Spanish,Copiar,
+kopiy,yes,,duplicate/clone,copy/multiply,same/identical/similar,same/like/as/such as,,Spanish,Copiar,
 koref,yes,,task,delegate,,,,Turkish,görev,
 korkey,yes,,policy,,,,,Tamil,கொள்கை,Koḷkai
 korkos,yes,,rabbit/bunny,,,,,Bangla,খরগোশ,khôrgoś
@@ -369,7 +367,7 @@ kus,yes,,grass,,,,,Japanese,草,kusa
 kut,yes,,,,,even,,Tamil,கூட,Kūṭa
 kutaf,yes,,adjustment,adjust/change,,,,Gujarati,ગોઠવો,Gōṭhavō
 mafut,yes,no charge,,,free,,,Urdu,مفت,muft
-mahit,yes,,knowledge/fact/information,know/inform ,,,,Marathi,माहित,Māhita
+mahit,yes,,knowledge/fact/information,know/inform/identify/determine/recognize,,,,Marathi,माहित,Māhita
 mahitnap,,,expert,,,,,Pemtara,mahit napa,knowledge person
 majar,yes,,field,,,,,Arabic,مجال,majal
 mak,yes,,bar/rod/pole/stick,,,,,Korean,막대,magdae
@@ -695,7 +693,7 @@ sensin,yes,,application,apply,,,,Mandarin Chinese,申请,Shēnqǐng
 sentiy,yes,,,,physical,,,Mandarin Chinese,身体,Shēntǐ
 ser,yes,,four,,,,,Shanghainese,四,sr
 set,yes,,area,,,,,Hindi,क्षेत्र,kṣétra
-sey,yes,,action/activity,do/act/happen/use,active/useful,,,Tamil,செய்,Cey
+sey,yes,,action/activity,do/act/happen/use,active/useful,with/using,,Tamil,செய்,Cey
 sian,yes,,camera,,,,,Mandarin Chinese,相机,Xiàngjī
 sifan,yes,,west,,,,,Mandarin Chinese,西方,Xīfāng
 sijun,yes,,resource,,,,,Cantonese,资源,zi jyun
@@ -767,7 +765,7 @@ tankap,yes,,level,,,,,Cantonese,等级,dang kap
 tanut,yes,,,chill,cool/cold,,,Hindi,ठंडा,thanda
 tapan,yes,,,push/shove/pull,,,,Gujarati,દબાણ,Dabāṇa
 tapman,yes,,temperature,,,,,Hindi,तापमान,taapamaan
-tar,yes,,speach/language,talk/speak/say,,,,English,talk,
+tar,yes,,speech/language/statement,talk/speak/say/tell,,,,English,talk,
 tarat,yes,,pain,hurt,painful,,,Punjabi,ਦਰਦ,Darada
 tarik,yes,,teeth/tooth,bite,,,,Hindi,तारीख,taareekh
 tarjih,yes,,preference,prefer/favor,favorite,rather,,Urdu,ترجیح,tarjīh
@@ -778,7 +776,6 @@ tatuan,yes,,,interrupt/interject,,,,Mandarin Chinese,打断,Dǎ duàn
 tay,yes,,code,encode/encrypt,cryptic,,,Mandarin Chinese,代码,Dàimǎ
 tayfun,yes,,credit,grant a loan,,,,Cantonese,贷款,taai fun
 taysin,yes,,improvement,improve,,,,Cantonese,提升,tai sing
-tayun,yes,,,determine/identify/recognize,,,,Urdu,تعین,tuayyin
 tefin,yes,,definition,define,,,,Spanish,definir,
 tempak,yes,,projectile,shoot,,,,Javanese,tembak,
 ten,yes,,day,,,,,Russian,день,den'
@@ -817,7 +814,7 @@ tomar,yes,,,,tame/domesticated,,,Portuguese,domar,
 ton,yes,can be used as an honorific suffix,partner,,,partner,,Korean,동료,donglyo
 top,yes,,help/service/benefit,assist/serve,,,,Korean,돕다,dobda
 tor,yes,,duty,,,,,Russian,долг,dolg
-tos,yes,,friend,befriend,friendly,,,Hindi,दोस्त,dost
+tos,yes,can be used as an honorific suffix,friend,befriend,friendly,,,Hindi,दोस्त,dost
 toy,yes,,two,,,,,Portuguese,dois,
 tuharaf,yes,,repetition,repeat,repetitive,,,Hindi,दुहराव,duharaav
 tujon,yes,,,dare,,,,Korean,도전,dojeon
@@ -860,7 +857,6 @@ yarsam,yes,,drawing,draw,,,,Arabic,يرسم,yarsam
 yat,yes,,list,,,,,Marathi,यादी,Yādī
 yeh,yes,,this/(colloquially) I/me,,,,,Hindi,यह,yah
 yejak,,,,,,here,,Pemtara,yeh jak,
-yen,yes,,,,similar,as/like/such as,,Tamil,என,Eṉa
 yenar,yes,,,fill,,,,Spanish,llenar,
 yes,yes,,leaf,,,,,Mandarin Chinese,叶子,Yèzi
 yetruk,yes,,,allow/let,,,,Arabic,____,yatrak
@@ -877,8 +873,8 @@ yukat,yes,,plan/strategy,,,,,Arabic,يخطط,yukhatat
 yuksek,yes,,height,rise,high/tall,,,Turkish,yüksek,
 yun,yes,,luck/chance,,lucky,,,Mandarin Chinese,运气,Yùnqì
 yunet,yes,,unit,,,,,English,unit,
-je,,slang/informal,you,,,,,Pemtara,jeh,
-ye,,slang/informal,I/me,,,,,Pemtara,yeh,
+je,,slang; informal,,,,you,,Pemtara,jeh,
+ye,,slang; informal,,,,I/me,,Pemtara,yeh,
 sison,yes,time of year,season,,,,,English,season,
 tansison,,time of year,winter,,,,,Pemtara,tanut sison,
 famsison,,time of year,summer,,,,,Pemtara,fam sison,
@@ -922,3 +918,6 @@ toyahop,,,twenty/20,,,,,Pemtara,toy ahop,
 toyahoptij,,named for the number of faces on the object,icosahedron,,,,,Pemtara,toyahop tij,
 sertij,,named for the number of faces on the object,tetrahedron,,,,,Pemtara,ser tij,
 tinhintij,,,triangular prism,,,,,Pemtara,tinhin tij,
+fis,yes,,,,,about,,Gujarati,____,Vi__
+karimkun,,,sentence/phrase/statement,,,,,Pemtara,karim kun,
+motsayir,,,poison/venom,,poisonous,,,Pemtara,mot sayir,

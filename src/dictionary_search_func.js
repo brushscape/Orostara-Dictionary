@@ -207,9 +207,9 @@ function displayWordList(list1, searched, commaSeparated){
     //spacing for next entry if applicable
     if(i<list.length-1){
       if(commaSeparated){
-        stringList+='</u>,&nbsp;';
+        stringList+=',&nbsp;';
       }else{
-        stringList+='</u>&nbsp;';
+        stringList+='&nbsp;';
       }
     }
   }

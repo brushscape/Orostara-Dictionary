@@ -4,7 +4,7 @@ function pemClick(searchedWord){
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length-1);
   var endList = ['a', 'e', 'o', 'i', 'u'];
-  var specialCases = ['na', 'nihao', 'mira', 'hera', 'meta', 'para', 'suta', 'jusa', 'esta', 'arsa', 'koka', 'jina'];
+  var specialCases = ['ye','je','na', 'nihao', 'mira', 'hera', 'meta', 'para', 'suta', 'jusa', 'esta', 'arsa', 'koka', 'jina'];
   var otherWord = '';
   if(specialCases.indexOf(searchedWord) == -1 && endList.indexOf(lastChar) != -1){
     searchedWord = searchedWord.substring(0, searchedWord.length-1);
