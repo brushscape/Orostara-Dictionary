@@ -69,19 +69,19 @@ function showOnly(type){
   }
 
   var fullTable = document.getElementById('fullDictTable');
-  var color = 0;
+  var counter = 0;
+
   for(var i=1;i<fullTable.children.length;i++){
     var el = fullTable.children[i];
     if(el.classList.contains(type) || type == 'full'){
       el.style.display = 'table-row';
       console.log('why');
-      if(color == 0){
+      if(counter%2 == 0){
         el.style.backgroundColor = 'var(--grey)';
-        color = 1;
       }else{
         el.style.backgroundColor = 'white';
-        color = 0;
       }
+      counter++;
     }else{
       el.style.display = 'none';
     }
@@ -111,4 +111,6 @@ function showOnly(type){
   document.getElementById('drop'+type).style.display = 'none';
   document.getElementById('drop'+prev).style.display = 'block';
   prev = type;
+
+  document.getElementById('numWords').innerHTML = counter;
 }
