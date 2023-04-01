@@ -63,15 +63,13 @@
     align-self: center;
 }
 .menuBar{
-    width: 100%;
+    width: 100vw;
     background-color: var(--dark1);
     color: AliceBlue;
     display: flex;
     flex-direction: column;
-    padding-top: 2vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
     justify-content: flex-end;
+    overflow: hidden;
 }
 
 .title{
@@ -100,6 +98,7 @@
     border-top-style: solid;
     border-left-style: solid;
     border-right-style: solid;
+    border-radius: 10px 10px 0 0;
 }
 
 .menuItem:hover{

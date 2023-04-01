@@ -11,27 +11,6 @@
     margin-left: 15px;
 }
 
-table{
-    margin-left: 15px;
-    text-align: left;
-    border-collapse: collapse;
-    width: calc(200px + 30vw);
-    margin-bottom: var(--small);
-}
-
-td, th {
-  border: 1px solid var(--dark2);
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(odd) {
-  background-color: var(--lightlight2);
-}
-tr:nth-child(1) {
-  background-color: var(--medium2);
-}
-
 .addLink{
     font-size: var(--hugehuge);
     margin: var(--huge);
@@ -51,4 +30,25 @@ a:visited{
 
 a:hover{
     color: var(--dark2);
+}
+
+table{
+    margin-left: 15px;
+    text-align: left;
+    border-collapse: collapse;
+    width: calc(200px + 30vw);
+    margin-bottom: var(--small);
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid var(--dark2);
+}
+
+tr:nth-child(odd) {
+  background-color: var(--lightlight2);
+}
+tr:nth-child(1) {
+  background-color: var(--medium2);
 }

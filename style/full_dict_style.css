@@ -2,13 +2,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: var(--mini);
 }
 
 .fullDictTable{
     width: 100%;
-    margin: 0;
     padding:0;
     font-size: var(--minimini);
+    margin:0;
 }
 
 
