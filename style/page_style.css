@@ -1,9 +1,14 @@
 :root {
-    --light: #5983d9;
-    --medium: #416abf;
-    --dark: #2c529e;
-    --white: AliceBlue;
-    --grey: #c0cff0;
+    --lightlight1: #9ad14d;
+    --light1: #71b535;
+    --medium1: #30a122;
+    --dark1: #0e8032;
+    --white: #fcfbdc;
+    --lightlight2:#faf4be;
+    --light2:#f5ec9f;
+    --medium2: #f5de82;
+    --dark2: #f5ba56;
+    --darkdark2:#d68727;
     --minimini: calc(20px + 0.25vw);
     --mini: calc(23px + 0.25vw);
     --small: calc(26px + 0.25vw);
@@ -56,12 +61,10 @@
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin-left: var(--small);
-    margin-right: var(--small);
 }
 .menuBar{
     width: 100%;
-    background-color: var(--dark);
+    background-color: var(--dark1);
     color: AliceBlue;
     display: flex;
     flex-direction: column;
@@ -69,7 +72,6 @@
     padding-left: 1vw;
     padding-right: 1vw;
     justify-content: flex-end;
-    border-radius: 20px 20px 0 0;
 }
 
 .title{
@@ -89,21 +91,59 @@
 .menuItem{
     display: flex;
     flex-grow: 1;
-    background-color: var(--light);
-    margin-left: 1vw;
-    margin-right: 1vw;
+    background-color: var(--light1);
     padding: calc(3px + 1vw);
-    border-radius: 20px 20px 0 0;
     justify-content: center;
     align-items: flex-end;
     font-size: var(--midSize);
-    border-color: var(--dark);
-    border-style: solid;
+    border-color: var(--dark1);
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
 }
 
 .menuItem:hover{
-    background-color: var(--medium);
-    color: var(--grey);
+    background-color: var(--medium1);
+    color: var(--lightlight1);
+    cursor: default;
+}
+
+.activeSpecial{
+    background-color: var(--lightlight1) !important;
+    border-color: White !important;
+    color: White !important;
+}
+
+.active{
+    background-color: White !important;
+    border-color: White !important;
+    color: var(--medium1) !important;
+}
+
+.quickActive{
+    background-color: White !important;
+    border-color: White !important;
+    color: var(--darkdark2) !important;
+}
+
+
+.quickMenu{
+    display:none;
+    background-color: var(--lightlight1);
+    padding-left: var(--midSize);
+    padding-right: var(--midSize);
+    padding-top: var(--midSize);
+}
+
+.quickItem{
+    background-color: var(--medium2);
+    border-color: var(--lightlight1);
+    color: var(--darkdark2);
+}
+
+.quickItem:hover{
+    color: var(--dark2);
+    background-color: var(--lightlight2);
     cursor: default;
 }
 
@@ -116,6 +156,7 @@ body {
     text-align: center;
     font-family: Optima, Helvetica, Ariel, sans-serif;
     font-size: var(--midSize);
+    margin: 0 auto;
 }
 
 .h2{

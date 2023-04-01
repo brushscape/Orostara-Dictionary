@@ -83,16 +83,16 @@
 }
 
 .pemLinkWord{
-  color: var(--light);
+  color: var(--darkdark2);
   text-decoration: underline;
   border-radius: 15px;
   padding: 0 5px 5px 5px;
 }
 
 .pemLinkWord:hover{
-  color: var(--dark);
+  color: var(--dark2);
   cursor: default;
-  background-color: var(--white);
+  background-color: var(--lightlight2);
 
 }
 

@@ -7,7 +7,7 @@
 
 }
 button{
-    background-color: var(--light);
+    background-color: var(--light1);
     border: none;
     color: white;
     padding: 15px 25px;
@@ -16,27 +16,36 @@ button{
     display: inline-block;
     font-size: var(--hugehuge);
     border-radius: 50px;
-    margin: 1vw;
+    margin: 1vw 0.5vw 0.5vw 1vw;
     font-family: Optima, Helvetica, Ariel, sans-serif;
 }
 button:hover{
-    background-color: var(--medium);
-    color: var(--grey);
+    background-color: var(--medium1);
+    color: var(--lightlight1);
 }
 button:disabled{
     background-color: #c3c9d6;
     color: #d3d9e6;
 }
 
+.translatorTitle{
+    margin-bottom: var(--large);
+}
+
 .langSelect{
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 25px;
+    padding: calc(10px + 0.25vw);
+    background-color: var(--white);
+    color: var(--darkdark2);
+    border-style: solid;
+    border-color: var(--dark2);
 }
 
 .langSelect:hover{
-    color: var(--light);
+    color: var(--dark2);
     cursor: default;
-    background-color: var(--white);
+    background-color: var(--lightlight2);
+    border-color: var(--medium2);
 }
 
 .searchBlock{
@@ -81,7 +90,7 @@ button:disabled{
 .directions{
     font-size: var(--mini);
     margin-left: var(--small);
-    color: var(--light);
+    color: var(--darkdark2);
     display:flex;
     flex-grow: 4;
     justify-content: flex-end;

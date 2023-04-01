@@ -15,7 +15,6 @@ function setupDictionarySearch(){
 }
 
 function setupMenuButtons(){
-  document.getElementById('translatorPg').style.borderColor = 'var(--white)';
   document.getElementById('quickMenu').style.display = 'none';
   $('.menuItem').click(function(event) {
       var page;
@@ -56,18 +55,29 @@ function setupMenuButtons(){
 
       if(!quick){
         document.getElementById('quickMenu').style.display = 'none';
-        document.getElementById('quickStartPg').style.borderColor = 'var(--dark)';
+        document.getElementById('quickStartPg').classList.remove('activeSpecial');
       }else{
-        document.getElementById('quickStartPg').style.borderColor = 'var(--white)';
+        document.getElementById('quickStartPg').classList.add('activeSpecial');
         document.getElementById('quickMenu').style.display = 'flex';
-        document.getElementById(quickPage+'Pg').style.borderColor = 'var(--white)';
       }
 
       if(currPage != page){
         document.getElementById(currPage).style.display = 'none';
         document.getElementById(page).style.display = 'flex';
-        document.getElementById(currPage+'Pg').style.borderColor = 'var(--dark)';
-        this.style.borderColor = 'var(--white)';
+
+        var tab = document.getElementById(currPage+'Pg');
+        if(tab.classList.contains('quickItem')){ //reset colors
+          tab.classList.remove('quickActive');
+        }else{
+          tab.classList.remove('active');
+        }
+
+        tab = document.getElementById(page+'Pg');
+        if(tab.classList.contains('quickItem')){ //select colors
+          tab.classList.add('quickActive');
+        }else{
+          tab.classList.add('active');
+        }
         currPage = page;
       }
   });

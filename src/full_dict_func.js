@@ -1,5 +1,11 @@
 var prev = 'full';
 
+function onDropHover(){
+  $('.menuItem').hover(function(event) {
+
+  });
+}
+
 function fillTable(){
   var containerEl = document.getElementById('fullDictTable');
   var baseEl = document.getElementById('dictDataRow');
@@ -75,9 +81,8 @@ function showOnly(type){
     var el = fullTable.children[i];
     if(el.classList.contains(type) || type == 'full'){
       el.style.display = 'table-row';
-      console.log('why');
-      if(counter%2 == 0){
-        el.style.backgroundColor = 'var(--grey)';
+      if(counter%2 == 1){
+        el.style.backgroundColor = 'var(--lightlight2)';
       }else{
         el.style.backgroundColor = 'white';
       }
@@ -88,26 +93,30 @@ function showOnly(type){
   }
 
   var but = document.getElementById('dropbtn');
+  var string = '';
   switch(type){
     case 'basic':
-      but.innerHTML = 'Basic Words &#9660';
+      string += 'Basic Words';
       break;
     case 'construct':
-      but.innerHTML = 'Constructed Words &#9660';
+      string += 'Constructed Words';
       break;
     case 'swear':
-      but.innerHTML = 'Swear Words &#9660';
+      string += 'Swear Words';
       break;
     case 'slang':
-      but.innerHTML = 'Slang Words &#9660';
+      string += 'Slang Words';
       break;
     case 'full':
-      but.innerHTML = 'Full Dictionary &#9660';
+      string += 'Full Dictionary';
       break;
     default:
-      but.innerHTML = 'Help';
+      string += 'Help';
       break;
   }
+  string += "&nbsp;<span style='font-size: var(--midSize);'>&#9660</span>"; // arrow
+  but.innerHTML = string;
+
   document.getElementById('drop'+type).style.display = 'none';
   document.getElementById('drop'+prev).style.display = 'block';
   prev = type;
