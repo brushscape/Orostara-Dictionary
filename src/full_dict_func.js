@@ -90,19 +90,19 @@ function showOnly(type){
   var but = document.getElementById('dropbtn');
   switch(type){
     case 'basic':
-      but.innerHTML = 'Basic Words';
+      but.innerHTML = 'Basic Words &#9660';
       break;
     case 'construct':
-      but.innerHTML = 'Constructed Words';
+      but.innerHTML = 'Constructed Words &#9660';
       break;
     case 'swear':
-      but.innerHTML = 'Swear Words';
+      but.innerHTML = 'Swear Words &#9660';
       break;
     case 'slang':
-      but.innerHTML = 'Slang Words';
+      but.innerHTML = 'Slang Words &#9660';
       break;
     case 'full':
-      but.innerHTML = 'Full Dictionary';
+      but.innerHTML = 'Full Dictionary &#9660';
       break;
     default:
       but.innerHTML = 'Help';

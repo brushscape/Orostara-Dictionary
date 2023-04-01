@@ -5,7 +5,7 @@
 }
 
 .fullDictTable{
-    width: 100% !important;
+    width: 98vw !important;
     margin-left: 0;
     padding:0;
 }
@@ -41,7 +41,7 @@
 /* Links inside the dropdown */
 .dropdownOption {
     color: black;
-    padding: 12px calc(130px + 0.5vw);
+    padding: var(--large) calc(130px + 0.5vw);
     text-decoration: none;
     display: block;
     cursor: default;
