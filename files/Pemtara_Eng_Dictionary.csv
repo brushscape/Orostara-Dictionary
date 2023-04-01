@@ -3,7 +3,7 @@ afas,basic,,phase,,,,,Hindi,अवस्था,avastha
 afon,basic,,invention,invent,,,,French,inventer,
 afsar,basic,,chance/opportunity,,,,,Hindi,अवसर,avasar
 ah,,,,,,Yeah,,Pemtara,am,
-ahop,basic,,ten,,,,,Korean,아홉,ahob
+ahop,basic,,ten/10,,,,,Korean,아홉,ahob
 ahopek,,,eleven/11,,,,,Pemtara,ahop ek,
 ahophaj,,,eighteen/18,,,,,Pemtara,ahop haj,
 ahopjij,,,seventeen/17,,,,,Pemtara,ahop jij,
@@ -79,7 +79,7 @@ aynuk,basic,,ink,print,,,,Hindi,आईएनके,aaeeenake
 ayojan,basic,,event,,eventful,,,Hindi,आयोजन,aayojan
 efet,basic,,effect/result/outcome,affect,,else,,Italian,effetto,
 eh,,,,,,"Um, Uh",,Pemtara,,
-ek,basic,,one,,,,,Hindi,एक,ek
+ek,basic,,one/1,,,,,Hindi,एक,ek
 ekip,basic,,equipment,equip,,,,Spanish,equipo,
 ektij,,named for the number of faces on the object,sphere/ball,,round,,,Pemtara,ek tij,
 emon,basic,,magnet,,,,,French,aimant,
@@ -153,7 +153,7 @@ fusison,,time of year,summer,,,,,Pemtara,fus sison,
 fustait,,,confidence,,confident,,,Pemtara,fus tait,
 ha,basic,exclamation marker ,,,,,particle ,Pemtara,ham,
 haf,basic,,air/wind,airate,airy/windy,,,Turkish,hava,
-haj,basic,,eight,,,,,Japanese,八,hachi
+haj,basic,,eight/8,,,,,Japanese,八,hachi
 hajhin,,named for the number of points on the shape,octagon,,,,,Pemtara,haj hintuk,
 Hajos,basic,,Neptune,,,,,Pemtara,haj hos,8th planet
 hajtij,,named for the number of faces on the object,diamond/octahedron,,,,,Pemtara,haj tij,
@@ -253,7 +253,7 @@ jiak,basic,,price/bill/invoice,charge,,,,Mandarin Chinese,价格,Jiàgé
 jiatin,basic,,family,,,,,Mandarin Chinese,家庭,Jiātíng
 jien,basic,,advice,advise/suggest/propose/recommend,advisable,,,Mandarin Chinese,建议,Jiànyì
 jies,basic,,explanation,explain,,,,Mandarin Chinese,解释,Jiěshì
-jij,basic,,seven,,,,,Shanghainese,七,qiq
+jij,basic,,seven/7,,,,,Shanghainese,七,qiq
 jijhin,,named for the number of points on the shape,septagon,,,,,Pemtara,jij hintuk,
 Jijos,basic,,Uranus,,,,,Pemtara,jij hos,7th planet
 jikar,basic,,force,,forceful,,,Japanese,力,Chikara
@@ -666,7 +666,7 @@ rok,basic,,goal/achievement,achieve/reach,achievable ,,,Bangla,লক্ষ্�
 rokan,basic,,oil,,,,,Persian,روغن,rowğan
 roran,basic,,concern,worry,,,,Vietnamese,lo lắng,
 rotur,basic,,,rip/tear,,,,Spanish,rotura,
-ruk,basic,,six,,,,,Cantonese,六,luk
+ruk,basic,,six/6,,,,,Cantonese,六,luk
 rukar,basic,,,put/place,,,,Portuguese,lugar,
 rukhin,,named for the number of points on the shape,hexagon,,,,,Pemtara,ruk hintuk,
 ruktij,,named for the number of faces on the object,cube/rectangular prism/box,,,,,Pemtara,ruk tij,
@@ -722,7 +722,7 @@ senkon,basic,,success/victory,succeed/win,,,,Shanghainese,成功,zen-kon
 sensin,basic,,application,apply,,,,Mandarin Chinese,申请,Shēnqǐng
 sensison,,time of year,spring,,,,,Pemtara,senjan sison,
 sentiy,basic,,,,physical,,,Mandarin Chinese,身体,Shēntǐ
-ser,basic,,four,,,,,Shanghainese,四,sr
+ser,basic,,four/4,,,,,Shanghainese,四,sr
 serhin,,named for the number of points on the shape,square/rectangle/diamond,,,,,Pemtara,ser hintuk,
 sertij,,named for the number of faces on the object,tetrahedron,,,,,Pemtara,ser tij,
 set,basic,,area/field/dimension,,,,,Hindi,क्षेत्र,kṣétra
@@ -736,7 +736,7 @@ sikoen,basic,,market,,,,,Cantonese,市场,si coeng
 sim,basic,,present,,current,now,time,Turkish,Şimdi,
 simin,basic,,mission,,,,,Mandarin Chinese,使命,Shǐmìng
 simten,,,today,,,,,Pemtara,sim ten,
-sin,basic,,five,,,,,Portuguese,cinco,
+sin,basic,,five/5,,,,,Portuguese,cinco,
 sinar,basic,,sign/symbol,signal,,,,Portuguese,sinal,
 sinhin,,named for the number of points on the shape,pentagon,,,,,Pemtara,sin hintuk,
 sinkey,basic,,nerve,,,,,Japanese,神経,Shinkei
@@ -817,7 +817,7 @@ ter,basic,,,,late,,,Bangla,দেরী,Dērī
 terej,basic,,,,straight,,,Spanish,derecho,
 teriker,basic,,disgust,,disgusting/nasty/distasteful,,,German,der Ekel,
 terin,basic,,,,clear,,,Tamil,தெளிந்த,Teḷinta
-tes,basic,,nine,,,,,Arabic,تسع,tise
+tes,basic,,nine/9,,,,,Arabic,تسع,tise
 tesis,basic,,disease/illness,,ill,,,English,disease,
 tesut,basic,,test/trial,,,,,Italian,test,
 tet,basic,specifically to touch with your finger(s),finger,touch,,,,Spanish,dedo,
@@ -832,7 +832,7 @@ tiket,basic,,ticket,,,,,English,ticket,
 tikon,basic,,offer,,,,,Mandarin Chinese,提供,Tígōng
 tiksun,basic,,,,sharp/keen,,,Bangla,তীক্ষ্ণ,Tīkṣṇa
 tim,basic,,team,,,,,German,team,
-tin,basic,,three,,,,,Punjabi,ਤਿੰਨ,Tina
+tin,basic,,three/3,,,,,Punjabi,ਤਿੰਨ,Tina
 tinhin,,named for the number of points on the shape,triangle,,,,,Pemtara,tin hintuk,
 tinhintij,,,triangular prism,,,,,Pemtara,tinhin tij,
 tintij,,named for the number of faces on the object,cylinder,,,,,Pemtara,tin tij,
@@ -852,7 +852,7 @@ ton,basic,can be used as an honorific suffix,partner,,,partner,,Korean,동료,do
 top,basic,,help/service/benefit,assist/serve,,,,Korean,돕다,dobda
 tor,basic,,duty,,,,,Russian,долг,dolg
 tos,basic,can be used as an honorific suffix,friend,befriend,friendly,,,Hindi,दोस्त,dost
-toy,basic,,two,,,,,Portuguese,dois,
+toy,basic,,two/2,,,,,Portuguese,dois,
 toyahop,,,twenty/20,,,,,Pemtara,toy ahop,
 toyahoptij,,named for the number of faces on the object,icosahedron,,,,,Pemtara,toyahop tij,
 toytij,,named for the number of faces on the object,cone,,,,,Pemtara,toy tij,
