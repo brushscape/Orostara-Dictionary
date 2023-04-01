@@ -37,3 +37,7 @@ tr:nth-child(even) {
 .links{
     padding: var(--large);
 }
+
+.quickMenu{
+    display:none;
+}
