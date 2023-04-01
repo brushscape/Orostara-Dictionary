@@ -26,6 +26,29 @@
   }
 }
 
+.partsOfSpeech{
+    display: none;
+}
+
+.prefixSuffix{
+    display: none;
+}
+
+.honorifics{
+    display: none;
+}
+
+.addLinks{
+    display:none;
+}
+
+.fullDict{
+    display:none;
+}
+
+.translator{
+    display: flex;
+}
 
 .pageBody{
     width: 100%;

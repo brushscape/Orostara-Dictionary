@@ -10,6 +10,7 @@ function readCSVFile(){
       var rowData = csvdata.split('\n');
       var colHeaders = rowData[0].split(',');
 
+
       for (var row = 1; row < rowData.length; row++) {
         var rowColData = rowData[row].split(',');
         var rowObj = {};
@@ -21,18 +22,7 @@ function readCSVFile(){
           }
         }
         pemtaraDict.push(rowObj);
-        if(rowObj.BasicDict == 'yes'){
-          basicWords++;
-        }
-        else{
-          constructWords++;
-        }
       }
-
-      document.getElementById('basicNum').innerHTML = basicWords;
-      document.getElementById('constructNum').innerHTML = constructWords;
-      document.getElementById('totalNum').innerHTML = constructWords + basicWords;
+      fillTable();
   });
-
-  console.log('done');
 }

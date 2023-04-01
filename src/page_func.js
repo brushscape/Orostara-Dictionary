@@ -31,8 +31,11 @@ function setupMenuButtons(){
         case 'hono':
           page = 'honorifics';
           break;
-        case 'stat':
-          page = 'stats';
+        case 'link':
+          page = 'links';
+          break;
+        case 'full':
+          page = 'fullDict';
           break;
         default:
           page = '';

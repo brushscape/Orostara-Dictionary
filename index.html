@@ -4,6 +4,7 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
+  <link rel="stylesheet" href="style/full_dict_style.css">
   <link rel="stylesheet" href="style/dict_search_style.css">
   <link rel="stylesheet" href="style/dict_entry_style.css">
   <link rel="stylesheet" href="style/other_cheats_style.css">
@@ -14,6 +15,7 @@
   <script src='src/dict_memory_func.js'></script>
   <script src='src/dict_process_pem_word.js'></script>
   <script src='src/dict_process_eng_word.js'></script>
+  <script src='src/full_dict_func.js'></script>
 </head>
 
 
@@ -26,11 +28,47 @@
         <div class='menuItem' id='partsOfSpeechPg'>Parts of Speech</div>
         <div class='menuItem' id='prefixSuffixPg'>Common Prefixes & Suffixes</div>
         <div class='menuItem' id='honorificsPg'>Honorifics</div>
-        <div class='menuItem' id='statsPg'>Stats</div>
+        <div class='menuItem' id='fullDictPg'>Full Dictionary</div>
+        <div class='menuItem' id='linksPg'>Links</div>
     </div>
 </div>
 
 <div class='pageBody'>
+    <div id='fullDict' class='fullDict'>
+        <h2>Now Displaying...</h2>
+        <div class="dropdown">
+         <button class="dropbtn" id='dropbtn'>Full Dictionary</button>
+         <div class="dropdown-content">
+           <div class='dropdownOption' id = 'dropfull' style='display: none' onclick="showOnly('full')">Full Dictionary</div>
+           <div class='dropdownOption' id = 'dropbasic' onclick="showOnly('basic')">Basic Words</div>
+           <div class='dropdownOption' id = 'dropconstruct' onclick="showOnly('construct')">Constructed Words</div>
+           <div class='dropdownOption' id = 'dropslang' onclick="showOnly('slang')">Slang Words</div>
+           <div class='dropdownOption' id = 'dropswear' onclick="showOnly('swear')">Swear Words</div>
+         </div>
+       </div>
+       <div class='countContainer'>
+           <div id='numWords'></div>
+           <div>&nbsp;Listed</div>
+       </div>
+        <table class='fullDictTable' id='fullDictTable'>
+            <tr>
+                <th>Pemtara</th>
+                <th>Noun Definitions</th>
+                <th>Verb Definitions</th>
+                <th>Descriptor Definitions</th>
+                <th>Other Definitions</th>
+                <th>Additional Notes</th>
+            </tr>
+            <tr id='dictDataRow'>
+                <td>Example</td>
+                <td>noun list</td>
+                <td>verb list</td>
+                <td>descriptor list</td>
+                <td>other list</td>
+                <td>*notes here</td>
+            </tr>
+        </table>
+    </div>
     <div id='translator' class='translator pageBody'>
         <div class='buttonContainer'>
             <button type='button' class='fbButton' onclick='goback()' id='backBut'><</button>
@@ -216,7 +254,7 @@
             </tr>
             <tr>
                 <td>ik-</td>
-                <td>a little; to a small degree</td>
+                <td>a little, less; to a small degree</td>
             </tr>
             <tr>
                 <td>kuj-</td>
@@ -224,7 +262,7 @@
             </tr>
             <tr>
                 <td>mas-</td>
-                <td>a lot; to a large degree</td>
+                <td>a lot, more; to a large degree</td>
             </tr>
             <tr>
                 <td>ham-</td>
@@ -401,13 +439,11 @@
             </tr>
         </table>
     </div>
-    <div id='stats' class='honorifics otherCheats'>
-        <h2>Number of Words in Basic Dictionary</h2>
-        <div id='basicNum'></div>
-        <h2>Number of Additional Constructed Words</h2>
-        <div id='constructNum'></div>
-        <h2>Total Number of Words</h2>
-        <div id='totalNum'></div>
+    <div id='links' class='links otherCheats'>
+        <a href='https://forms.gle/iruX27YSHaQd6NXN9' class='addLink' target='_blank'>Worksheet 1</a>
+        <a href='https://forms.gle/GvEPC6aPpJAfkQa9A' class='addLink' target='_blank'>Worksheet 2</a>
+        <a href='https://forms.gle/Nz7ckgBxTVoLqEDf7' class='addLink' target='_blank'>Worksheet 3</a>
+        <a href='https://forms.gle/bk22QzVpj8xv8S4p7' class='addLink' target='_blank'>Worksheet 4</a>
     </div>
 </div>
 
