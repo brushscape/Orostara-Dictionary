@@ -24,7 +24,7 @@ function pemClick(searchedWord){
     incMemory('Pemtara',searchedWord);
   }else if(found == 2){
     incMemory('Pemtara',otherWord);
-  }else if(found == 3){
+  }else if(found == 3){ // incase they search a word like 'kanan' which could be 'kanan' without an ending or 'kan' with an ending
     incMemory('Pemtara2',[searchedWord,otherWord]);
   }
 }

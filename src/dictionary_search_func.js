@@ -172,28 +172,28 @@ function displayRootWord(word, lang){
     return "<i>"+word.toLowerCase()+"</i>";
   }else if (lang == "Pemtara"){
     var word1 = cleanupTextInput(word);
-    if(word1.indexOf(' ') == -1){
-      //only one word
-      return returnLink(word1,1);
-    }else {
-      var word1 = cleanupTextInput(word);
-      var words = word1.split(' ');
-      return returnLink(words[0],1)+"&nbsp;and&nbsp;"+returnLink(words[1],2);
+    var arr = word1.split(' ');
+    var str = '';
+    for(var i=0; i<arr.length; i++){
+      str += returnLink(arr[i],i+1);
+      if(i<arr.length-1){
+        str+="&nbsp;and&nbsp;";
+      }
     }
+    return str;
   }else{
     return word.toLowerCase();
   }
 
 }
 
-function gotoWord1(){
-  gotoWord(document.getElementById('1').innerHTML);
+function gotoLinkWord(num){
+  var word = document.getElementById(num).innerHTML;
+  gotoWord(word);
 }
 
-function gotoWord2(){
-  gotoWord(document.getElementById('2').innerHTML);
-}
 function gotoWord(word){
+  clearPage();
   var entry = searchPemtara(word);
   displayEntry(entry,'',true);
   incMemory('Pemtara',word);
@@ -201,7 +201,7 @@ function gotoWord(word){
 
 function returnLink(word,num){
   if(searchPemtara(word) != 0){
-    return "<u><div class='pemLinkWord' id='"+num+"' onclick='gotoWord"+num+"()'>"+word+"</div></u>";
+    return "<u><div class='pemLinkWord' id='"+num+"' onclick='gotoLinkWord("+num+")'>"+word+"</div></u>";
   }
   else if(word == '' || word == 'N,A'){
     return '?';

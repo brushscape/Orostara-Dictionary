@@ -3,7 +3,6 @@
 var memory = [];
 var memoryIndex = 0;
 
-//TODO add a bound so it doesn't save forever
 function goback(){
   if(memoryIndex>0){
     memoryIndex--;
@@ -12,8 +11,8 @@ function goback(){
     if(word[0]=='English'){
       engEntry(word[1]);
     }else if(word[0]=='Pemtara'){
-      pemEntry(word[1]);
-    }else{
+      pemEntry(word[1],'');
+    }else{ //Pemtara2
       pemEntry(word[1][0],word[1][1]);
     }
   }
@@ -29,7 +28,7 @@ function goforward(){
     if(word[0]=='English'){
       engEntry(word[1]);
     }else if(word[0]=='Pemtara'){
-      pemEntry(word[1]);
+      pemEntry(word[1],'');
     }else{ //Pemtara2
       pemEntry(word[1][0],word[1][1]);
     }
