@@ -46,9 +46,12 @@
 }
 
 .notes{
-    margin-top: var(--midSize);
     font-size: var(--mini);
     color: DarkGrey;
+}
+
+.spacer{
+    margin-top: var(--midSize);
 }
 
 .conj{

@@ -28,7 +28,7 @@ function searchEnglish(word){
 
   //go through every dictionary entry
   for(var i=0; i<pemtaraDict.length; i++){
-    var entriesToCheck = [pemtaraDict[i].Nouns,pemtaraDict[i].Verbs,pemtaraDict[i].Descriptors,pemtaraDict[i].Other];
+    var entriesToCheck = [pemtaraDict[i].Nouns,pemtaraDict[i].Verbs,pemtaraDict[i].Adjectives,pemtaraDict[i].Adverbs,pemtaraDict[i].Other];
 
     for(var j=0; j<entriesToCheck.length; j++){
       //search each entry option
@@ -49,7 +49,8 @@ function searchEnglish(word){
   return entryArr;
 }
 
-function arrayHasWord(arr, word){
+function arrayHasWord(arr, word1){
+  var word = word1.toLowerCase();
   //search through array
   for(var j=0; j<arr.length; j++){
 

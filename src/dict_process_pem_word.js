@@ -52,9 +52,11 @@ function pemEntry(searchedWord, otherWord){
   }
 }
 
-function searchPemtara(word){
+function searchPemtara(word1){
+  var word = word1.toLowerCase();
   for(var i=0; i<pemtaraDict.length; i++){
-    if(pemtaraDict[i].Pemtara == word){
+    var checkWord = pemtaraDict[i].Pemtara.toLowerCase();
+    if(checkWord == word){
       return pemtaraDict[i];
     }
   }

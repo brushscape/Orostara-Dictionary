@@ -41,9 +41,10 @@ function fillTable(){
     row.children[0].innerHTML = rowObj.Pemtara;
     row.children[1].innerHTML = simpleListDisplay(rowObj.Nouns);
     row.children[2].innerHTML = simpleListDisplay(rowObj.Verbs);
-    row.children[3].innerHTML = simpleListDisplay(rowObj.Descriptors);
-    row.children[4].innerHTML = simpleListDisplay(rowObj.Other);
-    row.children[5].innerHTML = simpleListDisplay(rowObj.Notes);
+    row.children[3].innerHTML = simpleListDisplay(rowObj.Adjectives);
+    row.children[4].innerHTML = simpleListDisplay(rowObj.Adverbs);
+    row.children[5].innerHTML = simpleListDisplay(rowObj.Other);
+    row.children[6].innerHTML = simpleListDisplay(rowObj.Notes);
     row.style.display = 'inlineBlock';
     containerEl.appendChild(row);
   }

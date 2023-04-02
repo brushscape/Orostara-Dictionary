@@ -92,26 +92,34 @@ function displayEntry(entry, searchedTerm, only, el){
   getChildElement(wordDefEl,'etym').innerHTML = 'from&nbsp;'+displayRootWord(entry.RLWord, entry.RootLanguage) +'&nbsp;in '+entry.RootLanguage;
 
   // display Notes and Other in the same section right under the word definition
-  if(entry.Notes + entry.Other == ''){ // skip if no notes or other
-    getChildElement(wordDefEl,'def').style.display = 'none';
+  var shown = false;
+  var childEl = getChildElement(wordDefEl,'def');
+  if(entry.Other == ''){
+    getChildElement(childEl,'other').style.display = 'none';
   }else{
-    childEl = getChildElement(wordDefEl,'def');
-    console.log()
-    if(entry.Notes == ''){
-      getChildElement(childEl,'notes').style.display='none';
-    }else{
-      getChildElement(childEl,'notes').innerHTML='*'+entry.Notes;
-      getChildElement(childEl,'notes').style.display='flex';
-    }
+    shown = true;
+    getChildElement(childEl,'other').innerHTML = displayWordList(entry.Other, searchedTerm, true);
+    getChildElement(childEl,'other').style.display='flex';
+  }
 
-    if(entry.Other ==''){
-      getChildElement(childEl,'other').style.display='none';
-    }else{
-      getChildElement(childEl,'other').innerHTML = displayWordList(entry.Other, searchedTerm, true);
-      getChildElement(childEl,'other').style.display='flex';
+  if(entry.Notes == ''){
+    getChildElement(childEl,'notes').style.display = 'none';
+  }else{
+    var notesEl = getChildElement(childEl,'notes');
+    notesEl.innerHTML='*'+entry.Notes;
+    notesEl.style.display='flex';
+    if(shown && !notesEl.classList.contains('spacer')){
+      notesEl.classList.add('spacer');
+    }else if (!shown && notesEl.classList.contains('spacer')){
+      notesEl.classList.remove('spacer');
     }
+    shown = true;
+  }
 
+  if(shown){
     childEl.style.display = 'flex';
+  }else{
+    childEl.style.display = 'none';
   }
 
   if(entry.Nouns == ''){
@@ -134,14 +142,24 @@ function displayEntry(entry, searchedTerm, only, el){
     getChildElement(wordDefEl,'verbContain').style.display = 'flex';
   }
 
-  if(entry.Descriptors == ''){
-    getChildElement(wordDefEl,'desContain').style.display = 'none';
+  if(entry.Adjectives == ''){
+    getChildElement(wordDefEl,'adjContain').style.display = 'none';
   }else{
-    childEl = getChildElement(wordDefEl,'des');
-    childEl.innerHTML = '<b>'+entry.Pemtara+'i / '+entry.Pemtara+'e </b>&nbsp;';
-    childEl = getChildElement(wordDefEl,'desFill');
-    childEl.innerHTML = '&nbsp;&nbsp;'+displayWordList(entry.Descriptors, searchedTerm, true);
-    getChildElement(wordDefEl,'desContain').style.display = 'flex';
+    childEl = getChildElement(wordDefEl,'adj');
+    childEl.innerHTML = '<b>'+entry.Pemtara+'i </b>&nbsp;';
+    childEl = getChildElement(wordDefEl,'adjFill');
+    childEl.innerHTML = '&nbsp;&nbsp;'+displayWordList(entry.Adjectives, searchedTerm, true);
+    getChildElement(wordDefEl,'adjContain').style.display = 'flex';
+  }
+
+  if(entry.Adverbs == ''){
+    getChildElement(wordDefEl,'advContain').style.display = 'none';
+  }else{
+    childEl = getChildElement(wordDefEl,'adv');
+    childEl.innerHTML = '<b>'+entry.Pemtara+'e </b>&nbsp;';
+    childEl = getChildElement(wordDefEl,'advFill');
+    childEl.innerHTML = '&nbsp;&nbsp;'+displayWordList(entry.Adverbs, searchedTerm, true);
+    getChildElement(wordDefEl,'advContain').style.display = 'flex';
   }
 
   document.getElementById('wordDefContainer').style.display='flex';
