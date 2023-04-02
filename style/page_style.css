@@ -9,18 +9,21 @@
     --medium2: #f5de82;
     --dark2: #f5ba56;
     --darkdark2:#d68727;
-    --minimini: calc(20px + 0.25vw);
-    --mini: calc(23px + 0.25vw);
-    --small: calc(26px + 0.25vw);
-    --midSize: calc(30px + 0.25vw);
-    --large: calc(34px + 0.25vw);
-    --huge: calc(38px + 0.25vw);
-    --hugehuge: calc(42px + 0.25vw);
+    --superMini: calc(18px + 0.25vw);
+    --minimini: calc(22px + 0.25vw);
+    --mini: calc(25px + 0.25vw);
+    --small: calc(28px + 0.25vw);
+    --midSize: calc(32px + 0.25vw);
+    --large: calc(36px + 0.25vw);
+    --huge: calc(40px + 0.25vw);
+    --hugehuge: calc(44px + 0.25vw);
+    --superHuge: calc(50px + 0.25vw);
 }
 
 /* If the screen size is 601px wide or more, set fonts to be smaller*/
 @media screen and (min-device-width: 801px) {
   :root {
+      --superMini: calc(6px + 0.5vw);
       --minimini: calc(8px + 0.5vw);
       --mini: calc(10px + 0.5vw);
       --small: calc(12px + 0.5vw);
@@ -28,6 +31,7 @@
       --large: calc(17px + 0.25vw);
       --huge: calc(19px + 0.25vw);
       --hugehuge: calc(23px + 0.25vw);
+      --superHuge: calc(30px + 1vw);
   }
 }
 
@@ -73,7 +77,7 @@
 }
 
 .title{
-    font-size: calc(30px + 1vw);
+    font-size: var(--superHuge);
     align-self: center;
     margin: var(--midSize);
     font-weight: bold;

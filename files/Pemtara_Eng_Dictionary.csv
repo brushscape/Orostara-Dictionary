@@ -152,9 +152,11 @@ hajhin,,named for the number of points on the shape,octagon,,octagonal,,,,Pemtar
 Hajos,basic,,Neptune,,,,,,Pemtara,haj hos,8th planet
 hajtij,,named for the number of faces on the object,diamond/octahedron,,,,,,Pemtara,haj tij,
 hakik,basic,,truth/reality,,true/real/actual,truly/really/actually,,,Arabic,حقيقي,haqiqiun
-ham,basic,,whole,,all/every/entire/whole,completely/entirely,very,,Persian,همه,hame
+ham,basic,,whole/(colloquially) everyone/everything,,all/every/entire/whole,completely/entirely,very,,Persian,همه,hame
 hamasuh,,,,,hot/sweltering,,,,Pemtara,ham masuh,
 hamiksuh,,,,,cold/freezing,,,,Pemtara,ham iksuh,
+hamjak,,,everywhere,,,,,,Pemtara,ham jak,
+hamnap,,,everyone,,,,,,Pemtara,ham nap,
 hamtik,,,,,,,always,,Pemtara,ham tik,
 han,basic,specifically to touch with your hand,hand,touch,,,,,English,hand,
 hapsan,basic,,,fit/suit,fitting,fittingly,,,Cantonese,合身,hap san
@@ -194,6 +196,7 @@ ikamar,,romantic crush,crush,crush,,,,,Pemtara,ik amar,
 iketat,,,youth,,young,,,,Pemtara,ik etat,little age
 ikfarus,,,clit/clitoris,,,,,,Pemtara,ik farus,little phallus
 ikfekam,,,,,slow,slowly,,,Pemtara,ik fekam,little speed
+ikfit,,,,,,,less than/(colloquially) worse than,,Pemtara,ik fit,
 ikien,basic,,opinion,opine,opinionated,,,,Vietnamese,ý kiến,
 ikjisun,,,,,small,,,,Pemtara,ik jisun,a little size
 ikmasput,,,,,weak,weakly,,,Pemtara,ik masput,little strength
@@ -253,6 +256,7 @@ jikuay,basic,,oddity,,strange/odd/weird/unexpected/abnormal,strangely/oddly,,,Ma
 jimkak,basic,,,,strict,strictly,,,Cantonese,严格,jim gaak
 jimsok,basic,,,,serious,seriously,,,Cantonese,严肃,jim suk
 jina,basic,Honorific suffix,,,,,manager,,Mandarin Chinese,经理,Jīnglǐ
+jinaptait,,can be modified to jijentait or jiyentait if you want to specifically say 'jealous of you' or 'jealous of me',,,jealous,jealously,,,Pemtara,jiy nap tait,
 jinjan,basic,,frequency/rate,,frequent/often,frequently/often,,,Mandarin Chinese,经常,Jīngcháng
 jip,basic,,tongue,lick,,,,,Hindi,जीभ,jeebh
 jipan,basic,,wing,,,,,,Mandarin Chinese,翅膀,Chìbǎng
@@ -401,6 +405,8 @@ mas,basic,to a large degree,,,more/a lot/many/(colloquially) good,,,,Urdu,مزی
 masam,,,,,most,,,,Pemtara,mas ham ,
 masaojen,,,,,,,good morning,,Pemtara,mas saojen,
 masekir,,,,chase/hunt,,,,,Pemtara,mas sekir,follow a lot (or very follow?)
+masfit,,,,,,,more than/(colloquially) better than,,Pemtara,mas fit,
+masfitait,,,,,stuck up/snobish,,,,Pemtara,masfit tait,
 masin,basic,,machine,,,,,,French,machine,
 masjan,,,,hurry,,,,,Pemtara,mas jan,go a lot
 masjem,,,,love,,,,,Pemtara,mas jem,like a lot
@@ -547,7 +553,7 @@ patar,basic,,rock/stone,,,,,,Urdu,پتھر,patthar
 pater,basic,,strike,hit/beat,,,,,Portuguese,bater,
 patif,basic,,,record,,,,,Tamil,பதிவு,Pativu
 patrak,basic,,plane/sheet,,,,,,Marathi,पत्रक,Patraka
-paus,basic,,insurance,ensure ,,,,,Shanghainese,保险,pau xi
+paus,basic,,insurance,insure ,,,,,Shanghainese,保险,pau xi
 pay,basic,,baby,,,,,,Javanese,bayi,
 payorkan,,,uterus,,,,,,Pemtara,pay orkan,baby organ
 peis,basic,,fish,,,,,,Portuguese,peixe,
