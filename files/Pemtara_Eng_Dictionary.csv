@@ -110,7 +110,7 @@ fik,basic,,entrance,enter/put in/include/involve,inside,,in/into/throughout/even
 fikar,basic,,thought/mind/consciousness,think/assume/contemplate/imagine,thoughtful/contemplative/conscious,thoughtfully/contemplatively,,,Gujarati,વિચારો,
 fikarorkan,,,brain,,,,,,Pemtara,fikar orkan,think organ
 finan,basic,,hearing,hear,,,,,Telugu,వినండి,Vinaṇḍi
-firkujik,,,crime,,criminal,criminally,,,Pemtara,fir kujik,against rule
+firek,,,crime,,criminal,criminally,,,Pemtara,fir rek,against rule
 firom,basic,,opposition,oppose,opposite,oppositely,against,,Hindi,विलोम,vilom
 fis,basic,,explanation,explain,,,about,,Gujarati,વિશે,Viśē
 fispot,basic,,explosion,explode,explosive,explosively,,,Hindi,विस्फोट,visphot
@@ -279,7 +279,7 @@ kak,basic/swear,also a swear; used like 'shit' but slightly less vulgar,excrimen
 kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,Javanese,kaget,
 kakjit,slang/swear,slang swear,asshole/shithole,,,,,,Pemtara,kak jit ,
 kam,basic,,employment/job,employ/hire/work,,,,,Hindi,काम,kaam
-kamin,basic,,path,,,,,,Spanish,camino,
+kamin,basic,,path/street/trail,,,,,,Spanish,camino,
 kamjak,,,office,,,,,,Pemtara,kam jak,work place
 kan,basic,listen and understand,ear,listen,,,,,Urdu,کان,kān
 kanan,basic,,computer/calculator,compute/calculate,computational,computationally,,,Marathi,गणना,Gaṇanā
@@ -348,10 +348,10 @@ koykok,basic,,,,foreign,,,,Cantonese,外國,ngoi gwok
 kuan,basic,,administration,administrate,administrative,,,,Mandarin Chinese,管理,Guǎnlǐ
 kuay,basic,,oddity,,strange/odd/weird/unexpected/abnormal,strangely/oddly,,,Mandarin Chinese,怪,Qíguài
 kuey,basic,,ghost/spirit/soul,,,,,,Mandarin Chinese,鬼,Guǐ
-kuj,basic,to a medium degree,,,some/kind of,,,,Punjabi,ਕੁੱਝ,Kujha
-kujar,basic,,,crush/pulverize,crushing,,,,Hindi,कुचलना,kuchalana
-kujik,basic,,rule/law,,lawful,lawfully,,,Korean,규칙,gyuchig
-kujikren,,,lawyer,,,,,,Pemtara,kujik ren,law person
+kuj,basic,to a medium degree,,,some/kind of/okay/fine,,,,Punjabi,ਕੁੱਝ,Kujha
+yas,basic,,,crush/pulverize,crushing,,,,Mandarin Chinese,压碎,Yā suì
+rek,basic,,rule/law,,lawful,lawfully,,,Spanish,regla,
+rekren,,,lawyer,,,,,,Pemtara,rek ren,law person
 kumban,basic,,lip,kiss,,,,,Hindi,चुंबन,chumban
 kun,basic,,group,,,,,,Japanese,群,gun
 kuoj,basic,,country/nation/federation,,federal,federally,,,Mandarin Chinese,国家,Guójiā
@@ -480,7 +480,6 @@ nur,basic,,effort/attempt,try/attempt,,,,,Mandarin Chinese,努力,Nǔlì
 oftus,basic,,sheep,,,,,,Russian,овца,ovtsa
 oh,basic,,,,,,oh,,Mandarin Chinese,哦,Ó
 ojar,basic,,instrument/tool,use/play,,,,,Hindi,औजार,aujaar
-okey,basic,,,,,,okay/fine,,English,okay,
 ompur,basic,,shoulder,,,,,,Portuguese,ombro,
 on,basic,,,,,,any,,Korean,어느,[ʌ̹nɯ]
 open,basic,,,open/turn on,open/on,,,,English,open,
@@ -688,7 +687,7 @@ sinaren,,,representative,,,,,,Pemtara,sinar ren,
 sinhin,,named for the number of points on the shape,pentagon,,pentagonal,,,,Pemtara,sin hintuk,
 sinkey,basic,,nerve,,,,,,Japanese,神経,Shinkei
 sintij,,with a square base; named for the number of faces on the object,pyramid,,,,,,Pemtara,sin tij,
-sior,basic,,repair/correction,fix/correct,,,,,Mandarin Chinese,修理,Xiūlǐ
+sior,basic,,repair/correction,fix/correct,right/correct,,,,Mandarin Chinese,修理,Xiūlǐ
 sios,basic,,,break/destroy/demolish,,,,,Mandarin Chinese,休息,Xiūxí
 sip,basic,,sibling,,,,,,English,sib,
 sipok,basic,,billion,,1000000000,,,,Korean,십억,sibeok
@@ -816,7 +815,7 @@ tuy,basic,,darkness/shadow,,dark,,,,Italian,buio,
 uek,basic,,,wake,,,,,English,wake,
 uj,basic,,question,ask/invite,inquisitive ,,,,Urdu,پوچھنا,
 ujaf,basic,the direction of right (vs left),right,,right,right,,,Marathi,उजवे,Ujavē
-um,basic,particle to make a dependent clause,,,,,about/that,particle,German,um,
+um,basic,particle to make a dependent clause,,,,,about/that/then,particle,German,um,
 umam,basic,,,,savory/umami,,,,Japanese,うま味,umami
 umut,basic,,hope,hope,hopeful,hopefully,,,Turkish,umut,
 unar,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,,Tamil,உணர்வு,Uṇarvu
