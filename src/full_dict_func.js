@@ -18,8 +18,6 @@ function fillTable(){
       wordTypes = rowObj.Type;
       if(rowObj.Type.indexOf('basic') == -1){
         wordTypes.push('construct');
-      }else{
-        basicWords++;
       }
     }
     else if(rowObj.Type == ''){
@@ -27,12 +25,6 @@ function fillTable(){
     }
     else{
       wordTypes = [rowObj.Type];
-    }
-
-    if(wordTypes.indexOf('basic') != -1){
-      basicWords++;
-    }else{
-      constructWords++;
     }
 
     var row = baseEl.cloneNode(true);

@@ -2,8 +2,8 @@
 
 //var localFilePath = 'files/Pemtara_Eng_Dictionary.csv';
 var filePath = 'https://raw.githubusercontent.com/brushscape/Pemtara-Dictionary/main/files/Pemtara_Eng_Dictionary.csv';
-var basicWords = 0;
-var constructWords = 0;
+var langBreakdown = [];
+var numWords = 0;
 
 function readCSVFile(){
   $.get(filePath, function (csvdata) {
@@ -22,7 +22,34 @@ function readCSVFile(){
           }
         }
         pemtaraDict.push(rowObj);
+
+        if(rowObj.RootLanguage != 'Pemtara'){
+          numWords++;
+        }
+
+        var el = getCorrectLang(rowObj.RootLanguage);
+        if(el!=-1){
+          var count = langBreakdown[el].Count;
+          count++;
+          langBreakdown[el].Count = count;
+          langBreakdown[el].Percent = (count/numWords)*100;
+        }else{
+          var newEl = {Lang: rowObj.RootLanguage, Count: 1, Percent: (1/numWords)*100};
+          langBreakdown.push(newEl);
+        }
+
+
       }
       fillTable();
+      console.log(langBreakdown);
   });
+}
+
+function getCorrectLang(lang){
+  for(var i=0; i<langBreakdown.length; i++){
+    if(langBreakdown[i].Lang == lang){
+      return i;
+    }
+  }
+  return -1;
 }
