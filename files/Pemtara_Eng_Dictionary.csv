@@ -184,7 +184,7 @@ huis,basic,color,gray,,grey,,,,Mandarin Chinese,灰色,Huīsè
 huk,basic,,hook,hook,,,,,English,hook,
 hupin,basic,,peace,,peaceful,peacefully,,,Mandarin Chinese,和平,Hépíng
 husten,basic,,cough,cough,,,,,German,Husten,
-if,basic,,,,,,if,,English,if,
+if,basic,,condition/state/situation ,,conditional/situational,,if,,English,if,
 ij,basic,,motivation/will/energy,motivate,motivational/motivating,motivationally,,,Marathi,इच्छा,Icchā
 ijin,basic,,,,,,for/per,,Turkish,için,
 ijkefur,,,excitement,excite,exciting,excitingly,,,Pemtara,ij kefur,
@@ -362,7 +362,7 @@ kot,basic,,depth,drop/fall,deep,,down,,Spanish,gota,
 kotak,basic,,grid/chart,,,,,,Javanese,kothak,
 koykok,basic,,,,foreign,,,,Cantonese,外國,ngoi gwok
 kuan,basic,,administration,administrate,administrative,,,,Mandarin Chinese,管理,Guǎnlǐ
-kuanjon,basic,,importance/principle,,important/principle,importantly,,,Vietnamese,quan trọng,
+kuanjon,basic,,importance/principle,,important/principle/main,importantly,,,Vietnamese,quan trọng,
 kuj,basic,to a medium degree,,,some/kind of,,,,Punjabi,ਕੁੱਝ,Kujha
 kujar,basic,,,crush/pulverize,crushing,,,,Hindi,कुचलना,kuchalana
 kujik,basic,,rule/law,,lawful,lawfully,,,Korean,규칙,gyuchig
@@ -515,12 +515,12 @@ orim,basic,,crease/fold,crease/fold,,,,,Japanese,折り目,Orime
 orkan,basic,,organ,,,,,,Spanish,Organo,
 os,basic,,cloth/fabric,weave/make cloth,,,,,Korean,옷,os
 osat,basic,,medicine/drug/pill,,,, ,,Marathi,औषध,Auṣadha
-oser,basic,,specifics,,particular/specific,particularly/specifically,,,Turkish,özel,
+oser,basic,,specifics,,particular/specific,particularly/specifically/especially,,,Turkish,özel,
 ot,basic,,,get/attain/take/grab,,,,,Korean,얻다,eodda
 otak,basic,,concentration,focus/concentrate,focused,,,,Turkish,odak,
 oter,basic,,hotel,,,,,,Spanish,hotel,
 otnak,basic,,,,,,however/though/nevertheless/still/yet,conjunction,Russian,однако,odnako
-paen,basic,the direction of left (vs right),left,,,,,,Hindi,बाएं,baen
+paen,basic,the direction of left (vs right),left,,,left,,,Hindi,बाएं,baen
 pahar,basic,,exit,leave/exit/exclude,outside,,out,preposition,Hindi,बाहर,baahar
 pais,basic,,money/dollar/credit/payment,pay,rich/expensive,,,,Gujarati,પૈસા,Paisā
 paisnap,,,accountant,,,,,,Pemtara,pais napa,money person
@@ -702,7 +702,7 @@ sertij,,named for the number of faces on the object,tetrahedron,,tetrahedral,,,,
 set,basic,,area/field,,,,,,Hindi,क्षेत्र,kṣétra
 sey,basic,,action/activity,do/act/happen/use,active/useful,,with/using,,Tamil,செய்,Cey
 sian,basic,,camera,,,,,,Mandarin Chinese,相机,Xiàngjī
-sifan,basic,,west,,,,,,Mandarin Chinese,西方,Xīfāng
+sifan,basic,,west,,west,west,,,Mandarin Chinese,西方,Xīfāng
 sijun,basic,,resource,,,,,,Cantonese,资源,zi jyun
 sikat,basic,,,brush,,,,,Javanese,sikat,
 sikoen,basic,,market,,,,,,Cantonese,市场,si coeng
@@ -758,7 +758,7 @@ suy,basic,,,,,,so/therefore/thus,conjunction,Shanghainese,所以,su-i
 tait,basic,,attitude/mood/vibe,,,,,,Mandarin Chinese,态度,Tàidù
 tak,basic,,dog,,,,,,English,Dog,
 takor,basic,,agreement,agree,,,,,Italian,d'accordo,
-taksin,basic,,south,,,,,,Telugu,దక్షిణ,Dakṣiṇa
+taksin,basic,,south,,south,south,,,Telugu,దక్షిణ,Dakṣiṇa
 tam,basic,,brake/break,stop/pause,,,,,Bangla,থামা,Thāmā
 tamak,basic,,egg,,,,,,Japanese,卵,Tamago
 tamakorkan,,,ovary,,,,,,Pemtara,tamak orkan,egg organ
@@ -810,49 +810,46 @@ toktait,,,,,scary/frightening,,,,Pemtara,tok tait,
 tom,basic,,tail,,,,,,Persian,دم,dom
 tomar,basic,,,,tame/domesticated,,,,Portuguese,domar,
 ton,basic,can be used as an honorific suffix,partner,,,,partner,,Korean,동료,donglyo
-top,basic,,help/service/benefit,assist/serve,,,,,Korean,돕다,dobda
-tor,basic,,duty,,,,,,Russian,долг,dolg
+top,basic,,help/service/benefit,assist/serve,helpful,helpfully,,,Korean,돕다,dobda
+tor,basic,,duty/obligation,,dutiful,,,,Russian,долг,dolg
 tos,basic,can be used as an honorific suffix,friend,befriend,friendly,,,,Hindi,दोस्त,dost
-toy,basic,,two/2,,,,,,Portuguese,dois,
-toyahop,,,twenty/20,,,,,,Pemtara,toy ahop,
-toyahoptij,,named for the number of faces on the object,icosahedron,,,,,,Pemtara,toyahop tij,
-toytij,,named for the number of faces on the object,cone,,,,,,Pemtara,toy tij,
-tuharaf,basic,,repetition,repeat,repetitive,,,,Hindi,दुहराव,duharaav
-tujon,basic,,,dare,,,,,Korean,도전,dojeon
+toy,basic,,two,,2,,,,Portuguese,dois,
+toyahop,,,twenty,,20,,,,Pemtara,toy ahop,
+toyahoptij,,named for the number of faces on the object,icosahedron,,icosahedral,,,,Pemtara,toyahop tij,
+toytij,,named for the number of faces on the object,cone,,conical,,,,Pemtara,toy tij,
+tujon,basic,,dare,dare,,,,,Korean,도전,dojeon
 tukan,basic,,store,shop,,,,,Urdu,دکان,dukān
 tukfat,basic,,plant,,,,,,Vietnamese,thực vật,
 tun,basic,,tonne/ton,,,,,,Mandarin Chinese,吨,Dūn
 tunrun,basic,,valley,,,,,,Vietnamese,hung lũng,
-tupar,basic,,,,,,again,,Urdu,دوبارہ,dobâre
-tur,basic,,distance,extend,far/distant,,,,Hindi,दूरी,dooree
+tupar,basic,,repetition,repeat,repetitive,repetitively,again,,Urdu,دوبارہ,dobâre
+tur,basic,,distance,extend,far/distant,distantly,,,Hindi,दूरी,dooree
 turan,basic,,,,simultaneous/simultaneously,,during/while/as/as long as,time,Spanish,durante,
-turum,basic,,condition/state/situation ,,conditional/situational,,,,Turkish,durum,
 Tusin,basic,,Saturn,,,,,,Mandarin Chinese,土星,Tǔxīng
 tut,basic,,,doubt,,,,,Spanish,duda,
 tuy,basic,,darkness/shadow,,dark,,,,Italian,buio,
-uanjan,basic,,,finish,complete,,,,Mandarin Chinese,完全,Wánquán
+uanjan,basic,,,finish/complete,completed,,,,Mandarin Chinese,完全,Wánquán
 uek,basic,,,wake,,,,,English,wake,
 uj,basic,,question,ask/invite,inquisitive ,,,,Urdu,پوچھنا,
-ujaf,basic,the direction of right (vs left),right,,,,,,Marathi,उजवे,Ujavē
+ujaf,basic,the direction of right (vs left),right,,right,right,,,Marathi,उजवे,Ujavē
 um,basic,particle to make a dependent clause,,,,,about/that,particle,German,um,
 umam,basic,,,,savory/umami,,,,Japanese,うま味,umami
-umut,basic,,hope,,,,,,Turkish,umut,
+umut,basic,,hope,hope,hopeful,hopefully,,,Turkish,umut,
 unar,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,,Tamil,உணர்வு,Uṇarvu
-unaram,,,nerve,,,,,,Pemtara,unar ram,feel branch
+unaram,,referring to the body part,nerve,,nervous,,,,Pemtara,unar ram,feel branch
 unarsuter,,,spinal column,,,,,,Pemtara,unar suter,feel stem
-unir,basic,,joint/hinge,join,,,,,Spanish,unirse,
+unir,basic,,joint/hinge,join,joined,,,,Spanish,unirse,
 urat,basic,,,invert/reverse/undo,,,,,Punjabi,ਉਲਟਾ,Ulaṭā
 urmemor,,,,forget,forgetful,,,,Pemtara,urat memor,
 urnit,,,,drain,,,,,Pemtara,urat nit,
 uron,basic,,flaw/mistake/error,,wrong/incorrect,,,,English,wrong,
 ut,basic,,arm,,,,,,Japanese,腕,Ude
-utam,basic,,,,main,,,,Javanese,utama,
-utar,basic,,north,,,,,,Hindi,उत्तर,uttar
+utar,basic,,north,,north,north,,,Hindi,उत्तर,uttar
 yaf,basic,,key,,,,,,Spanish,llave,
-yak,basic,,,,,,around,preposition,Korean,약,yag
+yak,basic,,,surround/engulf,,,around,preposition,Korean,약,yag
 yakis,basic,,,cheat/hack,,,,,Arabic,يغش,yaghish
-yaktup,basic,,writing/essay/book/article,write,,,,,Arabic,يكتب,yaktub
-yanam,basic,,,sleep,sleepy/tired,,,,Arabic,ينام,yanam
+yaktup,basic,,writing/essay/book/article,write,written,,,,Arabic,يكتب,yaktub
+yanam,basic,,sleep,sleep,sleepy/tired,,,,Arabic,ينام,yanam
 yanfikar,,,,dream,,,,,Pemtara,yanam fikar,
 yarsam,basic,,drawing,draw,,,,,Arabic,يرسم,yarsam
 yat,basic,,list,,,,,,Marathi,यादी,Yādī
@@ -860,7 +857,6 @@ ye,slang,slang; informal,,,,,I/me,,Pemtara,yeh,
 yeh,basic,,this,,,,,,Hindi,यह,yah
 yejak,,,,come here/be here,,,here,,Pemtara,yeh jak,
 yenap,,neutral formal; use more specific honorifics when possible,I/me,,,,,,Pemtara,yeh nap,
-yenar,basic,,,fill,,,,,Spanish,llenar,
 yes,basic,,leaf,,,,,,Mandarin Chinese,叶子,Yèzi
 yetruk,basic,,,allow/let,,,,,Arabic,يترك,yatrak
 yis,basic,,art,,artistic,,,,Mandarin Chinese,艺术,yìshù
@@ -869,13 +865,12 @@ yitay,basic,,generation,,,,,,Mandarin Chinese,一代,Yīdài
 yonhun,basic,,,,permanent,,forever,,Mandarin Chinese,永恒,Yǒnghéng
 yonirur,,,vagina,,,,,,Pemtara,yoniy rur,vulva tube
 yoniy,basic,,vulva,,,,,,Hindi,योनी,yonee
-yop,basic,,,,,,by/beside/with,preposition,Korean,옆에,yeop-e
+yop,basic,,company,accompany,,,by/beside/with,preposition,Korean,옆에,yeop-e
 yor,basic,,tear,cry,,,,,Spanish,llorar,
-youj,basic,,,,especially/particularly ,,,,Mandarin Chinese,尤其,Yóuqí
 yuh,basic,,health,heal,,,,,Mandarin Chinese,愈合,Yùhé
 yujak,,,hospital,,,,,,Pemtara,yuh jaka,health place
-yukat,basic,,plan/strategy,,,,,,Arabic,يخطط,yukhatat
-yuksek,basic,,height,rise,high/tall,,,,Turkish,yüksek,
+yukat,basic,,plan/strategy,plan,strategic,,,,Arabic,يخطط,yukhatat
+yuksek,basic,,height,,high/tall,,,,Turkish,yüksek,
 yun,basic,,luck/chance,,lucky,,,,Mandarin Chinese,运气,Yùnqì
 yunap,,,doctor,,,,,,Pemtara,yuh napa,heal person
 yunet,basic,,unit,,,,,,English,unit,
