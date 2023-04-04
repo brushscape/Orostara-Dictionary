@@ -44,6 +44,7 @@ function translateClicked(){
 }
 
 function cleanupTextInput(input){
+  console.log(input);
   //cleanup whitespace as front
   while(input.length > 0 && input.charAt(0) == ' '){
     input = input.substring(1);
