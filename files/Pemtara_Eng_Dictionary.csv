@@ -101,7 +101,7 @@ fason,basic,,mail,send,,,,,Mandarin Chinese,发送,Fāsòng
 fay,basic,,,,,,wow,,Persian,Ÿàÿß€å,v√¢y
 feij,basic,,bean,,,,,,Portuguese,feijão,
 fekam,basic,,speed,,fast/quick,,,,Tamil,வேகம்,Vēkam
-fer,basic,,sight,see/watch/notice/observe,observant,observantly,,,Spanish,ver,
+fer,basic,,sight/image/picture,see/watch/notice/observe,observant,observantly,,,Spanish,ver,
 feres,basic,,metal,,metallic,metallically,,,Persian,فلز,felez
 fies,basic,,party,celebrate,,,,,Spanish,fiesta,
 fifit,basic,,diversity,diversify,diverse,diversely,,,Gujarati,વિવિધ,Vividha
@@ -213,7 +213,7 @@ ir,basic,,,,,,to/toward/until,,Turkish,ile,
 irjan,,,,approach,,,,,Pemtara,ir jan,
 nom,basic,,name,,,,,,Portuguese,nome,
 is,basic,,east,,east,east,,,English,east,
-iter,basic,,,,,,xor/either,,English,or,
+iter,basic,,,,,,xor/either/or,,English,or,
 jak,basic,location marker particle,place/location/space,,,,,,Marathi,जागा,Jāgā
 jiep,basic,,,ensure/make sure,,certainly/surely,of course/sure,,Mandarin Chinese,确保,Quèbǎo
 jam,basic,,leg,,,,,,French,jambe,
@@ -323,7 +323,7 @@ kiren,,,who,,,,,,Pemtara,kiy ren,what person
 kisey,,,,,,how,how,,Pemtara,kiy sey,what action
 kitik,,,,,,,when,,Pemtara,ki tik,
 kiy,basic,,what,,,,,,Urdu,کیا,kya
-koay,basic,,,,,,and-or,conjunction,Vietnamese,cô ấy,
+koay,basic,,,,,,and-or/or,conjunction,Vietnamese,cô ấy,
 koj,basic,,shell/case,shield/defend/guard/protect,protective ,protectively,,,Shanghainese,壳,khoq
 kojim,basic,,island,,,,,,Japanese,小島,Kojima
 kojpik,,,beetle,,,,,,Pemtara,koj pik,
@@ -481,13 +481,13 @@ oftus,basic,,sheep,,,,,,Russian,овца,ovtsa
 oh,basic,,,,,,oh,,Mandarin Chinese,哦,Ó
 ojar,basic,,instrument/tool,use/play,,,,,Hindi,औजार,aujaar
 ompur,basic,,shoulder,,,,,,Portuguese,ombro,
-on,basic,,,,,,any,,Korean,어느,[ʌ̹nɯ]
+on,basic,,,,,,any/at all,,Korean,어느,[ʌ̹nɯ]
 open,basic,,,open/turn on,open/on,,,,English,open,
 opin,basic,,opinion,opine,opinionated,,,,Portuguese,opinião,
 oput,basic,,experience,experience,experienced,,,,Russian,опыт,opyt
 orim,basic,,crease/fold,crease/fold,,,,,Japanese,折り目,Orime
 orkan,basic,,organ,,,,,,Spanish,Organo,
-os,basic,,cloth/fabric,weave/make cloth,,,,,Korean,옷,os
+os,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,Korean,옷,os
 osat,basic,,medicine/drug/pill,,,, ,,Marathi,औषध,Auṣadha
 oser,basic,,specifics/details,,particular/specific/detailed,particularly/specifically/especially,,,Turkish,özel,
 ot,basic,,,get/attain/take/grab,,,,,Korean,얻다,eodda
@@ -565,7 +565,6 @@ pom,basic,,toy,play with,,,,,Telugu,బొమ్మ,Bom'ma
 pon,basic,,,lay/lie down/place/put,,,,,Spanish,poner,
 por,basic,,bridge,,,,,,Persian,پل,pol
 pos,basic,,model,pose,,,,,English,pose,
-posak,basic,,clothing,dress/wear,,,,,Hindi,पोशाक,poshaak
 posip,basic,,possibility,,possible,,maybe,,Spanish,posible,
 pot,basic,,contest/competition,compete,competitive ,competitively,,,Telugu,పోటీ,Pōṭī
 potaf,basic,,length,,long,,,,Telugu,పొడవు,Poḍavu
@@ -855,3 +854,4 @@ yuksek,basic,,height,,high/tall,,,,Turkish,yüksek,
 yun,basic,,luck/chance,,lucky,,,,Mandarin Chinese,运气,Yùnqì
 yunet,basic,,unit,,,,,,English,unit,
 yuren,,,doctor,,,,,,Pemtara,yuh ren,heal person
+masjok,,,,stare,,,,,Pemtara,mas jok,
