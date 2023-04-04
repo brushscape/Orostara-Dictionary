@@ -1,12 +1,9 @@
 add comments
 
 In Progress:
-update all words in dictionary to specify between adj and adv, also check for duplicates and whatnot
 
 Not Pressing:
-add links to the pemtara words in notes (denoted in '')
 add special case for people searching honorifics without their -a endings
-display closest match to searchterm first
 make so dropdown menu disappears after selecting an option or if someone clicks the button again
 
 Stretch Goals:

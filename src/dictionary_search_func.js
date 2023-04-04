@@ -1,12 +1,14 @@
 /* jshint esversion: 8 */
 
 var pemtaraDict = [];
+var currLinkNum = 0;
 
 function clearPage(){
   document.getElementById('notFoundEng').style.display='none';
   document.getElementById('notFoundPem').style.display='none';
   document.getElementById('wordDefContainer').style.display='none';
   document.getElementById('extraWordDefs').innerHTML = "";
+  currLinkNum=0;
 }
 
 function setupButtons(){
@@ -77,6 +79,9 @@ function createLine(){
   return el;
 }
 
+//'only' dictates if I'm providing an element to propogate or if you're meant to use the default.
+//false if called by displayEntryArray
+//true basically any other time
 function displayEntry(entry, searchedTerm, only, el){
   var wordDefEl;
   // in case there's going to be more than one definition displayed
@@ -106,7 +111,7 @@ function displayEntry(entry, searchedTerm, only, el){
     getChildElement(childEl,'notes').style.display = 'none';
   }else{
     var notesEl = getChildElement(childEl,'notes');
-    notesEl.innerHTML='*'+entry.Notes;
+    notesEl.innerHTML='*'+processNote(entry.Notes);
     notesEl.style.display='flex';
     if(shown && !notesEl.classList.contains('spacer')){
       notesEl.classList.add('spacer');
@@ -165,6 +170,30 @@ function displayEntry(entry, searchedTerm, only, el){
   document.getElementById('wordDefContainer').style.display='flex';
 }
 
+function processNote(text){
+  if(text.length==0){
+    return "";
+  }
+  var str = text;
+  var index = str.indexOf("'");
+  if(index != -1){
+    var front = str.substring(0,index);
+    var tempBack = str.substring(index+1);
+    var index2 = tempBack.indexOf("'");
+    var word = tempBack.substring(0,index2);
+    var back = tempBack.substring(index2+1);
+
+    var link = returnLink(word);
+    if(link == word){ // word was not a Pemtara word
+      var temp = str;
+      str = temp.substring(0,index+index2+2) + processNote(back);
+    }else{
+      str = front + link + processNote(back);
+    }
+  }
+  return str;
+}
+
 function displayRootWord(word, lang){
   var italics = ["English", "Spanish", "French", "Italian", "Portuguese", "Javanese", "Vietnamese", "German", "Latin"];
 
@@ -175,7 +204,7 @@ function displayRootWord(word, lang){
     var arr = word1.split(' ');
     var str = '';
     for(var i=0; i<arr.length; i++){
-      str += returnLink(arr[i],i+1);
+      str += returnLink(arr[i]);
       if(i<arr.length-1){
         str+="&nbsp;and&nbsp;";
       }
@@ -195,13 +224,15 @@ function gotoLinkWord(num){
 function gotoWord(word){
   clearPage();
   var entry = searchPemtara(word);
-  displayEntry(entry,'',true);
+  displayEntryArry(entry,'');
   incMemory('Pemtara',word);
 }
 
-function returnLink(word,num){
-  if(searchPemtara(word) != 0){
-    return "<u><div class='pemLinkWord' id='"+num+"' onclick='gotoLinkWord("+num+")'>"+word+"</div></u>";
+function returnLink(word){
+  if(searchPemtara(word).length != 0){
+    var str = "<u><div class='pemLinkWord' id='"+currLinkNum+"' onclick='gotoLinkWord("+currLinkNum+")'>"+word+"</div></u>";
+    currLinkNum++;
+    return str;
   }
   else if(word == '' || word == 'N,A'){
     return '?';

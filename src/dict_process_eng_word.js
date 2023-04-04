@@ -27,10 +27,13 @@ function searchEnglish(word){
   var entryArr = [];
 
   //go through every dictionary entry
+
   for(var i=0; i<pemtaraDict.length; i++){
     var entriesToCheck = [pemtaraDict[i].Nouns,pemtaraDict[i].Verbs,pemtaraDict[i].Adjectives,pemtaraDict[i].Adverbs,pemtaraDict[i].Other];
 
-    for(var j=0; j<entriesToCheck.length; j++){
+    var add = false;
+    var perfect = false;
+    for(var j=0; j<entriesToCheck.length; j++){ //check ALL of the entries, even if found, in case there is a perfect match so that can be displayed first
       //search each entry option
       var array = entriesToCheck[j];
       if(!Array.isArray(array)){
@@ -39,10 +42,16 @@ function searchEnglish(word){
         }
         array = [entriesToCheck[j]];
       }
-      if(arrayHasWord(array, word)){
-        //word found in this entry. skip to next entry
+      var result = arrayHasWord(array, word);
+      add = result[0] || add;
+      perfect = result[1] || perfect;
+    }
+
+    if(add){
+      if(perfect){
+        entryArr.unshift(pemtaraDict[i]);
+      }else{
         entryArr.push(pemtaraDict[i]);
-        break;
       }
     }
   }
@@ -59,7 +68,7 @@ function arrayHasWord(arr, word1){
 
     //check for a match
     if(check.toLowerCase() == word){
-      return true;
+      return [true,true];
     }
 
     //if array element is more than one word
@@ -67,10 +76,10 @@ function arrayHasWord(arr, word1){
       //make array with both words
       var multiDef = check.split(' ');
       //recurse
-      if(arrayHasWord(multiDef,word)){
-        return true;
+      if(arrayHasWord(multiDef,word)[0]){
+        return [true,false];
       }
     }
   }
-  return false;
+  return [false,false];
 }

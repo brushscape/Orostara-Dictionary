@@ -41,7 +41,7 @@ function readCSVFile(){
 
       }
       fillTable();
-      console.log(langBreakdown);
+      //console.log(langBreakdown);
   });
 }
 

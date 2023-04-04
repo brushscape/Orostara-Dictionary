@@ -31,34 +31,45 @@ function pemClick(searchedWord){
 
 function pemEntry(searchedWord, otherWord){
   var entry1 = searchPemtara(searchedWord);
-  var entry2 = 0;
+  var entry2 = [];
   if(otherWord != ''){
     entry2 = searchPemtara(otherWord);
   }
-  if(entry1 == 0 && entry2 == 0){
+  if(entry1.length == 0 && entry2.length == 0){
     document.getElementById('notFoundPem').style.display='flex';
     return 0;
-  }else if(entry1 == 0 || entry2 == 0){
-    if(entry1 == 0){
-      displayEntry(entry2,'',true);
-      return 2;
-    }else{
-      displayEntry(entry1,'',true);
-      return 1;
-    }
   }else{
-    displayEntryArry([entry1,entry2],'');
-    return 3;
+    var full = pushArray(entry1,entry2);
+    displayEntryArry(full,'');
+    if(entry1.length != 0){
+      if(entry2.length !=0){
+        return 3;
+      }else{
+        return 1;
+      }
+    }else{
+      return 2;
+    }
   }
 }
 
 function searchPemtara(word1){
+  var entryArr = [];
   var word = word1.toLowerCase();
+  //check every word in case there's more than one (rare but not unheardof)
   for(var i=0; i<pemtaraDict.length; i++){
     var checkWord = pemtaraDict[i].Pemtara.toLowerCase();
     if(checkWord == word){
-      return pemtaraDict[i];
+      entryArr.push(pemtaraDict[i]);
     }
   }
-  return 0;
+  return entryArr;
+}
+
+function pushArray(base, add){
+  var newArr = base;
+  for(var i=0;i<add.length;i++){
+    newArr.push(add[i]);
+  }
+  return newArr;
 }
