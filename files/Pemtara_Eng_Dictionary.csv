@@ -171,6 +171,7 @@ iketat,,,youth,,young,,,,Pemtara,ik etat,little age
 ikfarus,,,clit/clitoris,,,,,,Pemtara,ik farus,little phallus
 ikfit,,,,,,,less than/(colloquially) worse than,,Pemtara,ik fit,
 ikfor,,,,,weak,weakly,,,Pemtara,ik for,little strength
+iktas,,,,,small,,,,Pemtara,ik tas,a little size
 iknop,,,,,narrow,narrowly,,,Pemtara,ik nop,small width or a little width
 ikos,,,dwarf planet,,,,,,Pemtara,ik hos,little planet
 ikpais,,,,,cheap,cheaply,,,Pemtara,ik pais,little money
@@ -181,7 +182,6 @@ iksot,,,,,quiet/soft,quietly/softly,,,Pemtara,ik sot,little noise
 iksuh,,,,chill,cool/cold,coolly/coldly,,,Pemtara,ik suh,
 iksupes,,,,,thin,thinnly,,,Pemtara,ik supes,little circumference
 iktak,,,puppy/pup,,,,,,Pemtara,ik tak,
-iktas,,,,,small,,,,Pemtara,ik tas,a little size
 iktur,,,,,near/close,closely,,,Pemtara,ik tur,small distance or a little distance
 ikumut,,,doubt,doubt,doubtful,,,,Pemtara,ik umut,
 ikuoj,,,state/province,,,,,,Pemtara,ik kuoj,
@@ -356,7 +356,7 @@ man,basic,,,fill,enough/full,enough,,,Mandarin Chinese,满,Mǎn
 Mankar,basic,,Mars,,,,,,Bangla,মঙ্গল,Maṅgala
 map,basic,,parent,,,,,,Punjabi,ਮਾਪੇ,Māpē
 mapop,basic,,magic,do magic/cast,magically,,,,Korean,마법,mabeob
-maprais,,the vehicle,plane,,,,,,Pemtara,mapur rais,fly vehicle
+maprais,,,airplane/plane,,,,,,Pemtara,mapur rais,fly vehicle
 mapur,basic,,flight,fly,,,,,Javanese,mabur,
 mar,basic,,wound,hurt/wound,,,,,Italian,Male,
 markas,basic,,center/middle,,center/middle,,,,Arabic,مركز,markáz
@@ -708,8 +708,8 @@ suj,basic,,data,,,,,,Mandarin Chinese,数据,Shùjù
 sujey,basic,,dirt/soil/earth,,dirty,,,,Portuguese,sujeira,
 suk,basic,pair with 'paj' or 'pif',,,close temporally,,,time,Japanese,すぐ,sugu
 sukar,basic,,sugar,,sweet,sweetly,,,English,sugar,
-sukpaj,pair with 'tik',,,,upcoming,soon,,,Pemtara,suk paj,
-sukpif,pair with 'tik',,,,recent,recently,,,Pemtara,suk pif,
+sukpaj,,pair with 'tik',,,upcoming,soon,,,Pemtara,suk paj,
+sukpif,,pair with 'tik',,,recent,recently,,,Pemtara,suk pif,
 sukran,basic,,sperm,,,,,,Hindi,शुक्राणु,shukraanu
 sukranit,,,semen,,,,,,Pemtara,sukran nit,sperm water
 sukrorkan,,,testes,,,,,,Pemtara,sukran orkan,sperm organ
@@ -756,8 +756,8 @@ tep,basic,,tape/strip/band/belt,,,,,,English,tape,
 tepor,basic,,sport,play,,,,,Spanish,deporte,
 ter,basic,pair with 'paj' or 'pif',,,,,for extreme relative times like early or late,,Bangla,দেরী,Dērī
 terin,basic,,,,clear,,,,Tamil,தெளிந்த,Teḷinta
-terpaj,pair with 'tik',,,,late,late,,,Pemtara,ter paj,
-terpif,pair with 'tik',,,,early,early,,,Pemtara,ter pif,
+terpaj,,pair with 'tik',,,late,late,,,Pemtara,ter paj,
+terpif,,pair with 'tik',,,early,early,,,Pemtara,ter pif,
 tes,basic,,ten,,10,,,,Portuguese,dez,
 tesek,,,eleven,,11,,,,Pemtara,tes ek,
 teser,,,fourteen,,14,,,,Pemtara,tes ser,
