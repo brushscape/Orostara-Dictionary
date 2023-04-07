@@ -8,8 +8,7 @@ function pemClick(searchedWord){
   var otherWord = '';
   if(specialCases.indexOf(searchedWord) == -1 && endList.indexOf(lastChar) != -1){
     searchedWord = searchedWord.substring(0, searchedWord.length-1);
-  }
-  if(searchedWord.length>3 && searchedWord.substring(searchedWord.length-2) == 'an'){
+  }else if(searchedWord.length>3 && searchedWord.substring(searchedWord.length-2) == 'an'){
     otherWord = searchedWord.substring(0, searchedWord.length-2);
   }
   if(searchedWord == 'yen'){
