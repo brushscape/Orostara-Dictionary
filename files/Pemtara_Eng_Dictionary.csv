@@ -1,7 +1,7 @@
 ﻿Pemtara,Type,Notes,Nouns,Verbs,Adjectives,Adverbs,Other,OtherType,RootLanguage,RLWord,RL Word Pronunciation
+af,basic,,chance/opportunity,,,,,,Hindi,अवसर,avasar
 afas,basic,,phase,,,,,,Hindi,अवस्था,avastha
 afon,basic,,invention,invent,inventive,inventively,,,French,inventer,
-afsar,basic,,chance/opportunity,,,,,,Hindi,अवसर,avasar
 ah,,,,,,,yeah,,Pemtara,am,
 aj,basic,,,,good/positive,,,,Hindi,अच्छा,achchha
 ajok,,,beauty,decorate,pretty/beautiful,beatifully,,,Pemtara,aj jok,
@@ -21,10 +21,10 @@ aner,basic,,ring/torus/wheel,,,,,,Portuguese,anel,
 ankur,basic,,angle,angle,angular,angularly,,,English,angle,
 antat,basic,,,cross,,,across,preposition,Telugu,అంతటా,Antaṭā
 anuk,basic,,score/grade,,,,,,Hindi,अंक,ank
+ap,basic,,cloud,,cloudy,,,,Persian,ابرها,abr
 aper,basic,,,tighten,tight/secure,tightly/securely,,,Portuguese,apertado,
 apruf,basic,,,accept/admit/approve,acceptable,acceptably,,,English,approve,
-apur,basic,,cloud,,cloudy,,,,Persian,ابرها,abr
-arak,basic,,difference,differ/vary,different/unique/varying/other,differently/uniquely,,,Hindi,अलग,alag
+ar,basic,,difference,differ/vary,different/unique/varying/other,differently/uniquely,,,Hindi,अलग,alag
 aram,basic,,comfort,comfort,comforting/comfortable,comfortably,,,Punjabi,ਆਰਾਮ,Ārāma
 aref,basic,,limit,limit,limiting,,,,Tamil,அளவு,Aḷavu
 aret,basic,,,,,already,,,English,already,
@@ -32,7 +32,6 @@ arj,slang/swear,,fuck,fuck,fucking,,,,Pemtara,arjin,
 arjin,basic,,sex,have sex,sexual/hot,sexually,,,Arabic,الجنس,aljins
 arkor,basic,,alcohol,,alcoholic,,,,Portuguese,álcool,
 armon,basic,,harmony,,harmonic,harmonically,,,French,harmonie,
-arojan,basic,,idea,ideate,,,,,Telugu,ఆలోచన,Ālōcana
 arsa,basic,Honorific suffix,,,,,senior,,Persian,ارشد,aršad
 artam,basic,,meaning,mean/signify ,meaningful/significant,meaningfully/significantly,,,Telugu,అర్థం,Arthaṁ
 artek,basic,,,halve,half,,,,Bangla,অর্ধেক,Ardhēka
@@ -48,60 +47,69 @@ atkas,basic,,failure,fail,,,,,Russian,отказ,
 ay,,,,,,,ow,,Pemtara,ayjo,
 ayjo,basic,,,,,,ouch,,Cantonese,哎哟,aai jo
 aynuk,basic,,ink,print,inky,,,,Hindi,आईएनके,aaeeenake
-efet,basic,,effect/result/outcome,affect,effective,effectively,else,,Italian,effetto,
+ef,basic,,effect/result/outcome,affect,effective,effectively,else,,Italian,effetto,
 eh,,,,,,,um/uh,,Pemtara,,
 ek,basic,,one,,1,,,,Hindi,एक,ek
 ekip,basic,,equipment,equip,equipped,,,,Spanish,equipo,
 ektij,,named for the number of faces on the object,sphere/ball,,round,,,,Pemtara,ek tij,
-emin,basic,,safety,save,safe/protected,,,,Arabic,آمن,amin
+em,basic,,safety,save,safe/protected,,,,Arabic,آمن,amin
 emon,basic,,magnet,,magnetic,magnetically,,,French,aimant,
 en,basic,,,,,,on/onto,,Spanish,en,
 er,basic,,flaw/mistake/error,,wrong/incorrect,,,,English,error,
 erek,basic,,election,elect/vote,,,,,Spanish,electo,
+ereksit,,,democracy,,democratic,democratically,,,Pemtara,erek sit,
+es,basic,,oddity,,strange/odd/weird/unexpected/abnormal,strangely/oddly,,,Spanish,estranho,
 esat,basic,,,,exact,exactly,,,Portuguese,exato,
 esper,basic,,expectation,expect,expected,,,,Spanish,esperar,
 espon,basic,,sponge,,spongy,,,,Portuguese,esponja,
 esta,basic,Honorific suffix,,,,,intern,,Portuguese,estagiário,
 estir,basic,,,stretch,taught/tight,tightly,,,Spanish,estirar,
+et,basic,,age,,old,,,,Spanish,edad,
 etan,basic,,elevator,lift/carry/bring/convey,,,,,Telugu,ఎత్తండి,Ettaṇḍi
-etat,basic,,age,,old,,,,Spanish,edad,
+etkun,,,generation,,,,,,Pemtara,et kun,Yīdài
 ey,basic,,,,,,hey,,Tamil,ஏய்,Ēy
 fais,basic,,face,,,,,,English,face,
 faj,basic,,reason,cause,reasonable/rational/sensible,reasonably,because/through/with,,Urdu,وجہ,vajah
 fajan,basic,,evolution ,evolve,evolved,,,,Mandarin Chinese,发展,Fāzhǎn
+fak,basic,,judgement,judge,judgy ,,,,Mandarin Chinese,法官,Fǎguān
 faktor,basic,,factor,factor in,,,,,German,Faktor,
+fam,basic,,family,,,,,,German,Familie,Jiātíng
 famen,basic,,valve,,,,,,Mandarin Chinese,阀门,Fámén
-famir,basic,,family,,,,,,German,Familie,Jiātíng
 fan,basic,,fraction/decimal/part/section/piece,divide,,partly,per,,Vietnamese,phần,
 fanhuy,basic,,,return,,,,,Mandarin Chinese,返回,Fǎnhuí
 fanmut,basic,,powder,powder,powdery,,,,Cantonese,粉末,fan mut
 fansun,basic,,minute,,,,,,Cantonese,分钟,fan sung
 fanyin,basic,,reaction/response/answer,react/respond/reply/answer,reactive/responsive,responsively,,,Mandarin Chinese,反应,Fǎnyìng
-farus,basic,,phallus,,,,,,English,phallus,
+far,basic,,phallus,,,,,,English,phallus,
 fas,basic,,ease,ease,easy,easily,,,Spanish,fácil,
 fasaten,,,,,delicate/fragile/breakable,,,,Pemtara,fas saten,easily damaged
 fasien,basic,,discovery,discover/reveal/show/find out,,,,,Mandarin Chinese,发现,Fāxiàn
 fason,basic,,mail,send,,,,,Mandarin Chinese,发送,Fāsòng
+fatik,,shortened form to specify a timeframe in minutes ,,,,,,,Pemtara,fansun tik,
 fay,basic,,,,,,wow,,Persian,Ÿàÿß€å,v√¢y
 feij,basic,,bean,,,,,,Portuguese,feijão,
+fen,basic,,education/lesson/learning/analysis/research,teach/train/educate/learn/study/practice/analyze/study/investigate,studious,,,,Mandarin Chinese,分析,Fēnxī
+fenjak,,,school/university/college,,,,,,Pemtara,fen jak,learn place
+fenren,,,teacher/professor,,,,,,Pemtara,fen ren,education person
 fer,basic,,sight/image/picture,see/watch/notice/observe,observant,observantly,,,Spanish,ver,
 feres,basic,,metal,,metallic,metallically,,,Persian,فلز,felez
 fies,basic,,party,celebrate,,,,,Spanish,fiesta,
-fifit,basic,,diversity,diversify,diverse,diversely,,,Gujarati,વિવિધ,Vividha
-fijir,basic,,electricity ,electricute/zap/shock,shocking/electrifying,shockingly,,,Gujarati,વીજળી,Vījaḷī
+fif,basic,,diversity,diversify,diverse,diversely,,,Gujarati,વિવિધ,Vividha
+fij,basic,,electricity ,electricute/zap/shock,shocking/electrifying,shockingly,,,Gujarati,વીજળી,Vījaḷī
 fik,basic,,entrance,enter/put in,inside,,in/into/throughout,,Punjabi,ਵਿੱਚ,Vica
-finan,basic,,hearing,hear,,,,,Telugu,వినండి,Vinaṇḍi
+fin,basic,,hearing,hear,,,,,Telugu,వినండి,Vinaṇḍi
+fir,basic,,opposition,oppose,opposite,oppositely,against,,Hindi,विलोम,vilom
 firek,,,crime,,criminal,criminally,,,Pemtara,fir rek,against rule
-firom,basic,,opposition,oppose,opposite,oppositely,against,,Hindi,विलोम,vilom
 firsey,,,,stop/cease/prevent,,,,,Pemtara,fir sey,
 fis,basic,,explanation,explain,,,about,,Gujarati,વિશે,Viśē
 fispot,basic,,explosion,explode,explosive,explosively,,,Hindi,विस्फोट,visphot
 fisran,basic,,,rest/relax,relaxing,,,,Telugu,విశ్రాంతి,Viśrānti
 fit,basic,,comparison,compare,comparable,comparably,than,,Tamil,விட,Viṭa
-fiyak,basic,,interpretation/translation,interpret/translate,,,,,Marathi,व्याख्या,Vyākhyā
 fon,basic,,sewing,sew,,,,,Shanghainese,缝,von
 for,basic,,strength,,strong/firm/stable,strongly/firmly,,,Portuguese,força,
 formar,basic,,official,officiate,official/formal,officially/formally,,,English,formal,
+fuiren,,,accountant,,,,,,Pemtara,fuy ren,money person
+fuisit,,,economy,,economic,,,,Pemtara,fuy sit,
 fuk,basic,,air/gas,boil/evaporate/simmer,boiling,,,,Japanese,吹く,Fuku
 fukay,basic,,cover/lid,cover,,,,,Mandarin Chinese,覆盖,Fùgài
 fuksap,basic,,complexity,complicate,complex/complicated,,,,Cantonese,复杂,fuk zaap
@@ -111,11 +119,11 @@ fur,basic,,flower,,flowery,,,,Hindi,फूल,phool
 fus,basic,,boss/senior/top,,superior,,over/above/high,,Russian,выше,vyshe
 fusison,,time of year,summer,,,,,,Pemtara,fus sison,
 fustut,,,confidence,,confident,confidently,,,Pemtara,fus tut,
-fuy,basic,,money/dollar/credit/payment/finance,pay,rich/expensive/financial,,,,Mandarin Chinese,富有,Fùyǒu
+fuy,basic,,money/dollar/credit/payment/finance,pay/buy/afford/claim,rich/expensive/financial,,,,Mandarin Chinese,富有,Fùyǒu
 ha,,exclamation marker ,,,,,,particle ,Pemtara,ham,
 haf,basic,,air/wind,airate,airy/windy,airily,,,Turkish,hava,
 haj,basic,,eight,,8,,,,Japanese,八,hachi
-hajhin,,named for the number of points on the shape,octagon,,octagonal,,,,Pemtara,haj hintuk,
+hajin,,named for the number of points on the shape,octagon,,octagonal,,,,Pemtara,haj hin,
 Hajos,,,Neptune,,,,,,Pemtara,haj hos,8th planet
 hajtij,,named for the number of faces on the object,diamond/octahedron,,,,,,Pemtara,haj tij,
 hak,basic,,,vomit/throw up,,,,,Japanese,吐く,Haku
@@ -132,30 +140,27 @@ har,basic,color,green,,green,,,,Hindi,हरा,hara
 haraf,basic,,,shake/shiver/tremble,,,,,Gujarati,હલાવો,Halāvō
 has,basic,,humor/laughter,laugh,funny/humorous,,,,Hindi,हास्य,haasy
 hasar,basic,,thousand,,1000,,,,Hindi,हज़ार,hazaar
-haten,basic,,development,develop,developed,,,,Japanese,発展,Hatten
 hay,basic,,sea/ocean,,,,,,Mandarin Chinese,海,Hǎi
 hayjan,,,wave,,,,,,Pemtara,hay jan,
-haypuran,,,coast/shore/beach,,,,,,Pemtara,hay puran,
+haypian,,,coast/shore/beach,,,,,,Pemtara,hay pian,
 hek,basic,,meal/food,eat,,,,,Cantonese,吃,hek
-hekorkan,,,stomach,,,,,,Pemtara,hek orkan,eat organ
+hekor,,,stomach,,,,,,Pemtara,hek or,eat organ
 hekrur,,,intestines,,,,,,Pemtara,hek rur,food tube
 hera,slang,Affectionate honorific suffix that means 'someone I care about',,,,,,,Pemtara,,
 herput,basic,,reptile/amphibian,,,,,,English,herptile,
 hes,basic,,trap/container/box/cup/vessel,catch/contain,,,,,Mandarin Chinese,盒子,Hézi
 hesap,basic,,account,account,accountable,,,,Turkish,hesap,
-hintuk,basic,,shape,form,shapely,,,,Vietnamese,hình thức,
+hin,basic,,shape,form,shapely,,,,Vietnamese,hình thức,
 hirom,basic,,,spread,,,,,Japanese,広める,Hiromeru
-hiyak,basic,,hundred,,100,,,,Japanese,百,Hyaku
-hojun,basic,,availability,,available,,,,Cantonese,可用,ho jung
+hiy,basic,,hundred,,100,,,,Japanese,百,Hyaku
+hoj,basic,,availability,,available,,,,Cantonese,可用,ho jung
 hon,basic,,existence,be/exist/is/become,,,,,Punjabi,ਹੋਣਾ,Hōṇā
-honjip,basic,,industry,,industrial,industrially,,,Cantonese,行业,hong jip
-horut,basic,,hug/cuddle,hold/embrace,,,,,English,hold,
+hor,basic,,hug/cuddle,hold/embrace,,,,,English,hold,
 hos,basic,,planet/world,,,,,,Japanese,星,Hoshi
 huas,basic,,chemical,,chemical,chemically,,,Mandarin Chinese,化学,Huàxué
-hues,basic,,judgement,judge,judgy ,,,,Spanish,jueza,
 huis,basic,color,gray,,grey,,,,Mandarin Chinese,灰色,Huīsè
 huk,basic,,hook,hook,,,,,English,hook,
-hupin,basic,,peace,,peaceful,peacefully,,,Mandarin Chinese,和平,Hépíng
+hup,basic,,peace,,peaceful,peacefully,,,Mandarin Chinese,和平,Hépíng
 hus,basic,,,check/verify,,,,,Mandarin Chinese,核实,Héshí
 husten,basic,,cough,cough,,,,,German,Husten,
 if,basic,,condition/state/situation ,,conditional/situational,,if,,English,if,
@@ -168,10 +173,9 @@ ik,basic,to a small degree,,,a little,less,,,Japanese,以下,Ika
 ikam,,,,,least,,,,Pemtara,ik ham,
 ikamar,,romantic crush,crush,crush,,,,,Pemtara,ik amar,
 iketat,,,youth,,young,,,,Pemtara,ik etat,little age
-ikfarus,,,clit/clitoris,,,,,,Pemtara,ik farus,little phallus
+ikfar,,,clit/clitoris,,,,,,Pemtara,ik far,little phallus
 ikfit,,,,,,,less than/(colloquially) worse than,,Pemtara,ik fit,
 ikfor,,,,,weak,weakly,,,Pemtara,ik for,little strength
-iktas,,,,,small,,,,Pemtara,ik tas,a little size
 iknop,,,,,narrow,narrowly,,,Pemtara,ik nop,small width or a little width
 ikos,,,dwarf planet,,,,,,Pemtara,ik hos,little planet
 ikpais,,,,,cheap,cheaply,,,Pemtara,ik pais,little money
@@ -180,24 +184,25 @@ iksios,,,,crack,,,,,Pemtara,ik sios,
 iksok,,,,,slow,slowly,,,Pemtara,ik sok,little speed
 iksot,,,,,quiet/soft,quietly/softly,,,Pemtara,ik sot,little noise
 iksuh,,,,chill,cool/cold,coolly/coldly,,,Pemtara,ik suh,
-iksupes,,,,,thin,thinnly,,,Pemtara,ik supes,little circumference
+iksup,,,,,thin,thinnly,,,Pemtara,ik sup,little circumference
 iktak,,,puppy/pup,,,,,,Pemtara,ik tak,
+iktas,,,,,small,,,,Pemtara,ik tas,a little size
 iktur,,,,,near/close,closely,,,Pemtara,ik tur,small distance or a little distance
-ikumut,,,doubt,doubt,doubtful,,,,Pemtara,ik umut,
 ikuoj,,,state/province,,,,,,Pemtara,ik kuoj,
 ikyuk,,,,,short,,,,Pemtara,ik yuk,
+im,basic,,tax,,,,,,Portuguese,imposto,
 imper,basic,specifically for numbers (even vs odd),,,odd,,,,French,impair,
-impos,basic,,tax,,,,,,Portuguese,imposto,
 impur,basic,,impulse,,impulsive/reckless,impulsively/recklessly,,,Portuguese,impulso,
 in,basic,,growth/addition/expansion,grow/increase/add/expand,increasing,,,,English,increase,
 inam,basic,,reward,reward,rewarding,,,,Hindi,इनाम,inaam
 insan,basic,,human,,,,,,Hindi,इंसान,insaan
+insison,,time of year,spring,,,,,,Pemtara,in sison,
 ip,basic,,cord/cable/wire/rope,,,,,,Turkish,ip,
-iptukfat,,,vine,,,,,,Pemtara,ip tukfat,rope plant
+ipit,,,vine,,,,,,Pemtara,ip pit,rope plant
 ir,basic,,,,,,to/toward/until,,Turkish,ile,
 irjan,,,,approach,,,,,Pemtara,ir jan,
 is,basic,,east,,east,east,,,English,east,
-iter,basic,,,,,,xor/either/or,,English,or,
+it,basic,,,,,,xor/either/or,,English,or,
 jak,basic,location marker particle,place/location/space,,,,,,Marathi,जागा,Jāgā
 jam,basic,,leg,kick,,,,,French,jambe,
 jamin,basic,,ground,,,,,,Gujarati,જમીન,Jamīna
@@ -209,6 +214,7 @@ jar,basic,,,climb/rise/ascend,,,up,,Urdu,چڑھنا,caṛhnā
 jas,basic,,hour,,,,,,Russian,час,chas
 jat,basic,,bush ,,,,,,Hindi,झाड़ी,jhaadee
 jatap,basic,,attract/captivate,attraction,attractive/alluring,attractively,,,Arabic,جاذب,jaḏaba
+jatik,,shortened form to specify a timeframe in hours,,,,,,,Pemtara,jas tik,
 je,slang,slang; informal,,,,,you,,Pemtara,jeh,
 jeh,basic,,that,,,,,,Bangla,যে,Yē
 jejak,,,,,,,there,,Pemtara,jeh jak,
@@ -222,11 +228,11 @@ jifan,basic,,life,live,alive,lively,,,Gujarati,જીવન,
 jifansur,,,birth,birth,,,,,Pemtara,jifan sur,life start
 jih,basic,,degree/level/rank/grade,,,,,,Mandarin Chinese,秩,Zhì
 jij,basic,,seven,,7,,,,Shanghainese,七,qiq
+jijak,,shortened form to specify a timeframe in week,,,,,,,Pemtara,jijten tik,
 jijentut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of you,,,,Pemtara,jiy je tut,
-jijhin,,named for the number of points on the shape,septagon,,septagonal,,,,Pemtara,jij hintuk,
+jijin,,named for the number of points on the shape,septagon,,septagonal,,,,Pemtara,jij hin,
 Jijos,,,Uranus,,,,,,Pemtara,jij hos,7th planet
 jijten,,,week,,,,,,Pemtara,jij ten,Vāram
-jimkak,basic,,,,strict,strictly,,,Cantonese,严格,jim gaak
 jimsok,basic,,,,serious,seriously,,,Cantonese,严肃,jim suk
 jin,basic,,,,,just/only/merely,,,Mandarin Chinese,仅,Jǐn
 jinjan,basic,,frequency/rate,,frequent/often,frequently/often/regularly,,,Mandarin Chinese,经常,Jīngcháng
@@ -234,7 +240,6 @@ jip,basic,,tongue,lick,,,,,Hindi,जीभ,jeebh
 jipan,basic,,wing,,,,,,Mandarin Chinese,翅膀,Chìbǎng
 jipjip,basic,,slime/goo,,sticky,,,,Urdu,چپچپا,cipcipā
 jipun,basic,,basics/essence,,fundamental/basic,fundamentally/basically/essentially,,,Mandarin Chinese,基本,Jīběn
-jir,basic,,government,govern,governmental,,,,Mandarin Chinese,治理,Zhìlǐ
 jirentut,,can be modified to 'jijentut' or 'jiyentut' if you want to specifically say 'jealous of you' or 'jealous of me',,,jealous,jealously,,,Pemtara,jiy ren tut,
 jis,basic,,continuation,continue,continuous/perpetual,continuously/perpetually,,,Mandarin Chinese,继续,Jìxù
 jisej,basic,,technology,,technological,technologically,,,Shanghainese,技術,jji-zeq
@@ -253,7 +258,6 @@ junan,basic,,choice/option/decision,choose/pick/decide ,picky,,,,Hindi,चुन
 junpey,basic,,preparation,prepare,ready,,,,Mandarin Chinese,准备,Zhǔnbèi
 junren,basic,,adult,,mature,,,,Mandarin Chinese,成人,Chéngrén
 jusa,basic,Honorific suffix,,,,,exec,,Mandarin Chinese,执行,Zhíxíng
-kadim,basic,specifically to touch with your foot,foot/step,touch/step,,,,,Arabic,قدم,qudim
 kaf,basic,,wish,want/desire,desireable,,,,Telugu,కావాలి,Kāvāli
 kaik,basic,,approximation,guess,approximate,approximately,,,Mandarin Chinese,猜测,Cāicè
 kaj,slang/swear,slang swear; very derogatory when used against someone,shit/garbage,kill/die/kill yourself,useless/stupid,,fuck,,Pemtara,kajar,
@@ -265,6 +269,7 @@ kakjit,slang/swear,slang swear,asshole/shithole,,,,,,Pemtara,kak jit ,
 kam,basic,,employment/job,employ/hire/work,,,,,Hindi,काम,kaam
 kamin,basic,,path/street/trail,,,,,,Spanish,camino,
 kamjak,,,office,,,,,,Pemtara,kam jak,work place
+kamsit,,,industry,,industrial,industrially,,,Pemtara,kam sit,hong jip
 kan,basic,listen and understand,ear,listen,,,,,Urdu,کان,kān
 kanat,basic,,reflection,reflect,reflective,,,,Tamil,கண்ணாடி,Kaṇṇāṭi
 kanatmuk,,,mirror,,,,,,Pemtara,kanat muka,reflect object
@@ -283,10 +288,10 @@ kat,basic,,cut,cut/slice,,,,,Bangla,কাটা,Kāṭā
 katam,basic,,stamp,stamp,,,,,Arabic,ختم,khatam
 katar,basic,,knot,tie,,,,,Tamil,కట్టాలి,Kaṭṭāli
 katay,basic,,story/tale/fiction,narrate/tell tales,fictional,,,,Tamil,கதை,Katai
+katim,basic,specifically to touch with your foot,foot/step,touch/step,,,,,Arabic,قدم,qudim
 katit,basic,,tour,walk,,,,,Russian,ходить,khodit
 kay,basic,,cow,,,,,,Urdu,گائے,gāe
-keis,basic,,economy,,economic,,,,Japanese,経済,keizai
-kekey,basic,,mentruation/period,mentruate,,,,,Japanese,月経,Gekkei
+kek,basic,,mentruation/period,mentruate,,,,,Japanese,月経,Gekkei
 kekon,basic,,marriage,marry,marital,,,,Japanese,結婚,kekkon
 ken,basic,,root/basis,,,,,,Shanghainese,根,ken
 kenen,basic,,probability,,probable/likely,probably,,,Mandarin Chinese,可能,Kěnéng
@@ -310,50 +315,46 @@ koj,basic,,shell/case,shield/defend/guard/protect,protective ,protectively,,,Sha
 kojim,basic,,island,,,,,,Japanese,小島,Kojima
 kojpik,,,beetle,,,,,,Pemtara,koj pik,
 koka,basic,Honorific suffix,,,,,junior,,Cantonese,初級,co kap
+kom,basic,,,,common/general/regular/standard/usual,commonly/generally/usually,,,Spanish,común,
 komar,basic,,,,gentle/soft,gently/softly,,,Punjabi,ਕੋਮਲ,Kōmala
 kompan,basic,,company/business/firm,,,,,,English,company,
-komun,basic,,,,common/general/regular/standard/usual,commonly/generally/usually,,,Spanish,común,
 kon,basic,,management,manage/control,controlling,,,,Mandarin Chinese,控制,Kòngzhì
 konek,basic,,connection/relation,connect/relate,connecting/connective,,,,Spanish,conectar,
+konekun,,,network,,,,,,Pemtara,konek kun,
 konmin,basic,,intelligence,,intelligent/smart ,smartly,,,Mandarin Chinese,聪明,Cōngmíng
-konsep,basic,,concept,conceptualize ,conceptually,,,,Spanish,concepto,
-kopiy,basic,,duplicate/clone,copy/multiply,same/identical/similar,similarly/identically,same/like/as/such as,,Spanish,Copiar,
-koref,basic,,task,delegate,,,,,Turkish,görev,
+konsit,,,administration/government,administrate/govern,administrative,,,,Pemtara,kon sit,
+kop,basic,,duplicate/clone,copy/multiply,same/identical/similar,similarly/identically,same/like/as/such as,,Spanish,Copiar,
+kor,basic,,rabbit/bunny,,,,,,Bangla,খরগোশ,khôrgoś
 korkar,basic,,,hang,,,,,Spanish,colgar,
-korkey,basic,,policy,,,,,,Tamil,கொள்கை,Koḷkai
-korkos,basic,,rabbit/bunny,,,,,,Bangla,খরগোশ,khôrgoś
 korom,basic,,column,,,,,,English,column,
 kos,basic,,bone,,,,,,Russian,кость,kost'
 kot,basic,,depth,drop/fall,deep,,down,,Spanish,gota,
 kotak,basic,,grid/chart,,,,,,Javanese,kothak,
 koykok,basic,,,,foreign,,,,Cantonese,外國,ngoi gwok
-kuan,basic,,administration,administrate,administrative,,,,Mandarin Chinese,管理,Guǎnlǐ
-kuay,basic,,oddity,,strange/odd/weird/unexpected/abnormal,strangely/oddly,,,Mandarin Chinese,怪,Qíguài
 kuey,basic,,ghost/spirit/soul,,,,,,Mandarin Chinese,鬼,Guǐ
 kuj,basic,to a medium degree,,,some/kind of/okay/fine,,,,Punjabi,ਕੁੱਝ,Kujha
-kumban,basic,,lip,kiss,,,,,Hindi,चुंबन,chumban
+kum,basic,,lip,kiss,,,,,Hindi,चुंबन,chumban
 kun,basic,,group,,,,,,Japanese,群,gun
 kuoj,basic,,country/nation/federation,,federal,federally,,,Mandarin Chinese,国家,Guójiā
 kup,basic,as in 'too much',,,,,too,,Bangla,খুব,Khuba
+kur,basic,general nonspecific touch,skin,touch,,,,,Javanese,kulit,
 kuram,basic,,gram,,,,,,German,Gramm,
 kuris,basic/slang,also slang for slick,lube,slip/slide,slippery,,,,French,glisser,
-kurit,basic,general nonspecific touch,skin,touch,,,,,Javanese,kulit,
 kurpay,basic,,,beg,,,please,,Hindi,कृपया,krpaya
-kurtur,basic,,culture,,,,,,Italian,cultura,
-kurtut,,,shame/disgrace,embarrass/disgrace,embarassed/ashamed,,,,Pemtara,kurpay tut,
 kurut,basic,,chest/breast,,,,,,Russian,грудь,grud'
 kurutkos,,,sternum,,,,,,Pemtara,kurut kos,chest bone
 kus,basic,,grass,,,,,,Japanese,草,kusa
 kut,basic,specifically for numbers (even vs odd),,,even,,,,Tamil,கூட,Kūṭa
 kutaf,basic,,adjustment,adjust/change/alter/transform,,,,,Gujarati,ગોઠવો,Gōṭhavō
-mafan,basic,,trouble/difficulty/challenge,challenge,difficult/hard/tough/challenging,,,,Mandarin Chinese,麻烦,Máfan
-mahitren,,,expert,,,,,,Pemtara,mahit ren,knowledge person
+kutafsit,,,development,develop,developed,,,,Pemtara,kutaf sit,
+maf,basic,,trouble/difficulty/challenge,challenge,difficult/hard/tough/challenging,,,,Mandarin Chinese,麻烦,Máfan
 mak,basic,,bar/rod/pole/stick,,straight,,,,Korean,막대,magdae
 makat,basic,,monkey,,,,,,Marathi,माकड,Mākaḍa
 makin,basic,,machine/mechanic,,mechanical,mechanically,,,Spanish,máquina,
 mam,basic,,mammal,,,,,,Latin,mamma,
 man,basic,,,fill,enough/full,enough,,,Mandarin Chinese,满,Mǎn
 Mankar,basic,,Mars,,,,,,Bangla,মঙ্গল,Maṅgala
+manter,basic,,maintenance,maintain,,,,,Portuguese,manter,
 map,basic,,parent,,,,,,Punjabi,ਮਾਪੇ,Māpē
 mapop,basic,,magic,do magic/cast,magically,,,,Korean,마법,mabeob
 maprais,,,airplane/plane,,,,,,Pemtara,mapur rais,fly vehicle
@@ -361,7 +362,6 @@ mapur,basic,,flight,fly,,,,,Javanese,mabur,
 mar,basic,,wound,hurt/wound,,,,,Italian,Male,
 markas,basic,,center/middle,,center/middle,,,,Arabic,مركز,markáz
 maron,basic,color,brown,,brown,,,,Spanish,marrón,
-marpit,basic,,commerce,exchange/trade,,,,,Telugu,మార్పిడి,Mārpiḍi
 mas,basic,to a large degree,,,more/a lot/many/(colloquially) good,,,,Urdu,مزید,mazid
 masam,,,,,most,,,,Pemtara,mas ham ,
 masam,slang,only used in the Warren,,love/make (you) the most important thing,,,,,Pemtara,masuram,
@@ -371,15 +371,17 @@ masfit,,,,,,,more than/(colloquially) better than,,Pemtara,mas fit,
 masfitut,,,,,stuck up/snobish,,,,Pemtara,masfit tut,
 masjan,,,,hurry,,,,,Pemtara,mas jan,go a lot
 masjok,,,,stare,,,,,Pemtara,mas jok,
+maskaf,,,preference/favor,prefer/favor,favorite,,rather,,Pemtara,mas kaf,
 maskatit,,,,run,,,,,Pemtara,mas katit,walk a lot/very
 masnoj,,commonly used with the -u ending as a greeting or goodbye,,,,,good night/good evening,,Pemtara,mas noj,
 maspater,,physically fight,,fight,,,,,Pemtara,mas pater,hit a lot
 maspun,,as in like a lot,,love,,,,,Pemtara,mas pun,like a lot
+mastian,,,concentration,focus/concentrate,focused,,,,Pemtara,mas tian,
 masuh,,,warmth,heat,warm,warmly,,,Pemtara,mas suh,
 masuram,,not commonly used; reserved for extremely important relationships,,care deeply/(colloquially) love,,,,,Pemtara,mas suram,
 mat,basic,,material,,,,,,Arabic,مادة,mada
 mater,basic,,matter/stuff,,,,,,English,matter,
-may,basic,,purchase,buy/spend/sell/afford/claim,affordable,affordably,,,Mandarin Chinese,买,Mǎi
+may,basic,,,use up/spend,,,,,Mandarin Chinese,买,Mǎi
 mayas,basic,,goat,,,,,,Arabic,معزة,maeaza
 mek,basic,,creation/establishment,make/create/manufacture/establish,artificial,artificially, ,,English,make,
 mem,basic,,memory,memorize/remember,memorable,memorably,,,Italian,memoria,
@@ -389,13 +391,12 @@ mesar,basic,,example/sample,,,,,,Persian,مثال,mesâl
 meta,basic,Honorific suffix,,,,,mid,,Spanish,medio,
 metit,basic,,measurment,measure,,,,,Spanish,medida,
 metot,basic,,method/technique,process,methodical,methodically,,,Spanish,método,
-meyrik,basic,,charisma,charm,charming/charismatic,charmingly/charismatically,,,Cantonese,魅力,mei lik
+mey,basic,,charisma,charm,charming/charismatic,charmingly/charismatically,,,Cantonese,魅力,mei lik
 mien,basic,,interview,,,,,,Mandarin Chinese,面试,Miànshì
-min,basic,,democracy,,democratic,democratically,,,Mandarin Chinese,民主,Mínzhǔ
 minjon,basic,,public,publicize,public,publicly,,,Mandarin Chinese,民众,Mínzhòng
 minrin,basic,,command,command/order,,,,,Shanghainese,命令,min lin
 minsun,basic,,fame,,famous,famously,,,Mandarin Chinese,名声,Míngshēng
-miper,basic,,furniture,,,,,,Russian,мебель,mebel
+mip,basic,,furniture,,,,,,Russian,мебель,mebel
 mira,slang,Affectionate honorific suffix that means 'someone I take care of',,,,,,,Pemtara,,
 miran,basic,,meeting,meet,,,,,Hindi,मिलना,milana
 mirap,basic,,arch,curve/bend/flex,flexible,flexibly,,,Urdu,محراب,miḥrāb
@@ -403,16 +404,16 @@ mirkos,,,rib,,,,,,Pemtara,mirap kos,curve bone
 mirkosfik,,,rib cage,,,,,,Pemtara,mirkos fik,rib container
 miryon,basic,,million,,1000000,,,,German,million,
 misran,basic,,mixture/solution,mix,mixed,,,,Bangla,‡¶Æ‡¶ø‡¶∂‡ßç‡¶∞‡¶£,Mi≈õra·πáa
+mit,basic,,,have/borrow/rent,,,,,German,mieten,
 mitar,basic,,meter,,,,,,Hindi,मीटर,meetar
-miten,basic,,,have/borrow/rent,,,,,German,mieten,
 mitiy,basic,,media,,,,,,English,media,
 mm,,,,,,,Mmhm,,Pemtara,Am,Yes
-mofan,basic,color,yellow,,yellow,,,,Vietnamese,màu vàng,
+mof,basic,color,yellow,,yellow,,,,Vietnamese,màu vàng,
 mok,basic,,throat,swallow,,,,,Korean,목,mog
 mokrur,,,esaphogus ,,,,,,Pemtara,mok rur,throat tube
 montan,basic,,mountain,,,,,,Spanish,montaña,
-morat,basic,color,purple,,purple,,,,Spanish,morada,
-mosuk,basic,,brain,,,,,,Russian,мозг,mozg
+mor,basic,color,purple,,purple,,,,Spanish,morada,
+mos,basic,,model,pose,,,,,Mandarin Chinese,模型,Móxíng
 mot,basic,,death,die/kill,dead,,,,Hindi,मौत,maut
 moter,basic,,pattern,,,,,,Italian,modello,
 motmin,basic,,loner,,alone/solitary/lone,lonely,,,Vietnamese,một mình,
@@ -420,12 +421,11 @@ motsayir,,,poison/venom,,poisonous,,,,Pemtara,mot sayir,
 motsinar,,,omen,,,,,,Pemtara,mot sinar,death sign
 muas,basic,,,,parallel,,,,Arabic,موازي,muazi
 muk,basic,,object/item/thing,,,,,,Vietnamese,mục,
-mupan,basic,,board,,,,,,Mandarin Chinese,木板,Mùbǎn
+mup,basic,,board,,,,,,Mandarin Chinese,木板,Mùbǎn
 mur,basic,,core,core,,,,,Bangla,মূল,Mūla
 mut,basic,,purpose/mission,,purposeful,purposefully,,,Mandarin Chinese,目的,Mùdì
 mutur,basic,,urine,pee,,,,,Marathi,मूत्र,Mūtra
 na,basic,,,(colloquially) don't,not,,no,,Bangla,না,Nā
-naf,basic,,nine,,9,,,,Gujarati,નવ,nava
 naij,,,,exhaust,tired/exhausted/weary,,,,Pemtara,na ij,
 najan,,,,stop/freeze,still/motionless,motionlessly,,,Pemtara,na jan,
 naki,,particle to indicate something is a rhetorical question ,,,,,,,Pemtara,na ki,
@@ -442,17 +442,17 @@ naseytut,,,,,lazy,,,,Pemtara,na sey tut,no activity
 nasij,,,lie/trick/forgery,lie/trick/fake,false/untrue/fake,falsely,,,Pemtara,na sij,
 nasot,,,silence,silence,silent,silently,,,Pemtara,na sot,no sound
 natik,,,,,,,never,,Pemtara,na tik,
+nef,basic,,nine,,9,,,,French,neuf,
 nej,basic,,star,,,,,,Arabic,نجمة,najma
 nejkun,,,galaxy,,,,,,Pemtara,nej kun,star group
 nek,basic,,neck,,,,,,English,neck,
 nes,basic,,necessity/need,must/have to/need/depend/rely on,necessary/essential,necessarily,,,Spanish,necesidad,
 net,basic,,leader/guide,lead/guide,,,,,Hindi,नेता,neta
 nien,basic,,year,,,,,,Mandarin Chinese,年,Nián
-niensikan,,time of year,season,,,,,,Pemtara,nien sikan,
 nih,basic,,greeting,hi/hello/greet,,,,,Mandarin Chinese,你好,Nǐ hǎo
-nikur,basic,,performance/show,perform/pretend/play,performative/pretend,,,,Tamil,நிகழ்த்து,Nikaḻttu
-nikuren,,,actor,,,,,,Pemtara,nikur ren,perform person
-nikurjak,,,stage/theater,,,,,,Pemtara,nikur jak,
+nik,basic,,performance/show,perform/pretend/play,performative/pretend,,,,Tamil,நிகழ்த்து,Nikaḻttu
+nikjak,,,stage/theater,,,,,,Pemtara,nik jak,
+nikren,,,actor,,,,,,Pemtara,nik ren,perform person
 nir,basic,,length,,long,,,,Tamil,நீளம்,Nīḷam
 nis,basic,,junior/bottom,,inferior,,under/below/beneath/low,preposition,Russian,ниже,nizhe
 nisan,basic,,mark,mark,,,,,Hindi,निशान,nishaan
@@ -461,41 +461,40 @@ nisjit,,,anus,,,,,,Pemtara,nis jit,bottom hole
 nispaf,,used when referring to the emotion,sadness/sorrow/depression,,sad/depressed,,,,Pemtara,nis paf,
 nistut,,used when referring to the effect of something on you/others,,,sad/sorrowful/depressing,,,,Pemtara,nis tut,low attitude
 nit,basic,,water,,watery,,,,Telugu,నీటి,Nīṭi
+nitik,,shortened form to specify a timeframe in year,,,,,,,Pemtara,nien tik,
 nof,basic,,,,new/novel/fresh,,,,Portuguese,nova,
 noj,basic,,evening/night,,,,,,Spanish,noche,
 nom,basic,,name,,,,,,Portuguese,nome,
 nop,basic,,width,,wide,,,,Korean,너비,neobi
-numper,basic,,number/amount/quantity/math,count,,,,,English,number,
-numren,,,mathematician,,,,,,Pemtara,numper ren,
+num,basic,,number/amount/quantity/math,count,,,,,English,number,
+numren,,,mathematician,,,,,,Pemtara,num ren,
 nur,basic,,effort/attempt,try/attempt,,,,,Mandarin Chinese,努力,Nǔlì
 oftus,basic,,sheep,,,,,,Russian,овца,ovtsa
 oh,basic,,,,,,oh,,Mandarin Chinese,哦,Ó
-ojar,basic,,instrument/tool,use/play,,,,,Hindi,औजार,aujaar
-ompur,basic,,shoulder,,,,,,Portuguese,ombro,
+oj,basic,,instrument/tool,use/play,,,,,Hindi,औजार,aujaar
+om,basic,,shoulder,,,,,,Portuguese,ombro,
 on,basic,,,,,,any/at all,,Korean,어느,[ʌ̹nɯ]
-open,basic,,,open/turn on,open/on,,,,English,open,
+op,basic,,,open/turn on,open/on,,,,English,open,
 oput,basic,,experience,experience,experienced,,,,Russian,опыт,opyt
+or,basic,,organ,,,,,,Spanish,Organo,
 orim,basic,,crease/fold,crease/fold,,,,,Japanese,折り目,Orime
-orkan,basic,,organ,,,,,,Spanish,Organo,
 os,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,Korean,옷,os
 osat,basic,,medicine/drug/pill,,,, ,,Marathi,औषध,Auṣadha
 oser,basic,,specifics/details,,particular/specific/detailed,particularly/specifically/especially,,,Turkish,özel,
+oses,,,bag,,,,,,Pemtara,os hes,
 ot,basic,,,get/attain/take/grab,,,,,Korean,얻다,eodda
-otak,basic,,concentration,focus/concentrate,focused,,,,Turkish,odak,
 oter,basic,,hotel,,,,,,Spanish,hotel,
-otnak,basic,,,,,,however/though/nevertheless/still/yet/in spite of/despite,conjunction,Russian,однако,odnako
+otnak,basic,"adverb used like ""even you can't deny it""",,,,even,however/though/nevertheless/still/yet/in spite of/despite,conjunction,Russian,однако,odnako
 paen,basic,the direction of left (vs right),left,,,left,,,Hindi,बाएं,baen
 paf,basic,,feeling/emotion,feel/sense by emotion,emotional,emotionally,,,Hindi,भावना,bhaavana
-pahar,basic,,exit,leave/exit/exclude,outside,,out,preposition,Hindi,बाहर,baahar
-paisren,,,accountant,,,,,,Pemtara,pais ren,money person
+pah,basic,,exit,leave/exit/exclude,outside,,out,preposition,Hindi,बाहर,baahar
 paj,basic,marks future tense when paired with 'tik',future,,,,after,preposition,Gujarati,પછી,પછી
 pajet,basic,,budget,budget,,,,,English,budget,
-pakar,basic,,paragraph,,,,,,Gujarati,ફકરો,Phakarō
+pak,basic,,paragraph,,,,,,Gujarati,ફકરો,Phakarō
 pan,basic,,fruit,,,,,,Telugu,పండు,Paṇḍu
 paner,basic,,needle,,,,,,Korean,바늘,baneul
 pantar,basic,,storage/inventory/supply,store/save/backup,,,,,Hindi,भंडार,bhandaar
 pantay,basic,,,sneeze,,,,,Cantonese,喷嚏,pan tai
-paotur,basic,,maintenance,maintain,,,,,Vietnamese,BẢO TRÌ,
 para,slang,Affectionate honorific suffix that means 'someone who takes care of me',,,,,,,Pemtara,,
 parin,basic,,bird,,,,,,Urdu,پرندہ,parinda
 parit,basic,,range/scale/spectrum,,,,,,Telugu,పరిధి,Paridhi
@@ -508,13 +507,13 @@ pat,basic,,obstacle ,block,blocked,,,,Bangla,বাধা,Bādhā
 patar,basic,,rock/stone,,,,,,Urdu,پتھر,patthar
 pater,basic,,strike,hit/beat,,,,,Portuguese,bater,
 patif,basic,,recording,record,,,,,Tamil,பதிவு,Pativu
-patrak,basic,,plane/sheet,,flat,,,,Marathi,पत्रक,Patraka
+patrak,basic,,side/wall/dimension/face/plane/sheet,,flat,,,,Marathi,पत्रक,Patraka
 paus,basic,,insurance,insure ,insured,,,,Shanghainese,保险,pau xi
 pay,basic,,baby,,,,,,Javanese,bayi,
-payorkan,,,uterus,,,,,,Pemtara,pay orkan,baby organ
+payor,,,uterus,,,,,,Pemtara,pay or,baby organ
 peis,basic,,fish,,,,,,Portuguese,peixe,
-pejan,basic,,back/ending/finale,end,final/eventual/last,finally/eventually/at last,behind/after/in back of,,Bangla,পেছনে,Pēchanē
-pejankos,,,spine,,,,,,Pemtara,pejan kos,back bone
+pej,basic,,back/ending/finale,end,final/eventual/last,finally/eventually/at last,behind/after/in back of,,Bangla,পেছনে,Pēchanē
+pejkos,,,spine,,,,,,Pemtara,pej kos,back bone
 pek,basic,,ice,,,,,,Javanese,beku,
 pem,basic,,snake,,,,,,Korean,뱀,baem
 pep,basic,,drink,drink,,,,,Spanish,beber,
@@ -523,15 +522,14 @@ perek,basic,,nail/tack,nail/tack,,,,,Bangla,পেরেক,Pērēka
 perfek,basic,,perfection,perfect,perfect/flawless,,,,Spanish,perfecto,
 perten,,,yesterday,,,,,,Pemtara,per ten,
 pes,basic,,five,,5,,,,Turkish,beş,
-peshin,,named for the number of points on the shape,pentagon,,pentagonal,,,,Pemtara,pes hintuk,
+pesin,,named for the number of points on the shape,pentagon,,pentagonal,,,,Pemtara,pes hin,
 pet,basic,,tree,,,,,,Hindi,पेड़,ped
 petan,basic,,,sit,,,,,Hindi,बैठना,baithana
-petanmip,,,chair,,,,,,Pemtara,petan mipa,sit furniture
+petanmip,,,chair,,,,,,Pemtara,petan mip,sit furniture
 petkun,,,forest,,,,,,Pemtara,pet kun,tree group
 petmat,,,wood,,,,,,Pemtara,pet mat,tree material
 peuj,basic,,spouse,,,,,,Korean,배우자,baeuja
 pian,basic,,edge/border,,,,,,Mandarin Chinese,边界,Biānjiè
-pien,basic,,side/wall/dimension/face,,,,,,Mandarin Chinese,边,Biān
 pif,basic,marks past tense when paired with 'tik',past,,,,before,,English,before,
 pij,basic,,seed,,,,,,Bangla,বীজ,Bīja
 pijik,basic,,business,,busy,,,,Telugu,బిజీగా,Bijīgā
@@ -545,6 +543,7 @@ pir,basic,,cat,,,,,,Hindi,बिल्ली,billee
 pirim,basic,,science,,,,,,Turkish,bilim,
 pirimren,,,scientist,,,,,,Pemtara,pirim ren,science person
 pis,basic,,nose,sniff,,,,,Mandarin Chinese,鼻子,Bízi
+pit,basic,,plant,,,,,,Turkish,bitki,
 piyur,basic,,ratio,,,,,,Korean,비율,biyul
 poin,basic,,,point/indicate/show,,,,,English,point,
 pok,basic,,mouth,,,,,,Portuguese,boca,
@@ -552,24 +551,24 @@ pokos,basic,,,,few,,,,Spanish,pocos,
 pom,basic,,toy,play with,,,,,Telugu,బొమ్మ,Bom'ma
 pon,basic,,,lay/lie down/place/put,,,,,Spanish,poner,
 por,basic,,bridge,,,,,,Persian,پل,pol
-pos,basic,,model,pose,,,,,English,pose,
-posip,basic,,possibility,,possible,,maybe,,Spanish,posible,
+pos,basic,,possibility,,possible,maybe/possibly,,,Spanish,posible,
 pot,basic,,contest/competition,compete,competitive ,competitively,,,Telugu,పోటీ,Pōṭī
 poter,basic,,irritant,bother/irritate,annoying/irritating/bothersome,,,,English,bother,
 poy,basic,,chicken,,,,,,Spanish,chicken,
-pumak,basic,,paper,,,,,,Russian,бумага,bumaga
+pum,basic,,paper,,,,,,Russian,бумага,bumaga
 pun,basic,,joy/enjoyment/fun/delight,like/enjoy/fond,happy/fun/enjoyable,happily,,,Tamil,போன்ற,Pōṉṟa
 pur,basic,,,,bad/negative,,,,Bangla,ਬੁਰਾ,Burā
 purtut,,,rage/anger/wrath,,angry/mad/grumpy/pissy,,,,Pemtara,pur tut,
 puryuh,,,disease/illness,,ill/sick,,,,Pemtara,pur yuh,
+put,basic,mainly used to differentiate between physical and virtual,reality,,physical/real,physically,,,Japanese,物理的,Butsuri-teki
 raf,basic,,adipose,fatten,fat,,,,Telugu,లావు,Lāvu
 rah,basic,,,stay/remain/keep,,,,,Marathi,राहा,Rāhā
 rain,basic,,line/row,,,,,,English,line,
 rais,basic,,vehicle,drive,,,,,Vietnamese,lái xe,
-rajan,basic,,structure/building,construct/build,,,,,Marathi,रचना,Racanā
+raj,basic,,structure/building,construct/build,,,,,Marathi,रचना,Racanā
 rak,basic,,blood,bleed,bloody,,,,Marathi,रक्त,Rakta
-rakorkan,,,heart,,,,,,Pemtara,raktam orkan,blood organ
-rakrur,,,artery/vein,,,,,,Pemtara,ratkam rur,blood tube
+rakor,,,heart,,,,,,Pemtara,rak or,blood organ
+rakrur,,,artery/vein,,,,,,Pemtara,rat rur,blood tube
 raksas,basic,,monster,,monsterous,monsterously,,,Marathi,राक्षस,Rākṣasa
 ram,basic,,branch,split,,,,,Spanish,rama,
 ran,basic,,color/shade/tone,,colorful/vivid/saturated,,,,Bangla,রঙ,Raṅa
@@ -579,23 +578,23 @@ ras,basic,,secret,hide,,,,,Persian,راز,râz
 rasit,basic,,receipt,,,,,,Hindi,रसीद,raseed
 rastut,,,,,shy,,,,Pemtara,ras tut,
 rat,basic,,rat,,,,,,Spanish,rato,
-rehos,basic,,,go away/leave,,,away,,Spanish,lejos,
-rek,basic,,rule/law,,lawful,lawfully,,,Spanish,regla,
+rek,basic,,rule/law/policy,,lawful/strict,lawfully/strictly,,,Spanish,regla,
 rekin,basic,,,,,,but,conjunction,Hindi,लेकिन,lekin
 rekren,,,lawyer,,,,,,Pemtara,rek ren,law person
 ren,basic,can be used as an honorific suffic when you don't know what to call someone,person,,,,person,,Mandarin Chinese,人,Rén
-resat,basic,,solution/answer/resolution,solve/resolve,,,,,Russian,решать,reshat
+rensit,,,society,,,,,,Pemtara,ren sit,Samāja
+res,basic,,solution/answer/resolution,solve/resolve,,,,,Russian,решать,reshat
 resor,basic,the mechanical device,spring,,,,,,Spanish,resorte,
 ret,basic,color,red,,red,,,,English,red,
-retsison,,time of year,fall/autumn,,,,,,Pemtara,retuir sison,
 rey,basic,,class/category/genre/kind/type,,,,,,Mandarin Chinese,类,Lèi
 rian,basic,,grain,,,,,,Mandarin Chinese,粮食,Liángshí
 rif,basic,,leaf,,,,,,English,leaf,
 rij,basic,,understanding,understand,understandable/coherent,understandably,,,Mandarin Chinese,理解,Lǐjiě
+rik,basic,,,go away/leave,,,away,,Mandarin Chinese,离开,Líkāi
 riker,basic,,light,,bright,,,,Spanish,ligero,
 rikit,basic,,theory,theorize/suspect/hypothesize,theoretical/hypothetically,theoretically/hypothetically,,,Hindi,लिखित,likhit
 rin,basic,,zero,,zero/none,,,,Mandarin Chinese,零,Líng
-rinhin,,named for the number of points on the shape,circle/oval,,,,,,Pemtara,rin hintuk,
+rinin,,named for the number of points on the shape,circle/oval,,,,,,Pemtara,rin hin,
 rir,basic,,force,force/make/influence,forceful,forcefully,,,Mandarin Chinese,力量,Lìliàng
 riris,basic,,,release/let go,free,,,,English,release,
 rirun,basic,,profit,profit,,,,,Mandarin Chinese,利润,Lìrùn
@@ -605,14 +604,14 @@ rit,basic,,liter,,,,,,Portuguese,litro,
 ritum,basic,,rhythm,,rhythmic,,,,English,rhythm,
 riy,basic,the economic concept,interest,,,,,,Mandarin Chinese,利益,Lìyì
 rof,basic,,texture,,rough/harsh,,,,English,rough,
-rojer,basic,,house/lodge/home,dwell/reside/live/inhabit,homey,,,,French,loger,
-rok,basic,,goal/achievement,achieve/reach,achievable ,achievably,,,Bangla,লক্ষ্য,Lakṣya
+roj,basic,,house/lodge/home,dwell/reside/live/inhabit,homey,,,,French,loger,
+rok,basic,,task/goal/achievement,achieve/reach,achievable ,achievably,,,Bangla,লক্ষ্য,Lakṣya
 rokan,basic,,oil,,oily,,,,Persian,روغن,rowğan
 ron,basic,,,allow/let/permit,,,,,Mandarin Chinese,容许,Róngxǔ
-roran,basic,,concern,worry,concerned,,,,Vietnamese,lo lắng,
-rotur,basic,,rip/tear,rip/tear,,,,,Spanish,rotura,
+ror,basic,,concern,worry,concerned,,,,Vietnamese,lo lắng,
+rot,basic,,rip/tear,rip/tear,,,,,Spanish,rotura,
 ruk,basic,,six,,6,,,,Cantonese,六,luk
-rukhin,,named for the number of points on the shape,hexagon,,hexagonal,,,,Pemtara,ruk hintuk,
+rukin,,named for the number of points on the shape,hexagon,,hexagonal,,,,Pemtara,ruk hin,
 ruktij,,named for the number of faces on the object,cube/rectangular prism/box,,cubic/rectangular,,,,Pemtara,ruk tij,
 rum,basic,,room,,,,,,Bangla,রুম,Ruma
 run,basic,,moon,,,,,,Italian,luna,
@@ -621,15 +620,15 @@ saf,basic,,soap,wash/clean,clean,,,,Hindi,साफ़,saaf
 safik,,,bath,bathe,,,,,Pemtara,saf fik,
 sahar,basic,,lizard,,,,,,Arabic,سحلية,sahalia
 sak,basic,,authority/power,enforce,powerful,powerfully,,,Hindi,शक्ति,shakti
-samaj,basic,,society,,,,,,Marathi,समाज,Samāja
-samrap,basic,,,stand,,,,,Mandarin Chinese,站立,zaam laap
-santes,basic,,message,text/DM,,,,,Marathi,संदेश,Sandēśa
+sam,basic,,,stand,,,,,Mandarin Chinese,站立,zaam laap
+san,basic,,message,text/DM,,,,,Marathi,संदेश,Sandēśa
 saojen,basic,,morning,,,,,,Mandarin Chinese,早晨,Zǎochén
 Saomok,basic,,Jupiter,,,,,,Vietnamese,sao Mộc,
 sap,basic,,knowledge/fact/information,know/identify/determine/recognize,knowledgeable,knowledgeablely,,,Spanish,Saber,
 sapak,basic,,scent/odor,smell,,,,,Russian,запах,zapakh
 sapar,basic,,cactus,,,,,,Arabic,صبار,sabaar
 sapin,basic,,,,independent,independently,,,Bangla,স্বাধীন,Sbādhīna
+sapren,,,expert,,,,,,Pemtara,sap ren,knowledge person
 saput,basic,,evidence/proof,prove,,,,,Urdu,ثبوت,sabūt
 sar,basic,,month,,,,,,Arabic,شهر,shahr
 sarfaj,basic,,,,wild,,,,Spanish,salvaje,
@@ -638,39 +637,37 @@ sartar,basic,,jump,jump,,,,,Spanish,saltar,
 sarut,basic,,salt,,salty,,,,English,salt,
 sas,basic,,breath,breathe,,,,,Hindi,साँस,saans
 sasat,basic,,institution ,,institutional,,,,Punjabi,ਸੰਸਥਾ,Sasathā
-sasorkan,,,lung,,,,,,Pemtara,sas orkan,air organ
+sasor,,,lung,,,,,,Pemtara,sas or,air organ
 sat,basic,,shutdown,close/shut/turn off,closed/off,,,,English,shut,
 saten,basic,,damage,damage,damaged,,,,German,Schaden,
+satik,,shortened form to specify a timeframe in month,,,,,,,Pemtara,sar tik,
 say,basic,,,,,,at,preposition,Mandarin Chinese,在,Zài
 sayir,basic,,liquid,melt/condense,,,,,Arabic,سائل,sayil
-sehan,basic,,,bear/stand/endure/last,,,,,Hindi,सहना,sahana
+seh,basic,,,bear/stand/endure/last,,,,,Hindi,सहना,sahana
 seij,basic,,politics,,political,,,,Japanese,政治,Seiji
 seir,basic,,order/series/arrangement,organize/sort/arrange,orderly,,,,Japanese,整理,Seiri
 sej,basic,,design,design,,,,,Mandarin Chinese,设计,Shèjì
 sek,basic,,cough,cough,,,,,Japanese,咳,Seki
-sekan,basic,,education/lesson/learning/analysis/research,teach/train/educate/learn/study/practice/analyze/study/investigate,studious,,,,Bangla,শেখান,Śēkhāna
-sekanjak,,,school/university/college,,,,,,Pemtara,sekan jak,learn place
-sekanren,,,teacher/professor,,,,,,Pemtara,sekan ren,education person
-sekir,basic,,,follow/track,,,,,Spanish,seguir,
+sek,basic,,,follow/track,,,,,Spanish,seguir,
 sen,basic,,scene/scenario,,,,,,French,scène,
 senkon,basic,,success/victory,succeed/win,successful,successfully,,,Shanghainese,成功,zen-kon
 sensin,basic,,application,apply,,,,,Mandarin Chinese,申请,Shēnqǐng
-sensison,,time of year,spring,,,,,,Pemtara,senjan sison,
 ser,basic,,four,,4,,,,Shanghainese,四,sr
-serhin,,named for the number of points on the shape,square/rectangle/diamond,,square/rectangular,,,,Pemtara,ser hintuk,
+serin,,named for the number of points on the shape,square/rectangle/diamond,,square/rectangular,,,,Pemtara,ser hin,
 sertij,,named for the number of faces on the object,tetrahedron,,tetrahedral,,,,Pemtara,ser tij,
 set,basic,,area/field,,,,,,Hindi,क्षेत्र,kṣétra
 sey,basic,,action/activity,do/act/happen/use,active/useful,,with/using/through,,Tamil,செய்,Cey
 sian,basic,,camera,,,,,,Mandarin Chinese,相机,Xiàngjī
 sies,basic,,writing/essay/book/article,write,written,,,,Mandarin Chinese,写作,Xiězuò
+sif,basic,,exception,,exceptional,exceptionally,except/besides,,Hindi,सिवाय,sivaay
 sifan,basic,,west,,west,west,,,Mandarin Chinese,西方,Xīfāng
-sij,basic,,reality,,physical/real,physically,,,Mandarin Chinese,实际,Shíjì
-sij,basic,,truth/reality,,true/real/actual,truly/really/actually,,,Mandarin Chinese,实际,Shíjì
+sij,basic,,truth,,true/real/actual,truly/really/actually,,,Mandarin Chinese,实际,Shíjì
 sijun,basic,,resource,,,,,,Cantonese,资源,zi jyun
-sik,basic,,thought/mind/consciousness/opinion,think/assume/contemplate/imagine/opine,thoughtful/contemplative/conscious/opinionated,thoughtfully/contemplatively,,,Mandarin Chinese,思,Sīkǎo
+sik,basic,,thought/mind/consciousness/opinion/idea,think/assume/contemplate/imagine/opine,thoughtful/contemplative/conscious/opinionated,thoughtfully/contemplatively,,,Mandarin Chinese,思,Sīkǎo
 sikat,basic,,,brush,,,,,Javanese,sikat,
 siki,,"particle to indicate something is looking for confirmation; similar to tacking on ""right?"" or ""isn't it?"" or ""aren't you?""",,,,,,,Pemtara,sios ki,
-sikorkan,,,brain,,,,,,Pemtara,sik orkan,think organ
+sikor,,,brain,,,,,,Pemtara,sik or,
+siksit,,,concept,conceptualize ,conceptually,,,,Pemtara,sik sit,
 sim,basic,,present,,current,,now,time,Turkish,Şimdi,
 simjon,,,,,urgent/dire,urgently,,,Pemtara,sim jon,
 simten,,,today,,,,,,Pemtara,sim ten,
@@ -686,18 +683,16 @@ sipok,basic,,billion,,1000000000,,,,Korean,십억,sibeok
 sir,basic,color,white,,white,,,,Japanese,白,Shiro
 sis,basic,,child,,childish,,,,Bangla,শিশু,Śiśu
 sison,basic,time of year,season,,,,,,English,season,
-siton,basic,,system,,systemic,,,,Mandarin Chinese,系统,Xìtǒng
-sivay,basic,,exception,,exceptional,exceptionally,except/besides,,Hindi,सिवाय,sivaay
+sit,basic,,system,,systemic,,,,Mandarin Chinese,系统,Xìtǒng
 siyan,basic,,experiment,experiment,,,,,Mandarin Chinese,实验,Shíyàn
-sojiy,basic,,collection,collect,,,,,Mandarin Chinese,收集,Shōují
+soj,basic,,collection,collect,,,,,Mandarin Chinese,收集,Shōují
 sok,basic,,speed,,fast/quick,,,,Japanese,速度,Sokudo
 son,basic,,weight/mass,,heavy,,,,Shanghainese,重,zon
 sonris,basic,,smile,,,,,,Spanish,sonrisa,
-sonton,basic,,,loosen,loose,,,,Mandarin Chinese,松动,Sōngdòng
 sor,basic,,sun,,,,,,Spanish,sol,
 sorit,basic,,solid,freeze,solid/frozen,,,,Portuguese,sólido,
 soriy,basic,,,regret/apologize/forgive,,,sorry,,English,sorry,
-sorsiton,,,solar system,,,,,,Pemtara,sor siton,sun system
+sorsit,,,solar system,,,,,,Pemtara,sor sit,sun system
 sot,basic,,noise/sound,,loud,loudly,,,Arabic,صوت,sawt
 suakat,basic,,,welcome,,,,,Hindi,स्वागत,svaagat
 suan,basic,,acid,,acidic/sour,sourly,,,Mandarin Chinese,酸,Suān
@@ -712,13 +707,12 @@ sukpaj,,pair with 'tik',,,upcoming,soon,,,Pemtara,suk paj,
 sukpif,,pair with 'tik',,,recent,recently,,,Pemtara,suk pif,
 sukran,basic,,sperm,,,,,,Hindi,शुक्राणु,shukraanu
 sukranit,,,semen,,,,,,Pemtara,sukran nit,sperm water
-sukrorkan,,,testes,,,,,,Pemtara,sukran orkan,sperm organ
+sukranor,,,testes,,,,,,Pemtara,sukran or,sperm organ
 Sukur,basic,,Venus,,,,,,Hindi,शुक्र,shukr
-sum,basic,,bag,,,,,,Russian,сумки,sumki
 sun,basic,,,,raw/crude/unprocessed,,,,Mandarin Chinese,生,Shēng
 suof,basic,,,convince/assure/sweet talk,,,,,Mandarin Chinese,说服,Shuōfú
+sup,basic,,circumference ,,thick,,,,Italian,spesso,
 supasip,basic,,gratitude,thank/thanks/thank you,,,,,Russian,Спасибо,Spasibo
-supes,basic,,circumference ,,thick,,,,Italian,spesso,
 sur,basic,,front/beginning/start,start/begin,,,before/in front of,preposition,Urdu,شروع,šurū'
 suram,basic,,,care,caring,,,,Telugu,శ్రమ,Śrama
 suran,basic,,environment/nature,,natural,naturally,,,Mandarin Chinese,自然,Zìrán
@@ -736,12 +730,11 @@ takor,basic,,agreement,agree,,,,,Italian,d'accordo,
 taksin,basic,,south,,south,south,,,Telugu,దక్షిణ,Dakṣiṇa
 tam,basic,,brake/break,stop/pause/interrupt/interject,,,,,Bangla,থামা,Thāmā
 tamak,basic,,egg,,,,,,Japanese,卵,Tamago
-tamakorkan,,,ovary,,,,,,Pemtara,tamak orkan,egg organ
+tamakor,,,ovary,,,,,,Pemtara,tamak or,egg organ
 tan,basic,,teeth/tooth,bite,,,,,Hindi,दाँत,daant
-tapan,basic,,,push/shove/pull,,,,,Gujarati,દબાણ,Dabāṇa
+tap,basic,,,push/shove/pull,,,,,Gujarati,દબાણ,Dabāṇa
 tar,basic,,speech/language/statement,talk/speak/say/tell,,,,,English,talk,
 tarat,basic,,pain,hurt/feel pain,painful,,,,Punjabi,ਦਰਦ,Darada
-tarjih,basic,,preference/favor,prefer/favor,favorite,,rather,,Urdu,ترجیح,tarjīh
 taruk,basic,,argument,argue/debate/fight,argumentative/fiesty,,,,Bangla,তর্ক,Tarka
 tas,basic,,size,,big,,,,Mandarin Chinese,大小,Dàxiǎo
 tat,basic,,element,,elemental,,,,Punjabi,ਤੱਤ,tata
@@ -749,8 +742,8 @@ tatas,basic,,,neutralize,neutral,,,,Telugu,తటస్థ,Taṭastha
 tay,basic,,code,encode/encrypt,cryptic,,,,Mandarin Chinese,代码,Dàimǎ
 tayfun,basic,,credit,grant a loan,,,,,Cantonese,贷款,taai fun
 taysin,basic,,improvement,improve,improved,,,,Cantonese,提升,tai sing
-tefin,basic,,definition,define,,,,,Spanish,definir,
-tempak,basic,,projectile,shoot,,,,,Javanese,tembak,
+tef,basic,,definition,define,,,,,Spanish,definir,
+tem,basic,,projectile,shoot,,,,,Javanese,tembak,
 ten,basic,,day,,,,,,Russian,день,den'
 tep,basic,,tape/strip/band/belt,,,,,,English,tape,
 tepor,basic,,sport,play,,,,,Spanish,deporte,
@@ -771,6 +764,7 @@ testoy,,,twelve,,12,,,,Pemtara,tes toy,
 testoytij,,,dodecahedron,,,,,,Pemtara,testoy tij,
 tesut,basic,,test/trial,,,,,,Italian,test,
 tet,basic,specifically to touch with your finger(s),finger,touch,,,,,Spanish,dedo,
+tetik,,shortened form to specify a timeframe in days,,,,,,,Pemtara,ten tik,
 teynun,basic,,debt,,,,,,Arabic,دَين,dayn
 tian,basic,,attention,focus,attentive,,,,Punjabi,ਧਿਆਨ,Dhi'āna
 tiar,basic,time unit,second/moment,,,,,,Mandarin Chinese,第二,Dì èr
@@ -783,18 +777,20 @@ tikon,basic,,offer,,,,,,Mandarin Chinese,提供,Tígōng
 tiksun,basic,,,,sharp/keen,,,,Bangla,তীক্ষ্ণ,Tīkṣṇa
 tim,basic,,team,,,,,,German,team,
 tin,basic,,three,,3,,,,Punjabi,ਤਿੰਨ,Tina
-tinhin,,named for the number of points on the shape,triangle,,triangular,,,,Pemtara,tin hintuk,
-tinhintij,,,triangular prism,,,,,,Pemtara,tinhin tij,
+tinin,,named for the number of points on the shape,triangle,,triangular,,,,Pemtara,tin hin,
+tinintij,,,triangular prism,,,,,,Pemtara,tinin tij,
 tintij,,named for the number of faces on the object,cylinder,,cylindrical,,,,Pemtara,tin tij,
+tir,basic,,entertainment,entertain/interest,interesting/engaging/entertaining ,,,,Hindi,दिलचस्प,dilachasp
 tiret,basic,,direction,direct,,,,,Italian,diretto,
-tirjas,basic,,entertainment,entertain/interest,interesting/engaging/entertaining ,,,,Hindi,दिलचस्प,dilachasp
 tiryat,basic,,loss,lose,,,,,Russian,терять,teryat'
 tis,basic,,,reduce/decrease/shrink/subtract/remove,,,,,Spanish,disminuir,
-titam,basic,,program/project,,,,,,Tamil,திட்டம்,Tiṭṭam
+tisison,,time of year,fall/autumn,,,,,,Pemtara,tis sison,
+tit,basic,,program/project,,,,,,Tamil,திட்டம்,Tiṭṭam
+titik,,shortened form to specify a timeframe in seconds,,,,,,,Pemtara,tiar tik,
 tiy,basic,,fluid,flow,fluid,,,,Mandarin Chinese,体液,Tǐyè
 toj,basic,,,read,,,,,Shanghainese,读,doq
 tok,basic,,danger,,scary/threatening/terrifying,,,,Marathi,धोका,Dhōkā
-tokpaf,,,fear/fright/nerves,scare,scared/afraid/nervous,,,,Pemtara,tokpaf,
+tokpaf,,,fear/fright/nerves,scare,scared/afraid/nervous,,,,Pemtara,tok paf,
 toktut,,,,,scary/frightening,,,,Pemtara,tok tut,
 tom,basic,,tail,,,,,,Persian,دم,dom
 tomar,basic,,,,tame/domesticated,,,,Portuguese,domar,
@@ -808,30 +804,32 @@ toytes,,,twenty,,20,,,,Pemtara,toy tes,
 toytestij,,named for the number of faces on the object,icosahedron,,icosahedral,,,,Pemtara,toytes tij,
 toytij,,named for the number of faces on the object,cone,,conical,,,,Pemtara,toy tij,
 tuis,basic,,screw/spiral,twist,spiraling,,,,English,twist,
-tujon,basic,,dare,dare,,,,,Korean,도전,dojeon
-tukan,basic,,store,shop,,,,,Urdu,دکان,dukān
-tukfat,basic,,plant,,,,,,Vietnamese,thực vật,
+tuj,basic,,dare,dare,,,,,Korean,도전,dojeon
+tuk,basic,,merchandise/purchase/good,sell,,,,,Urdu,دکان,dukān
+tukjak,,,shop/store,,,,,,Pemtara,tuk jak,
+tuksit,,,commerce,exchange/trade,,,,,Pemtara,tuk sit,
 tun,basic,,tonne/ton,,,,,,Mandarin Chinese,吨,Dūn
 tunrun,basic,,valley,,,,,,Vietnamese,hung lũng,
-tupar,basic,,repetition,repeat,repetitive,repetitively,again,,Urdu,دوبارہ,dobâre
+tup,basic,,repetition,repeat,repetitive,repetitively,again,,Urdu,دوبارہ,dobâre
 tur,basic,,distance,extend,far/distant,distantly,,,Hindi,दूरी,dooree
 turan,basic,,,,simultaneous/simultaneously,,during/while/as/as long as,time,Spanish,durante,
 turat,basic,,deal,deal/bargain,,,,,Spanish,trato,
 Tusin,basic,,Saturn,,,,,,Mandarin Chinese,土星,Tǔxīng
 tut,basic,,attitude/mood/vibe,,,,,,English,tude,
+tutsit,,,culture,,,,,,Pemtara,tut sit,
 uek,basic,,,wake,,,,,English,wake,
 uj,basic,,question,ask/invite,inquisitive ,,,,Urdu,پوچھنا,
 ujaf,basic,the direction of right (vs left),right,,right,right,,,Marathi,उजवे,Ujavē
 um,basic,particle to make a dependent clause,,,,,about/that/for the purpose of,particle,German,um,
 umam,basic,,,,savory/umami,,,,Japanese,うま味,umami
-umut,basic,,hope,hope,hopeful,hopefully,,,Turkish,umut,
-unar,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,,Tamil,உணர்வு,Uṇarvu
-unaram,,referring to the body part,nerve,,nervous,,,,Pemtara,unar ram,feel branch
-unarsuter,,,spinal column,,,,,,Pemtara,unar suter,feel stem
+un,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,,Tamil,உணர்வு,Uṇarvu
 unir,basic,,joint/hinge,join,joined,,,,Spanish,unirse,
-urat,basic,,,invert/reverse/undo,,,,,Punjabi,ਉਲਟਾ,Ulaṭā
-urmem,,,,forget,forgetful,,,,Pemtara,urat mem,
-urnit,,,,drain,,,,,Pemtara,urat nit,
+unram,,referring to the body part,nerve,,nervous,,,,Pemtara,un ram,feel branch
+unsuter,,,spinal column,,,,,,Pemtara,un suter,feel stem
+ur,basic,,,invert/reverse/undo,,,,,Punjabi,ਉਲਟਾ,Ulaṭā
+uraper,,,,loosen,loose,,,,Pemtara,ur aper,
+urmem,,,,forget,forgetful,,,,Pemtara,ur mem,
+urnit,,,,drain,,,,,Pemtara,ur nit,
 ut,basic,,arm,launch/throw/toss,,,,,Japanese,腕,Ude
 utar,basic,,north,,north,north,,,Hindi,उत्तर,uttar
 yaf,basic,,key,,,,,,Spanish,llave,
@@ -839,7 +837,7 @@ yak,basic,,,surround/engulf/include/involve,,,around/including,preposition,Korea
 yakis,basic,,,cheat/hack,,,,,Arabic,يغش,yaghish
 yan,basic,,sleep,sleep,sleepy/tired,,,,Arabic,ينام,yanam
 yansik,,,,dream,,,,,Pemtara,yanam sik,
-yarsam,basic,,drawing,draw,,,,,Arabic,يرسم,yarsam
+yar,basic,,drawing,draw,,,,,Arabic,يرسم,yarsam
 yas,basic,,,crush/pulverize,crushing,,,,Mandarin Chinese,压碎,Yā suì
 yat,basic,,list,,,,,,Marathi,यादी,Yādī
 ye,slang,slang; informal,,,,,I/me,,Pemtara,yeh,
@@ -851,9 +849,8 @@ yinjiy,basic,,syllable,,,,,,Mandarin Chinese,音节,Yīnjié
 yintar,,,,sing,,,,,Pemtara,yin tar,
 yis,basic,,art,,artistic,,,,Mandarin Chinese,艺术,yìshù
 yisren,,,artist,,,,,,Pemtara,yis ren,art person
-yitay,basic,,generation,,,,,,Mandarin Chinese,一代,Yīdài
-yonirur,,,vagina,,,,,,Pemtara,yoniy rur,vulva tube
-yoniy,basic,,vulva,,,,,,Hindi,योनी,yonee
+yon,basic,,vulva,,,,,,Hindi,योनी,yonee
+yonrur,,,vagina,,,,,,Pemtara,yon rur,vulva tube
 yop,basic,,company,accompany,,,by/beside/with,preposition,Korean,옆에,yeop-e
 yor,basic,,tear,cry,,,,,Spanish,llorar,
 yuh,basic,,health,heal,,,,,Mandarin Chinese,愈合,Yùhé
