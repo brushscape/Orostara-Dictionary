@@ -4,11 +4,8 @@ function pemClick(searchedWord){
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length-1);
   var endList = ['a', 'e', 'o', 'i', 'u'];
-  var specialCases = ['naki','ki','ha','ye','je','na'];
+  var specialCases = ['naki','amki','ki','ha','ye','je','na'];
   var otherWord = '';
-  if(searchedWord == 'siki'){
-    otherWord = 'siki';
-  }
   if(specialCases.indexOf(searchedWord) == -1 && endList.indexOf(lastChar) != -1){
     searchedWord = searchedWord.substring(0, searchedWord.length-1);
   }

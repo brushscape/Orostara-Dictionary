@@ -6,15 +6,17 @@ ah,,,,,,,yeah,,Pemtara,am,
 aj,basic,,,,good/positive,,,,Hindi,अच्छा,achchha
 ajok,,Can be used as an casual and flirty honorific suffic ,beauty/(honorific) beautiful one/gorgeous,decorate,pretty/beautiful,beatifully,,,Pemtara,aj jok,
 ajtut,,,kindness,,nice/kind,,,,Pemtara,aj tut,
-ak,basic,,,,,,beyond/next/then,preposition,Hindi,आगे,aage
+ak,basic,,,,,,beyond/next,preposition,Hindi,आगे,aage
 akas,basic,,sky/weather,,,,,,Hindi,आकाश,aakaash
 akasnit,,,rain,,,,,,Pemtara,akas nit,
 akaspek,,,snow,,,,,,Pemtara,akas pek,
 akat,basic,,,,hard/stiff/tough,,,,Hindi,अकड़न,akadan
 akser,basic,,stock/share,,,,,,Russian,акции,ákcija
 akten,,,tomorrow,,,,,,Pemtara,ak ten,
+aktik,,,,,,,then/next time,,Pemtara,ak tik,
 am,basic,,,,,,yes,,Tamil,ஆம்,Ām
 amar,basic,romantic love only,romance,love,romantic ,romantically,,,Spanish,amar,
+amki,,"particle to indicate something is looking for confirmation; similar to tacking on ""right?"" or ""isn't it?"" or ""aren't you?""",,,,,,,Pemtara,am ki,
 amus,basic,,joke/amusement,amuse/entertain ,amusing/entertaining/light-hearted,amusingly,,,French,amuser,
 an,basic,,,,,also/too,and,conjunction,English,and,
 aner,basic,,ring/torus/wheel,,,,,,Portuguese,anel,
@@ -48,7 +50,7 @@ ayjo,basic,,,,,,ouch,,Cantonese,哎哟,aai jo
 aynuk,basic,,ink,print,inky,,,,Hindi,आईएनके,aaeeenake
 ef,basic,,effect/result/outcome,affect,effective,effectively,else,,Italian,effetto,
 eh,,,,,,,um/uh,,Pemtara,,
-ek,basic,,one,,1,,,,Hindi,एक,ek
+ek,basic,,one,,1/first,,,,Hindi,एक,ek
 ekran,basic,,screen,,,,,,Russian,экран,ekran
 ektij,,named for the number of faces on the object,sphere/ball,,round,,,,Pemtara,ek tij,
 em,basic,,safety,save,safe/protected,,,,Arabic,آمن,amin
@@ -94,6 +96,7 @@ fik,basic,,entrance,enter/put in,inside,,in/into/throughout,,Punjabi,ਵਿੱ�
 fin,basic,,hearing,hear,,,,,Telugu,వినండి,Vinaṇḍi
 fir,basic,,opposition,oppose,opposite,oppositely,against,,Hindi,विलोम,vilom
 firek,,,crime,,criminal,criminally,,,Pemtara,fir rek,against rule
+firek,,,,,last,,,,Pemtara,fir ek,
 firsey,,,,stop/cease/prevent,,,,,Pemtara,fir sey,
 fispot,basic,,explosion,explode,explosive,explosively,,,Hindi,विस्फोट,visphot
 fisran,basic,,,rest/relax,relaxing,,,,Telugu,విశ్రాంతి,Viśrānti
@@ -206,7 +209,7 @@ jas,basic,,hour,,,,,,Russian,час,chas
 jat,basic,,bush ,,,,,,Hindi,झाड़ी,jhaadee
 jatap,basic,,attract/captivate,attraction,attractive/alluring,attractively,,,Arabic,جاذب,jaḏaba
 jatik,,shortened form to specify a timeframe in hours,,,,,,,Pemtara,jas tik,
-je,slang,slang; informal,,,,,you,,Pemtara,jeh,
+je,slang,slang; informal,,,your/yours/their/theirs,,you,,Pemtara,jeh,
 jeh,basic,,that,,,,,,Bangla,যে,Yē
 jejak,,,,,,,there,,Pemtara,jeh jak,
 jeren,,neural formal; use more specific honorifics when possible,you/he/she/them,,,,,,Pemtara,jeh ren,
@@ -220,7 +223,7 @@ jifanop,,,birth,birth,,,,,Pemtara,jifan op,life start
 jih,basic,,degree/level/rank/grade,,,,,,Mandarin Chinese,秩,Zhì
 jij,basic,,seven,,7,,,,Shanghainese,七,qiq
 jijak,,shortened form to specify a timeframe in week,,,,,,,Pemtara,jijten tik,
-jijentut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of you,,,,Pemtara,jiy je tut,
+jijetut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of you,,,,Pemtara,jiy je tut,
 jijin,,named for the number of points on the shape,septagon,,septagonal,,,,Pemtara,jij hin,
 Jijos,,,Uranus,,,,,,Pemtara,jij hos,7th planet
 jijten,,,week,,,,,,Pemtara,jij ten,Vāram
@@ -232,13 +235,13 @@ jipan,basic,,wing,,,,,,Mandarin Chinese,翅膀,Chìbǎng
 jipjip,basic,,slime/goo,,sticky,,,,Urdu,چپچپا,cipcipā
 jipun,basic,,basics/essence,,fundamental/basic,fundamentally/basically/essentially,about,,Mandarin Chinese,基本,Jīběn
 jir,basic,,probability/expectation,expect,probable/likely/expected,probably,,,Mandarin Chinese,几率,Jǐlǜ
-jirentut,,can be modified to 'jijentut' or 'jiyentut' if you want to specifically say 'jealous of you' or 'jealous of me',,,jealous,jealously,,,Pemtara,jiy ren tut,
+jirentut,,can be modified to 'jijetut' or 'jiyetut' if you want to specifically say 'jealous of you' or 'jealous of me',,,jealous,jealously,,,Pemtara,jiy ren tut,
 jis,basic,,continuation,continue,continuous/perpetual,continuously/perpetually,,,Mandarin Chinese,继续,Jìxù
 jisej,basic,,technology,,technological,technologically,,,Shanghainese,技術,jji-zeq
 jit,basic/swear,also a swear; lowgrade like 'shit' or 'balls',hole,dig/drill,,,,,Marathi,छिद्र,Chidra
 jitram,basic,,film/movie,film,,,,,Telugu,చిత్రం,Citraṁ
 jiy,basic,,possession/property,have/possess/own,possessive,possessively,,,Mandarin Chinese,具有,Jùyǒu
-jiyentut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of me,,,,Pemtara,jiy ye tut,
+jiyetut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of me,,,,Pemtara,jiy ye tut,
 jok,basic,,eye/sight/appearance,look/check/seem/appear,,seemingly,,,Bangla,চোখ,Cōkha
 jokim,basic,,risk/bet,bet/gamble/wager,risky,,,,Hindi,जोखिम,jokhim
 jon,basic,,importance/principle,,important/principle/main,importantly,,,Mandarin Chinese,重要,Zhòngyào
@@ -296,7 +299,7 @@ kimuk,,,which,,,,,,Pemtara,kiy muk,what thing
 kin,basic,Mostly used as an honorific suffix,manager/supervisor/director,,,,Honorific,,Cantonese,经理,ging lei
 kion,,,whatever,,,,whatever,,Pemtara,kiy on ,what any
 kiren,,,who,,,,,,Pemtara,kiy ren,what person
-kis,slang,slang; shortened form of adverb form of kisey,,,,how,,,Pemtara,kisey,
+kise,slang,slang; shortened form of adverb form of kisey,,,,how,,,Pemtara,kisey,
 kisey,,,,,,how,how,,Pemtara,kiy sey,what action
 kitik,,,,,,,when,,Pemtara,ki tik,
 kiy,basic,,what,,,,,,Urdu,کیا,kya
@@ -504,7 +507,7 @@ paus,basic,,insurance,insure ,insured,,,,Shanghainese,保险,pau xi
 pay,basic,Can be used as an honorific suffic ,baby,,,,Honorific,,Javanese,bayi,
 payor,,,uterus,,,,,,Pemtara,pay or,baby organ
 peis,basic,,fish,,,,,,Portuguese,peixe,
-pej,basic,,back,,last,,behind/after/in back of,,Bangla,পেছনে,Pēchanē
+pej,basic,,back,,back,backwards,behind/after/in back of,,Bangla,পেছনে,Pēchanē
 pejkos,,,spine,,,,,,Pemtara,pej kos,back bone
 pek,basic,,ice,,,,,,Javanese,beku,
 pem,basic,,snake,,,,,,Korean,뱀,baem
@@ -654,7 +657,6 @@ sij,basic,,truth,,true/real/actual,truly/really/actually,,,Mandarin Chinese,实�
 sijun,basic,,resource,,,,,,Cantonese,资源,zi jyun
 sik,basic,,thought/mind/opinion/idea,think/assume/contemplate/imagine/opine,thoughtful/contemplative/opinionated,thoughtfully/contemplatively,,,Mandarin Chinese,思,Sīkǎo
 sikat,basic,,,brush,,,,,Javanese,sikat,
-siki,,"particle to indicate something is looking for confirmation; similar to tacking on ""right?"" or ""isn't it?"" or ""aren't you?""",,,,,,,Pemtara,sios ki,
 sikor,,,brain,,,,,,Pemtara,sik or,
 siksit,,,concept,conceptualize ,conceptually,,,,Pemtara,sik sit,
 sim,basic,,present,,current,,now,time,Turkish,Şimdi,
@@ -702,7 +704,7 @@ sun,basic,,,,raw/crude/unprocessed,,,,Mandarin Chinese,生,Shēng
 suof,basic,,,convince/assure/sweet talk,,,,,Mandarin Chinese,说服,Shuōfú
 sup,basic,,circumference ,,thick,,,,Italian,spesso,
 supasip,basic,,gratitude,thank/thanks/thank you,,,,,Russian,Спасибо,Spasibo
-sur,basic,,front,,,,before/in front of,preposition,Urdu,شروع,šurū'
+sur,basic,,front,,front,forwards,before/in front of,preposition,Urdu,شروع,šurū'
 suram,basic,,,care,caring,,,,Telugu,శ్రమ,Śrama
 suran,basic,,environment/nature,,natural,naturally,,,Mandarin Chinese,自然,Zìrán
 surop,basic,,slope/incline/tilt,,,,,,English,slope,
@@ -828,7 +830,7 @@ yansik,,,,dream,,,,,Pemtara,yanam sik,
 yar,basic,,drawing,draw,,,,,Arabic,يرسم,yarsam
 yas,basic,,,crush/pulverize,crushing,,,,Mandarin Chinese,压碎,Yā suì
 yat,basic,,list,,,,,,Marathi,यादी,Yādī
-ye,slang,slang; informal,,,,,I/me,,Pemtara,yeh,
+ye,slang,slang; informal,,,my/mine,,I/me,,Pemtara,yeh,
 yeh,basic,,this,,,,,,Hindi,यह,yah
 yejak,,,,come here/be here,,,here,,Pemtara,yeh jak,
 yeren,,neutral formal; use more specific honorifics when possible,I/me,,,,,,Pemtara,yeh ren,
