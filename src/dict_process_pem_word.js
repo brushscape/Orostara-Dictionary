@@ -4,18 +4,13 @@ function pemClick(searchedWord){
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length-1);
   var endList = ['a', 'e', 'o', 'i', 'u'];
-  var specialCases = ['siki','naki','ki','ha','ye','je','na', 'mira', 'hera', 'meta', 'para', 'suta', 'jusa', 'esta', 'arsa', 'koka', 'kina'];
+  var specialCases = ['naki','ki','ha','ye','je','na'];
   var otherWord = '';
+  if(searchedWord == 'siki'){
+    otherWord = 'siki';
+  }
   if(specialCases.indexOf(searchedWord) == -1 && endList.indexOf(lastChar) != -1){
     searchedWord = searchedWord.substring(0, searchedWord.length-1);
-  }else if(searchedWord.length>3 && searchedWord.substring(searchedWord.length-2) == 'an'){
-    otherWord = searchedWord.substring(0, searchedWord.length-2);
-  }
-  if(searchedWord == 'yen'){
-    searchedWord = 'ye';
-  }
-  if(searchedWord == 'jen'){
-    searchedWord = 'je';
   }
 
   var found = pemEntry(searchedWord, otherWord);

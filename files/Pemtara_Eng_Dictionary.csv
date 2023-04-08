@@ -4,7 +4,7 @@ afas,basic,,phase,,,,,,Hindi,अवस्था,avastha
 afon,basic,,invention,invent,inventive,inventively,,,French,inventer,
 ah,,,,,,,yeah,,Pemtara,am,
 aj,basic,,,,good/positive,,,,Hindi,अच्छा,achchha
-ajok,,,beauty,decorate,pretty/beautiful,beatifully,,,Pemtara,aj jok,
+ajok,,Can be used as an casual and flirty honorific suffic ,beauty/(honorific) beautiful one/gorgeous,decorate,pretty/beautiful,beatifully,,,Pemtara,aj jok,
 ajtut,,,kindness,,nice/kind,,,,Pemtara,aj tut,
 ak,basic,,,,,,beyond/next/then,preposition,Hindi,आगे,aage
 akas,basic,,sky/weather,,,,,,Hindi,आकाश,aakaash
@@ -32,7 +32,7 @@ arj,slang/swear,,fuck,fuck,fucking,,,,Pemtara,arjin,
 arjin,basic,,sex,have sex,sexual/hot,sexually,,,Arabic,الجنس,aljins
 arkor,basic,,alcohol,,alcoholic,,,,Portuguese,álcool,
 armon,basic,,harmony,,harmonic,harmonically,,,French,harmonie,
-arsa,basic,Honorific suffix,,,,,senior,,Persian,ارشد,aršad
+ars,basic,Mostly used as an honorific suffix,senior level employee,,,,Honorific,,Persian,ارشد,aršad
 artam,basic,,meaning/definition,mean/signify/define,meaningful/significant,meaningfully/significantly,,,Telugu,అర్థం,Arthaṁ
 as,basic,used for possession; if no noun after then assume common sense 'me' or 'you',,,,,of/from/since,,Persian,از,az
 asrin,basic,,origin/source,,original,originally,,,Javanese,asline,
@@ -49,6 +49,7 @@ aynuk,basic,,ink,print,inky,,,,Hindi,आईएनके,aaeeenake
 ef,basic,,effect/result/outcome,affect,effective,effectively,else,,Italian,effetto,
 eh,,,,,,,um/uh,,Pemtara,,
 ek,basic,,one,,1,,,,Hindi,एक,ek
+ekran,basic,,screen,,,,,,Russian,экран,ekran
 ektij,,named for the number of faces on the object,sphere/ball,,round,,,,Pemtara,ek tij,
 em,basic,,safety,save,safe/protected,,,,Arabic,آمن,amin
 emon,basic,,magnet,,magnetic,magnetically,,,French,aimant,
@@ -58,7 +59,7 @@ erek,basic,,election,elect/vote,,,,,Spanish,electo,
 ereksit,,,democracy,,democratic,democratically,,,Pemtara,erek sit,
 esat,basic,,precision/accuracy,,exact/accurate/precise,exactly/accurately/precisely,,,Portuguese,exato,
 espon,basic,,sponge,,spongy,,,,Portuguese,esponja,
-esta,basic,Honorific suffix,,,,,intern,,Portuguese,estagiário,
+est,basic,Mostly used as an honorific suffix,intern,,,,Honorific,,Portuguese,estagiário,
 estir,basic,,,stretch,taught/tight,tightly,,,Spanish,estirar,
 et,basic,,age,,old,,,,Spanish,edad,
 etan,basic,,elevator,lift/carry/bring/convey,,,,,Telugu,ఎత్తండి,Ettaṇḍi
@@ -119,7 +120,7 @@ hajin,,named for the number of points on the shape,octagon,,octagonal,,,,Pemtara
 Hajos,,,Neptune,,,,,,Pemtara,haj hos,8th planet
 hajtij,,named for the number of faces on the object,diamond/octahedron,,,,,,Pemtara,haj tij,
 hakpaf,,,disgust,,disgusting/nasty/distasteful,,,,Pemtara,hak paf,
-ham,basic,,whole/(colloquially) everyone/everything,,all/every/entire/whole/each,completely/entirely,very,,Persian,همه,hame
+ham,basic,,whole/(colloquially) everyone/everything,,all/every/entire/whole/each,completely/entirely,,,Persian,همه,hame
 hamasuh,,,,,hot/sweltering,,,,Pemtara,ham masuh,
 hamiksuh,,,,,cold/freezing,,,,Pemtara,ham iksuh,
 hamjak,,,everywhere,,,,,,Pemtara,ham jak,
@@ -137,7 +138,7 @@ haypian,,,coast/shore/beach,,,,,,Pemtara,hay pian,
 hek,basic,,meal/food,eat,,,,,Cantonese,吃,hek
 hekor,,,stomach,,,,,,Pemtara,hek or,eat organ
 hekrur,,,intestines,,,,,,Pemtara,hek rur,food tube
-hera,slang,Affectionate honorific suffix that means 'someone I care about',,,,,,,Pemtara,,
+her,slang,Affectionate honorific suffix that means 'someone I care about',beloved/partner/friend/sister/brother/etc,,,,Honorific,,Pemtara,,
 herput,basic,,reptile/amphibian,,,,,,English,herptile,
 hes,basic,,trap/container/box/cup/vessel,catch/contain,,,,,Mandarin Chinese,盒子,Hézi
 hesap,basic,,account,account,accountable,,,,Turkish,hesap,
@@ -152,15 +153,14 @@ huas,basic,,chemical,,chemical,chemically,,,Mandarin Chinese,化学,Huàxué
 huis,basic,color,gray,,grey,,,,Mandarin Chinese,灰色,Huīsè
 huk,basic,,hook,hook,,,,,English,hook,
 hup,basic,,peace,,peaceful,peacefully,,,Mandarin Chinese,和平,Hépíng
-hus,basic,,,check/verify,,,,,Mandarin Chinese,核实,Héshí
-husten,basic,,cough,cough,,,,,German,Husten,
+hus,basic,,cough,cough,,,,,German,Husten,
 if,basic,,condition/state/situation ,,conditional/situational,,if,,English,if,
 ifen,basic,,event,,eventful,eventfully,,,English,event,
 ifum,,for 'if then' statements,,,,,then,,Pemtara,if um,
 ij,basic,,motivation/will/energy,motivate,motivational/motivating,motivationally,,,Marathi,इच्छा,Icchā
 ijin,basic,,,,,,for/per,,Turkish,için,
 ijpaf,,,excitement,excite,exciting,excitingly,,,Pemtara,ij paf,
-ik,basic,to a small degree,,,a little,less,,,Japanese,以下,Ika
+ik,basic,to a small degree; can be used as a casually affectionate honorific suffix,little/(honorific) little one/baby,,a little,less,,,Japanese,以下,Ika
 ikam,,,,,least,,,,Pemtara,ik ham,
 ikamar,,romantic crush,crush,crush,,,,,Pemtara,ik amar,
 iketat,,,youth,,young,,,,Pemtara,ik etat,little age
@@ -212,11 +212,11 @@ jejak,,,,,,,there,,Pemtara,jeh jak,
 jeren,,neural formal; use more specific honorifics when possible,you/he/she/them,,,,,,Pemtara,jeh ren,
 jiak,basic,,price/bill/invoice/cost,charge,,,,,Mandarin Chinese,价格,Jiàgé
 jien,basic,,advice,advise/suggest/propose/recommend,advisable,,,,Mandarin Chinese,建议,Jiànyì
-jiep,basic,,,ensure/make sure,,certainly/surely,of course/sure,,Mandarin Chinese,确保,Quèbǎo
+jiep,basic,,,ensure/make sure/check/verify,,certainly/surely,of course/sure,,Mandarin Chinese,确保,Quèbǎo
 jies,basic,,,finish/complete,completed,,,,Mandarin Chinese,结束,Jiéshù
 jif,basic,,,yield/surrender/give in/give up/concede,,,,,Mandarin Chinese,屈服,Qūfú
 jifan,basic,,life,live,alive,lively,,,Gujarati,જીવન,
-jifansur,,,birth,birth,,,,,Pemtara,jifan sur,life start
+jifanop,,,birth,birth,,,,,Pemtara,jifan op,life start
 jih,basic,,degree/level/rank/grade,,,,,,Mandarin Chinese,秩,Zhì
 jij,basic,,seven,,7,,,,Shanghainese,七,qiq
 jijak,,shortened form to specify a timeframe in week,,,,,,,Pemtara,jijten tik,
@@ -239,7 +239,7 @@ jit,basic/swear,also a swear; lowgrade like 'shit' or 'balls',hole,dig/drill,,,,
 jitram,basic,,film/movie,film,,,,,Telugu,చిత్రం,Citraṁ
 jiy,basic,,possession/property,have/possess/own,possessive,possessively,,,Mandarin Chinese,具有,Jùyǒu
 jiyentut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of me,,,,Pemtara,jiy ye tut,
-jok,basic,,eye/sight/appearance,look/seem/appear,,seemingly,,,Bangla,চোখ,Cōkha
+jok,basic,,eye/sight/appearance,look/check/seem/appear,,seemingly,,,Bangla,চোখ,Cōkha
 jokim,basic,,risk/bet,bet/gamble/wager,risky,,,,Hindi,जोखिम,jokhim
 jon,basic,,importance/principle,,important/principle/main,importantly,,,Mandarin Chinese,重要,Zhòngyào
 jot,basic,,,wait,,,,,Vietnamese,Chờ đợi,
@@ -248,10 +248,10 @@ jum,basic,,,dance,,,,,Korean,춤,chum
 junan,basic,,choice/option/decision,choose/pick/decide ,picky,,,,Hindi,चुनना,chunana
 junpey,basic,,preparation,prepare,ready,,,,Mandarin Chinese,准备,Zhǔnbèi
 junren,basic,,adult,,mature,,,,Mandarin Chinese,成人,Chéngrén
-jusa,basic,Honorific suffix,,,,,exec,,Mandarin Chinese,执行,Zhíxíng
+jus,basic,Mostly used as an honorific suffix,Executive/CEO/(colloquially) king/queen/emperor,,,,Honorific,,Mandarin Chinese,执行,Zhíxíng
 kaf,basic,,wish,want/desire,desireable,,,,Telugu,కావాలి,Kāvāli
 kaik,basic,,approximation,guess,approximate,approximately,,,Mandarin Chinese,猜测,Cāicè
-kaj,slang/swear,slang swear; very derogatory when used against someone,shit/garbage,kill/die/kill yourself,useless/stupid,,fuck,,Pemtara,kajar,
+kaj,slang/swear,slang swear; very derogatory when used against someone; can be used as a derogatory honorific suffix,shit/garbage/(honorific) shithead/fucker/bastard/bitch,kill/die/kill yourself,useless/stupid,,fuck,,Pemtara,kajar,
 kajar,basic,,waste/trash/(polite) poop,,,,,,Gujarati,કચરો,Kacarō
 kajrur,,,rectum,,,,,,Pemtara,kaj rur,waste tube
 kak,basic/swear,also a swear; used like 'shit' but slightly less vulgar,excriment,poop,,,shit,,Spanish,caca,
@@ -284,7 +284,7 @@ kay,basic,,cow,,,,,,Urdu,گائے,gāe
 kek,basic,,mentruation/period,mentruate,,,,,Japanese,月経,Gekkei
 kekon,basic,,marriage,marry,marital,,,,Japanese,結婚,kekkon
 ken,basic,,root/basis,,,,,,Shanghainese,根,ken
-ker,basic,,game,play a game,fun,,,,Hindi,खेल,khel
+ker,basic,,game/sport,play a game,fun,,,,Hindi,खेल,khel
 key,basic,,gift/distribution,give/share/distribute,gifted/free,,,,Mandarin Chinese,给,Gěi
 keyjuk,basic,,muscle,,muscular,,,,Cantonese,肌肉,gei juk
 keynan,basic,,skill,,,,,,Cantonese,技能,gei nang
@@ -293,10 +293,10 @@ ki,,particle to indicate something is a question ,,,,,,,Pemtara,kiy,
 kifaj,,,,,,why,,,Pemtara,kiy faj,what reason
 kijak,,,,,,,where,,Pemtara,kiy jak,what place
 kimuk,,,which,,,,,,Pemtara,kiy muk,what thing
-kina,basic,Honorific suffix,,,,,manager/supervisor/director,,Cantonese,经理,ging lei
+kin,basic,Mostly used as an honorific suffix,manager/supervisor/director,,,,Honorific,,Cantonese,经理,ging lei
 kion,,,whatever,,,,whatever,,Pemtara,kiy on ,what any
 kiren,,,who,,,,,,Pemtara,kiy ren,what person
-kise,slang,slang; shortened form of adverb form of kisey,,,,how,,,Pemtara,kisey,
+kis,slang,slang; shortened form of adverb form of kisey,,,,how,,,Pemtara,kisey,
 kisey,,,,,,how,how,,Pemtara,kiy sey,what action
 kitik,,,,,,,when,,Pemtara,ki tik,
 kiy,basic,,what,,,,,,Urdu,کیا,kya
@@ -304,7 +304,7 @@ koay,basic,,,,,,and-or/or,conjunction,Vietnamese,cô ấy,
 koj,basic,,shell/case,shield/defend/guard/protect,protective ,protectively,,,Shanghainese,壳,khoq
 kojim,basic,,island,,,,,,Japanese,小島,Kojima
 kojpik,,,beetle,,,,,,Pemtara,koj pik,
-koka,basic,Honorific suffix,,,,,junior,,Cantonese,初級,co kap
+kok,basic,Mostly used as an honorific suffix,junior employee,,,,Honorific,,Cantonese,初級,co kap
 kom,basic,,,,common/general/regular/standard/usual,commonly/generally/usually,,,Spanish,común,
 komar,basic,,,,gentle/soft,gently/softly,,,Punjabi,ਕੋਮਲ,Kōmala
 kompan,basic,,company/business/firm,,,,,,English,company,
@@ -345,14 +345,14 @@ mam,basic,,mammal,,,,,,Latin,mamma,
 man,basic,,,fill,enough/full,enough,,,Mandarin Chinese,满,Mǎn
 Mankar,basic,,Mars,,,,,,Bangla,মঙ্গল,Maṅgala
 manter,basic,,maintenance,maintain,,,,,Portuguese,manter,
-map,basic,,parent,,,,,,Punjabi,ਮਾਪੇ,Māpē
+map,basic,Can be used as an honorific suffic ,parent/mom/dad/father/mother,,,,Honorific,,Punjabi,ਮਾਪੇ,Māpē
 mapop,basic,,magic,do magic/cast,magically,,,,Korean,마법,mabeob
 maprais,,,airplane/plane,,,,,,Pemtara,mapur rais,fly vehicle
 mapur,basic,,flight,fly,,,,,Javanese,mabur,
 mar,basic,,wound,hurt/wound,,,,,Italian,Male,
 markas,basic,,center/middle,,center/middle,,,,Arabic,مركز,markáz
 maron,basic,color,brown,,brown,,,,Spanish,marrón,
-mas,basic,to a large degree,,,more/a lot/many/(colloquially) good,,,,Urdu,مزید,mazid
+mas,basic,to a large degree; can be used as a casual honorific suffix,more/(honorific) mentor/person I look up to,,more/a lot/many/(colloquially) good,very,,,Urdu,مزید,mazid
 masajfit,,,improvement,improve,improved,,,,Pemtara,mas aj fit,tai sing
 masam,,,,,most,,,,Pemtara,mas ham ,
 masam,slang,only used in the Warren,,love/make (you) the most important thing,,,,,Pemtara,masuram,
@@ -381,14 +381,14 @@ mem,basic,,memory,memorize/remember,memorable,memorably,,,Italian,memoria,
 Merkur,basic,,Mercury,,,,,,French,Mercure,
 mes,basic,,,,,,between/among/amongst,preposition,Russian,между,mezhdu
 mesar,basic,,example/sample,,,,,,Persian,مثال,mesâl
-meta,basic,Honorific suffix,,,,,mid,,Spanish,medio,
+met,basic,Mostly used as an honorific suffix,mid-level employee,,,,Honorific,,Spanish,medio,
 metot,basic,,method/technique,process,methodical,methodically,,,Spanish,método,
 mey,basic,,charisma,charm,charming/charismatic,charmingly/charismatically,,,Cantonese,魅力,mei lik
 mien,basic,,interview,,,,,,Mandarin Chinese,面试,Miànshì
 minjon,basic,,public,publicize,public,publicly,,,Mandarin Chinese,民众,Mínzhòng
 minrin,basic,,command,command/order,,,,,Shanghainese,命令,min lin
 mip,basic,,furniture,,,,,,Russian,мебель,mebel
-mira,slang,Affectionate honorific suffix that means 'someone I take care of',,,,,,,Pemtara,,
+mir,slang,Affectionate honorific suffix that means 'someone I take care of',beloved/baby/little sister/little brother,,,,Honorific,,Pemtara,,
 miran,basic,,meeting,meet,,,,,Hindi,मिलना,milana
 mirap,basic,,arch,curve/bend/flex,flexible,flexibly,,,Urdu,محراب,miḥrāb
 mirkos,,,rib,,,,,,Pemtara,mirap kos,curve bone
@@ -467,8 +467,8 @@ oftus,basic,,sheep,,,,,,Russian,овца,ovtsa
 oh,basic,,,,,,oh,,Mandarin Chinese,哦,Ó
 oj,basic,,instrument/tool/equipment,use/play,equipped,,,,Hindi,औजार,aujaar
 om,basic,,shoulder,,,,,,Portuguese,ombro,
-on,basic,,,,,,any/at all,,Korean,어느,[ʌ̹nɯ]
-op,basic,,,open/turn on,open/on,,,,English,open,
+on,basic,,,,,any/at all,,,Korean,어느,[ʌ̹nɯ]
+op,basic,,opening/start/beginning,open/turn on/start/begin,open/on,,,,English,open,
 oput,basic,,experience,experience,experienced,,,,Russian,опыт,opyt
 or,basic,,organ,,,,,,Spanish,Organo,
 orim,basic,,crease/fold,crease/fold,,,,,Japanese,折り目,Orime
@@ -487,7 +487,7 @@ pan,basic,,fruit,,,,,,Telugu,పండు,Paṇḍu
 paner,basic,,needle,,,,,,Korean,바늘,baneul
 pantar,basic,,storage/inventory/supply,store/save/backup,,,,,Hindi,भंडार,bhandaar
 pantay,basic,,,sneeze,,,,,Cantonese,喷嚏,pan tai
-para,slang,Affectionate honorific suffix that means 'someone who takes care of me',,,,,,,Pemtara,,
+par,slang,Affectionate honorific suffix that means 'someone who takes care of me',mommy/daddy/big sister/big brother/autie/uncle/etc,,,,Honorific,,Pemtara,,
 parin,basic,,bird,,,,,,Urdu,پرندہ,parinda
 parit,basic,,range/scale/spectrum,,,,,,Telugu,పరిధి,Paridhi
 parnan,basic,,description ,describe,,,,,Bangla,বর্ণনা,Barṇanā
@@ -501,10 +501,10 @@ pater,basic,,strike,hit/beat,,,,,Portuguese,bater,
 patif,basic,,recording,record,,,,,Tamil,பதிவு,Pativu
 patrak,basic,,side/wall/dimension/face/plane/sheet,,flat,,,,Marathi,पत्रक,Patraka
 paus,basic,,insurance,insure ,insured,,,,Shanghainese,保险,pau xi
-pay,basic,,baby,,,,,,Javanese,bayi,
+pay,basic,Can be used as an honorific suffic ,baby,,,,Honorific,,Javanese,bayi,
 payor,,,uterus,,,,,,Pemtara,pay or,baby organ
 peis,basic,,fish,,,,,,Portuguese,peixe,
-pej,basic,,back/ending/finale,end,final/eventual/last,finally/eventually/at last,behind/after/in back of,,Bangla,পেছনে,Pēchanē
+pej,basic,,back,,last,,behind/after/in back of,,Bangla,পেছনে,Pēchanē
 pejkos,,,spine,,,,,,Pemtara,pej kos,back bone
 pek,basic,,ice,,,,,,Javanese,beku,
 pem,basic,,snake,,,,,,Korean,뱀,baem
@@ -571,7 +571,7 @@ rastut,,,,,shy,,,,Pemtara,ras tut,
 rat,basic,,rat,,,,,,Spanish,rato,
 rek,basic,,rule/law/policy,,lawful/strict,lawfully/strictly,,,Spanish,regla,
 rekren,,,lawyer,,,,,,Pemtara,rek ren,law person
-ren,basic,can be used as an honorific suffic when you don't know what to call someone,person,,,,person,,Mandarin Chinese,人,Rén
+ren,basic,can be used as an honorific suffic when you don't know what to call someone,person,,,,Honorific,,Mandarin Chinese,人,Rén
 rensit,,,society/institution,,,,,,Pemtara,ren sit,Samāja
 res,basic,,solution/answer/resolution,solve/resolve,,,,,Russian,решать,reshat
 resor,basic,the mechanical device,spring,,,,,,Spanish,resorte,
@@ -627,7 +627,7 @@ sartar,basic,,jump,jump,,,,,Spanish,saltar,
 sarut,basic,,salt,,salty,,,,English,salt,
 sas,basic,,breath,breathe,,,,,Hindi,साँस,saans
 sasor,,,lung,,,,,,Pemtara,sas or,air organ
-sat,basic,,shutdown,close/shut/turn off,closed/off,,,,English,shut,
+sat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end,closed/off/ended/finished,finally,,,English,shut,
 saten,basic,,damage,damage,damaged,,,,German,Schaden,
 satik,,shortened form to specify a timeframe in month,,,,,,,Pemtara,sar tik,
 say,basic,,,,,,at,preposition,Mandarin Chinese,在,Zài
@@ -652,7 +652,7 @@ sif,basic,,exception,,exceptional,exceptionally,except/besides,,Hindi,सिव�
 sifan,basic,,west,,west,west,,,Mandarin Chinese,西方,Xīfāng
 sij,basic,,truth,,true/real/actual,truly/really/actually,,,Mandarin Chinese,实际,Shíjì
 sijun,basic,,resource,,,,,,Cantonese,资源,zi jyun
-sik,basic,,thought/mind/consciousness/opinion/idea,think/assume/contemplate/imagine/opine,thoughtful/contemplative/conscious/opinionated,thoughtfully/contemplatively,,,Mandarin Chinese,思,Sīkǎo
+sik,basic,,thought/mind/opinion/idea,think/assume/contemplate/imagine/opine,thoughtful/contemplative/opinionated,thoughtfully/contemplatively,,,Mandarin Chinese,思,Sīkǎo
 sikat,basic,,,brush,,,,,Javanese,sikat,
 siki,,"particle to indicate something is looking for confirmation; similar to tacking on ""right?"" or ""isn't it?"" or ""aren't you?""",,,,,,,Pemtara,sios ki,
 sikor,,,brain,,,,,,Pemtara,sik or,
@@ -667,10 +667,10 @@ sinkey,basic,,nerve,,,,,,Japanese,神経,Shinkei
 sintij,,with a square base; named for the number of faces on the object,pyramid,,,,,,Pemtara,sin tij,
 sior,basic,,repair/correction,fix/correct,right/correct,,,,Mandarin Chinese,修理,Xiūlǐ
 sios,basic,,,break/destroy/demolish,,,,,Mandarin Chinese,休息,Xiūxí
-sip,basic,,sibling,,,,,,English,sib,
+sip,basic,,sibling/sister/brother,,,,,,English,sib,
 sipok,basic,,billion,,1000000000,,,,Korean,십억,sibeok
 sir,basic,color,white,,white,,,,Japanese,白,Shiro
-sis,basic,,child,,childish,,,,Bangla,শিশু,Śiśu
+sis,basic,can be used as an honorific suffix; when used for someone's own child its neutral but when used for someone else's or for an adult it comes off condescending; see 'sut' if you need to give an honorific to a child,child/son/daughter,,childish,,Honorific,,Bangla,শিশু,Śiśu
 sison,basic,time of year,season,,,,,,English,season,
 sit,basic,,system,,systemic,,,,Mandarin Chinese,系统,Xìtǒng
 siyan,basic,,experiment,experiment,,,,,Mandarin Chinese,实验,Shíyàn
@@ -702,17 +702,18 @@ sun,basic,,,,raw/crude/unprocessed,,,,Mandarin Chinese,生,Shēng
 suof,basic,,,convince/assure/sweet talk,,,,,Mandarin Chinese,说服,Shuōfú
 sup,basic,,circumference ,,thick,,,,Italian,spesso,
 supasip,basic,,gratitude,thank/thanks/thank you,,,,,Russian,Спасибо,Spasibo
-sur,basic,,front/beginning/start,start/begin,,,before/in front of,preposition,Urdu,شروع,šurū'
+sur,basic,,front,,,,before/in front of,preposition,Urdu,شروع,šurū'
 suram,basic,,,care,caring,,,,Telugu,శ్రమ,Śrama
 suran,basic,,environment/nature,,natural,naturally,,,Mandarin Chinese,自然,Zìrán
 surop,basic,,slope/incline/tilt,,,,,,English,slope,
 sus,basic,,,,familiar,,,,Mandarin Chinese,熟悉,Shúxī
-suta,basic,Honorific suffix (all children are students),student,,,,student,,English,student,
+sut,basic,Most commonly used as an honorific suffix (all children are students),student,,,,Honorific,,English,student,
 sutay,basic,,subject/theme,,,,,,Japanese,主題,Shudai
 suter,basic,,stem,,,,,,Italian,stelo,
 sutir,basic,,style,,,,,,German,Stil,
 suton,basic,,,automate,automatic,automatically,,,Mandarin Chinese,自动,Zìdòng
 suy,basic,,,,,,so/therefore/thus,conjunction,Shanghainese,所以,su-i
+ta,basic,indicates a direct object,,,,,,,Mandarin Chinese,的,De
 tafar,basic,,frog,,,,,,Tamil,தவளை,Tavaḷai
 tak,basic,,dog,,,,,,English,Dog,
 takor,basic,,agreement,agree,,,,,Italian,d'accordo,
@@ -733,7 +734,6 @@ tayfun,basic,,credit,grant a loan,,,,,Cantonese,贷款,taai fun
 tem,basic,,projectile,shoot,,,,,Javanese,tembak,
 ten,basic,,day,,,,,,Russian,день,den'
 tep,basic,,tape/strip/band/belt,,,,,,English,tape,
-tepor,basic,,sport,play,,,,,Spanish,deporte,
 ter,basic,pair with 'paj' or 'pif',,,,,for extreme relative times like early or late,,Bangla,দেরী,Dērī
 terin,basic,,,,clear,,,,Tamil,தெளிந்த,Teḷinta
 terpaj,,pair with 'tik',,,late,late,,,Pemtara,ter paj,
@@ -781,11 +781,11 @@ tokpaf,,,fear/fright/nerves,scare,scared/afraid/nervous,,,,Pemtara,tok paf,
 toktut,,,,,scary/frightening,,,,Pemtara,tok tut,
 tom,basic,,tail,,,,,,Persian,دم,dom
 tomar,basic,,,,tame/domesticated,,,,Portuguese,domar,
-ton,basic,can be used as an honorific suffix,partner,,,,partner,,Korean,동료,donglyo
+ton,basic,can be used as an honorific suffix,partner,,,,Honorific,,Korean,동료,donglyo
 top,basic,,help/service/benefit,assist/serve,helpful,helpfully,,,Korean,돕다,dobda
 toprar,basic,,corner,turn,,,,,Spanish,doblar,
 tor,basic,,duty/obligation/responsibility/liability,,dutiful/responsible/liable,,,,Russian,долг,dolg
-tos,basic,can be used as an honorific suffix,friend,befriend,friendly,,,,Hindi,दोस्त,dost
+tos,basic,can be used as an honorific suffix,friend,befriend,friendly,,Honorific,,Hindi,दोस्त,dost
 toy,basic,,two,,2,,,,Portuguese,dois,
 toytes,,,twenty,,20,,,,Pemtara,toy tes,
 toytestij,,named for the number of faces on the object,icosahedron,,icosahedral,,,,Pemtara,toytes tij,
@@ -804,7 +804,7 @@ turat,basic,,deal,deal/bargain,,,,,Spanish,trato,
 Tusin,basic,,Saturn,,,,,,Mandarin Chinese,土星,Tǔxīng
 tut,basic,,attitude/mood/vibe,,,,,,English,tude,
 tutsit,,,culture,,,,,,Pemtara,tut sit,
-uek,basic,,,wake,,,,,English,wake,
+uek,basic,,consciousness,wake,awake/conscious,,,,English,wake,
 uj,basic,,question,ask/invite,inquisitive ,,,,Urdu,پوچھنا,
 ujaf,basic,the direction of right (vs left),right,,right,right,,,Marathi,उजवे,Ujavē
 um,basic,particle to make a dependent clause,,,,,about/that/for the purpose of,particle,German,um,
