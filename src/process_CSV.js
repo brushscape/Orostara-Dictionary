@@ -4,6 +4,7 @@
 var filePath = 'https://raw.githubusercontent.com/brushscape/Pemtara-Dictionary/main/files/Pemtara_Eng_Dictionary.csv';
 var langBreakdown = [];
 var numWords = 0;
+var properNouns = [];
 
 function readCSVFile(){
   $.get(filePath, function (csvdata) {
@@ -23,19 +24,23 @@ function readCSVFile(){
         }
         pemtaraDict.push(rowObj);
 
-        if(rowObj.RootLanguage != 'Pemtara'){
-          numWords++;
+        if(rowObj.Type == 'proper'){
+          properNouns.push(rowObj.Pemtara);
         }
 
-        var el = getCorrectLang(rowObj.RootLanguage);
-        if(el!=-1){
-          var count = langBreakdown[el].Count;
-          count++;
-          langBreakdown[el].Count = count;
-          langBreakdown[el].Percent = (count/numWords)*100;
-        }else{
-          var newEl = {Lang: rowObj.RootLanguage, Count: 1, Percent: (1/numWords)*100};
-          langBreakdown.push(newEl);
+        //just to show the language breakdown in the console
+        if(rowObj.RootLanguage != 'Pemtara') && rowObj.Type != 'proper'){
+          numWords++;
+          var el = getCorrectLang(rowObj.RootLanguage);
+          if(el!=-1){
+            var count = langBreakdown[el].Count;
+            count++;
+            langBreakdown[el].Count = count;
+            langBreakdown[el].Percent = (count/numWords)*100;
+          }else{
+            var newEl = {Lang: rowObj.RootLanguage, Count: 1, Percent: (1/numWords)*100};
+            langBreakdown.push(newEl);
+          }
         }
 
 

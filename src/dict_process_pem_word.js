@@ -7,7 +7,11 @@ function pemClick(searchedWord){
   var specialCases = ['naki','amki','ki','ha','ye','je','na'];
   var otherWord = '';
   if(specialCases.indexOf(searchedWord) == -1 && endList.indexOf(lastChar) != -1){
+    if(properNouns.indexOf(searchedWord) == -1 ){
+      otherWord = searchedWord;
+    }
     searchedWord = searchedWord.substring(0, searchedWord.length-1);
+
   }
 
   var found = pemEntry(searchedWord, otherWord);

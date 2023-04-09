@@ -103,6 +103,9 @@ function showOnly(type){
     case 'full':
       string += 'Full Dictionary';
       break;
+    case 'proper':
+      string += 'Proper Nouns';
+      break;
     default:
       string += 'Help';
       break;
