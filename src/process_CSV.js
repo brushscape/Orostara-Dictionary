@@ -29,7 +29,7 @@ function readCSVFile(){
         }
 
         //just to show the language breakdown in the console
-        if(rowObj.RootLanguage != 'Pemtara') && rowObj.Type != 'proper'){
+        if(rowObj.RootLanguage != 'Pemtara' && rowObj.Type != 'proper'){
           numWords++;
           var el = getCorrectLang(rowObj.RootLanguage);
           if(el!=-1){
