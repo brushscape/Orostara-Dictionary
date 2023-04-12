@@ -3,7 +3,7 @@ af,basic,,chance/opportunity,,,,,,Hindi,अवसर,avasar
 afas,basic,,phase,,,,,,Hindi,अवस्था,avastha
 Afhuanestan,proper,,,,,,Afghanistan/Islamic Republic of Afghanistan,,Pashto,افغانستان,afğânestân
 afon,basic,,invention,invent,inventive,inventively,,,French,inventer,
-Afrika,proper,the continent,Africa,,,,,,Swahili,Afrika,
+Afrika,proper,the continent,,,,,Africa,,Swahili,Afrika,
 ah,,,,,,,yeah,,Pemtara,am,
 aj,basic,,,,good/positive,,,,Hindi,अच्छा,achchha
 ajok,,Can be used as an casual and flirty honorific suffic ,beauty/(honorific) beautiful one/gorgeous,decorate,pretty/beautiful,beatifully,,,Pemtara,aj jok,
@@ -25,7 +25,7 @@ an,basic,,,,,also/too,and,conjunction,English,and,
 aner,basic,,ring/torus/wheel,,,,,,Portuguese,anel,
 Ankora,proper,,,,,,Angola/Republic of Angola,,Portuguese,Angola,
 ankur,basic,,angle,angle,angular,angularly,,,English,angle,
-Antarkutita,proper,the continent,Antarctica,,,,,,Russian,Антарктида,Antarktida
+Antarkutita,proper,the continent,Antarctica,,,,!ntarctica,,Russian,Антарктида,Antarktida
 antat,basic,,,cross,,,across,preposition,Telugu,అంతటా,Antaṭā
 antatkamin,,,bridge,,,,,,Pemtara,antat kamin,
 anuk,basic,,score/grade,,,,,,Hindi,अंक,ank
@@ -48,7 +48,6 @@ asun,basic,,problem/issue,cause a problem,problematic,,,,Spanish,asunto,
 asur,basic,color,blue,,blue,,,,Spanish,azul,
 at,basic,,advertisement/ad,advertise,,,,,English,ad,
 atar,basic,,respect,respect,respectful,respectfully,,,Hindi,आदर,aadar
-atios,basic,,,bye/goodbye,,,,,Spanish,adiós,
 atis,basic,,horse,,,,,,Turkish,atış,
 atkas,basic,,failure,fail,,,,,Russian,отказ,
 ay,,,,,,,ow,,Pemtara,ayjo,
@@ -101,7 +100,7 @@ fenren,,,teacher/professor,,,,,,Pemtara,fen ren,education person
 fer,basic,,sight/image/picture,see/watch/notice/observe,observant,observantly,,,Spanish,ver,
 feres,basic,,metal,,metallic,metallically,,,Persian,فلز,felez
 fes,basic,,face,,,,,,English,face,
-fies,basic,,party,celebrate/congratulate,,,,,Spanish,fiesta,
+fies,basic,,party/congratulations/congrats,celebrate/congratulate,,,,,Spanish,fiesta,
 Fietnam,,,,,,,Vietnam/Socialist Republic of Vietnam,,Vietnamese,Việt Nam,
 fij,basic,,electricity ,electricute/zap/shock,shocking/electrifying,shockingly,,,Gujarati,વીજળી,Vījaḷī
 fik,basic,,entrance,enter/put in,inside,,in/into/throughout,,Punjabi,ਵਿੱਚ,Vica
@@ -280,7 +279,7 @@ kak,basic/swear,also a swear; used like 'shit' but slightly less vulgar,excrimen
 kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,Javanese,kaget,
 kakjit,slang/swear,slang swear,asshole/shithole,,,,,,Pemtara,kak jit ,
 kam,basic,,employment/job,employ/hire/work,,,,,Hindi,काम,kaam
-kamin,basic,,path/street/trail,,,,,,Spanish,camino,
+kamin,basic,,path/street/trail/road,,,,,,Spanish,camino,
 kamjak,,,office,,,,,,Pemtara,kam jak,work place
 kamsit,,,industry,,industrial,industrially,,,Pemtara,kam sit,hong jip
 kan,basic,listen and understand,ear,listen,,,,,Urdu,کان,kān
@@ -325,6 +324,7 @@ kise,slang,slang; shortened form of adverb form of kisey,,,,how,,,Pemtara,kisey,
 kisey,,,,,,how,how,,Pemtara,kiy sey,what action
 kitik,,,,,,,when,,Pemtara,ki tik,
 kiy,basic,,what,,,,,,Urdu,کیا,kya
+ko,basic,indicates a direct object,,,,,,,Hindi,को,ko
 koay,basic,,,,,,and-or/or,conjunction,Vietnamese,cô ấy,
 koj,basic,,shell/case,shield/defend/guard/protect,protective ,protectively,,,Shanghainese,壳,khoq
 kojim,basic,,island,,,,,,Japanese,小島,Kojima
@@ -356,8 +356,9 @@ kuoj,basic,,country/nation/federation,,federal,federally,,,Mandarin Chinese,国�
 kup,basic,as in 'too much',,,,,too,,Bangla,খুব,Khuba
 kur,basic,general nonspecific touch,skin,touch,,,,,Javanese,kulit,
 kuram,basic,,gram,,,,,,German,Gramm,
+kurasies,basic,,gratitude,thank/thanks/thank you,,,,,Spanish,gracias,
 kuris,basic/slang,also slang for slick,lube,slip/slide,slippery,,,,French,glisser,
-kurpay,basic,,,beg,,,please,,Hindi,कृपया,krpaya
+kurpiy,basic,,,beg,,,please,,Hindi,कृपया,krpaya
 kurut,basic,,chest/breast,,,,,,Russian,грудь,grud'
 kurutkos,,,sternum,,,,,,Pemtara,kurut kos,chest bone
 kus,basic,,grass,,,,,,Japanese,草,kusa
@@ -498,7 +499,7 @@ nof,basic,,,,new/novel/fresh,,,,Portuguese,nova,
 noj,basic,,evening/night,,,,,,Spanish,noche,
 nom,basic,,name,,,,,,Portuguese,nome,
 nop,basic,,width,,wide,,,,Korean,너비,neobi
-Nortamerika,proper,the continent,North America,,,,,,English,North America,
+Nortamerika,proper,the continent,,,,,North America,,English,North America,
 num,basic,,number/amount/quantity/math,count/measure,,,,,English,number,
 numren,,,mathematician,,,,,,Pemtara,num ren,
 nur,basic,,effort/attempt,try/attempt,,,,,Mandarin Chinese,努力,Nǔlì
@@ -515,7 +516,7 @@ os,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,Korean,옷,os
 osat,basic,,medicine/drug/pill,,,, ,,Marathi,औषध,Auṣadha
 oses,,,bag,,,,,,Pemtara,os hes,
 Ospekisutan,proper,,,,,,Uzbekistan/Republic of Uzbekistan,,Uzbek,O'zbekiston,
-Osturariya,proper,the continent,Australia,,,,,,English,Australia,
+Osturariya,proper,the continent,,,,,Australia,,English,Australia,
 ot,basic,,,get/attain/take/grab,,,,,Korean,얻다,eodda
 oter,basic,,hotel,,,,,,Spanish,hotel,
 paen,basic,the direction of left (vs right),left,,,left,,,Hindi,बाएं,baen
@@ -680,8 +681,8 @@ sat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end,closed/off/ende
 saten,basic,,damage,damage,damaged,,,,German,Schaden,
 satik,,shortened form to specify a timeframe in month,,,,,,,Pemtara,sar tik,
 Sautiya,proper,,,,,,Saudi Arabia/Kingdom of Saudi Arabia,,Arabic,السعودية,alsueudia
-say,basic,,,,,,at,preposition,Mandarin Chinese,在,Zài
-sayir,basic,,liquid,melt/condense,,,,,Arabic,سائل,sayil
+say,basic,,liquid,melt/condense,,,,,Arabic,سائل,sayil
+sayjien,basic,,,bye/goodbye,,,,,Mandarin Chinese,再见,Zàijiàn
 seh,basic,,,bear/stand/endure/last,,,,,Hindi,सहना,sahana
 seij,basic,,politics,,political,,,,Japanese,政治,Seiji
 seir,basic,,order/series/arrangement,organize/sort/arrange,orderly,,,,Japanese,整理,Seiri
@@ -740,7 +741,7 @@ suij,basic,,,randomize,random,randomly,,,Mandarin Chinese,随机,Suíjī
 suj,basic,,data,,,,,,Mandarin Chinese,数据,Shùjù
 sujey,basic,,dirt/soil/earth,,dirty,,,,Portuguese,sujeira,
 suk,basic,pair with 'paj' or 'pif',,,close temporally,,,time,Japanese,すぐ,sugu
-sukar,basic,,sugar,,sweet,sweetly,,,English,sugar,
+sukar,basic,,sugar,,sweet/cute,sweetly,,,English,sugar,
 sukpaj,,pair with 'tik',,,upcoming,soon,,,Pemtara,suk paj,
 sukpif,,pair with 'tik',,,recent,recently,,,Pemtara,suk pif,
 sukran,basic,,sperm,,,,,,Hindi,शुक्राणु,shukraanu
@@ -750,20 +751,18 @@ Sukur,proper,,,,,,Venus,,Hindi,शुक्र,shukr
 sun,basic,,,,raw/crude/unprocessed,,,,Mandarin Chinese,生,Shēng
 suof,basic,,,convince/assure/sweet talk,,,,,Mandarin Chinese,说服,Shuōfú
 sup,basic,,circumference ,,thick,,,,Italian,spesso,
-supasip,basic,,gratitude,thank/thanks/thank you,,,,,Russian,Спасибо,Spasibo
 sur,basic,,front,,front,forwards,before/in front of,preposition,Urdu,شروع,šurū'
 suram,basic,,,care,caring,,,,Telugu,శ్రమ,Śrama
 suran,basic,,environment/nature,,natural,naturally,,,Mandarin Chinese,自然,Zìrán
 surop,basic,,slope/incline/tilt,,,,,,English,slope,
 sus,basic,,,,familiar,,,,Mandarin Chinese,熟悉,Shúxī
 sut,basic,Most commonly used as an honorific suffix (all children are students),student,,,,Honorific,,English,student,
-Sutamerika,proper,the continent,South America,,,,,,Spanish,Sudamerica,
+Sutamerika,proper,the continent,,,,,South America,,Spanish,Sudamerica,
 sutay,basic,,subject/theme,,,,,,Japanese,主題,Shudai
 suter,basic,,stem,,,,,,Italian,stelo,
 sutir,basic,,style,,,,,,German,Stil,
 suton,basic,,,automate,automatic,automatically,,,Mandarin Chinese,自动,Zìdòng
 suy,basic,,,,,,so/therefore/thus,conjunction,Shanghainese,所以,su-i
-ta,basic,indicates a direct object,,,,,,,Mandarin Chinese,的,De
 tafar,basic,,frog,,,,,,Tamil,தவளை,Tavaḷai
 tak,basic,,dog,,,,,,English,Dog,
 takor,basic,,agreement,agree,,,,,Italian,d'accordo,
@@ -842,6 +841,7 @@ toy,basic,,two,,2,,,,Portuguese,dois,
 toytes,,,twenty,,20,,,,Pemtara,toy tes,
 toytestij,,named for the number of faces on the object,icosahedron,,icosahedral,,,,Pemtara,toytes tij,
 toytij,,named for the number of faces on the object,cone,,conical,,,,Pemtara,toy tij,
+tu,basic,indicates an indirect object,,,,,to/on/for,,English,to,
 tuis,basic,,screw/spiral,twist,spiraling,,,,English,twist,
 tuj,basic,,dare,dare,,,,,Korean,도전,dojeon
 tuk,basic,,merchandise/purchase/good,sell,,,,,Urdu,دکان,dukān
@@ -875,7 +875,7 @@ urnit,,,,drain,,,,,Pemtara,ur nit,
 ut,basic,,arm,launch/throw/toss,,,,,Japanese,腕,Ude
 utar,basic,,north,,north,north,,,Hindi,उत्तर,uttar
 yaf,basic,,key,,,,,,Spanish,llave,
-Yajou,proper,the continent,Europe/Asia/Eurasia,,,,,,Mandarin Chinese,亚洲,Yàzhōu
+Yajou,proper,the continent,,,,,Europe/Asia/Eurasia,,Mandarin Chinese,亚洲,Yàzhōu
 yak,basic,,,surround/engulf/include/involve,,,around/including,preposition,Korean,약,yag
 yakis,basic,,,cheat/hack,,,,,Arabic,يغش,yaghish
 yan,basic,,sleep,sleep,sleepy/tired,,,,Arabic,ينام,yanam
