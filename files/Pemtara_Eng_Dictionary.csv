@@ -19,7 +19,7 @@ aktik,,,,,,,then/next time,,Pemtara,ak tik,
 am,basic,,,,,,yes,,Tamil,ஆம்,Ām
 amar,basic,romantic love only,romance,love,romantic ,romantically,,,Spanish,amar,
 Amerika,proper,,,,,,United States/US/America/United States of America,,English,America,
-amki,,"particle to indicate something is looking for confirmation; similar to tacking on ""right?"" or ""isn't it?"" or ""aren't you?""",,,,,,,Pemtara,am ki,
+amki,,particle to indicate something is looking for confirmation; similar to tacking on:  'right?'  or  'isn't it?'  or  'aren't you?',,,,,,,Pemtara,am ki,
 amus,basic,,joke/amusement,amuse/entertain ,amusing/entertaining/light-hearted,amusingly,,,French,amuser,
 an,basic,,,,,also/too,and,conjunction,English,and,
 aner,basic,,ring/torus/wheel,,,,,,Portuguese,anel,
@@ -43,7 +43,6 @@ armon,basic,,harmony,,harmonic,harmonically,,,French,harmonie,
 ars,basic,Mostly used as an honorific suffix,senior level employee,,,,Honorific,,Persian,ارشد,aršad
 artam,basic,,meaning/definition,mean/signify/define,meaningful/significant,meaningfully/significantly,,,Telugu,అర్థం,Arthaṁ
 as,basic,used for possession; if no noun after then assume common sense 'me' or 'you',,,,,of/from/since,,Persian,از,az
-asrin,basic,,origin/source,,original,originally,,,Javanese,asline,
 asun,basic,,problem/issue,cause a problem,problematic,,,,Spanish,asunto,
 asur,basic,color,blue,,blue,,,,Spanish,azul,
 at,basic,,advertisement/ad,advertise,,,,,English,ad,
@@ -508,7 +507,7 @@ oh,basic,,,,,,oh,,Mandarin Chinese,哦,Ó
 oj,basic,,instrument/tool/equipment,use/play,equipped,,,,Hindi,औजार,aujaar
 om,basic,,shoulder,,,,,,Portuguese,ombro,
 on,basic,,,,,any/at all,,,Korean,어느,[ʌ̹nɯ]
-op,basic,,opening/start/beginning,open/turn on/start/begin,open/on,,,,English,open,
+op,basic,,opening/start/beginning/source/origin,open/turn on/start/begin,open/on,,,,English,open,
 oput,basic,,experience,experience,experienced,,,,Russian,опыт,opyt
 or,basic,,organ,,,,,,Spanish,Organo,
 orim,basic,,crease/fold,crease/fold,,,,,Japanese,折り目,Orime
@@ -593,7 +592,7 @@ pos,basic,,possibility,,possible,maybe/possibly,,,Spanish,posible,
 pot,basic,,contest/competition,compete,competitive ,competitively,,,Telugu,పోటీ,Pōṭī
 poter,basic,,irritant,bother/irritate,annoying/irritating/bothersome,,,,English,bother,
 poy,basic,,chicken,,,,,,Spanish,chicken,
-puk,basic,"adverb used like ""even you can't deny it""",,,,even,but/however/though/nevertheless/still/yet/in spite of/despite,conjunction,Mandarin Chinese,不过,Bùguò
+puk,basic,adverb used like:  'even you can't deny it',,,,even,but/however/though/nevertheless/still/yet/in spite of/despite,conjunction,Mandarin Chinese,不过,Bùguò
 pum,basic,,paper,,,,,,Russian,бумага,bumaga
 pun,basic,,joy/enjoyment/fun/delight,like/enjoy/fond,happy/fun/enjoyable,happily,,,Tamil,போன்ற,Pōṉṟa
 pur,basic,,,,bad/negative,,,,Bangla,ਬੁਰਾ,Burā
@@ -841,7 +840,7 @@ toy,basic,,two,,2,,,,Portuguese,dois,
 toytes,,,twenty,,20,,,,Pemtara,toy tes,
 toytestij,,named for the number of faces on the object,icosahedron,,icosahedral,,,,Pemtara,toytes tij,
 toytij,,named for the number of faces on the object,cone,,conical,,,,Pemtara,toy tij,
-tu,basic,indicates an indirect object,,,,,to/on/for,,English,to,
+tu,basic,indicates an indirect object,,,,,to/on/for/from/with,,English,to,
 tuis,basic,,screw/spiral,twist,spiraling,,,,English,twist,
 tuj,basic,,dare,dare,,,,,Korean,도전,dojeon
 tuk,basic,,merchandise/purchase/good,sell,,,,,Urdu,دکان,dukān
@@ -879,7 +878,7 @@ Yajou,proper,the continent,,,,,Europe/Asia/Eurasia,,Mandarin Chinese,亚洲,Yàz
 yak,basic,,,surround/engulf/include/involve,,,around/including,preposition,Korean,약,yag
 yakis,basic,,,cheat/hack,,,,,Arabic,يغش,yaghish
 yan,basic,,sleep,sleep,sleepy/tired,,,,Arabic,ينام,yanam
-yansik,,,,dream,,,,,Pemtara,yanam sik,
+yansik,,,,dream,,,,,Pemtara,yan sik,
 yar,basic,,drawing,draw,,,,,Arabic,يرسم,yarsam
 yas,basic,,,crush/pulverize,crushing,,,,Mandarin Chinese,压碎,Yā suì
 yat,basic,,list,,,,,,Marathi,यादी,Yādī
