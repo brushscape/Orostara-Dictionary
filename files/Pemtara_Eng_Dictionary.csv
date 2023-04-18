@@ -33,6 +33,7 @@ ap,basic,,cloud,,cloudy,,,,Persian,ابرها,abr
 aper,basic,,knot,tighten/tie,tight/secure,tightly/securely,,,Portuguese,apertado,
 apruf,basic,,,accept/admit/approve,acceptable,acceptably,,,English,approve,
 aram,basic,,comfort,comfort,comforting/comfortable,comfortably,,,Punjabi,ਆਰਾਮ,Ārāma
+Arapiyetar,proper,tar' added for clarity,Arabic,,,,,,Arabic,العربية,al-ʕarabiyya
 aref,basic,,limit,limit,limiting,,,,Tamil,அளவு,Aḷavu
 aret,basic,,,,,already,,,English,already,
 Arhentina,proper,,,,,,Argentina/Argentine Republic República Argentina,,Spanish,Argentina,
@@ -68,6 +69,7 @@ ereksit,,,democracy,,democratic,democratically,,,Pemtara,erek sit,
 Erjezeyir,proper,,,,,,Algeria/People's Democratic Republic of Algeria,,Arabic,الجزائر,"al-Jazāʾir,"
 esat,basic,,precision/accuracy,,exact/accurate/precise,exactly/accurately/precisely,,,Portuguese,exato,
 Espanya,proper,,,,,,Spain/Kingdom of Spain,,Spanish,España,
+Espanyortar,proper,tar' added for clarity,Spanish,,,,,,Spanish,español,
 espon,basic,,sponge,,spongy,,,,Portuguese,esponja,
 est,basic,Mostly used as an honorific suffix,intern,,,,Honorific,,Portuguese,estagiário,
 estir,basic,,,stretch,taught/tight,tightly,,,Spanish,estirar,
@@ -87,6 +89,7 @@ fanmut,basic,,powder,powder,powdery,,,,Cantonese,粉末,fan mut
 fansun,basic,,minute,,,,,,Cantonese,分钟,fan sung
 fanyin,basic,,reaction/response/answer,react/respond/reply/answer,reactive/responsive,responsively,,,Mandarin Chinese,反应,Fǎnyìng
 far,basic,,phallus,,,,,,English,phallus,
+Farsitar,proper,tar' added for clarity,Persian/Farsi,,,,,,Persian,فارسي,fârsi
 fas,basic,,ease,ease,easy,easily,,,Spanish,fácil,
 fasaten,,,,,delicate/fragile/breakable,,,,Pemtara,fas saten,easily damaged
 fasien,basic,,discovery,discover/reveal/show/find out,,,,,Mandarin Chinese,发现,Fāxiàn
@@ -102,6 +105,7 @@ fer,basic,,sight/image/picture,see/watch/notice/observe,observant,observantly,,,
 feres,basic,,metal,,metallic,metallically,,,Persian,فلز,felez
 fes,basic,,face,,,,,,English,face,
 fies,basic,,party/congratulations/congrats,celebrate/congratulate,,,,,Spanish,fiesta,
+Fietar,proper,tar' added for clarity,Vietnamese,,,,,,Vietnamese,tiếng việt,
 Fietnam,,,,,,,Vietnam/Socialist Republic of Vietnam,,Vietnamese,Việt Nam,
 fij,basic,,electricity ,electricute/zap/shock,shocking/electrifying,shockingly,,,Gujarati,વીજળી,Vījaḷī
 fik,basic,,entrance,enter/put in,inside,,in/into/throughout,,Punjabi,ਵਿੱਚ,Vica
@@ -124,6 +128,7 @@ fuksap,basic,,complexity,complicate,complex/complicated,,,,Cantonese,复杂,fuk 
 fun,basic,,fungus/mushroom,,,,,,Portuguese,fungo,
 fuok,basic,,fire,burn,firey,,,,Italian,fuoco,
 fur,basic,,flower,,flowery,,,,Hindi,फूल,phool
+Furansetar,proper,tar' added for clarity,French,,,,,,French,français,
 Furanus,proper,,,,,,France,,French,France,
 fus,basic,,boss/senior/top,,superior,,over/above/high,,Russian,выше,vyshe
 fusison,,time of year,summer,,,,,,Pemtara,fus sison,
@@ -144,11 +149,13 @@ hamren,,,everyone,,,,,,Pemtara,ham ren,
 hamtik,,,,,permanent,permanently,always/forever,,Pemtara,ham tik,
 han,basic,specifically to touch with your hand,hand,touch,,,,,English,hand,
 Hanku,proper,,,,,,South Korea/Republic of Korea,,Korean,한국,hangug
+Hankutar,proper,어 replaced with 'tar',Korean,,,,,,Korean,한국어,
 hapsan,basic,,,fit/suit,fitting,fittingly,,,Cantonese,合身,hap san
 har,basic,color,green,,green,,,,Hindi,हरा,hara
 haraf,basic,,,shake/shiver/tremble,,,,,Gujarati,હલાવો,Halāvō
 has,basic,,humor/laughter,laugh,funny/humorous,,,,Hindi,हास्य,haasy
 hasar,basic,,thousand,,1000,,,,Hindi,हज़ार,hazaar
+Hausatar,proper,tar' added for clarity,Hausa,,,,,,Hausa,hausa,
 hay,basic,,sea/ocean,,,,,,Mandarin Chinese,海,Hǎi
 hayjan,,,wave,,,,,,Pemtara,hay jan,
 haypian,,,coast/shore/beach,,,,,,Pemtara,hay pian,
@@ -160,6 +167,7 @@ herput,basic,,reptile/amphibian,,,,,,English,herptile,
 hes,basic,,trap/container/box/cup/vessel,catch/contain,,,,,Mandarin Chinese,盒子,Hézi
 hesap,basic,,account,account,accountable,,,,Turkish,hesap,
 hin,basic,,shape,form,shapely,,,,Vietnamese,hình thức,
+Hintitar,proper,tar' added for clarity,Hindi,,,,,,Hindi,हिन्दी,hindee
 hirom,basic,,,spread,,,,,Japanese,広める,Hiromeru
 hiy,basic,,hundred,,100,,,,Japanese,百,Hyaku
 hoj,basic,,availability,,available,,,,Cantonese,可用,ho jung
@@ -170,6 +178,7 @@ huanyin,basic,,,welcome,,,,,Mandarin Chinese,欢迎,Huānyíng
 huas,basic,,chemical,,chemical,chemically,,,Mandarin Chinese,化学,Huàxué
 huis,basic,color,gray,,grey,,,,Mandarin Chinese,灰色,Huīsè
 huk,basic,,hook,hook,,,,,English,hook,
+Hunyutar,proper,tar' added for clarity,Shanghainese/Wu Chinese,,,,,,Shanghainese,吴语,hhu-nyy
 hup,basic,,peace,,peaceful,peacefully,,,Mandarin Chinese,和平,Hépíng
 hus,basic,,cough,cough,,,,,German,Husten,
 if,basic,,condition/state/situation ,,conditional/situational,,if,,English,if,
@@ -204,6 +213,7 @@ imper,basic,specifically for numbers (even vs odd),,,odd,,,,French,impair,
 impur,basic,,impulse,,impulsive/reckless,impulsively/recklessly,,,Portuguese,impulso,
 in,basic,,growth/addition/expansion,grow/increase/add/expand,increasing,,,,English,increase,
 inam,basic,,reward,reward,rewarding,,,,Hindi,इनाम,inaam
+Inkuristar,proper,tar' added for clarity,English,,,,,,English,english,
 insan,basic,,human,,,,,,Hindi,इंसान,insaan
 insison,,time of year,spring,,,,,,Pemtara,in sison,
 Intonesia,proper,,,,,,Indonesia/Republic of Indonesia,,Indonesian,Indonesia,
@@ -215,6 +225,7 @@ irjan,,,,approach,,,,,Pemtara,ir jan,
 is,basic,,east,,east,east,,,English,east,
 it,basic,,,,,,xor/either/or,,English,or,
 Itariya,proper,,,,,,Italy,,Italian,Italia,
+Itariyantar,proper,tar' added for clarity,Italian,,,,,,Italian,italiano,
 Itiyopiya,proper,,,,,,Ethiopia/Federal Democratic Republic of Ethiopia,,Amharic,ኢትዮጵያ,ītiyop’iya
 jak,basic,location marker particle,place/location/space,,,,,,Marathi,जागा,Jāgā
 jam,basic,,leg,kick,,,,,French,jambe,
@@ -228,6 +239,7 @@ jas,basic,,hour,,,,,,Russian,час,chas
 jat,basic,,bush ,,,,,,Hindi,झाड़ी,jhaadee
 jatap,basic,,attract/captivate,attraction,attractive/alluring,attractively,,,Arabic,جاذب,jaḏaba
 jatik,,shortened form to specify a timeframe in hours,,,,,,,Pemtara,jas tik,
+Jauatar,proper,tar' added for clarity,Javanese,,,,,,Javanese,jawa,
 je,slang,slang; informal,,,your/yours/their/theirs,,you,,Pemtara,jeh,
 jeh,basic,,that,,,,,,Bangla,যে,Yē
 jejak,,,,,,,there,,Pemtara,jeh jak,
@@ -350,8 +362,10 @@ kot,basic,,depth,drop/fall,deep,,down,,Spanish,gota,
 kotak,basic,,grid/chart,,,,,,Javanese,kothak,
 kotik,basic,,code,encode/encrypt,cryptic,,,,Spanish,código,
 koykok,basic,,,,foreign,,,,Cantonese,外國,ngoi gwok
+Kuantontar,proper,话 replaced with 'tar',Cantonese/Yue Chinese,,,,,,Cantonese,广东话,gwong dung waa
 kuey,basic,,ghost/spirit/soul,,,,,,Mandarin Chinese,鬼,Guǐ
 kuj,basic,to a medium degree,,,some/kind of/okay/fine,,,,Punjabi,ਕੁੱਝ,Kujha
+Kujratitar,proper,tar' added for clarity,Gujarati/Gunjarati,,,,,,Gujarati,ગુજરાતી,Gujarātī
 kum,basic,,lip,kiss,,,,,Hindi,चुंबन,chumban
 kun,basic,,group,,,,,,Japanese,群,gun
 kuoj,basic,,country/nation/federation,,federal,federally,,,Mandarin Chinese,国家,Guójiā
@@ -379,6 +393,7 @@ mapop,basic,,magic,do magic/cast,magically,,,,Korean,마법,mabeob
 maprais,,,airplane/plane,,,,,,Pemtara,mapur rais,fly vehicle
 mapur,basic,,flight,fly,,,,,Javanese,mabur,
 mar,basic,,wound,hurt/wound,,,,,Italian,Male,
+Maratitar,proper,tar' added for clarity,Marathi,,,,,,Marathi,मराठी,Marāṭhī
 markas,basic,,center/middle,,center/middle,,,,Arabic,مركز,markáz
 maron,basic,color,brown,,brown,,,,Spanish,marrón,
 mas,basic,to a large degree; can be used as a casual honorific suffix,more/(honorific) mentor/person I look up to,,more/a lot/many/(colloquially) good,very,,,Urdu,مزید,mazid
@@ -484,6 +499,7 @@ net,basic,,leader/guide,lead/guide,,,,,Hindi,नेता,neta
 nien,basic,,year,,,,,,Mandarin Chinese,年,Nián
 nih,basic,,greeting,hi/hello/greet,,,,,Mandarin Chinese,你好,Nǐ hǎo
 Nihon,proper,,,,,,Japan,,Japanese,日本,Nihon
+Nihontar,proper,語 replaced with 'tar',Japanese,,,,,,Japanese,日本語,Nihongo
 nik,basic,,performance/show,perform/pretend/play,performative/pretend,,,,Tamil,நிகழ்த்து,Nikaḻttu
 nikjak,,,stage/theater,,,,,,Pemtara,nik jak,
 nikren,,,actor,,,,,,Pemtara,nik ren,perform person
@@ -530,6 +546,7 @@ pak,basic,,paragraph,,,,,,Gujarati,ફકરો,Phakarō
 Pakistan,proper,,,,,,Pakistan/Islamic Republic of Pakistan,,Punjabi,ਪਾਕਿਸਤਾਨ,Pākisatāna
 pan,basic,,fruit,,,,,,Telugu,పండు,Paṇḍu
 paner,basic,,needle,,,,,,Korean,바늘,baneul
+Panratar,proper,tar' added for clarity,Bangla/Bengali,,,,,,Bangla,বাংলা,Bānlā
 Panrates,proper,,,,,,Bangladesh/People's Republic of Bangladesh,,Bangla,বাংলাদেশ,Bānlādēśa
 pantar,basic,,storage/inventory/supply,store/save/backup,,,,,Hindi,भंडार,bhandaar
 pantay,basic,,,sneeze,,,,,Cantonese,喷嚏,pan tai
@@ -555,6 +572,7 @@ pej,basic,,back,,back,backwards,behind/after/in back of,,Bangla,পেছনে,
 pejkos,,,spine,,,,,,Pemtara,pej kos,back bone
 pek,basic,,ice,,,,,,Javanese,beku,
 pem,basic,,snake,,,,,,Korean,뱀,baem
+Penjapitar,proper,tar' added for clarity,Punjabi,,,,,,Punjabi,ਪੰਜਾਬੀ,Pajābī
 pep,basic,,drink,drink,,,,,Spanish,beber,
 per,basic,,,,,,last/previous,,Hindi,पहले,pahale
 perek,basic,,nail/tack,nail/tack,,,,,Bangla,পেরেক,Pērēka
@@ -586,11 +604,13 @@ pis,basic,,nose,sniff,,,,,Mandarin Chinese,鼻子,Bízi
 pit,basic,,plant,,,,,,Turkish,bitki,
 piyur,basic,,ratio,,,,,,Korean,비율,biyul
 poin,basic,,,point/indicate/show,,,,,English,point,
+Pojpuritar,proper,tar' added for clarity,Bhojpuri,,,,,,Bhojpuri,भोजपुरी,
 pok,basic,,mouth,,,,,,Portuguese,boca,
 pokos,basic,,,,few,,,,Spanish,pocos,
 pom,basic,,toy,play with,,,,,Telugu,బొమ్మ,Bom'ma
 pon,basic,,,lay/lie down/place/put,,,,,Spanish,poner,
 Porsuka,proper,,,,,,Poland/Rzeczpospolita Polska/Republic of Poland,,Polish,Polska,
+Portukesatar,proper,tar' added for clarity,Portuguese,,,,,,Portuguese,portuguesa,
 pos,basic,,possibility,,possible,maybe/possibly,,,Spanish,posible,
 pot,basic,,contest/competition,compete,competitive ,competitively,,,Telugu,పోటీ,Pōṭī
 poter,basic,,irritant,bother/irritate,annoying/irritating/bothersome,,,,English,bother,
@@ -603,6 +623,7 @@ Purasir,proper,,,,,,Brazil/Federal Republic of Brazil,,Portuguese,Brasil,
 purtut,,,rage/anger/wrath,,angry/mad/grumpy/pissy,,,,Pemtara,pur tut,
 puryuh,,,disease/illness,,ill/sick,,,,Pemtara,pur yuh,
 put,basic,mainly used to differentiate between physical and virtual,reality,,physical/real,physically,,,Japanese,物理的,Butsuri-teki
+Putontar,proper,话 replaced with 'tar',Mandarin Chinese,,,,,,Mandarin Chinese,普通话,Pǔtōnghuà
 raf,basic,,adipose,fatten,fat,,,,Telugu,లావు,Lāvu
 rah,basic,,,stay/remain/keep,,,,,Marathi,राहा,Rāhā
 rain,basic,,line/row,,,,,,English,line,
@@ -658,6 +679,7 @@ ruktij,,named for the number of faces on the object,cube/rectangular prism/box,,
 rum,basic,,room,,,,,,Bangla,রুম,Ruma
 run,basic,,moon,,,,,,Italian,luna,
 rur,basic,,tube/pipe/straw,,,,,,Persian,لوله,lule
+Rustar,proper,ком replaced with 'tar',Russian,,,,,,Russian,русском,russkom
 saf,basic,,soap,wash/clean,clean,,,,Hindi,साफ़,saaf
 safik,,,bath,bathe,,,,,Pemtara,saf fik,
 sahar,basic,,lizard,,,,,,Arabic,سحلية,sahalia
@@ -770,6 +792,7 @@ taksin,basic,,south,,south,south,,,Telugu,దక్షిణ,Dakṣiṇa
 tam,basic,,brake/break,stop/pause/interrupt/interject,,,,,Bangla,থামা,Thāmā
 tamak,basic,,egg,,,,,,Japanese,卵,Tamago
 tamakor,,,ovary,,,,,,Pemtara,tamak or,egg organ
+Tamirtar,proper,tar' added for clarity,Tamil,,,,,,Tamil,தமிழ்,Tamiḻ
 tan,basic,,teeth/tooth,bite,,,,,Hindi,दाँत,daant
 Tansaniya,proper,,,,,,Tanzania/United Republic of Tanzania,,Swahili,Tanzania,
 tany,slang,informal slang; short form,,thanks/thx,,,,,Pemtara,tanyafat,
@@ -792,6 +815,7 @@ ter,basic,pair with 'paj' or 'pif',,,,,for extreme relative times like early or 
 terin,basic,,,,clear,,,,Tamil,தெளிந்த,Teḷinta
 terpaj,,pair with 'tik',,,late,late,,,Pemtara,ter paj,
 terpif,,pair with 'tik',,,early,early,,,Pemtara,ter pif,
+Terukutar,proper,tar' added for clarity,Telugu,,,,,,Telugu,తెలుగు,Telugu
 tes,basic,,ten,,10,,,,Portuguese,dez,
 tesek,,,eleven,,11,,,,Pemtara,tes ek,
 teser,,,fourteen,,14,,,,Pemtara,tes ser,
@@ -829,6 +853,7 @@ tisison,,time of year,fall/autumn,,,,,,Pemtara,tis sison,
 tit,basic,,program/project,,,,,,Tamil,திட்டம்,Tiṭṭam
 titik,,shortened form to specify a timeframe in seconds,,,,,,,Pemtara,tiar tik,
 tiy,basic,,fluid,flow,fluid,,,,Mandarin Chinese,体液,Tǐyè
+Toijetar,proper,tar' added for clarity,German,,,,,,German,deutsche,
 Toijranut,proper,,,,,,Germany,,German,Deutschland,
 toj,basic,,,read,,,,,Shanghainese,读,doq
 tok,basic,,danger,,scary/threatening/terrifying,,,,Marathi,धोका,Dhōkā
@@ -858,6 +883,7 @@ tur,basic,,distance,extend,far/distant,distantly,,,Hindi,दूरी,dooree
 turan,basic,,,,simultaneous/simultaneously,,during/while/as/as long as,time,Spanish,durante,
 turat,basic,,deal,deal/bargain,,,,,Spanish,trato,
 Turkiye,proper,,,,,,Turkey/Republic of Turkey,,Turkish,Türkiye,
+Turukjetar,proper,tar' added for clarity,Turkish,,,,,,Turkish,Türkçe,
 Tusin,proper,,,,,,Saturn,,Mandarin Chinese,土星,Tǔxīng
 tut,basic,,attitude/mood/vibe,,,,,,English,tude,
 tutsit,,,culture,,,,,,Pemtara,tut sit,
@@ -876,6 +902,7 @@ uraper,,,,loosen,loose,,,,Pemtara,ur aper,
 urhek,,,,vomit/throw up,,,,,Pemtara,ur hek,
 urmem,,,,forget,forgetful,,,,Pemtara,ur mem,
 urnit,,,,drain,,,,,Pemtara,ur nit,
+Urtutar,proper,tar' added for clarity,Urdu,,,,,,Urdu,اردو,
 ut,basic,,arm,launch/throw/toss,,,,,Japanese,腕,Ude
 utar,basic,,north,,north,north,,,Hindi,उत्तर,uttar
 yaf,basic,,key,,,,,,Spanish,llave,
