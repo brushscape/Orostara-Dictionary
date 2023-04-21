@@ -133,7 +133,7 @@ Furanus,proper,,,,,,France,,French,France,
 fus,basic,,boss/senior/top,,superior,,over/above/high,,Russian,выше,vyshe
 fusison,,time of year,summer,,,,,,Pemtara,fus sison,
 fustut,,,confidence,,confident,confidently,,,Pemtara,fus tut,
-fuy,basic,,money/dollar/credit/payment/finance,pay/buy/afford/claim,rich/expensive/financial,,,,Mandarin Chinese,富有,Fùyǒu
+fuy,basic,,money/dollar/credit/payment/finance,pay/buy/spend/afford/claim,rich/expensive/financial,,,,Mandarin Chinese,富有,Fùyǒu
 ha,,exclamation marker ,,,,,,particle ,Pemtara,ham,
 haf,basic,,air/wind,airate,airy/windy,airily,,,Turkish,hava,
 haj,basic,,eight,,8,,,,Japanese,八,hachi
@@ -224,6 +224,7 @@ Iran,,,,,,,Iran,,Persian,ایران,
 irjan,,,,approach,,,,,Pemtara,ir jan,
 is,basic,,east,,east,east,,,English,east,
 it,basic,,,,,,xor/either/or,,English,or,
+itan,,,,,,,and-or/or,,Pemtara,it an,
 Itariya,proper,,,,,,Italy,,Italian,Italia,
 Itariyantar,proper,tar' added for clarity,Italian,,,,,,Italian,italiano,
 Itiyopiya,proper,,,,,,Ethiopia/Federal Democratic Republic of Ethiopia,,Amharic,ኢትዮጵያ,ītiyop’iya
@@ -240,7 +241,7 @@ jat,basic,,bush ,,,,,,Hindi,झाड़ी,jhaadee
 jatap,basic,,attract/captivate,attraction,attractive/alluring,attractively,,,Arabic,جاذب,jaḏaba
 jatik,,shortened form to specify a timeframe in hours,,,,,,,Pemtara,jas tik,
 Jauatar,proper,tar' added for clarity,Javanese,,,,,,Javanese,jawa,
-je,slang,slang; informal,,,your/yours/their/theirs,,you,,Pemtara,jeh,
+j,slang,slang; informal,you,,your/yours/their/theirs,,,,Pemtara,jeh,
 jeh,basic,,that,,,,,,Bangla,যে,Yē
 jejak,,,,,,,there,,Pemtara,jeh jak,
 jeren,,neural formal; use more specific honorifics when possible,you/he/she/them,,,,,,Pemtara,jeh ren,
@@ -333,12 +334,11 @@ kimuk,,,which,,,,,,Pemtara,kiy muk,what thing
 kin,basic,Mostly used as an honorific suffix,manager/supervisor/director,,,,Honorific,,Cantonese,经理,ging lei
 kion,,,whatever,,,,whatever,,Pemtara,kiy on ,what any
 kiren,,,who,,,,,,Pemtara,kiy ren,what person
-kise,slang,slang; shortened form of adverb form of kisey,,,,how,,,Pemtara,kisey,
+kis,slang,slang; shortened form of adverb form of kisey,,,,how,,,Pemtara,kisey,
 kisey,,,,,,how,how,,Pemtara,kiy sey,what action
 kitik,,,,,,,when,,Pemtara,ki tik,
 kiy,basic,,what,,,,,,Urdu,کیا,kya
 ko,basic,indicates a direct object,,,,,,,Hindi,को,ko
-koay,basic,,,,,,and-or/or,conjunction,Vietnamese,cô ấy,
 koj,basic,,shell/case,shield/defend/guard/protect,protective ,protectively,,,Shanghainese,壳,khoq
 kojim,basic,,island,,,,,,Japanese,小島,Kojima
 kojpik,,,beetle,,,,,,Pemtara,koj pik,
@@ -396,7 +396,7 @@ mar,basic,,wound,hurt/wound,,,,,Italian,Male,
 Maratitar,proper,tar' added for clarity,Marathi,,,,,,Marathi,मराठी,Marāṭhī
 markas,basic,,center/middle,,center/middle,,,,Arabic,مركز,markáz
 maron,basic,color,brown,,brown,,,,Spanish,marrón,
-mas,basic,to a large degree; can be used as a casual honorific suffix,more/(honorific) mentor/person I look up to,,more/a lot/many/(colloquially) good,very,,,Urdu,مزید,mazid
+mas,basic,to a large degree; can be used as a casual honorific suffix,more/much/a lot/(honorific) mentor/person I look up to,,more/a lot/many/(colloquially) good,very,,,Urdu,مزید,mazid
 masajfit,,,improvement,improve,improved,,,,Pemtara,mas aj fit,tai sing
 masam,,,,,most,,,,Pemtara,mas ham ,
 masam,slang,only used in the Warren,,love/make (you) the most important thing,,,,,Pemtara,masuram,
@@ -418,7 +418,7 @@ masuh,,,warmth,heat,warm,warmly,,,Pemtara,mas suh,
 masuram,,not commonly used; reserved for extremely important relationships,,care deeply/(colloquially) love,,,,,Pemtara,mas suram,
 mat,basic,,material,,,,,,Arabic,مادة,mada
 mater,basic,,matter/stuff,,,,,,English,matter,
-may,basic,,,use up/spend,,,,,Mandarin Chinese,买,Mǎi
+may,basic,,,use up/waste/spend,,,,,Mandarin Chinese,买,Mǎi
 mayas,basic,,goat,,,,,,Arabic,معزة,maeaza
 Mehiko,proper,,,,,,Mexico/United Mexican States,,Spanish,México,
 mek,basic,,creation/establishment,make/create/manufacture/establish,artificial,artificially, ,,English,make,
@@ -505,11 +505,12 @@ nikjak,,,stage/theater,,,,,,Pemtara,nik jak,
 nikren,,,actor,,,,,,Pemtara,nik ren,perform person
 Nipar,proper,,,,,,Nepal/Federal Democratic Republic of Nepal ,,Nepali,नेपाल,Nēpāla
 nir,basic,,length,,long,,,,Tamil,நீளம்,Nīḷam
-nis,basic,,junior/bottom,,inferior,,under/below/beneath/low,preposition,Russian,ниже,nizhe
+nis,basic,,junior/bottom,,inferior/(colloquially) sad,,under/below/beneath/low,preposition,Russian,ниже,nizhe
 nisan,basic,,mark,mark,,,,,Hindi,निशान,nishaan
 nisison,,time of year,winter,,,,,,Pemtara,nis sison,
 nisjit,,,anus,,,,,,Pemtara,nis jit,bottom hole
 nispaf,,used when referring to the emotion,sadness/sorrow/depression,,sad/depressed,,,,Pemtara,nis paf,
+nisp,slang,informal slang; short form,sadness/sorrow/depression,,,,,,Pemtara,nispaf,
 nistut,,used when referring to the effect of something on you/others,,,sad/sorrowful/depressing,,,,Pemtara,nis tut,low attitude
 nit,basic,,water,,watery,,,,Telugu,నీటి,Nīṭi
 nitik,,shortened form to specify a timeframe in year,,,,,,,Pemtara,nien tik,
@@ -719,7 +720,7 @@ ser,basic,,four,,4,,,,Shanghainese,四,sr
 serin,,named for the number of points on the shape,square/rectangle/diamond,,square/rectangular,,,,Pemtara,ser hin,
 sertij,,named for the number of faces on the object,tetrahedron,,tetrahedral,,,,Pemtara,ser tij,
 set,basic,,area/field,,,,,,Hindi,क्षेत्र,kṣétra
-sey,basic,,action/activity,do/act/happen/use,active/useful,,with/using/through,,Tamil,செய்,Cey
+sey,basic,,action/activity,do/act/happen/use,active/useful,,with/using/through/by,,Tamil,செய்,Cey
 sian,basic,,camera,,,,,,Mandarin Chinese,相机,Xiàngjī
 sies,basic,,writing/essay/book/article,write,written,,,,Mandarin Chinese,写作,Xiězuò
 sif,basic,,exception,,exceptional,exceptionally,except/besides,,Hindi,सिवाय,sivaay
@@ -830,7 +831,7 @@ testoytij,,,dodecahedron,,,,,,Pemtara,testoy tij,
 tesut,basic,,test/trial,,,,,,Italian,test,
 tet,basic,specifically to touch with your finger(s),finger,touch,,,,,Spanish,dedo,
 tetik,,shortened form to specify a timeframe in days,,,,,,,Pemtara,ten tik,
-teynun,basic,,debt,,,,,,Arabic,دَين,dayn
+teynun,basic,,debt,owe,,,,,Arabic,دَين,dayn
 tian,basic,,attention,focus,attentive,,,,Punjabi,ਧਿਆਨ,Dhi'āna
 tiar,basic,time unit,second/moment,,,,,,Mandarin Chinese,第二,Dì èr
 tien,basic,,computer/calculator,compute/calculate,computational,computationally,,,Mandarin Chinese,电脑,Diànnǎo
@@ -906,6 +907,7 @@ Urtutar,proper,tar' added for clarity,Urdu,,,,,,Urdu,اردو,
 ut,basic,,arm,launch/throw/toss,,,,,Japanese,腕,Ude
 utar,basic,,north,,north,north,,,Hindi,उत्तर,uttar
 yaf,basic,,key,,,,,,Spanish,llave,
+yaj,slang,,we/me and you,,our,,,,Pemtara,y j,
 Yajou,proper,the continent,,,,,Europe/Asia/Eurasia,,Mandarin Chinese,亚洲,Yàzhōu
 yak,basic,,,surround/engulf/include/involve,,,around/including,preposition,Korean,약,yag
 yakis,basic,,,cheat/hack,,,,,Arabic,يغش,yaghish
@@ -914,7 +916,7 @@ yansik,,,,dream,,,,,Pemtara,yan sik,
 yar,basic,,drawing,draw,,,,,Arabic,يرسم,yarsam
 yas,basic,,,crush/pulverize,crushing,,,,Mandarin Chinese,压碎,Yā suì
 yat,basic,,list,,,,,,Marathi,यादी,Yādī
-ye,slang,slang; informal,,,my/mine,,I/me,,Pemtara,yeh,
+y,slang,slang; informal,I/me,,my/mine,,,,Pemtara,yeh,
 yeh,basic,,this,,,,,,Hindi,यह,yah
 yejak,,,,come here/be here,,,here,,Pemtara,yeh jak,
 Yemen,proper,,,,,,Yemen/Republic of Yemen,,Arabic,ٱلْيَمَن,
