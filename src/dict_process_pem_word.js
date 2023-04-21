@@ -4,7 +4,7 @@ function pemClick(searchedWord) {
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length - 1);
   var endList = ['a', 'e', 'o', 'i', 'u'];
-  var specialCases = ['naki', 'amki', 'ki', 'ha', 'na', 'a'];
+  var specialCases = ['naki', 'amki', 'ki', 'ha', 'na', 'a', 'o'];
   var otherWord = '';
   if (specialCases.indexOf(searchedWord) == -1 && endList.indexOf(lastChar) != -1) {
     if (properNouns.indexOf(searchedWord) == -1) {

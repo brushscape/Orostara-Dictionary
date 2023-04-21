@@ -1,5 +1,5 @@
 ﻿Pemtara,Type,Notes,Nouns,Verbs,Adjectives,Adverbs,Other,OtherType,RootLanguage,RLWord,RL Word Pronunciation
-a,basic,particle to indicate subject of a sentence; optional and only used for clarity,,,,,,,,,
+a,basic,particle to indicate subject of a sentence; optional and only used for clarity,,,,,,,-,-,
 af,basic,,chance/opportunity,,,,,,Hindi,अवसर,avasar
 afas,basic,,phase,,,,,,Hindi,अवस्था,avastha
 Afhuanestan,proper,,,,,,Afghanistan/Islamic Republic of Afghanistan,,Pashto,افغانستان,afğânestân
@@ -142,7 +142,7 @@ hajin,,named for the number of points on the shape,octagon,,octagonal,,,,Pemtara
 Hajos,proper,,Neptune,,,,,,Pemtara,haj hos,8th planet
 hajtij,,named for the number of faces on the object,diamond/octahedron,,,,,,Pemtara,haj tij,
 hakpaf,,,disgust,,disgusting/nasty/distasteful,,,,Pemtara,hak paf,
-ham,basic,,whole/(colloquially) everyone/everything,,all/every/entire/whole/each,completely/entirely,,,Persian,همه,hame
+ham,basic/slang,,whole/(colloquially) everyone/everything,,all/every/entire/whole/each,completely/entirely,,,Persian,همه,hame
 hamasuh,,,,,hot/sweltering,,,,Pemtara,ham masuh,
 hamiksuh,,,,,cold/freezing,,,,Pemtara,ham iksuh,
 hamjak,,,everywhere,,,,,,Pemtara,ham jak,
@@ -170,6 +170,7 @@ hesap,basic,,account,account,accountable,,,,Turkish,hesap,
 hin,basic,,shape,form,shapely,,,,Vietnamese,hình thức,
 Hintitar,proper,tar' added for clarity,Hindi,,,,,,Hindi,हिन्दी,hindee
 hirom,basic,,,spread,,,,,Japanese,広める,Hiromeru
+h,slang,informal slang; short form for adjective only; can be paired with 'tik' and associated words,,,100/hundred,,,,Pemtara,hiy,
 hiy,basic,,hundred,,100,,,,Japanese,百,Hyaku
 hoj,basic,,availability,,available,,,,Cantonese,可用,ho jung
 hon,basic,,existence,be/exist/is/become,,,,,Punjabi,ਹੋਣਾ,Hōṇā
@@ -178,7 +179,7 @@ hos,basic,,planet/world,,,,,,Japanese,星,Hoshi
 huanyin,basic,,,welcome,,,,,Mandarin Chinese,欢迎,Huānyíng
 huas,basic,,chemical,,chemical,chemically,,,Mandarin Chinese,化学,Huàxué
 huis,basic,color,gray,,grey,,,,Mandarin Chinese,灰色,Huīsè
-huk,basic,,hook,hook,,,,,English,hook,
+huk,basic,,hook,hook/catch,,,,,English,hook,
 Hunyutar,proper,tar' added for clarity,Shanghainese/Wu Chinese,,,,,,Shanghainese,吴语,hhu-nyy
 hup,basic,,peace,,peaceful,peacefully,,,Mandarin Chinese,和平,Hépíng
 hus,basic,,cough,cough,,,,,German,Husten,
@@ -193,7 +194,7 @@ ikam,,,,,least,,,,Pemtara,ik ham,
 ikamar,,romantic crush,crush,crush,,,,,Pemtara,ik amar,
 iketat,,,youth,,young,,,,Pemtara,ik etat,little age
 ikfar,,,clit/clitoris,,,,,,Pemtara,ik far,little phallus
-ikfit,,,,,,,less than/(colloquially) worse than,,Pemtara,ik fit,
+ikfit,slang,,,,,,less than/(colloquially) worse than,,Pemtara,ik fit,
 ikfor,,,,,weak,weakly,,,Pemtara,ik for,little strength
 iknop,,,,,narrow,narrowly,,,Pemtara,ik nop,small width or a little width
 ikos,,,dwarf planet,,,,,,Pemtara,ik hos,little planet
@@ -293,7 +294,7 @@ kajrur,,,rectum,,,,,,Pemtara,kaj rur,waste tube
 kak,basic/swear,also a swear; used like 'shit' but slightly less vulgar,excriment,poop,,,shit,,Spanish,caca,
 kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,Javanese,kaget,
 kakjit,slang/swear,slang swear,asshole/shithole,,,,,,Pemtara,kak jit ,
-kam,basic,,employment/job,employ/hire/work,,,,,Hindi,काम,kaam
+kam,basic,,job/employment,work/labor/employ/hire,,,,,Hindi,काम,kaam
 kamin,basic,,path/street/trail/road,,,,,,Spanish,camino,
 kamjak,,,office,,,,,,Pemtara,kam jak,work place
 kamsit,,,industry,,industrial,industrially,,,Pemtara,kam sit,hong jip
@@ -397,7 +398,7 @@ mar,basic,,wound,hurt/wound,,,,,Italian,Male,
 Maratitar,proper,tar' added for clarity,Marathi,,,,,,Marathi,मराठी,Marāṭhī
 markas,basic,,center/middle,,center/middle,,,,Arabic,مركز,markáz
 maron,basic,color,brown,,brown,,,,Spanish,marrón,
-mas,basic,to a large degree; can be used as a casual honorific suffix,more/much/a lot/(honorific) mentor/person I look up to,,more/a lot/many/(colloquially) good,very,,,Urdu,مزید,mazid
+mas,basic/slang,to a large degree; can be used as a casual honorific suffix,more/much/a lot/(honorific) mentor/person I look up to,,more/a lot/many/(colloquially) good,very,,,Urdu,مزید,mazid
 masajfit,,,improvement,improve,improved,,,,Pemtara,mas aj fit,tai sing
 masam,,,,,most,,,,Pemtara,mas ham ,
 masam,slang,only used in the Warren,,love/make (you) the most important thing,,,,,Pemtara,masuram,
@@ -405,7 +406,7 @@ masaoj,,commonly used with the -u ending as a greeting,,,,,good morning,,Pemtara
 masap,,,specifics/details,,particular/specific/detailed,particularly/specifically/especially,,,Pemtara,mas sap,
 masekir,,,,chase/hunt,,,,,Pemtara,mas sekir,follow a lot (or very follow?)
 masfaj,,,explanation,explain,,,,,Pemtara,mas faj,
-masfit,,,improvement,improve,improved,,more than/(colloquially) better than,,Pemtara,mas fit,
+masfit,slang,,improvement,improve,improved,,more than/(colloquially) better than,,Pemtara,mas fit,
 masfitut,,,,,stuck up/snobish,,,,Pemtara,masfit tut,
 masjan,,,,hurry,,,,,Pemtara,mas jan,go a lot
 masjok,,,,stare,,,,,Pemtara,mas jok,
@@ -416,13 +417,13 @@ maspater,,physically fight,,fight,,,,,Pemtara,mas pater,hit a lot
 maspun,,as in like a lot,,love,,,,,Pemtara,mas pun,like a lot
 mastian,,,concentration,focus/concentrate,focused,,,,Pemtara,mas tian,
 masuh,,,warmth,heat,warm,warmly,,,Pemtara,mas suh,
-masuram,,not commonly used; reserved for extremely important relationships,,care deeply/(colloquially) love,,,,,Pemtara,mas suram,
+masuram,slang,not commonly used; reserved for extremely important relationships,,care deeply/(colloquially) love,,,,,Pemtara,mas suram,
 mat,basic,,material,,,,,,Arabic,مادة,mada
 mater,basic,,matter/stuff,,,,,,English,matter,
 may,basic,,,use up/waste/spend,,,,,Mandarin Chinese,买,Mǎi
 mayas,basic,,goat,,,,,,Arabic,معزة,maeaza
 Mehiko,proper,,,,,,Mexico/United Mexican States,,Spanish,México,
-mek,basic,,creation/establishment,make/create/manufacture/establish,artificial,artificially, ,,English,make,
+mek,basic,,creation/establishment,make/create/manufacture/establish,artificial,artificially,,,English,make,
 mem,basic,,memory,memorize/remember,memorable,memorably,,,Italian,memoria,
 Meresia,proper,,,,,,Malaysia/Federation of Malaya,,Malay,Malaysia,
 Merkur,proper,,,,,,Mercury,,French,Mercure,
@@ -468,7 +469,7 @@ mur,basic,,core,core,,,,,Bangla,মূল,Mūla
 Musansi,proper,,,,,,South Africa/Republic of South Africa,,Xhosa,Mzansi,
 mut,basic,,purpose/mission,,purposeful,purposefully,,,Mandarin Chinese,目的,Mùdì
 mutur,basic,,urine,pee,,,,,Marathi,मूत्र,Mūtra
-na,basic,,,(colloquially) don't,not,,no,,Bangla,না,Nā
+na,basic/slang,,,(colloquially) don't,not,,no,,Bangla,না,Nā
 naij,,,,exhaust,tired/exhausted/weary,,,,Pemtara,na ij,
 najan,,,,stop/freeze,still/motionless,motionlessly,,,Pemtara,na jan,
 najir,,,oddity,,strange/odd/weird/unexpected/abnormal,strangely/oddly,,,Pemtara,na jir,
@@ -506,7 +507,7 @@ nikjak,,,stage/theater,,,,,,Pemtara,nik jak,
 nikren,,,actor,,,,,,Pemtara,nik ren,perform person
 Nipar,proper,,,,,,Nepal/Federal Democratic Republic of Nepal ,,Nepali,नेपाल,Nēpāla
 nir,basic,,length,,long,,,,Tamil,நீளம்,Nīḷam
-nis,basic,,junior/bottom,,inferior/(colloquially) sad,,under/below/beneath/low,preposition,Russian,ниже,nizhe
+nis,basic/slang,,junior/bottom,,inferior/(colloquially) sad,,under/below/beneath/low,preposition,Russian,ниже,nizhe
 nisan,basic,,mark,mark,,,,,Hindi,निशान,nishaan
 nisison,,time of year,winter,,,,,,Pemtara,nis sison,
 nisjit,,,anus,,,,,,Pemtara,nis jit,bottom hole
@@ -524,6 +525,7 @@ num,basic,,number/amount/quantity/math,count/measure,,,,,English,number,
 numren,,,mathematician,,,,,,Pemtara,num ren,
 nur,basic,,effort/attempt,try/attempt,,,,,Mandarin Chinese,努力,Nǔlì
 oftus,basic,,sheep,,,,,,Russian,овца,ovtsa
+o,basic,indicate an 'is/am/are' phrase; optional and used for clarity,,,,,,,-,-,
 oh,basic,,,,,,oh,,Mandarin Chinese,哦,Ó
 oj,basic,,instrument/tool/equipment,use/play,equipped,,,,Hindi,औजार,aujaar
 om,basic,,shoulder,,,,,,Portuguese,ombro,
@@ -617,7 +619,7 @@ pos,basic,,possibility,,possible,maybe/possibly,,,Spanish,posible,
 pot,basic,,contest/competition,compete,competitive ,competitively,,,Telugu,పోటీ,Pōṭī
 poter,basic,,irritant,bother/irritate,annoying/irritating/bothersome,,,,English,bother,
 poy,basic,,chicken,,,,,,Spanish,chicken,
-puk,basic,adverb used like:  'even you can't deny it',,,,even,but/however/though/nevertheless/still/yet/in spite of/despite,conjunction,Mandarin Chinese,不过,Bùguò
+puk,basic,adverb used like:  'even you can't deny it',,,,even/still,but/however/though/nevertheless/yet/in spite of/despite,conjunction,Mandarin Chinese,不过,Bùguò
 pum,basic,,paper,,,,,,Russian,бумага,bumaga
 pun,basic,,joy/enjoyment/fun/delight,like/enjoy/fond,happy/fun/enjoyable,happily,,,Tamil,போன்ற,Pōṉṟa
 pur,basic,,,,bad/negative,,,,Bangla,ਬੁਰਾ,Burā
@@ -838,7 +840,7 @@ tiar,basic,time unit,second/moment,,,,,,Mandarin Chinese,第二,Dì èr
 tien,basic,,computer/calculator,compute/calculate,computational,computationally,,,Mandarin Chinese,电脑,Diànnǎo
 tier,basic,,animal,,animalistic,animalisticly,,,German,Tier,
 tij,basic,,volume/amount,,,,,,Mandarin Chinese,体积,Tǐjī
-tik,basic,time marker particle,time,,,,,particle,English,tic,
+tik,basic,time marker particle,time,,,,for,particle,English,tic,
 tiket,basic,,ticket,,,,,,English,ticket,
 tikon,basic,,offer,,,,,,Mandarin Chinese,提供,Tígōng
 tiksun,basic,,,,sharp/keen,,,,Bangla,তীক্ষ্ণ,Tīkṣṇa
@@ -882,7 +884,7 @@ tun,basic,,tonne/ton,,,,,,Mandarin Chinese,吨,Dūn
 tunrun,basic,,valley,,,,,,Vietnamese,hung lũng,
 tup,basic,,repetition,repeat,repetitive,repetitively,again,,Urdu,دوبارہ,dobâre
 tur,basic,,distance,extend,far/distant,distantly,,,Hindi,दूरी,dooree
-turan,basic,,,,simultaneous/simultaneously,,during/while/as/as long as,time,Spanish,durante,
+turan,basic,,duration,,simultaneous/simultaneously,,during/while/as/as long as,time,Spanish,durante,
 turat,basic,,deal,deal/bargain,,,,,Spanish,trato,
 Turkiye,proper,,,,,,Turkey/Republic of Turkey,,Turkish,Türkiye,
 Turukjetar,proper,tar' added for clarity,Turkish,,,,,,Turkish,Türkçe,
@@ -908,7 +910,7 @@ Urtutar,proper,tar' added for clarity,Urdu,,,,,,Urdu,اردو,
 ut,basic,,arm,launch/throw/toss,,,,,Japanese,腕,Ude
 utar,basic,,north,,north,north,,,Hindi,उत्तर,uttar
 yaf,basic,,key,,,,,,Spanish,llave,
-yaj,slang,,we/me and you,,our,,,,Pemtara,y j,
+yaj,slang,informal slang,we/me and you,,our,,,,Pemtara,y j,
 Yajou,proper,the continent,,,,,Europe/Asia/Eurasia,,Mandarin Chinese,亚洲,Yàzhōu
 yak,basic,,,surround/engulf/include/involve,,,around/including,preposition,Korean,약,yag
 yakis,basic,,,cheat/hack,,,,,Arabic,يغش,yaghish
