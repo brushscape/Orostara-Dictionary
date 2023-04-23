@@ -256,7 +256,7 @@ jifanop,,,birth,birth,,,,,Pemtara,jifan op,life start
 jih,basic,,degree/level/rank/grade,,,,,,Mandarin Chinese,秩,Zhì
 jij,basic,,seven,,7,,,,Shanghainese,七,qiq
 jijak,,shortened form to specify a timeframe in week,,,,,,,Pemtara,jijten tik,
-jijetut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of you,,,,Pemtara,jiy je tut,
+jijetut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of you,,,,Pemtara,jiy j tut,
 jijin,,named for the number of points on the shape,septagon,,septagonal,,,,Pemtara,jij hin,
 Jijos,proper,,Uranus,,,,,,Pemtara,jij hos,7th planet
 jijten,,,week,,,,,,Pemtara,jij ten,Vāram
@@ -274,7 +274,7 @@ jisej,basic,,technology,,technological,technologically,,,Shanghainese,技術,jji
 jit,basic/swear,also a swear; lowgrade like 'shit' or 'balls',hole,dig/drill,,,,,Marathi,छिद्र,Chidra
 jitram,basic,,film/movie,film,,,,,Telugu,చిత్రం,Citraṁ
 jiy,basic,,possession/property,have/possess/own,possessive,possessively,,,Mandarin Chinese,具有,Jùyǒu
-jiyetut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of me,,,,Pemtara,jiy ye tut,
+jiyatut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of me,,,,Pemtara,jiy y tut,
 jok,basic,,eye/sight/appearance,look/check/seem/appear,,seemingly,,,Bangla,চোখ,Cōkha
 jokim,basic,,risk/bet,bet/gamble/wager,risky,,,,Hindi,जोखिम,jokhim
 Jonkuo,proper,,,,,,China/People's Republic of China,,Mandarin Chinese,中国,Zhōngguó
@@ -285,6 +285,7 @@ junan,basic,,choice/option/decision,choose/pick/decide ,picky,,,,Hindi,चुन
 junpey,basic,,preparation,prepare,ready,,,,Mandarin Chinese,准备,Zhǔnbèi
 junren,basic,,adult,,mature,,,,Mandarin Chinese,成人,Chéngrén
 jus,basic,Mostly used as an honorific suffix,Executive/CEO/(colloquially) king/queen/emperor,,,,Honorific,,Mandarin Chinese,执行,Zhíxíng
+jut,basic,,subject/theme,,,,,,Mandarin Chinese,主题,Zhǔtí
 ka,basic,particle to indicate something is a question ,,,,,,,Japanese,か,ka
 kaf,basic,,wish,want/desire,desireable,,,,Telugu,కావాలి,Kāvāli
 kaik,basic,,approximation,guess,approximate,approximately,,,Mandarin Chinese,猜测,Cāicè
@@ -329,16 +330,17 @@ key,basic,,gift/distribution,give/share/distribute,gifted/free,,,,Mandarin Chine
 keyjuk,basic,,muscle,,muscular,,,,Cantonese,肌肉,gei juk
 keynan,basic,,skill,,,,,,Cantonese,技能,gei nang
 keytut,,,generosity,,generous,generously,,,Pemtara,key tut,
-kifaj,,,,,,why,,,Pemtara,kiy faj,what reason
-kijak,,,,,,,where,,Pemtara,kiy jak,what place
-kimuk,,,which,,,,,,Pemtara,kiy muk,what thing
+kifaj,,when used on it's own it usually indicates a subordinate clause following ,,,,why,for the purpose of,,Pemtara,kiy faj,what reason
+kijak,,when used on it's own it usually indicates a subordinate clause following ,,,,,at which location,,Pemtara,kiy jak,what place
+kijut,,when used on it's own it usually indicates a subordinate clause following; generally subordinate clause is modifying the direct object or the object directly preceding it,,,,,about/on the subject of,,Pemtara,kiy jut,
+kimuk,,when used on it's own it usually indicates a subordinate clause following; generally subordinate clause is modifying the direct object or the object directly preceding it,which,,,,for which,,Pemtara,kiy muk,what thing
 kin,basic,Mostly used as an honorific suffix,manager/supervisor/director,,,,Honorific,,Cantonese,经理,ging lei
 kion,,,whatever,,,,whatever,,Pemtara,kiy on ,what any
-kiren,,,who,,,,,,Pemtara,kiy ren,what person
+kiren,,when used on it's own it usually indicates a subordinate clause following ,who,,,,for whom,,Pemtara,kiy ren,what person
 kis,slang,slang; shortened form of adverb form of kisey,,,,how,,,Pemtara,kisey,
-kisey,,,,,,how,how,,Pemtara,kiy sey,what action
-kitik,,,,,,,when,,Pemtara,ki tik,
-kiy,basic,,what,,,,,,Urdu,کیا,kya
+kisey,,when used on it's own it usually indicates a subordinate clause following ,,,,how,by which action,,Pemtara,kiy sey,what action
+kitik,,when used on it's own it usually indicates a subordinate clause following ,,,,,when/at the time of,,Pemtara,ki tik,
+kiy,basic,when used on it's own it usually indicates a subordinate clause following; generally subordinate clause is direct object,what,,,,that,,Urdu,کیا,kya
 ko,basic,indicates a direct object,,,,,,,Hindi,को,ko
 koj,basic,,shell/case,shield/defend/guard/protect,protective ,protectively,,,Shanghainese,壳,khoq
 kojim,basic,,island,,,,,,Japanese,小島,Kojima
@@ -458,7 +460,7 @@ Mosampiki,proper,,,,,,Mozambique/Republic of Mozambique,,Portuguese,Moçambique,
 mot,basic,,death,die/kill,dead,,,,Hindi,मौत,maut
 moter,basic,,pattern,,,,,,Italian,modello,
 motmin,basic,,loner,,alone/solitary/lone,lonely,,,Vietnamese,một mình,
-motsayir,,,poison/venom,,poisonous,,,,Pemtara,mot sayir,
+motnit,,,poison/venom,,poisonous,,,,Pemtara,mot nit,
 motsinar,,,omen,,,,,,Pemtara,mot sinar,death sign
 muas,basic,,,,parallel,,,,Arabic,موازي,muazi
 muk,basic,,object/item/thing,,,,,,Vietnamese,mục,
@@ -783,7 +785,6 @@ surop,basic,,slope/incline/tilt,,,,,,English,slope,
 sus,basic,,,,familiar,,,,Mandarin Chinese,熟悉,Shúxī
 sut,basic,Most commonly used as an honorific suffix (all children are students),student,,,,Honorific,,English,student,
 Sutamerika,proper,the continent,,,,,South America,,Spanish,Sudamerica,
-sutay,basic,,subject/theme,,,,,,Japanese,主題,Shudai
 suter,basic,,stem,,,,,,Italian,stelo,
 sutir,basic,,style,,,,,,German,Stil,
 suton,basic,,,automate,automatic,automatically,,,Mandarin Chinese,自动,Zìdòng
@@ -894,7 +895,6 @@ uek,basic,,consciousness,wake,awake/conscious,,,,English,wake,
 uj,basic,,question,ask/invite,inquisitive ,,,,Urdu,پوچھنا,
 ujaf,basic,the direction of right (vs left),right,,right,right,,,Marathi,उजवे,Ujavē
 Ukrayina,proper,,,,,,Ukraine,,Ukrainian,Україна,Ukrayina
-um,basic,particle to make a dependent clause,,,,,about/that/for the purpose of,particle,German,um,
 umam,basic,,,,savory/umami,,,,Japanese,うま味,umami
 un,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,,Tamil,உணர்வு,Uṇarvu
 unir,basic,,joint/hinge,join,joined,,,,Spanish,unirse,
