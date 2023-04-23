@@ -86,6 +86,7 @@ famen,basic,,valve,,,,,,Mandarin Chinese,阀门,Fámén
 fan,basic,,fraction/decimal/part/section/piece,divide,,partly,per,,Vietnamese,phần,
 fanhuy,basic,,,return,,,,,Mandarin Chinese,返回,Fǎnhuí
 fanmut,basic,,powder,powder,powdery,,,,Cantonese,粉末,fan mut
+fapaj,,,future minute,,,,,,Pemtara,fansun paj,
 fansun,basic,,minute,,,,,,Cantonese,分钟,fan sung
 fanyin,basic,,reaction/response/answer,react/respond/reply/answer,reactive/responsive,responsively,,,Mandarin Chinese,反应,Fǎnyìng
 far,basic,,phallus,,,,,,English,phallus,
@@ -94,7 +95,7 @@ fas,basic,,ease,ease,easy,easily,,,Spanish,fácil,
 fasaten,,,,,delicate/fragile/breakable,,,,Pemtara,fas saten,easily damaged
 fasien,basic,,discovery,discover/reveal/show/find out,,,,,Mandarin Chinese,发现,Fāxiàn
 fason,basic,,mail,send,,,,,Mandarin Chinese,发送,Fāsòng
-fatik,,shortened form to specify a timeframe in minutes ,,,,,,,Pemtara,fansun tik,
+fapif,,,past minute,,,,,,Pemtara,fansun pif,
 fay,basic,,,,,,wow,,Persian,Ÿàÿß€å,v√¢y
 feij,basic,,bean,,,,,,Portuguese,feijão,
 fen,basic,,education/lesson/learning/analysis/research,teach/train/educate/learn/study/practice/analyze/study/investigate,studious,,,,Mandarin Chinese,分析,Fēnxī
@@ -241,7 +242,8 @@ jar,basic,,,climb/rise/ascend,,,up,,Urdu,چڑھنا,caṛhnā
 jas,basic,,hour,,,,,,Russian,час,chas
 jat,basic,,bush ,,,,,,Hindi,झाड़ी,jhaadee
 jatap,basic,,attract/captivate,attraction,attractive/alluring,attractively,,,Arabic,جاذب,jaḏaba
-jatik,,shortened form to specify a timeframe in hours,,,,,,,Pemtara,jas tik,
+jaspaj,,pair with tik,future hour,,,,,,Pemtara,jas paj,
+jaspif,,pair with tik,past hour,,,,,,Pemtara,jas pif,
 Jauatar,proper,tar' added for clarity,Javanese,,,,,,Javanese,jawa,
 jeh,basic,,that,,,,,,Bangla,যে,Yē
 jejak,,,,,,,there,,Pemtara,jeh jak,
@@ -255,7 +257,8 @@ jifan,basic,,life,live,alive,lively,,,Gujarati,જીવન,
 jifanop,,,birth,birth,,,,,Pemtara,jifan op,life start
 jih,basic,,degree/level/rank/grade,,,,,,Mandarin Chinese,秩,Zhì
 jij,basic,,seven,,7,,,,Shanghainese,七,qiq
-jijak,,shortened form to specify a timeframe in week,,,,,,,Pemtara,jijten tik,
+jipaj,,pair with tik,future week,,,,,,,,
+jipif,,pair with tik,past week,,,,,,Pemtara,jijten pif,
 jijetut,slang,informal slang; generalized form is 'jirentut' if you want to just say 'jealous',,,jealous of you,,,,Pemtara,jiy j tut,
 jijin,,named for the number of points on the shape,septagon,,septagonal,,,,Pemtara,jij hin,
 Jijos,proper,,Uranus,,,,,,Pemtara,jij hos,7th planet
@@ -516,7 +519,8 @@ nisp,slang,informal slang; short form,sadness/sorrow/depression,,,,,,Pemtara,nis
 nispaf,,used when referring to the emotion,sadness/sorrow/depression,,sad/depressed,,,,Pemtara,nis paf,
 nistut,,used when referring to the effect of something on you/others,,,sad/sorrowful/depressing,,,,Pemtara,nis tut,low attitude
 nit,basic,all drinks are 'water' unless otherwise specified ,water,drink,watery,,,,Telugu,నీటి,Nīṭi
-nitik,,shortened form to specify a timeframe in year,,,,,,,Pemtara,nien tik,
+nipif,,,past year,,,,,,Pemtara,nien pif,
+nipaj,,,future year,,,,,,Pemtara,nien paj,
 nof,basic,,,,new/novel/fresh,,,,Portuguese,nova,
 noj,basic,,evening/night,,,,,,Spanish,noche,
 nom,basic,,name,,,,,,Portuguese,nome,
@@ -708,7 +712,8 @@ sas,basic,,breath,breathe,,,,,Hindi,साँस,saans
 sasor,,,lung,,,,,,Pemtara,sas or,air organ
 sat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end,closed/off/ended/finished,finally,,,English,shut,
 saten,basic,,damage,damage,damaged,,,,German,Schaden,
-satik,,shortened form to specify a timeframe in month,,,,,,,Pemtara,sar tik,
+sarpif,,pair with 'tik',past month,,,,,,Pemtara,sar pif,
+sarpaj,,pair with 'tik',future month,,,,,,Pemtara,sar paj,
 Sautiya,proper,,,,,,Saudi Arabia/Kingdom of Saudi Arabia,,Arabic,السعودية,alsueudia
 say,basic,,liquid,melt/condense,,,,,Arabic,سائل,sayil
 seh,basic,,,bear/stand/endure/last,,,,,Hindi,सहना,sahana
@@ -833,9 +838,12 @@ testoy,,,twelve,,12,,,,Pemtara,tes toy,
 testoytij,,,dodecahedron,,,,,,Pemtara,testoy tij,
 tesut,basic,,test/trial,,,,,,Italian,test,
 tet,basic,specifically to touch with your finger(s),finger,touch,,,,,Spanish,dedo,
-tetik,,shortened form to specify a timeframe in days,,,,,,,Pemtara,ten tik,
+tenpif,,,past day,,,,,,Pemtara,ten pif,
+tenpaj,,,future day,,,,,,Pemtara,ten paj,
 teynun,basic,,debt,owe,,,,,Arabic,دَين,dayn
 tian,basic,,attention,focus,attentive,,,,Punjabi,ਧਿਆਨ,Dhi'āna
+tipif,,,past second,,,,,,Pemtara,tiar pif,
+tipaj,,,future second,,,,,,Pemtara,tiar paj,
 tiar,basic,time unit,second/moment,,,,,,Mandarin Chinese,第二,Dì èr
 tien,basic,,computer/calculator,compute/calculate,computational,computationally,,,Mandarin Chinese,电脑,Diànnǎo
 tier,basic,,animal,,animalistic,animalisticly,,,German,Tier,
