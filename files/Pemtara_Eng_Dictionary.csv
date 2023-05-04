@@ -297,7 +297,7 @@ kak,basic/swear,also a swear; used like 'shit' but slightly less vulgar,excrimen
 kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,Javanese,kaget,
 kakjit,slang/swear,slang swear,asshole/shithole,,,,,,Pemtara,kak jit ,
 kam,basic,,job/employment,work/labor/employ/hire,,,,,Hindi,काम,kaam
-kamin,basic,,path/street/trail/road,,,,,,Spanish,camino,
+kamin,basic,,path/street/trail/road/way,,,,,,Spanish,camino,
 kamjak,,,office,,,,,,Pemtara,kam jak,work place
 kamsit,,,industry,,industrial,industrially,,,Pemtara,kam sit,hong jip
 kan,basic,listen and understand,ear,listen,,,,,Urdu,کان,kān
@@ -431,7 +431,7 @@ Merkur,proper,,,,,,Mercury,,French,Mercure,
 mes,basic,,,,,,between/among/amongst,preposition,Russian,между,mezhdu
 mesar,basic,,example/sample,,,,,,Persian,مثال,mesâl
 met,basic,Mostly used as an honorific suffix,mid-level employee,,,,Honorific,,Spanish,medio,
-metot,basic,,method/technique,process,methodical,methodically,,,Spanish,método,
+metot,basic,,method/technique/way,process,methodical,methodically,,,Spanish,método,
 mey,basic,,charisma,charm,charming/charismatic,charmingly/charismatically,,,Cantonese,魅力,mei lik
 mien,basic,,interview,,,,,,Mandarin Chinese,面试,Miànshì
 minjon,basic,,public,publicize,public,publicly,,,Mandarin Chinese,民众,Mínzhòng
@@ -936,3 +936,11 @@ yukat,basic,,plan/strategy,plan,strategic,,,,Arabic,يخطط,yukhatat
 yun,basic,,luck/chance,,lucky,,,,Mandarin Chinese,运气,Yùnqì
 yunet,basic,,unit,,,,,,English,unit,
 yuren,,,doctor,,,,,,Pemtara,yuh ren,heal person
+hun,basic,particle to indicate a dependent clause; also see 'pen',,,,,,,?,?,
+pen,basic,marker to indicate what the dependent clause is modifying/acting as,such,,such,,,,Mandarin Chinese,本,Běn
+tikun,,marks the time; indicates a dependent clause following,,,,,,,Pemtara,tik hun,
+mahun,,indicates a dependent clause acting as the subject of the sentence,,,,,,,Pemtara,ma hun,
+kohun,,indicates a dependent clause acting as the direct object of the sentence,,,,,,,Pemtara,ko hun,
+jakun,,marks the location; indicates a dependent clause following,,,,,,,Pemtara,jak hun,
+tuhun,,indicates a dependent clause acting as the indirect object of the sentence ,,,,,,,Pemtara,tu hun,
+kopun,,indicates a dependent clause following,,,,,like/as/such as,,Pemtara,kop hun,
