@@ -541,7 +541,7 @@ Osturariya,proper,the continent,,,,,Australia,,English,Australia,
 ot,basic,,,get/attain/take/grab,,,,,Korean,얻다,eodda
 paen,basic,the direction of left (vs right),left,,,left,,,Hindi,बाएं,baen
 paf,basic,,feeling/emotion,feel/sense by emotion,emotional,emotionally,,,Hindi,भावना,bhaavana
-pah,basic,,exit,leave/exit/exclude,outside,,out,preposition,Hindi,बाहर,baahar
+pah,basic,,outside/exit,leave/exit/exclude,outside,,out,preposition,Hindi,बाहर,baahar
 paj,basic,marks future tense when paired with 'tik',future,,,,after,preposition,Gujarati,પછી,પછી
 pajet,basic,,budget,budget,,,,,English,budget,
 pak,basic,,paragraph,,,,,,Gujarati,ફકરો,Phakarō
@@ -936,7 +936,7 @@ yukat,basic,,plan/strategy,plan,strategic,,,,Arabic,يخطط,yukhatat
 yun,basic,,luck/chance,,lucky,,,,Mandarin Chinese,运气,Yùnqì
 yunet,basic,,unit,,,,,,English,unit,
 yuren,,,doctor,,,,,,Pemtara,yuh ren,heal person
-hun,basic,particle to indicate a dependent clause; also see 'pen',,,,,,,?,?,
+hun,basic,particle to indicate a dependent clause; also see 'pen',,,,,that/which,,?,?,
 pen,basic,marker to indicate what the dependent clause is modifying/acting as,such,,such,,,,Mandarin Chinese,本,Běn
 tikun,,marks the time; indicates a dependent clause following,,,,,,,Pemtara,tik hun,
 mahun,,indicates a dependent clause acting as the subject of the sentence,,,,,,,Pemtara,ma hun,
