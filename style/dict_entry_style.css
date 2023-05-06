@@ -85,14 +85,14 @@
   flex-direction: row;
 }
 
-.pemLinkWord{
+.orosLinkWord{
   color: var(--darkdark2);
   text-decoration: underline;
   border-radius: 15px;
   padding: 0 5px 5px 5px;
 }
 
-.pemLinkWord:hover{
+.orosLinkWord:hover{
   color: var(--dark2);
   cursor: default;
   background-color: var(--lightlight2);

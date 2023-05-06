@@ -1,6 +1,6 @@
 /* jshint esversion: 8 */
 
-//var localFilePath = 'files/Pemtara_Eng_Dictionary.csv';
+//var localFilePath = 'files/Oros_Eng_Dictionary.csv';
 var filePath = 'https://raw.githubusercontent.com/brushscape/Orostara-Dictionary/main/files/Oros_Eng_Dictionary.csv';
 var langBreakdown = [];
 var numWords = 0;
@@ -22,14 +22,14 @@ function readCSVFile() {
           rowObj[colHeaders[col].replace(/\s/g, "")] = rowColData[col];
         }
       }
-      pemtaraDict.push(rowObj);
+      orosDict.push(rowObj);
 
       if (rowObj.Type == 'proper') {
-        properNouns.push(rowObj.Pemtara);
+        properNouns.push(rowObj.Orostara);
       }
 
       //just to show the language breakdown in the console
-      if (rowObj.RootLanguage != 'Pemtara' && rowObj.Type != 'proper') {
+      if (rowObj.RootLanguage != 'Orostara' && rowObj.Type != 'proper') {
         numWords++;
         var el = getCorrectLang(rowObj.RootLanguage);
         if (el != -1) {

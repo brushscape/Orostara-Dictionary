@@ -1,6 +1,6 @@
 /* jshint esversion: 8 */
 
-function pemClick(searchedWord) {
+function orosClick(searchedWord) {
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length - 1);
   var endList = ['a', 'e', 'o', 'i', 'u'];
@@ -14,24 +14,24 @@ function pemClick(searchedWord) {
 
   }
 
-  var found = pemEntry(searchedWord, otherWord);
+  var found = orosEntry(searchedWord, otherWord);
   if (found == 1) {
-    incMemory('Pemtara', searchedWord);
+    incMemory('Orostara', searchedWord);
   } else if (found == 2) {
-    incMemory('Pemtara', otherWord);
+    incMemory('Orostara', otherWord);
   } else if (found == 3) { // incase they search a word like 'kanan' which could be 'kanan' without an ending or 'kan' with an ending
-    incMemory('Pemtara2', [searchedWord, otherWord]);
+    incMemory('Orostara2', [searchedWord, otherWord]);
   }
 }
 
-function pemEntry(searchedWord, otherWord) {
-  var entry1 = searchPemtara(searchedWord);
+function orosEntry(searchedWord, otherWord) {
+  var entry1 = searchOrostara(searchedWord);
   var entry2 = [];
   if (otherWord != '') {
-    entry2 = searchPemtara(otherWord);
+    entry2 = searchOrostara(otherWord);
   }
   if (entry1.length == 0 && entry2.length == 0) {
-    document.getElementById('notFoundPem').style.display = 'flex';
+    document.getElementById('notFoundOros').style.display = 'flex';
     return 0;
   } else {
     var full = pushArray(entry1, entry2);
@@ -48,14 +48,14 @@ function pemEntry(searchedWord, otherWord) {
   }
 }
 
-function searchPemtara(word1) {
+function searchOrostara(word1) {
   var entryArr = [];
   var word = word1.toLowerCase();
   //check every word in case there's more than one (rare but not unheardof)
-  for (var i = 0; i < pemtaraDict.length; i++) {
-    var checkWord = pemtaraDict[i].Pemtara.toLowerCase();
+  for (var i = 0; i < orosDict.length; i++) {
+    var checkWord = orosDict[i].Orostara.toLowerCase();
     if (checkWord == word) {
-      entryArr.push(pemtaraDict[i]);
+      entryArr.push(orosDict[i]);
     }
   }
   return entryArr;
