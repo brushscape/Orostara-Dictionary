@@ -69,7 +69,7 @@
 .menuBar{
     width: 100vw;
     background-color: var(--dark1);
-    color: AliceBlue;
+    color: White;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
