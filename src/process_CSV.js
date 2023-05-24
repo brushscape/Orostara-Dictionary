@@ -5,6 +5,7 @@ var filePath = 'https://raw.githubusercontent.com/brushscape/Orostara-Dictionary
 var langBreakdown = [];
 var numWords = 0;
 var properNouns = [];
+var idealBreakdown = { 'Mandarin Chinese': 22.28, 'Spanish': 11.5, 'English': 9.03, 'Hindi': 5.67, 'Bangla': 5.67, 'Portuguese': 5.62, 'Russian': 3.73, 'Japanese': 3.03, 'Cantonese': 2.06, 'Vietnamese': 2.05, 'Marathi': 2.01, 'Telugu': 2, 'Turkish': 1.99, 'Shanghainese': 1.98, 'Korean': 1.98, 'French': 1.93, 'Tamil': 1.9, 'German': 1.83, 'Arabic': 1.81, 'Urdu': 1.7, 'Javanese': 1.65, 'Punjabi': 1.61, 'Italian': 1.57, 'Gujarati': 1.38, 'Persian': 1.37 };
 
 function readCSVFile() {
   $.get(filePath, function(csvdata) {
@@ -36,7 +37,8 @@ function readCSVFile() {
           var count = langBreakdown[el].Count;
           count++;
           langBreakdown[el].Count = count;
-          langBreakdown[el].Percent = (count / numWords) * 100;
+          var num = (count / numWords) * 100;
+          langBreakdown[el].Percent = num.toFixed(2);
         } else {
           var newEl = { Lang: rowObj.RootLanguage, Count: 1, Percent: (1 / numWords) * 100 };
           langBreakdown.push(newEl);
@@ -46,8 +48,24 @@ function readCSVFile() {
 
     }
     fillTable();
-    //console.log(langBreakdown);
+    //langAnalysis();
   });
+}
+
+function langAnalysis() {
+  for (var i = 0; i < langBreakdown.length; i++) {
+    var el = langBreakdown[i];
+    if (idealBreakdown.hasOwnProperty(el.Lang)) {
+      var diff = el.Percent - idealBreakdown[el.Lang];
+      el.Diff = diff.toFixed(2);
+    }
+    if (el.Diff >= 0) {
+      //console.log(el.Count + " " + el.Lang + ": " + el.Percent + " (" + el.Diff + " too much)");
+    } else {
+      console.log(el.Count + " " + el.Lang + ": " + el.Percent + " (Add " + (el.Diff * (-1)) + ")");
+    }
+
+  }
 }
 
 function getCorrectLang(lang) {
