@@ -1,10 +1,11 @@
 add comments
+BUG: fix the back button; errors after some number of searches
+make multi-word search work excluding the things in parenthesis
+
 
 In Progress:
 
 Not Pressing:
-add special case for people searching honorifics without their -a endings
 make so dropdown menu disappears after selecting an option or if someone clicks the button again
 
 Stretch Goals:
-rhyme dictionary
