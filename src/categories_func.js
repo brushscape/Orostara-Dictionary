@@ -27,8 +27,6 @@ function cfillTable() {
 
     var row = baseEl.cloneNode(true);
     row.id = rowObj.Orostara;
-    console.log(rowObj.Orostara);
-    console.log(wordTypes);
     row.classList.add(...wordTypes)
 
     if (rowObj.CatRel == 'verb') {
@@ -39,7 +37,7 @@ function cfillTable() {
       row.children[1].innerHTML = simpleListDisplay(rowObj.Adjectives);
     } else if (rowObj.CatRel == 'adv') {
       row.children[0].innerHTML = rowObj.Orostara + 'e';
-      row.children[1].innerHTML = simpleListDisplay(rowObj.Adverb);
+      row.children[1].innerHTML = simpleListDisplay(rowObj.Adverbs);
     } else {
       row.children[0].innerHTML = rowObj.Orostara + 'a';
       row.children[1].innerHTML = simpleListDisplay(rowObj.Nouns);
