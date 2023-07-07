@@ -1,6 +1,5 @@
 add comments
 BUG: fix the back button; errors after some number of searches
-BUG: categories tab colors don't alternate first time
 make multi-word search work excluding the things in parenthesis
 
 
