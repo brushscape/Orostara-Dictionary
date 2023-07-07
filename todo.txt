@@ -1,5 +1,6 @@
 add comments
 BUG: fix the back button; errors after some number of searches
+BUG: categories tab colors don't alternate first time
 make multi-word search work excluding the things in parenthesis
 
 
@@ -7,5 +8,6 @@ In Progress:
 
 Not Pressing:
 make so dropdown menu disappears after selecting an option or if someone clicks the button again
+change category dropdown to a submenu?
 
 Stretch Goals:
