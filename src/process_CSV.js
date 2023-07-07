@@ -49,7 +49,7 @@ function readCSVFile() {
     }
     fillTable();
     cfillTable();
-    langAnalysis();
+    //langAnalysis();
   });
 }
 

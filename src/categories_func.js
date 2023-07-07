@@ -1,4 +1,4 @@
-var cprev = 'color';
+var cprev = 'na';
 
 // function onDropHover() {
 //   $('.menuItem').hover(function(event) {
@@ -10,6 +10,8 @@ function cfillTable() {
   var containerEl = document.getElementById('categoryDictTable');
   var baseEl = document.getElementById('categoryDataRow');
 
+  var counter = 0;
+  var orderedEl = [];
   for (var i = 0; i < orosDict.length; i++) {// iterate through entire dictionary
     var rowObj = orosDict[i];
 
@@ -43,17 +45,54 @@ function cfillTable() {
       row.children[1].innerHTML = simpleListDisplay(rowObj.Nouns);
     }
 
-    containerEl.appendChild(row);
-
-    if (wordTypes.includes('color')) {
-      row.style.display = 'inlineBlock';
+    if (rowObj.CatOrder != '') {
+      orderedEl.push({ el: row, order: parseInt(rowObj.CatOrder, 10) });
     } else {
-      row.style.display = 'none';
+      containerEl.appendChild(row);
     }
+
+    //sort array
+    var arr = orderedEl;
+    orderedEl = sortArray(arr);
+
+    //insert at top
+    for (var j = 0; j < orderedEl.length; j++) {
+      containerEl.insertBefore(orderedEl[orderedEl.length - 1 - j].el, containerEl.childNodes[2]);
+    }
+
+    // if (wordTypes.includes('color')) {
+    //   row.style.display = 'inlineBlock';
+    // } else {
+    //   row.style.display = 'none';
+    // }
   }
 
+  cShowOnly('color');
   baseEl.style.display = 'none';
 
+}
+
+//array element has 2 properties, el and order
+//order is an integer and the only number that matters in this case
+//not the prettiest I know but it works
+function sortArray(arr) {
+  if (arr.length < 2) {
+    return arr;
+  }
+  var lastEl = arr.pop();
+  var newArray = sortArray(arr);
+  var added = false;
+  for (var i = 0; i < newArray.length; i++) {
+    if (newArray[i].order > lastEl.order) {
+      newArray.splice(i, 0, lastEl);
+      added = true;
+      break;
+    }
+  }
+  if (!added) {
+    newArray.push(lastEl);
+  }
+  return newArray;
 }
 
 function cShowOnly(type) {
@@ -62,8 +101,8 @@ function cShowOnly(type) {
   }
 
   var fullTable = document.getElementById('categoryDictTable');
-  var counter = 0;
 
+  var counter = 0;
   for (var i = 1; i < fullTable.children.length; i++) {
     var el = fullTable.children[i];
     if (el.classList.contains(type)) {
@@ -132,7 +171,9 @@ function cShowOnly(type) {
   but.innerHTML = string;
 
   document.getElementById('cdrop' + type).style.display = 'none';
-  document.getElementById('cdrop' + cprev).style.display = 'block';
+  if (cprev != 'na') {
+    document.getElementById('cdrop' + cprev).style.display = 'block';
+  }
   cprev = type;
 
   // document.getElementById('numWords').innerHTML = counter;
