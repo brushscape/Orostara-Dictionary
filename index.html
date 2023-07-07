@@ -17,6 +17,7 @@
     <script src='src/dict_process_oros_word.js'></script>
     <script src='src/dict_process_eng_word.js'></script>
     <script src='src/full_dict_func.js'></script>
+    <script src='src/categories_func.js'></script>
 </head>
 
 
@@ -28,6 +29,7 @@
             <div class='menuItem active' id='translatorPg'>Translator</div>
             <div class='menuItem' id='quickStartPg'>Quickstart Guide</div>
             <div class='menuItem' id='fullDictPg'>Full Dictionary</div>
+            <div class='menuItem' id='categoryPg'>Categories</div>
         </div>
         <div class='quickMenu menuItemContainer' id='quickMenu'>
             <div class='quickItem menuItem quickActive' id='partsOfSpeechPg'>Parts of Speech</div>
@@ -75,6 +77,41 @@
                     <td>adv list</td>
                     <td>other list</td>
                     <td>*notes here</td>
+                </tr>
+            </table>
+        </div>
+        <div id='category' class='fullDict'>
+            <h2>Now Displaying:</h2>
+            <div class="dropdown">
+                <button class="dropbtn" id='cdropbtn'>Colors <span
+                        style='font-size: var(--midSize);'>&#9660</span></button>
+                <div class="dropdown-content" id='cdropdown'>
+                    <div class='dropdownOption' id='cdropcolor' style='display: none' onclick="cShowOnly('color')">
+                        Colors</div>
+                    <div class='dropdownOption' id='cdropnumber' onclick="cShowOnly('number')">Numbers</div>
+                    <div class='dropdownOption' id='cdropbody' onclick="cShowOnly('body')">Anatomy</div>
+                    <div class='dropdownOption' id='cdropanimal' onclick="cShowOnly('animal')">Animals</div>
+                    <div class='dropdownOption' id='cdropcontinent' onclick="cShowOnly('continent')">Continents</div>
+                    <div class='dropdownOption' id='cdropcountry' onclick="cShowOnly('country')">Countries</div>
+                    <div class='dropdownOption' id='cdropdirection' onclick="cShowOnly('direction')">Directions</div>
+                    <div class='dropdownOption' id='cdropfantasy' onclick="cShowOnly('fantasy')">Fantasy</div>
+                    <div class='dropdownOption' id='cdropfood' onclick="cShowOnly('food')">Food</div>
+                    <div class='dropdownOption' id='cdroplanguage' onclick="cShowOnly('language')">Languages</div>
+                    <div class='dropdownOption' id='cdropmeasurement' onclick="cShowOnly('measurement')">Measurments
+                    </div>
+                    <div class='dropdownOption' id='cdropnature' onclick="cShowOnly('nature')">Nature</div>
+                    <div class='dropdownOption' id='cdropplant' onclick="cShowOnly('plant')">Plants</div>
+                    <div class='dropdownOption' id='cdropspace' onclick="cShowOnly('space')">Space</div>
+                </div>
+            </div>
+            <table class='fullDictTable' id='categoryDictTable'>
+                <tr>
+                    <th>Orostara</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr id='categoryDataRow'>
+                    <td>word</td>
+                    <td>meaning</td>
                 </tr>
             </table>
         </div>

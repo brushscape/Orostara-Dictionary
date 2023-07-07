@@ -48,6 +48,7 @@ function readCSVFile() {
 
     }
     fillTable();
+    cfillTable();
     langAnalysis();
   });
 }
