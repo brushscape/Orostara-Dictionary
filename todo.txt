@@ -1,5 +1,4 @@
 add comments
-BUG: fix the back button; errors after some number of searches
 make multi-word search work excluding the things in parenthesis
 make each tab a separate page
 

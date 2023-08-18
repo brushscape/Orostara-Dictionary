@@ -61,7 +61,7 @@ function langAnalysis() {
       el.Diff = diff.toFixed(2);
     }
     if (el.Diff >= 0) {
-      console.log(el.Count + " " + el.Lang + ": " + el.Percent + " (" + el.Diff + " too much)");
+      //console.log(el.Count + " " + el.Lang + ": " + el.Percent + " (" + el.Diff + " too much)");
     } else {
       console.log(el.Count + " " + el.Lang + ": " + el.Percent + " (Add " + (el.Diff * (-1)) + ")");
     }

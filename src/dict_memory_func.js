@@ -11,9 +11,9 @@ function goback() {
     if (word[0] == 'English') {
       engEntry(word[1]);
     } else if (word[0] == 'Orostara') {
-      orosEntry(word[1], '');
-    } else { //Orostara2
-      orosEntry(word[1][0], word[1][1]);
+      orosEntry(word[1]);
+    } else {
+      console.log("error in back command, invalid language");
     }
   }
 
@@ -28,20 +28,20 @@ function goforward() {
     if (word[0] == 'English') {
       engEntry(word[1]);
     } else if (word[0] == 'Orostara') {
-      orosEntry(word[1], '');
-    } else { //Orostara2
-      orosEntry(word[1][0], word[1][1]);
+      orosEntry(word[1]);
+    } else {
+      console.log("error in back command, invalid language");
     }
   }
 
   updateForBackButtons();
 }
 
-// 3 options are
-// English, word; Orostara, word; Orostara2, [word,word]
+// 2 options are
+// English, word; Orostara, word
 function incMemory(lang, word) {
   //don't add repeats in a row
-  if (memory.length > 0 && compareElements(word, memory[memoryIndex][1])) {
+  if (memory.length > 0 && word == memory[memoryIndex][1]) {
     return;
   }
 
@@ -52,11 +52,7 @@ function incMemory(lang, word) {
 
   //add to memory
   memory.push([lang, word]);
-  if (memory.length <= 1) {
-    memoryIndex = 0;
-  } else {
-    memoryIndex++;
-  }
+  memoryIndex = memory.length - 1;
 
   //only keep a memory of max 50 words
   if (memory.length > 50) {
@@ -64,6 +60,18 @@ function incMemory(lang, word) {
   }
 
   updateForBackButtons();
+}
+
+function printArray(arr) {
+  if (arr.length == 0) {
+    console.log("empty array");
+    return;
+  }
+  var str = '[' + arr[0] + ']';
+  for (var i = 1; i < arr.length; i++) {
+    str += ',  [' + arr[i] + ']';
+  }
+  console.log(str);
 }
 
 function compareElements(ar1, ar2) {
