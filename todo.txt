@@ -1,5 +1,4 @@
 add comments
-alphebatize according to orostara alphabet
 make each tab a separate page
 
 
