@@ -121,13 +121,9 @@ function isAlphOrdered(el1, el2) {
   for (var i = 0; i < maxLength; i++) {
     var el1Let = el1.charAt(i);
     var el2Let = el2.charAt(i);
-    if (alph.indexOf(el1Let) == alph.indexOf(el2Let)) {
-      continue;
-    } else if (alph.indexOf(el1Let) > alph.indexOf(el2Let)) {
-      return false;
-    } else {//2 is definitely after 1
-      return true;
-    }
+    if (alph.indexOf(el1Let) != alph.indexOf(el2Let)) {
+      return alph.indexOf(el1Let) < alph.indexOf(el2Let);
+    }//else keep checking
   }
 
   //definitely identical to a point, but one may be longer than the other
