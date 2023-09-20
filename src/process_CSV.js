@@ -6,7 +6,7 @@ var langBreakdown = [];
 var numWords = 0;
 var properNouns = [];
 var idealBreakdown = { 'Mandarin Chinese': 22.28, 'Spanish': 11.5, 'English': 9.03, 'Hindi': 5.67, 'Bangla': 5.67, 'Portuguese': 5.62, 'Russian': 3.73, 'Japanese': 3.03, 'Cantonese': 2.06, 'Vietnamese': 2.05, 'Marathi': 2.01, 'Telugu': 2, 'Turkish': 1.99, 'Shanghainese': 1.98, 'Korean': 1.98, 'French': 1.93, 'Tamil': 1.9, 'German': 1.83, 'Arabic': 1.81, 'Urdu': 1.7, 'Javanese': 1.65, 'Punjabi': 1.61, 'Italian': 1.57, 'Gujarati': 1.38, 'Persian': 1.37 };
-var alph = ['i', 'e', 'a', 'o', 'u', 'm', 'n', 'p', 't', 'k', 'j', 's', 'f', 'h', 'r', 'y'];
+var alph = ['i', 'e', 'a', 'o', 'u', 'm', 'n', 'p', 't', 'k', 'f', 's', 'x', 'h', 'r', 'y'];
 
 function readCSVFile() {
   $.get(filePath, function(csvdata) {
