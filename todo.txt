@@ -1,6 +1,8 @@
 add comments
 make each tab a separate page
-
+BUG: turns out the back button is still broken. I think it has something to do with how it's called after
+multiple entries without exiting the entry bubble? cuz it also stops selecting your word after you click enter after
+a certain number of entries. Not sure how many exactly.
 
 In Progress:
 

@@ -4,7 +4,7 @@ function orosClick(searchedWord) {
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length - 1);
   var endList = ['a', 'e', 'o', 'i', 'u'];
-  var specialCases = ['naki', 'amki', 'ki', 'ha', 'na', 'o'];
+  var specialCases = ['ni', 'mi', 'ki', 'ha', 'na', 'o'];
 
   //not a special case and DOES end in a vowel
   if (specialCases.indexOf(searchedWord) == -1 && endList.indexOf(lastChar) != -1) {
