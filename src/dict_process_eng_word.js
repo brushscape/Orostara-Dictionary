@@ -51,7 +51,7 @@ function searchEnglish(word) {
     }
 
     if (add) {
-      if (orosDict[i].RootLanguage != 'Orostara') { //basic word
+      if (orosDict[i].RootLanguage != 'Orosfara') { //basic word
         // add to the front of the array
         if (perfect) {
           perfectArr.unshift(orosDict[i]);

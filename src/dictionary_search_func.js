@@ -25,10 +25,10 @@ function setupButtons() {
   });
 
   $('#langSelect').click(function(event) {
-    if (this.innerHTML == 'Orostara') {
+    if (this.innerHTML == 'Orosfara') {
       this.innerHTML = 'English';
     } else {
-      this.innerHTML = 'Orostara';
+      this.innerHTML = 'Orosfara';
     }
     document.getElementById('searchBar').select();
   });
@@ -36,7 +36,7 @@ function setupButtons() {
 
 function translateClicked() {
   var searchedWord = cleanupTextInput(document.getElementById('searchBar').value);
-  if (document.getElementById('langSelect').innerHTML == 'Orostara') {
+  if (document.getElementById('langSelect').innerHTML == 'Orosfara') {
     orosClick(searchedWord);
   } else {
     engClick(searchedWord);
@@ -92,7 +92,7 @@ function displayEntry(entry, searchedTerm, only, el) {
   }
   var childEl;
 
-  getChildElement(wordDefEl, 'word').innerHTML = entry.Orostara;
+  getChildElement(wordDefEl, 'word').innerHTML = entry.Orosfara;
 
   getChildElement(wordDefEl, 'etym').innerHTML = 'from&nbsp;' + displayRootWord(entry.RLWord, entry.RootLanguage) + '&nbsp;in ' + entry.RootLanguage;
 
@@ -131,7 +131,7 @@ function displayEntry(entry, searchedTerm, only, el) {
     getChildElement(wordDefEl, 'nounContain').style.display = 'none';
   } else {
     childEl = getChildElement(wordDefEl, 'noun');
-    childEl.innerHTML = '<b>' + entry.Orostara + 'a </b>&nbsp;';
+    childEl.innerHTML = '<b>' + entry.Orosfara + 'a </b>&nbsp;';
     childEl = getChildElement(wordDefEl, 'nounFill');
     childEl.innerHTML = '&nbsp;&nbsp;' + displayWordList(entry.Nouns, searchedTerm, true);
     getChildElement(wordDefEl, 'nounContain').style.display = 'flex';
@@ -141,7 +141,7 @@ function displayEntry(entry, searchedTerm, only, el) {
     getChildElement(wordDefEl, 'verbContain').style.display = 'none';
   } else {
     childEl = getChildElement(wordDefEl, 'verb');
-    childEl.innerHTML = '<b>' + entry.Orostara + 'o </b>&nbsp;';
+    childEl.innerHTML = '<b>' + entry.Orosfara + 'o </b>&nbsp;';
     childEl = getChildElement(wordDefEl, 'verbFill');
     childEl.innerHTML = '&nbsp;&nbsp;' + displayWordList(entry.Verbs, searchedTerm, true);
     getChildElement(wordDefEl, 'verbContain').style.display = 'flex';
@@ -151,7 +151,7 @@ function displayEntry(entry, searchedTerm, only, el) {
     getChildElement(wordDefEl, 'adjContain').style.display = 'none';
   } else {
     childEl = getChildElement(wordDefEl, 'adj');
-    childEl.innerHTML = '<b>' + entry.Orostara + 'i </b>&nbsp;';
+    childEl.innerHTML = '<b>' + entry.Orosfara + 'i </b>&nbsp;';
     childEl = getChildElement(wordDefEl, 'adjFill');
     childEl.innerHTML = '&nbsp;&nbsp;' + displayWordList(entry.Adjectives, searchedTerm, true);
     getChildElement(wordDefEl, 'adjContain').style.display = 'flex';
@@ -161,7 +161,7 @@ function displayEntry(entry, searchedTerm, only, el) {
     getChildElement(wordDefEl, 'advContain').style.display = 'none';
   } else {
     childEl = getChildElement(wordDefEl, 'adv');
-    childEl.innerHTML = '<b>' + entry.Orostara + 'e </b>&nbsp;';
+    childEl.innerHTML = '<b>' + entry.Orosfara + 'e </b>&nbsp;';
     childEl = getChildElement(wordDefEl, 'advFill');
     childEl.innerHTML = '&nbsp;&nbsp;' + displayWordList(entry.Adverbs, searchedTerm, true);
     getChildElement(wordDefEl, 'advContain').style.display = 'flex';
@@ -184,7 +184,7 @@ function processNote(text) {
     var back = tempBack.substring(index2 + 1);
 
     var link = returnLink(word);
-    if (link == word) { // word was not a Orostara word
+    if (link == word) { // word was not a Orosfara word
       var temp = str;
       str = temp.substring(0, index + index2 + 2) + processNote(back);
     } else {
@@ -199,7 +199,7 @@ function displayRootWord(word, lang) {
 
   if (italics.indexOf(lang) != -1) {
     return "<i>" + word.toLowerCase() + "</i>";
-  } else if (lang == "Orostara") {
+  } else if (lang == "Orosfara") {
     var word1 = cleanupTextInput(word);
     var arr = word1.split(' ');
     var str = '';
@@ -223,13 +223,13 @@ function gotoLinkWord(num) {
 
 function gotoWord(word) {
   clearPage();
-  var entry = searchOrostara(word);
+  var entry = searchOros(word);
   displayEntryArry(entry, '');
-  incMemory('Orostara', word);
+  incMemory('Orosfara', word);
 }
 
 function returnLink(word) {
-  if (searchOrostara(word).length != 0) {
+  if (searchOros(word).length != 0) {
     var str = "<u><div class='orosLinkWord' id='" + currLinkNum + "' onclick='gotoLinkWord(" + currLinkNum + ")'>" + word + "</div></u>";
     currLinkNum++;
     return str;

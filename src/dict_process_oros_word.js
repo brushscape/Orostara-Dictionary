@@ -4,7 +4,7 @@ function orosClick(searchedWord) {
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length - 1);
   var endList = ['a', 'e', 'o', 'i', 'u'];
-  var specialCases = ['ni', 'mi', 'ki', 'ha', 'na', 'o'];
+  var specialCases = ['ni', 'mi', 'ki', 'ha', 'na', 'o', 'ma', 'ko', 'tu'];
 
   //not a special case and DOES end in a vowel
   if (specialCases.indexOf(searchedWord) == -1 && endList.indexOf(lastChar) != -1) {
@@ -14,12 +14,12 @@ function orosClick(searchedWord) {
 
   var found = orosEntry(searchedWord);
   if (found == 1) {
-    incMemory('Orostara', searchedWord);
+    incMemory('Orosfara', searchedWord);
   }
 }
 
 function orosEntry(searchedWord) {
-  var entry1 = searchOrostara(searchedWord);
+  var entry1 = searchOros(searchedWord);
   if (entry1.length == 0) {
     document.getElementById('notFoundOros').style.display = 'flex';
     return 0;
@@ -33,12 +33,12 @@ function orosEntry(searchedWord) {
   }
 }
 
-function searchOrostara(word1) {
+function searchOros(word1) {
   var entryArr = [];
   var word = word1.toLowerCase();
   //check every word in case there's more than one (rare but not unheardof)
   for (var i = 0; i < orosDict.length; i++) {
-    var checkWord = orosDict[i].Orostara.toLowerCase();
+    var checkWord = orosDict[i].Orosfara.toLowerCase();
     if (checkWord == word) {
       entryArr.push(orosDict[i]);
     }

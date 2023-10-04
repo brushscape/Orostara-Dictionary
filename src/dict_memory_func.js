@@ -10,7 +10,7 @@ function goback() {
     var word = memory[memoryIndex];
     if (word[0] == 'English') {
       engEntry(word[1]);
-    } else if (word[0] == 'Orostara') {
+    } else if (word[0] == 'Orosfara') {
       orosEntry(word[1]);
     } else {
       console.log("error in back command, invalid language");
@@ -27,7 +27,7 @@ function goforward() {
     var word = memory[memoryIndex];
     if (word[0] == 'English') {
       engEntry(word[1]);
-    } else if (word[0] == 'Orostara') {
+    } else if (word[0] == 'Orosfara') {
       orosEntry(word[1]);
     } else {
       console.log("error in back command, invalid language");
@@ -38,7 +38,7 @@ function goforward() {
 }
 
 // 2 options are
-// English, word; Orostara, word
+// English, word; Orosfara, word
 function incMemory(lang, word) {
   //don't add repeats in a row
   if (memory.length > 0 && word == memory[memoryIndex][1]) {
