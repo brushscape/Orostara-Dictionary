@@ -78,6 +78,7 @@ fak,basic,,judgement,judge,judgy ,,,,,,Mandarin Chinese,法官,Fǎguān,/fä²¹
 fam,basic,,family,,,,,,,,German,Familie,,/faˈmiːli̯ə/
 fan,basic,,yellow,,yellow,,,color,,3,Vietnamese,vàng,,[vaːŋ˨˩]
 fanin,basic,,reaction/response/answer,react/respond/reply/answer,reactive/responsive,responsively,,,,,Mandarin Chinese,反应,Fǎnyìng,/fän²¹⁴ iŋ⁴/
+fap,basic,,price/bill/invoice/cost/receipt,charge,,,,,,,Mandarin Chinese,发票,Fāpiào,/fä⁵⁵ pʰi̯ɑʊ̯⁵¹/
 far,basic,,speech/language/communication,talk/speak/say/tell,,,,,,,Portuguese,falar,,/faˈla(ʁ)/
 Farsifar,proper,'far' added for clarity,Farsi/Farsi,,,,,language,,,Farsi,فارسی,fârsi, /fɒːɾsiː/
 fas,basic,,ease/simplicity,ease/simplify,easy/simple,easily/simply,,,,,Spanish,fácil,,/ˈfasil/
@@ -85,6 +86,7 @@ fasfet,,,,,delicate/fragile/breakable,,,,,,Orosfara,fas fet,easily damaged,
 fat,basic,,shape,form,shapely,,,shape,,,Tamil,வடிவம்,vaṭivam,/ʋɐɖiʋɐm/
 fax,basic,,reason/factor,cause,reasonable/rational/sensible,reasonably,because of/through/with,,,,Hindi,वजह,vajah,/ʋə.d͡ʒəɦ/
 faxan,basic,,weight/mass/gram/gramme,weigh,heavy,,,measurement,,,Gujarati,વજન,vajan,/ʋədʒən/
+faxsis,,,logic,,logical,,,,,,Orosfara,fax sis,,
 faxun,,indicates a dependent clause ,,,,,because/for/since,,,,Orosfara,fax hun,,
 fay,basic,,,,,,wow,,,,Farsi,وای,vây,[vɒːj]
 fef,basic,,kin/relative/family member/cousin/aunt/uncle,,,,,honorific,,,German,verwandte,,/fɛɐ̯ˈvantə/
@@ -176,10 +178,10 @@ huapsar,,,accountant,,,,,,,,Orosfara,huap sar,money person,
 huapsis,,,economy,,economic,,,,,,Orosfara,huap sis,,
 huax,basic,,chemical,,chemical,chemically,,,,,Mandarin Chinese,化学,Huàxué,/xu̯ä⁵¹ ɕy̯ɛ³⁵/
 huaxniy,,,chemistry,,,,,,,,Orosfara,huax niy,,
+huf,basic,,area/field/realm/zone,,,,,measurement,,,Vietnamese,khu vực,,[xu˧˧ vɨk̚˧˨ʔ]
 huk,basic,,hook,hook/catch,,,,,,,English,hook,,/hʊk/
 hun,basic,particle to indicate a dependent clause; also see 'pen',,,,,that/which,,,,Orosfara,?,,
 Hunifar,proper,'far' added for clarity,Wu Chinese/Wu Chinese,,,,,language,,,Wu Chinese,吴语,hhu-nyy,/ɦu²² n̠ʲy⁴⁴/
-hupot,,,price/bill/invoice/cost/receipt,charge,,,,,,,Orosfara,hup ot,,
 if,basic,,condition,,conditional/situational,,if,,,,English,if,,/ɪf/
 ifsek,,indicates a conditional timeframe or hypothetical; optional for 'if-then' statements; required for 'could' and 'should' statements,,,hypothetical,,,,,,Orosfara,if sek,,
 ik,basic,to a small degree; can be used as a casually affectionate honorific suffix,little/(honorific) little one/baby (affectionate),,a little,,,,,,Japanese,以下,Ika,[ika̠]
@@ -230,6 +232,7 @@ Itaryanofar,proper,'far' added for clarity,Italian,,,,,language,,,Italian,italia
 Itiyopyamur,proper,'mur' added for clarity,Ethiopia/Federal Democratic Republic of Ethiopia,,,,,country,,,Amharic,ኢትዮጵያ,ītiyop’iya,/itijopʼja/
 Itxayirmur,proper,'mur' added for clarity,Algeria/People's Democratic Republic of Algeria,,,,,country,,,Arabic,الجزائر,"al-Jazāʾir,",/(ɪ)d.dzaː.jir/
 ix,basic,,energy/will/motivation/drive/joule,motivate/drive,motivational/motivating,motivationally,,measurement,,,Mandarin Chinese,意志,Yìzhì,/i⁵¹⁻⁵³ ʈ͡ʂʐ̩⁵¹/
+ixpaf,,,excitement,excite,exciting,excitingly,,,,,Orosfara,ix paf,,
 kaf,basic,,wish,want/desire,desireable,,,,,,Telugu,కావాలి,Kāvāli,/kaːʋaːli/
 kak,basic/swear,also a swear; used like 'shit' but slightly less vulgar,excriment,poop,,,shit,body,,63,Spanish,caca,,/ˈkaka/
 kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,,,Javanese,kaget,,[ˈkaɡɛt̚]
@@ -243,6 +246,7 @@ kan,basic,,root/basis/essence,,fundamental/basic,fundamentally/basically/essenti
 Kanamur,proper,'mur' added for clarity,Ghana/Republic of Ghana,,,,,,,,English,Ghana,,/ˈɡɑːnə/
 Kanatamur,proper,'mur' added for clarity,Canada/Dominion of Canada,,,,,country,,,English,Canada,,/ˈkænədə/
 kanax,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,body,,,Mandarin Chinese,感觉,Gǎnjué,/kän²¹⁴⁻²¹ t͡ɕy̯ɛ³⁵/
+kanaxor,,,skin,,,,,body,,1,Orosfara,kanax or,,
 Kantunfar,proper,话 replaced with 'tar',Cantonese/Yue Chinese,,,,,language,,,Cantonese,广东话,gwong dung waa,/kʷɔːŋ³⁵ tʊŋ⁵⁵ waː²²⁻³⁵/
 kap,basic,,ability/availability/(colloquially) value,able/can,able/available/capable,,,,,,Urdu,قابل,qābi,/qɑː.bɪl/
 kaper,basic,,hair/fur,,hairy/furry,,,body,,10,Portuguese,cabelo,,/kaˈbe.lu/
@@ -261,7 +265,6 @@ kasmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,English,cosmos,,/ˈkɑz.m
 kat,basic,,cut,cut/slice,,,,,,,Bangla,কাটা,Kāṭā,[ˈkɑ.ʈɑ]
 katay,basic,,story/tale/fiction/narrative,narrate/tell tales,fictional,,,,,,Tamil,கதை,Katai,/kɐd̪aɪ̯/
 kax,slang/swear,slang swear; very derogatory when used against someone; can be used as a derogatory honorific suffix,shit/garbage/(honorific) shithead/fucker/bastard/bitch,kill/die/kill yourself,useless/stupid,,fuck,,,,Orosfara,kaxar,,
-kax,basic,,area/field/realm/zone,,,,,measurement,,,Hindi,क्षेत्र,kṣétra,/kʂeːt̪.ɾᵊ/
 kaxar,basic,,waste/trash/(polite) poop,,,,,,,,Hindi,कचरा,kacrā,/kət͡ʃ.ɾɑː/
 kaxit,slang/swear,slang swear,asshole/shithole,,,,,,,,Orosfara,kax xit ,,
 kay,basic,,cow,,,,,animal/nature,,,Hindi,गाय,gāy,/ɡɑːj/
@@ -298,6 +301,8 @@ kos,basic,,bone,,,,,body,,7,Russian,кость,kost',[kosʲtʲ]
 kot,basic,can be used as an honorific suffix; specifically means 'your child'; not the same as underage person; see 'hok' if you need to give an honorific to a child,child/son/daughter/offspring,,,,,,,,Telugu,కొడుకు,Koḍuku,/koɖuku/
 kotik,basic,,code,encode/encrypt,cryptic,,,,,,Spanish,código,,/ˈkodiɡo/
 kox,basic,,music/song,make music,musical/lyrical,,,,,,Mandarin Chinese,歌曲,Gēqǔ,/kɤ⁵⁵ t͡ɕʰy²¹⁴⁻²¹⁽⁴⁾/
+koxan,,,,dance,,,,,,,Orosfara,kox xan,chum,
+koxfar,,,,sing,,,,,,,Orosfara,kox far,,
 kuan,basic,,width/range/scale/spectrum/breadth,,wide,,,,,,Mandarin Chinese,宽度,Kuāndù,/kʰu̯än⁵⁵ tu⁵¹/
 kuex,basic,,connection/relation/link,connect/relate/link,connecting/connective,,,,,,Wu Chinese,关系,kue-shi,/kue̞⁵⁵ ɕi²¹/
 kuexkun,,,network,,,,,,,,Orosfara,kuex kun,,
@@ -336,7 +341,6 @@ maron,basic,,brown,,brown,,,color,,7,Spanish,marrón,,/maˈron/
 marsin,,,omen,,,,,,,,Orosfara,mar sin,death sign,
 mas,basic/slang,to a large degree; can be used as a casual honorific suffix,much/a lot/(honorific) mentor/person I look up to,,a lot/many/(colloquially) good,very,,,,,Urdu,مزید,mazid,/mə.ziːd̪/
 masak,,pair with 'sek',an early past,,early,early,,,,,Orosfara,mas ak,,
-Masansimur,proper,'mur' added for clarity,South Africa/Republic of South Africa,,,,,country,,,Xhosa,Mzansi,,
 masat,,,,run,,,,,,,Orosfara,mas hat,walk a lot/very,
 masaux,,commonly used with the -u ending as a greeting,good morning,,,,,,,,Orosfara,mas saux,,
 masaxfit,,,improvement,improve,improved,,,,,,Orosfara,mas ax fit,,
@@ -452,10 +456,10 @@ nir,basic,,length/meter/distance,extend,long/distant,distantly,,measurement,,,Ta
 nis,basic,,art,,artistic,,,,,,Wu Chinese,艺术,gni-zeq,/n̠ʲi²² zəʔ⁴⁴/
 nisar,,,artist,,,,,,,,Orosfara,nis sar,art person,
 nit,basic,all drinks are 'water' unless otherwise specified ,water,drink,watery,,,food,,0,Telugu,నీటి,Nīṭi,/niːʈi/
+nitif,,,school/university/college,,,,,,,,Orosfara,niy tif,learn place,
 nix,basic/slang,,bottom/underside,lower,low/(colloquially) inferior/(slang) sad,down,under/below/beneath,direction,adv,6,Russian,ниже,nizhe,[ˈnʲiʐɨ]
 nixan,,,past year,,,,,,,,Orosfara,nien xan,,
 nixan,basic,,mark/stamp/impression,mark/stamp/impress,,,,,,,Hindi,निशान,nishaan,/nɪ.ʃɑːn/
-nixanpey,,,design,design,,,,,,,Orosfara,nis xanpey,art plan,
 nixif,,used when referring to the effect of something on you/others,,,sad/sorrowful/depressing,,,,,,Orosfara,nix xif,low attitude,
 nixit,,,anus,,,,,body,,32,Orosfara,nix xit,bottom hole,
 nixp,slang,informal slang; short form,sadness/sorrow/depression,,sad,,,,,,Orosfara,nixpaf,,
@@ -552,7 +556,7 @@ pontix,,named for the number of faces on the object,tetrahedron,,tetrahedral,,,s
 por,basic,,powder,crush/pulverize,powdery,,,,,,Spanish,polvo,,/ˈpolbo/
 pos,basic,,possibility,might,possible,maybe/possibly,,,,,Spanish,posible,,/poˈsible/
 pot,basic,,contest/competition,compete,competitive ,competitively,,,,,Telugu,పోటీ,Pōṭī,/poːʈiː/
-Poxapurifar,proper,'far' added for clarity,Bhojpuri,,,,,language,,,Bhojpuri,भोजपुरी,bhojapuree,
+Poxpurifar,proper,'far' added for clarity,Bhojpuri,,,,,language,,,Bhojpuri,भोजपुरी,bhojapuree,/bʱoːd͡ʒ.pʊ.ɾiː/
 poy,basic,,chicken,,,,,animal/nature,,,Spanish,pollo,,/ˈpoʝo/
 puf,basic,,part/piece/section/element/fraction/decimal/ratio,divide,,partly,per/for,,,,Mandarin Chinese,部分,Bùfèn,/pu⁵¹ fən¹/
 pum,basic,,paper,,,,,,,,Russian,бумага,bumaga,[bʊˈmaɡə]
@@ -624,7 +628,6 @@ saryun,slang,slang; short form for 'sariyo kohun'; follow with a subordinate cla
 sas,basic,,breath,breathe,,,,body,,68,Hindi,साँस,saans,/sɑ̃ːs/
 sasor,,,lung,,,,,body,,27,Orosfara,sas or,air organ,
 sat,basic,,robot,automate,automatic,automatically,,,,,Mandarin Chinese,自动,Zìdòng,/t͡sz̩⁵¹⁻⁵³ tʊŋ⁵¹/
-sater,basic,,stem,,,,,plant/nature,,3,Italian,stelo,,/ˈstɛ.lo/
 saux,basic,,morning,,,,,,,,Mandarin Chinese,早晨,Zǎochén,/t͡sɑʊ̯²¹⁴ ʈ͡ʂʰən⁴/
 sax,basic,,thought/mind/opinion/idea,think/assume/contemplate/imagine/opine,thoughtful/contemplative/opinionated,thoughtfully/contemplatively,,,,,Mandarin Chinese,思想,Sīxiǎng,/sz̩⁵⁵ ɕi̯ɑŋ²¹⁴⁻²¹⁽⁴⁾/
 saxor,,,brain,,,,,body,,9,Orosfara,sax or,,
@@ -641,6 +644,10 @@ sentar,,,sun,,,,,space,,1,Orosfara,sen tar,center star,
 sep,basic,,bait/lure,entice/lure/bait/tempt/taunt/bribe,tempting,,,,,,Spanish,cebo,,/ˈsebo/
 set,basic,,hundred,,100,,,number,,23,Portuguese,centena,,/sẽˈtɛnas/
 sex,basic,,seven,,7,,,number,,8,Portuguese,sete,,/ˈsɛ.t͡ʃi/
+sexan,,pair with 'sek',past week,,,,,,,,Orosfara,sexten xan,,
+sexfat,,named for the number of points on the shape,septagon,,septagonal,,,shape,,,Orosfara,sex fat,,
+sexot,,pair with 'sek',future week,,,,,,,,Orosfara,sexten ot,,
+sexten,,,week,,,,,measurement,,,Orosfara,sex ten,Vāram,
 si,slang,informal slang,ink,,,,(poetic) dark/black,,,,Orosfara,siah,,
 siah,basic,,ink,print,inky/(poetic) dark/black,,,,,,Hindi,स्याही,syāhī,/sjɑː.ɦiː/
 sik,basic,,brush,brush,,,,,,,Javanese,sikat,,[ˈsikat̚]
@@ -744,6 +751,7 @@ tirxas,basic,,entertainment,entertain/interest,interesting/engaging/entertaining
 tis,basic,,,reduce/decrease/shrink,,,,,,,Spanish,disminuir,,/dismiˈnwiɾ/
 tisisan,,time of year,fall/autumn,,,,,,,,Orosfara,tis sisan,,
 tit,basic,,degree/level/rank/grade/score/quality,rank/score/grade,quality,,,,,,Cantonese,秩,dit,/tiːt̚²/
+titam,basic,,plan/strategy/design,prepare/plan/get ready,strategic,ready,,,,,Tamil,திட்டம்,Tiṭṭam,/t̪iʈːɐm/
 tix,basic,,volume/amount/limit/liter,,,,,measurement,,,Mandarin Chinese,体积,Tǐjī,/tʰi²¹⁴⁻²¹ t͡ɕi⁵⁵/
 tiy,basic,,monarch/emperor/king/queen/sovereign/god,,,,,fantasy,,,Mandarin Chinese,帝,dì,/ti²¹³/
 tok,basic,,danger/threat,threaten,dangerous/(colloquially) scary/frightening,,,,,,Marathi,धोका,Dhōkā,/d̪ʱoka/
@@ -760,6 +768,8 @@ toytestix,,named for the number of faces on the object,icosahedron,,icosahedral,
 toytix,,named for the number of faces on the object,cone,,conical,,,shape,,,Orosfara,toy tix,,
 tu,basic,indicates an indirect object,,,,,to/on/for/from/with,,,,Orosfara,?,,
 tuak,basic,,medicine/drug/pill,,,, ,,,,Vietnamese,thuốc,,[tʰuək̚˧˦]
+tuaksar,,,doctor,,,,,,,,Orosfara,tuak ren,medicine person,
+tuaktif,,,hospital,,,,,,,,Orosfara,tuak tif,health place,
 tuhun,,indicates a dependent clause acting as the indirect object of the sentence ,,,,,,,,,Orosfara,tu hun,,
 tuis,basic,,spiral/screw,twist/screw,spiraling,,,,,,English,twist,,/twɪst/
 tuk,basic,,merchandise/purchase/good,sell,,,,,,,Urdu,دکان,dukān,/dʊkan/
@@ -775,21 +785,22 @@ tux,basic,,snow,snow,,,,nature,,,Bangla,তুষার,Tuṣāra,/t̪uʃaɹ/
 uan,basic,,evening/night,,,,,,,,Mandarin Chinese,晚,Wǎn,/wän²¹⁴/
 uek,basic,,consciousness,wake,awake/conscious,,,,,,English,wake,,/weɪk/
 uh,basic,Express realization or understanding,,,,,oh,,,,Bangla,উহু,Uhu,/uhu/
-Ukrayinamur,proper,'mur' added for clarity,Ukraine,,,,,country,,,Ukrainian,Україна,Ukrayina,
+Ukantamur,proper,'mur' added for clarity,Uganda/Republic of Uganda,,,,,country,,,Swahili,Uganda,,
+Ukrayinamur,proper,'mur' added for clarity,Ukraine,,,,,country,,,Ukrainian,Україна,Ukrayina,[ʊkrɐˈjinɐ]
 um,basic,,,,savory/umami,,,food,adj,5,Japanese,旨味,umami,[ɯ̟ᵝma̠mʲi]
-unor,,,skin,,,,,body,,1,Orosfara,un or,,
+Umsasimur,proper,'mur' added for clarity,South Africa/Republic of South Africa,,,,,country,,,Xhosa,Mzansi,,[úḿ̩z̥ǎ̤ːⁿtsi]
 upr,basic,Mostly used as an honorific suffix,manager/director,,,,,,,,Russian,управлять,upravlyat,[ʊprɐˈvlʲætʲ]
-uptif,,,school/university/college,,,,,,,,Orosfara,up tif,learn place,
 ur,basic,,,invert/reverse/undo,,,,,,,Punjabi,उल्टा,Ulaṭā,/ʊləʈaː/
 uran,,,subtraction,subtract/remove,,,,,,,Orosfara,ur an,,
-uraper,,,,loosen,loose,,,,,,Orosfara,ur aper,,
+urapeh,,,,loosen,loose,,,,,,Orosfara,ur apeh,,
+urat,,,loss,lose,lost,,,,,,Orosfara,ur at,un get,
 urhek,,,vomit,vomit/throw up,,,,body,,67,Orosfara,ur hek,,
 urip,basic,,life,live,alive,lively,,,,,Javanese,urip,,/urip/
+uripop,,,birth,birth,,,,,,,Orosfara,urip op,life start,
 urmem,,,,forget,forgetful,,,,,,Orosfara,ur mem,,
 urnit,,,,drain,,,,,,,Orosfara,ur nit,,
-urot,,,loss,lose,lost,,,,,,Orosfara,ur ot,un get,
-Urtutar,proper,'tar' added for clarity,Urdu,,,,,language,,,Urdu,اردو,,
-urxamkut,,,key,,,,,,,,Orosfara,ur xamkut,,
+Urtufar,proper,'far' added for clarity,Urdu,,,,,language,,,Urdu,اردو,,/ʊɾ.d̪uː/
+urxamkut,,,key,unlock,,,,,,,Orosfara,ur xamkut,,
 us,basic,the direction of right (vs left),right,,right,right,,direction,adv,7,Marathi,उजवे,Ujavē,/ud͡z.ʋe/
 ut,basic,,arm,throw/toss/launch,,,,body,,47,Japanese,腕,Ude,[ɯ̟ᵝde̞]
 utar,basic,,north,,north,north,,direction,adv,1,Hindi,उत्तर,uttar,/ʊt̪.t̪əɾ/
@@ -797,28 +808,29 @@ utper,,,shoulder,,,,,body,,45,Orosfara,ut per,,
 utxot,,,elbow,,,,,body,,48,Orosfara,ut xot,,
 x,slang,slang; informal,you,,your/yours/their/theirs,,,,,,Orosfara,jeh,,
 xaf,basic,,sweat,sweat,sweaty,,,body,,60,German,Schweiß,,/ʃvaɪ̯s/
-xafen,,pair with 'sek',future hour,,,,,,,,Orosfara,xas fen,,
 xak,basic,,force/power/authority/newton,force/make/influence/coerce/enforce,forceful/powerful,forcefully/powerfully,,,,,Hindi,शक्ति,shakti,/ʃək.t̪iː/
 xakxif,,,confidence,,confident,confidently,,,,,Orosfara,xak xif,,
 xam,basic,,sex,have sex,sexual/hot,sexually,,,,72,Arabic,جماع,jimâ,/d͡ʒaː.ma.ʕa/
+xamfix,,,orgasm,,,,,,,,Orosfara,xam fix,,
 xamkut,basic,,lock,lock,locked,,,,,,Korean,잠그다,jamgeuda,[t͡ɕa̠mɡɯda̠]
-xamper,,,hip,,,,,body,,53,Orosfara,xam per,,
-xamxot,,,knee,,,,,body,,55,Orosfara,xam xot,,
+xamor,,,genital,,,,,body,,34,Orosfara,xam or,sex organ,
 xan,basic,,(temporally) past/(physically) movement/motion/exercise,go/move/transport,(temporally) past,,,,,,Hindi,जाना,jaana,/d͡ʒɑː.nɑː/
 xanat,basic,,depth,drop/fall/dive,deep/profound,,,measurement,,,Mandarin Chinese,深度,Shēndù,/ʂən⁵⁵ tu⁵¹/
 xankatay,,,history/story,,historic,,,,,,Orosfara,xan katay,Lìshǐ,
-xanpey,basic,,plan/strategy/preparation,prepare/plan/get ready,strategic,ready,,,,,Mandarin Chinese,准备,Zhǔnbèi,/ʈ͡ʂu̯ən²¹⁴⁻²¹ peɪ̯⁵¹/
 xansek,slang,past marker,past/last time,,previous,previously/already,,,,,Orosfara,xan sek,,
 xap,basic,,leg,kick,,,,body,,54,French,jambe,,/ʒɑ̃b/
+xaper,,,hip,,,,,body,,53,Orosfara,xap per,,
+xapxot,,,knee,,,,,body,,55,Orosfara,xap xot,,
 xar,basic,,intelligence,,intelligent/smart ,smartly,,,,,Bangla,চালাক,calak,/tʃalak/
 xarir,basic,,body,,,,,body,,0,Marathi,शरीर,Śarīra,/ɕə.ɾiɾ/
 xas,basic,,hour,,,,,measurement,,,Russian,час,chas,[t͡ɕas]
+xasot,,pair with 'sek',future hour,,,,,,,,Orosfara,xas ot,,
 xat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end/complete,closed/off/ended/finished/complete/done,finally,to (as in from here to there),,,,English,shut,,/ʃʌt/
-Xauatar,proper,'tar' added for clarity,Javanese,,,,,language,,,Javanese,jawa,,
+Xauafar,proper,'far' added for clarity,Javanese,,,,,language,,,Javanese,jawa,,/dʒɔ.wɔ/
 xax,basic,,bar/rod/pole/stick,,straight,,,,,,Bangla,যষ্টি,Yaṣṭi,/dʒɔɕt̠i/
 xaxan,,pair with 'sek',past hour,,,,,,,,Orosfara,xas xan,,
 xeh,basic,used to describe anything outside your bubble/circle of influence; the colloquial meaning is not direct possession,that,,that/(colloquially) your/their/his/her,,,,,,Bangla,যে,jē,/dʒe/
-xeren,,neural formal; use more specific honorifics when possible,you/he/she/them,,,,,,,,Orosfara,xeh ren,,
+xesar,,neural formal; use more specific honorifics when possible,you/he/she/them,,,,,,,,Orosfara,xeh sar,,
 xetif,,,,,,there,there,,,,Orosfara,xeh tif,,
 xian,basic,,sauce/paste,,,,,food,,,Mandarin Chinese,酱,Jiàng,/t͡ɕi̯ɑŋ⁵¹/
 xien,basic,,advice/offer/suggestion,advise/suggest/propose/recommend/offer,advisable,,,,,,Mandarin Chinese,建议,Jiànyì,/t͡ɕi̯ɛn⁵¹⁻⁵³ i⁵¹/
@@ -826,13 +838,8 @@ xiep,basic,,,ensure/make sure/check/verify/guarantee,,of course/sure/certainly/s
 xiet,basic,,,carry/bring/convey,,,,,,,Mandarin Chinese,携带,Xiédài,/ɕi̯ɛ³⁵ taɪ̯⁵¹/
 xif,basic,,attitude/mood/vibe,,,,,,,,Mandarin Chinese,气氛,Qìfēn,/t͡ɕʰi⁵¹ fən⁵⁵/
 xifan,basic,,west,,west,west,,direction,adv,4,Mandarin Chinese,西方,Xīfāng,/ɕi⁵⁵ fɑŋ⁵⁵/
-xifanop,,,birth,birth,,,,,,,Orosfara,xifan op,life start,
-xifen,,pair with 'sek',future week,,,,,,,,Orosfara,xixten fen,,
-xifon,,,paragraph,,,,,,,,Orosfara,xiy fon,,
 xifsis,,,culture,,,,,,,,Orosfara,xif sis,,
-xik,basic,,torso,,,,,body,,21,Mandarin Chinese,躯干,Qūgàn,/t͡ɕʰy⁵⁵ kän⁵¹/
-ximfux,,,orgasm,,,,,,,,Orosfara,xim fux,,
-ximor,,,genital,,,,,body,,34,Orosfara,xim or,sex organ,
+xik,basic,,torso/stem,,,,,body,,21,Mandarin Chinese,躯干,Qūgàn,/t͡ɕʰy⁵⁵ kän⁵¹/
 xin,basic,,action/activity/deed/behavior,do/act/behave/happen/use,active/useful,,with/using/through/by,,,,Mandarin Chinese,行动,Xíngdòng,/ɕiŋ³⁵ tʊŋ⁵¹/
 xinkey,basic,,nerve,,,,,body,,6,Japanese,神経,Shinkei,[ɕĩŋke̞ː]
 xinray,basic,,belief/trust,believe/trust/entrust,believable/honest,,,,,,Mandarin Chinese,信赖,Xìnlài,/ɕin⁵¹⁻⁵³ laɪ̯⁵¹/
@@ -842,24 +849,19 @@ xior,basic,,repair/correction,fix/correct/heal,fixed/correct,,,,,,Mandarin Chine
 xip,basic,,flavor/taste,taste/lick,tasty/delicious,,,food,,0,Hindi,जीभ,jeebh,/d͡ʒiːbʱ/
 xipak,basic,,billion,,1000000000,,,number,,26,Korean,십억,sibeok,[ɕʰibʌ̹k̚]
 xipor,,,tongue,,,,,body,,18,Orosfara,xip or,,
+xipuf,,,paragraph,,,,,,,,Orosfara,xiy puf,,
 xipxip,basic,,glue,,sticky,,,,,,Urdu,چپچپا,cipcipā,/tʃɪptʃɪpa/
 xir,basic,,white,,white,,,color,,8,Japanese,白,Shiro,[ɕiɾo̞]
 xis,basic,,technology,,technological,technologically,,,,,Wu Chinese,技術,jji-zeq,/d͡ʑi²² zəʔ⁴⁴/
 xisun,basic,,surrender,yield/surrender/give in/give up/concede,,,,,,,Mandarin Chinese,屈從,qūcóng,/t͡ɕʰy⁵⁵ t͡sʰʊŋ³⁵/
 xit,basic/swear,also a swear; lowgrade like 'shit' or 'balls',hole,dig/drill/puncture/stab,,,through,,,,Marathi,छिद्र,Chidra,/tɕʰidɾə/
 xituan,basic,,company/business/firm/corporation,,incorporated,,,,,,Mandarin Chinese,集團,jítuán,/t͡ɕi³⁵ tʰu̯än³⁵/
-xitxok,,,,,clear,,,,,,Orosfara,xit jok,,
-xixan,,pair with 'sek',past week,,,,,,,,Orosfara,xixten jan,,
-xixin,,named for the number of points on the shape,septagon,,septagonal,,,shape,,,Orosfara,xix hin,,
-xixten,,,week,,,,,measurement,,,Orosfara,xix ten,Vāram,
 xiy,basic,,writing/essay/book/article,write,written,,,,,,Mandarin Chinese,写,Xiě,/ɕi̯ɛ²¹⁴/
 xiyen,basic,,salt,,salty,,,food,,1,Mandarin Chinese,食盐,Shíyán,/ʂʐ̩³⁵ jɛn³⁵/
 xok,basic,,appearance/sight/image/picture,look/see/watch/notice/check/observe,,,,,,,Bangla,চোখ,Cōkha,/tɕokʰ/
 xokor,,,eye,,,,,body,,12,Orosfara,xok or,,
-xokxit,,,window,,,,,,,,Orosfara,xok xit,,
 xon,basic,,air/gas,boil/evaporate/simmer,airy/gassy/boiled,,,,,,Mandarin Chinese,蒸,Zhēng,/ʈ͡ʂɤŋ⁵⁵/
 xonar,basic,,order/series/list/arrangement/row/sequence,organize/sort/arrange,orderly,,,,,,Mandarin Chinese,整理,zhěnglǐ,/ʈ͡ʂɤŋ²¹⁴⁻³⁵ li²¹⁴⁻²¹⁽⁴⁾/
-Xonkuomur,proper,'mur' added for clarity,China/People's Republic of China,,,,,country,,,Mandarin Chinese,中国,Zhōngguó,
 xonsay,,,fluid,flow,fluid,,,,,,Orosfara,xon say,gas liquid,
 xonxan,,,wind,airate,windy,,,,,,Orosfara,xon xan,air movement,
 xot,basic,,joint/hinge,join,joined,,,body,,,Bangla,যৌথ,Yautha,/dʒoutʰ/
@@ -867,40 +869,35 @@ xotkarim,,,conjunction,,,,,,,,Orosfara,xot karim,join word,
 xuek,basic,,fruit,,,,,food,,,Mandarin Chinese,水果,Shuǐguǒ,/ʂu̯eɪ̯²¹⁴⁻³⁵ ku̯ɔ²¹⁴⁻²¹⁽⁴⁾/
 xuey,basic,,tax,,,,,,,,Mandarin Chinese,税,Shuì,/ʂu̯eɪ̯⁵¹/
 xuk,basic,,sperm,,,,,body,,36,Hindi,शुक्राणु,shukraanu,/ʃʊk.ɾɑː.ɳuː/
-xukranit,,,semen,,,,,body,,64,Orosfara,xukran nit,sperm water,
-xukranor,,,testes,,,,,body,,35,Orosfara,xukran or,sperm organ,
+xuknit,,,semen,,,,,body,,64,Orosfara,xuk nit,sperm water,
+xukor,,,testes,,,,,body,,35,Orosfara,xuk or,sperm organ,
 xum,basic,,lip/lips,kiss,,,,body,,16,Hindi,चुंबन,chumban,/t͡ʃʊm.bən/
 xun,basic,,,,important/precious/significant,,,,,,Mandarin Chinese,重要,Zhòngyào,/ʈ͡ʂʊŋ⁵¹⁻⁵³ jɑʊ̯⁵¹/
 xunan,basic,,choice/option/decision,choose/pick/decide/select,picky,,,,,,Hindi,चुनना,chunana,/t͡ʃʊn.nɑː/
+Xunkuamur,proper,'mur' added for clarity,China/People's Republic of China,,,,,country,,,Mandarin Chinese,中国,Zhōngguó,/ʈ͡ʂʊŋ⁵⁵ ku̯ɔ³⁵/
 xup,basic,,jewel/jewelry/ornament,decorate,,,,,,,Mandarin Chinese,珠宝,Zhūbǎo,/ʈ͡ʂu⁵⁵ pɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 xur,basic,,exception,,exceptional,just/only/merely,except/besides,,,,Mandarin Chinese,除了,Chúle,/ʈ͡ʂʰu³⁵ lə³/
 xus,basic,,,cook,,,,food,verb,0,Mandarin Chinese,厨子,Chúzi,/ʈ͡ʂʰu³⁵ d͡z̥z̩³/
 xut,basic,,subject/theme,,,,about,,,,Mandarin Chinese,主题,Zhǔtí,/ʈ͡ʂu²¹⁴⁻²¹ tʰi³⁵/
 y,slang,slang; informal,I/me,,my/mine,,,,,,Orosfara,yeh,,
 yah,basic,the colloquial meaning is not direct possession. Just influence; under my or our influence,this,,this/(colloquially) my/our,,,,,,Hindi,यह,yah,/jəɦ/
+yahak,,ex. 'Have you done it yet?',,,,already/yet,,,,,Orosfara,yah ak,,
+Yahox,proper,directly translating to 'this planet' but meaning 'our planet',Earth,,,,,space,,11,Orosfara,yah hox,this planet,
+Yamanmur,proper,'mur' added for clarity,Yemen/Republic of Yemen,,,,,country,,,Arabic,ٱلْيَمَن,alyaman,
+yasar,,neutral formal; use more specific honorifics when possible,I/me,,,,,,,,Orosfara,yah sar,,
+yasek,,time marker particle,present time,,current,now,now,,,,Orosfara,yah sek,,
+Yatar,proper,directly translating to 'this star' but meaning 'our star',the Sun,,,,,space,,8,Orosfara,yah tar,,
+yaten,,,today,,,,,,,,Orosfara,yah ten,,
+yatif,,,,come here/be here,,here,here,,,,Orosfara,yah tif,,
 yax,slang,informal slang,we/me and you,,our,,,,,,Orosfara,y x,,
-Yaxouter,proper,the continent; 'ter' added for clarity,Europe/Asia/Eurasia,,,,,continent,,,Mandarin Chinese,亚洲,Yàzhōu,
-yehak,,ex. 'Have you done it yet?',,,,already/yet,,,,,Orosfara,yeh ak,,
-Yehox,proper,directly translating to 'this planet' but meaning 'our planet',Earth,,,,,space,,11,Orosfara,yeh hox,this planet,
-Yemenmur,proper,'mur' added for clarity,Yemen/Republic of Yemen,,,,,country,,,Arabic,ٱلْيَمَن,ٱlyaman,
+Yaxouter,proper,the continent; 'ter' added for clarity,Europe/Asia/Eurasia,,,,,continent,,,Mandarin Chinese,亚洲,Yàzhōu,/jä⁵¹ ʈ͡ʂoʊ̯⁵⁵/
 yen,basic,,ring/torus/wheel/circle,,round,,,shape,,,Mandarin Chinese,圆,Yuán,/ɥɛn³⁵/
-Yenax,proper,directly translating to 'this star' but meaning 'our star',the Sun,,,,,space,,8,Orosfara,yeh nax,,
-yeren,,neutral formal; use more specific honorifics when possible,I/me,,,,,,,,Orosfara,yeh ren,,
-yesek,,time marker particle,present time,,current,now,now,,,,Orosfara,yeh sek,,
 yet,basic,,,read,,,,,,,Mandarin Chinese,阅读,Yuèdú,/ɥɛ⁵¹ tu³⁵/
-yeten,,,today,,,,,,,,Orosfara,yeh ten,,
-yetif,,,,come here/be here,,here,here,,,,Orosfara,yeh tif,,
 yin,basic,,,allow/let/permit/tolerate/invite,,,,,,,Mandarin Chinese,允许,Yǔnxǔ,/yn²¹⁴⁻³⁵ ɕy²¹⁴⁻²¹⁽⁴⁾/
-yintar,,,,sing,,,,,,,Orosfara,yin tar,,
-yinxan,,,,dance,,,,,,,Orosfara,yin xan,chum,
 yix,basic,,probability/expectation/odds,expect/predict,probable/likely/expected,probably,,,,,Mandarin Chinese,预计,Yùjì,/y⁵¹⁻⁵³ t͡ɕi⁵¹/
-yixpaf,,,excitement,excite,exciting,excitingly,,,,,Orosfara,yix paf,,
 yon,basic,,vulva,,,,,body,,37,Hindi,योनी,yonee,/joː.niː/
 yonrur,,,vagina,,,,,body,,41,Orosfara,yon rur,vulva tube,
 yor,basic,,tear,cry,,,,body,,61,Spanish,llorar,,/ʝoˈɾaɾ/
 yoy,basic,,grace,,graceful,,,,,,Mandarin Chinese,优雅,Yōuyǎ,/joʊ̯⁵⁵ jä²¹⁴⁻²¹⁽⁴⁾/
 yuk,basic,,itch,irritate/bother,itchy/irritating/bothersome/(slang) annoying,,,body,,,German,jucken,,/ˈjʊkən/
-Yukantamur,proper,'mur' added for clarity,Uganda/Republic of Uganda,,,,,country,,,Swahili,Uganda,,
 yun,basic,,unit/element,,,,,measurement,,,English,unit,,/ˈjuː.nɪt/
-yuren,,,doctor,,,,,,,,Orosfara,yuh ren,heal person,
-yutif,,,hospital,,,,,,,,Orosfara,yuh tif,health place,
