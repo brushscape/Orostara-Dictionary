@@ -43,8 +43,8 @@ asur,basic,,blue,,blue,,,color,,5,Spanish,azul,,/aˈsul/
 at,basic,,,get/attain/take/grab/download/buy/claim,,,,,,,Korean,얻다,eodda,[ˈɘ(ː)t̚t͈a̠]
 atam,basic,,bridge,cross,,,across,,,,Telugu,అడ్డముగా,aḍḍamugā,/aɖ.ɖʌmuɡʌ/
 atar,basic,,respect,respect,respectful,respectfully,,,,,Hindi,आदर,aadar,/ɑː.d̪əɾ/
-atiy,slang,informal slang; short form; can also be spelled 'atio',,bye,,,,,,,Orosfara,atios,,ati
-atyos,basic,,,bye/goodbye,,,,,,,Spanish,adios,,/aˈdjos/
+atiy,slang,informal slang; short form; can also be spelled 'atio',,bye/goodbye,,,,,,,Orosfara,atios,,ati
+atyos,basic,,,goodbye/bye,,,,,,,Spanish,adios,,/aˈdjos/
 auk,basic,,alcohol,,alcoholic,,,food,,,Portuguese,álcool,,/ˈaw.ko.ɔw/
 ax,basic,,,,good/positive/right/correct,,,,,,Hindi,अच्छा,achchha,/ət͡ʃ.t͡ʃʰɑː/
 axafap,slang,informal slang; generalized form is 'asrenfap' if you want to just say 'jealous',,,jealous of you,,,,,,Orosfara,as x fap,,
@@ -55,7 +55,7 @@ ay,basic,,ouch/ow,ouch,,,ouch,,,,Cantonese,哎哟,aai jo,/aːi̯⁵⁵ jɔː⁵�
 ayr,basic,Mostly used only  as an honorific suffix,partner/spouse/girlfriend/boyfriend/datemate,,,,,,,,Mandarin Chinese,爱人,Àirén,/ˀaɪ̯⁵¹ ʐəɻ³⁵/
 ef,basic,,effect/result/outcome/crop/harvest,affect/harvest,effective,effectively,so/therefore/thus/then,,,,Italian,effetto,,/eˈffɛ.tto/
 eh,,,,,,,um/uh,,,,Orosfara,?,,
-ek,basic,,one/first,,1/first/important/principle/main,only/merely/just,,number,,2,Hindi,एक,ek,/eːk/
+ek,basic,,one/first,,1/first/important/principle/main,only,,number,,2,Hindi,एक,ek,/eːk/
 ekarim,,,adverb,,,,,,,,Orosfara,e karim,,
 ekot,basic,,meeting/interview,meet,,,,,,,Portuguese,encontrar,,/ẽ.kõˈtɾa(ʁ)/
 em,basic,,magnet/attraction,attract/captivate,magnetic/attractive/alluring,magnetically/attractively,,,,,French,aimant,,/ɛ.mɑ̃/
@@ -82,7 +82,7 @@ fanin,basic,,reaction/response/answer,react/respond/reply/answer,reactive/respon
 fap,basic,,price/bill/invoice/cost/receipt,charge,,,,,,,Mandarin Chinese,发票,Fāpiào,/fä⁵⁵ pʰi̯ɑʊ̯⁵¹/
 far,basic,,speech/language/communication,talk/speak/say/tell,,,,,,,Portuguese,falar,,/faˈla(ʁ)/
 Farsifar,proper,'far' added for clarity,Farsi/Farsi,,,,,language,,,Farsi,فارسی,fârsi, /fɒːɾsiː/
-fas,basic,,ease/simplicity,ease/simplify,easy/simple,easily/simply,,,,,Spanish,fácil,,/ˈfasil/
+fas,basic,,ease/simplicity,ease/simplify,easy/simple/basic,easily/simply/only/just,,,,,Spanish,fácil,,/ˈfasil/
 fasfet,,,,,delicate/fragile/breakable,,,,,,Orosfara,fas fet,easily damaged,
 fat,basic,,shape,form,shapely,,,shape,,,Tamil,வடிவம்,vaṭivam,/ʋɐɖiʋɐm/
 fax,basic,,reason/factor,cause,reasonable/rational/sensible,reasonably,because of/through/with,,,,Hindi,वजह,vajah,/ʋə.d͡ʒəɦ/
@@ -188,7 +188,7 @@ hun,basic,particle to indicate a dependent clause; also see 'pen',,,,,that/which
 Hunifar,proper,'far' added for clarity,Wu Chinese/Wu Chinese,,,,,language,,,Wu Chinese,吴语,hhu-nyy,/ɦu²² n̠ʲy⁴⁴/
 if,basic,,condition,,conditional/situational,,if,,,,English,if,,/ɪf/
 ifsek,,indicates a conditional timeframe or hypothetical; optional for 'if-then' statements; required for 'could' and 'should' statements,,,hypothetical,,,,,,Orosfara,if sek,,
-ik,basic,to a small degree; can be used as a casually affectionate honorific suffix,little/(honorific) little one/baby (affectionate),,a little,,,,,,Japanese,以下,Ika,[ika̠]
+ik,basic,to a small degree; can be used as a casually affectionate honorific suffix,little/(honorific) little one/baby (affectionate),,a little,barely/just,,,,,Japanese,以下,Ika,[ika̠]
 ikamar,,romantic crush,crush,crush,,,,,,,Orosfara,ik amar,,
 ikarim,,,adjective,,,,,,,,Orosfara,i karim,,
 ikfit,slang,,,,less,less,less than/(colloquially) worse than,,,,Orosfara,ik fit,,
@@ -221,7 +221,7 @@ Intonesiamur,proper,'mur' added for clarity,Indonesia/Republic of Indonesia,,,,,
 inxiy,basic,,rhythm,,rhythmic,,,,,,Mandarin Chinese,音节,Yīnjié,/in⁵⁵ t͡ɕi̯ɛ³⁵/
 ip,basic,,cord/cable/wire/rope/string,,,,,,,,Turkish,ip,,/ip/
 ipit,,,vine,,,,,plant/nature,,,Orosfara,ip pit,rope plant,
-ir,basic,,alternative,switch/swap/alternate,alternate/other,,xor/either/or/else/(temporally) until,,,,Russian,или,ili,[ˈilʲɪ]
+ir,basic,,alternative,switch/swap/alternate,alternate/other,instead,xor/either/or/else/instead of/(temporally) until,,,,Russian,или,ili,[ˈilʲɪ]
 Irakmur,proper,'mur' added for clarity,Iraq/Republic of Iraq,,,,,country,,,Arabic,العراق,aleiraq,/al.ʕi.raːq/
 iran,,,,,,,and-or/or,,,,Orosfara,ir an,,
 Iranmur,proper,'mur' added for clarity,Iran,,,,,country,,,Farsi,ایران,irun,[ʔiː.ɹɒ́ːn]
@@ -284,7 +284,6 @@ kifax,,for what reason; why did it happen,,,,why,,,,,Orosfara,kiy fax,what reaso
 kikon,,,whatever/whichever,,,,,,,,Orosfara,kiy kon ,what any,
 kimuk,,,which,,,,,,,,Orosfara,kiy muk,what thing,
 kimut,,for what purpose; what was the desired outcome,,,,why,,,,,Orosfara,kiy mut,,
-kis,slang,slang; shortened form of adverb form of kisey,,,,how,,,,,Orosfara,kisey,,
 kisar,,,who,,,,,,,,Orosfara,kiy sar,what person,
 kisek,,,,,,when,,,,,Orosfara,kiy sek,,
 kitif,,,,,,where,,,,,Orosfara,kiy tif,what place,
@@ -417,12 +416,12 @@ naf,slang,slang; short form; quick way to say something is not belonging to some
 nafor,,,,,casual,casually,,,,,Orosfara,nah for,,
 nah,basic,repeated 'nan' is more commonly used colloquially,nothing/none/zero,is not/(colloquially) don't/won't,not/0,not,no,number,,1,Bangla,না,Nā,/na/
 nahaf,,quick way to say something is not belonging to someone or that they don’t have something,,,,,not of,,,,Orosfara,nah haf,,
-nahan,,,,,,instead,instead of,,,,Orosfara,nah an,,
 nahif,slang,,,,,,unless/until,,,,Orosfara,nah if,,
 nahix,,,,exhaust,tired/exhausted/weary,,,,,,Orosfara,nah ix,,
 nahot,,pair with 'sek',never will,,,,,,,,Orosfara,nah ot,,
 naminxun,,,private,,private,privately,,,,,Orosfara,nah minxun,,
 namut,,,failure,fail,useless,,,,,,Orosfara,nah mut,,
+nan,slang,informal slang; adverb meaning: nothing more than,nothing/none,isn't/don't/won't,not,only/merely/just,no,,,,,,,
 nan,slang,informal slang; response to 'thank you' similar to 'no problem; it's nothing',no problem/you're welcome,,,,,,,,Orosfara,nah,,
 naneh,,,silence,silence,silent,silently,,,,,Orosfara,nah neh,no sound,
 nanit,,,,,dry,,,,,,Orosfara,nah nit,,
@@ -455,7 +454,7 @@ Nihonmur,proper,'mur' added for clarity,Japan,,,,,country,,,Japanese,日本,Niho
 nin,basic,,sleep,sleep,sleepy/tired,,,,,,Hindi,नींद,nīnd,/nind/
 ninsax,,,,dream,,,,,,,Orosfara,nin sax,,
 niot,,,future year,,,,,,,,Orosfara,nien ot,,
-nir,basic,,length/meter/distance,extend,long/distant,distantly,,measurement,,,Tamil,நீளம்,Nīḷam,/n̪iːɭɐm/
+nir,basic,,length/meter/distance,extend,long/distant/far,distantly,,measurement,,,Tamil,நீளம்,Nīḷam,/n̪iːɭɐm/
 nis,basic,,art,,artistic,,,,,,Wu Chinese,艺术,gni-zeq,/n̠ʲi²² zəʔ⁴⁴/
 nisar,,,artist,,,,,,,,Orosfara,nis sar,art person,
 nit,basic,all drinks are 'water' unless otherwise specified ,water,drink,watery,,,food,,0,Telugu,నీటి,Nīṭi,/niːʈi/
