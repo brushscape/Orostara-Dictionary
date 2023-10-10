@@ -10,7 +10,7 @@ function goback() {
     var word = memory[memoryIndex];
     if (word[0] == 'English') {
       engEntry(word[1]);
-    } else if (word[0] == 'Orosfara') {
+    } else if (word[0] == 'Orostara') {
       orosEntry(word[1]);
     } else {
       console.log("error in back command, invalid language");
@@ -27,7 +27,7 @@ function goforward() {
     var word = memory[memoryIndex];
     if (word[0] == 'English') {
       engEntry(word[1]);
-    } else if (word[0] == 'Orosfara') {
+    } else if (word[0] == 'Orostara') {
       orosEntry(word[1]);
     } else {
       console.log("error in back command, invalid language");
@@ -38,7 +38,7 @@ function goforward() {
 }
 
 // 2 options are
-// English, word; Orosfara, word
+// English, word; Orostara, word
 function incMemory(lang, word) {
   //don't add repeats in a row
   if (memory.length > 0 && word == memory[memoryIndex][1]) {
@@ -52,12 +52,13 @@ function incMemory(lang, word) {
 
   //add to memory
   memory.push([lang, word]);
-  memoryIndex = memory.length - 1;
 
   //only keep a memory of max 50 words
   if (memory.length > 50) {
     memory.shift();
   }
+
+  memoryIndex = memory.length - 1;
 
   updateForBackButtons();
 }

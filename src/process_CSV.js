@@ -1,7 +1,7 @@
 /* jshint esversion: 8 */
 
 //var localFilePath = 'files/Oros_Eng_Dictionary.csv';
-var filePath = 'https://raw.githubusercontent.com/brushscape/Orosfara-Dictionary/main/files/Oros_Eng_Dictionary.csv';
+var filePath = 'https://raw.githubusercontent.com/brushscape/Orostara-Dictionary/main/files/Oros_Eng_Dictionary.csv';
 var langBreakdown = [];
 var numWords = 0;
 var properNouns = [];
@@ -28,7 +28,7 @@ function readCSVFile() {
       //alphabetize as we go
       var placed = false;
       for (var i = 0; i < orosDict.length; i++) {
-        if (isAlphOrdered(rowObj.Orosfara.toLowerCase(), orosDict[i].Orosfara.toLowerCase())) {
+        if (isAlphOrdered(rowObj.Orostara.toLowerCase(), orosDict[i].Orostara.toLowerCase())) {
           orosDict.splice(i, 0, rowObj);
           placed = true;
           break;
@@ -40,11 +40,11 @@ function readCSVFile() {
 
 
       if (rowObj.Type == 'proper') {
-        properNouns.push(rowObj.Orosfara);
+        properNouns.push(rowObj.Orostara);
       }
 
       //just to show the language breakdown in the console
-      if (rowObj.RootLanguage != 'Orosfara' && rowObj.Type != 'proper') {
+      if (rowObj.RootLanguage != 'Orostara' && rowObj.Type != 'proper') {
         numWords++;
         var el = getCorrectLang(rowObj.RootLanguage);
         if (el != -1) {

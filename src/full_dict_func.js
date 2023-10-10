@@ -28,9 +28,9 @@ function fillTable() {
     }
 
     var row = baseEl.cloneNode(true);
-    row.id = rowObj.Orosfara;
+    row.id = rowObj.Orostara;
     row.classList.add(...wordTypes)
-    row.children[0].innerHTML = rowObj.Orosfara;
+    row.children[0].innerHTML = rowObj.Orostara;
     row.children[1].innerHTML = simpleListDisplay(rowObj.Nouns);
     row.children[2].innerHTML = simpleListDisplay(rowObj.Verbs);
     row.children[3].innerHTML = simpleListDisplay(rowObj.Adjectives);

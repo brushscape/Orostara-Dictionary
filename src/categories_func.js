@@ -28,20 +28,20 @@ function cfillTable() {
     }
 
     var row = baseEl.cloneNode(true);
-    row.id = rowObj.Orosfara;
+    row.id = rowObj.Orostara;
     row.classList.add(...wordTypes)
 
     if (rowObj.CatRel == 'verb') {
-      row.children[0].innerHTML = rowObj.Orosfara + 'o';
+      row.children[0].innerHTML = rowObj.Orostara + 'o';
       row.children[1].innerHTML = simpleListDisplay(rowObj.Verbs);
     } else if (rowObj.CatRel == 'adj') {
-      row.children[0].innerHTML = rowObj.Orosfara + 'i';
+      row.children[0].innerHTML = rowObj.Orostara + 'i';
       row.children[1].innerHTML = simpleListDisplay(rowObj.Adjectives);
     } else if (rowObj.CatRel == 'adv') {
-      row.children[0].innerHTML = rowObj.Orosfara + 'e';
+      row.children[0].innerHTML = rowObj.Orostara + 'e';
       row.children[1].innerHTML = simpleListDisplay(rowObj.Adverbs);
     } else {
-      row.children[0].innerHTML = rowObj.Orosfara + 'a';
+      row.children[0].innerHTML = rowObj.Orostara + 'a';
       row.children[1].innerHTML = simpleListDisplay(rowObj.Nouns);
     }
 

@@ -14,7 +14,7 @@ function orosClick(searchedWord) {
 
   var found = orosEntry(searchedWord);
   if (found == 1) {
-    incMemory('Orosfara', searchedWord);
+    incMemory('Orostara', searchedWord);
   }
 }
 
@@ -38,7 +38,7 @@ function searchOros(word1) {
   var word = word1.toLowerCase();
   //check every word in case there's more than one (rare but not unheardof)
   for (var i = 0; i < orosDict.length; i++) {
-    var checkWord = orosDict[i].Orosfara.toLowerCase();
+    var checkWord = orosDict[i].Orostara.toLowerCase();
     if (checkWord == word) {
       entryArr.push(orosDict[i]);
     }
