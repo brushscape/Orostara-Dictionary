@@ -61,8 +61,6 @@ ekot,basic,,meeting/interview,meet,,,,,,,Portuguese,encontrar,,/ẽ.kõˈtɾa(ʁ
 em,basic,,magnet/attraction,attract/captivate,magnetic/attractive/alluring,magnetically/attractively,,,,,French,aimant,,/ɛ.mɑ̃/
 em,basic,,,surround/engulf/include/involve,,,around/including,,,,Spanish,envolver,,/embolˈbeɾ/
 en,basic,,surface/side/wall/dimension/face/plane/board/plate,,flat,,on/onto,,,,Spanish,en,,/en/
-er,basic,,election,elect/vote,,,,,,,Spanish,electo,,/eˈleɡto/
-ersis,,,democracy,,democratic,democratically,,,,,Orostara,er sis,,
 es,basic,,precision/accuracy,,exact/accurate/precise,exactly/accurately/precisely,,,,,Portuguese,exato,,/eˈza.tu/
 esep,basic,,example/sample/demo,demonstrate,,,such as,,,,Portuguese,exemplo,,/eˈzẽ.plu/
 eskin,basic,,corner,turn,,,,,,,Spanish,esquina,,/esˈkina/
@@ -211,6 +209,7 @@ ikxan,,pair with 'sek',a recent past,,recent,recently,,,,,Orostara,ik xan,,
 in,basic,,growth/expansion,grow/increase/expand/spread,increasing,,,,,,English,increase,,/ɪnˈkɹiːs/
 inar,basic,,pressure/pascal/(colloquially) stress,crush/squeeze,(colloquially) stressful/stressed,,,measurement,,,Mandarin Chinese,应力,Yìnglì,/iŋ⁵¹⁻⁵³ li⁵¹/
 inax,basic,,luck/chance,,lucky,,,,,,Mandarin Chinese,运气,Yùnqì,/yn⁵¹ t͡ɕʰi¹/
+ink,basic/slang/swear,Commonly used like an honorific suffix for corporations cuz they're treated like people I guess; (colloquially) used like how English uses 'god' in swearing; 'I swear to god' = 'I swear to Inka',company/business/firm/corporation/(colloquially) god,,incorporated,,,,,,English,incorporated,,/ɪŋˈkɔɹpəɹeɪtɪd/
 Inkamur,proper,'land' replaced with 'mur' for clarity,England,,,,,country,,,English,England,,/ˈɪŋɡlənd/
 Inkarixtar,proper,'tar' added for clarity,English,,,,,language,,,English,english,,/ˈɪŋɡlɪʃ/
 Inkatar,slang/proper,informal slang; short form,English,,,,,country,,,Orostara,Inkarixfara,,
@@ -234,6 +233,7 @@ Itxayirmur,proper,'mur' added for clarity,Algeria/People's Democratic Republic o
 ix,basic,,energy/will/motivation/drive/joule,motivate/drive,motivational/motivating,motivationally,,measurement,,,Mandarin Chinese,意志,Yìzhì,/i⁵¹⁻⁵³ ʈ͡ʂʐ̩⁵¹/
 ixpaf,,,excitement,excite,exciting,excitingly,,,,,Orostara,ix paf,,
 kaf,basic,,wish,want/desire,desireable,,,,,,Telugu,కావాలి,Kāvāli,/kaːʋaːli/
+kafit,basic,,poem/poetry/verse,,poetic,,,,,,Hindi,कविता,kavita,/kə.ʋɪ.t̪ɑː/
 kak,basic/swear,also a swear; used like 'shit' but slightly less vulgar,excriment,poop,,,shit,body,,63,Spanish,caca,,/ˈkaka/
 kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,,,Javanese,kaget,,[ˈkaɡɛt̚]
 kakrur,,,rectum,,,,,body,,31,Orostara,kak rur,poop tube,
@@ -247,8 +247,9 @@ Kanamur,proper,'mur' added for clarity,Ghana/Republic of Ghana,,,,,,,,English,Gh
 Kanatamur,proper,'mur' added for clarity,Canada/Dominion of Canada,,,,,country,,,English,Canada,,/ˈkænədə/
 kanax,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,body,,,Mandarin Chinese,感觉,Gǎnjué,/kän²¹⁴⁻²¹ t͡ɕy̯ɛ³⁵/
 kanaxor,,,skin,,,,,body,,1,Orostara,kanax or,,
+kant,slang/swear,"slang swear; commonly used as a derogatory honorific; ruder than 'kax'; thought to come either from गांडू  in Hindi or 'cunt' in English, possibly both",bitch/bastard/dick/cunt/asshole/idiot/fucker,,,,,,,,?,?,,
 Kantunfar,proper,话 replaced with 'tar',Cantonese/Yue Chinese,,,,,language,,,Cantonese,广东话,gwong dung waa,/kʷɔːŋ³⁵ tʊŋ⁵⁵ waː²²⁻³⁵/
-kap,basic,,ability/availability/(colloquially) value,able/can,able/available/capable,,,,,,Urdu,قابل,qābi,/qɑː.bɪl/
+kap,basic,,ability/availability/possibility/potential/(colloquially) value,able/can/might,able/available/capable/possible,possibly/potentially/maybe,,,,,Urdu,قابل,qābi,/qɑː.bɪl/
 kaper,basic,,hair/fur,,hairy/furry,,,body,,10,Portuguese,cabelo,,/kaˈbe.lu/
 kapes,basic,,head,,,,,body,,8,Spanish,cabeza,,/kaˈbesa/
 kar,basic,,black/shadow,,black/dark,darkly,,color,,10,Bangla,কালো,Kālō,/kalo/
@@ -264,7 +265,7 @@ kasan,basic,,simulation/VR/virtual reality,simulate,virtual,,,,,,Korean,가상,g
 kasmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,English,cosmos,,/ˈkɑz.moʊs/
 kat,basic,,cut,cut/slice,,,,,,,Bangla,কাটা,Kāṭā,[ˈkɑ.ʈɑ]
 katay,basic,,story/tale/fiction/narrative,narrate/tell tales,fictional,,,,,,Tamil,கதை,Katai,/kɐd̪aɪ̯/
-kax,slang/swear,slang swear; very derogatory when used against someone; can be used as a derogatory honorific suffix,shit/garbage/(honorific) shithead/fucker/bastard/bitch,kill/die/kill yourself,useless/stupid,,fuck,,,,Orostara,kaxar,,
+kax,slang/swear,slang swear; can be used as a derogatory honorific suffix or just a swear; when used again someone it is softer that 'kant',shit/garbage/(honorific) shithead/fucker/bastard/bitch,kill/die/kill yourself,useless/stupid,,fuck,,,,Orostara,kaxar,,
 kaxar,basic,,waste/trash/(polite) poop,,,,,,,,Hindi,कचरा,kacrā,/kət͡ʃ.ɾɑː/
 kaxit,slang/swear,slang swear,asshole/shithole,,,,,,,,Orostara,kax xit ,,
 kay,basic,,cow,,,,,animal/nature,,,Hindi,गाय,gāy,/ɡɑːj/
@@ -289,7 +290,6 @@ kixin,,,,,,how,,,,,Orostara,kiy xin,what action,
 kiy,basic,,what/question,ask/question,inquisitive ,,,,,,Urdu,کیا,kya,/kjɑː/
 ko,basic,indicates a direct object,,,,,,,,,Orostara,?,,
 kohun,,indicates a dependent clause acting as the direct object of the sentence,,,,,,,,,Orostara,ko hun,,
-kom,basic,,frequency/rate,,common/general/regular/standard/usual/frequent/often,commonly/generally/usually/frequently/often/regularly,,measurement,,,Spanish,común,,/koˈmun/
 komar,basic,,,,gentle/soft,gently/softly,,,,,Punjabi,ਕੋਮਲ,Kōmala,/koːmələ/
 kon,basic,,,,,any/at all,,,,,Bangla,কোনো,kono,/kono/
 Konko-Kinxasamur,proper,'mur' added for clarity,DR Congo/DRC/Democratic Republic of the Congo,,,,,country,,,French,Congo-Kinshasa,,
@@ -446,6 +446,8 @@ netsis,,,administration/government/politics,administrate/govern,administrative/p
 ney,basic,,inside/entrance,enter/put in,inside,,in/into/throughout,,,,Mandarin Chinese,内,Nèi,/neɪ̯⁵¹/
 ni,,particle to indicate something is a rhetorical question ,,,,,,,,,Orostara,nah ki,,
 nien,basic,,year/age,age,aged/mature,,,measurement,,,Mandarin Chinese,年,Nián,/ni̯ɛn³⁵/
+nifat,basic,,election,elect/vote,,,,,,,Marathi,निवडून,Nivaḍūna,
+nifatsis,,,democracy,,democratic,democratically,,,,,Orostara,er sis,,
 nih,basic,,greeting,hi/hello/greet,,,,,,,Mandarin Chinese,你好,Nǐ hǎo,/ni²¹⁴⁻³⁵ xɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 Nihonmur,proper,'mur' added for clarity,Japan,,,,,country,,,Japanese,日本,Nihon,[ɲ̟ihõ̞ɴ]
 Nihontar,proper,語 replaced with 'tar',Japanese,,,,,language,,,Japanese,日本語,Nihongo,
@@ -546,7 +548,6 @@ pis,basic,,scent/odor/smell,sniff/smell,,,,,,,Mandarin Chinese,鼻子,Bízi,/pi�
 pisor,,,nose,,,,,body,,14,Orostara,pis or,,
 pit,basic,,plant/vegetable,,,,,plant/nature/food,,0,Turkish,bitki,,/bitki/
 pix,basic,,seed,,,,,food/plant/nature,,1,Bangla,বীজ,Bīja,/bidʒ/
-poam,basic,,poem/poetry,,poetic,,,,,,English,poem,,/ˈpoʊ̯əm/
 Pohtukesatar,proper,'tar' added for clarity,Portuguese,,,,,language,,,Portuguese,portuguesa,,/poʁ.tuˈɡe.zɐ/
 pok,basic,,mouth,,,,,body,,15,Portuguese,boca,,/ˈbo.kɐ/
 pon,basic,,four,,4,,,number,,5,Vietnamese,bốn,,[ʔɓon˧˦]
@@ -554,7 +555,6 @@ poner,basic,,,lay/lie down/place/put,,,,,,,Spanish,poner,,/poˈneɾ/
 ponfat,,named for the number of points on the shape,square/rectangle/diamond,,square/rectangular,,,shape,,,Orostara,pon fat,,
 pontix,,named for the number of faces on the object,tetrahedron,,tetrahedral,,,shape,,,Orostara,pon tix,,
 por,basic,,powder,crush/pulverize,powdery,,,,,,Spanish,polvo,,/ˈpolbo/
-pos,basic,,possibility,might,possible,maybe/possibly,,,,,Spanish,posible,,/poˈsible/
 pot,basic,,contest/competition,compete,competitive ,competitively,,,,,Telugu,పోటీ,Pōṭī,/poːʈiː/
 pox,basic,,animal,,animalistic,animalisticly,,animal/nature,,,Bangla,পশু,pôshu,
 Poxpuritar,proper,'tar' added for clarity,Bhojpuri,,,,,language,,,Bhojpuri,भोजपुरी,bhojapuree,/bʱoːd͡ʒ.pʊ.ɾiː/
@@ -853,7 +853,6 @@ xir,basic,,white,,white,,,color,,8,Japanese,白,Shiro,[ɕiɾo̞]
 xis,basic,,technology,,technological,technologically,,,,,Wu Chinese,技術,jji-zeq,/d͡ʑi²² zəʔ⁴⁴/
 xisun,basic,,surrender,yield/surrender/give in/give up/concede,,,,,,,Mandarin Chinese,屈從,qūcóng,/t͡ɕʰy⁵⁵ t͡sʰʊŋ³⁵/
 xit,basic/swear,also a swear; lowgrade like 'shit' or 'balls',hole,dig/drill/puncture/stab,,,through,,,,Marathi,छिद्र,Chidra,/tɕʰidɾə/
-xituan,basic,,company/business/firm/corporation,,incorporated,,,,,,Mandarin Chinese,集團,jítuán,/t͡ɕi³⁵ tʰu̯än³⁵/
 xiy,basic,,writing/essay/book/article,write,written,,,,,,Mandarin Chinese,写,Xiě,/ɕi̯ɛ²¹⁴/
 xiyen,basic,,salt,,salty,,,food,,1,Mandarin Chinese,食盐,Shíyán,/ʂʐ̩³⁵ jɛn³⁵/
 xok,basic,,appearance/sight/image/picture,look/see/watch/notice/check/observe,,,,,,,Bangla,চোখ,Cōkha,/tɕokʰ/
@@ -892,7 +891,7 @@ Yayur,proper,directly translating to 'this star' but meaning 'our star',the Sun,
 yen,basic,,ring/torus/wheel/circle,,round,,,shape,,,Mandarin Chinese,圆,Yuán,/ɥɛn³⁵/
 yet,basic,,,read,,,,,,,Mandarin Chinese,阅读,Yuèdú,/ɥɛ⁵¹ tu³⁵/
 yin,basic,,,allow/let/permit/tolerate/invite,,,,,,,Mandarin Chinese,允许,Yǔnxǔ,/yn²¹⁴⁻³⁵ ɕy²¹⁴⁻²¹⁽⁴⁾/
-yix,basic,,probability/expectation/odds,expect/predict,probable/likely/expected,probably,,,,,Mandarin Chinese,预计,Yùjì,/y⁵¹⁻⁵³ t͡ɕi⁵¹/
+yix,basic,,probability/expectation/odds/frequency/rate,expect/predict,probable/likely/expected/common/general/regular/standard/usual/frequent/often,probably/commonly/generally/usually/frequently/often/regularly,,measurement,,,Mandarin Chinese,预计,Yùjì,/y⁵¹⁻⁵³ t͡ɕi⁵¹/
 yon,basic,,vulva,,,,,body,,37,Hindi,योनी,yonee,/joː.niː/
 yonrur,,,vagina,,,,,body,,41,Orostara,yon rur,vulva tube,
 yor,basic,,tear,cry,,,,body,,61,Spanish,llorar,,/ʝoˈɾaɾ/
