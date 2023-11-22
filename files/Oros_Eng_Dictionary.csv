@@ -234,7 +234,7 @@ ix,basic,,energy/will/motivation/drive/joule,motivate/drive,motivational/motivat
 ixpaf,,,excitement,excite,exciting,excitingly,,,,,Orostara,ix paf,,
 kaf,basic,,wish,want/desire,desireable,,,,,,Telugu,కావాలి,Kāvāli,/kaːʋaːli/
 kafit,basic,,poem/poetry/verse,,poetic,,,,,,Hindi,कविता,kavita,/kə.ʋɪ.t̪ɑː/
-kak,basic/swear,also a swear; used like 'shit' but slightly less vulgar,excriment,poop,,,shit,body,,63,Spanish,caca,,/ˈkaka/
+kak,basic/swear,only slightly vulgar when used as a swear,excriment/(colloquially) shit,poop,,,,body,,63,Spanish,caca,,/ˈkaka/
 kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,,,Javanese,kaget,,[ˈkaɡɛt̚]
 kakrur,,,rectum,,,,,body,,31,Orostara,kak rur,poop tube,
 kam,basic,,job/employment/work/task,work/labor/employ/hire,busy,,,,,,Hindi,काम,kaam,/kɑːm/
@@ -247,7 +247,7 @@ Kanamur,proper,'mur' added for clarity,Ghana/Republic of Ghana,,,,,,,,English,Gh
 Kanatamur,proper,'mur' added for clarity,Canada/Dominion of Canada,,,,,country,,,English,Canada,,/ˈkænədə/
 kanax,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,body,,,Mandarin Chinese,感觉,Gǎnjué,/kän²¹⁴⁻²¹ t͡ɕy̯ɛ³⁵/
 kanaxor,,,skin,,,,,body,,1,Orostara,kanax or,,
-kant,slang/swear,"slang swear; commonly used as a derogatory honorific; ruder than 'kax'; thought to come either from गांडू  in Hindi or 'cunt' in English, possibly both",bitch/bastard/dick/cunt/asshole/idiot/fucker,,,,,,,,?,?,,
+kant,slang/swear,slang swear; can be used as a derogatory honorific; much more vulgar than 'kax'; thought to come either from गांडू  in Hindi or 'cunt' in English  (possibly both),bitch/bastard/dick/cunt/asshole/idiot/fucker,,,,,,,,?,?,,
 Kantuntar,proper,话 replaced with 'tar',Cantonese/Yue Chinese,,,,,language,,,Cantonese,广东话,gwong dung waa,/kʷɔːŋ³⁵ tʊŋ⁵⁵ waː²²⁻³⁵/
 kap,basic,,ability/availability/possibility/potential/(colloquially) value,able/can/might,able/available/capable/possible,possibly/potentially/maybe,,,,,Urdu,قابل,qābi,/qɑː.bɪl/
 kaper,basic,,hair/fur,,hairy/furry,,,body,,10,Portuguese,cabelo,,/kaˈbe.lu/
@@ -265,7 +265,7 @@ kasan,basic,,simulation/VR/virtual reality,simulate,virtual,,,,,,Korean,가상,g
 kasmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,English,cosmos,,/ˈkɑz.moʊs/
 kat,basic,,cut,cut/slice,,,,,,,Bangla,কাটা,Kāṭā,[ˈkɑ.ʈɑ]
 katay,basic,,story/tale/fiction/narrative,narrate/tell tales,fictional,,,,,,Tamil,கதை,Katai,/kɐd̪aɪ̯/
-kax,slang/swear,slang swear; can be used as a derogatory honorific suffix or just a swear; when used again someone it is softer that 'kant',shit/garbage/(honorific) shithead/fucker/bastard/bitch,kill/die/kill yourself,useless/stupid,,fuck,,,,Orostara,kaxar,,
+kax,slang/swear,can be used as a derogatory honorific suffix or just a swear; less vulgar than 'kant',shit/garbage/(honorific) shithead/dumbass/idiot/dumbfuck/shit for brains,kill/die/kill yourself,useless/stupid/shitty,,,,,,Orostara,kaxar,,
 kaxar,basic,,waste/trash/(polite) poop,,,,,,,,Hindi,कचरा,kacrā,/kət͡ʃ.ɾɑː/
 kaxit,slang/swear,slang swear,asshole/shithole,,,,,,,,Orostara,kax xit ,,
 kay,basic,,cow,,,,,animal/nature,,,Hindi,गाय,gāy,/ɡɑːj/
@@ -493,7 +493,7 @@ otsek,slang,future marker,future,,coming time,,,,,,Orostara,ot sek,,
 paf,basic,,feeling/emotion,feel/sense by emotion,emotional,emotionally,,,,,Hindi,भावना,bhaavana,/bʱɑːʋ.nɑː/
 pah,basic,,outside/exit,leave/exit/exclude,outside,out,out from/out of,,,,Hindi,बाहर,baahar,/bɑː.ɦəɾ/
 pain,basic,,,point/indicate/show,,,,,,,English,point,,/pɔɪnt/
-pakan,basic,,phallus/penis/clitoris,,,,,body,,38,Bangla,ভগাঙ্কুর,bhogaṅkur,/bʱɔ.ɡɑŋ.kuɾ/
+pakan,basic/slang,when used colloquially it just means gentials in general,phallus/penis/clitoris/clit/(colloquially) genitals,,(colloquially) have sex,,,body,,38,Bangla,ভগাঙ্কুর,bhogaṅkur,/bʱɔ.ɡɑŋ.kuɾ/
 pakanik,,,clit/clitoris,,,,,body,,40,Orostara,pakan ik,little phallus,
 Pakmur,proper,'stan' replaced with 'mur' for clarity,Pakistan/Islamic Republic of Pakistan,,,,,country,,,Punjabi,ਪਾਕਿਸਤਾਨ,Pākisatāna,/ˈpäː.kɪs.t̪äːn/
 pam,basic,the direction of left (vs right),left,,,left,,direction,adv,8,Bangla,বামে,bāmē,/bame/
@@ -827,7 +827,7 @@ xas,basic,,hour,,,,,measurement,,,Russian,час,chas,[t͡ɕas]
 xasot,,pair with 'sek',future hour,,,,,,,,Orostara,xas ot,,
 xat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end/complete,closed/off/ended/finished/complete/done,finally,to (as in from here to there),,,,English,shut,,/ʃʌt/
 Xauatar,proper,'tar' added for clarity,Javanese,,,,,language,,,Javanese,jawa,,/dʒɔ.wɔ/
-xax,basic,,bar/rod/pole/stick,,straight,,,,,,Bangla,যষ্টি,Yaṣṭi,/dʒɔɕt̠i/
+far,basic/swear,also a swear; not very vulgar; akin to saying 'balls',bar/rod/pole/stick/(colloquially) dick/strap,(colloquially) peg/top,straight,,,,,,Portuguese,vara,,/ˈva.ɾɐ/
 xaxan,,pair with 'sek',past hour,,,,,,,,Orostara,xas xan,,
 xeh,basic,used to describe anything outside your bubble/circle of influence; the colloquial meaning is not direct possession,that,,that/(colloquially) your/their/his/her,,,,,,Bangla,যে,jē,/dʒe/
 xesar,,neural formal; use more specific honorifics when possible,you/he/she/them,,,,,,,,Orostara,xeh sar,,
@@ -840,7 +840,7 @@ xif,basic,,attitude/mood/vibe,,,,,,,,Mandarin Chinese,气氛,Qìfēn,/t͡ɕʰi�
 xifan,basic,,west,,west,west,,direction,adv,4,Mandarin Chinese,西方,Xīfāng,/ɕi⁵⁵ fɑŋ⁵⁵/
 xifsis,,,culture,,,,,,,,Orostara,xif sis,,
 xik,basic,,torso/stem,,,,,body,,21,Mandarin Chinese,躯干,Qūgàn,/t͡ɕʰy⁵⁵ kän⁵¹/
-xin,basic,,action/activity/deed/behavior,do/act/behave/happen/use,active/useful,,with/using/through/by,,,,Mandarin Chinese,行动,Xíngdòng,/ɕiŋ³⁵ tʊŋ⁵¹/
+xin,basic,colloquial euphemism for sex; the same as English when you say 'I did them',action/activity/deed/behavior/(colloquially) sex,do/act/behave/happen/use/(colloquially) have sex with,active/useful,,with/using/through/by,,,,Mandarin Chinese,行动,Xíngdòng,/ɕiŋ³⁵ tʊŋ⁵¹/
 xinkey,basic,,nerve,,,,,body,,6,Japanese,神経,Shinkei,[ɕĩŋke̞ː]
 xiok,basic,,change/adjustment,change/adjust/alter/transform,changed/transformed,,,,,,Mandarin Chinese,改变,Gǎibiàn,/ɕi̯oʊ̯⁵⁵ kaɪ̯²¹⁴⁻²¹⁽⁴⁾/
 xioksis,,,development/evolution,develop/evolve,developed,,,,,,Orostara,xiok sis,,
@@ -853,7 +853,7 @@ xipxip,basic,,glue,,sticky,,,,,,Urdu,چپچپا,cipcipā,/tʃɪptʃɪpa/
 xir,basic,,white,,white,,,color,,8,Japanese,白,Shiro,[ɕiɾo̞]
 xis,basic,,technology,,technological,technologically,,,,,Wu Chinese,技術,jji-zeq,/d͡ʑi²² zəʔ⁴⁴/
 xisun,basic,,surrender,yield/surrender/give in/give up/concede,,,,,,,Mandarin Chinese,屈從,qūcóng,/t͡ɕʰy⁵⁵ t͡sʰʊŋ³⁵/
-xit,basic/swear,also a swear; lowgrade like 'shit' or 'balls',hole,dig/drill/puncture/stab,,,through,,,,Marathi,छिद्र,Chidra,/tɕʰidɾə/
+xit,basic/swear,also a swear; not very vulgar; akin to saying 'balls',hole,dig/drill/puncture/stab,,,through,,,,Marathi,छिद्र,Chidra,/tɕʰidɾə/
 xiy,basic,,writing/essay/book/article,write,written,,,,,,Mandarin Chinese,写,Xiě,/ɕi̯ɛ²¹⁴/
 xiyen,basic,,salt,,salty,,,food,,1,Mandarin Chinese,食盐,Shíyán,/ʂʐ̩³⁵ jɛn³⁵/
 xok,basic,,appearance/sight/image/picture,look/see/watch/notice/check/observe,,,,,,,Bangla,চোখ,Cōkha,/tɕokʰ/
@@ -904,3 +904,9 @@ yurkun,,,galaxy,,,,,space,,6,Orostara,yur kun,star group,
 yursis,,,solar system,,,,,space,,5,Orostara,yur sis,star system,
 yus,basic,,instrument/tool/equipment,use/play,equipped,,,,,,English,use,,/jus/
 masrix,,,,understand,,,,,,,Orostara,mas rix,,
+put,slang/swear,slang swear; used as an insult and an intensifier; mildly offensive ,bitch/bastard/whore/slut,,fucking,,,,,,Spanish/Portuguese,puta,,/ˈpu.tɐ/
+orp,slang/swear,slang swear; less vulgar than 'kax',dumbass,,stupid,,,,,,Mandarin Chinese,二屄,,/ˀɤɻ⁵¹ pi⁵⁵/
+xink,slang/swear,slang swear; might also be from the Spanish 'chinga',(exclamation) shit/fuck/(honorific) slut/fucker,fuck,fucking,,,,,,Orostara,xin ko,,/ˈt͡ʃinɡa/
+puset,slang/swear,slang swear; more vulgar than 'xit'; can be used to call someone a bottom,hole/fuckhole/pussy/asshole/cunt,fuck,fucking,,,,,,Portuguese,boceta,,/buˈse.tɐ/
+kasetx,slang/swear,slang swear; can be used as a very vulgar way to call someone a top,phallus/dick/cock/clit/strap,fuck/peg,fucking,,,,,,Portuguese,cacete,,/kaˈse.t͡ʃi/
+kays,slang/swear,slang swear; only mildly vulgar,(exclamation) damn,damn,damned/stupid,,,,,,Mandarin Chinese,該死,,/kaɪ̯⁵⁵ sz̩²¹⁴⁻²¹⁽⁴⁾/
