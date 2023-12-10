@@ -173,7 +173,7 @@ hor,basic,,hold/hug/embrace/cuddle,hold/embrace,,,,,,,English,hold,,/hoʊld/
 hos,basic,,container/box/basin/cup/vessel/bottle/trap,contain/catch,,,,,,,Mandarin Chinese,盒子,Hézi,/xɤ³⁵ d͡z̥z̩³/
 hot,basic,,deal/contract/vow,deal/bargain/promise/swear,,,,,,,Mandarin Chinese,合同,Hétóng,/xɤ³⁵ tʰʊŋ³⁵/
 hox,basic,,planet/world,,,,,space,,2,Japanese,星,Hoshi,[ho̞ɕi]
-huan,basic,,,welcome/accept/admit/approve,acceptable,acceptably,,,,,Mandarin Chinese,欢迎,Huānyíng,/xu̯än⁵⁵ iŋ³⁵/
+huanin,basic,,,welcome/accept/admit/approve,acceptable,acceptably,,,,,Mandarin Chinese,欢迎,Huānyíng,/xu̯än⁵⁵ iŋ³⁵/
 huap,basic,,money/dollar/credit/payment/finance/value,pay/spend/afford,expensive/valuable/rich/financial,,,,,,Mandarin Chinese,货币,huòbì,/xu̯ɔ⁵¹⁻⁵³ pi⁵¹/
 huapsar,,,accountant,,,,,,,,Orostara,huap sar,money person,
 huapsis,,,economy,,economic,,,,,,Orostara,huap sis,,
@@ -206,7 +206,7 @@ ikuan,,,,,narrow,narrowly,,,,,Orostara,ik kuan,small width or a little width,
 ikuap,,,,,cheap,cheaply,,,,,Orostara,ik huap,little money,
 ikxak,,,,,weak,weakly,,,,,Orostara,ik xak,little strength,
 ikxan,,pair with 'sek',a recent past,,recent,recently,,,,,Orostara,ik xan,,
-in,basic,,growth/expansion,grow/increase/expand/spread,increasing,,,,,,English,increase,,/ɪnˈkɹiːs/
+kuat,basic,,growth/expansion,grow/increase/expand/spread/enlarge/extend,increasing,,,,,,Mandarin Chinese,扩大,kuòdà,/kʰu̯ɔ⁵¹⁻⁵³ tä⁵¹/
 inar,basic,,pressure/pascal/(colloquially) stress,crush/squeeze,(colloquially) stressful/stressed,,,measurement,,,Mandarin Chinese,应力,Yìnglì,/iŋ⁵¹⁻⁵³ li⁵¹/
 inax,basic,,luck/chance,,lucky,,,,,,Mandarin Chinese,运气,Yùnqì,/yn⁵¹ t͡ɕʰi¹/
 ink,basic/slang,Commonly used like an honorific suffix for corporations cuz they're treated like people I guess; (colloquially) used like how English uses 'god' in swearing; 'I swear to god' = 'I swear to Inka',company/business/firm/corporation/(colloquially) god,,incorporated,,,,,,English,incorporated,,/ɪŋˈkɔɹpəɹeɪtɪd/
@@ -917,3 +917,10 @@ topsar,,,assistant,,,,,,,,Orostara,top sar,,
 pienhep,,,stripe ,,striped,,,,,,Orostara,pien hep,,
 pinhep,,,polka dot,,polka dotted/dotted,,,,,,Orostara,pin hep,,
 kueyik,slang,slang,snakelet/minor/young adder/student/child,,,,,,,,Orostara,kuey ik,,
+sorux,,,worm,,,,,animal/nature,,,Turkish,solucan,,/soludʒan/
+erim,,,spider,,,,,animal/nature,,,Turkish,örümcek,,[œɾymˈdʒɛc]
+in,,,fly,,,,,animal/nature,,,Mandarin Chinese,蠅,yíng,/in⁵⁵/
+huan,,,locust/grasshopper/cricket/katydid,,,,,animal/nature,,,Mandarin Chinese,蝗,huáng ,/xu̯ɑŋ³⁵/
+eskar,,,beetle,,,,,animal/nature,,,Spanish,escarabajo,,/eskaɾaˈbaxo/
+kunson,,,ant/bee/wasp,,,,,animal/nature,,,Orostara,kun son,,
+idk,,,crab/lobster/crayfish/crustacean,,,,,animal/nature,,,,,,
