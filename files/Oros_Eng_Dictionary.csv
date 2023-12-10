@@ -122,7 +122,7 @@ ha,,exclamation marker ,,,,,,,,,Orostara,ham,,
 haf,basic,if no noun after then assume common sense 'me' or 'you',possession/property,have/possess/own,possessive,possessively,of/from,,,,English,have,,/hæv/
 hafsarxif,,can be modified to 'hafxaxif' or 'hafyaxif' if you want to specifically say 'jealous of you' or 'jealous of me',,,jealous,jealously,,,,,Orostara,haf sar xif,,
 hafyaxif,slang,informal slang; generalized form is 'asrenfap' if you want to just say 'jealous',,,jealous of me,,,,,,Orostara,haf y xif,,
-hak,basic,Most commonly used as an honorific suffix (all children are students),student,,,,,,,,Cantonese,学生,hok saang,/hɔk̚³² saŋ³³⁻³³⁵/
+hak,basic,Most commonly used as an honorific suffix (all children are students),student/child/minor,,,,,,,,Cantonese,学生,hok saang,/hɔk̚³² saŋ³³⁻³³⁵/
 ham,basic/slang,,all/whole/(colloquially) everyone/everything,,all/every/entire/whole/each,completely/entirely/(colloquially) always,,,,,Farsi,همه,hame,/hæˈme/
 hamas,,,,,most,,,,,,Orostara,ham mas,,
 hamasnuan,,,,,hot/sweltering,,,,,,Orostara,ham masnuan,,
@@ -174,7 +174,7 @@ hos,basic,,container/box/basin/cup/vessel/bottle/trap,contain/catch,,,,,,,Mandar
 hot,basic,,deal/contract/vow,deal/bargain/promise/swear,,,,,,,Mandarin Chinese,合同,Hétóng,/xɤ³⁵ tʰʊŋ³⁵/
 hox,basic,,planet/world,,,,,space,,2,Japanese,星,Hoshi,[ho̞ɕi]
 huan,basic,,,welcome/accept/admit/approve,acceptable,acceptably,,,,,Mandarin Chinese,欢迎,Huānyíng,/xu̯än⁵⁵ iŋ³⁵/
-huap,basic,,money/dollar/credit/payment/finance,pay/spend/afford,rich/expensive/financial,,,,,,Mandarin Chinese,货币,huòbì,/xu̯ɔ⁵¹⁻⁵³ pi⁵¹/
+huap,basic,,money/dollar/credit/payment/finance/value,pay/spend/afford,expensive/valuable/rich/financial,,,,,,Mandarin Chinese,货币,huòbì,/xu̯ɔ⁵¹⁻⁵³ pi⁵¹/
 huapsar,,,accountant,,,,,,,,Orostara,huap sar,money person,
 huapsis,,,economy,,economic,,,,,,Orostara,huap sis,,
 huax,basic,,chemical,,chemical,chemically,,,,,Mandarin Chinese,化学,Huàxué,/xu̯ä⁵¹ ɕy̯ɛ³⁵/
@@ -209,7 +209,7 @@ ikxan,,pair with 'sek',a recent past,,recent,recently,,,,,Orostara,ik xan,,
 in,basic,,growth/expansion,grow/increase/expand/spread,increasing,,,,,,English,increase,,/ɪnˈkɹiːs/
 inar,basic,,pressure/pascal/(colloquially) stress,crush/squeeze,(colloquially) stressful/stressed,,,measurement,,,Mandarin Chinese,应力,Yìnglì,/iŋ⁵¹⁻⁵³ li⁵¹/
 inax,basic,,luck/chance,,lucky,,,,,,Mandarin Chinese,运气,Yùnqì,/yn⁵¹ t͡ɕʰi¹/
-ink,basic/slang/swear,Commonly used like an honorific suffix for corporations cuz they're treated like people I guess; (colloquially) used like how English uses 'god' in swearing; 'I swear to god' = 'I swear to Inka',company/business/firm/corporation/(colloquially) god,,incorporated,,,,,,English,incorporated,,/ɪŋˈkɔɹpəɹeɪtɪd/
+ink,basic/slang,Commonly used like an honorific suffix for corporations cuz they're treated like people I guess; (colloquially) used like how English uses 'god' in swearing; 'I swear to god' = 'I swear to Inka',company/business/firm/corporation/(colloquially) god,,incorporated,,,,,,English,incorporated,,/ɪŋˈkɔɹpəɹeɪtɪd/
 Inkamur,proper,'land' replaced with 'mur' for clarity,England,,,,,country,,,English,England,,/ˈɪŋɡlənd/
 Inkarixtar,proper,'tar' added for clarity,English,,,,,language,,,English,english,,/ˈɪŋɡlɪʃ/
 Inkatar,slang/proper,informal slang; short form,English,,,,,country,,,Orostara,Inkarixtara,,
@@ -549,7 +549,7 @@ pisor,,,nose,,,,,body,,14,Orostara,pis or,,
 pit,basic,,plant/vegetable,,,,,plant/nature/food,,0,Turkish,bitki,,/bitki/
 pix,basic,,seed,,,,,food/plant/nature,,1,Bangla,বীজ,Bīja,/bidʒ/
 Pohtukesatar,proper,'tar' added for clarity,Portuguese,,,,,language,,,Portuguese,portuguesa,,/poʁ.tuˈɡe.zɐ/
-pok,basic,,mouth,,,,,body,,15,Portuguese,boca,,/ˈbo.kɐ/
+pok,basic,,mouth,(colloquially) suck,,,,body,,15,Portuguese,boca,,/ˈbo.kɐ/
 pon,basic,,four,,4,,,number,,5,Vietnamese,bốn,,[ʔɓon˧˦]
 poner,basic,,,lay/lie down/place/put,,,,,,,Spanish,poner,,/poˈneɾ/
 ponfat,,named for the number of points on the shape,square/rectangle/diamond,,square/rectangular,,,shape,,,Orostara,pon fat,,
@@ -753,7 +753,7 @@ tit,basic,,degree/level/rank/grade/score/quality,rank/score/grade,quality,,,,,,C
 titam,basic,,plan/strategy/design,prepare/plan/get ready,strategic,ready,,,,,Tamil,திட்டம்,Tiṭṭam,/t̪iʈːɐm/
 tix,basic,,volume/amount/limit/liter,,,,,measurement,,,Mandarin Chinese,体积,Tǐjī,/tʰi²¹⁴⁻²¹ t͡ɕi⁵⁵/
 tiy,basic,,monarch/emperor/king/queen/sovereign/god,,,,,fantasy,,,Mandarin Chinese,帝,dì,/ti²¹³/
-tok,basic,,danger/threat,threaten,dangerous/(colloquially) scary/frightening,,,,,,Marathi,धोका,Dhōkā,/d̪ʱoka/
+tok,basic,,danger/warning/threat,warn/caution/threaten,dangerous/(colloquially) scary/frightening,,,,,,Marathi,धोका,Dhōkā,/d̪ʱoka/
 tokar,basic,,surface/outside (of an object)/skin,touch/contact,,,against,,,,Spanish,tocar,,/toˈkaɾ/
 tokpaf,,,fear/fright/nerves,scare,scared/afraid/nervous,,,,,,Orostara,tok paf,,
 tokxif,,,,,scary/frightening,,,,,,Orostara,tok xif,,
@@ -853,7 +853,7 @@ xipxip,basic,,glue,,sticky,,,,,,Urdu,چپچپا,cipcipā,/tʃɪptʃɪpa/
 xir,basic,,white,,white,,,color,,8,Japanese,白,Shiro,[ɕiɾo̞]
 xis,basic,,technology,,technological,technologically,,,,,Wu Chinese,技術,jji-zeq,/d͡ʑi²² zəʔ⁴⁴/
 xisun,basic,,surrender,yield/surrender/give in/give up/concede,,,,,,,Mandarin Chinese,屈從,qūcóng,/t͡ɕʰy⁵⁵ t͡sʰʊŋ³⁵/
-xit,basic/swear,also a swear; not very vulgar; akin to saying 'balls',hole,dig/drill/puncture/stab,,,through,,,,Marathi,छिद्र,Chidra,/tɕʰidɾə/
+xit,basic/swear,also a swear; not very vulgar; akin to saying 'balls',hole/(colloquially) pussy/asshole (anatomical),dig/drill/puncture/stab,,,through,,,,Marathi,छिद्र,Chidra,/tɕʰidɾə/
 xiy,basic,,writing/essay/book/article,write,written,,,,,,Mandarin Chinese,写,Xiě,/ɕi̯ɛ²¹⁴/
 xiyen,basic,,salt,,salty,,,food,,1,Mandarin Chinese,食盐,Shíyán,/ʂʐ̩³⁵ jɛn³⁵/
 xok,basic,,appearance/sight/image/picture,look/see/watch/notice/check/observe,,,,,,,Bangla,চোখ,Cōkha,/tɕokʰ/
@@ -910,3 +910,10 @@ xink,slang/swear,slang swear; might also be from the Spanish 'chinga',(exclamati
 puset,slang/swear,slang swear; more vulgar than 'xit'; can be used to call someone a bottom,hole/fuckhole/pussy/asshole/cunt,fuck,fucking,,,,,,Portuguese,boceta,,/buˈse.tɐ/
 kasetx,slang/swear,slang swear; can be used as a very vulgar way to call someone a top,phallus/dick/cock/clit/strap,fuck/peg,fucking,,,,,,Portuguese,cacete,,/kaˈse.t͡ʃi/
 kays,slang/swear,slang swear; only mildly vulgar,(exclamation) damn,damn,damned/stupid,,,,,,Mandarin Chinese,該死,,/kaɪ̯⁵⁵ sz̩²¹⁴⁻²¹⁽⁴⁾/
+kuey,slang,,adder/snake/oros citizen,,,,,,,,Mandarin Chinese,蝰,,/kʰu̯eɪ̯³⁵/
+axir,basic,,emergency,,urgent,,,,,,Turkish,acil,,/adʒil/
+kimetot,,,,,,how/in what way,,,,,Orostara,kiy metot,,
+topsar,,,assistant,,,,,,,,Orostara,top sar,,
+pienhep,,,stripe ,,striped,,,,,,Orostara,pien hep,,
+pinhep,,,polka dot,,polka dotted/dotted,,,,,,Orostara,pin hep,,
+kueyik,slang,slang,snakelet/minor/young adder/student/child,,,,,,,,Orostara,kuey ik,,
