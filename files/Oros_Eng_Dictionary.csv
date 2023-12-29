@@ -504,7 +504,7 @@ panur,basic,,needle/pin,,,,,,,,Korean,바늘,baneul,[pa̠nɯɭ]
 Panxapitar,proper,'tar' added for clarity,Punjabi,,,,,language,,,Punjabi,ਪੰਜਾਬੀ,Pajābī,/pən.d͡ʒɑː.bːi/
 par,slang,Affectionate honorific suffix that means 'someone who takes care of me',mommy/daddy/big sister/big brother/autie/uncle/etc,,,,,,,,Orostara,,,
 Parasiumur,proper,'mur' added for clarity,Brazil/Federal Republic of Brazil,,,,,country,,,Portuguese,Brasil,,/bɾaˈziw/
-Paratamur,proper,'mur' added for clarity,India/Republic of India,,,,,country,,,Hindi,भारत,bhaarat,/bʱɑː.ɾət̪/
+Paratmur,proper,'mur' added for clarity,India/Republic of India,,,,,country,,,Hindi,भारत,bhaarat,/bʱɑː.ɾət̪/
 Parsakamur,proper,'mur' added for clarity,Poland/Rzeczpospolita Polska/Republic of Poland,,,,,country,,,Polish,Polska,,/ˈpɔl.ska/
 pas,basic,,back/(temporally) next time,,back,backwards,(physically) behind/in back of/last/(temporally) after/next,direction,adv,10,Russian,позади,pozadí,[pəzɐˈdʲi]
 pasek,,future tense marker,future,,,,,,,,Orostara,pak sek,,
@@ -917,10 +917,10 @@ kueyik,slang,slang,snakelet/minor/young adder/student/child,,,,,,,,Orostara,kuey
 sor,basic,,worm,,,,,animal/nature,,,Turkish,solucan,,/soludʒan/
 aran,basic,,spider,,,,,animal/nature,,,Spanish,araña,,/aˈɾaɲa/
 in,basic,,fly,,,,,animal/nature,,,Mandarin Chinese,蠅,yíng,/in⁵⁵/
-huan,basic,,locust/grasshopper/cricket/katydid,,,,,animal/nature,,,Mandarin Chinese,蝗,huáng ,/xu̯ɑŋ³⁵/
+mitut,basic,,locust/grasshopper/cricket/katydid,,,,,animal/nature,,,Telugu,మిడుత,miḍuta,/miɖut̪a/
 eskar,basic,,beetle,,,,,animal/nature,,,Spanish,escarabajo,,/eskaɾaˈbaxo/
 kunson,,,ant/bee/wasp,,,,,animal/nature,,,Orostara,kun son,,
-yenkex,basic,,crab/lobster/crayfish/crustacean,,,,,animal/nature,,,Turkish,yengeç,,[jɛnˈɟɛtʃ]
+panxiy,basic,,crab/lobster/crayfish/crustacean,,,,,animal/nature,,,Mandarin Chinese,螃蟹,pángxiè,/pʰɑŋ³⁵ ɕi̯ɛ⁵¹/
 kur,slang/swear,slang swear,ass,,,,,,,,Spanish,culo,,/ˈkulo/
 kuika,slang,slang; used to refer to the class of kids you were with in school and also the whole 'school' system itself,brood,,,,,,,,Orostara,kueyik kun,,
 kuihaka,slang,slang; kid in the same brood as you,,,,,,,,,Orostara,kuik hak,,
@@ -937,3 +937,11 @@ payney,,,,,pregnant,,,,,,Orostara,pay ney,,
 Fetox,proper,inspired by the Roman god of punishment in the underworld ,Orcus,,,,,space,,18,Orostara,fet hox,,
 Xiyenox,proper,inspired by the Roman goddess of salt water ,Salacia,,,,,space,,20,Orostara,xiyen ox,,
 hux,basic,,sheen,shine/glitter/reflect/glint,shiny/glittery/reflective,,,,,,Mandarin Chinese,闪耀,hūshǎn,/xu⁵⁵ ʂän²¹⁴⁻²¹⁽⁴⁾/
+sakus,basic,,plastic/rubber/gum/resin/shellac,,,,,,,,Turkish,sakız,,[s̟ɑ.kʰɯz̟]
+sakusafux,,,polyester/polyester fabric,,,,,,,,Orostara,sakus fux,,
+hanamkaper,,the fiber,wool,,,,,,,,Orostara,hanam kaper,,
+apit,,the fiber,cotton,,,,,,,,Orostara,ap pit,,
+katan,,the fabric,linen,,,,,,,,Arabic,كتان,kattān,/kat.taːn/
+apitifux,,,cotton/cotton fabric,,,,,,,,Orostara,apit fux,,
+katanfux,,the fiber,flax/hemp,,,,,,,,Orostara,katan fux,,
+hanamkaperfux,,,wool fabric,,,,,,,,Orostara,hanam kaper fux,,
