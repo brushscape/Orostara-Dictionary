@@ -1,25 +1,70 @@
 /* jshint esversion: 8 */
 
 //var localFilePath = 'files/Oros_Eng_Dictionary.csv';
-var filePath = 'https://raw.githubusercontent.com/brushscape/Orostara-Dictionary/main/files/Oros_Eng_Dictionary.csv';
+var filePath =
+  "https://raw.githubusercontent.com/brushscape/Orostara-Dictionary/main/files/Oros_Eng_Dictionary.csv";
 var langBreakdown = [];
 var numWords = 0;
 var properNouns = [];
-var idealBreakdown = { 'Mandarin Chinese': 22.28, 'Spanish': 11.5, 'English': 9.03, 'Hindi': 5.67, 'Bangla': 5.67, 'Portuguese': 5.62, 'Russian': 3.73, 'Japanese': 3.03, 'Cantonese': 2.06, 'Vietnamese': 2.05, 'Marathi': 2.01, 'Telugu': 2, 'Turkish': 1.99, 'Wu Chinese': 1.98, 'Korean': 1.98, 'French': 1.93, 'Tamil': 1.9, 'German': 1.83, 'Arabic': 1.81, 'Urdu': 1.7, 'Javanese': 1.65, 'Punjabi': 1.61, 'Italian': 1.57, 'Gujarati': 1.38, 'Farsi': 1.37 };
-var alph = ['i', 'e', 'a', 'o', 'u', 'm', 'n', 'p', 't', 'k', 'f', 's', 'x', 'h', 'r', 'y'];
+var idealBreakdownNum = {
+  "Mandarin Chinese": 113,
+  Spanish: 58,
+  English: 46,
+  Hindi: 42,
+  Bangla: 28,
+  Portuguese: 28,
+  Russian: 18,
+  Japanese: 15,
+  Cantonese: 10,
+  Vietnamese: 10,
+  Marathi: 10,
+  Telugu: 10,
+  Turkish: 10,
+  "Wu Chinese": 10,
+  Korean: 10,
+  French: 10,
+  Tamil: 9,
+  German: 8,
+  Arabic: 9,
+  Urdu: 8,
+  Javanese: 8,
+  Punjabi: 8,
+  Italian: 8,
+  Gujarati: 7,
+  Farsi: 7,
+};
+
+var alph = [
+  "i",
+  "e",
+  "a",
+  "o",
+  "u",
+  "m",
+  "n",
+  "p",
+  "t",
+  "k",
+  "f",
+  "s",
+  "x",
+  "h",
+  "r",
+  "y",
+];
 
 function readCSVFile() {
-  $.get(filePath, function(csvdata) {
-    var rowData = csvdata.split('\n');
-    var colHeaders = rowData[0].split(',');
-
+  $.get(filePath, function (csvdata) {
+    var rowData = csvdata.split("\n");
+    var colHeaders = rowData[0].split(",");
 
     for (var row = 1; row < rowData.length; row++) {
-      var rowColData = rowData[row].split(',');
+      var rowColData = rowData[row].split(",");
       var rowObj = {};
       for (var col = 0; col < rowColData.length - 1; col++) {
-        if (rowColData[col].search('/') != -1) {
-          rowObj[colHeaders[col].replace(/\s/g, "")] = rowColData[col].split('/');
+        if (rowColData[col].search("/") != -1) {
+          rowObj[colHeaders[col].replace(/\s/g, "")] =
+            rowColData[col].split("/");
         } else {
           rowObj[colHeaders[col].replace(/\s/g, "")] = rowColData[col];
         }
@@ -28,7 +73,12 @@ function readCSVFile() {
       //alphabetize as we go
       var placed = false;
       for (var i = 0; i < orosDict.length; i++) {
-        if (isAlphOrdered(rowObj.Orostara.toLowerCase(), orosDict[i].Orostara.toLowerCase())) {
+        if (
+          isAlphOrdered(
+            rowObj.Orostara.toLowerCase(),
+            orosDict[i].Orostara.toLowerCase(),
+          )
+        ) {
           orosDict.splice(i, 0, rowObj);
           placed = true;
           break;
@@ -38,13 +88,12 @@ function readCSVFile() {
         orosDict.push(rowObj);
       }
 
-
-      if (rowObj.Type == 'proper') {
+      if (rowObj.Type == "proper") {
         properNouns.push(rowObj.Orostara);
       }
 
       //just to show the language breakdown in the console
-      if (rowObj.RootLanguage != 'Orostara' && rowObj.Type != 'proper') {
+      if (rowObj.RootLanguage != "Orostara" && rowObj.Type != "proper") {
         numWords++;
         var el = getCorrectLang(rowObj.RootLanguage);
         if (el != -1) {
@@ -54,7 +103,11 @@ function readCSVFile() {
           var num = (count / numWords) * 100;
           langBreakdown[el].Percent = num.toFixed(2);
         } else {
-          var newEl = { Lang: rowObj.RootLanguage, Count: 1, Percent: (1 / numWords) * 100 };
+          var newEl = {
+            Lang: rowObj.RootLanguage,
+            Count: 1,
+            Percent: (1 / numWords) * 100,
+          };
           langBreakdown.push(newEl);
         }
       }
@@ -68,16 +121,32 @@ function readCSVFile() {
 function langAnalysis() {
   for (var i = 0; i < langBreakdown.length; i++) {
     var el = langBreakdown[i];
-    if (idealBreakdown.hasOwnProperty(el.Lang)) {
-      var diff = el.Percent - idealBreakdown[el.Lang];
-      el.Diff = diff.toFixed(2);
+    if (idealBreakdownNum.hasOwnProperty(el.Lang)) {
+      el.Diff = idealBreakdownNum[el.Lang] - el.Count;
     }
     if (el.Diff >= 0) {
-      //console.log(el.Count + " " + el.Lang + ": " + el.Percent + " (" + el.Diff + " too much)");
+      console.log(
+        el.Count +
+          "/" +
+          idealBreakdownNum[el.Lang] +
+          " " +
+          el.Lang +
+          " ( ADD " +
+          el.Diff +
+          " )",
+      );
     } else {
-      console.log(el.Count + " " + el.Lang + ": " + el.Percent + " (Add " + (el.Diff * (-1)) + ")");
+      console.log(
+        el.Count +
+          "/" +
+          idealBreakdownNum[el.Lang] +
+          " " +
+          el.Lang +
+          " ( SUB " +
+          el.Diff * -1 +
+          " )",
+      );
     }
-
   }
 }
 
@@ -100,7 +169,8 @@ function alphabetizeArr(arr) {
     } else {
       return [arr[1], arr[0]];
     }
-  } else { //length is greater than 2
+  } else {
+    //length is greater than 2
     var first = arr.shift();
     var sorted = alphabetizeArr(arr);
     for (var i = 0; i < sorted.length; i++) {
@@ -123,7 +193,7 @@ function isAlphOrdered(el1, el2) {
     var el2Let = el2.charAt(i);
     if (alph.indexOf(el1Let) != alph.indexOf(el2Let)) {
       return alph.indexOf(el1Let) < alph.indexOf(el2Let);
-    }//else keep checking
+    } //else keep checking
   }
 
   //definitely identical to a point, but one may be longer than the other
