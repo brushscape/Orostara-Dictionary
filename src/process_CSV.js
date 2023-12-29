@@ -7,13 +7,13 @@ var langBreakdown = [];
 var numWords = 0;
 var properNouns = [];
 var idealBreakdownNum = {
-  "Mandarin Chinese": 113,
-  Spanish: 58,
-  English: 46,
+  "Mandarin Chinese": 111,
+  Spanish: 57,
+  English: 45,
   Hindi: 42,
   Bangla: 28,
   Portuguese: 28,
-  Russian: 18,
+  Russian: 17,
   Japanese: 15,
   Cantonese: 10,
   Vietnamese: 10,
@@ -93,20 +93,21 @@ function readCSVFile() {
       }
 
       //just to show the language breakdown in the console
-      if (rowObj.RootLanguage != "Orostara" && rowObj.Type != "proper") {
+      if (
+        rowObj.Type == "basic" ||
+        rowObj.Type == "basic/slang" ||
+        rowObj.Type == "basic/swear"
+      ) {
         numWords++;
         var el = getCorrectLang(rowObj.RootLanguage);
         if (el != -1) {
           var count = langBreakdown[el].Count;
           count++;
           langBreakdown[el].Count = count;
-          var num = (count / numWords) * 100;
-          langBreakdown[el].Percent = num.toFixed(2);
         } else {
           var newEl = {
             Lang: rowObj.RootLanguage,
             Count: 1,
-            Percent: (1 / numWords) * 100,
           };
           langBreakdown.push(newEl);
         }

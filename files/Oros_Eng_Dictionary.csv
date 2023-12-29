@@ -74,7 +74,7 @@ ey,basic,Interjection to get somone's attention,,,,,hey,,,,Tamil,ஏய்,Ēy,/
 Fahasamur,proper,'mur' added for clarity,France,,,,,country,,,French,France,,/fʁɑ̃s/
 Fahasetar,proper,'tar' added for clarity,French,,,,,language,,,French,français,,/fʁɑ̃.sɛ/
 fak,basic,,judgement,judge,judgy ,,,,,,Mandarin Chinese,法官,Fǎguān,/fä²¹⁴⁻²¹ ku̯än⁵⁵/
-fam,basic,,family,,,,,,,,German,Familie,,/faˈmiːli̯ə/
+fam,basic,,family,,,,,,,,Portuguese,família,,/faˈmi.li.ɐ/
 fan,basic,,yellow,,yellow,,,color,,3,Vietnamese,vàng,,[vaːŋ˨˩]
 fanin,basic,,reaction/response/answer,react/respond/reply/answer,reactive/responsive,responsively,,,,,Mandarin Chinese,反应,Fǎnyìng,/fän²¹⁴ iŋ⁴/
 fap,basic,,price/bill/invoice/cost/receipt,charge,,,,,,,Mandarin Chinese,发票,Fāpiào,/fä⁵⁵ pʰi̯ɑʊ̯⁵¹/
@@ -106,7 +106,7 @@ fixif,,,,,stuck up/snobish/superior,,,,,,Orostara,fix xif,,
 fixisisan,,time of year,summer,,,,,,,,Orostara,fix sisan,,
 fixter,,,mountain,,,,,nature,,,Orostara,fix ter,,
 foh,basic,,strength/force,push/shove/pull,strong/forceful,strongly/forcefully,,measurement,,,Portuguese,força,,/ˈfoʁ.sɐ/
-fok,basic,,bird,,,,,animal/nature,,,German,Vogel,,/ˈfoːɡəl/
+pasar,basic,,bird,,,,,animal/nature,,,Portuguese,pássaro,,/ˈpa.sɐ.ɾu/
 for,basic,,,officiate,official/formal/serious,officially/formally/seriously,,,,,Spanish,formal,,/foɾˈmal/
 fuak,basic,,fire,burn,firey,,,,,6,Italian,fuoco,,/ˈfwɔ.ko/
 fuis,basic,,gray,,grey/(colloquially) dismal/dull,,,color,,9,Cantonese,灰色,fui sik,/fuːi̯⁵⁵ sɪk̚⁵/
@@ -155,7 +155,7 @@ haypien,,,coast/shore/beach,,,,,nature,,,Orostara,hay pien,,
 hef,basic,Mostly used as an honorific suffix,Executive/CEO,,,,,,,,Spanish,chefe,,/ˈxefe/
 hek,basic,,meal/food,eat,,,,food,,,Cantonese,吃,hek,/hɛːk̚³/
 hekor,,,stomach,,,,,body,,29,Orostara,hek or,eat organ,
-hekrur,,,intestines,,,,,body,,30,Orostara,hek rur,food tube,
+hekatup,,,intestines,,,,,body,,30,Orostara,hek tup,food tube,
 hep,basic,,repetition/pattern,repeat/copy/duplicate,repetitive,repetitively/again,,,,,Portuguese,repetir,,/ʁe.peˈt͡ʃi(ʁ)/
 hepot,,in terms of movement; return to here,,return,,,,,,,Orostara,hep ot,,
 hepixan,,in terms of movement; return to a place away from here ,,return,,,,,,,Orostara,hep xan,,
@@ -234,7 +234,7 @@ kaf,basic,,wish,want/desire,desireable,,,,,,Telugu,కావాలి,Kāvāli,/
 kafit,basic,,poem/poetry/verse,,poetic,,,,,,Hindi,कविता,kavita,/kə.ʋɪ.t̪ɑː/
 kak,basic/swear,only slightly vulgar when used as a swear,excriment/(colloquially) shit,poop,,,,body,,63,Spanish,caca,,/ˈkaka/
 kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,,,Javanese,kaget,,[ˈkaɡɛt̚]
-kakrur,,,rectum,,,,,body,,31,Orostara,kak rur,poop tube,
+kak tup,,,rectum,,,,,body,,31,Orostara,kak tup,poop tube,
 kam,basic,,job/employment/work/task,work/labor/employ/hire,busy,,,,,,Hindi,काम,kaam,/kɑːm/
 kamar,basic,,camera,,,,,,,,English,camera,,/ˈkæməɹə/
 kamin,basic,,path/street/trail/road/way,,,,,,,,Spanish,camino,,/kaˈmino/
@@ -388,7 +388,7 @@ mix,basic,,mixture/solution,mix,mixed,,,,,,Bangla,মিশ্রণ,Miśraṇa,
 miy,basic,,grain,,,,,food,,,Mandarin Chinese,米,Mǐ,/mi²¹⁴/
 mm,,,,,,,Mmhm,,,,Orostara,Am,Yes,
 mok,basic,,neck/throat,swallow,,,,body,,19,Korean,목,mog,[mo̞k̚]
-mokrur,,,esophogus ,,,,,body,,20,Orostara,mok rur,throat tube,
+mokatup,,,esophogus ,,,,,body,,20,Orostara,mok tup,throat tube,
 mon,basic,,month,,,,,,,,German,Monat,,/ˈmoːnat/
 monot,,pair with 'sek',future month,,,,,,,,Orostara,mon ot,,
 monxan,,pair with 'sek',past month,,,,,,,,Orostara,mon xan,,
@@ -404,7 +404,7 @@ mur,basic,,country/nation/federation,,federal,federally,,,,,Urdu,ملک,mulk,/m�
 Musampikimur,proper,'mur' added for clarity,Mozambique/Republic of Mozambique,,,,,country,,,Portuguese,Moçambique,,/mu.sɐ̃ˈbi.kɨ/
 mut,basic,,purpose/mission/objective/task/goal/achievement/victory/success,achieve/reach/win/succeed/beat/conquer,purposeful/successful,purposefully,for,,,,Mandarin Chinese,目的,Mùdì,/mu⁵¹⁻⁵³ ti⁵¹/
 mutar,basic,,urine,pee,,,,body,,62,Marathi,मूत्र,Mūtra,/mut̪.ɾə/
-mutarur,,,urethra,,,,,body,,33,Orostara,mutar rur,,
+mutartup,,,urethra,,,,,body,,33,Orostara,mutar tup,,
 mutakarim,,,preposition/particle,,,,,,,,Orostara,mut karim,purpose word,
 mux,basic,Mostly used as an honorific suffix,director/supervisor,,,,,,,,Arabic,مُشْرِف,mušrif,/muʃrif/
 naf,slang,slang; short form; quick way to say something is not belonging to someone or that they don’t have something,,,,,not of,,,,Orostara,nahaf,,
@@ -567,7 +567,7 @@ rais,basic,,vehicle,drive,,,,,,,Vietnamese,lái xe,,[laːj˧˦ sɛ˧˧]
 rak,basic,,blood,bleed,bloody,,,body,,59,Marathi,रक्त,Rakta,/ɾək.t̪ə/
 rakor,,,heart,,,,,body,,28,Orostara,rak or,blood organ,
 Rakox,proper,inspired by মঙ্গল or Mangala who is a Hindu god of war ,Mars,,,,,space,,12,Orostara,rak hox,blood planet,
-rakrur,,,artery/vein,,,,,body,,4,Orostara,rak rur,blood tube,
+rakatup,,,artery/vein,,,,,body,,4,Orostara,rak tup,blood tube,
 rakaxas,basic,,monster/demon,,monsterous,monsterously,,fantasy,,,Hindi,राक्षस,Rākṣasa,/ɾɑːk.ʂəs/
 ram,basic,,branch/stick,split,,,,plant/nature,,4,Spanish,rama,,/ˈrama/
 ran,basic,,color/shade/tone,,colorful/vivid/saturated,,,color,,0,Hindi,रंग,rang,/ɾəŋɡ/
@@ -603,7 +603,7 @@ rukafat,,named for the number of points on the shape,hexagon,,hexagonal,,,shape,
 rukatix,,named for the number of faces on the object,cube/rectangular prism/box,,cubic/rectangular,,,shape,,,Orostara,ruk tix,,
 rum,basic,,room,,,,,,,,English,room,,/ɹum/
 run,basic,,moon,,,,,space,,3,Spanish,luna,,/ˈluna/
-rur,basic,,tube/pipe/straw,,,,,,,,Farsi,لوله,lule,/luːˈlæ/
+tup,basic,,tube/pipe/straw,,,,,,,,Portuguese,tubo,,/ˈtu.bu/
 Ruskitar,proper,ком replaced with 'tar',Russian,,,,,language,,,Russian,русский,russki,[ˈruskʲɪj]
 rut,basic,,bread,,,,,food,,,Bangla,রুটি,ruṭi,/ruʈi
 rux,basic,,horn/antler,,,,,body,,11,Mandarin Chinese,鹿角,Lùjiǎo,/lu⁵¹ t͡ɕi̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -804,7 +804,6 @@ utar,basic,,north,,north,north,,direction,adv,1,Hindi,उत्तर,uttar,/ʊt
 utaper,,,shoulder,,,,,body,,45,Orostara,ut per,,
 utaxot,,,elbow,,,,,body,,48,Orostara,ut xot,,
 x,slang,slang; informal,you,,your/yours/their/theirs,,,,,,Orostara,jeh,,
-xaf,basic,,sweat,sweat,sweaty,,,body,,60,German,Schweiß,,/ʃvaɪ̯s/
 xak,basic,,force/power/authority/newton,force/make/influence/coerce/enforce,forceful/powerful,forcefully/powerfully,,,,,Hindi,शक्ति,shakti,/ʃək.t̪iː/
 xakaxif,,,confidence,,confident,confidently,,,,,Orostara,xak xif,,
 xam,basic,,sex,have sex,sexual/hot,sexually,,,,72,Arabic,جماع,jimâ,/d͡ʒaː.ma.ʕa/
@@ -891,7 +890,7 @@ yet,basic,,,read,,,,,,,Mandarin Chinese,阅读,Yuèdú,/ɥɛ⁵¹ tu³⁵/
 yin,basic,,,allow/let/permit/tolerate/invite,,,,,,,Mandarin Chinese,允许,Yǔnxǔ,/yn²¹⁴⁻³⁵ ɕy²¹⁴⁻²¹⁽⁴⁾/
 yix,basic,,probability/expectation/odds/frequency/rate,expect/predict,probable/likely/expected/common/general/regular/standard/usual/frequent/often,probably/commonly/generally/usually/frequently/often/regularly,,measurement,,,Mandarin Chinese,预计,Yùjì,/y⁵¹⁻⁵³ t͡ɕi⁵¹/
 yon,basic,,vulva,,,,,body,,37,Hindi,योनी,yonee,/joː.niː/
-yonrur,,,vagina,,,,,body,,41,Orostara,yon rur,vulva tube,
+yontup,,,vagina,,,,,body,,41,Orostara,yon tup,vulva tube,
 yor,basic,,tear,cry,,,,body,,61,Spanish,llorar,,/ʝoˈɾaɾ/
 yoy,basic,,grace,,graceful,,,,,,Mandarin Chinese,优雅,Yōuyǎ,/joʊ̯⁵⁵ jä²¹⁴⁻²¹⁽⁴⁾/
 yuk,basic,,itch,irritate/bother,itchy/irritating/bothersome/(slang) annoying,,,body,,,German,jucken,,/ˈjʊkən/
@@ -945,3 +944,5 @@ katan,,the fabric,linen,,,,,,,,Arabic,كتان,kattān,/kat.taːn/
 apitifux,,,cotton/cotton fabric,,,,,,,,Orostara,apit fux,,
 katanfux,,the fiber,flax/hemp,,,,,,,,Orostara,katan fux,,
 hanamkexafux,,,wool fabric,,,,,,,,Orostara,hanam kex fux,,
+poknit,,,saliva,,,,,,,,Orostara,pok nit,,
+tokarnit,,,sweat,,,,,,,,Orostara,tokar nit,,
