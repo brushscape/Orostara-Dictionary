@@ -1,21 +1,21 @@
-.wordDefContainer{
-  display: none;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: left;
+.wordDefContainer {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
 }
 
-.wordDef{
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  margin-left: var(--hugehuge);
-  margin-top: var(--large);
-  margin-bottom: var(--large);
+.wordDef {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: var(--hugehuge);
+    margin-top: var(--large);
+    margin-bottom: var(--large);
 }
 
-.wordOriginContain{
+.wordOriginContain {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -23,12 +23,12 @@
     margin-bottom: var(--minimini);
 }
 
-.word{
+.word {
     font-size: var(--hugehuge);
     font-weight: bold;
 }
 
-.etym{
+.etym {
     font-size: var(--mini);
     color: DarkGrey;
     margin-left: var(--mini);
@@ -38,68 +38,67 @@
     align-items: center;
 }
 
-.def{
+.def {
     display: flex;
     flex-direction: column;
     font-size: var(--small);
     margin-bottom: var(--minimini);
 }
 
-.notes{
+.notes {
     font-size: var(--mini);
     color: Grey;
 }
 
-.spacer{
+.spacer {
     margin-top: var(--midSize);
 }
 
-.conj{
+.conj {
     display: flex;
     flex-direciton: row;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
-.marker{
+.marker {
     font-size: var(--mini);
     color: SlateGrey;
-    margin-bottom: calc(1px + 0.1vw);
+    margin-top: calc(var(--midSize) - var(--mini));
+    margin-left: var(--minimini);
+    margin-right: var(--mini);
 }
 
-.wordList{
+.wordList {
     font-size: var(--small);
-    margin-left: var(--mini);
-    margin-bottom: calc(0.5px + 0.1vw);
 }
 
-.extraWordDefs{
+.extraWordDefs {
     width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
 
-.conjContain{
-  display: flex;
-  flex-direction: row;
+.conjContain {
+    display: flex;
+    flex-direction: row;
 }
 
-.orosLinkWord{
-  color: var(--darkdark2);
-  text-decoration: underline;
-  border-radius: 15px;
-  padding: 0 5px 5px 5px;
+.orosLinkWord {
+    color: var(--darkdark2);
+    text-decoration: underline;
+    border-radius: 15px;
+    padding: 0 5px 5px 5px;
 }
 
-.orosLinkWord:hover{
-  color: var(--dark2);
-  cursor: default;
-  background-color: var(--lightlight2);
-
+.orosLinkWord:hover {
+    color: var(--dark2);
+    cursor: default;
+    background-color: var(--lightlight2);
 }
 
-.line{
+.line {
     color: var(--white);
     width: 100%;
 }

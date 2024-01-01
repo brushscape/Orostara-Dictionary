@@ -125,7 +125,7 @@ function langAnalysis() {
     if (idealBreakdownNum.hasOwnProperty(el.Lang)) {
       el.Diff = idealBreakdownNum[el.Lang] - el.Count;
     }
-    if (el.Diff >= 0) {
+    if (el.Diff > 0) {
       console.log(
         el.Count +
           "/" +
@@ -136,17 +136,26 @@ function langAnalysis() {
           el.Diff +
           " )",
       );
+    } else if (el.Diff < 0) {
+      // console.log(
+      //   el.Count +
+      //     "/" +
+      //     idealBreakdownNum[el.Lang] +
+      //     " " +
+      //     el.Lang +
+      //     " ( SUB " +
+      //     el.Diff * -1 +
+      //     " )",
+      // );
     } else {
-      console.log(
-        el.Count +
-          "/" +
-          idealBreakdownNum[el.Lang] +
-          " " +
-          el.Lang +
-          " ( SUB " +
-          el.Diff * -1 +
-          " )",
-      );
+      // console.log(
+      //   el.Count +
+      //     "/" +
+      //     idealBreakdownNum[el.Lang] +
+      //     " " +
+      //     el.Lang +
+      //     " ( Nice B) )",
+      // );
     }
   }
 }

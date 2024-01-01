@@ -4,39 +4,42 @@ var orosDict = [];
 var currLinkNum = 0;
 
 function clearPage() {
-  document.getElementById('notFoundEng').style.display = 'none';
-  document.getElementById('notFoundOros').style.display = 'none';
-  document.getElementById('wordDefContainer').style.display = 'none';
-  document.getElementById('extraWordDefs').innerHTML = "";
+  document.getElementById("notFoundEng").style.display = "none";
+  document.getElementById("notFoundOros").style.display = "none";
+  document.getElementById("wordDefContainer").style.display = "none";
+  document.getElementById("extraWordDefs").innerHTML = "";
   currLinkNum = 0;
 }
 
 function setupButtons() {
-  $('#searchBar').keyup(function(event) {
-    if (event.which == 13) {//if enter key
+  $("#searchBar").keyup(function (event) {
+    if (event.which == 13) {
+      //if enter key
       translateClicked();
       this.select();
       event.preventDefault();
     }
   });
 
-  $('#searchBar').focus(function(event) {
+  $("#searchBar").focus(function (event) {
     this.select();
   });
 
-  $('#langSelect').click(function(event) {
-    if (this.innerHTML == 'Orostara') {
-      this.innerHTML = 'English';
+  $("#langSelect").click(function (event) {
+    if (this.innerHTML == "Orostara") {
+      this.innerHTML = "English";
     } else {
-      this.innerHTML = 'Orostara';
+      this.innerHTML = "Orostara";
     }
-    document.getElementById('searchBar').select();
+    document.getElementById("searchBar").select();
   });
 }
 
 function translateClicked() {
-  var searchedWord = cleanupTextInput(document.getElementById('searchBar').value);
-  if (document.getElementById('langSelect').innerHTML == 'Orostara') {
+  var searchedWord = cleanupTextInput(
+    document.getElementById("searchBar").value,
+  );
+  if (document.getElementById("langSelect").innerHTML == "Orostara") {
     orosClick(searchedWord);
   } else {
     engClick(searchedWord);
@@ -45,11 +48,11 @@ function translateClicked() {
 
 function cleanupTextInput(input) {
   //cleanup whitespace as front
-  while (input.length > 0 && input.charAt(0) == ' ') {
+  while (input.length > 0 && input.charAt(0) == " ") {
     input = input.substring(1);
   }
   //cleanup whitespace at back
-  while (input.length > 0 && input.charAt(input.length - 1) == ' ') {
+  while (input.length > 0 && input.charAt(input.length - 1) == " ") {
     input = input.substring(0, input.length - 1);
   }
   return input.toLowerCase();
@@ -60,8 +63,8 @@ function displayEntryArry(entryArr, searchedTerm) {
 
   if (entryArr.length != 1) {
     for (var i = 1; i < entryArr.length; i++) {
-      var originDef = document.getElementById('wordDef');
-      var extraContainer = document.getElementById('extraWordDefs');
+      var originDef = document.getElementById("wordDef");
+      var extraContainer = document.getElementById("extraWordDefs");
 
       var newDef = originDef.cloneNode(true);
       displayEntry(entryArr[i], searchedTerm, false, newDef);
@@ -72,9 +75,9 @@ function displayEntryArry(entryArr, searchedTerm) {
 }
 
 function createLine() {
-  var el = document.createElement('hr');
-  el.id = 'line';
-  el.className = 'line';
+  var el = document.createElement("hr");
+  el.id = "line";
+  el.className = "line";
 
   return el;
 }
@@ -86,88 +89,96 @@ function displayEntry(entry, searchedTerm, only, el) {
   var wordDefEl;
   // in case there's going to be more than one definition displayed
   if (only) {
-    wordDefEl = document.getElementById('wordDef');
+    wordDefEl = document.getElementById("wordDef");
   } else {
     wordDefEl = el;
   }
   var childEl;
 
-  getChildElement(wordDefEl, 'word').innerHTML = entry.Orostara;
+  getChildElement(wordDefEl, "word").innerHTML = entry.Orostara;
 
-  getChildElement(wordDefEl, 'etym').innerHTML = 'from&nbsp;' + displayRootWord(entry.RLWord, entry.RootLanguage) + '&nbsp;in ' + entry.RootLanguage;
+  getChildElement(wordDefEl, "etym").innerHTML =
+    "from&nbsp;" +
+    displayRootWord(entry.RLWord, entry.RootLanguage) +
+    "&nbsp;in " +
+    entry.RootLanguage;
 
   // display Notes and Other in the same section right under the word definition
   var shown = false;
-  var childEl = getChildElement(wordDefEl, 'def');
-  if (entry.Other == '') {
-    getChildElement(childEl, 'other').style.display = 'none';
+  var childEl = getChildElement(wordDefEl, "def");
+  if (entry.Other == "") {
+    getChildElement(childEl, "other").style.display = "none";
   } else {
     shown = true;
-    getChildElement(childEl, 'other').innerHTML = displayWordList(entry.Other, searchedTerm, true);
-    getChildElement(childEl, 'other').style.display = 'flex';
+    getChildElement(childEl, "other").innerHTML = displayWordList(
+      entry.Other,
+      searchedTerm,
+      true,
+    );
+    getChildElement(childEl, "other").style.display = "flex";
   }
 
-  if (entry.Notes == '') {
-    getChildElement(childEl, 'notes').style.display = 'none';
+  if (entry.Notes == "") {
+    getChildElement(childEl, "notes").style.display = "none";
   } else {
-    var notesEl = getChildElement(childEl, 'notes');
-    notesEl.innerHTML = '*' + processNote(entry.Notes);
-    notesEl.style.display = 'flex';
-    if (shown && !notesEl.classList.contains('spacer')) {
-      notesEl.classList.add('spacer');
-    } else if (!shown && notesEl.classList.contains('spacer')) {
-      notesEl.classList.remove('spacer');
+    var notesEl = getChildElement(childEl, "notes");
+    notesEl.innerHTML = "*" + processNote(entry.Notes);
+    notesEl.style.display = "flex";
+    if (shown && !notesEl.classList.contains("spacer")) {
+      notesEl.classList.add("spacer");
+    } else if (!shown && notesEl.classList.contains("spacer")) {
+      notesEl.classList.remove("spacer");
     }
     shown = true;
   }
 
   if (shown) {
-    childEl.style.display = 'flex';
+    childEl.style.display = "flex";
   } else {
-    childEl.style.display = 'none';
+    childEl.style.display = "none";
   }
 
-  if (entry.Nouns == '') {
-    getChildElement(wordDefEl, 'nounContain').style.display = 'none';
+  if (entry.Nouns == "") {
+    getChildElement(wordDefEl, "nounContain").style.display = "none";
   } else {
-    childEl = getChildElement(wordDefEl, 'noun');
-    childEl.innerHTML = '<b>' + entry.Orostara + 'a </b>&nbsp;';
-    childEl = getChildElement(wordDefEl, 'nounFill');
-    childEl.innerHTML = '&nbsp;&nbsp;' + displayWordList(entry.Nouns, searchedTerm, true);
-    getChildElement(wordDefEl, 'nounContain').style.display = 'flex';
+    childEl = getChildElement(wordDefEl, "noun");
+    childEl.innerHTML = "<b>" + entry.Orostara + "a </b>";
+    childEl = getChildElement(wordDefEl, "nounFill");
+    childEl.innerHTML = displayWordList(entry.Nouns, searchedTerm, true);
+    getChildElement(wordDefEl, "nounContain").style.display = "flex";
   }
 
-  if (entry.Verbs == '') {
-    getChildElement(wordDefEl, 'verbContain').style.display = 'none';
+  if (entry.Verbs == "") {
+    getChildElement(wordDefEl, "verbContain").style.display = "none";
   } else {
-    childEl = getChildElement(wordDefEl, 'verb');
-    childEl.innerHTML = '<b>' + entry.Orostara + 'o </b>&nbsp;';
-    childEl = getChildElement(wordDefEl, 'verbFill');
-    childEl.innerHTML = '&nbsp;&nbsp;' + displayWordList(entry.Verbs, searchedTerm, true);
-    getChildElement(wordDefEl, 'verbContain').style.display = 'flex';
+    childEl = getChildElement(wordDefEl, "verb");
+    childEl.innerHTML = "<b>" + entry.Orostara + "o </b>";
+    childEl = getChildElement(wordDefEl, "verbFill");
+    childEl.innerHTML = displayWordList(entry.Verbs, searchedTerm, true);
+    getChildElement(wordDefEl, "verbContain").style.display = "flex";
   }
 
-  if (entry.Adjectives == '') {
-    getChildElement(wordDefEl, 'adjContain').style.display = 'none';
+  if (entry.Adjectives == "") {
+    getChildElement(wordDefEl, "adjContain").style.display = "none";
   } else {
-    childEl = getChildElement(wordDefEl, 'adj');
-    childEl.innerHTML = '<b>' + entry.Orostara + 'i </b>&nbsp;';
-    childEl = getChildElement(wordDefEl, 'adjFill');
-    childEl.innerHTML = '&nbsp;&nbsp;' + displayWordList(entry.Adjectives, searchedTerm, true);
-    getChildElement(wordDefEl, 'adjContain').style.display = 'flex';
+    childEl = getChildElement(wordDefEl, "adj");
+    childEl.innerHTML = "<b>" + entry.Orostara + "i </b>";
+    childEl = getChildElement(wordDefEl, "adjFill");
+    childEl.innerHTML = displayWordList(entry.Adjectives, searchedTerm, true);
+    getChildElement(wordDefEl, "adjContain").style.display = "flex";
   }
 
-  if (entry.Adverbs == '') {
-    getChildElement(wordDefEl, 'advContain').style.display = 'none';
+  if (entry.Adverbs == "") {
+    getChildElement(wordDefEl, "advContain").style.display = "none";
   } else {
-    childEl = getChildElement(wordDefEl, 'adv');
-    childEl.innerHTML = '<b>' + entry.Orostara + 'e </b>&nbsp;';
-    childEl = getChildElement(wordDefEl, 'advFill');
-    childEl.innerHTML = '&nbsp;&nbsp;' + displayWordList(entry.Adverbs, searchedTerm, true);
-    getChildElement(wordDefEl, 'advContain').style.display = 'flex';
+    childEl = getChildElement(wordDefEl, "adv");
+    childEl.innerHTML = "<b>" + entry.Orostara + "e </b>";
+    childEl = getChildElement(wordDefEl, "advFill");
+    childEl.innerHTML = displayWordList(entry.Adverbs, searchedTerm, true);
+    getChildElement(wordDefEl, "advContain").style.display = "flex";
   }
 
-  document.getElementById('wordDefContainer').style.display = 'flex';
+  document.getElementById("wordDefContainer").style.display = "flex";
 }
 
 function processNote(text) {
@@ -184,7 +195,8 @@ function processNote(text) {
     var back = tempBack.substring(index2 + 1);
 
     var link = returnLink(word);
-    if (link == word) { // word was not a Orostara word
+    if (link == word) {
+      // word was not a Orostara word
       var temp = str;
       str = temp.substring(0, index + index2 + 2) + processNote(back);
     } else {
@@ -195,25 +207,34 @@ function processNote(text) {
 }
 
 function displayRootWord(word, lang) {
-  var italics = ["English", "Spanish", "French", "Italian", "Portuguese", "Javanese", "Vietnamese", "German", "Latin"];
+  var italics = [
+    "English",
+    "Spanish",
+    "French",
+    "Italian",
+    "Portuguese",
+    "Javanese",
+    "Vietnamese",
+    "German",
+    "Latin",
+  ];
 
   if (italics.indexOf(lang) != -1) {
     return "<i>" + word.toLowerCase() + "</i>";
   } else if (lang == "Orostara") {
     var word1 = cleanupTextInput(word);
-    var arr = word1.split(' ');
-    var str = '';
+    var arr = word1.split(" ");
+    var str = "";
     for (var i = 0; i < arr.length; i++) {
       str += returnLink(arr[i]);
       if (i < arr.length - 1) {
-        str += "&nbsp;and&nbsp;";
+        str += " and ";
       }
     }
     return str;
   } else {
     return word.toLowerCase();
   }
-
 }
 
 function gotoLinkWord(num) {
@@ -224,18 +245,24 @@ function gotoLinkWord(num) {
 function gotoWord(word) {
   clearPage();
   var entry = searchOros(word);
-  displayEntryArry(entry, '');
-  incMemory('Orostara', word);
+  displayEntryArry(entry, "");
+  incMemory("Orostara", word);
 }
 
 function returnLink(word) {
   if (searchOros(word).length != 0) {
-    var str = "<u><div class='orosLinkWord' id='" + currLinkNum + "' onclick='gotoLinkWord(" + currLinkNum + ")'>" + word + "</div></u>";
+    var str =
+      "<u><div class='orosLinkWord' id='" +
+      currLinkNum +
+      "' onclick='gotoLinkWord(" +
+      currLinkNum +
+      ")'>" +
+      word +
+      "</div></u>";
     currLinkNum++;
     return str;
-  }
-  else if (word == '' || word == 'N,A') {
-    return '?';
+  } else if (word == "" || word == "N,A") {
+    return "?";
   } else {
     return word;
   }
@@ -244,22 +271,20 @@ function returnLink(word) {
 //given an array and the English searched word if applicable
 //commaSeparated is a true false so that this function can recurse
 function displayWordList(list1, searched, commaSeparated) {
-  var j, multiDef, newString;
-
   var list = list1;
   if (!Array.isArray(list1)) {
     list = [list1];
   }
 
-  var stringList = '';
+  var stringList = "";
   for (var i = 0; i < list.length; i++) {
     //element in list matches searched english term
     if (list[i] == searched) {
-      stringList += '<u>' + list[i] + '</u>';
+      stringList += "<u>" + list[i] + "</u>";
     }
     //element in list has more than one word
-    else if (list[i].indexOf(' ') != -1) {
-      stringList += displayWordList(list[i].split(' '), searched, false);
+    else if (list[i].indexOf(" ") != -1) {
+      stringList += displayWordList(list[i].split(" "), searched, false);
     }
     //element doesn't match and is only one word
     else {
@@ -269,9 +294,9 @@ function displayWordList(list1, searched, commaSeparated) {
     //spacing for next entry if applicable
     if (i < list.length - 1) {
       if (commaSeparated) {
-        stringList += ',&nbsp;';
+        stringList += ", ";
       } else {
-        stringList += '&nbsp;';
+        stringList += " ";
       }
     }
   }
