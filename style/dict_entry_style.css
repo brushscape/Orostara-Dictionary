@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-bottom: var(--minimini);
 }
 
@@ -32,10 +32,9 @@
     font-size: var(--mini);
     color: DarkGrey;
     margin-left: var(--mini);
+    margin-top: calc(var(--hugehuge) - 1.1 * var(--mini));
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .def {

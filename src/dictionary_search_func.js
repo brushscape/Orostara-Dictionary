@@ -228,7 +228,7 @@ function displayRootWord(word, lang) {
     for (var i = 0; i < arr.length; i++) {
       str += returnLink(arr[i]);
       if (i < arr.length - 1) {
-        str += " and ";
+        str += " &nbsp;and&nbsp; ";
       }
     }
     return str;

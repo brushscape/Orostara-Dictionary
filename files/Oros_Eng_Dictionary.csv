@@ -133,7 +133,7 @@ hamsax,,,attention/obsession,focus/obsess,attentive,,,,,,Orostara,ham sax,all th
 hamsek,,,,,permanent,permanently,always/forever,,,,Orostara,ham sek,,
 hamtif,,,everywhere,,,,,,,,Orostara,ham tif,,
 han,basic,specifically to touch with your hand,hand,touch,,,,body,,50,English,hand,,/hænd/
-hanam,basic,,goat/sheep,,,,,animal/nature,,,Arabic,غَنَم,ḡanam,/ɣanam/
+hanam,basic,,sheep/goat/llama/alpaca/vicuna,,,,,animal/nature,,,Arabic,غَنَم,ḡanam,/ɣanam/
 Hankukmur,proper,'mur' added for clarity,South Korea/Republic of Korea,,,,,country,,,Korean,한국,hangug,[ˈha̠(ː)nɡuk̚]
 Hankukatar,proper,어 replaced with 'tar',Korean,,,,,language,,,Korean,한국어,hangug-eo,[ˈha̠(ː)nɡuɡʌ̹]
 hanxot,,,wrist,,,,,body,,49,Orostara,han xot,,
@@ -172,9 +172,9 @@ hos,basic,,container/box/basin/cup/vessel/bottle/trap,contain/catch,,,,,,,Mandar
 hot,basic,,deal/contract/vow,deal/bargain/promise/swear,,,,,,,Mandarin Chinese,合同,Hétóng,/xɤ³⁵ tʰʊŋ³⁵/
 hox,basic,,planet/world,,,,,space,,2,Japanese,星,Hoshi,[ho̞ɕi]
 huanin,basic,,,welcome/accept/admit/approve,acceptable,acceptably,,,,,Mandarin Chinese,欢迎,Huānyíng,/xu̯än⁵⁵ iŋ³⁵/
-huap,basic,,money/dollar/credit/payment/finance/value,pay/spend/afford,expensive/valuable/rich/financial,,,,,,Mandarin Chinese,货币,huòbì,/xu̯ɔ⁵¹⁻⁵³ pi⁵¹/
-huapasar,,,accountant,,,,,,,,Orostara,huap sar,money person,
-huapasis,,,economy,,economic,,,,,,Orostara,huap sis,,
+pak,basic,,money/dollar/credit/payment/finance/value,pay/spend/afford,expensive/valuable/rich/financial,,,,,,Spanish,pagar,,/paˈɡaɾ/
+pakasar,,,accountant,,,,,,,,Orostara,pak sar,money person,
+pakasis,,,economy,,economic,,,,,,Orostara,pak sis,,
 huax,basic,,chemical,,chemical,chemically,,,,,Mandarin Chinese,化学,Huàxué,/xu̯ä⁵¹ ɕy̯ɛ³⁵/
 huaxniy,,,chemistry,,,,,,,,Orostara,huax niy,,
 huf,basic,,area/field/realm/zone,,,,,measurement,,,Vietnamese,khu vực,,[xu˧˧ vɨk̚˧˨ʔ]
@@ -201,7 +201,7 @@ ikisut,,,,,slow,slowly,,,,,Orostara,ik sut,little speed,
 ikitax,,,,,small,,,,,,Orostara,ik tax,a little size,
 ikiter,,,island,,,,,nature,,,Orostara,ik ter,,
 ikuan,,,,,narrow,narrowly,,,,,Orostara,ik kuan,small width or a little width,
-ikuap,,,,,cheap,cheaply,,,,,Orostara,ik huap,little money,
+ikipak,,,,,cheap,cheaply,,,,,Orostara,ik pak,little money,
 ikixak,,,,,weak,weakly,,,,,Orostara,ik xak,little strength,
 ikixan,,pair with 'sek',a recent past,,recent,recently,,,,,Orostara,ik xan,,
 kuat,basic,,growth/expansion,grow/increase/expand/spread/enlarge/extend,increasing,,,,,,Mandarin Chinese,扩大,kuòdà,/kʰu̯ɔ⁵¹⁻⁵³ tä⁵¹/
@@ -312,7 +312,7 @@ kumxif,,,rage/anger/wrath,,angry/mad/grumpy/pissy,,,,,,Orostara,kum xif,,
 kun,basic,,group/collection,collect,,,,,,,Japanese,群,gun,/gɯɴ/
 kunap,basic,,concern,worry,concerned,,,,,,Mandarin Chinese,恐怕,kǒngpà,/kʰʊŋ²¹⁴⁻²¹ pʰä⁵¹/
 kup,basic,as in 'too much',excess,,extra/excessive,too,,,,,Bangla,খুব,Khuba,/kʰub/
-kupuap,,,profit,profit,,,,,,,Orostara,kup huap,excess money,
+kupak,,,profit,profit,,,,,,,Orostara,kup pak,excess money,
 kus,basic,,grass,,,,,plant/nature,,,Japanese,草,kusa,[kɯ̟̊ᵝsa̠]
 kut,basic,,town/city,,,,,,,,Javanese,ꦏꦸꦛ,,/ku.ʈa/
 kux,basic,to a medium degree,medium,,some/kind of/okay/fine/medium/mediocre,,,,,,Punjabi,ਕੁੱਝ,Kujha,/kʊtʃə/
@@ -330,7 +330,7 @@ map,basic,Can be used as an honorific suffic ,parent/mom/dad/father/mother,,,,,,
 mapur,basic,,flight,fly,,,,,,,Javanese,mabur,,/mabur/
 mapurais,,,airplane/plane,,,,,,,,Orostara,mapur rais,fly vehicle,
 mapuror,,,wing,,,,,body,,46,Orostara,mapur or,,
-Mesox,proper,inspired by the messager of the gods in Roman mythology,Mercury,,,,,space,,9,Orostara,mapur hox,flying planet,
+Mesox,proper,inspired by the messager of the gods in Roman mythology,Mercury,,,,,space,,9,Orostara,mes hox,flying planet,
 mar,basic,,death,die/kill,dead,,,,,,Gujarati,મરણ,maraṇ,/məɾəɳ/
 Maratitar,proper,'tar' added for clarity,Marathi,,,,,language,,,Marathi,मराठी,Marāṭhī,/mə.ɾa.ʈʰi/
 Maresiamur,proper,'mur' added for clarity,Malaysia/Federation of Malaya,,,,,country,,,Malay,Malaysia,,"/məlesia, -ʃa/"
@@ -719,7 +719,7 @@ tep,basic,,tape/strip/band/belt,,,,,,,,English,tape,,/teɪ̯p/
 ter,basic,,ground/land/base/continent,,,,,nature,,,Italian,terra,,/ˈtɛr.ra/
 Terukutar,proper,'tar' added for clarity,Telugu,,,,,language,,,Telugu,తెలుగు,Telugu,/t̪eluɡu/
 tes,basic,,ten,,10,,,number,,11,Portuguese,dez,,/ˈdɛ(j)s/
-tesat,basic,,test/trial/experiment,test/experiment,,,,,,,English,test,,/tɛst/
+tesat,basic,,test/trial/experiment/assessment/exam,assess/examine/test,,,,,,,English,test,,/tɛst/
 tesax,,,eighteen,,18,,,number,,19,Orostara,tes hax,,
 tesek,,,eleven,,11,,,number,,12,Orostara,tes ek,,
 tesex,,,seventeen,,17,,,number,,18,Orostara,tes sex,,
@@ -940,9 +940,12 @@ sakus,basic,,plastic/rubber/gum/resin/shellac,,,,,,,,Turkish,sakız,,[s̟ɑ.kʰ�
 sakusafux,,,polyester/polyester fabric,,,,,,,,Orostara,sakus fux,,
 hanamkex,,the fiber,wool,,,,,,,,Orostara,hanam kex fux,,
 apit,,the fiber,cotton,,,,,,,,Orostara,ap pit,,
-katan,,the fabric,linen,,,,,,,,Arabic,كتان,kattān,/kat.taːn/
+mifux,,the fabric,linen,,,,,,,,Orostara,miy fux,,
 apitifux,,,cotton/cotton fabric,,,,,,,,Orostara,apit fux,,
-katanfux,,the fiber,flax/hemp,,,,,,,,Orostara,katan fux,,
+katan,,the fiber,flax,,,,,,,,Arabic,كتان,kattān,/kat.taːn/
 hanamkexafux,,,wool fabric,,,,,,,,Orostara,hanam kex fux,,
 poknit,,,saliva,,,,,,,,Orostara,pok nit,,
 tokarnit,,,sweat,,,,,,,,Orostara,tokar nit,,
+sorfux,,,silk/silk fabric,,,,,,,,Orostara,sor fux,,
+okey,,,,,okay/ok/O.K.,okay/ok/O.K.,,,,,English,okay,,
+koay,basic,,,,cute/adorable/loveable,,,,,,Mandarin Chinese,可愛,kě'ài,/kʰɤ²¹⁴⁻²¹ ˀaɪ̯⁵¹/
