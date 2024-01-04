@@ -1,5 +1,4 @@
 ﻿Orostara,Type,Notes,Nouns,Verbs,Adjectives,Adverbs,Other,Category,CatRel,CatOrder,RootLanguage,RLWord,RL Word Pronunciation,IPA
-af,basic,,chance/opportunity,,,,,,,,Hindi,अवसर,avasar,/əʋ.səɾ/
 afas,basic,,phase/state/status/circumstance/situation/condition,,,,,,,,Hindi,अवस्था,avastha,/ə.ʋəs.t̪ʰɑː/
 Afhanmur,proper,'stan' replaced with 'mur' for clarity,Afghanistan/Islamic Republic of Afghanistan,,,,,country,,,Pashto,افغانستان,afğânestân,/afˈɣɑnˈɪsˈtɑn/
 Afrikater,proper,the continent; 'ter' added for clarity,Africa,,,,,continent,,,Swahili,Afrika,,/ɑ.fri.kɑ/
@@ -120,6 +119,7 @@ fuis,basic,,gray,,grey/(colloquially) dismal/dull,,,color,,9,Cantonese,灰色,fu
 fuk,basic,,cover/lid,cover,,,,,,,Mandarin Chinese,覆盖,Fùgài,/fu⁵¹⁻⁵³ kaɪ̯⁵¹/
 fur,basic,,strike/beat,hit/beat/strike/pound,,,,,,,Turkish,vurmak,,/vuɾˈmɑk/
 furan,basic,,decomposition,decompose/rot/decay/fester,,,,,,,Mandarin Chinese,腐烂,Fǔlàn,/fu²¹⁴⁻²¹ län⁵¹/
+furas,basic,,chance/opportunity,,,,,,,,Arabic,فرصة,furṣa,/fur.sˤa/
 fus,basic,,complexity,complicate,complex/complicated,,,,,,Mandarin Chinese,复杂,fǔzá,/fu⁵¹ t͡sä³⁵/
 fut,basic,,foot/step,step,,,,body,,57,English,foot,,/fʊt/
 futaxot,,,ankle,,,,,body,,56,Orostara,fut xot,,
@@ -153,6 +153,7 @@ has,basic,,thousand,,1000,,,number,,24,Hindi,हज़ार,hazaar,/ɦə.zɑː�
 hasafaxan,,,kilogram,,,,,measurement,,,Orostara,has faxan,,
 hasnir,,,kilometer,,,,,measurement,,,Orostara,has nir,,
 hat,basic,,tour,walk,,,,,,,Russian,ходить,khodit,[xɐˈdʲitʲ]
+hatam,basic,,mark/stamp/impression,mark/stamp/impress,,,,,,,Arabic,ختم,ḵattama,/xatama/
 hauf,basic,,parasite,use up/waste/spend/consume,,,,,,,Mandarin Chinese,耗费,Hàofèi,/xɑʊ̯⁵¹⁻⁵³ feɪ̯⁵¹/
 Hausatar,proper,'tar' added for clarity,Hausa,,,,,language,,,Hausa,hausa,,[háu.sə́]
 hax,basic,,eight,,8,,,number,,9,Japanese,八,hachi,[ha̠t͡ɕi]
@@ -226,7 +227,7 @@ ir,basic,,alternative,switch/swap/alternate,alternate/other,instead,xor/either/o
 Irakmur,proper,'mur' added for clarity,Iraq/Republic of Iraq,,,,,country,,,Arabic,العراق,aleiraq,/al.ʕi.raːq/
 Iranmur,proper,'mur' added for clarity,Iran,,,,,country,,,Farsi,ایران,irun,[ʔiː.ɹɒ́ːn]
 is,basic,,east,,east,east,,direction,adv,3,English,east,,/iːst/
-ispir,basic,,ghost/spirit/soul,,,,,fantasy,,,Portuguese,espírito,,/isˈpi.ɾi.tu/
+ispir,basic,,ghost/spirit/soul/(metaphorical) heart/(metaphorical) mind/personality,,,,,fantasy,,,Portuguese,espírito,,/isˈpi.ɾi.tu/
 ist,basic,Mostly used as an honorific suffix,intern,,,,,,,,Portuguese,estagiário,,/istaʒiˈaɾiu/
 Itaryamur,proper,'mur' added for clarity,Italy,,,,,country,,,Italian,Italia,,/iˈta.lja/
 Itaryanotar,proper,'tar' added for clarity,Italian,,,,,language,,,Italian,italiano,,/i.taˈlja.no/
@@ -235,7 +236,6 @@ Itiyopyamur,proper,'mur' added for clarity,Ethiopia/Federal Democratic Republic 
 ix,basic,,energy/will/motivation/drive/joule,motivate/drive,motivational/motivating,motivationally,,measurement,,,Mandarin Chinese,意志,Yìzhì,/i⁵¹⁻⁵³ ʈ͡ʂʐ̩⁵¹/
 ixpaf,,,excitement,excite,exciting,excitingly,,,,,Orostara,ix paf,,
 kaf,basic,,wish,want/desire,desireable,,,,,,Telugu,కావాలి,Kāvāli,/kaːʋaːli/
-kafit,basic,,poem/poetry/verse,,poetic,,,,,,Hindi,कविता,kavita,/kə.ʋɪ.t̪ɑː/
 kak,basic/swear,only slightly vulgar when used as a swear,excriment/(colloquially) shit,poop,,,,body,,63,Spanish,caca,,/ˈkaka/
 kak tup,,,rectum,,,,,body,,31,Orostara,kak tup,poop tube,
 kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,,,Javanese,kaget,,[ˈkaɡɛt̚]
@@ -248,7 +248,7 @@ kan,basic,,root/basis/essence,,fundamental/basic,fundamentally/basically/essenti
 Kanamur,proper,'mur' added for clarity,Ghana/Republic of Ghana,,,,,,,,English,Ghana,,/ˈɡɑːnə/
 Kanatamur,proper,'mur' added for clarity,Canada/Dominion of Canada,,,,,country,,,English,Canada,,/ˈkænədə/
 kanax,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,body,,,Mandarin Chinese,感觉,Gǎnjué,/kän²¹⁴⁻²¹ t͡ɕy̯ɛ³⁵/
-kanaxor,,,skin,,,,,body,,1,Orostara,kanax or,,
+kanaxor,,,nerve,,,,,body,,6,Orostara,kanax or,,
 kant,slang/swear,slang swear; can be used as a derogatory honorific; much more vulgar than 'kax'; thought to come either from गांडू  in Hindi or 'cunt' in English  (possibly both),bitch/bastard/dick/cunt/asshole/idiot/fucker,,,,,,,,?,?,,
 Kantuntar,proper,话 replaced with 'tar',Cantonese/Yue Chinese,,,,,language,,,Cantonese,广东话,gwong dung waa,/kʷɔːŋ³⁵ tʊŋ⁵⁵ waː²²⁻³⁵/
 kap,basic,,ability/availability/possibility/potential/(colloquially) value,able/can/might,able/available/capable/possible,possibly/potentially/maybe,,,,,Urdu,قابل,qābi,/qɑː.bɪl/
@@ -266,7 +266,7 @@ karxas,,,night,,,,,,,,Orostara,kar xas,,
 kas,basic,,approximation,guess,approximate,approximately/kind of/almost/nearly,,,,,Spanish,casi,,/ˈkasi/
 kasan,basic,,simulation/VR/virtual reality,simulate,virtual,,,,,,Korean,가상,gasang,[ˈka̠(ː)sʰa̠ŋ]
 kasetx,slang/swear,slang swear; can be used as a very vulgar way to call someone a top,phallus/dick/cock/clit/strap,fuck/peg,fucking,,,,,,Portuguese,cacete,,/kaˈse.t͡ʃi/
-kosmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,Spanish,cosmos,,/ˈkosmos/
+kasit,basic,,poem/poetry/verse,,poetic,,,,,,Arabic,قصيدة,qaṣīda,/qa.sˤiː.da/
 kat,basic,,cut,cut/slice,,,,,,,Bangla,کاٹنا,Kāṭā,[ˈkɑ.ʈɑ]
 katan,,the fiber,flax,,,,,,,,Arabic,كتان,kattān,/kat.taːn/
 katay,basic,,story/tale/fiction/narrative,narrate/tell tales,fictional,,,,,,Tamil,கதை,Katai,/kɐd̪aɪ̯/
@@ -276,9 +276,8 @@ kaxit,slang/swear,slang swear,asshole/shithole,,,,,,,,Orostara,kax xit ,,
 kay,basic,,cow,,,,,animal/nature,,,Hindi,गाय,gāy,/ɡɑːj/
 kays,slang/swear,slang swear; only mildly vulgar,(exclamation) damn,damn,damned/stupid,,,,,,Mandarin Chinese,該死,,/kaɪ̯⁵⁵ sz̩²¹⁴⁻²¹⁽⁴⁾/
 kayut,basic,,account/recording,account/record,accountable,,,,,,Turkish,kayıt,,/kaˈjɯt/
-kek,basic,,mentruation/period,mentruate,,,,,,,Japanese,月経,Gekkei,[ɡe̞k̚ke̞ː]
-kekon,basic,,marriage,marry,marital,,,,,,Japanese,結婚,kekkon,[ke̞k̚kõ̞ɴ]
-kekonsar,,,spouse,,,,,,,,Orostara,kekon sar,marriage person,
+kek,basic,,marriage,marry,marital,,,,,,Japanese,結婚,kekkon,[ke̞k̚kõ̞ɴ]
+kekisar,,,spouse,,,,,,,,Orostara,kekon sar,marriage person,
 Kenamur,proper,'mur' added for clarity,Kenya/Republic of Kenya,,,,,country,,,Swahili,Kenya,,/kɛ.ɲɑ/
 ker,basic,,game/sport,play a game,fun,,,,,,Hindi,खेल,khel,/kʰeːl/
 kex,basic,,hair/fur/feather/feathers,,hairy/furry,,,body,,10,Gujarati,કેશ,Kēśa,
@@ -306,6 +305,7 @@ Konko-Kinxasamur,proper,'mur' added for clarity,DR Congo/DRC/Democratic Republic
 korkar,basic,,,hang,,,,,,,Spanish,colgar,,/kolˈɡaɾ/
 Korumpyamur,proper,'mur' added for clarity,Colombia/Republic of Colombia/Columbia,,,,,country,,,Spanish,Columbia,,/koˈlumbja/
 kos,basic,,bone,,,,,body,,7,Russian,кость,kost',[kosʲtʲ]
+kosmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,Spanish,cosmos,,/ˈkosmos/
 kot,basic,can be used as an honorific suffix; specifically means 'your child'; not the same as underage person; see 'hok' if you need to give an honorific to a child,child/son/daughter/offspring,,,,,,,,Telugu,కొడుకు,Koḍuku,/koɖuku/
 kotik,basic,,code,encode/encrypt,cryptic,,,,,,Spanish,código,,/ˈkodiɡo/
 kox,basic,,music/song,make music,musical/lyrical,,,,,,Mandarin Chinese,歌曲,Gēqǔ,/kɤ⁵⁵ t͡ɕʰy²¹⁴⁻²¹⁽⁴⁾/
@@ -448,7 +448,6 @@ naneh,,,silence,silence,silent,silently,,,,,Orostara,nah neh,no sound,
 nanit,,,,,dry,,,,,,Orostara,nah nit,,
 napox,,,beast/creature,,,,,fantasy,,,Orostara,nah pox,,
 naraf,,,,,smooth,,,,,,Orostara,nah raf,no texture,
-Nor-Amerikater,proper,the continent; 'ter' added for clarity; 'North' replaced with 'nor',North America,,,,,continent,,,English,North America,,/ˌnɔː(ɹ)θ əˈmɛɹɪkə/
 nasek,,,,,,never,never,,,,Orostara,nah sek,,
 nasim,,,difference,differ/vary,different/unique/varying/other,differently/uniquely,,,,,Orostara,nah sim,,
 nasimsis,,,diversity,diversify,diverse,diversely,,,,,Orostara,nasim sis,,
@@ -485,7 +484,6 @@ nitif,,,school/university/college,,,,,,,,Orostara,niy tif,learn place,
 Nitox,proper,inspired by the Chinese water god,Gonggong,,,,,space,,24,Orostara,nit hox,,
 nix,basic/slang,,bottom/underside,lower,low/(colloquially) inferior/(slang) sad,down,under/below/beneath,direction,adv,6,Russian,ниже,nizhe,[ˈnʲiʐɨ]
 nixan,,,past year,,,,,,,,Orostara,nien xan,,
-nixan,basic,,mark/stamp/impression,mark/stamp/impress,,,,,,,Hindi,निशान,nishaan,/nɪ.ʃɑːn/
 nixif,,used when referring to the effect of something on you/others,,,sad/sorrowful/depressing,,,,,,Orostara,nix xif,low attitude,
 nixisisan,,time of year,winter,,,,,,,,Orostara,nix sisan,,
 nixit,,,anus,,,,,body,,32,Orostara,nix xit,bottom hole,
@@ -496,6 +494,8 @@ niy,basic,,learning/analysis/research,learn/study/practice/analyze/investigate,s
 nof,basic,,,,new/novel/fresh,,,,,,Portuguese,novo,,/ˈno.vu/
 nok,basic,,nail/talon/claw,scratch,,,,body,,52,Russian,ноготь,nogot',[ˈnoɡətʲ]
 nom,basic,,name,,,,,,,,Portuguese,nome,,/ˈnõ.mi/
+nor,basic,,north,,north,north,,direction,adv,1,Spanish,norte,,/ˈnoɾte/
+Nor-Amerikater,proper,the continent; 'ter' added for clarity; 'North' replaced with 'nor',North America,,,,,continent,,,English,North America,,/ˌnɔː(ɹ)θ əˈmɛɹɪkə/
 num,basic,,number/amount/quantity/limit,count/measure,,,,measurement,,,Spanish,número,,/ˈnumeɾo/
 numetot,,,calculation,calculate,,,,,,,Orostara,num metot,,
 numniy,,,math,,,,,,,,Orostara,num niy,,
@@ -514,12 +514,11 @@ oprikatun,,short form for 'tanyafato kohun'; follow with a subordinate clause; s
 opriy,slang,informal slang; short form,,thanks/thx,,,,,,,Orostara,oprikat,,
 opriyun,slang,slang; short form for 'tanyo kohun'; follow with a subordinate clause; see 'tanyafatun' to sound more formal,,,,,thanks for,,,,Orostara,opriy hun,,
 or,basic,,organ/body part,,,,,body,,5,Spanish,órgano,,[ˈoɾ.ɣ̞a.no]
-orim,basic,,crease/fold,crease/fold,,,,,,,Japanese,折り目,Orime,[o̞ɾʲime̞]
 orp,slang/swear,slang swear; less vulgar than 'kax',dumbass,,stupid,,,,,,Mandarin Chinese,二屄,,/ˀɤɻ⁵¹ pi⁵⁵/
 Ospekamur,proper,'stan' replaced with 'mur' for clarity,Uzbekistan/Republic of Uzbekistan,,,,,country,,,Uzbek,O'zbekiston,,/ozbekiˈstɒn/
 ot,basic,,(temporally) future,come/approach,(physically) coming/(temporally) future,,,,,,Korean,오다,oda,[o̞da̠]
 otisek,slang,future marker,future,,coming time,,,,,,Orostara,ot sek,,
-paf,basic,,feeling/emotion,feel/sense by emotion,emotional,emotionally,,,,,Hindi,भावना,bhaavana,/bʱɑːʋ.nɑː/
+paf,basic,,feeling/emotion/(metaphorical) heart,feel/sense by emotion,emotional,emotionally,,,,,Hindi,भावना,bhaavana,/bʱɑːʋ.nɑː/
 pah,basic,,outside/exit,leave/exit/exclude,outside,out,out from/out of,,,,Hindi,बाहर,baahar,/bɑː.ɦəɾ/
 pahar,basic,,bird,,,,,animal/nature,,,Spanish,pájaro,,[ˈpa.xa.ɾo]
 pain,basic,,,point/indicate/show,,,,,,,English,point,,/pɔɪnt/
@@ -573,7 +572,7 @@ piensun,,,stripe ,,striped,,,,,,Orostara,pien sun,,
 pin,basic,,dot/point/spot,,,,,,,,Hindi,बिंदु,bindu,/bɪn.d̪uː/
 pinmuh,basic,,screen/display/interface,,,,,,,,Mandarin Chinese,屏幕,Píngmù,/pʰiŋ³⁵ mu⁵¹/
 pinsun,,,polka dot,,polka dotted/dotted,,,,,,Orostara,pin sun,,
-pinxin,basic,,mean,normalize,average,,,,,,Mandarin Chinese,平均,Píngjūn,/pʰiŋ³⁵ t͡ɕyn⁵⁵/
+pinxin,basic,,mean/average,normalize,average/normal,,,,,,Mandarin Chinese,平均,Píngjūn,/pʰiŋ³⁵ t͡ɕyn⁵⁵/
 pir,basic,,cat,,,,,animal/nature,,,Hindi,बिल्ली,billee,/bɪl.liː/
 pirik,,,kitty/kitten,,,,,animal/nature,,,Orostara,pir ik,,
 pirim,basic,,science,,,,,,,,Turkish,bilim,,[biˈlim]
@@ -703,6 +702,7 @@ sir,basic,,,,raw/crude/unprocessed/unprepared,,,,,,Russian,Сырой,syrój,[s�
 sis,basic,,system,,systemic,,,,,,Spanish,sistema,,/sisˈtema/
 sisan,basic,time of year,season,,,,,,,,English,season,,/ˈsiː.zən/
 sit,basic,,truth,,true/real/actual,truly/really/actually,,,,,Cantonese,实际,sat zai,/sit̚³² tai³³/
+sitip,basic,,crease/fold,crease/fold,,,,,,,Cantonese,折疊,zit3 dip6,/t͡siːt̚³ tiːp̚²/
 siuk,basic,,,care,caring,,,,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/
 six,basic,the economic concept,interest,,,,,,,,Mandarin Chinese,利息,zǐjīn,/t͡sz̩²¹⁴⁻²¹ t͡ɕin⁵⁵/
 siy,basic,,environment/nature,,natural/wild,naturally,,nature,,,Mandarin Chinese,自然,Zìrán,/t͡siː²² jiːn²¹/
@@ -752,6 +752,7 @@ tat,basic,,,neutralize,neutral/bland,,,,,,Telugu,తటస్థ,Taṭastha,/ta�
 taux,basic,,blade/knife,,sharp/keen,,,,,,Mandarin Chinese,刀刃,Dāorèn,/tɑʊ̯⁵⁵ ʐən⁵¹/
 tax,basic,,size,,big,,,measurement,,,Mandarin Chinese,大小,Dàxiǎo,/tä⁵¹ ɕi̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 taxar,basic,,million,,1000000,,,number,,25,Bangla,দশলক্ষ,Daśalakṣa,/dɔʃɔlɔksɔ/
+tay,basic,,arm,throw/toss/launch,,,,body,,47,Vietnamese,tay,,[taj˧˧]
 Taymur,proper,'mur' added for clarity,Thailand,,,,,country,,,Thai,เมืองไทย,Meụ̄xng thịy,/tʰaj˧/
 Tayxamur,proper,'land' replaced with 'mur' for clarity,Germany,,,,,country,,,German,Deutschland,,[ˈdɔʏ̯t͡ʃlant]
 Tayxatar,proper,'tar' added for clarity,German,,,,,language,,,German,deutsch,,/dɔʏ̯t͡ʃ/
@@ -845,14 +846,12 @@ urnit,,,,drain,,,,,,,Orostara,ur nit,,
 Urtutar,proper,'tar' added for clarity,Urdu,,,,,language,,,Urdu,اردو,,/ʊɾ.d̪uː/
 urxamkut,,,key,unlock,,,,,,,Orostara,ur xamkut,,
 us,basic,the direction of right (vs left),right,,right,right,,direction,adv,7,Marathi,उजवे,Ujavē,/ud͡z.ʋe/
-ut,basic,,arm,throw/toss/launch,,,,body,,47,Japanese,腕,Ude,[ɯ̟ᵝde̞]
 utaper,,,shoulder,,,,,body,,45,Orostara,ut per,,
 utaxot,,,elbow,,,,,body,,48,Orostara,ut xot,,
 x,slang,slang; informal,you,,your/yours/their/theirs,,,,,,Orostara,jeh,,
 xak,basic,,force/power/authority/newton,force/make/influence/coerce/enforce,forceful/powerful,forcefully/powerfully,,,,,Hindi,शक्ति,shakti,/ʃək.t̪iː/
 xakaxif,,,confidence,,confident,confidently,,,,,Orostara,xak xif,,
 xam,basic,,sex,have sex,sexual/hot,sexually,,,,72,Arabic,جماع,jimâ,/d͡ʒaː.ma.ʕa/
-nor,basic,,north,,north,north,,direction,adv,1,Spanish,norte,,/ˈnoɾte/
 xamfix,,,orgasm,,,,,,,,Orostara,xam fix,,
 xamkut,basic,,lock,lock,locked,,,,,,Korean,잠그다,jamgeuda,[t͡ɕa̠mɡɯda̠]
 xamor,,,genital,,,,,body,,34,Orostara,xam or,sex organ,
@@ -879,13 +878,12 @@ xian,basic,,sauce/paste,,,,,food,,,Mandarin Chinese,酱,Jiàng,/t͡ɕi̯ɑŋ⁵�
 xien,basic,,advice/offer/suggestion,advise/suggest/propose/recommend/offer,advisable,,,,,,Mandarin Chinese,建议,Jiànyì,/t͡ɕi̯ɛn⁵¹⁻⁵³ i⁵¹/
 xiep,basic,,,ensure/make sure/check/verify/guarantee,,of course/sure/certainly/surely/definitely,,,,,Mandarin Chinese,确保,Quèbǎo,/t͡ɕʰy̯ɛ⁵¹ pɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 xiet,basic,,,carry/bring/convey,,,,,,,Mandarin Chinese,携带,Xiédài,/ɕi̯ɛ³⁵ taɪ̯⁵¹/
-xif,basic,,attitude/mood/vibe,,,,,,,,Mandarin Chinese,气氛,Qìfēn,/t͡ɕʰi⁵¹ fən⁵⁵/
+xif,basic,,attitude/mood/vibe/personality,,,,,,,,Mandarin Chinese,气氛,Qìfēn,/t͡ɕʰi⁵¹ fən⁵⁵/
 xifan,basic,,west,,west,west,,direction,adv,4,Mandarin Chinese,西方,Xīfāng,/ɕi⁵⁵ fɑŋ⁵⁵/
 xifasis,,,culture,,,,,,,,Orostara,xif sis,,
 xik,basic,,torso/stem,,,,,body,,21,Mandarin Chinese,躯干,Qūgàn,/t͡ɕʰy⁵⁵ kän⁵¹/
 xin,basic,colloquial euphemism for sex; the same as English when you say 'I did them',action/activity/deed/behavior/(colloquially) sex,do/act/behave/happen/use/(colloquially) have sex with,active/useful,,with/using/through/by,,,,Mandarin Chinese,行动,Xíngdòng,/ɕiŋ³⁵ tʊŋ⁵¹/
 xink,slang/swear,slang swear; might also be from the Spanish 'chinga',(exclamation) shit/fuck/(honorific) slut/fucker,fuck,fucking,,,,,,Orostara,xin ko,,/ˈt͡ʃinɡa/
-xinkey,basic,,nerve,,,,,body,,6,Japanese,神経,Shinkei,[ɕĩŋke̞ː]
 xiok,basic,,change/adjustment,change/adjust/alter/transform,changed/transformed,,,,,,Mandarin Chinese,改变,Gǎibiàn,/ɕi̯oʊ̯⁵⁵ kaɪ̯²¹⁴⁻²¹⁽⁴⁾/
 xiokasis,,,development/evolution,develop/evolve,developed,,,,,,Orostara,xiok sis,,
 xior,basic,,repair/correction,fix/correct/heal,fixed/correct,,,,,,Mandarin Chinese,修理,Xiūlǐ,/ɕi̯oʊ̯⁵⁵ li²¹⁴⁻²¹⁽⁴⁾/
@@ -937,6 +935,7 @@ Yayur,proper,directly translating to 'this star' but meaning 'our star',the Sun,
 yen,basic,,ring/torus/wheel/circle,,round,,,shape,,,Mandarin Chinese,圆,Yuán,/ɥɛn³⁵/
 yet,basic,,,read,,,,,,,Mandarin Chinese,阅读,Yuèdú,/ɥɛ⁵¹ tu³⁵/
 yin,basic,,,allow/let/permit/tolerate/invite,,,,,,,Mandarin Chinese,允许,Yǔnxǔ,/yn²¹⁴⁻³⁵ ɕy²¹⁴⁻²¹⁽⁴⁾/
+yit,basic,,mentruation/period,mentruate,,,,,,,Cantonese,月経,jyut6 ging1,/jyːt̚² kɪŋ⁵⁵/
 yix,basic,,probability/expectation/odds/frequency/rate,expect/predict,probable/likely/expected/common/general/regular/standard/usual/frequent/often,probably/commonly/generally/usually/frequently/often/regularly,,measurement,,,Mandarin Chinese,预计,Yùjì,/y⁵¹⁻⁵³ t͡ɕi⁵¹/
 yon,basic,,vulva,,,,,body,,37,Hindi,योनी,yonee,/joː.niː/
 yontup,,,vagina,,,,,body,,41,Orostara,yon tup,vulva tube,
