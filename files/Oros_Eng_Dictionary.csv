@@ -253,7 +253,7 @@ kant,slang/swear,slang swear; can be used as a derogatory honorific; much more v
 Kantuntar,proper,话 replaced with 'tar',Cantonese/Yue Chinese,,,,,language,,,Cantonese,广东话,gwong dung waa,/kʷɔːŋ³⁵ tʊŋ⁵⁵ waː²²⁻³⁵/
 kap,basic,,ability/availability/possibility/potential/(colloquially) value,able/can/might,able/available/capable/possible,possibly/potentially/maybe,,,,,Urdu,قابل,qābi,/qɑː.bɪl/
 kapes,basic,,head,,,,,body,,8,Spanish,cabeza,,/kaˈbesa/
-kar,basic,,black/shadow,,black/dark,darkly,,color,,10,Bangla,কালো,Kālō,/kalo/
+kar,basic,,black/shadow,,black/dark,darkly,,color,,10,Gujarati,કાળો,Kāḷō,/kalo/
 karax,basic,,crab/lobster/crayfish/crustacean,,,,,animal/nature,,,Gujarati,કરચલો,karaclo,/ˈkə.ɾət͡ʃ.lo/
 karim,basic,,word,,wordy,,,,,,Arabic,كلمة,kalima,/ka.li.ma/
 karimkun,,,sentence/phrase/statement,,,,,,,,Orostara,karim kun,,
@@ -266,8 +266,8 @@ karxas,,,night,,,,,,,,Orostara,kar xas,,
 kas,basic,,approximation,guess,approximate,approximately/kind of/almost/nearly,,,,,Spanish,casi,,/ˈkasi/
 kasan,basic,,simulation/VR/virtual reality,simulate,virtual,,,,,,Korean,가상,gasang,[ˈka̠(ː)sʰa̠ŋ]
 kasetx,slang/swear,slang swear; can be used as a very vulgar way to call someone a top,phallus/dick/cock/clit/strap,fuck/peg,fucking,,,,,,Portuguese,cacete,,/kaˈse.t͡ʃi/
-kasmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,English,cosmos,,/ˈkɑz.moʊs/
-kat,basic,,cut,cut/slice,,,,,,,Bangla,কাটা,Kāṭā,[ˈkɑ.ʈɑ]
+kosmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,Spanish,cosmos,,/ˈkosmos/
+kat,basic,,cut,cut/slice,,,,,,,Bangla,کاٹنا,Kāṭā,[ˈkɑ.ʈɑ]
 katan,,the fiber,flax,,,,,,,,Arabic,كتان,kattān,/kat.taːn/
 katay,basic,,story/tale/fiction/narrative,narrate/tell tales,fictional,,,,,,Tamil,கதை,Katai,/kɐd̪aɪ̯/
 kax,slang/swear,can be used as a derogatory honorific suffix or just a swear; less vulgar than 'kant',shit/garbage/(honorific) shithead/dumbass/idiot/dumbfuck/shit for brains,kill/die/kill yourself,useless/stupid/shitty,,,,,,Orostara,kaxar,,
@@ -379,7 +379,7 @@ masrix,,,data/specifics/details/description,describe,particular/specific/detaile
 masrix,,,,understand,,,,,,,Orostara,mas rix,,
 masuan,,commonly used with the -u ending as a greeting,,good evening ,,,,,,,Orostara,mas uan,,
 mat,basic,,material/matter/stuff/resource,,,,,,,,Arabic,مادة,mada,/maːd.da/
-max,basic,,magic,do magic/cast,magical,magically,,fantasy,,,English,magic,,/ˈmæd͡ʒɪk/
+max,basic,,magic,do magic/cast,magical,magically,,fantasy,,,Portuguese,magia,,/maˈʒi.ɐ/
 maxan,,,,hurry,,,,,,,Orostara,mas xan,go a lot,
 maxaom,slang,only used in the Warren; condensed from a phrase that literally means 'you are my everything',,love,,,,,,,Orostara,ma x o y ham,,
 maxok,,,,stare,,,,,,,Orostara,mas xok,,
@@ -448,7 +448,7 @@ naneh,,,silence,silence,silent,silently,,,,,Orostara,nah neh,no sound,
 nanit,,,,,dry,,,,,,Orostara,nah nit,,
 napox,,,beast/creature,,,,,fantasy,,,Orostara,nah pox,,
 naraf,,,,,smooth,,,,,,Orostara,nah raf,no texture,
-Nars-Amerikater,proper,the continent; 'ter' added for clarity,North America,,,,,continent,,,English,North America,,/ˌnɔː(ɹ)θ əˈmɛɹɪkə/
+Nor-Amerikater,proper,the continent; 'ter' added for clarity; 'North' replaced with 'nor',North America,,,,,continent,,,English,North America,,/ˌnɔː(ɹ)θ əˈmɛɹɪkə/
 nasek,,,,,,never,never,,,,Orostara,nah sek,,
 nasim,,,difference,differ/vary,different/unique/varying/other,differently/uniquely,,,,,Orostara,nah sim,,
 nasimsis,,,diversity,diversify,diverse,diversely,,,,,Orostara,nasim sis,,
@@ -681,7 +681,7 @@ sekaxok,,,film/movie,film,,,,,,,Orostara,sek xok,,
 sekixan,,pair with 'sek',past second,,,,,,,,Orostara,sek xan,,
 sekot,,pair with 'sek',future second,,,,,,,,Orostara,sek ot,,
 sekun,,marks the time; indicates a dependent clause following,,,,,when,,,,Orostara,sek hun,,
-sen,basic,,center/middle/core,core,center/middle,,between/among/amongst,,,,English,center,,/ˈsɛn.tɚ/
+sen,basic,,center/middle/core,core,center/middle,,between/among/amongst,,,,Spanish,centro,,/ˈsentɾo/
 senat,basic,,life,live,alive,lively,,,,,Farsi,زنده,zende,[zen̪.d̪é]
 senyur,,,sun,,,,,space,,1,Orostara,sen yur,center star,
 sep,basic,,bait/lure,entice/lure/bait/tempt/taunt/bribe,tempting,,,,,,Spanish,cebo,,/ˈsebo/
@@ -694,13 +694,13 @@ sexten,,,week,,,,,measurement,,,Orostara,sex ten,Vāram,
 si,slang,informal slang,ink,,,,(poetic) dark/black,,,,Orostara,siah,,
 siah,basic,,ink,print,inky/(poetic) dark/black,,,,,,Hindi,स्याही,syāhī,/sjɑː.ɦiː/
 sik,basic,,brush,brush,,,,,,,Javanese,sikat,,[ˈsikat̚]
-sim,basic,,appearance/resemblance/reflection,seem/appear/resemble/(symbolic) reflect,such/similar,so/such/similarly,like/as,,,,English,similar,,/ˈsɪməlɚ/
+sim,basic,,appearance/resemblance/reflection,seem/appear/resemble/(symbolic) reflect,such/similar,so/such/similarly,like/as,,,,Spanish,similar,,/simiˈlaɾ/
 simun,,indicates a dependent clause following,,,,,like/as,,,,Orostara,sim hun,,
 sin,basic,,sign/symbol/representation,signal/represent,symbolic,symbolically,,,,,Portuguese,sinal,,/siˈnaw/
 sinsar,,,representative,,,,,,,,Orostara,sin sar,,
 sip,basic,,sibling/sister/brother,,,,,,,,English,sibling,,/ˈsɪblɪŋ/
 sir,basic,,,,raw/crude/unprocessed/unprepared,,,,,,Russian,Сырой,syrój,[sɨˈroj]
-sis,basic,,system,,systemic,,,,,,English,system,,/ˈsɪstəm/
+sis,basic,,system,,systemic,,,,,,Spanish,sistema,,/sisˈtema/
 sisan,basic,time of year,season,,,,,,,,English,season,,/ˈsiː.zən/
 sit,basic,,truth,,true/real/actual,truly/really/actually,,,,,Cantonese,实际,sat zai,/sit̚³² tai³³/
 siuk,basic,,,care,caring,,,,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/
@@ -744,7 +744,7 @@ tantar,,,argument,argue/debate/fight,argumentative/fiesty,,,,,,Orostara,tan tar,
 tanun,,indicates a dependent clause following,,,,,though/in spite of/despite,,,,Orostara,tan hun,,
 Tanxonarox,proper,inspired by the Roman god of the discord ,Eris,,,,,space,,25,Orostara,tan xonar hox,,
 tar,basic,,speech/language/communication/conversation/dialogue,talk/speak/say/tell/discuss,,,,,,,Portuguese,tratar,,/faˈla(ʁ)/
-tarak,basic,,dragon,,,,,fantasy,,,English,dragon,,/ˈdɹæɡən/
+tarak,basic,,dragon,,,,,fantasy,,,Portuguese,dragão,,/dɾaˈɡɐ̃w̃/
 taran,basic,,,stand,,,,,,,Bangla,দাঁড়ানো,dãṛanō,/d̪aɹano/
 tarat,basic,,pain,hurt/feel pain,painful,,,body,,,Punjabi,ਦਰਦ,Darada,/dərədə/
 tas,basic,,cough,cough,,,,body,,70,Portuguese,tosse,,/ˈtɔ.si/
@@ -765,7 +765,7 @@ Terukutar,proper,'tar' added for clarity,Telugu,,,,,language,,,Telugu,తెల�
 tes,basic,,ten,,10,,,number,,11,Portuguese,dez,,/ˈdɛ(j)s/
 tesafin,,,fifteen,,15,,,number,,16,Orostara,tes fin,,
 tesanef,,,nineteen,,19,,,number,,20,Orostara,tes nef,,
-tesat,basic,,test/trial/experiment/assessment/exam,assess/examine/test,,,,,,,English,test,,/tɛst/
+tesat,basic,,test/trial/experiment/assessment/exam/audition,assess/examine/test,,,,,,,Portuguese,teste,,/ˈtɛs.t͡ʃi/
 tesax,,,eighteen,,18,,,number,,19,Orostara,tes hax,,
 tesek,,,eleven,,11,,,number,,12,Orostara,tes ek,,
 tesex,,,seventeen,,17,,,number,,18,Orostara,tes sex,,
@@ -784,7 +784,7 @@ tin,basic,,three,,3,,,number,,4,Punjabi,ਤਿੰਨ,Tina,/t̪ɪn̪ːə̆/
 tinfat,,named for the number of points on the shape,triangle,,triangular,,,shape,,,Orostara,tin fat,,
 tinfatix,,,triangular prism,,,,,shape,,,Orostara,tinfat tix,,
 tintix,,named for the number of faces on the object,cylinder,,cylindrical,,,shape,,,Orostara,tin tix,,
-tir,basic,,direction,direct,,,to/toward/at,direction,,0,English,direction,,/d(a)ɪˈɹɛk.ʃən/
+tir,basic,,direction,direct,,,to/toward/at,direction,,0,Spanish,dirección,,/diɾeɡˈsjon/
 Tirkaxetar,proper,'tar' added for clarity,Turkish,,,,,language,,,Turkish,Türkçe,,/ˈtyɾctʃe/
 Tirkiyemur,proper,'mur' added for clarity,Turkey/Republic of Turkey,,,,,country,,,Turkish,Türkiye,,/ˈtyɾ.ci.je/
 tirxas,basic,,entertainment,entertain/interest,interesting/engaging/entertaining ,,,,,,Hindi,दिलचस्प,dilachasp,/d̪ɪl.t͡ʃəsp/
@@ -852,7 +852,7 @@ x,slang,slang; informal,you,,your/yours/their/theirs,,,,,,Orostara,jeh,,
 xak,basic,,force/power/authority/newton,force/make/influence/coerce/enforce,forceful/powerful,forcefully/powerfully,,,,,Hindi,शक्ति,shakti,/ʃək.t̪iː/
 xakaxif,,,confidence,,confident,confidently,,,,,Orostara,xak xif,,
 xam,basic,,sex,have sex,sexual/hot,sexually,,,,72,Arabic,جماع,jimâ,/d͡ʒaː.ma.ʕa/
-xamar,basic,,north,,north,north,,direction,adv,1,Arabic,شَمَال,šamāl,/ʃa.maːl/
+nor,basic,,north,,north,north,,direction,adv,1,Spanish,norte,,/ˈnoɾte/
 xamfix,,,orgasm,,,,,,,,Orostara,xam fix,,
 xamkut,basic,,lock,lock,locked,,,,,,Korean,잠그다,jamgeuda,[t͡ɕa̠mɡɯda̠]
 xamor,,,genital,,,,,body,,34,Orostara,xam or,sex organ,
