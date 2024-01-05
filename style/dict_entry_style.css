@@ -35,6 +35,7 @@
     margin-top: calc(var(--hugehuge) - 1.1 * var(--mini));
     display: flex;
     flex-direction: row;
+    white-space: pre;
 }
 
 .def {
@@ -42,6 +43,7 @@
     flex-direction: column;
     font-size: var(--small);
     margin-bottom: var(--minimini);
+    white-space: pre;
 }
 
 .notes {

@@ -98,9 +98,9 @@ function displayEntry(entry, searchedTerm, only, el) {
   getChildElement(wordDefEl, "word").innerHTML = entry.Orostara;
 
   getChildElement(wordDefEl, "etym").innerHTML =
-    "from&nbsp;" +
+    "from " +
     displayRootWord(entry.RLWord, entry.RootLanguage) +
-    "&nbsp;in " +
+    " in " +
     entry.RootLanguage;
 
   // display Notes and Other in the same section right under the word definition
@@ -228,7 +228,7 @@ function displayRootWord(word, lang) {
     for (var i = 0; i < arr.length; i++) {
       str += returnLink(arr[i]);
       if (i < arr.length - 1) {
-        str += " &nbsp;and&nbsp; ";
+        str += " and ";
       }
     }
     return str;
