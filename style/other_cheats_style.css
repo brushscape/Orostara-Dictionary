@@ -1,4 +1,4 @@
-.otherCheats{
+.otherCheats {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -6,33 +6,34 @@
     text-align: left;
 }
 
-.exampleSentences{
+.exampleSentences {
     text-align: left;
     margin-left: 15px;
 }
 
-.addLink{
+.addLink {
     font-size: var(--hugehuge);
     margin: var(--huge);
 }
 
-.links{
+.links {
     padding: var(--large);
 }
 
-a:link{
+a:link {
+    color: #cc410e;
+    text-decoration: none;
+}
+
+a:visited {
     color: #cc410e;
 }
 
-a:visited{
-    color: #cc410e;
-}
-
-a:hover{
+a:hover {
     color: var(--dark2);
 }
 
-table{
+table {
     margin-left: 15px;
     text-align: left;
     border-collapse: collapse;
@@ -40,15 +41,16 @@ table{
     margin-bottom: var(--small);
 }
 
-td, th {
-  text-align: left;
-  padding: 8px;
-  border: 1px solid var(--dark2);
+td,
+th {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid var(--dark2);
 }
 
 tr:nth-child(odd) {
-  background-color: var(--lightlight2);
+    background-color: var(--lightlight2);
 }
 tr:nth-child(1) {
-  background-color: var(--medium2);
+    background-color: var(--medium2);
 }
