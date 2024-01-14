@@ -24,7 +24,7 @@ apeh,basic,,knot/tie,bind/tie/tighten/sew,tight/bound/taught,tightly,,,,,Portugu
 apin,basic,,performance/show,perform/pretend/play,performative/pretend,,,,,,Bangla,অভিনেতা,obhineta,/ɔbʱinet̪a/
 apinif,,,scene/scenario,,,,,,,,Orostara,apin if,,
 apinsar,,,actor,,,,,,,,Orostara,apin sar,perform person,
-apintif,,,stage/theater,,,,,,,,Orostara,apin tif,,
+apint,,,theater/theatre,,,,,,,,Orostara,apin tah,,
 apit,,the fiber,cotton,,,,,,,,Orostara,ap pit,,
 apitifux,,,cotton/cotton fabric,,,,,,,,Orostara,apit fux,,
 ar,basic,,meaning/definition,mean/signify/define,meaningful/significant,meaningfully/significantly,,,,,Telugu,అర్థము,arthamu,/ar.tʰʌmu/
@@ -119,7 +119,7 @@ furas,basic,,chance/opportunity,,,,,,,,Arabic,فرصة,furṣa,/fur.sˤa/
 fus,basic,,complexity,complicate,complex/complicated,,,,,,Mandarin Chinese,复杂,fǔzá,/fu⁵¹ t͡sä³⁵/
 fut,basic,,foot/step,step,,,,body,,57,English,foot,,/fʊt/
 futaxot,,,ankle,,,,,body,,56,Orostara,fut xot,,
-fux,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,,,Mandarin Chinese,服装,Fúzhuāng,/fu³⁵ ʈ͡ʂu̯ɑŋ⁵⁵/
+et,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,,,French,étoffe,,/e.tɔf/
 fuxos,,,bag,,,,,,,,Orostara,fux hos,,
 ha,,exclamation marker ,,,,,,,,,Orostara,ham,,
 haf,basic,if no noun after then assume common sense 'me' or 'you',possession/property,have/possess/own,possessive,possessively,of/from,,,,English,have,,/hæv/
@@ -235,7 +235,7 @@ ixpaf,,,excitement,excite,exciting,excitingly,,,,,Orostara,ix paf,,
 kaf,basic,,wish,want/desire,desireable,,,,,,Telugu,కావాలి,Kāvāli,/kaːʋaːli/
 kak,basic/swear,only slightly vulgar when used as a swear,excriment/(colloquially) shit,poop,,,,body,,63,Spanish,caca,,/ˈkaka/
 kak tup,,,rectum,,,,,body,,31,Orostara,kak tup,poop tube,
-kaket,basic,,surprise,surprise,surprising/sudden,surprisingly,,,,,Javanese,kaget,,[ˈkaɡɛt̚]
+sor,basic,,surprise,surprise,surprising/sudden,surprisingly,,,,,Spanish,sorpresa,,/soɾˈpɾesa/
 kam,basic,,job/employment/work/task,work/labor/employ/hire,busy,,,,,,Hindi,काम,kaam,/kɑːm/
 kamar,basic,,camera,,,,,,,,English,camera,,/ˈkæməɹə/
 kamin,basic,,path/street/trail/road/way,,,,,,,,Spanish,camino,,/kaˈmino/
@@ -311,7 +311,7 @@ kuan,basic,,width/range/scale/spectrum/breadth,,wide,,,,,,Mandarin Chinese,宽�
 kuat,basic,,growth/expansion,grow/increase/expand/spread/enlarge/extend,increasing,,,,,,Mandarin Chinese,扩大,kuòdà,/kʰu̯ɔ⁵¹⁻⁵³ tä⁵¹/
 kuex,basic,,connection/relation/link,connect/relate/link/bond,connecting/connective,,,,,,Wu Chinese,关系,kue-shi,/kue̞⁵⁵ ɕi²¹/
 kuexkun,,,network,,,,,,,,Orostara,kuex kun,,
-kuey,slang,slang,adder/snake/oros citizen,,,,,,,,Mandarin Chinese,蝰,,/kʰu̯eɪ̯³⁵/
+kuey,slang,slang; used to mean anyone who worked at Oros but now mostly used to refer to anyone who was born into the corp; so brood babies mostly; Venusians most of all,adder/snake/oros citizen/(colloquially) Venusian,,,,,,,,Mandarin Chinese,蝰,,/kʰu̯eɪ̯³⁵/
 kueyik,slang,slang,snakelet/minor/young adder/student/child,,,,,,,,Orostara,kuey ik,,
 kuihaka,slang,slang; kid in the same brood as you,,,,,,,,,Orostara,kuik hak,,
 kuika,slang,slang; used to refer to the class of kids you were with in school and also the whole 'school' system itself,brood,,,,,,,,Orostara,kueyik kun,,
@@ -329,7 +329,7 @@ kunson,,,ant/bee/wasp,,,,,animal/nature,,,Orostara,kun son,,
 kup,basic,as in 'too much',excess,,extra/excessive,too,,,,,Bangla,খুব,Khuba,/kʰub/
 kupak,,,profit,profit,,,,,,,Orostara,kup pak,excess money,
 kur,slang/swear,slang swear,ass,,,,,,,,Spanish,culo,,/ˈkulo/
-kus,basic,,grass,,,,,plant/nature,,,Japanese,草,kusa,[kɯ̟̊ᵝsa̠]
+ux,basic,,grass/herb,,,,,plant/nature,,,Arabic,عشب,ʕušb,/ʕuʃb/
 kut,basic,,town/city,,,,,,,,Javanese,ꦏꦸꦛ,kutha,/ku.ʈa/
 kux,basic,to a medium degree,medium,,some/kind of/okay/fine/medium/mediocre,,,,,,Punjabi,ਕੁੱਝ,Kujha,/kʊtʃə/
 kuxkasan,,,AR/augmented reality,,AR,,,,,,Orostara,kux kasan,some vr,
@@ -478,7 +478,7 @@ nir,basic,,length/meter/distance,extend,long/distant/far,distantly,,measurement,
 nis,basic,,art,,artistic,,,,,,Wu Chinese,艺术,gni-zeq,/n̠ʲi²² zəʔ⁴⁴/
 nisar,,,artist,,,,,,,,Orostara,nis sar,art person,
 nit,basic,all drinks are 'water' unless otherwise specified ,water,drink,watery,,,food,,0,Telugu,నీటి,Nīṭi,/niːʈi/
-nitif,,,school/university/college,,,,,,,,Orostara,niy tif,learn place,
+niyat,,,school/university/college,,,,,,,,Orostara,niy tah,learn place,
 Nitox,proper,inspired by the Chinese water god,Gonggong,,,,,space,,24,Orostara,nit hox,,
 nix,basic/slang,,bottom/underside,lower,low/(colloquially) inferior/(slang) sad,down,under/below/beneath,direction,adv,6,Russian,ниже,nizhe,[ˈnʲiʐɨ]
 nixan,,,past year,,,,,,,,Orostara,nien xan,,
@@ -704,7 +704,7 @@ siuk,basic,,,care,caring,,,,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/
 six,basic,the economic concept,interest,,,,,,,,Mandarin Chinese,利息,zǐjīn,/t͡sz̩²¹⁴⁻²¹ t͡ɕin⁵⁵/
 siy,basic,,environment/nature,,natural/wild,naturally,,nature,,,Mandarin Chinese,自然,Zìrán,/t͡siː²² jiːn²¹/
 son,basic,both the creature and the computer term,bug,,,,,animal/nature,,,Wu Chinese,蟲,zon,/zoŋ²³/
-sor,basic,,worm,,,,,animal/nature,,,Turkish,solucan,,/soludʒan/
+kus,basic/slang,also used as an insult; particularly by Venusians against people from other planets,worm,,,,,animal/nature,,,Spanish,gusano,,/ɡuˈsano/
 sorfux,,,silk/silk fabric,,,,,,,,Orostara,sor fux,,
 sorit,basic,,solid,freeze,solid/frozen,,,,,,Spanish,sólido,,/ˈsolido/
 sos,basic,,quest/search,search/seek,,,,,,,Mandarin Chinese,搜索,Sōusuǒ,/soʊ̯⁵⁵ su̯ɔ²¹⁴⁻²¹⁽⁴⁾/
@@ -724,7 +724,7 @@ Sutanmur,proper,'mur' added for clarity,Sudan/Republic of the Sudan,,,,,country,
 Sutiyamur,proper,'mur' added for clarity,Saudi Arabia/Kingdom of Saudi Arabia,,,,,country,,,Arabic,السعودية,alsueudia,/as.su.ʕuː.dij.ja/
 sux,basic,,,stop/cease/prevent,,,,,,,Mandarin Chinese,阻止,Zǔzhǐ,/t͡su²¹⁴⁻³⁵ ʈ͡ʂʐ̩²¹⁴⁻²¹⁽⁴⁾/
 suxer,basic,,dirt/soil/earth,,dirty,,,nature,,,Portuguese,sujeira,,/suˈʒe(j).ɾɐ/
-Suxerox,proper,inspired by the Chinese name for Saturn 土星 meaning 'soil/earth star' (referring to the Chinese idea of Wuxing and it's Five 'Elements'),Saturn,,,,,space,,15,Orostara,suxer hox,dirt planet,
+Yenox,proper,literally means 'ring planet'; referencing the rings of saturn,Saturn,,,,,space,,15,Orostara,yen hox,,
 taf,basic,,frog,,,,,animal/nature,,,Tamil,தவளை,Tavaḷai,/t̪ɐʋɐɭaɪ̯/
 tah,basic,,structure/building,construct/build,,,,,,,Wu Chinese,大厦,da-gho,/da²² ɦo⁴⁴/
 tahat,basic,,pie/dumpling/tart,,,,,,,,Portuguese,torta,,/ˈtɔʁ.tɐ/
@@ -807,7 +807,7 @@ toytix,,named for the number of faces on the object,cone,,conical,,,shape,,,Oros
 tu,basic,indicates an indirect object,,,,,to/on/for/from/with,,,,Orostara,?,,
 tuak,basic,,medicine/drug/pill,,,, ,,,,Vietnamese,thuốc,,[tʰuək̚˧˦]
 tuakasar,,,doctor,,,,,,,,Orostara,tuak ren,medicine person,
-tuakata,,,hospital,,,,,,,,Orostara,tuak tah,health place,
+tuakat,,,hospital,,,,,,,,Orostara,tuak tah,health place,
 tuhun,,indicates a dependent clause acting as the indirect object of the sentence ,,,,,,,,,Orostara,tu hun,,
 tuis,basic,,spiral/screw,twist/screw,spiraling,,,,,,English,twist,,/twɪst/
 tuk,basic,,merchandise/purchase/good,sell,,,,,,,Urdu,دکان,dukān,/dʊkan/
@@ -871,9 +871,9 @@ xeh,basic,used to describe anything outside your bubble/circle of influence; the
 xesar,,neural formal; use more specific honorifics when possible,you/he/she/them,,,,,,,,Orostara,xeh sar,,
 xetif,,,,,,there,there,,,,Orostara,xeh tif,,
 xian,basic,,sauce/paste,,,,,food,,,Mandarin Chinese,酱,Jiàng,/t͡ɕi̯ɑŋ⁵¹/
-xien,basic,,advice/offer/suggestion,advise/suggest/propose/recommend/offer,advisable,,,,,,Mandarin Chinese,建议,Jiànyì,/t͡ɕi̯ɛn⁵¹⁻⁵³ i⁵¹/
+nen,basic,,advice/offer/suggestion,should/ought/supposed to/advise/suggest/propose/recommend/offer,advisable,,,,,,Vietnamese,nên,,[nen˧˧]
 xiep,basic,,,ensure/make sure/check/verify/guarantee,,of course/sure/certainly/surely/definitely,,,,,Mandarin Chinese,确保,Quèbǎo,/t͡ɕʰy̯ɛ⁵¹ pɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
-xiet,basic,,,carry/bring/convey,,,,,,,Mandarin Chinese,携带,Xiédài,/ɕi̯ɛ³⁵ taɪ̯⁵¹/
+yep,basic,,load/freight/cargo/burden,carry/bring/convey/transport,,,,,,,Spanish,llevar,,/ʝeˈbaɾ/
 xif,basic,,attitude/mood/vibe/personality,,,,,,,,Mandarin Chinese,气氛,Qìfēn,/t͡ɕʰi⁵¹ fən⁵⁵/
 xifan,basic,,west,,west,west,,direction,adv,4,Mandarin Chinese,西方,Xīfāng,/ɕi⁵⁵ fɑŋ⁵⁵/
 xifasis,,,culture,,,,,,,,Orostara,xif sis,,
@@ -918,7 +918,7 @@ xut,basic,,subject/theme,,,,about,,,,Mandarin Chinese,主题,Zhǔtí,/ʈ͡ʂu²�
 y,slang,slang; informal,I/me,,my/mine,,,,,,Orostara,yeh,,
 yah,basic,the colloquial meaning is not direct possession. Just influence; under my or our influence,this,,this/(colloquially) my/our,,,,,,Hindi,यह,yah,/jəɦ/
 yahak,,ex. 'Have you done it yet?',,,,already/yet,,,,,Orostara,yah ak,,
-Yahox,proper,directly translating to 'this planet' but meaning 'our planet',Earth,,,,,space,,11,Orostara,yah hox,this planet,
+Yahox,proper,directly translating to 'this planet' but meaning 'our planet'; used by people on  Earth,Earth,,,,,space,,11,Orostara,yah hox,this planet,
 Yamanmur,proper,'mur' added for clarity,Yemen/Republic of Yemen,,,,,country,,,Arabic,ٱلْيَمَن,alyaman,
 yasar,,neutral formal; use more specific honorifics when possible,I/me,,,,,,,,Orostara,yah sar,,
 yasek,,time marker particle,present time,,current,now,now,,,,Orostara,yah sek,,
@@ -944,3 +944,21 @@ yurkun,,,galaxy,,,,,space,,6,Orostara,yur kun,star group,
 yursis,,,solar system,,,,,space,,5,Orostara,yur sis,star system,
 yus,basic,,instrument/tool/equipment,use/play,equipped,,,,,,English,use,,/jus/
 mahar,basic,,cave,,,,,nature,,,Arabic,مغارة,maḡāra,/maɣaːra/
+Terox,proper,used by people on other planets,Earth,,,,,space,,11,Orostara,ter hox,,
+tuakrum,,,medbay,,,,,,,,Orostara,tuak rum,,
+kamat,,,office,,,,,,,,Orostara,kam taha,,
+xiket,,,shirt,,,,,,,,Orostara,xik et,,
+xapet,,,pants,,,,,,,,Orostara,xap et,,
+xariet,,,dress/tunic,,,,,,,,Orostara,xarir et,,
+futet,,,socks/sock,,,,,,,,Orostara,fut et,,
+kapesmuk,,,hat,,,,,,,,Orostara,kapes muk,,
+hoset,,,bag,,,,,,,,Orostara,hos et,,
+nixet,,,underwear,,,,,,,,Orostara,nix et,,
+xamet,,,jacket/coat,,,,,,,,Orostara,xam et,,
+kapeset,,,headscarf/head scarf,,,,,,,,Orostara,kapes et,,
+aket,,,binder/bra,,,,,,,,Orostara,ak et,,
+paset,,specificially bottoms; use 'nixet' for 'underwear' generally,underwear,,,,,,,,Orostara,pas et,,
+moket,,,scarf,,,,,,,,Orostara,mok et,,
+hanet,,,gloves/glove,,,,,,,,Orostara,han et,,
+terikus,slang,,(colloquially) someone from Earth,,,,,,,,Orostara,ter kus,,
+retikus,slang,,(colloquially) someone from Mars,,,,,,,,Orostara,ret kus,,
