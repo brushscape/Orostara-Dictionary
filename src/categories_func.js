@@ -39,6 +39,9 @@ function cfillTable() {
     } else if (rowObj.CatRel == "adv") {
       row.children[0].innerHTML = rowObj.Orostara + "e";
       row.children[1].innerHTML = simpleListDisplay(rowObj.Adverbs);
+    } else if (rowObj.CatRel == "oth") {
+      row.children[0].innerHTML = rowObj.Orostara;
+      row.children[1].innerHTML = simpleListDisplay(rowObj.Other);
     } else {
       row.children[0].innerHTML = rowObj.Orostara + "a";
       row.children[1].innerHTML = simpleListDisplay(rowObj.Nouns);
