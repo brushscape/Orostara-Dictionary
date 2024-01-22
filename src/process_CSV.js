@@ -1,38 +1,69 @@
 /* jshint esversion: 8 */
 
 //var localFilePath = 'files/Oros_Eng_Dictionary.csv';
+//"https://raw.githubusercontent.com/brushscape/Orostara-Dictionary/main/files/Oros_Eng_Dictionary.csv"
 var filePath =
   "https://raw.githubusercontent.com/brushscape/Orostara-Dictionary/main/files/Oros_Eng_Dictionary.csv";
 var langBreakdown = [];
 var numWords = 0;
 var properNouns = [];
+//predicted 2070 data
 var idealBreakdownNum = {
-  "Mandarin Chinese": 111,
-  Spanish: 57,
-  English: 45,
-  Hindi: 42,
+  "Mandarin Chinese": 102,
+  Spanish: 68,
+  English: 32,
+  Hindi: 35,
   Bangla: 28,
-  Portuguese: 28,
-  Russian: 17,
-  Japanese: 15,
-  Cantonese: 10,
-  Vietnamese: 10,
-  Marathi: 10,
-  Telugu: 10,
-  Turkish: 10,
-  "Wu Chinese": 10,
-  Korean: 10,
-  French: 10,
-  Tamil: 9,
-  German: 8,
-  Arabic: 9,
+  Portuguese: 33,
+  Russian: 9,
+  Japanese: 7,
+  Cantonese: 21,
+  Vietnamese: 18,
+  Marathi: 7,
+  Telugu: 8,
+  Turkish: 12,
+  "Wu Chinese": 9,
+  Korean: 12,
+  French: 11,
+  Tamil: 11,
+  German: 6,
+  Arabic: 20,
   Urdu: 8,
-  Javanese: 8,
-  Punjabi: 8,
-  Italian: 8,
-  Gujarati: 7,
-  Farsi: 7,
+  Javanese: 6,
+  Punjabi: 7,
+  Italian: 6,
+  Gujarati: 6,
+  Farsi: 10,
 };
+
+//2023 data
+// var idealBreakdownNum = {
+//   "Mandarin Chinese": 111,
+//   Spanish: 57,
+//   English: 45,
+//   Hindi: 42,
+//   Bangla: 28,
+//   Portuguese: 28,
+//   Russian: 17,
+//   Japanese: 15,
+//   Cantonese: 10,
+//   Vietnamese: 10,
+//   Marathi: 10,
+//   Telugu: 10,
+//   Turkish: 10,
+//   "Wu Chinese": 10,
+//   Korean: 10,
+//   French: 10,
+//   Tamil: 9,
+//   German: 8,
+//   Arabic: 9,
+//   Urdu: 8,
+//   Javanese: 8,
+//   Punjabi: 8,
+//   Italian: 8,
+//   Gujarati: 7,
+//   Farsi: 7,
+// };
 
 var alph = [
   "i",
@@ -45,7 +76,6 @@ var alph = [
   "p",
   "t",
   "k",
-  "f",
   "s",
   "x",
   "h",
@@ -113,8 +143,8 @@ function readCSVFile() {
         }
       }
     }
-    fillTable();
-    cfillTable();
+    fillTable(); //in full_dict_func.js
+    cfillTable(); //in categories_func.js
     //langAnalysis();
   });
 }
@@ -125,7 +155,7 @@ function langAnalysis() {
     if (idealBreakdownNum.hasOwnProperty(el.Lang)) {
       el.Diff = idealBreakdownNum[el.Lang] - el.Count;
     }
-    if (el.Diff > 0) {
+    if (el.Diff > 2) {
       console.log(
         el.Count +
           "/" +
@@ -136,7 +166,7 @@ function langAnalysis() {
           el.Diff +
           " )",
       );
-    } else if (el.Diff < 0) {
+    } else if (el.Diff < -2) {
       // console.log(
       //   el.Count +
       //     "/" +

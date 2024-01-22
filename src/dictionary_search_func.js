@@ -3,14 +3,6 @@
 var orosDict = [];
 var currLinkNum = 0;
 
-function clearPage() {
-  document.getElementById("notFoundEng").style.display = "none";
-  document.getElementById("notFoundOros").style.display = "none";
-  document.getElementById("wordDefContainer").style.display = "none";
-  document.getElementById("extraWordDefs").innerHTML = "";
-  currLinkNum = 0;
-}
-
 function setupButtons() {
   $("#searchBar").keyup(function (event) {
     if (event.which == 13) {
@@ -33,6 +25,14 @@ function setupButtons() {
     }
     document.getElementById("searchBar").select();
   });
+}
+
+function clearPage() {
+  document.getElementById("notFoundEng").style.display = "none";
+  document.getElementById("notFoundOros").style.display = "none";
+  document.getElementById("wordDefContainer").style.display = "none";
+  document.getElementById("extraWordDefs").innerHTML = "";
+  currLinkNum = 0;
 }
 
 function translateClicked() {

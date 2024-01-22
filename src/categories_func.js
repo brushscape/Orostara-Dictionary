@@ -10,7 +10,6 @@ function cfillTable() {
   var containerEl = document.getElementById("categoryDictTable");
   var baseEl = document.getElementById("categoryDataRow");
 
-  var counter = 0;
   var orderedEl = [];
   for (var i = 0; i < orosDict.length; i++) {
     // iterate through entire dictionary
@@ -64,12 +63,6 @@ function cfillTable() {
         containerEl.childNodes[2],
       );
     }
-
-    // if (wordTypes.includes('color')) {
-    //   row.style.display = 'inlineBlock';
-    // } else {
-    //   row.style.display = 'none';
-    // }
   }
 
   cShowOnly("color");
@@ -177,9 +170,10 @@ function cShowOnly(type) {
   string += "&nbsp;<span style='font-size: var(--midSize);'>&#9660</span>"; // arrow
   but.innerHTML = string;
 
-  document.getElementById("cdrop" + type).style.display = "none";
+  document.getElementById("cdrop" + type).setAttribute("disabled", "");
   if (cprev != "na") {
-    document.getElementById("cdrop" + cprev).style.display = "block";
+    document.getElementById("cdrop" + cprev).removeAttribute("disabled");
+    //document.getElementById("cdropdown").style.display = "none";
   }
   cprev = type;
 

@@ -1,6 +1,5 @@
 add comments
 make each tab a separate page
-BUG: turns out the back button is still broken. I think it has something to do with how it's called after
 
 In Progress:
 
