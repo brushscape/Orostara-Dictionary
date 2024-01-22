@@ -3,28 +3,43 @@
 function orosClick(searchedWord) {
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length - 1);
-  var endList = ['a', 'e', 'o', 'i', 'u'];
-  var specialCases = ['ni', 'mi', 'ki', 'ha', 'na', 'o', 'ma', 'ko', 'tu'];
+  var endList = ["a", "e", "o", "i", "u"];
+  var specialCases = [
+    "ni",
+    "mi",
+    "ki",
+    "ha",
+    "na",
+    "o",
+    "ma",
+    "ko",
+    "tu",
+    "axa",
+    "anti",
+  ];
 
   //not a special case and DOES end in a vowel
-  if (specialCases.indexOf(searchedWord) == -1 && endList.indexOf(lastChar) != -1) {
+  if (
+    specialCases.indexOf(searchedWord) == -1 &&
+    endList.indexOf(lastChar) != -1
+  ) {
     //chop off last letter (vowel)
     searchedWord = searchedWord.substring(0, searchedWord.length - 1);
   }
 
   var found = orosEntry(searchedWord);
   if (found == 1) {
-    incMemory('Orostara', searchedWord);
+    incMemory("Orostara", searchedWord);
   }
 }
 
 function orosEntry(searchedWord) {
   var entry1 = searchOros(searchedWord);
   if (entry1.length == 0) {
-    document.getElementById('notFoundOros').style.display = 'flex';
+    document.getElementById("notFoundOros").style.display = "flex";
     return 0;
   } else {
-    displayEntryArry(entry1, '');
+    displayEntryArry(entry1, "");
     if (entry1.length != 0) {
       return 1;
     } else {

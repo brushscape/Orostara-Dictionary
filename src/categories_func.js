@@ -1,4 +1,4 @@
-var cprev = 'na';
+var cprev = "na";
 
 // function onDropHover() {
 //   $('.menuItem').hover(function(event) {
@@ -7,45 +7,44 @@ var cprev = 'na';
 // }
 
 function cfillTable() {
-  var containerEl = document.getElementById('categoryDictTable');
-  var baseEl = document.getElementById('categoryDataRow');
+  var containerEl = document.getElementById("categoryDictTable");
+  var baseEl = document.getElementById("categoryDataRow");
 
   var counter = 0;
   var orderedEl = [];
-  for (var i = 0; i < orosDict.length; i++) {// iterate through entire dictionary
+  for (var i = 0; i < orosDict.length; i++) {
+    // iterate through entire dictionary
     var rowObj = orosDict[i];
 
     var wordTypes;
-    if (rowObj.Category == '' || rowObj.Category == ' ') {
+    if (rowObj.Category == "" || rowObj.Category == " ") {
       wordTypes = [];
       continue;
-    }
-    else if (Array.isArray(rowObj.Category)) {
+    } else if (Array.isArray(rowObj.Category)) {
       wordTypes = rowObj.Category;
-    }
-    else {
+    } else {
       wordTypes = [rowObj.Category];
     }
 
     var row = baseEl.cloneNode(true);
     row.id = rowObj.Orostara;
-    row.classList.add(...wordTypes)
+    row.classList.add(...wordTypes);
 
-    if (rowObj.CatRel == 'verb') {
-      row.children[0].innerHTML = rowObj.Orostara + 'o';
+    if (rowObj.CatRel == "verb") {
+      row.children[0].innerHTML = rowObj.Orostara + "o";
       row.children[1].innerHTML = simpleListDisplay(rowObj.Verbs);
-    } else if (rowObj.CatRel == 'adj') {
-      row.children[0].innerHTML = rowObj.Orostara + 'i';
+    } else if (rowObj.CatRel == "adj") {
+      row.children[0].innerHTML = rowObj.Orostara + "i";
       row.children[1].innerHTML = simpleListDisplay(rowObj.Adjectives);
-    } else if (rowObj.CatRel == 'adv') {
-      row.children[0].innerHTML = rowObj.Orostara + 'e';
+    } else if (rowObj.CatRel == "adv") {
+      row.children[0].innerHTML = rowObj.Orostara + "e";
       row.children[1].innerHTML = simpleListDisplay(rowObj.Adverbs);
     } else {
-      row.children[0].innerHTML = rowObj.Orostara + 'a';
+      row.children[0].innerHTML = rowObj.Orostara + "a";
       row.children[1].innerHTML = simpleListDisplay(rowObj.Nouns);
     }
 
-    if (rowObj.CatOrder != '') {
+    if (rowObj.CatOrder != "") {
       orderedEl.push({ el: row, order: parseInt(rowObj.CatOrder, 10) });
     } else {
       containerEl.appendChild(row);
@@ -57,7 +56,10 @@ function cfillTable() {
 
     //insert at top
     for (var j = 0; j < orderedEl.length; j++) {
-      containerEl.insertBefore(orderedEl[orderedEl.length - 1 - j].el, containerEl.childNodes[2]);
+      containerEl.insertBefore(
+        orderedEl[orderedEl.length - 1 - j].el,
+        containerEl.childNodes[2],
+      );
     }
 
     // if (wordTypes.includes('color')) {
@@ -67,9 +69,8 @@ function cfillTable() {
     // }
   }
 
-  cShowOnly('color');
-  baseEl.style.display = 'none';
-
+  cShowOnly("color");
+  baseEl.style.display = "none";
 }
 
 //array element has 2 properties, el and order
@@ -100,79 +101,82 @@ function cShowOnly(type) {
     return;
   }
 
-  var fullTable = document.getElementById('categoryDictTable');
+  var fullTable = document.getElementById("categoryDictTable");
 
   var counter = 0;
   for (var i = 1; i < fullTable.children.length; i++) {
     var el = fullTable.children[i];
     if (el.classList.contains(type)) {
-      el.style.display = 'table-row';
+      el.style.display = "table-row";
       if (counter % 2 == 1) {
-        el.style.backgroundColor = 'var(--lightlight2)';
+        el.style.backgroundColor = "var(--lightlight2)";
       } else {
-        el.style.backgroundColor = 'white';
+        el.style.backgroundColor = "white";
       }
       counter++;
     } else {
-      el.style.display = 'none';
+      el.style.display = "none";
     }
   }
 
-  var but = document.getElementById('cdropbtn');
-  var string = '';
+  var but = document.getElementById("cdropbtn");
+  var string = "";
   switch (type) {
-    case 'color':
-      string += 'Colors';
+    case "color":
+      string += "Colors";
       break;
-    case 'number':
-      string += 'Numbers';
+    case "number":
+      string += "Numbers";
       break;
-    case 'food':
-      string += 'Food';
+    case "food":
+      string += "Food";
       break;
-    case 'animal':
-      string += 'Animals';
+    case "animal":
+      string += "Animals";
       break;
-    case 'plant':
-      string += 'Plants';
+    case "plant":
+      string += "Plants";
       break;
-    case 'nature':
-      string += 'Nature';
+    case "interjection":
+      string += "Interjections";
       break;
-    case 'fantasy':
-      string += 'Fantasy';
+    case "nature":
+      string += "Nature";
       break;
-    case 'space':
-      string += 'Outer Space';
+    case "fantasy":
+      string += "Fantasy";
       break;
-    case 'body':
-      string += 'Anatomy';
+    case "space":
+      string += "Outer Space";
       break;
-    case 'measurement':
-      string += 'Measurements';
+    case "body":
+      string += "Anatomy";
       break;
-    case 'direction':
-      string += 'Directions';
+    case "measurement":
+      string += "Measurements";
       break;
-    case 'language':
-      string += 'Languages';
+    case "direction":
+      string += "Directions";
       break;
-    case 'country':
-      string += 'Countries';
+    case "language":
+      string += "Languages";
       break;
-    case 'continent':
-      string += 'Continents';
+    case "country":
+      string += "Countries";
+      break;
+    case "continent":
+      string += "Continents";
       break;
     default:
-      string += 'Help';
+      string += "Help";
       break;
   }
   string += "&nbsp;<span style='font-size: var(--midSize);'>&#9660</span>"; // arrow
   but.innerHTML = string;
 
-  document.getElementById('cdrop' + type).style.display = 'none';
-  if (cprev != 'na') {
-    document.getElementById('cdrop' + cprev).style.display = 'block';
+  document.getElementById("cdrop" + type).style.display = "none";
+  if (cprev != "na") {
+    document.getElementById("cdrop" + cprev).style.display = "block";
   }
   cprev = type;
 
