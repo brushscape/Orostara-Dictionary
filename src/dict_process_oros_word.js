@@ -16,6 +16,7 @@ function orosClick(searchedWord) {
     "tu",
     "axa",
     "anti",
+    "xu",
   ];
 
   //not a special case and DOES end in a vowel
