@@ -97,11 +97,19 @@ function displayEntry(entry, searchedTerm, only, el) {
 
   getChildElement(wordDefEl, "word").innerHTML = entry.Orostara;
 
+  var rootLang = entry.RootLanguage;
+  if (Array.isArray(entry.RootLanguage)) {
+    console.log(rootLang);
+    rootLang = entry.RootLanguage[0];
+    for (var i = 1; i < entry.RootLanguage.length; i++) {
+      rootLang += "/" + entry.RootLanguage[i];
+    }
+  }
   getChildElement(wordDefEl, "etym").innerHTML =
     "from " +
     displayRootWord(entry.RLWord, entry.RootLanguage) +
     " in " +
-    entry.RootLanguage;
+    rootLang;
 
   // display Notes and Other in the same section right under the word definition
   var shown = false;
@@ -123,12 +131,7 @@ function displayEntry(entry, searchedTerm, only, el) {
   } else {
     var notesEl = getChildElement(childEl, "notes");
     notesEl.innerHTML = "*" + processNote(entry.Notes);
-    notesEl.style.display = "flex";
-    if (shown && !notesEl.classList.contains("spacer")) {
-      notesEl.classList.add("spacer");
-    } else if (!shown && notesEl.classList.contains("spacer")) {
-      notesEl.classList.remove("spacer");
-    }
+    notesEl.style.display = "block";
     shown = true;
   }
 
@@ -218,7 +221,13 @@ function displayRootWord(word, lang) {
     "German",
     "Latin",
   ];
-
+  if (Array.isArray(word)) {
+    var temp = word[0];
+    for (var i = 1; i < word.length; i++) {
+      temp += "/" + word[i];
+    }
+    word = temp;
+  }
   if (italics.indexOf(lang) != -1) {
     return "<i>" + word.toLowerCase() + "</i>";
   } else if (lang == "Orostara") {
@@ -252,13 +261,13 @@ function gotoWord(word) {
 function returnLink(word) {
   if (searchOros(word).length != 0) {
     var str =
-      "<u><div class='orosLinkWord' id='" +
+      "<u><span class='orosLinkWord' id='" +
       currLinkNum +
       "' onclick='gotoLinkWord(" +
       currLinkNum +
       ")'>" +
       word +
-      "</div></u>";
+      "</span></u>";
     currLinkNum++;
     return str;
   } else if (word == "" || word == "N,A") {

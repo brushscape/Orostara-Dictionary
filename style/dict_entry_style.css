@@ -49,9 +49,8 @@
 .notes {
     font-size: var(--mini);
     color: Grey;
-}
-
-.spacer {
+    white-space: normal;
+    display: block;
     margin-top: var(--midSize);
 }
 
