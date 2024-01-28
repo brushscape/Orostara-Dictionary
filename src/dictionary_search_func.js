@@ -99,7 +99,6 @@ function displayEntry(entry, searchedTerm, only, el) {
 
   var rootLang = entry.RootLanguage;
   if (Array.isArray(entry.RootLanguage)) {
-    console.log(rootLang);
     rootLang = entry.RootLanguage[0];
     for (var i = 1; i < entry.RootLanguage.length; i++) {
       rootLang += "/" + entry.RootLanguage[i];
@@ -113,11 +112,13 @@ function displayEntry(entry, searchedTerm, only, el) {
 
   // display Notes and Other in the same section right under the word definition
   var shown = false;
+  var both = false;
   var childEl = getChildElement(wordDefEl, "def");
   if (entry.Other == "") {
     getChildElement(childEl, "other").style.display = "none";
   } else {
     shown = true;
+    both = true;
     getChildElement(childEl, "other").innerHTML = displayWordList(
       entry.Other,
       searchedTerm,
@@ -128,15 +129,22 @@ function displayEntry(entry, searchedTerm, only, el) {
 
   if (entry.Notes == "") {
     getChildElement(childEl, "notes").style.display = "none";
+    both = false;
   } else {
+    shown = true;
     var notesEl = getChildElement(childEl, "notes");
     notesEl.innerHTML = "*" + processNote(entry.Notes);
     notesEl.style.display = "block";
-    shown = true;
   }
 
   if (shown) {
     childEl.style.display = "flex";
+    var spacer = getChildElement(childEl, "defSpacer");
+    if (both) {
+      spacer.style.display = "block";
+    } else {
+      spacer.style.display = "none";
+    }
   } else {
     childEl.style.display = "none";
   }
@@ -210,17 +218,6 @@ function processNote(text) {
 }
 
 function displayRootWord(word, lang) {
-  var italics = [
-    "English",
-    "Spanish",
-    "French",
-    "Italian",
-    "Portuguese",
-    "Javanese",
-    "Vietnamese",
-    "German",
-    "Latin",
-  ];
   if (Array.isArray(word)) {
     var temp = word[0];
     for (var i = 1; i < word.length; i++) {
@@ -228,8 +225,9 @@ function displayRootWord(word, lang) {
     }
     word = temp;
   }
-  if (italics.indexOf(lang) != -1) {
-    return "<i>" + word.toLowerCase() + "</i>";
+  if (word.match(/[a-z]/i)) {
+    //check they're all latin characters
+    return "<i>" + word.toLowerCase() + "</i>"; //italicize if yes
   } else if (lang == "Orostara") {
     var word1 = cleanupTextInput(word);
     var arr = word1.split(" ");
@@ -288,7 +286,7 @@ function displayWordList(list1, searched, commaSeparated) {
   var stringList = "";
   for (var i = 0; i < list.length; i++) {
     //element in list matches searched english term
-    if (list[i] == searched) {
+    if (list[i].toLowerCase() == searched.toLowerCase()) {
       stringList += "<u>" + list[i] + "</u>";
     }
     //element in list has more than one word
