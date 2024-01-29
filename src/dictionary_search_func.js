@@ -225,10 +225,7 @@ function displayRootWord(word, lang) {
     }
     word = temp;
   }
-  if (word.match(/[a-z]/i)) {
-    //check they're all latin characters
-    return "<i>" + word.toLowerCase() + "</i>"; //italicize if yes
-  } else if (lang == "Orostara") {
+  if (lang == "Orostara") {
     var word1 = cleanupTextInput(word);
     var arr = word1.split(" ");
     var str = "";
@@ -239,6 +236,9 @@ function displayRootWord(word, lang) {
       }
     }
     return str;
+  } else if (word.match(/[a-z]/i)) {
+    //check they're all latin characters
+    return "<i>" + word.toLowerCase() + "</i>"; //italicize if yes
   } else {
     return word.toLowerCase();
   }
