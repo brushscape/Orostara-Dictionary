@@ -1,8 +1,8 @@
 ﻿Orostara,Type,Notes,Nouns,Verbs,Adjectives,Adverbs,Other,Category,CatRel,CatOrder,RootLanguage,RLWord,RL Word Pronunciation,IPA,TrueRoot
 ah,,,,,,,yeah,interjection,oth,,Orostara,am,,a,
-ahat,basic,,,surround/engulf/include/involve,,,around/including,,,,Arabic,أَحَاطَ,ʔaḥāṭa,/ʔa.ħaː.tˤa/,
-ahip,basic,,,shake/shiver/tremble/vibrate/shudder,,,,,,,Portuguese,arrepio,,/ɐ.ʁɨˈpi.u/,
-air,basic,Mostly used only  as an honorific suffix,partner/spouse/girlfriend/boyfriend/datemate,,,,,,,,Mandarin Chinese,爱人,Àirén,/ˀaɪ̯⁵¹ ʐəɻ³⁵/,
+ahat,basic,,,surround/engulf/include/involve,,,around/including,,,,Arabic,أَحَاطَ,ʔaḥāṭa,/ʔa.ħaː.tˤa/,Arabic
+ahip,basic,,,shake/shiver/tremble/vibrate/shudder,,,,,,,Portuguese,arrepio,,/ɐ.ʁɨˈpi.u/,Latin
+air,basic,Mostly used only  as an honorific suffix,partner/spouse/girlfriend/boyfriend/datemate,,,,,,,,Mandarin Chinese,爱人,Àirén,/ˀaɪ̯⁵¹ ʐəɻ³⁵/,Proto-Sino-Tibetan
 ak,basic,,front/chest/(temporally) last time/previous time,,front,forwards,(physically) in front of/next/beyond/(temporally) before,direction,adv,9,Hindi,आगे,aage,/ɑː.ɡeː/,Sanskrit
 Akaramur,proper,'mur' added for clarity,Angola/Republic of Angola,,,,,country,,,Portuguese,Angola,,/ɐ̃ˈɡɔ.lɐ/,
 akarim,,,noun,,,,,,,,Orostara,a karim,,,
@@ -10,17 +10,17 @@ akax,basic,,sky/weather,,,,,nature,,,Hindi,आकाश,aakaash,/ɑː.kɑːʃ/,S
 Akaxox,proper,inspired by the Greek titan of the sky,Uranus,,,,,space,,16,Orostara,akax hox,sky planet,,
 aket,,,binder/bra,,,,,,,,Orostara,ak et,,,
 akiten,,,yesterday,,,,,,,,Orostara,ak ten,,,
-akran,basic,,,,hard/stiff/firm/tough/(colloquially) arrogant/stuck up,,,,,,Hindi,अकड़न,akadan,/ək.ɽən/,Sanskrit
-am,basic,,agreement/harmony/fit/match,agree/fit/suit/complement,agreeable/harmonic/fitting,harmonically,yes,,,,Tamil,ஆம்,Ām,/aːm/,
+akran,basic,,,,hard/stiff/firm/tough/(colloquially) arrogant/stuck up,,,,,,Hindi,अकड़न,akadan,/ək.ɽən/,Prakrit
+am,basic,,agreement/harmony/fit/match,agree/fit/suit/complement,agreeable/harmonic/fitting,harmonically,yes,,,,Tamil,ஆம்,Ām,/aːm/,Sanskrit?
 amar,basic,romantic love only,romance,romantic love,romantic ,romantically,,,,,Spanish,amar,,/aˈmaɾ/,Latin
 Amerakamur,proper,'mur' added for clarity,United States/US/America/United States of America,,,,,country,,,English,America,,/əˈmɛɹ.ə.kə/,
-amis,basic,,joke/amusement,amuse/entertain ,amusing/entertaining/light-hearted,amusingly,,,,,French,amuser,,/a.my.ze/,Latin
-an,basic,,addition/both/all,add,,also/too,and,,,,English,and,,/ænd/,
+amis,basic,,joke/amusement,amuse/entertain ,amusing/entertaining/light-hearted,amusingly,,,,,French,amuser,,/a.my.ze/,Latin?/Proto-Germanic?
+an,basic,,addition/both/all,add,,also/too,and,,,,English,and,,/ænd/,Proto-Germanic
 anir,,,,,,,and-or/or,,,,Orostara,an ir,,,
 ankur,basic,,angle/radian/slope/incline/tilt,angle/lean/tilt,angular,angularly,,measurement,,,Spanish,ángulo,,/ˈanɡulo/,Latin
 Antarkatitater,proper,the continent; 'ter' added for clarity,Antarctica,,,,,continent,,,Russian,Антарктида,Antarktida,[ɐntɐrkˈtʲidə],
 anti,,,,,,,oops,interjection,oth,,Orostara,tantitam,,,
-ap,basic,,cloud,,cloudy,,,nature,,,Farsi,ابر,abr,[ʔæbɹ],
+ap,basic,,cloud,,cloudy,,,nature,,,Farsi,ابر,abr,[ʔæbɹ],Proto-Iranian
 apas,basic,,phase/state/status/circumstance/situation/condition/stage,,,,,,,,Hindi,अवस्था,avastha,/ə.ʋəs.t̪ʰɑː/,Sanskrit
 apeh,basic,,knot/tie,bind/tie/tighten/sew,tight/bound/taught,tightly,,,,,Portuguese,apertado,,/a.peʁˈta.du/,Latin
 Aphanmur,proper,'stan' replaced with 'mur' for clarity,Afghanistan/Islamic Republic of Afghanistan,,,,,country,,,Pashto,افغانستان,afğânestân,/afˈɣɑnˈɪsˈtɑn/,
@@ -31,57 +31,57 @@ apint,,,theater/theatre,,,,,,,,Orostara,apin tah,,,
 apit,,the fiber,cotton,,,,,,,,Orostara,ap pit,,,
 apitet,,,cotton/cotton fabric,,,,,,,,Orostara,apit et,,,
 Aprikater,proper,the continent; 'ter' added for clarity,Africa,,,,,continent,,,Swahili,Afrika,,/ɑ.fri.kɑ/,
-ar,basic,,meaning/definition,mean/signify/define,meaningful/significant,meaningfully/significantly,,,,,Telugu,అర్థము,arthamu,/ar.tʰʌmu/,
+ar,basic,,meaning/definition,mean/signify/define,meaningful/significant,meaningfully/significantly,,,,,Telugu,అర్థము,arthamu,/ar.tʰʌmu/,Sanskrit
 arakos,,,rib,,,,,body,,25,Orostara,arak kos,curve bone,,
 arakosos,,,rib cage,,,,,body,,26,Orostara,arakos hos,rib container,,
-aram,basic,,comfort,comfort,comfortable,comfortably,,,,,Punjabi,ਆਰਾਮ,Ārāma,/aːɾaːmə/,
-aran,basic,,spider,,,,,animal/nature,,,Spanish,araña,,/aˈɾaɲa/,
+aram,basic,,comfort,comfort,comfortable,comfortably,,,,,Punjabi,ਆਰਾਮ,Ārāma,/aːɾaːmə/,Sanskrit
+aran,basic,,spider,,,,,animal/nature,,,Spanish,araña,,/aˈɾaɲa/,Latin
 Arapiyatar,proper,'tar' added for clarity,Arabic,,,,,language,,,Arabic,عَرَبِيَّة,ʕarabiyya,/ʕa.ra.bij.ja/,
 Arhentinamur,proper,'mur' added for clarity,Argentina/Argentine Republic República Argentina,,,,,country,,,Spanish,Argentina,,/aɾxenˈtina/,
-armas,basic,,storage/inventory/supply/reserve/repository,store/save/backup/reserve,,,,,,,Spanish,almacén,,[al.maˈsẽn],
-arx,basic,Mostly used as an honorific suffix,senior level employee,,,,,,,,Farsi,ارشد,aršad,[ʔæɹ.ʃæd̪̥],
-as,basic,,education/lesson,teach/train/educate,,,,,,,French,enseigner,,/ɑ̃.sɛ.ɲe,
-asap,basic,,horse,,,,,animal/nature,,,Farsi,اسب,asb,[ʔæsb̥],
+armas,basic,,storage/inventory/supply/reserve/repository,store/save/backup/reserve,,,,,,,Spanish,almacén,,[al.maˈsẽn],Arabic
+arx,basic,Mostly used as an honorific suffix,senior level employee,,,,,,,,Farsi,ارشد,aršad,[ʔæɹ.ʃæd̪̥],Arabic
+as,basic,,education/lesson,teach/train/educate,,,,,,,French,enseigner,,/ɑ̃.sɛ.ɲe,Latin
+asap,basic,,horse,,,,,animal/nature,,,Farsi,اسب,asb,[ʔæsb̥],Proto-Iranian
 asar,,,teacher/professor,,,,,,,,Orostara,as sar,education person,,
 Astarairyater,proper,the continent; 'ter' added for clarity,Australia,,,,,continent,,,English,Australia,,/əˈstɹæɪl.jə/,
-asur,basic,,blue,,blue,,,color,,5,Spanish,azul,,/aˈsul/,
-at,basic,,,get/attain/take/grab/download/buy/claim,,,,,,,Korean,얻다,eodda,[ˈɘ(ː)t̚t͈a̠],
-atam,basic,,bridge,cross,,,across,,,,Telugu,అడ్డముగా,aḍḍamugā,/aɖ.ɖʌmuɡʌ/,
-atit,basic,,root/basis/essence/foundation/base,,fundamental/basic,fundamentally/basically/essentially,,plant/nature,,2,Tamil,அடித்தளம்,aṭittaḷam,/ɐɖit̪ːɐɭɐm/,
+asur,basic,,blue,,blue,,,color,,5,Spanish,azul,,/aˈsul/,Proto-Iranian
+at,basic,,,get/attain/take/grab/download/buy/claim,,,,,,,Korean,얻다,eodda,[ˈɘ(ː)t̚t͈a̠],Proto-Korean
+atam,basic,,bridge,cross,,,across,,,,Telugu,అడ్డముగా,aḍḍamugā,/aɖ.ɖʌmuɡʌ/,Proto-Dravidian
+atit,basic,,root/basis/essence/foundation/base,,fundamental/basic,fundamentally/basically/essentially,,plant/nature,,2,Tamil,அடித்தளம்,aṭittaḷam,/ɐɖit̪ːɐɭɐm/,Unknown
 atiy,slang,informal slang; short form; can also be spelled 'atio',,bye/goodbye,,,,,,,Orostara,atios,,ati,
-atyos,basic,,,goodbye/bye,,,,,,,Spanish,adios,,/aˈdjos/,
-auk,basic,,alcohol,,alcoholic,,,food,,,Portuguese,álcool,,/ˈaw.ko.ɔw/,
-ax,basic,,yay/woohoo,,good/positive/right/correct,,,interjection,,,Hindi,अच्छा,achchha,/ət͡ʃ.t͡ʃʰɑː/,
+atyos,basic,,,goodbye/bye,,,,,,,Spanish,adiós,,/aˈdjos/,Latin
+auk,basic,,alcohol,,alcoholic,,,food,,,Portuguese,álcool,,/ˈaw.ko.ɔw/,Akkadian
+ax,basic,,yay/woohoo,,good/positive/right/correct,,,interjection,,,Hindi,अच्छा,achchha,/ət͡ʃ.t͡ʃʰɑː/,Sanskrit
 axok,,Can be used as an casual and flirty honorific suffic ,beauty/(honorific) beautiful one/gorgeous,decorate,pretty/beautiful,beatifully,,,,,Orostara,ax xok,good appearance,,
 axtay,,,kindness,,nice/kind,,,,,,Orostara,ax tay,good attitude,,
 axtox,,,perk/advantage,,,,,,,,Orostara,ax tox,,,
-ay,basic,,ouch/ow,ouch,,,ouch/ow,interjection,oth,,Cantonese,哎哟,aai jo,/aːi̯⁵⁵ jɔː⁵⁵/,
+ay,basic,,ouch/ow,ouch,,,ouch/ow,interjection,oth,,Cantonese,哎哟,aai jo,/aːi̯⁵⁵ jɔː⁵⁵/,Proto-Sino-Tibetan
 eh,,,,,,,um/uh,interjection,oth,,Orostara,?,,,
-ek,basic,,one/first,,1/first/important/principle/main,only,,number,,2,Hindi,एक,ek,/eːk/,
+ek,basic,,one/first,,1/first/important/principle/main,only,,number,,2,Hindi,एक,ek,/eːk/,Sanskrit
 ekarim,,,adverb,,,,,,,,Orostara,e karim,,,
-ekot,basic,,meeting/interview,meet,,,,,,,Portuguese,encontrar,,/ẽ.kõˈtɾa(ʁ)/,
-em,basic,,feeling/emotion/(metaphorical) heart,feel/sense by emotion,emotional,emotionally,,,,,Portuguese,emoção,,/e.moˈsɐ̃w̃/,
-emer,basic,,emergency,,urgent,,,,,,Spanish,emergencia,,[e.meɾˈxẽn.sja],
-en,basic,,surface/side/wall/dimension/face/plane/board/plate,,flat,,on/onto,,,,Spanish,en,,/en/,
-ep,basic,,effect/result/outcome/crop/harvest,affect/harvest,effective,effectively,so/therefore/thus/then,,,,Italian,effetto,,/eˈffɛ.tto/,
-epek,basic,,perfection,perfect,perfect/flawless/impeccable,,,,,,French,impeccable,,/ɛ̃.pɛ.kabl/,
-es,basic,,precision/accuracy,,exact/accurate/precise,exactly/accurately/precisely,,,,,Portuguese,exato,,/eˈza.tu/,
-esep,basic,,example/sample/demo,demonstrate,,,such as,,,,Portuguese,exemplo,,/eˈzẽ.plu/,
-eskar,basic,,beetle,,,,,animal/nature,,,Spanish,escarabajo,,/eskaɾaˈbaxo/,
-eskin,basic,,corner,turn,,,,,,,Spanish,esquina,,/esˈkina/,
+ekot,basic,,meeting/interview,meet,,,,,,,Portuguese,encontrar,,/ẽ.kõˈtɾa(ʁ)/,Latin
+em,basic,,feeling/emotion/(metaphorical) heart,feel/sense by emotion,emotional,emotionally,,,,,Portuguese,emoção,,/e.moˈsɐ̃w̃/,Latin
+emer,basic,,emergency,,urgent,,,,,,Spanish,emergencia,,[e.meɾˈxẽn.sja],Latin
+en,basic,,surface/side/wall/dimension/face/plane/board/plate,,flat,,on/onto,,,,Spanish,en,,/en/,Latin
+ep,basic,,effect/result/outcome/crop/harvest,affect/harvest,effective,effectively,so/therefore/thus/then,,,,Italian,effetto,,/eˈffɛ.tto/,Latin
+epek,basic,,perfection,perfect,perfect/flawless/impeccable,,,,,,French,impeccable,,/ɛ̃.pɛ.kabl/,Latin
+es,basic,,precision/accuracy,,exact/accurate/precise,exactly/accurately/precisely,,,,,Portuguese,exato,,/eˈza.tu/,Latin
+esep,basic,,example/sample/demo,demonstrate,,,such as,,,,Portuguese,exemplo,,/eˈzẽ.plu/,Latin
+eskar,basic,,beetle,,,,,animal/nature,,,Spanish,escarabajo,,/eskaɾaˈbaxo/,Ancient Greek
+eskin,basic,,corner,turn,,,,,,,Spanish,esquina,,/esˈkina/,Proto-Germanic
 Espanamur,proper,'mur' added for clarity,Spain/Kingdom of Spain,,,,,country,,,Spanish,España,,/esˈpaɲa/,
 Espanortar,proper,'tar' added for clarity,Spanish,,,,,language,,,Spanish,español,,/espaˈɲol/,
 Espantar,proper/slang,informal slang; short form,Spanish,,,,,language,,,Orostara,Espanortar,,,
-estir,basic,,,stretch/strain,stretched/strained/(colloquially) stressed,,,,,,Spanish,estirar,,/estiˈɾaɾ/,
-et,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,,,French,étoffe,,/e.tɔf/,
+estir,basic,,,stretch/strain,stretched/strained/(colloquially) stressed,,,,,,Spanish,estirar,,/estiˈɾaɾ/,Latin? 
+et,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,,,French,étoffe,,/e.tɔf/,Proto-Germanic
 etos,,,bag,,,,,,,,Orostara,et hos,,,
-ex,basic,,equivalence/equality,equate/balance,equal/same/identical,equally/identically,,,,,Turkish,eşit,,/eʃit/,
+ex,basic,,equivalence/equality,equate/balance,equal/same/identical,equally/identically,,,,,Turkish,eşit,,/eʃit/,Proto-Turkic
 expien,,,,,parallel,,,,,,Orostara,ex pien,equal line,,
-ey,basic,Interjection to get somone's attention,,,,,hey,interjection,oth,,Tamil,ஏய்,Ēy,/eːj/,
+ey,basic,Interjection to get somone's attention,,,,,hey,interjection,oth,,Tamil,ஏய்,Ēy,/eːj/,Unknown
 ha,,exclamation marker ,,,,,,,,,Orostara,ham,,,
 hah,,variant of 'hih'; used about as frequently though this sounds more boysterous,haha,laugh,,,,interjection,,,Orostara,hih,,,
-hak,basic,Most commonly used as an honorific suffix (all children are students),student/child/minor,,,,,,,,Cantonese,学生,hok saang,/hɔk̚³² saŋ³³⁻³³⁵/,
-ham,basic/slang,,all/whole/(colloquially) everyone/everything,,all/every/entire/whole/each,completely/entirely/(colloquially) always,,,,,Farsi,همه,hame,/hæˈme/,
+hak,basic,Most commonly used as an honorific suffix (all children are students),student/child/minor,,,,,,,,Cantonese,学生,hok saang,/hɔk̚³² saŋ³³⁻³³⁵/,Proto-Sino-Tibetan
+ham,basic/slang,,all/whole/(colloquially) everyone/everything,,all/every/entire/whole/each,completely/entirely/(colloquially) always,,,,,Farsi,همه,hame,/hæˈme/,Proto-Iranian
 hamas,,,,,most,,,,,,Orostara,ham mas,,,
 hamaspax,,,favorite,,favorite,,,,,,Orostara,hamas pax,,,
 hamik,,,,,least,,,,,,Orostara,ham ik,,,
@@ -90,65 +90,65 @@ hamsar,,,everyone,,,,,,,,Orostara,ham sar,,,
 hamsax,,,attention/obsession,focus/obsess,attentive,,,,,,Orostara,ham sax,all thought,,
 hamsek,,,,,permanent,permanently,always/forever,,,,Orostara,ham sek,,,
 hamtip,,,everywhere,,,,,,,,Orostara,ham tif,,,
-han,basic,specifically to touch with your hand,hand,touch,,,,body,,50,English,hand,,/hænd/,
-hanam,basic,,sheep/goat/llama/alpaca/vicuna,,,,,animal/nature,,,Arabic,غَنَم,ḡanam,/ɣanam/,
+han,basic,specifically to touch with your hand,hand,touch,,,,body,,50,English,hand,,/hænd/,Proto-Germanic
+hanam,basic,,sheep/goat/llama/alpaca/vicuna,,,,,animal/nature,,,Arabic,غَنَم,ḡanam,/ɣanam/,Arabic
 hanamkex,,the fiber,wool,,,,,,,,Orostara,hanam kex ,,,
 hanamkexet,,,wool fabric,,,,,,,,Orostara,hanamkex et,,,
 hanet,,,gloves/glove,,,,,,,,Orostara,han et,,,
 Hankukatar,proper,어 replaced with 'tar',Korean,,,,,language,,,Korean,한국어,hangug-eo,[ˈha̠(ː)nɡuɡʌ̹],
 Hankukmur,proper,'mur' added for clarity,South Korea/Republic of Korea,,,,,country,,,Korean,한국,hangug,[ˈha̠(ː)nɡuk̚],
 hanxot,,,wrist,,,,,body,,49,Orostara,han xot,,,
-hap,basic,if no noun after then assume common sense 'me' or 'you',possession/property,have/possess/own,possessive,possessively,of/from,,,,English,have,,/hæv/,
+hap,basic,if no noun after then assume common sense 'me' or 'you',possession/property,have/possess/own,possessive,possessively,of/from,,,,English,have,,/hæv/,Proto-Germanic
 haposartay,,can be modified to 'hapxatay' or 'hapoyatay' if you want to specifically say 'jealous of you' or 'jealous of me',,,jealous,jealously,,,,,Orostara,hap sar tay,,,
 hapoxatay,slang,informal slang; generalized form is 'haposartay' if you want to just say 'jealous',,,jealous of you,,,,,,Orostara,hap x tay,,,
 hapoyatay,slang,informal slang; generalized form is 'haposartay' if you want to just say 'jealous',,,jealous of me,,,,,,Orostara,hap y tay,,,
-har,basic,,green,,green,,,color,,4,Hindi,हरा,hara,[ɦəˈɾaː],
-harap,basic,,reptile/amphibian,,,,,animal/nature,,,English,herptile,,/ˈhɝp.taɪl/,
-has,basic,,thousand,,1000,,,number,,24,Hindi,हज़ार,hazaar,/ɦə.zɑːɾ/,
+har,basic,,green,,green,,,color,,4,Hindi,हरा,hara,[ɦəˈɾaː],Sanskrit
+harap,basic,,reptile/amphibian,,,,,animal/nature,,,English,herptile,,/ˈhɝp.taɪl/,Ancient Greek
+has,basic,,thousand,,1000,,,number,,24,Hindi,हज़ार,hazaar,/ɦə.zɑːɾ/,Proto-Indo-Iranian
 hasnir,,,kilometer,,,,,measurement,,,Orostara,has nir,,,
 haspaxan,,,kilogram,,,,,measurement,,,Orostara,has paxan,,,
-hat,basic,,tour,walk,,,,,,,Russian,ходить,khodit,[xɐˈdʲitʲ],
-hatam,basic,,mark/stamp/impression,mark/stamp/impress,,,,,,,Arabic,ختم,ḵattama,/xatama/,
-haus,basic/slang,used as a slur of sorts to talk about people who Venusians (mostly) feel aren't pulling their weight and are a waste of resources,parasite/(colloquially) leech,spend/expend/use up/waste/consume,,,,,,,Mandarin Chinese,耗損,hàosǔn,/xɑʊ̯⁵¹ su̯ən²¹⁴⁻²¹⁽⁴⁾/,
+hat,basic,,tour,walk,,,,,,,Russian,ходить,khodit,[xɐˈdʲitʲ],Proto-Slavic
+hatam,basic,,mark/stamp/impression,mark/stamp/impress,,,,,,,Arabic,ختم,ḵattama,/xatama/,Hebrew?
+haus,basic/slang,used as a slur of sorts to talk about people who Venusians (mostly) feel aren't pulling their weight and are a waste of resources,parasite/(colloquially) leech,spend/expend/use up/waste/consume,,,,,,,Mandarin Chinese,耗損,hàosǔn,/xɑʊ̯⁵¹ su̯ən²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino-Tibetan
 Hausatar,proper,'tar' added for clarity,Hausa,,,,,language,,,Hausa,hausa,,[háu.sə́],
-hax,basic,,eight,,8,,,number,,9,Japanese,八,hachi,[ha̠t͡ɕi],
+hax,basic,,eight,,8,,,number,,9,Japanese,八,hachi,[ha̠t͡ɕi],Proto-Sino-Tibetan
 haxin,,named for the number of points on the shape,octagon,,octagonal,,,shape,,,Orostara,hax hin,,,
 haxtix,,named for the number of faces on the object,diamond/octahedron,,,,,shape,,,Orostara,hax tix,,,
-hay,basic,,sea/ocean,,,,,nature,,,Mandarin Chinese,海,Hǎi,/xaɪ̯²¹⁴/,
+hay,basic,,sea/ocean,,,,,nature,,,Mandarin Chinese,海,Hǎi,/xaɪ̯²¹⁴/,Proto-Sino-Tibetan
 Hayox,proper,inspired by the Roman god of the ocean,Neptune,,,,,space,,17,Orostara,hay hox,ocean planet,,
 haypien,,,coast/shore/beach,,,,,nature,,,Orostara,hay pien,,,
 Haypoxox,proper,inspired by the Inuit goddess of the sea and marine animals ,Sedna,,,,,space,,26,Orostara,hay pox hox,,,
-hek,basic,,meal/food,eat,,,,food,,,Cantonese,吃,hek,/hɛːk̚³/,
+hek,basic,,meal/food,eat,,,,food,,,Cantonese,吃,hek,/hɛːk̚³/,Proto-Sino-Tibetan
 hekatup,,,intestines,,,,,body,,30,Orostara,hek tup,food tube,,
 hekor,,,stomach,,,,,body,,29,Orostara,hek or,eat organ,,
-hep,basic,Mostly used as an honorific suffix,Executive/CEO,,,,,,,,Spanish,chefe,,/ˈxefe/,
+hep,basic,Mostly used as an honorific suffix,Executive/CEO,,,,,,,,Spanish,chefe,,/ˈxefe/,Latin
 her,slang,Affectionate honorific suffix that means 'someone I care about',beloved/partner/friend/sister/brother/etc,,,,,,,,Orostara,?,,,
-hes,basic,,reason/factor,cause,reasonable/rational/sensible,reasonably,because of/through/with,,,,French,raison,,/ʁɛ.zɔ̃/,
+hes,basic,,reason/factor,cause,reasonable/rational/sensible,reasonably,because of/through/with,,,,French,raison,,/ʁɛ.zɔ̃/,Latin
 hesis,,,logic/sense,,logical/rational,,,,,,Orostara,hes sis,,,
 hesun,,indicates a dependent clause ,,,,,because/for/since,,,,Orostara,hes hun,,,
-hey,basic,,,cheat/hack,,,,,,,Mandarin Chinese,黑,hēi,/xeɪ̯⁵⁵/,
-hih,basic,,humor/laughter,laugh,funny/humorous/heehee,,,interjection,adj,,French,rire,,/ʁiʁ/,
-hik,basic,,hiccup,,,,,body,,71,English,hiccup,,/ˈhɪkʌp/,
-hin,basic,,shape,form,shapely,,,shape,,,Vietnamese,hình dạng,,[hïŋ˨˩ zaːŋ˧˨ʔ],
+hey,basic,,,cheat/hack,,,,,,,Mandarin Chinese,黑,hēi,/xeɪ̯⁵⁵/,Proto-Sino-Tibetan
+hih,basic,,humor/laughter,laugh,funny/humorous/heehee,,,interjection,adj,,French,rire,,/ʁiʁ/,Latin
+hik,basic,,hiccup,,,,,body,,71,English,hiccup,,/ˈhɪkʌp/,Proto-Germanic
+hin,basic,,shape,form,shapely,,,shape,,,Vietnamese,hình dạng,,[hïŋ˨˩ zaːŋ˧˨ʔ],Sino-Vietnamese
 Hintitar,proper,'tar' added for clarity,Hindi,,,,,language,,,Hindi,हिन्दी,hindee,/ɦɪn.d̪iː/,
-hir,basic,,shell/case/safety,save/shield/defend/guard/protect,protective/safe,protectively,,,,,German,Hülse,,/ˈhʏlzə/,
+hir,basic,,shell/case/safety,save/shield/defend/guard/protect,protective/safe,protectively,,,,,German,Hülse,,/ˈhʏlzə/,Proto-Germanic
 hirsarat,,,turtle ,,,,,animal/nature,,,Orostara,hir sarat,shell lizard,,
-hiy,basic,,rain,rain,,,,nature,,,Wu Chinese,雨,yu,/ɦy²³/,
-hor,basic,,hold/hug/embrace/cuddle,hold/embrace,,,,,,,English,hold,,/hoʊld/,
-hos,basic,,container/box/basin/cup/vessel/bottle/trap,contain/catch,,,,,,,Mandarin Chinese,盒子,Hézi,/xɤ³⁵ d͡z̥z̩³/,
-hot,basic,,deal/contract/vow,deal/bargain/promise/swear,,,,,,,Mandarin Chinese,合同,Hétóng,/xɤ³⁵ tʰʊŋ³⁵/,
-hox,basic,,planet/world,,,,,space,,2,Japanese,星,Hoshi,[ho̞ɕi],
-huah,basic,,fire,burn,firey,,,,,6,Mandarin Chinese,火,huǒ,/xu̯ɔ²¹⁴/,
-huanin,basic,,,welcome/accept/admit/approve,acceptable,acceptably,,,,,Mandarin Chinese,欢迎,Huānyíng,/xu̯än⁵⁵ iŋ³⁵/,
-huax,basic,,chemical,,chemical,chemically,,,,,Mandarin Chinese,化学,Huàxué,/xu̯ä⁵¹ ɕy̯ɛ³⁵/,
+hiy,basic,,rain,rain,,,,nature,,,Wu Chinese,雨,yu,/ɦy²³/,Proto-Sino-Tibetan
+hor,basic,,hold/hug/embrace/cuddle,hold/embrace,,,,,,,English,hold,,/hoʊld/,Proto-Germanic
+hos,basic,,container/box/basin/cup/vessel/bottle/trap,contain/catch,,,,,,,Mandarin Chinese,盒子,Hézi,/xɤ³⁵ d͡z̥z̩³/,Proto-Sino-Tibetan
+hot,basic,,deal/contract/vow,deal/bargain/promise/swear,,,,,,,Mandarin Chinese,合同,Hétóng,/xɤ³⁵ tʰʊŋ³⁵/,Proto-Sino-Tibetan
+hox,basic,,planet/world,,,,,space,,2,Japanese,星,Hoshi,[ho̞ɕi],Proto-Japonic
+huah,basic,,fire,burn,firey,,,,,6,Mandarin Chinese,火,huǒ,/xu̯ɔ²¹⁴/,Proto-Sino-Tibetan
+huanin,basic,,,welcome/accept/admit/approve,acceptable,acceptably,,,,,Mandarin Chinese,欢迎,Huānyíng,/xu̯än⁵⁵ iŋ³⁵/,Proto-Sino-Tibetan
+huax,basic,,chemical,,chemical,chemically,,,,,Mandarin Chinese,化学,Huàxué,/xu̯ä⁵¹ ɕy̯ɛ³⁵/,Proto-Sino-Tibetan
 huaxniy,,,chemistry,,,,,,,,Orostara,huax niy,,,
-hues,basic,,gray,,grey/(colloquially) dismal/dull,,,color,,9,Mandarin Chinese,灰色,huīsè,/xu̯eɪ̯⁵⁵ sɤ⁵¹/,
-huk,basic,,hook,hook/catch,,,,,,,English,hook,,/hʊk/,
+hues,basic,,gray,,grey/(colloquially) dismal/dull,,,color,,9,Mandarin Chinese,灰色,huīsè,/xu̯eɪ̯⁵⁵ sɤ⁵¹/,Proto-Sino-Tibetan
+huk,basic,,hook,hook/catch,,,,,,,English,hook,,/hʊk/,Proto-Germanic
 hun,basic,particle to indicate a dependent clause; also see 'pen',,,,,that/which,,,,Orostara,?,,,
 Hunitar,proper,'tar' added for clarity,Wu Chinese/Wu Chinese,,,,,language,,,Wu Chinese,吴语,hhu-nyy,/ɦu²² n̠ʲy⁴⁴/,
-hup,basic,,area/field/realm/zone,,,,,measurement,,,Vietnamese,khu vực,,[xu˧˧ vɨk̚˧˨ʔ],
-hux,basic,,sheen,shine/glitter/reflect/glint,shiny/glittery/reflective,,,,,,Mandarin Chinese,闪耀,hūshǎn,/xu⁵⁵ ʂän²¹⁴⁻²¹⁽⁴⁾/,
-ik,basic,to a small degree; can be used as a casually affectionate honorific suffix,little/(honorific) little one/baby (affectionate),,a little,barely/just/(negated verb) even,,,,,Japanese,以下,Ika,[ika̠],
+hup,basic,,area/field/realm/zone,,,,,measurement,,,Vietnamese,khu vực,,[xu˧˧ vɨk̚˧˨ʔ],Sino-Vietnamese
+hux,basic,,sheen,shine/glitter/reflect/glint,shiny/glittery/reflective,,,,,,Mandarin Chinese,闪耀,hūshǎn,/xu⁵⁵ ʂän²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino-Tibetan
+ik,basic,to a small degree; can be used as a casually affectionate honorific suffix,little/(honorific) little one/baby (affectionate),,a little,barely/just/(negated verb) even,,,,,Japanese,以下,Ika,[ika̠],Proto-Japonic?
 ikamar,,romantic crush,crush,crush,,,,,,,Orostara,ik amar,,,
 ikarim,,,adjective,,,,,,,,Orostara,i karim,,,
 ikipak,,,,,cheap,cheaply,,,,,Orostara,ik pak,little money,,
@@ -169,84 +169,84 @@ ikom,slang,,,,less,less,less than/(colloquially) worse than,,,,Orostara,ik kom,,
 ikot,,pair with 'sek',near future,,upcoming,soon,,,,,Orostara,ik ot,,,
 ikox,,,dwarf planet,,,,,space,,7,Orostara,ik hox,little planet,,
 ikuan,,,,,narrow,narrowly,,,,,Orostara,ik kuan,small width or a little width,,
-im,basic,,magnet/attraction,attract/captivate,magnetic/attractive/alluring,magnetically/attractively,,,,,Spanish,imán,,[iˈmãn],
-in,basic,,fly,,,,,animal/nature,,,Mandarin Chinese,蠅,yíng,/in⁵⁵/,
-inar,basic,,pressure/pascal/(colloquially) stress,crush/squeeze,(colloquially) stressful/stressed,,,measurement,,,Mandarin Chinese,应力,Yìnglì,/iŋ⁵¹⁻⁵³ li⁵¹/,
-inax,basic,,luck/chance,,lucky,,,,,,Mandarin Chinese,运气,Yùnqì,/yn⁵¹ t͡ɕʰi¹/,
-ink,basic/slang,Commonly used like an honorific suffix for corporations cuz they're treated like people I guess; (colloquially) used like how English uses 'god' in swearing; 'I swear to god' = 'I swear to Inka',company/business/firm/corporation/(colloquially) god,,incorporated,,,,,,English,incorporated,,/ɪŋˈkɔɹpəɹeɪtɪd/,
+im,basic,,magnet/attraction,attract/captivate,magnetic/attractive/alluring,magnetically/attractively,,,,,Spanish,imán,,[iˈmãn],Ancient Greek
+in,basic,,fly,,,,,animal/nature,,,Mandarin Chinese,蠅,yíng,/in⁵⁵/,Proto-Sino-Tibetan
+inar,basic,,pressure/pascal/(colloquially) stress,crush/squeeze,(colloquially) stressful/stressed,,,measurement,,,Mandarin Chinese,应力,Yìnglì,/iŋ⁵¹⁻⁵³ li⁵¹/,Proto-Sino-Tibetan
+inax,basic,,luck/chance,,lucky,,,,,,Mandarin Chinese,运气,Yùnqì,/yn⁵¹ t͡ɕʰi¹/,Proto-Sino-Tibetan
+ink,basic/slang,Commonly used like an honorific suffix for corporations cuz they're treated like people I guess; (colloquially) used like how English uses 'god' in swearing; 'I swear to god' = 'I swear to Inka',company/business/firm/corporation/(colloquially) god,,incorporated,,,,,,English,incorporated,,/ɪŋˈkɔɹpəɹeɪtɪd/,Latin
 Inkamur,proper,'land' replaced with 'mur' for clarity,England,,,,,country,,,English,England,,/ˈɪŋɡlənd/,
 Inkarixtar,proper,'tar' added for clarity,English,,,,,language,,,English,english,,/ˈɪŋɡlɪʃ/,
 Inkatar,slang/proper,informal slang; short form,English,,,,,country,,,Orostara,Inkarixtara,,,
-insan,basic,,human,,,,,animal/nature,,,Hindi,इंसान,insaan,[ɪnˈsa(ː)n],
+insan,basic,,human,,,,,animal/nature,,,Hindi,इंसान,insaan,[ɪnˈsa(ː)n],Proto-Semitic
 insisan,,time of year,spring,,,,,,,,Orostara,in sisan,,,
 Intonesiamur,proper,'mur' added for clarity,Indonesia/Republic of Indonesia,,,,,country,,,Indonesian,Indonesia,,/in.ˈdo.nɛ.sɪ.(j)a/,
-inxiy,basic,,rhythm,,rhythmic,,,,,,Mandarin Chinese,音节,Yīnjié,/in⁵⁵ t͡ɕi̯ɛ³⁵/,
-ip,basic,,cord/cable/wire/rope/string,,,,,,,,Turkish,ip,,/ip/,
+inxiy,basic,,rhythm,,rhythmic,,,,,,Mandarin Chinese,音节,Yīnjié,/in⁵⁵ t͡ɕi̯ɛ³⁵/,Proto-Sino-Tibetan
+ip,basic,,cord/cable/wire/rope/string,,,,,,,,Turkish,ip,,/ip/,Proto-Turkic
 ipit,,,vine,,,,,plant/nature,,,Orostara,ip pit,rope plant,,
-ir,basic,,alternative,switch/swap/alternate,alternate/other,instead,xor/either/or/else/instead of/(temporally) until,,,,Russian,или,ili,[ˈilʲɪ],
+ir,basic,,alternative,switch/swap/alternate,alternate/other,instead,xor/either/or/else/instead of/(temporally) until,,,,Russian,или,ili,[ˈilʲɪ],Proto-Slavic
 Irakmur,proper,'mur' added for clarity,Iraq/Republic of Iraq,,,,,country,,,Arabic,العراق,aleiraq,/al.ʕi.raːq/,
-iran,basic,,advertisement/ad,advertise,,,,,,,Turkish,ilan,,/iːlan/,
+iran,basic,,advertisement/ad,advertise,,,,,,,Turkish,ilan,,/iːlan/,Proto-Turkic
 Iranmur,proper,'mur' added for clarity,Iran,,,,,country,,,Farsi,ایران,irun,[ʔiː.ɹɒ́ːn],
-is,basic,,condition,,conditional/situational,,if,,,,Turkish,ise,,/ise/,
+is,basic,,condition,,conditional/situational,,if,,,,Turkish,ise,,/ise/,Proto-Turkic
 isek,,indicates a conditional timeframe or hypothetical; optional for 'if-then' statements; required for 'could' and 'should' statements,,,hypothetical,,,,,,Orostara,is sek,,,
-ispir,basic,,ghost/spirit/soul/(metaphorical) heart/(metaphorical) mind/personality,,,,,fantasy,,,Portuguese,espírito,,/isˈpi.ɾi.tu/,
-ist,basic,Mostly used as an honorific suffix,intern,,,,,,,,Portuguese,estagiário,,/istaʒiˈaɾiu/,
+ispir,basic,,ghost/spirit/soul/(metaphorical) heart/(metaphorical) mind/personality,,,,,fantasy,,,Portuguese,espírito,,/isˈpi.ɾi.tu/,Latin
+ist,basic,Mostly used as an honorific suffix,intern,,,,,,,,Portuguese,estagiário,,/istaʒiˈaɾiu/,Unknown
 Itaryamur,proper,'mur' added for clarity,Italy,,,,,country,,,Italian,Italia,,/iˈta.lja/,
 Itaryanotar,proper,'tar' added for clarity,Italian,,,,,language,,,Italian,italiano,,/i.taˈlja.no/,
-itir,basic,,respect,respect,respectful,respectfully,,,,,Arabic,احترام,iḥtirām,/iħ.ti.raːm/,
+itir,basic,,respect,respect,respectful,respectfully,,,,,Arabic,احترام,iḥtirām,/iħ.ti.raːm/,Arabic
 Itiyopyamur,proper,'mur' added for clarity,Ethiopia/Federal Democratic Republic of Ethiopia,,,,,country,,,Amharic,ኢትዮጵያ,ītiyop’iya,/itijopʼja/,
-ix,basic,,energy/will/motivation/drive/joule,motivate/drive,motivational/motivating,motivationally,,measurement,,,Mandarin Chinese,意志,Yìzhì,/i⁵¹⁻⁵³ ʈ͡ʂʐ̩⁵¹/,
+ix,basic,,energy/will/motivation/drive/joule,motivate/drive,motivational/motivating,motivationally,,measurement,,,Mandarin Chinese,意志,Yìzhì,/i⁵¹⁻⁵³ ʈ͡ʂʐ̩⁵¹/,Proto-Sino-Tibetan
 ixem,,,excitement,excite,exciting,excitingly,,,,,Orostara,ix em,,,
-kak,basic/swear,only slightly vulgar when used as a swear,excriment/(colloquially) shit,poop,,,,body,,63,Spanish,caca,,/ˈkaka/,
+kak,basic/swear,only slightly vulgar when used as a swear,excriment/(colloquially) shit,poop,,,,body,,63,Spanish,caca,,/ˈkaka/,Unknown
 kakatup,,,rectum,,,,,body,,31,Orostara,kak tup,poop tube,,
-kam,basic,,job/employment/work/task,work/labor/employ/hire,busy,,,,,,Hindi,काम,kaam,/kɑːm/,
-kamar,basic,,camera,,,,,,,,English,camera,,/ˈkæməɹə/,
+kam,basic,,job/employment/work/task,work/labor/employ/hire,busy,,,,,,Hindi,काम,kaam,/kɑːm/,Sanskrit
+kamar,basic,,camera,,,,,,,,English,camera,,/ˈkæməɹə/,Ancient Greek
 kamat,,,office/workplace,,,,,,,,Orostara,kam taha,,,
-kamin,basic,,path/street/trail/road/way,,,,,,,,Spanish,camino,,/kaˈmino/,
+kamin,basic,,path/street/trail/road/way,,,,,,,,Spanish,camino,,/kaˈmino/,Latin
 kamsis,,,industry,,industrial,industrially,,,,,Orostara,kam sis,hong jip,,
-kan,basic/swear,also a swear; not very vulgar; akin to saying 'balls',bar/rod/pole/stick/(colloquially) dick/strap,(colloquially) peg/top,straight,,,,,,Mandarin Chinese,杆,gān,/kän⁵⁵/,
+kan,basic/swear,also a swear; not very vulgar; akin to saying 'balls',bar/rod/pole/stick/(colloquially) dick/strap,(colloquially) peg/top,straight,,,,,,Mandarin Chinese,杆,gān,/kän⁵⁵/,Proto-Sino-Tibetan
 Kanamur,proper,'mur' added for clarity,Ghana/Republic of Ghana,,,,,,,,English,Ghana,,/ˈɡɑːnə/,
 Kanatamur,proper,'mur' added for clarity,Canada/Dominion of Canada,,,,,country,,,English,Canada,,/ˈkænədə/,
-kanax,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,body,,,Mandarin Chinese,感觉,Gǎnjué,/kän²¹⁴⁻²¹ t͡ɕy̯ɛ³⁵/,
+kanax,basic,specific to physical feelings (touch),physical feeling/sensation,feel/sense,,,,body,,,Mandarin Chinese,感觉,Gǎnjué,/kän²¹⁴⁻²¹ t͡ɕy̯ɛ³⁵/,Proto-Sino-Tibetan
 kanaxor,,,nerve,,,,,body,,6,Orostara,kanax or,,,
 kant,slang/swear,slang swear; can be used as a derogatory honorific; much more vulgar than 'kax'; thought to come either from गांडू  in Hindi or 'cunt' in English  (possibly both),bitch/bastard/dick/cunt/asshole/idiot/fucker,,,,,,,,?,?,,,
 Kantuntar,proper,话 replaced with 'tar',Cantonese/Yue Chinese,,,,,language,,,Cantonese,广东话,gwong dung waa,/kʷɔːŋ³⁵ tʊŋ⁵⁵ waː²²⁻³⁵/,
-kap,basic,,ability/availability/possibility/potential/(colloquially) value,able/can/might,able/available/capable/possible,possibly/potentially/maybe,,,,,Urdu,قابل,qābi,/qɑː.bɪl/,
-kapes,basic,,head,,,,,body,,8,Spanish,cabeza,,/kaˈbesa/,
+kap,basic,,ability/availability/possibility/potential/(colloquially) value,able/can/might,able/available/capable/possible,possibly/potentially/maybe,,,,,Urdu,قابل,qābi,/qɑː.bɪl/,Arabic
+kapes,basic,,head,,,,,body,,8,Spanish,cabeza,,/kaˈbesa/,Latin
 kapeset,,,headscarf/head scarf,,,,,,,,Orostara,kapes et,,,
 kapesmuk,,,hat,,,,,,,,Orostara,kapes muk,,,
-kar,basic,,black/shadow,,black/dark,darkly,,color,,10,Gujarati,કાળો,Kāḷō,/kalo/,
-karax,basic,,crab/lobster/crayfish/crustacean,,,,,animal/nature,,,Gujarati,કરચલો,karaclo,/ˈkə.ɾət͡ʃ.lo/,
-karim,basic,,word,,wordy,,,,,,Arabic,كلمة,kalima,/ka.li.ma/,
+kar,basic,,black/shadow,,black/dark,darkly,,color,,10,Gujarati,કાળો,Kāḷō,/kalo/,Sanskrit
+karax,basic,,crab/lobster/crayfish/crustacean,,,,,animal/nature,,,Gujarati,કરચલો,karaclo,/ˈkə.ɾət͡ʃ.lo/,Sanskrit
+karim,basic,,word,,wordy,,,,,,Arabic,كلمة,kalima,/ka.li.ma/,Arabic
 karimkun,,,sentence/phrase/statement,,,,,,,,Orostara,karim kun,,,
-karip,basic,,nail/talon/claw,scratch,,,,body,,52,French,griffe,,/ɡɹɪf/,
-karipay,basic,,,beg,,please,,,,,Hindi,कृपया,kŕpayā,/kɾɪp.jɑː/,
-karis,basic/slang,,lube/(colloquially) slick,slip/slide,slippery/slick,,,body,,65,French,glisser,,/ɡli.se/,
-karkox,basic,,rabbit/bunny,,,,,animal/nature,,,Bangla,খরগোশ,khôrgoś,[ˈkʰɔr.ɡoʃ],
-kasan,basic,,simulation/VR/virtual reality,simulate,virtual,,,,,,Korean,가상,gasang,[ˈka̠(ː)sʰa̠ŋ],
+karip,basic,,nail/talon/claw,scratch,,,,body,,52,French,griffe,,/ɡɹɪf/,Proto-Germanic
+karipay,basic,,,beg,,please,,,,,Hindi,कृपया,kŕpayā,/kɾɪp.jɑː/,Sanskrit
+karis,basic/slang,,lube/(colloquially) slick,slip/slide,slippery/slick,,,body,,65,French,glisser,,/ɡli.se/,Proto-Germanic
+karkox,basic,,rabbit/bunny,,,,,animal/nature,,,Bangla,খরগোশ,khôrgoś,[ˈkʰɔr.ɡoʃ],Proto-Iranian
+kasan,basic,,simulation/VR/virtual reality,simulate,virtual,,,,,,Korean,가상,gasang,[ˈka̠(ː)sʰa̠ŋ],Sino-Korean
 kasetx,slang/swear,slang swear; can be used as a very vulgar way to call someone a top,phallus/dick/cock/clit/strap,fuck/peg,fucking,,,,,,Portuguese,cacete,,/kaˈse.t͡ʃi/,
-kasip,basic,,projectile,shoot,,,,,,,Arabic,قذيفة,qaḏīfa,/qa.ðiː.fa/,
-kasit,basic,,poem/poetry/verse,,poetic,,,,,,Arabic,قصيدة,qaṣīda,/qa.sˤiː.da/,
-kat,basic,,cut,cut/slice,,,,,,,Bangla,کاٹنا,Kāṭā,[ˈkɑ.ʈɑ],
+kasip,basic,,projectile,shoot,,,,,,,Arabic,قذيفة,qaḏīfa,/qa.ðiː.fa/,Arabic
+kasit,basic,,poem/poetry/verse,,poetic,,,,,,Arabic,قصيدة,qaṣīda,/qa.sˤiː.da/,Arabic
+kat,basic,,cut,cut/slice,,,,,,,Urdu,کاٹنا,Kāṭā,[ˈkɑ.ʈɑ],Sanskrit
 katan,,the fiber,flax,,,,,,,,Arabic,كتان,kattān,/kat.taːn/,
-kaus,basic,,arch,curve/bend/flex,flexible,flexibly,,,,,Arabic,قَوْس,qaws,/qaws/,
+kaus,basic,,arch,curve/bend/flex,flexible,flexibly,,,,,Arabic,قَوْس,qaws,/qaws/,Arabic
 kax,slang/swear,can be used as a derogatory honorific suffix or just a swear; less vulgar than 'kant',shit/garbage/(honorific) shithead/dumbass/idiot/dumbfuck/shit for brains,kill/die/kill yourself,useless/stupid/shitty,,,,,,Orostara,kaxar,,,
-kaxar,basic,,waste/trash/(polite) poop,,,,,,,,Hindi,कचरा,kacrā,/kət͡ʃ.ɾɑː/,
+kaxar,basic,,waste/trash/(polite) poop,,,,,,,,Hindi,कचरा,kacrā,/kət͡ʃ.ɾɑː/,Sanskrit
 kaxit,slang/swear,slang swear,asshole/shithole,,,,,,,,Orostara,kax xit ,,,
-kay,basic,,cow,,,,,animal/nature,,,Hindi,गाय,gāy,/ɡɑːj/,
+kay,basic,,cow,,,,,animal/nature,,,Hindi,गाय,gāy,/ɡɑːj/,Sanskrit
 kays,slang/swear,slang swear; only mildly vulgar,(exclamation) damn,damn,damned/stupid,,,,,,Mandarin Chinese,該死,,/kaɪ̯⁵⁵ sz̩²¹⁴⁻²¹⁽⁴⁾/,
-kayut,basic,,account/recording,account/record,accountable,,,,,,Turkish,kayıt,,/kaˈjɯt/,
-kek,basic,,marriage,marry,marital,,,,,,Japanese,結婚,kekkon,[ke̞k̚kõ̞ɴ],
+kayut,basic,,account/recording,account/record,accountable,,,,,,Turkish,kayıt,,/kaˈjɯt/,Proto-Turkic
+kek,basic,,marriage,marry,marital,,,,,,Japanese,結婚,kekkon,[ke̞k̚kõ̞ɴ],Proto-Japonic?
 kekisar,,,spouse,,,,,,,,Orostara,kekon sar,marriage person,,
 Kenamur,proper,'mur' added for clarity,Kenya/Republic of Kenya,,,,,country,,,Swahili,Kenya,,/kɛ.ɲɑ/,
-kep,basic,,damage/wound/injury,break/damage/hurt/wound/injure/destroy/demolish/rip/tear/harm,broken/damaged/wounded/injured,,,body,,,Portuguese,quebrar,,/keˈbɾa(ʁ)/,
+kep,basic,,damage/wound/injury,break/damage/hurt/wound/injure/destroy/demolish/rip/tear/harm,broken/damaged/wounded/injured,,,body,,,Portuguese,quebrar,,/keˈbɾa(ʁ)/,Latin
 Kepox,proper,inspired by the Roman god of punishment in the underworld ,Orcus,,,,,space,,18,Orostara,kep hox,,,
-ker,basic,,game/sport,play a game,fun,,,,,,Hindi,खेल,khel,/kʰeːl/,
-kex,basic,,hair/fur/feather/feathers,,hairy/furry,,,body,,10,Gujarati,કેશ,Kēśa,,
+ker,basic,,game/sport,play a game,fun,,,,,,Hindi,खेल,khel,/kʰeːl/,Sanskrit
+kex,basic,,hair/fur/feather/feathers,,hairy/furry,,,body,,10,Gujarati,કેશ,Kēśa,,Unknown
 kexet,,,bonnet,,,,,,,,Orostara,kex et,,,
-key,basic,,gift/reward/prize/distribution,give/reward/share/distribute,gifted/free/earned,,,,,,Mandarin Chinese,给,Gěi,/keɪ̯²¹⁴/,
+key,basic,,gift/reward/prize/distribution,give/reward/share/distribute,gifted/free/earned,,,,,,Mandarin Chinese,给,Gěi,/keɪ̯²¹⁴/,Proto-Sino-Tibetan
 keytay,,,generosity,,generous,generously,,,,,Orostara,key tay,,,
-keyuk,basic,,muscle/meat,,muscular,,,body,,3,Cantonese,肌肉,gei juk,/kei̯⁵⁵ jʊk̚²/,
+keyuk,basic,,muscle/meat,,muscular,,,body,,3,Cantonese,肌肉,gei juk,/kei̯⁵⁵ jʊk̚²/,Proto-Sino-Tibetan
 ki,,particle to indicate something is a question ,,,,,,,,,Orostara,kiy,,,
 kihes,,for what reason; why did it happen,,,,why,,,,,Orostara,kiy hes,what reason,,
 kikon,,,whatever/whichever,,,,,,,,Orostara,kiy kon ,what any,,
@@ -257,53 +257,53 @@ kisar,,,who,,,,,,,,Orostara,kiy sar,what person,,
 kisek,,,,,,when,,,,,Orostara,kiy sek,,,
 kitip,,,,,,where,,,,,Orostara,kiy tif,what place,,
 kixin,,,,,,how,,,,,Orostara,kiy xin,what action,,
-kiy,basic,,what/question,ask/question,inquisitive ,,,,,,Urdu,کیا,kya,/kjɑː/,
+kiy,basic,,what/question,ask/question,inquisitive ,,,,,,Urdu,کیا,kya,/kjɑː/,Sanskrit
 kiyah,,normally you would just say 'kiya?' but if you want to really emphasize it you can draw it out (that is what the 'h' is for); also if you want so add some aggressive umph you can go 'kiyaha!?' which a lot of throat in the 'h',,,,,huh,interjection,oth,,Orostara,kiy,,,
 ko,basic,indicates a direct object,,,,,,,,,Orostara,?,,,
-koay,basic,,,,cute/adorable/loveable,,,,,,Mandarin Chinese,可愛,kě'ài,/kʰɤ²¹⁴⁻²¹ ˀaɪ̯⁵¹/,
+koay,basic,,,,cute/adorable/loveable,,,,,,Mandarin Chinese,可愛,kě'ài,/kʰɤ²¹⁴⁻²¹ ˀaɪ̯⁵¹/,Proto-Sino-Tibetan
 kohun,,indicates a dependent clause acting as the direct object of the sentence,,,,,,,,,Orostara,ko hun,,,
-kom,basic,,comparison,compare,comparable,comparably,than,,,,Spanish,comparer,,/kompaˈɾaɾ/,
-komar,basic,,,,gentle/soft,gently/softly,,,,,Punjabi,ਕੋਮਲ,Kōmala,/koːmələ/,
-kon,basic,,,,,any/at all,,,,,Bangla,কোনো,kono,/kono/,
+kom,basic,,comparison,compare,comparable,comparably,than,,,,Spanish,comparar,,/kompaˈɾaɾ/,Latin
+komar,basic,,,,gentle/soft,gently/softly,,,,,Punjabi,ਕੋਮਲ,Kōmala,/koːmələ/,Sanskrit
+kon,basic,,,,,any/at all,,,,,Bangla,কোনো,kono,/kono/,Prakrit
 Konko-Kinxasamur,proper,'mur' added for clarity,DR Congo/DRC/Democratic Republic of the Congo,,,,,country,,,French,Congo-Kinshasa,,,
-kopan,basic,,stock/share/equity,,,,,,,,Vietnamese,Cổ phần,,[ko˧˩ fən˨˩],
-kor,basic,,,hang,,,,,,,Spanish,colgar,,/kolˈɡaɾ/,
+kopan,basic,,stock/share/equity,,,,,,,,Vietnamese,Cổ phần,,[ko˧˩ fən˨˩],Sino-Vietnamese
+kor,basic,,,hang,,,,,,,Spanish,colgar,,/kolˈɡaɾ/,Latin
 Korumpyamur,proper,'mur' added for clarity,Colombia/Republic of Colombia/Columbia,,,,,country,,,Spanish,Columbia,,/koˈlumbja/,
-kos,basic,,bone,,,,,body,,7,Russian,кость,kost',[kosʲtʲ],
-kosmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,Spanish,cosmos,,/ˈkosmos/,
-kot,basic,can be used as an honorific suffix; specifically means 'your child'; not the same as underage person; see 'hok' if you need to give an honorific to a child,child/son/daughter/offspring,,,,,,,,Telugu,కొడుకు,Koḍuku,/koɖuku/,
-kotik,basic,,code,encode/encrypt,cryptic,,,,,,Spanish,código,,/ˈkodiɡo/,
-kox,basic,,music/song,make music,musical/lyrical,,,,,,Mandarin Chinese,歌曲,Gēqǔ,/kɤ⁵⁵ t͡ɕʰy²¹⁴⁻²¹⁽⁴⁾/,
+kos,basic,,bone,,,,,body,,7,Russian,кость,kost',[kosʲtʲ],Proto-Slavic
+kosmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,Spanish,cosmos,,/ˈkosmos/,Ancient Greek
+kot,basic,can be used as an honorific suffix; specifically means 'your child'; not the same as underage person; see 'hok' if you need to give an honorific to a child,child/son/daughter/offspring,,,,,,,,Telugu,కొడుకు,Koḍuku,/koɖuku/,Proto-Dravidian
+kotik,basic,,code,encode/encrypt,cryptic,,,,,,Spanish,código,,/ˈkodiɡo/,Latin
+kox,basic,,music/song,make music,musical/lyrical,,,,,,Mandarin Chinese,歌曲,Gēqǔ,/kɤ⁵⁵ t͡ɕʰy²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino-Tibetan
 koxan,,,,dance,,,,,,,Orostara,kox xan,chum,,
 koxtar,,,,sing,,,,,,,Orostara,kox tar,,,
-koy,basic,,sex/sexual intercourse/coitus,have sex/mate,sexual/hot,sexually,,,,72,Spanish,coito,,/ˈkoito/,
+koy,basic,,sex/sexual intercourse/coitus,have sex/mate,sexual/hot,sexually,,,,72,Spanish,coito,,/ˈkoito/,Latin
 koyxam,,,orgasm,,,,,,,,Orostara,koy xam,,,
-kuan,basic,,width/range/scale/spectrum/breadth,,wide,,,,,,Mandarin Chinese,宽度,Kuāndù,/kʰu̯än⁵⁵ tu⁵¹/,
-kuat,basic,,growth/expansion,grow/increase/expand/spread/enlarge/extend,increasing,,,,,,Mandarin Chinese,扩大,kuòdà,/kʰu̯ɔ⁵¹⁻⁵³ tä⁵¹/,
-kuex,basic,,connection/relation/link,connect/relate/link/bond,connecting/connective,,,,,,Wu Chinese,关系,kue-shi,/kue̞⁵⁵ ɕi²¹/,
+kuan,basic,,width/range/scale/spectrum/breadth,,wide,,,,,,Mandarin Chinese,宽度,Kuāndù,/kʰu̯än⁵⁵ tu⁵¹/,Proto-Sino-Tibetan
+kuat,basic,,growth/expansion,grow/increase/expand/spread/enlarge/extend,increasing,,,,,,Mandarin Chinese,扩大,kuòdà,/kʰu̯ɔ⁵¹⁻⁵³ tä⁵¹/,Proto-Sino-Tibetan
+kuex,basic,,connection/relation/link,connect/relate/link/bond,connecting/connective,,,,,,Wu Chinese,关系,kue-shi,/kue̞⁵⁵ ɕi²¹/,Proto-Sino-Tibetan
 kuexkun,,,network,,,,,,,,Orostara,kuex kun,,,
 kuey,slang,slang; used to mean anyone who worked at Oros but now mostly used to refer to anyone who was born into the corp; so brood babies mostly; Venusians most of all,adder/snake/oros citizen/(colloquially) Venusian,,,,,,,,Mandarin Chinese,蝰,,/kʰu̯eɪ̯³⁵/,
 kueyik,slang,slang,snakelet/minor/young adder/student/child,,,,,,,,Orostara,kuey ik,,,
 kuihaka,slang,slang; kid in the same brood as you,,,,,,,,,Orostara,kuik hak,,,
 kuika,slang,slang; used to refer to the class of kids you were with in school and also the whole 'school' system itself,brood,,,,,,,,Orostara,kueyik kun,,,
 kuikupra,slang,slang; adult in charge of your brood,,,,,,,,,Orostara,kuik upr,,,
-kum,basic,,flaw/mistake/error,,bad/negative/wrong/incorrect,,,,,,Bangla,খুঁত,Khum̐ta,/ kʰumtɔ/,
+kum,basic,,flaw/mistake/error,,bad/negative/wrong/incorrect,,,,,,Bangla,খুঁত,Khum̐ta,/ kʰumtɔ/,Prakrit?
 kumapas,,,illness,,ill/sick,,,,,,Orostara,kum apas,,,
 kumax,,referring to magic,curse,curse,,,,fantasy,,,Orostara,kum max,bad magic,,
 kumik,,,disease/illness,,,,,,,,Orostara,kum mik,,puryu,
 kumix,,,,damn/curse,,,,fantasy,verb,,Orostara,kum ix,bad will/energy,,
 kumtay,,,rage/anger/wrath,,angry/mad/grumpy/pissy,,,,,,Orostara,kum tay,,,
 kumtox,,,disadvantage/detriment,,,,,,,,Orostara,kum tox,,,
-kun,basic,,group/collection,collect,,,,,,,Japanese,群,gun,/gɯɴ/,
-kunap,basic,,concern,worry,concerned,,,,,,Mandarin Chinese,恐怕,kǒngpà,/kʰʊŋ²¹⁴⁻²¹ pʰä⁵¹/,
+kun,basic,,group/collection,collect,,,,,,,Japanese,群,gun,/gɯɴ/,Proto-Japonic?
+kunap,basic,,concern,worry,concerned,,,,,,Mandarin Chinese,恐怕,kǒngpà,/kʰʊŋ²¹⁴⁻²¹ pʰä⁵¹/,Proto-Sino-Tibetan
 kunson,,,ant/bee/wasp,,,,,animal/nature,,,Orostara,kun son,,,
-kup,basic,as in 'too much',excess,,extra/excessive,too,,,,,Bangla,খুব,Khuba,/kʰub/,
+kup,basic,as in 'too much',excess,,extra/excessive,too,,,,,Bangla,খুব,Khuba,/kʰub/,Proto-Iranian
 kupak,,,profit,profit,,,,,,,Orostara,kup pak,excess money,,
 kur,slang/swear,slang swear,ass,,,,,,,,Spanish,culo,,/ˈkulo/,
-kus,basic/slang,also used as an insult; particularly by Venusians against people from other planets,worm,,,,,animal/nature,,,Spanish,gusano,,/ɡuˈsano/,
+kus,basic/slang,also used as an insult; particularly by Venusians against people from other planets,worm,,,,,animal/nature,,,Spanish,gusano,,/ɡuˈsano/,Latin
 kuset,,,silk/silk fabric,,,,,,,,Orostara,kus et,,,
-kut,basic,,town/city,,,,,,,,Javanese,ꦏꦸꦛ,kutha,/ku.ʈa/,
-kux,basic,,story/tale/fiction/narrative,narrate/tell tales,fictional,,,,,,Mandarin Chinese,故事,"gùshi,",/ku⁵¹ ʂʐ̩¹/,
+kut,basic,,town/city,,,,,,,,Javanese,ꦏꦸꦛ,kutha,/ku.ʈa/,Sanskrit?
+kux,basic,,story/tale/fiction/narrative,narrate/tell tales,fictional,,,,,,Mandarin Chinese,故事,"gùshi,",/ku⁵¹ ʂʐ̩¹/,Proto-Sino-Tibetan
 kuxkasan,,,AR/augmented reality,,AR,,,,,,Orostara,kux kasan,some vr,,
 Kuxratitar,proper,'tar' added for clarity,Gujarati/Gunjarati,,,,,language,,,Gujarati,ગુજરાતી,Gujarātī,/ɡudʒ(ə)ˈɾɑt̪i/,
 ma,basic,particle to indicate subject of a sentence,,,,,,,,,Orostara,?,,,
@@ -525,10 +525,10 @@ pasir,basic,,ease/simplicity,ease/simplify,easy/simple/basic,easily/simply/only/
 pasirekep,,,,,delicate/fragile/breakable,,,,,,Orostara,pasir kep,easily damaged,,
 paskos,,,spine,,,,,body,,22,Orostara,pas kos,back bone,,
 pasten,,,tomorrow,,,,,,,,Orostara,pas ten,,,
-pat,basic,,problem/obstacle/issue,block/cause a problem,blocked/problematic,,,,,,Bangla,বাধা,Bādhā,/ba.dʱa/,
-patam,basic,,foot/step,step,,,,body,,57,Tamil,பாதம்,pātam,/paːd̪ɐm/,
-patamet,,,socks/sock,,,,,,,,Orostara,patam et,,,
-patamxot,,,ankle,,,,,body,,56,Orostara,patam xot,,,
+pirax,basic,,problem/obstacle/issue,block/cause a problem,blocked/problematic,,,,,,Tamil,பிரச்சினை,piracciṉai,/piɾɐt͡ɕːinaɪ̯/,Sanskrit
+pat,basic,,foot/step,step,,,,body,,57,Tamil,பாதம்,pātam,/paːd̪ɐm/,
+patet,,,socks/sock,,,,,,,,Orostara,pat et,,,
+pataxot,,,ankle,,,,,body,,56,Orostara,pat xot,,,
 paux,basic,,insurance,insure ,insured,,,,,,Mandarin Chinese,保险,Bǎoxiǎn,/pɑʊ̯²¹⁴⁻³⁵ ɕi̯ɛn²¹⁴⁻²¹⁽⁴⁾/,
 pax,basic,,joy/enjoyment/fun/delight,like/enjoy/fond of,happy/fun/enjoyable,happily,,,,,Bangla,পছন্দ,Pachanda,/pɔtɕʰond̪o/,
 paxan,basic,,weight/mass/gram/gramme,weigh,heavy,,,measurement,,,Gujarati,વજન,vajan,/ʋədʒən/,
@@ -566,8 +566,6 @@ pinsun,,,polka dot,,polka dotted/dotted,,,,,,Orostara,pin sun,,,
 pinxin,basic,,mean/average,normalize,average/normal,,,,,,Mandarin Chinese,平均,Píngjūn,/pʰiŋ³⁵ t͡ɕyn⁵⁵/,
 pir,basic,,cat,,,,,animal/nature,,,Hindi,बिल्ली,billee,/bɪl.liː/,
 pirik,,,kitty/kitten,,,,,animal/nature,,,Orostara,pir ik,,,
-pirim,basic,,science,,,,,,,,Turkish,bilim,,[biˈlim],
-pirimsar,,,scientist,,,,,,,,Orostara,pirim sar,science person,,
 Piripinasmur,proper,'mur' already included! No need to add,Phillipines/Republic of the Philippines,,,,,country,,,Filipino,Pilipinas,,/piliˈpinas/,
 pis,basic,,scent/odor/smell,sniff/smell,,,,,,,Mandarin Chinese,鼻子,Bízi,/pi³⁵ d͡z̥z̩³/,
 pisor,,,nose,,,,,body,,14,Orostara,pis or,,,
@@ -903,7 +901,7 @@ xipan,basic,,west,,west,west,,direction,adv,4,Mandarin Chinese,西方,Xīfāng,/
 xipor,,,tongue,,,,,body,,18,Orostara,xip or,,,
 xipun,,,paragraph,,,,,,,,Orostara,xiy pun,,,
 xir,basic,,white,,white,,,color,,8,Japanese,白,Shiro,[ɕiɾo̞],
-xis,basic,,technology,,technological,technologically,,,,,Wu Chinese,技術,jji-zeq,/d͡ʑi²² zəʔ⁴⁴/,
+xis,basic,,technology,engineer,technological,technologically,,,,,Wu Chinese,技術,jji-zeq,/d͡ʑi²² zəʔ⁴⁴/,
 xit,basic/swear,also a swear; not very vulgar; akin to saying 'balls',hole/(colloquially) pussy/asshole (anatomical),dig/drill/puncture/stab,,,through,,,,Marathi,छिद्र,Chidra,/tɕʰidɾə/,
 xiy,basic,,writing/essay/book/article,write,written,,,,,,Mandarin Chinese,写,Xiě,/ɕi̯ɛ²¹⁴/,
 xiyen,basic,,salt,,salty,,,food,,1,Mandarin Chinese,食盐,Shíyán,/ʂʐ̩³⁵ jɛn³⁵/,
