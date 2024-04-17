@@ -145,7 +145,7 @@ function readCSVFile() {
     }
     fillTable(); //in full_dict_func.js
     cfillTable(); //in categories_func.js
-    //langAnalysis();
+    langAnalysis();
   });
 }
 
@@ -155,7 +155,7 @@ function langAnalysis() {
     if (idealBreakdownNum.hasOwnProperty(el.Lang)) {
       el.Diff = idealBreakdownNum[el.Lang] - el.Count;
     }
-    if (el.Diff > 2) {
+    if (el.Diff > 0) {
       console.log(
         el.Count +
           "/" +

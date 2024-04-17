@@ -49,7 +49,7 @@ at,basic,,,get/attain/take/grab/download/buy/claim,,,,,,,Korean,얻다,eodda,[ˈ
 atam,basic,,bridge,cross,,,across,,,,Telugu,అడ్డముగా,aḍḍamugā,/aɖ.ɖʌmuɡʌ/,Proto-Dravidian
 atit,basic,,root/basis/essence/foundation/base,,fundamental/basic,fundamentally/basically/essentially,,plant/nature,,2,Tamil,அடித்தளம்,aṭittaḷam,/ɐɖit̪ːɐɭɐm/,Unknown
 atiy,slang,informal slang; short form; can also be spelled 'atio',,bye/goodbye,,,,,,,Orostara,atios,,ati,
-atyos,basic,,,goodbye/bye,,,,,,,Spanish,adiós,,/aˈdjos/,Latin
+atios,basic,,,goodbye/bye,,,,,,,Spanish,adiós,,/aˈdjos/,Latin
 auk,basic,,alcohol,,alcoholic,,,food,,,Portuguese,álcool,,/ˈaw.ko.ɔw/,Akkadian
 ax,basic,,yay/woohoo,,good/positive/right/correct,,,interjection,,,Hindi,अच्छा,achchha,/ət͡ʃ.t͡ʃʰɑː/,Sanskrit
 axok,,Can be used as an casual and flirty honorific suffic ,beauty/(honorific) beautiful one/gorgeous,decorate,pretty/beautiful,beatifully,,,,,Orostara,ax xok,good appearance,,
@@ -78,7 +78,7 @@ etos,,,bag,,,,,,,,Orostara,et hos,,,
 ex,basic,,debt,have/borrow/rent/loan/owe,,,of/from,,,,Farsi,اجاره,ejâre,[ʔe.d͡ʒɒː.ɹé],Proto-Germanic
 exit,basic,,equivalence/equality,equate/balance,equal/same/identical,equally/identically,,,,,Turkish,eşit,,/eʃit/,Proto-Turkic
 expien,,,,,parallel,,,,,,Orostara,ex pien,equal line,,
-ey,basic,Interjection to get somone's attention,,,,,hey,interjection,oth,,Tamil,ஏய்,Ēy,/eːj/,Unknown
+ey,basic,Interjection to get someone's attention,,,,,hey,interjection,oth,,Tamil,ஏய்,Ēy,/eːj/,Unknown
 ha,,exclamation marker ,,,,,,,,,Orostara,ham,,,
 haha,,,,,,,haha,interjection,oth,,?,,,,
 hak,basic,Most commonly used as an honorific suffix (all children are students),student/child/minor,,,,,,,,Cantonese,学生,hok saang,/hɔk̚³² saŋ³³⁻³³⁵/,Proto-Sino
@@ -175,9 +175,8 @@ in,basic,,fly,,,,,animal/nature,,,Mandarin Chinese,蠅,yíng,/in⁵⁵/,Proto-Si
 inar,basic,,pressure/pascal/(colloquially) stress,crush/squeeze,(colloquially) stressful/stressed,,,measurement,,,Mandarin Chinese,应力,Yìnglì,/iŋ⁵¹⁻⁵³ li⁵¹/,Proto-Sino
 inax,basic,,luck/chance,,lucky,,,,,,Mandarin Chinese,运气,Yùnqì,/yn⁵¹ t͡ɕʰi¹/,Proto-Sino
 ink,basic/slang,Commonly used like an honorific suffix for corporations cuz they're treated like people I guess; (colloquially) used like how English uses 'god' in swearing; 'I swear to god' = 'I swear to Inka',company/business/firm/corporation/(colloquially) god,,incorporated,,,,,,English,incorporated,,/ɪŋˈkɔɹpəɹeɪtɪd/,Latin
-Inkamur,proper,'land' replaced with 'mur' for clarity,England,,,,,country,,,English,England,,/ˈɪŋɡlənd/,
+Inakmur,proper,'land' replaced with 'mur' for clarity,England,,,,,country,,,English,England,,/ˈɪŋɡlənd/,
 Inkarixtar,proper,'tar' added for clarity,English,,,,,language,,,English,english,,/ˈɪŋɡlɪʃ/,
-Inkatar,slang/proper,informal slang; short form,English,,,,,country,,,Orostara,Inkarixtara,,,
 insan,basic,,human,,,,,animal/nature,,,Hindi,इंसान,insaan,[ɪnˈsa(ː)n],Proto-Semitic
 insisan,,time of year,spring,,,,,,,,Orostara,in sisan,,,
 Intonesiamur,proper,'mur' added for clarity,Indonesia/Republic of Indonesia,,,,,country,,,Indonesian,Indonesia,,/in.ˈdo.nɛ.sɪ.(j)a/,
@@ -203,7 +202,7 @@ kakatup,,,rectum,,,,,body,,31,Orostara,kak tup,poop tube,,
 kam,basic,,job/employment/work/task,work/labor/employ/hire,busy,,,,,,Hindi,काम,kaam,/kɑːm/,Sanskrit
 kamar,basic,,camera,,,,,,,,English,camera,,/ˈkæməɹə/,Ancient Greek
 kamat,,on Earth; physical,office/workplace,,,,,,,,Orostara,kam taha,,,
-kamin,basic,,path/street/trail/road/way,,,,,,,,Spanish,camino,,/kaˈmino/,Latin
+kamin,basic,,path/street/trail/road/way,follow/track,,,,,,,Spanish,camino,,/kaˈmino/,Latin
 kamsis,,,industry,,industrial,industrially,,,,,Orostara,kam sis,hong jip,,
 kan,basic/swear,also a swear; not very vulgar; akin to saying 'balls',bar/rod/pole/stick/(colloquially) dick/strap,(colloquially) peg/top,straight,,,,,,Mandarin Chinese,杆,gān,/kän⁵⁵/,Proto-Sino
 Kanamur,proper,'mur' added for clarity,Ghana/Republic of Ghana,,,,,,,,English,Ghana,,/ˈɡɑːnə/,
@@ -285,11 +284,13 @@ kuan,basic,,width/range/scale/spectrum/breadth,,wide,,,,,,Mandarin Chinese,宽�
 kuat,basic,,growth/expansion,grow/increase/expand/spread/enlarge/extend,increasing,,,,,,Mandarin Chinese,扩大,kuòdà,/kʰu̯ɔ⁵¹⁻⁵³ tä⁵¹/,Proto-Sino
 kuex,basic,,connection/relation/link,connect/relate/link/bond,connecting/connective,,,,,,Wu Chinese,关系,kue-shi,/kue̞⁵⁵ ɕi²¹/,Proto-Sino
 kuexkun,,,network,,,,,,,,Orostara,kuex kun,,,
-kuey,slang,slang; used to mean anyone who worked at Oros but now mostly used to refer to anyone who was born into the corp; so brood babies mostly; Venusians most of all,adder/snake/oros citizen/(colloquially) Venusian,,,,,,,,Mandarin Chinese,蝰,,/kʰu̯eɪ̯³⁵/,
-kueyik,slang,slang,snakelet/minor/young adder/student/child,,,,,,,,Orostara,kuey ik,,,
-kuihaka,slang,slang; kid in the same brood as you,,,,,,,,,Orostara,kuik hak,,,
-kuika,slang,slang; used to refer to the class of kids you were with in school and also the whole 'school' system itself,brood,,,,,,,,Orostara,kueyik kun,,,
-kuikupra,slang,slang; adult in charge of your brood,,,,,,,,,Orostara,kuik upr,,,
+kuey,slang,widely used slang; used to mean anyone who worked at Oros but now mostly used to refer to anyone who was born into the corp; so brood babies mostly; Venusians most of all,adder/snake/oros citizen/(colloquially) Venusian,,,,,,,,Mandarin Chinese,蝰,,/kʰu̯eɪ̯³⁵/,
+kueyik,slang,widely used slang; little adders (see 'kuey'); also called kuika; see 'kuik',snakelet/minor/young adder/student/child,,,,,,,,Orostara,kuey ik,,,
+kuihak,slang,slang; kid in the same brood as you,broodmate,,,,,,,,Orostara,kuik hak,,,
+kuik,slang,slang; used to refer to the class of kids you were with in school and also the whole 'school' system itself,snakelet/minor/young adder/student/child,,,,,,,,Orostara,kueyik kun,,,
+,,,,,,,,,,,,,,,
+kuikun,slang,group of five kids you compete with each year ,brood,,,,,,,,,,,,
+kuikupr,slang,slang; adult in charge of your brood; hard to translate into English; Teacher? Babysitter? Headmaster? I dunno I did my best,broodhead,,,,,,,,Orostara,kuik upr,,,
 kum,basic,,flaw/mistake/error,,bad/negative/wrong/incorrect,,,,,,Bangla,খুঁত,Khum̐ta,/ kʰumtɔ/,Sanskrit?
 kumapas,,,illness,,ill/sick,,,,,,Orostara,kum apas,,,
 kumax,,referring to magic,curse,curse,,,,fantasy,,,Orostara,kum max,bad magic,,
@@ -343,7 +344,7 @@ masiuk,slang,not commonly used; reserved for extremely important relationships,,
 maskap,,,skill,,,,,,,,Orostara,mas kap,gei nang,,
 maskom,slang,,,,more,more,more than/(colloquially) better than,,,,Orostara,mas kom,,,
 masnien,,,,,old,,,,,,Orostara,mas nien,,,
-masonux,,,,chase/hunt,,,,,,,Orostara,mas onux,follow a lot (or very follow?),,
+maskamin,,,,chase/hunt,,,,,,,Orostara,mas kamin,follow a lot (or very follow?),,
 masot,,pair with 'sek',a late future,,late,late,,,,,Orostara,mas ot,,,
 maspakan,,,penis,,,,,body,,39,Orostara,mas pakan,,,
 maspax,,,preference/favor,prefer/favor/love/adore,,,rather,,,,Orostara,mas pax,,,
@@ -485,7 +486,6 @@ ok,,,,,okay/ok/O.K.,okay/ok/O.K.,,,,,English,okay,,,
 okarim,,,verb,,,,,,,,Orostara,o karim,,,
 on,basic,if no noun after then assume common sense 'me' or 'you',possession/property,have/possess/own,possessive,possessively,of/from,,,,English,own,,/oʊn/,Proto-Germanic
 onak,basic,,fungus/mushroom,,,,,nature,,,Spanish,hongo,,[ˈõŋ.ɡo],Latin
-onux,basic,,,follow/track,,,,,,,Bangla,অনুসরণ,Anusaraṇa,/onuʃɔrɔnɔ/,Sanskrit?
 op,basic,,opening/start/beginning/source/origin,open/turn on/start/begin,open/on,,from (as in from here to there)/since,,,,English,open,,/ˈoʊ.pən/,Proto-Germanic
 oprikat,basic,,gratitude,thank/thanks/thank you,,,,,,,Portuguese,obrigado,,/o.bɾiˈɡa.du/,Latin
 oprikatun,,short form for 'tanyafato kohun'; follow with a subordinate clause; see 'tanyun' to sound more informal,,,,,thank you for ,,,,Orostara,oprikat hun,,,
@@ -886,7 +886,7 @@ xariet,,,dress/tunic,,,,,,,,Orostara,xarir et,,,
 xarir,basic,,body,,,,,body,,0,Marathi,शरीर,Śarīra,/ɕə.ɾiɾ/,
 xas,basic,,hour,,,,,measurement,,,Russian,час,chas,[t͡ɕas],
 xasot,,pair with 'sek',future hour,,,,,,,,Orostara,xas ot,,,
-xat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end/complete,closed/off/ended/finished/complete/done/final,finally,to (as in from here to there),,,,English,shut,,/ʃʌt/,
+xat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end/complete,closed/off/ended/finished/complete/done/final/last,finally,to (as in from here to there),,,,English,shut,,/ʃʌt/,
 Xauatar,proper,'tar' added for clarity,Javanese,,,,,language,,,Javanese,jawa,,/dʒɔ.wɔ/,
 xaxan,,pair with 'sek',past hour,,,,,,,,Orostara,xas xan,,,
 xay,basic,,duty/obligation/responsibility/liability,,dutiful/responsible/liable,,,,,,Vietnamese,trách nhiệm,,[t͡ɕajk̟̚˧˦ ɲiəm˧˨ʔ],
@@ -971,3 +971,4 @@ yursis,,,solar system,,,,,space,,5,Orostara,yur sis,star system,,
 yus,basic,,instrument/tool/equipment,use/play,equipped,,,,,,English,use,,/jus/,
 xunar,basic,,gravity,,,,,,,,Mandarin Chinese,重力,zhònglì,/ʈ͡ʂʊŋ⁵¹⁻⁵³ li⁵¹/,
 tor,basic,,storm,,,,,nature,,,Spanish,tormenta,,/toɾˈmenta/,
+kuaxiok,,,,grow/develop,,,,,,,,,,,
