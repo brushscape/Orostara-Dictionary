@@ -145,7 +145,7 @@ function readCSVFile() {
     }
     fillTable(); //in full_dict_func.js
     cfillTable(); //in categories_func.js
-    langAnalysis();
+    //langAnalysis();
   });
 }
 
