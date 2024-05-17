@@ -163,6 +163,9 @@ function cShowOnly(type) {
     case "continent":
       string += "Continents";
       break;
+    case "economy":
+      string += "Economy";
+      break;
     default:
       string += "Help";
       break;
