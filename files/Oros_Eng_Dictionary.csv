@@ -45,7 +45,7 @@ asap,basic,,horse,,,,,animal/nature,,,Farsi,اسب,asb,[ʔæsb̥],Proto-Iranian
 asar,,,teacher/professor,,,,,,,,Orostara,as sar,education person,,
 Astarater,proper,the continent; 'ter' added for clarity,Australia,,,,,continent,,,English,Australia,,/əˈstɹæɪl.jə/,
 asur,basic,,blue,,blue,,,color,,5,Spanish,azul,,/aˈsul/,Proto-Iranian
-at,basic,,,get/attain/take/grab/download/buy/claim,,,,,,,Korean,얻다,eodda,[ˈɘ(ː)t̚t͈a̠],Proto-Korean
+at,basic,,,get/attain/take/grab/download/buy/claim,,,,economy,verb,,Korean,얻다,eodda,[ˈɘ(ː)t̚t͈a̠],Proto-Korean
 atam,basic,,bridge,cross,,,across,,,,Telugu,అడ్డముగా,aḍḍamugā,/aɖ.ɖʌmuɡʌ/,Proto-Dravidian
 atit,basic,,root/basis/essence/foundation/base,,fundamental/basic,fundamentally/basically/essentially,,plant/nature,,2,Tamil,அடித்தளம்,aṭittaḷam,/ɐɖit̪ːɐɭɐm/,Unknown
 atiy,slang,informal slang; short form; can also be spelled 'atio',,bye/goodbye,,,,,,,Orostara,atios,,ati,
@@ -110,7 +110,7 @@ haspaxan,,,kilogram,,,,,measurement,,,Orostara,has paxan,,,
 hat,basic,,tour,walk,,,,,,,Russian,ходить,khodit,[xɐˈdʲitʲ],Proto-Slavic
 hatam,basic,,mark/stamp/impression,mark/stamp/impress,,,,,,,Arabic,ختم,ḵattama,/xatama/,Hebrew?
 masat,,,,run,,,,,,,Orostara,mas hat,walk a lot/very,,
-haos,basic/slang,used as a slur of sorts to talk about people who Venusians (mostly) feel aren't pulling their weight and are a waste of resources,parasite/(colloquially) leech,spend/expend/use up/waste/consume,,,,economy,,,Mandarin Chinese,耗損,hàosǔn,/xɑʊ̯⁵¹ su̯ən²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
+haos,basic/slang,used as a slur of sorts to talk about people who Venusians (mostly) feel aren't pulling their weight and are a waste of resources,parasite/(colloquially) leech,spend/expend/use up/waste/consume,,,,economy,verb,,Mandarin Chinese,耗損,hàosǔn,/xɑʊ̯⁵¹ su̯ən²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
 Hausatar,proper,'tar' added for clarity,Hausa,,,,,language,,,Hausa,hausa,,[háu.sə́],
 hax,basic,,eight,,8,,,number,,9,Japanese,八,hachi,[ha̠t͡ɕi],Proto-Sino
 haxin,,named for the number of points on the shape,octagon,,octagonal,,,shape,,,Orostara,hax hin,,,
@@ -484,7 +484,7 @@ nuy,basic,,mountain,,,,,nature,,,Vietnamese,núi,,[nuj˧˦],Proto-Vietic
 o,basic,indicate an 'is/am/are' phrase; optional and used for clarity,,,,,,,,,Orostara,?,,,
 ok,,,,,okay/ok/O.K.,okay/ok/O.K.,,,,,English,okay,,,
 okarim,,,verb,,,,,,,,Orostara,o karim,,,
-on,basic,if no noun after then assume common sense 'me' or 'you',possession/property,have/possess/own,possessive,possessively,of/from,,,,English,own,,/oʊn/,Proto-Germanic
+on,basic,if no noun after then assume common sense 'me' or 'you',possession/property,have/possess/own,possessive,possessively,of/from,economy,,,English,own,,/oʊn/,Proto-Germanic
 onak,basic,,fungus/mushroom,,,,,nature,,,Spanish,hongo,,[ˈõŋ.ɡo],Latin
 op,basic,,opening/start/beginning/source/origin,open/turn on/start/begin,open/on,,from (as in from here to there)/since,,,,English,open,,/ˈoʊ.pən/,Proto-Germanic
 oprikat,basic,,gratitude,thank/thanks/thank you,,,,,,,Portuguese,obrigado,,/o.bɾiˈɡa.du/,Latin
@@ -951,7 +951,7 @@ yen,basic,,ring/torus/wheel/circle,,round,,,shape,,,Mandarin Chinese,圆,Yuán,/
 Yenox,proper,literally means 'ring planet'; referencing the rings of saturn,Saturn,,,,,space,,15,Orostara,yen hox,,,
 yep,basic,,load/freight/cargo/burden,carry/bring/convey/transport,,,,,,,Spanish,llevar,,/ʝeˈbaɾ/,
 yer,basic,,yellow,,yellow,,,color,,3,English,yellow,,/ˈjɛl.oʊ/,
-yet,basic,,,read,,,,,,,Mandarin Chinese,阅读,Yuèdú,/ɥɛ⁵¹ tu³⁵/,
+yet,basic,,book/article/paper,read,,,,,,,Mandarin Chinese,阅读,Yuèdú,/ɥɛ⁵¹ tu³⁵/,
 yin,basic,,,allow/let/permit/tolerate/invite,,,,,,,Mandarin Chinese,允许,Yǔnxǔ,/yn²¹⁴⁻³⁵ ɕy²¹⁴⁻²¹⁽⁴⁾/,
 yis,basic,,face,,,,,body,,12,Turkish,yüz,,/jyz/,
 yiset,,,mask/cloth mask,,,,,,,,Orostara,yis et,,,
