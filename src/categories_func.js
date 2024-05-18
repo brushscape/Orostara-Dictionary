@@ -166,6 +166,12 @@ function cShowOnly(type) {
     case "economy":
       string += "Economy";
       break;
+    case "week":
+      string += "Days of the Week";
+      break;
+    case "month":
+      string += "Months of the Year";
+      break;
     default:
       string += "Help";
       break;
