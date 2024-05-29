@@ -10,7 +10,7 @@ akax,basic,,sky/weather,,,,,nature,,,Hindi,आकाश,aakaash,/ɑː.kɑːʃ/,S
 Akaxox,proper,inspired by the Greek titan of the sky,Uranus,,,,,space,,16,Orostara,akax hox,sky planet,,
 aket,,,binder/bra,,,,,,,,Orostara,ak et,,,
 akran,basic,,,,hard/stiff/firm/tough/(colloquially) arrogant/stuck up,,,,,,Hindi,अकड़न,akadan,/ək.ɽən/,Sanskrit
-am,basic,,agreement/harmony/fit/match,agree/fit/suit/complement,agreeable/harmonic/fitting,harmonically,yes,,,,Tamil,ஆம்,Ām,/aːm/,Sanskrit?
+am,basic,,agreement/harmony/fit/match,agree/fit/suit/complement,agreeable/harmonic/fitting,harmonically,yes,value,,,Tamil,ஆம்,Ām,/aːm/,Sanskrit?
 amar,basic,romantic love only,romance,romantic love,romantic ,romantically,,,,,Spanish,amar,,/aˈmaɾ/,Latin
 Amerakamur,proper,'mur' added for clarity,United States/US/America/United States of America,,,,,country,,,English,America,,/əˈmɛɹ.ə.kə/,
 amin,,for discrete times; 'ten minutes ago'; see 'xamin' for general times like 'in the last few minutes',last minute ,,,,,,,,Orostara,ak min,,,
@@ -199,13 +199,13 @@ ispir,basic,,ghost/spirit/soul/(metaphorical) heart/(metaphorical) mind/personal
 ist,basic,Mostly used as an honorific suffix,intern,,,,,,,,Portuguese,estagiário,,/istaʒiˈaɾiu/,Unknown
 Itaryamur,proper,'mur' added for clarity,Italy,,,,,country,,,Italian,Italia,,/iˈta.lja/,
 Itaryanotar,proper,'tar' added for clarity,Italian,,,,,language,,,Italian,italiano,,/i.taˈlja.no/,
-itir,basic,,respect,respect,respectful,respectfully,,,,,Arabic,احترام,iḥtirām,/iħ.ti.raːm/,Arabic
+itir,basic,,respect,respect,respectful,respectfully,,value,,,Arabic,احترام,iḥtirām,/iħ.ti.raːm/,Arabic
 Itiyopyamur,proper,'mur' added for clarity,Ethiopia/Federal Democratic Republic of Ethiopia,,,,,country,,,Amharic,ኢትዮጵያ,ītiyop’iya,/itijopʼja/,
 ix,basic,,energy/will/motivation/drive/joule/fuel,motivate/drive,motivational/motivating,motivationally,,measurement,,,Mandarin Chinese,意志,Yìzhì,/i⁵¹⁻⁵³ ʈ͡ʂʐ̩⁵¹/,Proto-Sino
 ixem,,,excitement,excite,exciting,excitingly,,,,,Orostara,ix em,,,
 kak,basic/swear,only slightly vulgar when used as a swear,excriment/(colloquially) shit,poop,,,,body,,63,Spanish,caca,,/ˈkaka/,Unknown
 kakatup,,,rectum,,,,,body,,31,Orostara,kak tup,poop tube,,
-kam,basic,,job/employment/work/task,work/labor/employ/hire,busy,,,economy,,,Hindi,काम,kaam,/kɑːm/,Sanskrit
+kam,basic,,job/employment/work/task,work/labor/employ/hire,busy/hardworking,,,economy/value,,,Hindi,काम,kaam,/kɑːm/,Sanskrit
 kamar,basic,,camera,,,,,,,,English,camera,,/ˈkæməɹə/,Ancient Greek
 kamat,,on Earth; physical,office/workplace,,,,,,,,Orostara,kam taha,,,
 kamin,basic,,path/street/trail/road/way,follow/track,,,,,,,Spanish,camino,,/kaˈmino/,Latin
@@ -217,7 +217,7 @@ kanax,basic,specific to physical feelings (touch),physical feeling/sensation,fee
 kanaxor,,,nerve,,,,,body,,6,Orostara,kanax or,,,
 kant,slang/swear,slang swear; can be used as a derogatory honorific; much more vulgar than 'kax'; thought to come either from गांडू  in Hindi or 'cunt' in English  (possibly both),bitch/bastard/dick/cunt/asshole/idiot/fucker,,,,,,,,?,?,,,
 Kantuntar,proper,话 replaced with 'tar',Cantonese/Yue Chinese,,,,,language,,,Cantonese,广东话,gwong dung waa,/kʷɔːŋ³⁵ tʊŋ⁵⁵ waː²²⁻³⁵/,
-kap,basic,,ability/availability/possibility/potential/(colloquially) value,able/can/might,able/available/capable/possible,possibly/potentially/maybe,,,,,Urdu,قابل,qābi,/qɑː.bɪl/,Arabic
+kox,basic,,ability/availability/possibility/potential/(colloquially) value,able/can/might,able/available/capable/possible/feasible,possibly/potentially/maybe,,,,,Mandarin Chinese,可行,kěxíng,/kʰɤ²¹⁴⁻²¹ ɕiŋ³⁵/,
 kapes,basic,,head,,,,,body,,8,Spanish,cabeza,,/kaˈbesa/,Latin
 kapeset,,,headscarf/head scarf,,,,,,,,Orostara,kapes et,,,
 kapesmuk,,,hat,,,,,,,,Orostara,kapes muk,,,
@@ -250,7 +250,7 @@ Kepox,proper,inspired by the Roman god of punishment in the underworld ,Orcus,,,
 ker,basic,,game/sport,play a game,fun,,,,,,Hindi,खेल,khel,/kʰeːl/,Sanskrit
 kex,basic,,hair/fur/feather/feathers,,hairy/furry,,,body,,10,Gujarati,કેશ,Kēśa,,Unknown
 kexet,,,bonnet,,,,,,,,Orostara,kex et,,,
-key,basic,,gift/reward/prize/distribution,give/reward/share/distribute/get to,gifted/free/earned,,,economy,,,Mandarin Chinese,给,Gěi,/keɪ̯²¹⁴/,Proto-Sino
+pos,basic,,gift/reward/prize/distribution,give/reward/share/distribute/get to,gifted/free/earned/generous,,,economy/value,,,Korean,보상,bosang,[ˈpo̞(ː)sʰa̠ŋ],
 keytay,,,generosity,,generous,generously,,,,,Orostara,key tay,,,
 keyuk,basic,,muscle/meat,,muscular,,,body,,3,Cantonese,肌肉,gei juk,/kei̯⁵⁵ jʊk̚²/,Proto-Sino
 ki,,particle to indicate something is a question ,,,,,,,,,Orostara,kiy,,,
@@ -281,7 +281,7 @@ kos,basic,,bone,,,,,body,,7,Russian,кость,kost',[kosʲtʲ],Proto-Slavic
 kosmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,Spanish,cosmos,,/ˈkosmos/,Ancient Greek
 kot,basic,can be used as an honorific suffix; specifically means 'your child'; not the same as underage person; see 'hok' if you need to give an honorific to a child,child/son/daughter/offspring,,,,,,,,Telugu,కొడుకు,Koḍuku,/koɖuku/,Proto-Dravidian
 kotik,basic,,code,encode/encrypt,cryptic,,,,,,Spanish,código,,/ˈkodiɡo/,Latin
-kox,basic,,music/song,make music,musical/lyrical,,,,,,Mandarin Chinese,歌曲,Gēqǔ,/kɤ⁵⁵ t͡ɕʰy²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
+nor,basic,,music/song,make music,musical/lyrical,,,,,,Korean,노래,norae,[no̞ɾɛ] ,
 koxan,,,,dance,,,,,,,Orostara,kox xan,chum,,
 koxtar,,,,sing,,,,,,,Orostara,kox tar,,,
 koy,basic,,sex/sexual intercourse/coitus,have sex/mate,sexual/hot,sexually,,,,72,Spanish,coito,,/ˈkoito/,Latin
@@ -305,7 +305,7 @@ kumik,,,disease/illness,,,,,,,,Orostara,kum mik,,puryu,
 kumix,,,,damn/curse,,,,fantasy,verb,,Orostara,kum ix,bad will/energy,,
 kumtay,,,rage/anger/wrath,,angry/mad/grumpy/pissy,,,,,,Orostara,kum tay,,,
 kumtox,,,disadvantage/detriment,,,,,,,,Orostara,kum tox,,,
-kun,basic,,group/collection,collect,,,,,,,Japanese,群,gun,/gɯɴ/,Proto-Japonic?
+kun,basic,,group/collection/team,collect,,,,value,,,Japanese,群,gun,/gɯɴ/,Proto-Japonic?
 kunap,basic,,concern,worry,concerned,,,,,,Mandarin Chinese,恐怕,kǒngpà,/kʰʊŋ²¹⁴⁻²¹ pʰä⁵¹/,Proto-Sino
 kunson,,,ant/bee/wasp,,,,,animal/nature,,,Orostara,kun son,,,
 kup,basic,as in 'too much',excess,,extra/excessive,too,,,,,Bangla,খুব,Khuba,/kʰub/,Proto-Iranian
@@ -395,7 +395,7 @@ mm,,,,,,,Mmhm/uh huh,interjection,oth,,Orostara,Am,Yes,,
 mok,basic,,neck/throat,swallow,,,,body,,19,Korean,목,mog,[mo̞k̚],Proto-Koreanic
 mokatup,,,esophogus ,,,,,body,,20,Orostara,mok tup,throat tube,,
 moket,,,scarf,,,,,,,,Orostara,mok et,,,
-mon,basic,,month,,,,,,,,German,Monat,,/ˈmoːnat/,Proto-Germanic
+mon,basic,,month,,monthly,,,,,,German,Monat,,/ˈmoːnat/,Proto-Germanic
 mor,basic,,purple,,purple,,,color,,6,Spanish,morado,,/moˈɾado/,Latin
 morup,basic,,desert,,,,,nature,,,Bangla,মরুভূমি,morubhumi,/mo.ru.bʱu.mi/,
 mox,basic,,spice/seasoning,,seasoned,,,food,,6,Bangla,মশলা,Maśalā,/mɔʃla/,Arabic
@@ -443,11 +443,11 @@ nen,basic,,advice/offer/suggestion,should/ought/supposed to/advise/suggest/propo
 nep,basic,,nine,,9,,,number,,10,French,neuf,,/nœf/,Latin
 Neparmur,proper,'mur' added for clarity,Nepal/Federal Democratic Republic of Nepal ,,,,,,,,Nepali,नेपाल,Nēpāla,[nepäl],
 nes,basic,,necessity/need/requirement,need/depend/rely on/require,necessary/essential,necessarily,,,,,Spanish,necesidad,,/nesesiˈdad/,Latin
-net,basic,,leader/guide/management,lead/guide/manage/control,controlling,,,,,,Hindi,नेता,neta,/neː.t̪ɑː/,Sanskrit
+net,basic,,leader/guide/management/leadership,lead/guide/manage/control,controlling,,,value,,,Hindi,नेता,neta,/neː.t̪ɑː/,Sanskrit
 netasis,,,administration/government/politics,administrate/govern,administrative/political,,,,,,Orostara,net sis,,,
 ney,basic,,inside/entrance,enter/put in,inside,,in/into/throughout,,,,Mandarin Chinese,内,Nèi,/neɪ̯⁵¹/,Proto-Sino
 ni,,particle to indicate something is a rhetorical question ,,,,,,,,,Orostara,nah ki,,,
-nien,basic,,year/age,age,aged/mature,,,measurement,,,Mandarin Chinese,年,Nián,/ni̯ɛn³⁵/,Proto-Sino
+nien,basic,,year/age,age,yearly/annual/aged/mature,,,measurement,,,Mandarin Chinese,年,Nián,/ni̯ɛn³⁵/,Proto-Sino
 nih,basic,,greeting,hi/hello/greet,,,,,,,Mandarin Chinese,你好,Nǐ hǎo,/ni²¹⁴⁻³⁵ xɑʊ̯²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
 Nihonmur,proper,'mur' added for clarity,Japan,,,,,country,,,Japanese,日本,Nihon,[ɲ̟ihõ̞ɴ],
 Nihontar,proper,語 replaced with 'tar',Japanese,,,,,language,,,Japanese,日本語,Nihongo,,
@@ -565,7 +565,7 @@ pepakun,,,family,,,,,,,,Orostara,pep kun,,/faˈmi.li.ɐ/,
 per,basic,,sphere/ball,,round,,,shape,,,Spanish,pelota,,/peˈlota/,Latin
 perek,basic,,nail/tack,nail/tack,,,,,,,Bangla,পেরেক,Pērēka,/peɹek/,Latin
 peres,basic,,metal,,metallic,metallically,,,,,Farsi,فلز,felez,/felez/,Aramaic
-perton,basic,,,forgive/(using -u ending) excuse me/pardon me,,,,,,,Spanish,perdón,,/peɾˈdon/,Latin
+perton,basic,,courtesy/manners,forgive/(using -u ending) excuse me/pardon me,polite,,,value,,,Spanish,perdón,,/peɾˈdon/,Latin
 Perumur,proper,'mur' added for clarity,Peru/Republic of Peru,,,,,country,,,Spanish,Perú,,,
 pes,basic/slang,refers to a substance with a pH greater than neutral,base,,basic/bitter/(colloquially) rude/mean,,,food,adj,4,English,base,,/beɪs/,Ancient Greek
 pet,basic,,seat/(colloquially) butt,sit,,,,,,,Hindi,बैठना,baithana,/bɛːʈʰ.nɑː/,Sanskrit
@@ -647,7 +647,7 @@ rey,basic,,class/category/genre/kind/type,,,,,,,,Mandarin Chinese,类,Lèi,/leɪ
 rik,basic,,,go away/leave,,away,away from,,,,Mandarin Chinese,离开,Líkāi,/li³⁵ kʰaɪ̯⁵⁵/,Proto-Sino
 rikit,basic,,liquid,melt/condense,,,,,,,Spanish,líquida,,/ˈlikido/,Latin
 rim,basic,,maintenance,stay/remain/keep/maintain,,still,,,,,English,remain,,/ɹɪˈmeɪn/,Latin
-rip,basic,,leaf,,,,,plant/nature,,5,English,leaf,,/liːf/,Proto-Germanic
+rip,basic,,leaf,,,,,plant/nature,,5,English,leaf,,/liːf/,
 riper,basic,,,release/let go,free,,,,,,Spanish,liberar,,/libeˈɾaɾ/,Latin
 ris,basic,,wind,,,,,,,,Turkish,rüzgâr,,/ɾyzˈɟɑɾ/,Old Persian
 rit,basic,,theory,theorize/suspect/hypothesize,theoretical/hypothetically,theoretically/hypothetically,,,,,Vietnamese,lí thuyết,,[li˧˦ tʰwiət̚˧˦],Proto-Sino
@@ -716,7 +716,7 @@ pasem,,for discrete times; 'ten weeks later'; see 'osem' for general times like 
 xasem,,for general times; 'in the last ten weeks'; see 'amin' for discrete times like 'ten weeks ago',past week,,,,,,,,Orostara,xan sem,,,
 osem,,for general times; 'in the next ten weeks'; see 'pasem' for discrete times like 'ten weeks later',future week,,,,,,,,Orostara,ot sem,,,
 sexin,,,septagon,,septagonal,,,shape,,,Orostara,sex hin,,,
-sem,basic,,week,,,,,measurement,,,Spanish,semana,/seˈmana/,,
+sem,basic,,week,,weekly,,,measurement,,,Spanish,semana,/seˈmana/,,
 si,slang,informal slang,ink,,,,(poetic) dark/black,,,,Orostara,siah,,,
 siah,basic,,ink,print,inky/(poetic) dark/black,,,,,,Hindi,स्याही,syāhī,/sjɑː.ɦiː/,
 sik,basic,,five,,5,,,number,,6,Portuguese,cinco,,/ˈsĩ.ku/,
@@ -729,8 +729,8 @@ sinsar,,,representative,,,,,,,,Orostara,sin sar,,,
 sip,basic,,sibling/sister/brother,,,,,,,,English,sibling,,/ˈsɪblɪŋ/,
 sis,basic,,system,,systemic,,,,,,Spanish,sistema,,/sisˈtema/,
 sisan,basic,time of year,season,,,,,,,,English,season,,/ˈsiː.zən/,
-sit,basic,,truth,,true/real/actual,truly/really/actually,,,,,Cantonese,实际,sat zai,/sit̚³² tai³³/,
-siuk,basic,,,care,caring,,,,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/,
+sit,basic,,truth/honesty,,true/real/actual/honest,truly/really/actually,,value,,,Cantonese,实际,sat zai,/sit̚³² tai³³/,
+siuk,basic,,,care,caring,,,value,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/,
 six,basic,the economic concept,interest,,,,,economy,,,Mandarin Chinese,利息,zǐjīn,/t͡sz̩²¹⁴⁻²¹ t͡ɕin⁵⁵/,
 siy,basic,,environment/nature,,natural/wild,naturally,,nature,,,Mandarin Chinese,自然,Zìrán,/t͡siː²² jiːn²¹/,
 soah,,,,,,,wow,interjection,oth,,Orostara,sor,,[vɒːj],
@@ -910,7 +910,7 @@ xat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end/complete,closed
 xaten,,for general times; 'in the last ten days'; see 'aten' for discrete times like 'ten days ago',past day,,,,,,,,Orostara,xan ten,,,
 Xauatar,proper,'tar' added for clarity,Javanese,,,,,language,,,Javanese,jawa,,/dʒɔ.wɔ/,
 xaxas,,for general times; 'in the last ten hours'; see 'axas' for discrete times like 'ten hours ago',past hour,,,,,,,,Orostara,xan xas,,,
-xay,basic,,duty/obligation/responsibility/liability,,dutiful/responsible/liable,,,,,,Vietnamese,trách nhiệm,,[t͡ɕajk̟̚˧˦ ɲiəm˧˨ʔ],
+xay,basic,,duty/obligation/responsibility/liability,,dutiful/responsible/liable,,,value,,,Vietnamese,trách nhiệm,,[t͡ɕajk̟̚˧˦ ɲiəm˧˨ʔ],
 Xayirmur,proper,'mur' added for clarity,Algeria/People's Democratic Republic of Algeria,,,,,country,,,Arabic,الجزائر,"al-Jazāʾir,",/(ɪ)d.dzaː.jir/,
 xeh,basic,used to describe anything outside your bubble/circle of influence; the colloquial meaning is not direct possession,that/(temporally) then/(spacially) there,,that/(colloquially) your/their/his/her,,,,,,Bangla,যে,jē,/dʒe/,
 xemak,,,,,,there,there,,,,Orostara,xeh mak,,,
@@ -992,25 +992,25 @@ yursis,,,solar system,,,,,space,,5,Orostara,yur sis,star system,,
 yus,basic,,instrument/tool/equipment,use/play,equipped,,,,,,English,use,,/jus/,
 opneh,,,vowel,,,,,,,,Orostara,op neh,,,
 xatneh,,,consonant,,,,,,,,Orostara,xat neh,,,
-ekaten,,,Monday,,,,,,,,Orostara,ek ten,,,
+ekaten,,also see 'Ronten',Monday,,,,,,,,Orostara,ek ten,,,
 Ronten,proper,day of hatching; unclear etymology; might be for rebirth; start of new cycle,Monday,,,,,week,,1,Orostara,ron ten,,,
-toyten,,also see 'Ronten',Tuesday,,,,,,,,Orostara,toy ten,,,
+toyten,,also see 'Yorten',Tuesday,,,,,,,,Orostara,toy ten,,,
 Yorten,proper,day of tears; unclear etymology; might be paired with Venus based on awful weather; or just cuz tuesdays suck,Tuesday,,,,,week,,2,Orostara,yor ten,,,
-tinten,,also see 'Yorten',Wednesday,,,,,,,,Orostara,tin ten,,,
+tinten,,also see 'Kosten',Wednesday,,,,,,,,Orostara,tin ten,,,
 Kosten,proper,day of bone; unclear etymolog; might be paired with Mars based on a counterpart to blood; or cuz everyone's bone tired,Wednesday,,,,,week,,3,Orostara,kos ten,,,
-ponten,,also see 'Kosten',Thursday,,,,,,,,Orostara,pon ten,,,
+ponten,,also see 'Sasten',Thursday,,,,,,,,Orostara,pon ten,,,
 Sasten,proper,day of breath; unclear etymology; might be bc it's halfway through the week; a breath of fresh air,Thursday,,,,,week,,4,Orostara,sa sten,,,
-sikaten,,also see 'Sasten',Friday,,,,,,,,Orostara,sik ten,,,
+sikaten,,also see 'Araten',Friday,,,,,,,,Orostara,sik ten,,,
 Araten,proper,day of gold; unclear etymology; might be paired with Saturn and its rings; also it's usually payday,Friday,,,,,week,,5,Orostara,arat ten,,,
-rukaten,,also see 'Araten',Saturday ,,,,,,,,Orostara,ruk ten,,,
+rukaten,,also see 'Rupaten',Saturday ,,,,,,,,Orostara,ruk ten,,,
 Rupaten,proper,day of silver; unclear etymology; might be paired with Uranus and silver skies; or just meant to twin with 'araten',Saturday ,,,,,week,,6,Orostara,rup ten,,,
-sexten,,also see 'Rupaten',Sunday ,,,,,,,,Orostara,sex ten,,,
+sexten,,also see 'Niten',Sunday ,,,,,,,,Orostara,sex ten,,,
 Niten,proper,day of water; unclear etymology; might be based on Neptune and the ocean's waters; or just refreshing; only day off for a lot of us,Sunday ,,,,,week,,7,Orostara,nit ten,,,
-raoh,,also see 'Niten',tiger/lion/leopard,,,,,,,,Mandarin Chinese,老虎,lǎohǔ,/lɑʊ̯²¹⁴⁻³⁵ xu²¹⁴⁻²¹⁽⁴⁾/,
-Pirmon,proper,month of the cat,First Month/January,,,,,month,,1,Orostara,pir mon,,,
+xer,,,tiger/lion/leopard/big cat,,,,,,,,Hindi,शेर,śer,/ʃeːɾ/,
+Piramon,proper,month of the cat,First Month/January,,,,,month,,1,Orostara,pir mon,,,
 Raoxmon,proper,month of the mouse,Second Month/January/February,,,,,month,,2,Orostara,raox mon,,,
 Kaymon,proper,month of the cow,Third Month/February/March,,,,,month,,3,Orostara,kay mon,,,
-Raomon,proper,month of the tiger,Fourth Month/March/April,,,,,month,,4,Orostara,raoh mon,,,
+Xeramon,proper,month of the tiger,Fourth Month/March/April,,,,,month,,4,Orostara,raoh mon,,,
 Karkoxmon,proper,month of the rabbit,Fifth Month/April/May,,,,,month,,5,Orostara,karkox mon,,,
 Tarakmon,proper,month of the dragon,Sixth Month/May/June,,,,,month,,6,Orostara,tarak mon,,,
 Orosmon,proper,month of the snake,Seventh Month/June/July,,,,,month,,7,Orostara,oros mon,,,
@@ -1019,7 +1019,7 @@ Hanamon,proper,month of the goat,Ninth Month/August/September,,,,,month,,9,Orost
 Makatmon,proper,month of the monkey,Tenth Month/September/October,,,,,month,,10,Orostara,makat mon,,,
 Poymon,proper,month of the hen,Eleventh Month/October/November,,,,,month,,11,Orostara,poy mon,,,
 Takmon,proper,month of the dog,Twelfth Month/November/December,,,,,month,,12,Orostara,tak mon,,,
-Suarmon,proper,month of the pig,Thirteen Month/December,,,,,month,,13,Orostara,suar mon,,,
+Suaramon,proper,month of the pig,Thirteen Month/December,,,,,month,,13,Orostara,suar mon,,,
 ekmon,,also called 'Raoxmon' on some parts of Earth,January,,,,,,,,Orostara,ek mon,,,
 toymon,,also called 'Kaymon' on some parts of Earth,February,,,,,,,,Orostara,toy mon,,,
 tinmon,,also called 'Raomon' on some parts of Earth,March,,,,,,,,Orostara,tin mon,,,
@@ -1032,3 +1032,5 @@ nepmon,,also called 'Makatmon' on some parts of Earth,September,,,,,,,,Orostara,
 tesmon,,also called 'Poymon' on some parts of Earth,October,,,,,,,,Orostara,tes mon,,,
 tesekmon,,also called 'Takmon' on some parts of Earth,November,,,,,,,,Orostara,tesek mon,,,
 testoymon,,also called 'Suarmon' on some parts of Earth,December,,,,,,,,Orostara,testoy mon,,,
+pixas,basic,,loyalty/commitment/dedication,commit/dedicate,loyal,,,value,,,Bangla,বিশ্বস্ত,biśśosto,/biʃːɔst̪o,
+key,slang,hard to translate; starry eyed?; lovesick?; basically used for being lovingly obsessed with someone; puppy-like; not derogatory but a little demeaning sometimes,simp/sap,,gay,,,,,,English,gay,,,

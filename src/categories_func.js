@@ -172,6 +172,9 @@ function cShowOnly(type) {
     case "month":
       string += "Months of the Year";
       break;
+    case "value":
+      string += "Values";
+      break;
     default:
       string += "Help";
       break;
