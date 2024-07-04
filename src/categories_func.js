@@ -133,6 +133,9 @@ function cShowOnly(type) {
     case "plant":
       string += "Plants";
       break;
+    case "preposition":
+      string += "Prepositions";
+      break;
     case "interjection":
       string += "Interjections";
       break;
