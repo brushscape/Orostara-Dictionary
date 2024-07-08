@@ -25,31 +25,49 @@ function cfillTable() {
       wordTypes = [rowObj.Category];
     }
 
-    var row = baseEl.cloneNode(true);
-    row.id = rowObj.Orostara;
-    row.classList.add(...wordTypes);
-
-    if (rowObj.CatRel == "verb") {
-      row.children[0].innerHTML = rowObj.Orostara + "o";
-      row.children[1].innerHTML = simpleListDisplay(rowObj.Verbs);
-    } else if (rowObj.CatRel == "adj") {
-      row.children[0].innerHTML = rowObj.Orostara + "i";
-      row.children[1].innerHTML = simpleListDisplay(rowObj.Adjectives);
-    } else if (rowObj.CatRel == "adv") {
-      row.children[0].innerHTML = rowObj.Orostara + "e";
-      row.children[1].innerHTML = simpleListDisplay(rowObj.Adverbs);
-    } else if (rowObj.CatRel == "oth") {
-      row.children[0].innerHTML = rowObj.Orostara;
-      row.children[1].innerHTML = simpleListDisplay(rowObj.Other);
+    var ending;
+    if (rowObj.CatRel == "" || rowObj.CatRel == " ") {
+      ending = [];
+    } else if (Array.isArray(rowObj.CatRel)) {
+      ending = rowObj.CatRel;
     } else {
-      row.children[0].innerHTML = rowObj.Orostara + "a";
-      row.children[1].innerHTML = simpleListDisplay(rowObj.Nouns);
+      ending = [rowObj.CatRel];
     }
 
-    if (rowObj.CatOrder != "") {
-      orderedEl.push({ el: row, order: parseInt(rowObj.CatOrder, 10) });
-    } else {
-      containerEl.appendChild(row);
+    for (var j = 0; j < wordTypes.length; j++) {
+      var row = baseEl.cloneNode(true);
+      row.id = rowObj.Orostara;
+      row.classList.add(wordTypes[j]);
+
+      var endType;
+      if (j <= ending.length) {
+        endType = ending[j];
+      } else {
+        endType = ending[ending.length - 1];
+      }
+
+      if (endType == "verb") {
+        row.children[0].innerHTML = rowObj.Orostara + "o";
+        row.children[1].innerHTML = simpleListDisplay(rowObj.Verbs);
+      } else if (endType == "adj") {
+        row.children[0].innerHTML = rowObj.Orostara + "i";
+        row.children[1].innerHTML = simpleListDisplay(rowObj.Adjectives);
+      } else if (endType == "adv") {
+        row.children[0].innerHTML = rowObj.Orostara + "e";
+        row.children[1].innerHTML = simpleListDisplay(rowObj.Adverbs);
+      } else if (endType == "oth") {
+        row.children[0].innerHTML = rowObj.Orostara;
+        row.children[1].innerHTML = simpleListDisplay(rowObj.Other);
+      } else {
+        row.children[0].innerHTML = rowObj.Orostara + "a";
+        row.children[1].innerHTML = simpleListDisplay(rowObj.Nouns);
+      }
+
+      if (rowObj.CatOrder != "") {
+        orderedEl.push({ el: row, order: parseInt(rowObj.CatOrder, 10) });
+      } else {
+        containerEl.appendChild(row);
+      }
     }
 
     //sort array
@@ -115,7 +133,6 @@ function cShowOnly(type) {
     }
   }
 
-  var but = document.getElementById("cdropbtn");
   var string = "";
   switch (type) {
     case "color":
@@ -170,10 +187,10 @@ function cShowOnly(type) {
       string += "Economy";
       break;
     case "week":
-      string += "Days of the Week";
+      string += "Weekdays";
       break;
     case "month":
-      string += "Months of the Year";
+      string += "Months";
       break;
     case "value":
       string += "Values";
@@ -182,12 +199,10 @@ function cShowOnly(type) {
       string += "Help";
       break;
   }
-  string += "&nbsp;<span style='font-size: var(--midSize);'>&#9660</span>"; // arrow
-  but.innerHTML = string;
 
-  document.getElementById("cdrop" + type).setAttribute("disabled", "");
+  document.getElementById("cmenu" + type).setAttribute("disabled", "");
   if (cprev != "na") {
-    document.getElementById("cdrop" + cprev).removeAttribute("disabled");
+    document.getElementById("cmenu" + cprev).removeAttribute("disabled");
     //document.getElementById("cdropdown").style.display = "none";
   }
   cprev = type;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/dict_search_style.css">
     <link rel="stylesheet" href="style/dict_entry_style.css">
     <link rel="stylesheet" href="style/other_cheats_style.css">
+    <link rel="stylesheet" href="style/category_style.css">
     <link rel="stylesheet" href="style/page_style.css">
     <script src='src/process_CSV.js'></script>
     <script src='src/page_func.js'></script>
@@ -82,36 +83,32 @@
             </table>
         </div>
         <div id='category' class='fullDict'>
-            <h2>Now Displaying:</h2>
-            <div class="dropdown">
-                <button class="dropbtn" id='cdropbtn'>Colors <span
-                        style='font-size: var(--midSize);'>&#9660</span></button>
-                <div class="dropdown-content" id='cdropdown'>
-                    <div class='dropdownOption' id='cdropbody' onclick="cShowOnly('body')">Anatomy</div>
-                    <div class='dropdownOption' id='cdropanimal' onclick="cShowOnly('animal')">Animals</div>
-                    <div class='dropdownOption' id='cdropcolor' disabled onclick="cShowOnly('color')">
+                <div class='catMenu' id='catMenu'>
+                    <div class='catMenuItem' id='cmenubody' onclick="cShowOnly('body')">Anatomy</div>
+                    <div class='catMenuItem' id='cmenuanimal' onclick="cShowOnly('animal')">Animals</div>
+                    <div class='catMenuItem' id='cmenucolor' disabled onclick="cShowOnly('color')">
                         Colors</div>
-                    <div class='dropdownOption' id='cdropcontinent' onclick="cShowOnly('continent')">Continents</div>
-                    <div class='dropdownOption' id='cdropcountry' onclick="cShowOnly('country')">Countries</div>
-                    <div class='dropdownOption' id='cdropdirection' onclick="cShowOnly('direction')">Directions</div>
-                    <div class='dropdownOption' id='cdropweek' onclick="cShowOnly('week')">Days of the Week</div>
-                    <div class='dropdownOption' id='cdropeconomy' onclick="cShowOnly('economy')">Economy</div>
-                    <div class='dropdownOption' id='cdropfantasy' onclick="cShowOnly('fantasy')">Fantasy</div>
-                    <div class='dropdownOption' id='cdropfood' onclick="cShowOnly('food')">Food</div>
-                    <div class='dropdownOption' id='cdropinterjection' onclick="cShowOnly('interjection')">Interjections
+                    <div class='catMenuItem' id='cmenucontinent' onclick="cShowOnly('continent')">Continents</div>
+                    <div class='catMenuItem' id='cmenucountry' onclick="cShowOnly('country')">Countries</div>
+                    <div class='catMenuItem' id='cmenudirection' onclick="cShowOnly('direction')">Directions</div>
+                    <div class='catMenuItem' id='cmenuweek' onclick="cShowOnly('week')">Weekdays</div>
+                    <div class='catMenuItem' id='cmenueconomy' onclick="cShowOnly('economy')">Economy</div>
+                    <div class='catMenuItem' id='cmenufantasy' onclick="cShowOnly('fantasy')">Fantasy</div>
+                    <div class='catMenuItem' id='cmenufood' onclick="cShowOnly('food')">Food</div>
+                    <div class='catMenuItem' id='cmenuinterjection' onclick="cShowOnly('interjection')">Interjections
                     </div>
-                    <div class='dropdownOption' id='cdroplanguage' onclick="cShowOnly('language')">Languages</div>
-                    <div class='dropdownOption' id='cdropmeasurement' onclick="cShowOnly('measurement')">Measurements
+                    <div class='catMenuItem' id='cmenulanguage' onclick="cShowOnly('language')">Languages</div>
+                    <div class='catMenuItem' id='cmenumeasurement' onclick="cShowOnly('measurement')">Measurements
                     </div>
-                    <div class='dropdownOption' id='cdropmonth' onclick="cShowOnly('month')">Months of the Year</div>
-                    <div class='dropdownOption' id='cdropnature' onclick="cShowOnly('nature')">Nature</div>
-                    <div class='dropdownOption' id='cdropnumber' onclick="cShowOnly('number')">Numbers</div>
-                    <div class='dropdownOption' id='cdropplant' onclick="cShowOnly('plant')">Plants</div>
-                    <div class='dropdownOption' id='cdroppreposition' onclick="cShowOnly('preposition')">Prepositions</div>
-                    <div class='dropdownOption' id='cdropspace' onclick="cShowOnly('space')">Space</div>
-                    <div class='dropdownOption' id='cdropvalue' onclick="cShowOnly('value')">Values</div>
+                    <div class='catMenuItem' id='cmenumonth' onclick="cShowOnly('month')">Months</div>
+                    <div class='catMenuItem' id='cmenunature' onclick="cShowOnly('nature')">Nature</div>
+                    <div class='catMenuItem' id='cmenunumber' onclick="cShowOnly('number')">Numbers</div>
+                    <div class='catMenuItem' id='cmenuplant' onclick="cShowOnly('plant')">Plants</div>
+                    <div class='catMenuItem' id='cmenupreposition' onclick="cShowOnly('preposition')">Prepositions</div>
+                    <div class='catMenuItem' id='cmenuspace' onclick="cShowOnly('space')">Space</div>
+                    <div class='catMenuItem' id='cmenuvalue' onclick="cShowOnly('value')">Values</div>
                 </div>
-            </div>
+
             <table class='fullDictTable' id='categoryDictTable' style='font-size: var(--mini);'>
                 <tr>
                     <th>Orostara</th>
