@@ -11,20 +11,25 @@
 }
 
 .catMenuItem {
-    background-color: var(--medium2);
-    border-color: var(--lightlight1);
-    color: var(--darkdark2);
-    padding: var(--minimini);
+    background-color: var(--lightlight2);
+    border-color: var(--medium2);
+    color: var(--superdark2);
+    padding-top: var(--small);
+    padding-bottom: var(--minimini);
+    padding-left: var(--minimini);
+    padding-right: var(--minimini);
     margin: calc(var(--superMini) / 2);
     flex-basis: 15%;
     flex-grow: 1;
     font-size: var(--small);
-    border-radius: var(--minimini);
+    border-radius: var(--mini);
+    border-style: solid;
+    font-weight: normal;
 }
 
 .catMenuItem:hover {
-    color: var(--dark2);
-    background-color: var(--lightlight2);
+    color: var(--darkdark2);
+    background-color: var(--medium2);
     cursor: default;
 }
 
@@ -32,4 +37,6 @@
     color: var(--superdark2);
     background-color: var(--dark2);
     cursor: default;
+    border-color: var(--dark2);
+    font-weight: bold;
 }
