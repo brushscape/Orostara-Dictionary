@@ -1,4 +1,4 @@
-﻿Orostara,Type,Notes,Nouns,Verbs,Adjectives,Adverbs,Other,Category,CatRel,CatOrder,RootLanguage,RLWord,RL Word Pronunciation,IPA,TrueRoot
+Orostara,Type,Notes,Nouns,Verbs,Adjectives,Adverbs,Other,Category,CatRel,CatOrder,RootLanguage,RLWord,RL Word Pronunciation,IPA,TrueRoot
 ah,,,,,,,yeah,interjection,oth,,Orostara,am,,a,
 ahat,basic,,,surround/engulf/include/involve,,,around/including,preposition,oth,,Arabic,أَحَاطَ,ʔaḥāṭa,/ʔa.ħaː.tˤa/,Arabic
 ahip,basic,,,shake/shiver/tremble/vibrate/shudder,,,,,,,Portuguese,arrepio,,/ɐ.ʁɨˈpi.u/,Latin
@@ -177,7 +177,7 @@ ikot,,pair with 'sek',near future,,upcoming,soon,,,,,Orostara,ik ot,,,
 hoxik,,,dwarf planet,,,,,space,,7,Orostara,hox ik,little planet,,
 ikuan,,,,,narrow,narrowly,,,,,Orostara,ik kuan,small width or a little width,,
 im,basic,,magnet/attraction,attract/captivate,magnetic/attractive/alluring,magnetically/attractively,,,,,Spanish,imán,,[iˈmãn],Ancient Greek
-in,basic,,fly,,,,,animal/nature,,,Mandarin Chinese,蠅,yíng,/in⁵⁵/,Proto-Sino
+in,basic,the insect animal,fly,,,,,animal/nature,,,Mandarin Chinese,蠅,yíng,/in⁵⁵/,Proto-Sino
 Inakmur,proper,'land' replaced with 'mur' for clarity,England,,,,,country,,,English,England,,/ˈɪŋɡlənd/,
 inar,basic,,pressure/pascal/(colloquially) stress,crush/squeeze,(colloquially) stressful/stressed,,,measurement,,,Mandarin Chinese,应力,Yìnglì,/iŋ⁵¹⁻⁵³ li⁵¹/,Proto-Sino
 inax,basic,,luck/chance,,lucky,,,,,,Mandarin Chinese,运气,Yùnqì,/yn⁵¹ t͡ɕʰi¹/,Proto-Sino
@@ -419,7 +419,7 @@ nahix,,,,exhaust,tired/exhausted/weary,,,,,,Orostara,nah ix,,,
 nahot,,pair with 'sek',never will,,,,,,,,Orostara,nah ot,,,
 namasar,,,private,,private,privately,,,,,Orostara,nah masar,,,
 namut,,,failure,fail,useless,,,,,,Orostara,nah mut,,,
-n,slang,informal slang; from 'nano' or 'nah-o' ,,is not,,,,,,,Orostara,nah o,,,
+n,slang,,,is not,,,,,,,Orostara,nah o,,,
 nan,slang,informal slang; adverb meaning: nothing more than,nothing/none,don't/won't,not,only/merely/just,no,,,,Orostara,nah,,,
 nan,slang,informal slang; response to 'thank you' similar to 'no problem; it's nothing',no problem/you're welcome,,,,,,,,Orostara,nah,,,
 naneh,,,silence,silence,silent,silently,,,,,Orostara,nah neh,no sound,,
@@ -1037,3 +1037,5 @@ satak,basic,,loyalty/commitment/dedication/allegiance/devotion,commit/dedicate,l
 key,slang,hard to translate; starry eyed?; lovesick?; basically used for being lovingly obsessed with someone; puppy-like; not derogatory but a little demeaning sometimes,simp/sap,,gay,,,,,,English,gay,,,
 xaman,basic,,honor/pride/integrity/prestige,,honorable/proud,,,value,,,Bangla,সম্মান,śomman,/ʃɔmːan/,
 er,basic,,lake/enclosed body of water,,,,,nature,,,Tamil,ஏரி,ēri,/eːɾɪ/,
+isun,,archaic; use ‘is’,,,,,if,,,,Orostara,is hun,,,
+komun,,indicates a comparative dependent clause,,,,,than,,,,Orostara,kom hun,,,
