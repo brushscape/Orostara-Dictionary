@@ -99,7 +99,9 @@ function readCSVFile() {
           rowObj[colHeaders[col].replace(/\s/g, "")] = rowColData[col];
         }
       }
-
+      if (Object.keys(rowObj).length == 0) {
+        break;
+      }
       //alphabetize as we go
       var placed = false;
       for (var i = 0; i < orosDict.length; i++) {
