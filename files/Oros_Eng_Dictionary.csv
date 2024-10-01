@@ -80,11 +80,11 @@ Espanamur,proper,'mur' added for clarity,Spain/Kingdom of Spain,,,,,country,,,Sp
 Espanortar,proper,'tar' added for clarity,Spanish,,,,,language,,,Spanish,español,,/espaˈɲol/,
 Espantar,proper/slang,informal slang; short form,Spanish,,,,,language,,,Orostara,Espanortar,,,
 estir,basic,,rubber/gum,stretch/strain,stretched/strained/(colloquially) stressed,,,,,,Spanish,estirar,,/estiˈɾaɾ/,Latin? 
-et,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,,,French,étoffe,,/e.tɔf/,Proto-Germanic
+et,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,fse,,French,étoffe,,/e.tɔf/,Proto-Germanic
 etos,,,bag,,,,,,,,Orostara,et hos,,,
 ex,basic,,debt,have/borrow/rent/loan/owe,,,of/from,economy,,,Farsi,اجاره,ejâre,[ʔe.d͡ʒɒː.ɹé],Proto-Germanic
-exit,basic,,equivalence/equality,equate/balance,equal/same/identical,equally/identically,,,,,Turkish,eşit,,/eʃit/,Proto-Turkic
-expien,,,,,parallel,,,,,,Orostara,ex pien,equal line,,
+hon,basic,,equivalence/equality,equate/balance,equal/same/identical,equally/identically,,,,,Mandarin Chinese,恆等,héngděng,/xɤŋ³⁵ tɤŋ²¹⁴⁻²¹⁽⁴⁾/,Proto-Turkic
+honpien,,,,,parallel,,,,,,Orostara,ex pien,equal line,,
 ey,basic,Interjection to get someone's attention,,,,,hey,interjection,oth,,Tamil,ஏய்,Ēy,/eːj/,Unknown
 ha,,exclamation marker ,,,,,,,,,Orostara,ham,,,
 haha,,,,,,,haha,interjection,oth,,?,,,,
@@ -207,7 +207,7 @@ kak,basic/swear,only slightly vulgar when used as a swear,excriment/(colloquiall
 kakatup,,,rectum,,,,,body,,31,Orostara,kak tup,poop tube,,
 kam,basic,,job/employment/work/task,work/labor/employ/hire,busy/hardworking,,,economy/value,,,Hindi,काम,kaam,/kɑːm/,Sanskrit
 kamar,basic,,camera,,,,,,,,English,camera,,/ˈkæməɹə/,Ancient Greek
-kamat,,on Earth; physical,office/workplace,,,,,,,,Orostara,kam taha,,,
+kamat,,on Earth; physical,office/workplace,,,,,,,,Orostara,kam tah,,,
 kamin,basic,,path/street/trail/road/way,follow/track,,,,,,,Spanish,camino,,/kaˈmino/,Latin
 kamsis,,,industry,,industrial,industrially,,,,,Orostara,kam sis,hong jip,,
 kan,basic/swear,also a swear; not very vulgar; akin to saying 'balls',bar/rod/pole/stick/(colloquially) dick/strap,(colloquially) peg/top,straight,,,,,,Mandarin Chinese,杆,gān,/kän⁵⁵/,Proto-Sino
@@ -382,7 +382,7 @@ metot,basic,,method/technique/way/process/style,process,methodical,methodically,
 mey,basic,,toy,play with,,,,,,,Wu Chinese,玩,me,/me̞²³/,Proto-Sino
 mi,,particle to indicate something is looking for confirmation; similar to tacking on:  'right?'  or  'isn't it?'  or  'aren't you?',,,,,,,,,Orostara,am,,,
 mik,basic,,microbe/bacteria/virus/germ/pathogen/infection,infect,infected,,,nature/body,,,Spanish,microbio,,/miˈkɾobjo/,Ancient Greek
-min,basic,,minute,,,,,measurement,,,Spanish,minuto,,/miˈnuto/,Latin
+min,basic,,minute,,,,,measurement,,2,Spanish,minuto,,/miˈnuto/,Latin
 mipor,,,flour,,,,,food,,,Orostara,miy por,grain powder,,
 mir,slang,Affectionate honorific suffix that means 'someone I take care of',beloved/baby/little sister/little brother,,,,,,,,Orostara,?,,,
 Misramur,proper,'mur' added for clarity,Egypt/Arab Republic of Egypt,,,,,country,,,Arabic,مصر,Misr,/misˤr/,
@@ -395,7 +395,7 @@ mm,,,,,,,Mmhm/uh huh,interjection,oth,,Orostara,Am,Yes,,
 mok,basic,,neck/throat,swallow,,,,body,,19,Korean,목,mog,[mo̞k̚],Proto-Koreanic
 mokatup,,,esophogus ,,,,,body,,20,Orostara,mok tup,throat tube,,
 moket,,,scarf,,,,,,,,Orostara,mok et,,,
-mon,basic,,month,,monthly,,,,,,German,Monat,,/ˈmoːnat/,Proto-Germanic
+mon,basic,,month,,monthly,,,,,6,German,Monat,,/ˈmoːnat/,Proto-Germanic
 mor,basic,,purple,,purple,,,color,,6,Spanish,morado,,/moˈɾado/,Latin
 morup,basic,,desert,,,,,nature,,,Bangla,মরুভূমি,morubhumi,/mo.ru.bʱu.mi/,
 mox,basic,,spice/seasoning,,seasoned,,,food,,6,Bangla,মশলা,Maśalā,/mɔʃla/,Arabic
@@ -448,7 +448,7 @@ net,basic,,leader/guide/management/leadership,lead/guide/manage/control,controll
 netasis,,,administration/government/politics,administrate/govern,administrative/political,,,,,,Orostara,net sis,,,
 ney,basic,,inside/entrance,enter/put in,inside,,in/into/throughout,preposition,oth,,Mandarin Chinese,内,Nèi,/neɪ̯⁵¹/,Proto-Sino
 ni,,particle to indicate something is a rhetorical question ,,,,,,,,,Orostara,nah ki,,,
-nien,basic,,year/age,age,yearly/annual/aged/mature,,,measurement,,,Mandarin Chinese,年,Nián,/ni̯ɛn³⁵/,Proto-Sino
+nien,basic,,year/age,age,yearly/annual/aged/mature,,,measurement,,7,Mandarin Chinese,年,Nián,/ni̯ɛn³⁵/,Proto-Sino
 nih,basic,,greeting,hi/hello/greet,,,,,,,Mandarin Chinese,你好,Nǐ hǎo,/ni²¹⁴⁻³⁵ xɑʊ̯²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
 Nihonmur,proper,'mur' added for clarity,Japan,,,,,country,,,Japanese,日本,Nihon,[ɲ̟ihõ̞ɴ],
 Nihontar,proper,語 replaced with 'tar',Japanese,,,,,language,,,Japanese,日本語,Nihongo,,
@@ -681,7 +681,7 @@ sap,basic,,soap,wash/clean,clean,,,,,,Urdu,صاف,sāf,/sɑːf/,
 sapar,basic,,cactus,,,,,plant/nature,,,Arabic,صبار,sabaar,/sˤbaːr/,
 sapes,basic,,circumference ,,thick,,,measurement,,,Italian,spesso,,/ˈspes.so/,
 sapos,,,bath,bathe,,,,,,,Orostara,sap hos,,,
-saput,basic,,evidence/proof,prove,,,,measurement,,,Urdu,ثبوت,sabūt,/sə.buːt̪/,
+saput,basic,,evidence/proof,prove,,,,,,,Urdu,ثبوت,sabūt,/sə.buːt̪/,
 sar,basic,can be used as an honorific suffic when you don't know what to call someone,person/individual,,,,,,,,Korean,사람,saram,[ˈsʰa̠(ː)ɾa̠m],
 sarat,basic,,lizard,,,,,animal/nature,,,Marathi,सरडा,Saraḍā,/səɾəɖaː/,
 saratapar,,,salamander,,,,,animal/nature,,,Orostara,sarat tapar,frog lizard,,
@@ -701,7 +701,7 @@ saxor,,,brain,,,,,body,,9,Orostara,sax or,,,
 saxun,slang,slang; short form for 'saxo kohun'; follow with a subordinate clause,,,,,I think that,,,,Orostara,sax hun,,,
 say,slang,informal slang; short form,,sorry,,,,,,,Orostara,sariy,,,
 sayun,slang,slang; short form for 'sariyo kohun'; follow with a subordinate clause,,,,,I'm sorry for ,,,,Orostara,say hun,,,
-sek,basic,time marker particle/default time unit,time/moment/second,,,,for,measurement,,,English,second,,/ˈsɛk.(ə)nd/,
+sek,basic,time marker particle/default time unit,time/moment/second,,,,for,measurement,,1,English,second,,/ˈsɛk.(ə)nd/,
 sekaxok,,,film/movie,film,,,,,,,Orostara,sek xok,,,
 sekitix,,with a square base; named for the number of faces on the object,pyramid,,,,,shape,,,Orostara,sik tix,,,
 sekun,,marks the time; indicates a dependent clause following,,,,,when,,,,Orostara,sek hun,,,
@@ -717,7 +717,7 @@ pasem,,for discrete times; 'ten weeks later'; see 'osem' for general times like 
 xasem,,for general times; 'in the last ten weeks'; see 'amin' for discrete times like 'ten weeks ago',past week,,,,,,,,Orostara,xan sem,,,
 osem,,for general times; 'in the next ten weeks'; see 'pasem' for discrete times like 'ten weeks later',future week,,,,,,,,Orostara,ot sem,,,
 sexin,,,septagon,,septagonal,,,shape,,,Orostara,sex hin,,,
-sem,basic,,week,,weekly,,,measurement,,,Spanish,semana,/seˈmana/,,
+sem,basic,,week,,weekly,,,measurement,,5,Spanish,semana,/seˈmana/,,
 si,slang,informal slang,ink,,,,(poetic) dark/black,,,,Orostara,siah,,,
 siah,basic,,ink,print,inky/(poetic) dark/black,,,,,,Hindi,स्याही,syāhī,/sjɑː.ɦiː/,
 sik,basic,,five,,5,,,number,,6,Portuguese,cinco,,/ˈsĩ.ku/,
@@ -786,7 +786,7 @@ Taymur,proper,'mur' added for clarity,Thailand,,,,,country,,,Thai,เมือ�
 taysis,,,culture,,,,,,,,Orostara,tay sis,,,
 Tayxamur,proper,'land' replaced with 'mur' for clarity,Germany,,,,,country,,,German,Deutschland,,[ˈdɔʏ̯t͡ʃlant],
 Tayxatar,proper,'tar' added for clarity,German,,,,,language,,,German,deutsch,,/dɔʏ̯t͡ʃ/,
-ten,basic,,day,,,,,measurement,,,Russian,день,den',[dʲenʲ],
+ten,basic,,day,,,,,measurement,,4,Russian,день,den',[dʲenʲ],
 tenat,basic,,,you're welcome,,,,,,,Spanish,de nada,,/deɪ ˈnɑdə/,
 tep,basic,,tape/strip/band/belt,,,,,,,,English,tape,,/teɪ̯p/,
 ter,basic,,ground/land/continent,,,,,nature,,,Italian,terra,,/ˈtɛr.ra/,
@@ -905,7 +905,7 @@ xapet,,,pants,,,,,,,,Orostara,xap et,,,
 xar,basic,,intelligence,,intelligent/smart ,smartly,,,,,Bangla,চালাক,calak,/tʃalak/,
 xariet,,,dress/tunic,,,,,,,,Orostara,xarir et,,,
 xarir,basic,,body,,,,,body,,0,Marathi,शरीर,Śarīra,/ɕə.ɾiɾ/,
-xas,basic,,hour,,,,,measurement,,,Russian,час,chas,[t͡ɕas],
+xas,basic,,hour,,,,,measurement,,3,Russian,час,chas,[t͡ɕas],
 xasek,,for general times; 'in the last ten seconds'; see 'asek' for discrete times like 'ten seconds ago',past second,,,,,,,,Orostara,xan sek,,,
 xat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end/complete,closed/off/ended/finished/complete/done/final/last,finally,to (as in from here to there),preposition,oth,,English,shut,,/ʃʌt/,
 xaten,,for general times; 'in the last ten days'; see 'aten' for discrete times like 'ten days ago',past day,,,,,,,,Orostara,xan ten,,,
