@@ -53,7 +53,7 @@ asurup,,,cobalt,,,,,,,,Orostara,asur rup,blue silver,,
 at,basic,,,get/attain/take/grab/download/buy/claim,taken,,,economy,verb,,Korean,얻다,eodda,[ˈɘ(ː)t̚t͈a̠],Proto-Korean
 atam,basic,,bridge,cross,,,across,preposition,oth,,Telugu,అడ్డముగా,aḍḍamugā,/aɖ.ɖʌmuɡʌ/,Proto-Dravidian
 aten,,for discrete times; 'ten days ago'; see 'xaten' for general times like 'in the last few days',yesterday/last day,,,,,,,,Orostara,ak ten,,,
-atios,basic,,,goodbye/bye,,,,,,,Spanish,adiós,,/aˈdjos/,Latin
+axrik,,with -u ending; literally ‘good going’ basically,,goodbye/bye,,,,,,,Orostara,ax rik,,/aˈdjos/,Latin
 atit,basic,,root/basis/essence/foundation/base,,fundamental/basic,fundamentally/basically/essentially,,plant/nature,,2,Tamil,அடித்தளம்,aṭittaḷam,/ɐɖit̪ːɐɭɐm/,Unknown
 atiy,slang,informal slang; short form; can also be spelled 'atio',,bye/goodbye,,,,,,,Orostara,atios,,ati,
 auk,basic,,alcohol,,alcoholic,,,food,,,Portuguese,álcool,,/ˈaw.ko.ɔw/,Akkadian
@@ -180,7 +180,7 @@ im,basic,,magnet/attraction,attract/captivate,magnetic/attractive/alluring,magne
 in,basic,the insect animal,fly,,,,,animal/nature,,,Mandarin Chinese,蠅,yíng,/in⁵⁵/,Proto-Sino
 Inakmur,proper,'land' replaced with 'mur' for clarity,England,,,,,country,,,English,England,,/ˈɪŋɡlənd/,
 inar,basic,,pressure/pascal/(colloquially) stress,crush/squeeze,(colloquially) stressful/stressed,,,measurement,,,Mandarin Chinese,应力,Yìnglì,/iŋ⁵¹⁻⁵³ li⁵¹/,Proto-Sino
-inax,basic,,luck/chance,,lucky,,,,,,Mandarin Chinese,运气,Yùnqì,/yn⁵¹ t͡ɕʰi¹/,Proto-Sino
+inax,basic,,fortune/fate/luck/chance,,lucky,,,,,,Mandarin Chinese,运气,Yùnqì,/yn⁵¹ t͡ɕʰi¹/,Proto-Sino
 ink,basic/slang,Commonly used like an honorific suffix for corporations cuz they're treated like people I guess; (colloquially) used like how English uses 'god' in swearing; 'I swear to god' = 'I swear to Inka',company/business/firm/corporation/(colloquially) god,,incorporated,,,economy,,,English,incorporated,,/ɪŋˈkɔɹpəɹeɪtɪd/,Latin
 Inkarixtar,proper,'tar' added for clarity,English,,,,,language,,,English,english,,/ˈɪŋɡlɪʃ/,
 insan,basic,,human,,,,,animal/nature,,,Hindi,इंसान,insaan,[ɪnˈsa(ː)n],Proto-Semitic
@@ -282,8 +282,8 @@ kosmos,basic,,space/universe/cosmos,,cosmic/alien,,,,,,Spanish,cosmos,,/ˈkosmos
 kot,basic,can be used as an honorific suffix; specifically means 'your child'; not the same as underage person; see 'hok' if you need to give an honorific to a child,child/son/daughter/offspring,,,,,,,,Telugu,కొడుకు,Koḍuku,/koɖuku/,Proto-Dravidian
 kotik,basic,,code,encode/encrypt,cryptic,,,,,,Spanish,código,,/ˈkodiɡo/,Latin
 nor,basic,,music/song,make music,musical/lyrical,,,,,,Korean,노래,norae,[no̞ɾɛ] ,
-koxan,,,,dance,,,,,,,Orostara,kox xan,chum,,
-koxtar,,,,sing,,,,,,,Orostara,kox tar,,,
+norpat,,,,dance,,,,,,,Orostara,nor pat,chum,,
+nortar,,,,sing,,,,,,,Orostara,nor tar,,,
 koy,basic,,sex/sexual intercourse/coitus,have sex/mate,sexual/hot,sexually,,,,72,Spanish,coito,,/ˈkoito/,Latin
 koyor,,,genital,,,,,body,,34,Orostara,koy or,sex organ,,
 koyxam,,,orgasm,,,,,,,,Orostara,koy xam,,,
@@ -328,7 +328,7 @@ man,basic,,,fill/satisfy,enough/full,enough,,,,,Mandarin Chinese,满,Mǎn,/män�
 manrak,basic,,internet/web/world wide web,,,,,,,,Cantonese,網絡,mong5 lok3,/mɔːŋ¹³ lɔːk̚³/,
 maox,basic,,risk/bet/dare/wager,bet/gamble/wager/dare,risky,,,economy,,,Mandarin Chinese,冒险,màoxiǎn,/mɑʊ̯⁵¹ ɕi̯ɛn²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
 map,basic,Can be used as an honorific suffic ,parent/mom/dad/father/mother,,,,,,,,Punjabi,ਮਾਪੇ,Māpē,/maːpeː/,Unknown
-mapan,basic,,trouble/difficulty/challenge,challenge,difficult/hard/tough/challenging,,,,,,Mandarin Chinese,麻烦,Máfan,/mä³⁵ fän³/,Proto-Sino
+mapan,basic,,problem/obstacle/issue/trouble/difficulty/challenge,block/challenge,blocked/difficult/hard/tough/challenging/problematic,,,,,,Mandarin Chinese,麻烦,Máfan,/mä³⁵ fän³/,Proto-Sino
 mapur,basic,,flight,fly,,,,,,,Javanese,mabur,,/mabur/,Old Javanese
 mapurais,,,airplane/plane,,,,,,,,Orostara,mapur rais,fly vehicle,,
 mapuror,,,wing,,,,,body,,46,Orostara,mapur or,,,
@@ -584,7 +584,6 @@ pinam,basic,,screen/display/interface,,,,,,,,Mandarin Chinese,屏幕,Píngmù,/p
 pinsun,,,polka dot,,polka dotted/dotted,,,,,,Orostara,pin sun,,,
 pinxin,basic,,mean/average,normalize,average/normal,,,,,,Mandarin Chinese,平均,Píngjūn,/pʰiŋ³⁵ t͡ɕyn⁵⁵/,Proto-Sino
 pir,basic,,cat,,,,,animal/nature,,,Hindi,बिल्ली,billee,/bɪl.liː/,Sanskrit
-pirax,basic,,problem/obstacle/issue,block/cause a problem,blocked/problematic,,,,,,Tamil,பிரச்சினை,piracciṉai,/piɾɐt͡ɕːinaɪ̯/,Sanskrit
 pirik,,,kitty/kitten,,,,,animal/nature,,,Orostara,pir ik,,,
 Piripinasmur,proper,'mur' already included! No need to add,Phillipines/Republic of the Philippines,,,,,country,,,Filipino,Pilipinas,,/piliˈpinas/,
 pis,basic,,scent/odor/smell,sniff/smell,,,,,,,Mandarin Chinese,鼻子,Bízi,/pi³⁵ d͡z̥z̩³/,Proto-Sino
@@ -686,7 +685,7 @@ sar,basic,can be used as an honorific suffic when you don't know what to call so
 sarat,basic,,lizard,,,,,animal/nature,,,Marathi,सरडा,Saraḍā,/səɾəɖaː/,
 saratapar,,,salamander,,,,,animal/nature,,,Orostara,sarat tapar,frog lizard,,
 sarik,,,child/kid,,cute/childish,,,,,,Orostara,sar ik,,,
-sariy,basic,,regret,I'm sorry/regret/apologize,,,,,,,English,sorry,,/ˈsɑɹ.i/,
+korur,,use for apology to say ‘I wish I had not done it’ or ‘I wish I could undo it',regret,I'm sorry/regret/apologize,,,,,,,Orostara,kor ur,,/ˈsɑɹ.i/,
 sarpox,,,werecreature,,,,,fantasy,,,Orostara,sar pox,person animal,,
 sarsis,,,society/institution,,,,,,,,Orostara,sar sis,Samāja,,
 sas,basic,,breath/air/gas,breathe/evaporate/simmer/boil,airy,,,body,,68,Hindi,साँस,saans,/sɑ̃ːs/,
@@ -731,7 +730,7 @@ sip,basic,,sibling/sister/brother,,,,,,,,English,sibling,,/ˈsɪblɪŋ/,
 sis,basic,,system,,systemic,,,,,,Spanish,sistema,,/sisˈtema/,
 sisan,basic,time of year,season,,,,,,,,English,season,,/ˈsiː.zən/,
 sit,basic,,truth/honesty,,true/real/actual/honest,truly/really/actually,,value,,,Cantonese,实际,sat zai,/sit̚³² tai³³/,
-siuk,basic,,care/compassion/dedication,care,caring,,,value,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/,
+siuk,basic,,care/compassion,care,caring,,,value,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/,
 six,basic,the economic concept,interest,,,,,economy,,,Mandarin Chinese,利息,zǐjīn,/t͡sz̩²¹⁴⁻²¹ t͡ɕin⁵⁵/,
 siy,basic,,environment/nature,,natural/wild,naturally,,nature,,,Mandarin Chinese,自然,Zìrán,/t͡siː²² jiːn²¹/,
 soah,,,,,,,wow,interjection,oth,,Orostara,sor,,[vɒːj],
@@ -781,13 +780,12 @@ tas,basic,,cough,cough,,,,body,,70,Portuguese,tosse,,/ˈtɔ.si/,
 tat,basic,,,neutralize,neutral/bland,,,,,,Telugu,తటస్థ,Taṭastha,/taʈas.tʰʌ/,
 tax,basic,,size,,big,,,measurement,,,Mandarin Chinese,大小,Dàxiǎo,/tä⁵¹ ɕi̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/,
 taxar,basic,,million,,1000000,,,number,,25,Bangla,দশলক্ষ,Daśalakṣa,/dɔʃɔlɔksɔ/,
-tay,basic,,attitude/mood/vibe/personality,,,,,,,,Mandarin Chinese,态度,tàidù ,/tʰaɪ̯⁵¹⁻⁵³ tu⁵¹/,
+tay,basic,,attitude/mood/vibe/personality/disposition/temperment,,,,,,,,Mandarin Chinese,态度,tàidù ,/tʰaɪ̯⁵¹⁻⁵³ tu⁵¹/,
 Taymur,proper,'mur' added for clarity,Thailand,,,,,country,,,Thai,เมืองไทย,Meụ̄xng thịy,/tʰaj˧/,
 taysis,,,culture,,,,,,,,Orostara,tay sis,,,
 Tayxamur,proper,'land' replaced with 'mur' for clarity,Germany,,,,,country,,,German,Deutschland,,[ˈdɔʏ̯t͡ʃlant],
 Tayxatar,proper,'tar' added for clarity,German,,,,,language,,,German,deutsch,,/dɔʏ̯t͡ʃ/,
 ten,basic,,day,,,,,measurement,,4,Russian,день,den',[dʲenʲ],
-tenat,basic,,,you're welcome,,,,,,,Spanish,de nada,,/deɪ ˈnɑdə/,
 tep,basic,,tape/strip/band/belt,,,,,,,,English,tape,,/teɪ̯p/,
 ter,basic,,ground/land/continent,,,,,nature,,,Italian,terra,,/ˈtɛr.ra/,
 terikus,slang,slang; kind of derogatory ,(colloquially) someone from Earth,,,,,,,,Orostara,ter kus,,,
@@ -911,7 +909,7 @@ xat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end/complete,closed
 xaten,,for general times; 'in the last ten days'; see 'aten' for discrete times like 'ten days ago',past day,,,,,,,,Orostara,xan ten,,,
 Xauatar,proper,'tar' added for clarity,Javanese,,,,,language,,,Javanese,jawa,,/dʒɔ.wɔ/,
 xaxas,,for general times; 'in the last ten hours'; see 'axas' for discrete times like 'ten hours ago',past hour,,,,,,,,Orostara,xan xas,,,
-xay,basic,,duty/obligation/responsibility/liability,,dutiful/responsible/liable,,,value,,,Vietnamese,trách nhiệm,,[t͡ɕajk̟̚˧˦ ɲiəm˧˨ʔ],
+xay,basic,use for apology to say ‘I take responsibility for it’,duty/obligation/responsibility/liability,sorry/apologize,dutiful/responsible/liable,,,value,,,Vietnamese,trách nhiệm,,[t͡ɕajk̟̚˧˦ ɲiəm˧˨ʔ],
 Xayirmur,proper,'mur' added for clarity,Algeria/People's Democratic Republic of Algeria,,,,,country,,,Arabic,الجزائر,"al-Jazāʾir,",/(ɪ)d.dzaː.jir/,
 xeh,basic,used to describe anything outside your bubble/circle of influence; the colloquial meaning is not direct possession,that/(temporally) then/(spacially) there,,that/(colloquially) your/their/his/her,,,,,,Bangla,যে,jē,/dʒe/,
 xemak,,,,,,there,there,,,,Orostara,xeh mak,,,
@@ -1033,7 +1031,7 @@ nepmon,,also called 'Makatmon' on some parts of Earth,September,,,,,,,,Orostara,
 tesmon,,also called 'Poymon' on some parts of Earth,October,,,,,,,,Orostara,tes mon,,,
 tesekmon,,also called 'Takmon' on some parts of Earth,November,,,,,,,,Orostara,tesek mon,,,
 testoymon,,also called 'Suarmon' on some parts of Earth,December,,,,,,,,Orostara,testoy mon,,,
-satak,basic,,loyalty/commitment/dedication/allegiance/devotion,commit/dedicate,loyal,,,value,,,Turkish,sadakât,,/sɑdɑːkat/,
+satakat,basic,,loyalty/commitment/dedication/allegiance/devotion,commit/dedicate,loyal,,,value,,,Turkish,sadakât,,/sɑdɑːkat/,
 key,slang,hard to translate; starry eyed?; lovesick?; basically used for being lovingly obsessed with someone; puppy-like; not derogatory but a little demeaning sometimes,simp/sap,,gay,,,,,,English,gay,,,
 xaman,basic,,honor/pride/integrity/prestige,,honorable/proud,,,value,,,Bangla,সম্মান,śomman,/ʃɔmːan/,
 er,basic,,lake/enclosed body of water,,,,,nature,,,Tamil,ஏரி,ēri,/eːɾɪ/,
@@ -1041,3 +1039,5 @@ isun,,archaic; use 'is',,,,,if,,,,Orostara,is hun,,,
 komun,,indicates a comparative dependent clause,,,,,than,,,,Orostara,kom hun,,,
 yapen,,when referring to a concept (not object) that is within the sentence; does not correspond with any 'hun',this,,,,,,,,Orostara,yah pen,,,
 xepen,,when referring to a concept (not object) that is NOT within the sentence; does not correspond with any 'hun',that,,,,,,,,Orostara,xeh pen,,,
+kupem,,'my condolences’ type of sorry,,sorry,,,,,,,Orostara,kup em,,,
+sarut,,,greeting,greet/hello,,,,,,,English,salute,,/səˈlut/,
