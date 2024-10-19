@@ -9,31 +9,31 @@ var numWords = 0;
 var properNouns = [];
 //predicted 2070 data
 var idealBreakdownNum = {
-  "Mandarin Chinese": 102,
-  Spanish: 68,
-  English: 32,
-  Hindi: 35,
-  Bangla: 28,
-  Portuguese: 33,
+  "Mandarin Chinese": 110,
+  Spanish: 72,
+  English: 36,
+  Hindi: 36,
+  Bangla: 21,
+  Portuguese: 34,
   Russian: 9,
   Japanese: 7,
-  Cantonese: 21,
-  Vietnamese: 18,
-  Marathi: 7,
-  Telugu: 8,
+  Cantonese: 10,
+  Vietnamese: 17,
+  Marathi: 8,
+  Telugu: 9,
   Turkish: 12,
-  "Wu Chinese": 9,
-  Korean: 12,
-  French: 11,
+  "Wu Chinese": 10,
+  Korean: 11,
+  French: 6,
   Tamil: 11,
-  German: 6,
+  German: 7,
   Arabic: 20,
   Urdu: 8,
   Javanese: 6,
-  Punjabi: 7,
+  Punjabi: 8,
   Italian: 6,
-  Gujarati: 6,
-  Farsi: 10,
+  Gujarati: 7,
+  Farsi: 12,
 };
 
 //2023 data
@@ -157,7 +157,7 @@ function langAnalysis() {
     if (idealBreakdownNum.hasOwnProperty(el.Lang)) {
       el.Diff = idealBreakdownNum[el.Lang] - el.Count;
     }
-    if (el.Diff > 0) {
+    if (el.Diff > 2) {
       console.log(
         el.Count +
           "/" +
@@ -169,25 +169,25 @@ function langAnalysis() {
           " )",
       );
     } else if (el.Diff < -2) {
-      // console.log(
-      //   el.Count +
-      //     "/" +
-      //     idealBreakdownNum[el.Lang] +
-      //     " " +
-      //     el.Lang +
-      //     " ( SUB " +
-      //     el.Diff * -1 +
-      //     " )",
-      // );
+      console.log(
+        el.Count +
+          "/" +
+          idealBreakdownNum[el.Lang] +
+          " " +
+          el.Lang +
+          " ( SUB " +
+          el.Diff * -1 +
+          " )",
+      );
     } else {
-      // console.log(
-      //   el.Count +
-      //     "/" +
-      //     idealBreakdownNum[el.Lang] +
-      //     " " +
-      //     el.Lang +
-      //     " ( Nice B) )",
-      // );
+      console.log(
+        el.Count +
+          "/" +
+          idealBreakdownNum[el.Lang] +
+          " " +
+          el.Lang +
+          " ( Nice B) )",
+      );
     }
   }
 }
