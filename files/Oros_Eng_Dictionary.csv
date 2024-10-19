@@ -17,7 +17,7 @@ amin,,for discrete times; 'ten minutes ago'; see 'xamin' for general times like 
 amis,basic,,joke/amusement,amuse/entertain ,amusing/entertaining/light-hearted,amusingly,,,,,French,amuser,,/a.my.ze/,Latin?/Proto-Germanic?
 amon,,for discrete times; 'ten months ago'; see 'xamon' for general times like 'in the last few months',last month,,,,,,,,Orostara,ak mon,,,
 an,basic,,addition/both/all,add,,also/too,and,,,,English,and,,/ænd/,Proto-Germanic
-anien,,for discrete times; 'ten years ago'; see 'xanien' for general times like 'in the last few years',last year,,,,,,,,Orostara,ak nien,,,
+anien,,for discrete times; 'ten years ago'; see 'rinien' for general times like 'in the last few years',last year,,,,,,,,Orostara,ak nien,,,
 anir,,,,,,,and-or/or,,,,Orostara,an ir,,,
 ankur,basic,,angle/radian/slope/incline/tilt,angle/lean/tilt,angular,angularly,,measurement,,,Spanish,ángulo,,/ˈanɡulo/,Latin
 Antarkater,proper,the continent; 'ter' added for clarity,Antarctica,,,,,continent,,,Russian,Антарктида,Antarktida,[ɐntɐrkˈtʲidə],
@@ -55,7 +55,6 @@ atam,basic,,bridge,cross,,,across,preposition,oth,,Telugu,అడ్డముగ�
 aten,,for discrete times; 'ten days ago'; see 'xaten' for general times like 'in the last few days',yesterday/last day,,,,,,,,Orostara,ak ten,,,
 axrik,,with -u ending; literally ‘good going’ basically,,goodbye/bye,,,,,,,Orostara,ax rik,,/aˈdjos/,Latin
 atit,basic,,root/basis/essence/foundation/base,,fundamental/basic,fundamentally/basically/essentially,,plant/nature,,2,Tamil,அடித்தளம்,aṭittaḷam,/ɐɖit̪ːɐɭɐm/,Unknown
-atiy,slang,informal slang; short form; can also be spelled 'atio',,bye/goodbye,,,,,,,Orostara,atios,,ati,
 auk,basic,,alcohol,,alcoholic,,,food,,,Portuguese,álcool,,/ˈaw.ko.ɔw/,Akkadian
 ax,basic,,yay/woohoo,,good/positive/right/correct,,,interjection,,,Hindi,अच्छा,achchha,/ət͡ʃ.t͡ʃʰɑː/,Sanskrit
 axas,,for discrete times; 'ten hours ago'; see 'xaxas' for general times like 'in the last few hours',last hour,,,,,,,,Orostara,ak xas,,,
@@ -165,7 +164,7 @@ ikitax,,,,,small,,,,,,Orostara,ik tax,a little size,,
 terik,,,island,,,,,nature,,,Orostara,ter ik,,,
 ikixak,,,,,weak,weakly,,,,,Orostara,ik xak,little strength,,
 ikixam,,,,,short,,,,,,Orostara,ik xam,,,
-ikixan,,pair with 'sek',a recent past,,recent,recently,,,,,Orostara,ik xan,,,
+ikirik,,pair with 'sek',a recent past,,recent,recently,,,,,Orostara,ik rik,,,
 ikixor,,,,chill,cool/cold,coolly/coldly,,,,,Orostara,ik xor,,,
 muhik,,,bush ,,,,,plant/nature,,,Orostara,muh ik,,,
 murik,,,state/province,,,,,,,,Orostara,mur ik,,,
@@ -226,7 +225,7 @@ karax,basic,,crab/lobster/crayfish/crustacean,,,,,animal/nature,,,Gujarati,ક�
 karim,basic,,word,,wordy,,,,,,Arabic,كلمة,kalima,/ka.li.ma/,Arabic
 karimkun,,,sentence/phrase/statement,,,,,,,,Orostara,karim kun,,,
 karip,basic,,nail/talon/claw,scratch,,,,body,,52,French,griffe,,/ɡɹɪf/,Proto-Germanic
-karipay,basic,,,beg,,please,,,,,Hindi,कृपया,kŕpayā,/kɾɪp.jɑː/,Sanskrit
+karipay,basic,,request/humility,beg,,please,,,,,Hindi,कृपया,kŕpayā,/kɾɪp.jɑː/,Sanskrit
 karis,basic/slang,,lube/(colloquially) slick,slip/slide,slippery/slick,,,body,,65,French,glisser,,/ɡli.se/,Proto-Germanic
 karkox,basic,,rabbit/bunny,,,,,animal/nature,,,Bangla,খরগোশ,khôrgoś,[ˈkʰɔr.ɡoʃ],Proto-Iranian
 kas,basic,,simulation/VR/virtual reality,simulate,virtual,,,,,,Korean,가상,gasang,[ˈka̠(ː)sʰa̠ŋ],Proto-Sino
@@ -432,7 +431,7 @@ nasek,,,,,,never,never,,,,Orostara,nah sek,,,
 nasim,,,difference,differ/vary,different/unique/varying/other,differently/uniquely,,,,,Orostara,nah sim,,,
 nasimsis,,,diversity,diversify,diverse,diversely,,,,,Orostara,nasim sis,,,
 nasit,,,lie/trick/forgery,lie/trick/fake,false/untrue/fake,falsely,,,,,Orostara,nah sit,,,
-naxan,,(temporal) pair with 'sek',(temporal) never before,stop/freeze/paralyze,still/motionless,motionlessly,,,,,Orostara,nah xan,,,
+narik,,(temporal) pair with 'sek',(temporal) never before,stop/freeze/paralyze,still/motionless,motionlessly,,,,,Orostara,nah rik,,,
 naxar,slang,softer insult than 'tanxar',fool,,unintelligent/naive,,,,,,Orostara,nah xar,,,
 naxintay,,,,,lazy,,,,,,Orostara,nah xin tay,no activity,,
 nayix,,,oddity,,strange/odd/weird/unexpected/abnormal,strangely/oddly,,,,,Orostara,nah yix,not expected,,
@@ -644,7 +643,7 @@ res,basic,the mechanical device,spring,,,,,,,,Spanish,resorte,,/reˈsoɾte/,Lati
 ret,basic,,red,,red,,,color,,1,English,red,,/ɹɛd/,Proto-Germanic
 retikus,slang,slang; kind of derogatory ,(colloquially) someone from Mars,,,,,,,,Orostara,ret kus,,,
 rey,basic,,class/category/genre/kind/type,,,,,,,,Mandarin Chinese,类,Lèi,/leɪ̯⁵¹/,Proto-Sino
-rik,basic,,,go away/leave,,away,away from,preposition,oth,,Mandarin Chinese,离开,Líkāi,/li³⁵ kʰaɪ̯⁵⁵/,Proto-Sino
+rik,basic,,(temporally) past,go away/leave,(temporally) past,away,away from,preposition,oth,,Mandarin Chinese,离开,Líkāi,/li³⁵ kʰaɪ̯⁵⁵/,Proto-Sino
 rikit,basic,,liquid,melt/condense,,,,,,,Spanish,líquida,,/ˈlikido/,Latin
 rim,basic,,maintenance,stay/remain/keep/maintain,,still,,,,,English,remain,,/ɹɪˈmeɪn/,Latin
 rip,basic,,leaf,,,,,plant/nature,,5,English,leaf,,/liːf/,
@@ -698,8 +697,8 @@ sax,basic,,thought/mind/opinion/idea,think/assume/contemplate/imagine/opine,thou
 saxis,,,concept,conceptualize ,conceptually,,,,,,Orostara,sax sis,,,
 saxor,,,brain,,,,,body,,9,Orostara,sax or,,,
 saxun,slang,slang; short form for 'saxo kohun'; follow with a subordinate clause,,,,,I think that,,,,Orostara,sax hun,,,
-say,slang,informal slang; short form,,sorry,,,,,,,Orostara,sariy,,,
-sayun,slang,slang; short form for 'sariyo kohun'; follow with a subordinate clause,,,,,I'm sorry for ,,,,Orostara,say hun,,,
+sox,slang,informal slang; short form,,sorry,,,,,,,Orostara,soxen,,,
+soxun,slang,slang; short form for 'soxeno kohun'; follow with a subordinate clause,,,,,I'm sorry for ,,,,Orostara,sox hun,,,
 sek,basic,time marker particle/default time unit,time/moment/second,,,,for,measurement,,1,English,second,,/ˈsɛk.(ə)nd/,
 sekaxok,,,film/movie,film,,,,,,,Orostara,sek xok,,,
 sekitix,,with a square base; named for the number of faces on the object,pyramid,,,,,shape,,,Orostara,sik tix,,,
@@ -713,7 +712,7 @@ set,basic,,hundred,,100,,,number,,23,Portuguese,centena,,/sẽˈtɛnas/,
 sex,basic,,seven,,7,,,number,,8,Portuguese,sete,,/ˈsɛ.t͡ʃi/,
 asem,,for discrete times; 'ten weeks ago'; see 'xasem' for general times like 'in the last few weeks',next week,,,,,,,,Orostara,ak sem,,,
 pasem,,for discrete times; 'ten weeks later'; see 'osem' for general times like 'in the next few weeks',last week,,,,,,,,Orostara,pas sem,,,
-xasem,,for general times; 'in the last ten weeks'; see 'amin' for discrete times like 'ten weeks ago',past week,,,,,,,,Orostara,xan sem,,,
+risem,,for general times; 'in the last ten weeks'; see 'amin' for discrete times like 'ten weeks ago',past week,,,,,,,,Orostara,rik sem,,,
 osem,,for general times; 'in the next ten weeks'; see 'pasem' for discrete times like 'ten weeks later',future week,,,,,,,,Orostara,ot sem,,,
 sexin,,,septagon,,septagonal,,,shape,,,Orostara,sex hin,,,
 sem,basic,,week,,weekly,,,measurement,,5,Spanish,semana,/seˈmana/,,
@@ -744,7 +743,7 @@ suk,basic/slang,,sugar,,sweet/(colloquially) cute,sweetly,,food,,2,English,sugar
 sukrut,,,cake,,,,,food,,,Orostara,suk rut,,,
 sun,basic,,repetition/pattern,repeat/copy/duplicate,repetitive,repetitively/again,,,,,Cantonese,重複,cung4 fuk1,/t͡sʰʊŋ²¹ fʊk̚⁵/,
 sunot,,in terms of movement; return to here,,return,,,,,,,Orostara,sun ot,,,
-sunxan,,in terms of movement; return to a place away from here ,,return,,,,,,,Orostara,sun xan,,,
+sunrik,,in terms of movement; return to a place away from here ,,return,,,,,,,Orostara,sun rik,,,
 sup,basic,,soup/stew,,,,,food,,,French,soupe,,/sup/,
 super,basic,,,randomize,random,randomly,,,,,German,zufällig,,/ˈt͡suːfɛlɪç/,
 sur,basic,,south,,south,south,,direction,adv,2,Spanish,sur,,/ˈsuɾ/,Proto-Germanic
@@ -817,7 +816,7 @@ Tirkiyemur,proper,'mur' added for clarity,Turkey/Republic of Turkey,,,,,country,
 tirxas,basic,,entertainment,entertain/interest,interesting/engaging/entertaining ,,,,,,Hindi,दिलचस्प,dilachasp,/d̪ɪl.t͡ʃəsp/,
 tis,basic,,,reduce/decrease/shrink,,,,,,,Spanish,disminuir,,/dismiˈnwiɾ/,
 tisisan,,time of year,fall/autumn,,,,,,,,Orostara,tis sisan,,,
-tit,basic,,degree/level/rank/grade/score/quality,rank/score/grade,quality,,,,,,Cantonese,秩,dit,/tiːt̚²/,
+tit,basic,,degree/level/rank/grade/score/quality/integrity,rank/score/grade,quality,,,,,,Cantonese,秩,dit,/tiːt̚²/,
 titam,basic,,plan/strategy/design/intention,prepare/plan/get ready/intend,strategic/ready,,,,,,Tamil,திட்டம்,Tiṭṭam,/t̪iʈːɐm/,
 tix,basic,,volume/amount/limit/liter,,,,,measurement,,,Mandarin Chinese,体积,Tǐjī,/tʰi²¹⁴⁻²¹ t͡ɕi⁵⁵/,
 tiy,basic,,monarch/emperor/king/queen/sovereign/god,,,,,fantasy,,,Mandarin Chinese,帝,dì,/ti²¹³/,
@@ -886,15 +885,15 @@ xak,basic,,force/power/authority/newton,force/make/influence/coerce/enforce,forc
 xakitay,,,confidence,,confident,confidently,,,,,Orostara,xak tay,,,
 xam,basic,,top/lid/height,rise/raise/lift,high/tall,up,over/above,direction/measurement/preposition,adv/noun/oth,5,Vietnamese,chỏm,,[t͡ɕɔm˧˩],
 xamet,,,jacket/coat,,,,,,,,Orostara,xam et,,,
-xamin,,for general times; 'in the last ten minutes'; see 'amin' for discrete times like 'ten minutes ago',past minute,,,,,,,,Orostara,xan min,,,
+rimin,,for general times; 'in the last ten minutes'; see 'amin' for discrete times like 'ten minutes ago',past minute,,,,,,,,Orostara,rik min,,,
 xamkut,basic,,lock,lock,locked,,,,,,Korean,잠그다,jamgeuda,[t͡ɕa̠mɡɯda̠],
-xamon,,for general times; 'in the last ten months'; see 'amon' for discrete times like 'ten months ago',past month,,,,,,,,Orostara,xan mon,,,
+rimon,,for general times; 'in the last ten months'; see 'amon' for discrete times like 'ten months ago',past month,,,,,,,,Orostara,rik mon,,,
 xamsisan,,time of year,summer,,,,,,,,Orostara,xam sisan,,,
 xamtay,,,,,stuck up/snobish/superior,,,,,,Orostara,xam tay,,,
-xan,basic,,(temporally) past/(physically) movement/motion/exercise,go/move/transport,(temporally) past,,,,,,Hindi,जाना,jaana,/d͡ʒɑː.nɑː/,
+xan,basic,,movement/motion/exercise,go/move/transport,,,,,,,Hindi,जाना,jaana,/d͡ʒɑː.nɑː/,
 xanat,basic,,depth,drop/fall/dive,deep/profound,,,measurement,,,Mandarin Chinese,深度,Shēndù,/ʂən⁵⁵ tu⁵¹/,
-xanien,,for general times; 'in the last ten years'; see 'anien' for discrete times like 'ten years ago',past year,,,,,,,,Orostara,xan nien,,,
-xankux,,,history/story,,historic,,,,,,Orostara,xan katay,Lìshǐ,,
+rinien,,for general times; 'in the last ten years'; see 'anien' for discrete times like 'ten years ago',past year,,,,,,,,Orostara,rik nien,,,
+rikux,,,history/story,,historic,,,,,,Orostara,rik kux,Lìshǐ,,
 xaoh,basic,,diamond/crystal/gem/jewel,,,,,,,,Bangla,জওহর,joōhor,/dʑɔo̯ɦoɹ/,
 xap,basic,,leg,kick,,,,body,,54,French,jambe,,/ʒɑ̃b/,
 xapaxot,,,knee,,,,,body,,55,Orostara,xap xot,,,
@@ -904,11 +903,11 @@ xar,basic,,intelligence,,intelligent/smart ,smartly,,,,,Bangla,চালাক,c
 xariet,,,dress/tunic,,,,,,,,Orostara,xarir et,,,
 xarir,basic,,body,,,,,body,,0,Marathi,शरीर,Śarīra,/ɕə.ɾiɾ/,
 xas,basic,,hour,,,,,measurement,,3,Russian,час,chas,[t͡ɕas],
-xasek,,for general times; 'in the last ten seconds'; see 'asek' for discrete times like 'ten seconds ago',past second,,,,,,,,Orostara,xan sek,,,
+risek,,for general times; 'in the last ten seconds'; see 'asek' for discrete times like 'ten seconds ago',past second,,,,,,,,Orostara,rik sek,,,
 xat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end/complete,closed/off/ended/finished/complete/done/final/last,finally,to (as in from here to there),preposition,oth,,English,shut,,/ʃʌt/,
-xaten,,for general times; 'in the last ten days'; see 'aten' for discrete times like 'ten days ago',past day,,,,,,,,Orostara,xan ten,,,
+riten,,for general times; 'in the last ten days'; see 'aten' for discrete times like 'ten days ago',past day,,,,,,,,Orostara,rik ten,,,
 Xauatar,proper,'tar' added for clarity,Javanese,,,,,language,,,Javanese,jawa,,/dʒɔ.wɔ/,
-xaxas,,for general times; 'in the last ten hours'; see 'axas' for discrete times like 'ten hours ago',past hour,,,,,,,,Orostara,xan xas,,,
+rixas,,for general times; 'in the last ten hours'; see 'axas' for discrete times like 'ten hours ago',past hour,,,,,,,,Orostara,rik xas,,,
 soxen,basic,use for apology to say ‘I take responsibility for it’,duty/obligation/responsibility/liability,sorry/apologize,dutiful/responsible/liable,,,value,,,Mandarin Chinese,責任,zérèn,/t͡sɤ³⁵ ʐən⁵¹/,
 masoxen,,,very sorry,,,,,,,,Orostara,mas soxen,,,
 hamasoxen,,,extremely sorry,,,,,,,,Orostara,ham mas soxen,,,
@@ -1034,7 +1033,7 @@ tesekmon,,also called 'Takmon' on some parts of Earth,November,,,,,,,,Orostara,t
 testoymon,,also called 'Suarmon' on some parts of Earth,December,,,,,,,,Orostara,testoy mon,,,
 satakat,basic,,loyalty/commitment/dedication/allegiance/devotion,commit/dedicate,loyal,,,value,,,Turkish,sadakât,,/sɑdɑːkat/,
 key,slang,hard to translate; starry eyed?; lovesick?; basically used for being lovingly obsessed with someone; puppy-like; not derogatory but a little demeaning sometimes,simp/sap,,gay,,,,,,English,gay,,,
-enteres,basic,,honor/pride/integrity/prestige,,honorable/proud,,,value,,,Spanish,entereza,,/enteˈɾesa/,
+enteres,basic,,honor/pride/prestige,,honorable/proud,,,value,,,Spanish,entereza,,/enteˈɾesa/,
 er,basic,,lake/enclosed body of water,,,,,nature,,,Tamil,ஏரி,ēri,/eːɾɪ/,
 isun,,archaic; use 'is',,,,,if,,,,Orostara,is hun,,,
 komun,,indicates a comparative dependent clause,,,,,than,,,,Orostara,kom hun,,,
@@ -1042,3 +1041,4 @@ yapen,,when referring to a concept (not object) that is within the sentence; doe
 xepen,,when referring to a concept (not object) that is NOT within the sentence; does not correspond with any 'hun',that,,,,,,,,Orostara,xeh pen,,,
 kupem,,'my condolences’ type of sorry,,sorry,,,,,,,Orostara,kup em,,,
 sarut,basic,,greeting,greet/hello,,,,,,,English,salute,,/səˈlut/,
+hapatak,basic,,teamwork/collaboration/cooperation,collaborate/cooperate,cooperative/collaborative ,,,value,,,Vietnamese,hợp tác,,[həːp̚˧˨ʔ taːk̚˧˦],
