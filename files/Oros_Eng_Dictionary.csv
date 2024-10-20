@@ -26,7 +26,7 @@ ap,basic,,cloud,,cloudy,,,nature,,,Farsi,ابر,abr,[ʔæbɹ],Proto-Iranian
 apas,basic,,phase/state/status/circumstance/situation/condition/stage,,,,,,,,Hindi,अवस्था,avastha,/ə.ʋəs.t̪ʰɑː/,Sanskrit
 apeh,basic,,knot/tie,bind/tie/tighten/sew,tight/bound/taught,tightly,,,,,Portuguese,apertado,,/a.peʁˈta.du/,Latin
 Aphanmur,proper,'stan' replaced with 'mur' for clarity,Afghanistan/Islamic Republic of Afghanistan,,,,,country,,,Pashto,افغانستان,afğânestân,/afˈɣɑnˈɪsˈtɑn/,
-apin,basic,,performance/show,perform/pretend/play,performative/pretend,,,,,,Bangla,অভিনেতা,obhineta,/ɔbʱinet̪a/,Sanskrit
+akat,basic,,performance/show,perform/pretend/play,performative/pretend,,,,,,Spanish,actuación,,/aɡtwaˈsjon/,Sanskrit
 apinis,,,scene/scenario,,,,,,,,Orostara,apin is,,,
 apinsar,,,actor,,,,,,,,Orostara,apin sar,perform person,,
 apint,,on Earth,theater/theatre,,,,,,,,Orostara,apin tah,,,
@@ -106,9 +106,9 @@ Hankukatar,proper,어 replaced with 'tar',Korean,,,,,language,,,Korean,한국어
 Hankukmur,proper,'mur' added for clarity,South Korea/Republic of Korea,,,,,country,,,Korean,한국,hangug,[ˈha̠(ː)nɡuk̚],
 hanxot,,,wrist,,,,,body,,49,Orostara,han xot,,,
 haos,basic/slang,used as a slur of sorts to talk about people who Venusians (mostly) feel aren't pulling their weight and are a waste of resources,parasite/(colloquially) leech,spend/expend/use up/waste/consume,,,,economy,verb,,Mandarin Chinese,耗損,hàosǔn,/xɑʊ̯⁵¹ su̯ən²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
-haposartay,,can be modified to 'hapxatay' or 'hapoyatay' if you want to specifically say 'jealous of you' or 'jealous of me',,,jealous,jealously,,,,,Orostara,hap sar tay,,,
-hapoxatay,slang,informal slang; generalized form is 'haposartay' if you want to just say 'jealous',,,jealous of you,,,,,,Orostara,hap x tay,,,
-hapoyatay,slang,informal slang; generalized form is 'haposartay' if you want to just say 'jealous',,,jealous of me,,,,,,Orostara,hap y tay,,,
+onosartay,,can be modified to 'onoxatay' or 'onoyatay' if you want to specifically say 'jealous of you' or 'jealous of me',,,jealous,jealously,,,,,Orostara,on sar tay,,,
+onoxatay,slang,informal slang; generalized form is 'onosartay' if you want to just say 'jealous',,,jealous of you,,,,,,Orostara,on x tay,,,
+onoyatay,slang,informal slang; generalized form is 'onosartay' if you want to just say 'jealous',,,jealous of me,,,,,,Orostara,on y tay,,,
 har,basic,,green,,green,,,color,,4,Hindi,हरा,hara,[ɦəˈɾaː],Sanskrit
 harap,basic,,reptile/amphibian,,,,,animal/nature,,,English,herptile,,/ˈhɝp.taɪl/,Ancient Greek
 has,basic,,thousand,,1000,,,number,,24,Hindi,हज़ार,hazaar,/ɦə.zɑːɾ/,Proto-Indo-Iranian
@@ -251,7 +251,7 @@ kex,basic,,hair/fur/feather/feathers,,hairy/furry,,,body,,10,Gujarati,કેશ,
 kexet,,,bonnet,,,,,,,,Orostara,kex et,,,
 pos,basic,,gift/reward/prize/distribution/generosity,give/reward/share/distribute/get to,gifted/free/earned/generous,,,economy/value,,,Korean,보상,bosang,[ˈpo̞(ː)sʰa̠ŋ],
 keytay,,,generosity,,generous,generously,,,,,Orostara,key tay,,,
-keyuk,basic,,muscle/meat,,muscular,,,body,,3,Cantonese,肌肉,gei juk,/kei̯⁵⁵ jʊk̚²/,Proto-Sino
+mus,basic,,muscle/meat,,muscular,,,body,,3,Spanish,músculo,,/ˈmuskulo/,
 ki,,particle to indicate something is a question ,,,,,,,,,Orostara,kiy,,,
 kihes,,for what reason; why did it happen,,,,why,,,,,Orostara,kiy hes,what reason,,
 kikon,,,whatever/whichever,,,,,,,,Orostara,kiy kon ,what any,,
@@ -386,7 +386,7 @@ mipor,,,flour,,,,,food,,,Orostara,miy por,grain powder,,
 mir,slang,Affectionate honorific suffix that means 'someone I take care of',beloved/baby/little sister/little brother,,,,,,,,Orostara,?,,,
 Misramur,proper,'mur' added for clarity,Egypt/Arab Republic of Egypt,,,,,country,,,Arabic,مصر,Misr,/misˤr/,
 mitut,basic,,locust/grasshopper/cricket/katydid,,,,,animal/nature,,,Telugu,మిడుత,miḍuta,/miɖut̪a/,Proto-Dravidian
-mix,basic,,mixture/solution,mix,mixed,,,,,,Bangla,মিশ্রণ,Miśraṇa,/miśrɔnɔ/,Sanskrit?
+mesok,basic,,mixture/solution,mix,mixed,,,,,,Spanish,mezcla,,/ˈmeskla/,
 miy,basic,,grain,,,,,food,,,Mandarin Chinese,米,Mǐ,/mi²¹⁴/,Proto-Sino
 miyet,,the fabric,linen,,,,,,,,Orostara,miy et,,,
 Miyox,proper,inspired by the Roman goddess of grain and agriculture,Ceres,,,,,space,,13,Orostara,miy hox,,,
@@ -412,7 +412,7 @@ mutir,basic,,urine,pee,,,,body,,62,Tamil,மூத்திரம்,mūttiram,/
 mutirtup,,,urethra,,,,,body,,33,Orostara,mutar tup,,,
 mux,basic,Mostly used as an honorific suffix,director/supervisor,,,,,,,,Arabic,مُشْرِف,mušrif,/muʃrif/,Arabic
 nah,basic,repeated 'nan' is more commonly used colloquially,nothing/none/zero,is not/(colloquially) don't/won't,not/0,not,no,number,,1,Bangla,না,Nā,/na/,Sanskrit
-nahap,,quick way to say something is not belonging to someone or that they don’t have something,,,,,not of,,,,Orostara,nah hap,,,
+nahon,,quick way to say something is not belonging to someone or that they don’t have something,,,,,not of,,,,Orostara,nah on,,,
 nahis,slang,,,,,,unless/until,,,,Orostara,nah is,,,
 nahix,,,,exhaust,tired/exhausted/weary,,,,,,Orostara,nah ix,,,
 nahot,,pair with 'sek',never will,,,,,,,,Orostara,nah ot,,,
@@ -423,7 +423,7 @@ nan,slang,informal slang; adverb meaning: nothing more than,nothing/none,don't/w
 nan,slang,informal slang; response to 'thank you' similar to 'no problem; it's nothing',no problem/you're welcome,,,,,,,,Orostara,nah,,,
 naneh,,,silence,silence,silent,silently,,,,,Orostara,nah neh,no sound,,
 nanit,,,,,dry,,,,,,Orostara,nah nit,,,
-nap,slang,slang; short form; quick way to say something is not belonging to someone or that they don’t have something,,,,,not of,,,,Orostara,nahap,,,
+non,slang,slang; short form; quick way to say something is not belonging to someone or that they don’t have something,,,,,not of,,,,Orostara,nahon,,,
 napor,,,,,casual,casually,,,,,Orostara,nah por,,,
 napox,,,beast/creature,,,,,fantasy,,,Orostara,nah pox,,,
 narap,,,,,smooth,,,,,,Orostara,nah raf,no texture,,
@@ -563,7 +563,7 @@ Penesueramur,proper,'mur' added for clarity,Venezuela/Bolivarian Republic of Ven
 pep,basic,,kin/relative/family member/cousin/aunt/uncle,,,,,honorific,,,German,verwandte,,/fɛɐ̯ˈvantə/,Proto-Germanic
 pepakun,,,family,,,,,,,,Orostara,pep kun,,/faˈmi.li.ɐ/,
 per,basic,,sphere/ball,,round,,,shape,,,Spanish,pelota,,/peˈlota/,Latin
-perek,basic,,nail/tack,nail/tack,,,,,,,Bangla,পেরেক,Pērēka,/peɹek/,Latin
+karap,basic,,nail/tack,nail/tack,,,,,,,Spanish,clavo,,/ˈklabo/,Latin
 peres,basic,,metal,,metallic,metallically,,,,,Farsi,فلز,felez,/felez/,Aramaic
 perton,basic,,courtesy/manners,forgive/(using -u ending) excuse me/pardon me,polite,,,value,,,Spanish,perdón,,/peɾˈdon/,Latin
 Perumur,proper,'mur' added for clarity,Peru/Republic of Peru,,,,,country,,,Spanish,Perú,,,
@@ -857,7 +857,7 @@ tursekun,,,,,,while/as/as long as,,,,,Orostara,tursek hun,,,
 tus,basic,,teeth/tooth,bite,,,,body,,17,English,tooth,,/tuθ/,
 tux,basic,,snow/ice,snow,,,,nature,,,Bangla,তুষার,Tuṣāra,/t̪uʃaɹ/,
 uan,basic,,evening/dusk,,,,,,,,Mandarin Chinese,晚,Wǎn,/wän²¹⁴/,
-xisun,basic,,surrender,yield/surrender/give in/give up/concede,,,,,,,Cantonese,屈從,wat1 cung4,/wɐt̚⁵ t͡sʰʊŋ²¹/,
+seter,basic,,surrender,yield/surrender/give in/give up/concede,,,,,,,Spanish,ceder,,/seˈdeɾ/ ,Latin
 uek,basic,,consciousness,wake,awake/conscious,,,,,,English,wake,,/weɪk/,
 uh,basic,Express realization or understanding,,,,,oh,interjection,oth,,Bangla,উহু,Uhu,/uhu/,
 Ukantamur,proper,'mur' added for clarity,Uganda/Republic of Uganda,,,,,country,,,Swahili,Uganda,,,
@@ -894,7 +894,7 @@ xan,basic,,movement/motion/exercise,go/move/transport,,,,,,,Hindi,जाना,j
 xanat,basic,,depth,drop/fall/dive,deep/profound,,,measurement,,,Mandarin Chinese,深度,Shēndù,/ʂən⁵⁵ tu⁵¹/,
 rinien,,for general times; 'in the last ten years'; see 'anien' for discrete times like 'ten years ago',past year,,,,,,,,Orostara,rik nien,,,
 rikux,,,history/story,,historic,,,,,,Orostara,rik kux,Lìshǐ,,
-xaoh,basic,,diamond/crystal/gem/jewel,,,,,,,,Bangla,জওহর,joōhor,/dʑɔo̯ɦoɹ/,
+hoy,basic,,diamond/crystal/gem/jewel,,,,,,,,Spanish,joya,,/ˈxoʝa/,
 xap,basic,,leg,kick,,,,body,,54,French,jambe,,/ʒɑ̃b/,
 xapaxot,,,knee,,,,,body,,55,Orostara,xap xot,,,
 xaper,,,hip,,,,,body,,53,Orostara,xap per,,,
@@ -1042,3 +1042,4 @@ xepen,,when referring to a concept (not object) that is NOT within the sentence;
 kupem,,'my condolences’ type of sorry,,sorry,,,,,,,Orostara,kup em,,,
 sarut,basic,,greeting,greet/hello,,,,,,,English,salute,,/səˈlut/,
 hapatak,basic,,teamwork/collaboration/cooperation,collaborate/cooperate,cooperative/collaborative ,,,value,,,Vietnamese,hợp tác,,[həːp̚˧˨ʔ taːk̚˧˦],
+,basic,,innovation/creativity,innovate/create,creative/innovative,,,value,,,,,,,
