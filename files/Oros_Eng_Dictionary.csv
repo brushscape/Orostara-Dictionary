@@ -225,7 +225,7 @@ karax,basic,,crab/lobster/crayfish/crustacean,,,,,animal/nature,,,Gujarati,ક�
 karim,basic,,word,,wordy,,,,,,Arabic,كلمة,kalima,/ka.li.ma/,Arabic
 karimkun,,,sentence/phrase/statement,,,,,,,,Orostara,karim kun,,,
 karip,basic,,nail/talon/claw,scratch,,,,body,,52,French,griffe,,/ɡɹɪf/,Proto-Germanic
-karipay,basic,,request/humility,beg,,please,,,,,Hindi,कृपया,kŕpayā,/kɾɪp.jɑː/,Sanskrit
+karipay,basic,,request/humility,beg,,please,,value,,,Hindi,कृपया,kŕpayā,/kɾɪp.jɑː/,Sanskrit
 karis,basic/slang,,lube/(colloquially) slick,slip/slide,slippery/slick,,,body,,65,French,glisser,,/ɡli.se/,Proto-Germanic
 karkox,basic,,rabbit/bunny,,,,,animal/nature,,,Bangla,খরগোশ,khôrgoś,[ˈkʰɔr.ɡoʃ],Proto-Iranian
 kas,basic,,simulation/VR/virtual reality,simulate,virtual,,,,,,Korean,가상,gasang,[ˈka̠(ː)sʰa̠ŋ],Proto-Sino
@@ -288,7 +288,7 @@ koyor,,,genital,,,,,body,,34,Orostara,koy or,sex organ,,
 koyxam,,,orgasm,,,,,,,,Orostara,koy xam,,,
 kuan,basic,,width/range/scale/spectrum/breadth,,wide,,,,,,Mandarin Chinese,宽度,Kuāndù,/kʰu̯än⁵⁵ tu⁵¹/,Proto-Sino
 aum,basic,,growth/expansion,grow/increase/expand/spread/enlarge/extend,increasing,,,,,,Portuguese,aumentar,,/aw.mẽˈta(ʁ)/,
-axiok,,,,grow/develop,,,,,,,Orostara,ax xiok,,,
+axiok,,,,grow/develop,,,,,,,Orostara,ax xiokay,,,
 kuex,basic,,connection/relation/link,connect/relate/link/bond,connecting/connective,,,,,,Wu Chinese,关系,kue-shi,/kue̞⁵⁵ ɕi²¹/,Proto-Sino
 kuexkun,,,network,,,,,,,,Orostara,kuex kun,,,
 kuey,slang,widely used slang; used to mean anyone who worked at Oros but now mostly used to refer to anyone who was born into the corp; so brood babies mostly; Venusians most of all,adder/snake/oros citizen/(colloquially) Venusian,,,,,,,,Mandarin Chinese,蝰,,/kʰu̯eɪ̯³⁵/,
@@ -377,7 +377,7 @@ mer,basic,,west,,west,west,,direction,adv,4,Tamil,மேற்கு,mēṟku,/m
 mes,basic,,message/text/email/mail,text/DM/send/transmit/upload,,,,,,,English,message,,/ˈmɛsɪd͡ʒ/,Latin
 Mesox,proper,inspired by the messager of the gods in Roman mythology,Mercury,,,,,space,,9,Orostara,mes hox,flying planet,,
 met,basic,Mostly used as an honorific suffix,mid-level employee,,,,,,,,Spanish,medio,,/ˈmedjo/,Latin
-metot,basic,,method/technique/way/process/style,process,methodical,methodically,,,,,Spanish,método,,/ˈmetodo/,Ancient Greek
+metot,basic,,method/technique/way/process/style,process,methodical,methodically,according to/with/using/through/by,,,,Spanish,método,,/ˈmetodo/,Ancient Greek
 mey,basic,,toy,play with,,,,,,,Wu Chinese,玩,me,/me̞²³/,Proto-Sino
 mi,,particle to indicate something is looking for confirmation; similar to tacking on:  'right?'  or  'isn't it?'  or  'aren't you?',,,,,,,,,Orostara,am,,,
 mik,basic,,microbe/bacteria/virus/germ/pathogen/infection,infect,infected,,,nature/body,,,Spanish,microbio,,/miˈkɾobjo/,Ancient Greek
@@ -514,7 +514,7 @@ Pahasetar,proper,'tar' added for clarity,French,,,,,language,,,French,français,
 pak,basic,,money/dollar/credit/payment/finance/value,pay/spend/afford,expensive/valuable/rich/financial,,,economy,,,Spanish,pagar,,/paˈɡaɾ/,Latin
 pakan,basic/slang,when used colloquially it just means gentials in general,phallus/penis/clitoris/clit/(colloquially) genitals,,(colloquially) have sex,,,body,,38,Bangla,ভগাঙ্কুর,bhogaṅkur,/bʱɔ.ɡɑŋ.kuɾ/,Sanskrit
 pakanik,,,clit/clitoris,,,,,body,,40,Orostara,pakan ik,little phallus,,
-pakar,basic,,judgement,judge,judgy ,,,,,,Mandarin Chinese,法官,Fǎguān,/fä²¹⁴⁻²¹ ku̯än⁵⁵/,Proto-Sino
+pakar,basic,,judgment,judge,judgy ,,,,,,Mandarin Chinese,法官,Fǎguān,/fä²¹⁴⁻²¹ ku̯än⁵⁵/,Proto-Sino
 pakasar,,,accountant,,,,,,,,Orostara,pak sar,money person,,
 pakasis,,,economy,,economic,,,,,,Orostara,pak sis,,,
 Pakmur,proper,'stan' replaced with 'mur' for clarity,Pakistan/Islamic Republic of Pakistan,,,,,country,,,Punjabi,ਪਾਕਿਸਤਾਨ,Pākisatāna,/ˈpäː.kɪs.t̪äːn/,
@@ -539,7 +539,7 @@ Parsakamur,proper,'mur' added for clarity,Poland/Rzeczpospolita Polska/Republic 
 Parsitar,proper,'tar' added for clarity,Farsi/Persian,,,,,language,,,Farsi,فارسی,fârsi, /fɒːɾsiː/,
 pas,basic,,back/(anatomical) back/butt/(temporally) next time,,back,backwards,(physically) behind/in back of/last/(temporally) after/next,direction/preposition,adv/oth,10,Russian,позади,pozadí,[pəzɐˈdʲi],Proto-Slavic
 pasek,,for discrete times; 'ten seconds later'; see 'osek' for general times like 'in the next few seconds',next second,,,,,,,,Orostara,pas sek,,,
-paset,,specificially bottoms; use 'nixet' for 'underwear' generally,underwear,,,,,,,,Orostara,pas et,,,
+paset,,specifically bottoms; use 'nixet' for 'underwear' generally,underwear,,,,,,,,Orostara,pas et,,,
 pasir,basic,,ease/simplicity,ease/simplify,easy/simple/basic,easily/simply/only/just,,,,,Spanish,fácil,,/ˈfasil/,Latin
 pasirekep,,,,,delicate/fragile/breakable,,,,,,Orostara,pasir kep,easily damaged,,
 paskos,,,spine,,,,,body,,22,Orostara,pas kos,back bone,,
