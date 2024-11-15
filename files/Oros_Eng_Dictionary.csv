@@ -10,7 +10,7 @@ akax,basic,,sky/weather,,,,,nature,,,Hindi,आकाश,aakaash,/ɑː.kɑːʃ/,S
 Akaxox,proper,inspired by the Greek titan of the sky,Uranus,,,,,space,,16,Orostara,akax hox,sky planet,,
 aket,,,binder/bra,,,,,,,,Orostara,ak et,,,
 akran,basic,,,,hard/stiff/firm/tough/(colloquially) arrogant/stuck up,,,,,,Hindi,अकड़न,akadan,/ək.ɽən/,Sanskrit
-am,basic,,agreement/harmony/fit/match,agree/fit/suit/complement,agreeable/harmonic/fitting,harmonically,yes,value,,,Tamil,ஆம்,Ām,/aːm/,Sanskrit?
+am,basic,,agreement/harmony/fit/match,agree/fit/suit/complement,agreeable/harmonic/fitting,harmonically,yes,,,,Tamil,ஆம்,Ām,/aːm/,Sanskrit?
 amar,basic,romantic love only,romance,romantic love,romantic ,romantically,,,,,Spanish,amar,,/aˈmaɾ/,Latin
 Amerakamur,proper,'mur' added for clarity,United States/US/America/United States of America,,,,,country,,,English,America,,/əˈmɛɹ.ə.kə/,
 amin,,for discrete times; 'ten minutes ago'; see 'xamin' for general times like 'in the last few minutes',last minute ,,,,,,,,Orostara,ak min,,,
@@ -204,7 +204,7 @@ ix,basic,,energy/will/motivation/drive/joule/fuel,motivate/drive,motivational/mo
 ixem,,,excitement,excite,exciting,excitingly,,,,,Orostara,ix em,,,
 kak,basic/swear,only slightly vulgar when used as a swear,excriment/(colloquially) shit,poop,,,,body,,63,Spanish,caca,,/ˈkaka/,Unknown
 kakatup,,,rectum,,,,,body,,31,Orostara,kak tup,poop tube,,
-kam,basic,,job/employment/work/task,work/labor/employ/hire,busy/hardworking,,,economy/value,,,Hindi,काम,kaam,/kɑːm/,Sanskrit
+kam,basic,,job/employment/work/task,work/labor/employ/hire,busy/hardworking,,,economy,,,Hindi,काम,kaam,/kɑːm/,Sanskrit
 kamar,basic,,camera,,,,,,,,English,camera,,/ˈkæməɹə/,Ancient Greek
 kamat,,on Earth; physical,office/workplace,,,,,,,,Orostara,kam tah,,,
 kamin,basic,,path/street/trail/road/way,follow/track,,,,,,,Spanish,camino,,/kaˈmino/,Latin
@@ -249,7 +249,7 @@ Kepox,proper,inspired by the Roman god of punishment in the underworld ,Orcus,,,
 ker,basic,,game/sport,play a game,fun,,,,,,Hindi,खेल,khel,/kʰeːl/,Sanskrit
 kex,basic,,hair/fur/feather/feathers,,hairy/furry,,,body,,10,Gujarati,કેશ,Kēśa,,Unknown
 kexet,,,bonnet,,,,,,,,Orostara,kex et,,,
-pos,basic,,gift/reward/prize/distribution/generosity,give/reward/share/distribute/get to,gifted/free/earned/generous,,,economy/value,,,Korean,보상,bosang,[ˈpo̞(ː)sʰa̠ŋ],
+pos,basic,,gift/reward/prize/distribution/generosity,give/reward/share/distribute/get to,gifted/free/earned/generous,,,economy,,,Korean,보상,bosang,[ˈpo̞(ː)sʰa̠ŋ],
 keytay,,,generosity,,generous,generously,,,,,Orostara,key tay,,,
 mus,basic,,muscle/meat,,muscular,,,body,,3,Spanish,músculo,,/ˈmuskulo/,
 ki,,particle to indicate something is a question ,,,,,,,,,Orostara,kiy,,,
@@ -304,7 +304,7 @@ kumik,,,disease/illness,,,,,,,,Orostara,kum mik,,puryu,
 kumix,,,,damn/curse,,,,fantasy,verb,,Orostara,kum ix,bad will/energy,,
 kumtay,,,rage/anger/wrath,,angry/mad/grumpy/pissy,,,,,,Orostara,kum tay,,,
 kumtox,,,disadvantage/detriment,,,,,,,,Orostara,kum tox,,,
-kun,basic,,group/collection/team,collect,,,,value,,,Japanese,群,gun,/gɯɴ/,Proto-Japonic?
+kun,basic,,group/collection/team,collect,,,,,,,Japanese,群,gun,/gɯɴ/,Proto-Japonic?
 kunap,basic,,concern,worry,concerned,,,,,,Mandarin Chinese,恐怕,kǒngpà,/kʰʊŋ²¹⁴⁻²¹ pʰä⁵¹/,Proto-Sino
 kunson,,,ant/bee/wasp,,,,,animal/nature,,,Orostara,kun son,,,
 kup,basic,as in 'too much',excess,,extra/excessive,too,,,,,Bangla,খুব,Khuba,/kʰub/,Proto-Iranian
@@ -443,7 +443,7 @@ nen,basic,,advice/offer/suggestion,should/ought/supposed to/advise/suggest/propo
 nep,basic,,nine,,9,,,number,,10,Spanish,/ˈnwebe/,,/nœf/,Latin
 Neparmur,proper,'mur' added for clarity,Nepal/Federal Democratic Republic of Nepal ,,,,,,,,Nepali,नेपाल,Nēpāla,[nepäl],
 nes,basic,,necessity/need/requirement,need/depend/rely on/require,necessary/essential,necessarily,,,,,Spanish,necesidad,,/nesesiˈdad/,Latin
-net,basic,,leader/guide/management/leadership,lead/guide/manage/control,controlling,,,value,,,Hindi,नेता,neta,/neː.t̪ɑː/,Sanskrit
+net,basic,,leader/guide/management/leadership,lead/guide/manage/control,controlling,,,,,,Hindi,नेता,neta,/neː.t̪ɑː/,Sanskrit
 netasis,,,administration/government/politics,administrate/govern,administrative/political,,,,,,Orostara,net sis,,,
 ney,basic,,inside/entrance,enter/put in,inside,,in/into/throughout,preposition,oth,,Mandarin Chinese,内,Nèi,/neɪ̯⁵¹/,Proto-Sino
 ni,,particle to indicate something is a rhetorical question ,,,,,,,,,Orostara,nah ki,,,
@@ -565,7 +565,7 @@ pepakun,,,family,,,,,,,,Orostara,pep kun,,/faˈmi.li.ɐ/,
 per,basic,,sphere/ball,,round,,,shape,,,Spanish,pelota,,/peˈlota/,Latin
 karap,basic,,nail/tack,nail/tack,,,,,,,Spanish,clavo,,/ˈklabo/,Latin
 peres,basic,,metal,,metallic,metallically,,,,,Farsi,فلز,felez,/felez/,Aramaic
-perton,basic,,courtesy/manners,forgive/(using -u ending) excuse me/pardon me,polite,,,value,,,Spanish,perdón,,/peɾˈdon/,Latin
+perton,basic,,courtesy/manners,forgive/(using -u ending) excuse me/pardon me,polite,,,,,,Spanish,perdón,,/peɾˈdon/,Latin
 Perumur,proper,'mur' added for clarity,Peru/Republic of Peru,,,,,country,,,Spanish,Perú,,,
 pes,basic/slang,refers to a substance with a pH greater than neutral,base,,basic/bitter/(colloquially) rude/mean,,,food,adj,4,English,base,,/beɪs/,Ancient Greek
 pet,basic,,seat/(colloquially) butt,sit,,,,,,,Hindi,बैठना,baithana,/bɛːʈʰ.nɑː/,Sanskrit
@@ -728,8 +728,8 @@ sinsar,,,representative,,,,,,,,Orostara,sin sar,,,
 sip,basic,,sibling/sister/brother,,,,,,,,English,sibling,,/ˈsɪblɪŋ/,
 sis,basic,,system,,systemic,,,,,,Spanish,sistema,,/sisˈtema/,
 sisan,basic,time of year,season,,,,,,,,English,season,,/ˈsiː.zən/,
-sit,basic,,truth/honesty,,true/real/actual/honest,truly/really/actually,,value,,,Cantonese,实际,sat zai,/sit̚³² tai³³/,
-siuk,basic,,care/compassion,care,caring,,,value,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/,
+sit,basic,,truth/honesty,,true/real/actual/honest,truly/really/actually,,,,,Cantonese,实际,sat zai,/sit̚³² tai³³/,
+siuk,basic,,care/compassion,care,caring,,,,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/,
 six,basic,the economic concept,interest,,,,,economy,,,Mandarin Chinese,利息,zǐjīn,/t͡sz̩²¹⁴⁻²¹ t͡ɕin⁵⁵/,
 siy,basic,,environment/nature,,natural/wild,naturally,,nature,,,Mandarin Chinese,自然,Zìrán,/t͡siː²² jiːn²¹/,
 soah,,,,,,,wow,interjection,oth,,Orostara,sor,,[vɒːj],
