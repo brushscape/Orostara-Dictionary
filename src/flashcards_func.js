@@ -1,7 +1,4 @@
 //TODO
-//BUG: paye is please??? cuz slang MAKE SURE DEFINITION IS BASIC
-//add carveout for special cases where english definition has more than one translation
-
 //cute little encouragement every 10? in a row?
 //confetti on the streak????
 
@@ -366,7 +363,16 @@ function pickWord() {
   tempSet.push(word);
   //remove option so no repeats
 
-  wordEntry = searchOros(word)[0];
+  wordEntry = searchOros(word);
+  if (wordEntry.length > 1) {
+    for (var i = 0; i < wordEntry.length; i++) {
+      if (wordEntry[i].Type.includes("basic")) {
+        wordEntry = searchOros(word)[i];
+      }
+    }
+  } else {
+    wordEntry = searchOros(word)[0];
+  }
 
   if (wordEntry == undefined) {
     return;
@@ -534,9 +540,8 @@ function checkAnswer() {
     if (Array.isArray(currAnswer)) {
       var result = arrayHasWord(currAnswer, givenAns);
 
-      //TODO give partial credit for giving an answer for the wrong part of speech
       if (result[0] || result[1]) {
-        // word is an match to an entry of correct part of speech
+        // word is a match to an entry of correct part of speech
         feedback("perfect");
       } else {
         var result2 = false;
@@ -600,6 +605,53 @@ function checkAnswer() {
   } else {
     //English, answer in Orostara AND not perfect match
 
+    //for when 2+ orostara words translate to same english word. Not the players fault! good enough
+    var found = false;
+    for (var i = 0; i < options.length; i++) {
+      switch (options[i]) {
+        case 1:
+          if (Array.isArray(wordEntry.Nouns)) {
+            temp = arrayHasWord(wordEntry.Nouns, currAnswer);
+            found =
+              (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "a";
+          }
+          break;
+        case 2:
+          if (Array.isArray(wordEntry.Verbs)) {
+            temp = arrayHasWord(wordEntry.Verbs, currAnswer);
+            found =
+              (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "o";
+          }
+          break;
+        case 3:
+          if (Array.isArray(wordEntry.Adjectives)) {
+            temp = arrayHasWord(wordEntry.Adjectives, currAnswer);
+            found =
+              (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "i";
+          }
+          break;
+        case 4:
+          if (Array.isArray(wordEntry.Adverbs)) {
+            temp = arrayHasWord(wordEntry.Adverbs, currAnswer);
+            found =
+              (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "e";
+          }
+          break;
+        case 5:
+          if (Array.isArray(wordEntry.Other)) {
+            temp = arrayHasWord(wordEntry.Other, currAnswer);
+            found = (temp[0] || temp[1]) && givenAns == wordEntry.Orostara;
+          }
+          break;
+        default:
+          currWord = "Error: No Definitions Found";
+      }
+      if (found) {
+        feedback("good");
+        return;
+      }
+    }
+
     var giv = givenAns;
     var ans = currAnswer;
     if (endList.indexOf(givenAns.charAt(givenAns.length - 1)) != -1) {
@@ -627,6 +679,19 @@ function feedback(type) {
     num = document.getElementById("streakCount").innerHTML;
     document.getElementById("streakCount").innerHTML = parseInt(num) + 1;
     document.getElementById("feedback").innerHTML = "PERFECT!";
+    document.getElementById("feedback").style.color = "limegreen";
+    document.getElementById("feedback").style.opacity = 1;
+    //document.getElementById("flashAnswer").style.borderColor = "limegreen";
+    document.getElementById("cardContain").style.boxShadow =
+      "0px 0px 18px rgba(50, 205, 50, 1)";
+    document.getElementById("cardContain").classList.add("greenGlowAnim");
+    text = true;
+  } else if ("good") {
+    var num = document.getElementById("correctCount").innerHTML;
+    document.getElementById("correctCount").innerHTML = parseFloat(num) + 1;
+    num = document.getElementById("streakCount").innerHTML;
+    document.getElementById("streakCount").innerHTML = parseInt(num) + 1;
+    document.getElementById("feedback").innerHTML = "Good Enough!";
     document.getElementById("feedback").style.color = "limegreen";
     document.getElementById("feedback").style.opacity = 1;
     //document.getElementById("flashAnswer").style.borderColor = "limegreen";
