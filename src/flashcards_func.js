@@ -491,7 +491,6 @@ function flipCard() {
 function checkAnswer() {
   flipCard();
   givenAns = cleanupTextInput(document.getElementById("flashAnswerBar").value);
-  //TODO autofail if answer is 'colloquially' or 'temporally' or any of those other tags
 
   if (
     //this is cheating. Don't cheat
@@ -607,40 +606,60 @@ function checkAnswer() {
 
     //for when 2+ orostara words translate to same english word. Not the players fault! good enough
     var found = false;
+    var temp;
     for (var i = 0; i < options.length; i++) {
       switch (options[i]) {
         case 1:
           if (Array.isArray(wordEntry.Nouns)) {
-            temp = arrayHasWord(wordEntry.Nouns, currAnswer);
+            temp = arrayHasWord(wordEntry.Nouns, currWord);
             found =
               (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "a";
+          } else {
+            found =
+              wordEntry.Nouns == currWord &&
+              givenAns == wordEntry.Orostara + "a";
           }
           break;
         case 2:
           if (Array.isArray(wordEntry.Verbs)) {
-            temp = arrayHasWord(wordEntry.Verbs, currAnswer);
+            temp = arrayHasWord(wordEntry.Verbs, currWord);
             found =
               (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "o";
+          } else {
+            found =
+              wordEntry.Verbs == currWord &&
+              givenAns == wordEntry.Orostara + "o";
           }
           break;
         case 3:
           if (Array.isArray(wordEntry.Adjectives)) {
-            temp = arrayHasWord(wordEntry.Adjectives, currAnswer);
+            temp = arrayHasWord(wordEntry.Adjectives, currWord);
             found =
               (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "i";
+          } else {
+            found =
+              wordEntry.Adjectives == currWord &&
+              givenAns == wordEntry.Orostara + "i";
           }
           break;
         case 4:
           if (Array.isArray(wordEntry.Adverbs)) {
-            temp = arrayHasWord(wordEntry.Adverbs, currAnswer);
+            temp = arrayHasWord(wordEntry.Adverbs, currWord);
             found =
               (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "e";
+          } else {
+            found =
+              wordEntry.Adverbs == currWord &&
+              givenAns == wordEntry.Orostara + "e";
           }
           break;
         case 5:
           if (Array.isArray(wordEntry.Other)) {
-            temp = arrayHasWord(wordEntry.Other, currAnswer);
+            temp = arrayHasWord(wordEntry.Other, currWord);
             found = (temp[0] || temp[1]) && givenAns == wordEntry.Orostara;
+          } else {
+            found =
+              wordEntry.Other == currWord && givenAns == wordEntry.Orostara;
           }
           break;
         default:
@@ -686,7 +705,7 @@ function feedback(type) {
       "0px 0px 18px rgba(50, 205, 50, 1)";
     document.getElementById("cardContain").classList.add("greenGlowAnim");
     text = true;
-  } else if ("good") {
+  } else if (type == "good") {
     var num = document.getElementById("correctCount").innerHTML;
     document.getElementById("correctCount").innerHTML = parseFloat(num) + 1;
     num = document.getElementById("streakCount").innerHTML;
