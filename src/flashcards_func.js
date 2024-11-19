@@ -316,6 +316,7 @@ function toggleActive(id, forceActive) {
 }
 
 function startFlash() {
+  resetElements();
   if (document.getElementById("startBut").innerHTML == "Start") {
     document.getElementById("game").style.display = "flex";
     document.getElementById("startBut").innerHTML = "Restart";
@@ -340,6 +341,7 @@ function startFlash() {
       }
     });
     document.getElementById("flashAnswerBar").focus();
+    document.getElementById("checkBut").disabled = false;
   }
 
   document.getElementById("correctCount").innerHTML = 0;
@@ -349,7 +351,6 @@ function startFlash() {
   document.getElementById("skippedMax").innerHTML = " • • • ";
 
   setSets();
-  resetElements();
   pickWord();
 }
 
