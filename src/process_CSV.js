@@ -100,7 +100,7 @@ function readCSVFile() {
         }
       }
       if (Object.keys(rowObj).length == 0) {
-        break;
+        continue;
       }
       //alphabetize as we go
       var placed = false;
@@ -157,7 +157,7 @@ function langAnalysis() {
     if (idealBreakdownNum.hasOwnProperty(el.Lang)) {
       el.Diff = idealBreakdownNum[el.Lang] - el.Count;
     }
-    if (el.Diff > 2) {
+    if (el.Diff > 1) {
       console.log(
         el.Count +
           "/" +
@@ -168,7 +168,7 @@ function langAnalysis() {
           el.Diff +
           " )",
       );
-    } else if (el.Diff < -2) {
+    } else if (el.Diff < -1) {
       console.log(
         el.Count +
           "/" +
@@ -179,15 +179,15 @@ function langAnalysis() {
           el.Diff * -1 +
           " )",
       );
-    } else {
-      console.log(
-        el.Count +
-          "/" +
-          idealBreakdownNum[el.Lang] +
-          " " +
-          el.Lang +
-          " ( Nice B) )",
-      );
+      // } else {
+      //   console.log(
+      //     el.Count +
+      //       "/" +
+      //       idealBreakdownNum[el.Lang] +
+      //       " " +
+      //       el.Lang +
+      //       " ( Nice B) )",
+      //   );
     }
   }
 }

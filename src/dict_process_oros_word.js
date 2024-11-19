@@ -1,9 +1,8 @@
 /* jshint esversion: 8 */
-
+var endList = ["a", "e", "o", "i", "u"];
 function orosClick(searchedWord) {
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length - 1);
-  var endList = ["a", "e", "o", "i", "u"];
   var specialCases = [
     "ni",
     "mi",

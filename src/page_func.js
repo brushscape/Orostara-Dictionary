@@ -4,6 +4,7 @@ var currPage = "translator";
 var quickPage = "partsOfSpeech";
 
 function load() {
+  turnPagesOff();
   readCSVFile();
   setupMenuButtons();
   setupDictionarySearch();
@@ -12,6 +13,20 @@ function load() {
 function setupDictionarySearch() {
   updateForBackButtons();
   setupButtons();
+}
+
+function turnPagesOff() {
+  var pages = ["translator", "flashcards", "category", "fullDict"];
+
+  var index = pages.indexOf(currPage);
+
+  if (index != -1) {
+    pages.splice(index, 1);
+  }
+
+  for (var i = 0; i < pages.length; i++) {
+    document.getElementById(pages[i]).style.display = "none";
+  }
 }
 
 function setupMenuButtons() {
@@ -56,6 +71,9 @@ function setupMenuButtons() {
         break;
       case "cate":
         page = "category";
+        break;
+      case "flas":
+        page = "flashcards";
         break;
       default:
         page = "";

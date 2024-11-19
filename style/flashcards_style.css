@@ -1,0 +1,271 @@
+.flashPage {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.flashgame {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}
+
+.cardContain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.flashcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--hugehuge);
+    font-weight: bold;
+    border: 8px double darkgray;
+    border-radius: 12px;
+    width: 40vw;
+    height: 25vw;
+    padding: 8px;
+    margin: 8px;
+    background-color: white;
+}
+
+.flashSpacer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+    width: 0;//40vw;
+    padding: 8px;
+    margin: 8px;
+}
+
+.shiftOverAnim{
+    animation: shiftOver 0.8s 1;
+    -webkit-animation: shiftOver 0.8s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.behind{
+    margin-left: -40vw;
+
+    z-index: -1;
+}
+
+@keyframes shiftOver {
+    from {
+        margin-left: -40vw;
+    }
+    to {
+        margin-left: 8px;
+    }
+}
+@-webkit-keyframes shiftOver {
+    from {
+        margin-left: -40vw;
+    }
+    to {
+        margin-left: 8px;
+    }
+}
+
+.flashFeedback {
+    font-size: var(--superHuge);
+    padding: var(--mini);
+    opacity: 0;
+}
+
+.fadeOutAnim {
+    animation: fadeOut 0.8s 1;
+    -webkit-animation: fadeOut 0.8s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
+.greenGlowAnim {
+    animation: greenglow 0.8s 1;
+    -webkit-animation: greenglow 0.8s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+}
+
+.redGlowAnim {
+    animation: redglow 0.8s 1;
+    -webkit-animation: redglow 0.8s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes greenglow {
+    from {
+        box-shadow: 0px 0px 18px rgba(50, 205, 50, 1);
+    }
+    to {
+        box-shadow: 0px 0px 18px rgba(50, 205, 50, 0);
+    }
+}
+@-webkit-keyframes greenglow {
+    from {
+        box-shadow: 0px 0px 18px rgba(50, 205, 50, 1);
+    }
+    to {
+        box-shadow: 0px 0px 18px rgba(50, 205, 50, 0);
+    }
+}
+
+@keyframes redglow {
+    from {
+        box-shadow: 0px 0px 18px rgba(178, 34, 34, 1);
+    }
+    to {
+        box-shadow: 0px 0px 18px rgba(178, 34, 34, 0);
+    }
+}
+@-webkit-keyframes redglow {
+    from {
+        box-shadow: 0px 0px 18px rgba(178, 34, 34, 1);
+    }
+    to {
+        box-shadow: 0px 0px 18px rgba(178, 34, 34, 0);
+    }
+}
+
+.flashOptions {
+    display: flex;
+    flex-direction: row;
+    margin-top: var(--midSize);
+    margin-bottom: var(--midSize);
+}
+
+.flashLessSelect {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.vl {
+    border-left: 0.4vw solid var(--dark2);
+    height: inherit;
+    margin: var(--midSize);
+}
+
+.flashLangSelect {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 15%;
+}
+
+.lessSelect {
+    border-radius: 25px;
+    padding: var(--superMini);
+    background-color: White;
+    color: var(--dark2);
+    border-style: solid;
+    border-color: var(--light2);
+    font-size: var(--small);
+    flex-basis: 15%;
+    flex-grow: 1;
+}
+
+.lessSelect:hover {
+    color: var(--dark2);
+    cursor: default;
+    background-color: var(--lightlight2);
+    border-color: var(--medium2);
+}
+
+.activeLess {
+    border-radius: 25px;
+    padding: var(--superMini);
+    background-color: var(--superlight1);
+    color: var(--dark1);
+    border-style: solid;
+    border-color: var(--medium1);
+    font-size: var(--small);
+    flex-basis: 15%;
+    flex-grow: 1;
+}
+
+.activeLess:hover {
+    color: var(--medium1);
+    cursor: default;
+    background-color: var(--lightlight1);
+    border-color: var(--medium1);
+}
+
+.gameButtContain {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameButt {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: inherit;
+    margin: var(--small);
+    padding-top: var(--small);
+}
+
+.statEl {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    white-space: pre;
+    color: var(--darkdark1);
+    justify-content: center;
+}
+
+.skipped {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    white-space: pre;
+    color: var(--darkdark1);
+    align-items: center;
+}
