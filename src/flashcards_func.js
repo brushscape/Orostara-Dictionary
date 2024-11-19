@@ -484,7 +484,7 @@ function flipCard() {
 
 function checkAnswer() {
   flipCard();
-  givenAns = document.getElementById("flashAnswerBar").value.toLowerCase();
+  givenAns = cleanupTextInput(document.getElementById("flashAnswerBar").value);
   //TODO autofail if answer is 'colloquially' or 'temporally' or any of those other tags
 
   if (
