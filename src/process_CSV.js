@@ -7,6 +7,8 @@ var filePath =
 var langBreakdown = [];
 var numWords = 0;
 var properNouns = [];
+
+var basicOnly = []; // for the flashcards
 //predicted 2070 data
 var idealBreakdownNum = {
   "Mandarin Chinese": 110,
@@ -131,6 +133,7 @@ function readCSVFile() {
         rowObj.Type == "basic/swear"
       ) {
         numWords++;
+        basicOnly.push(rowObj.Orostara);
         var el = getCorrectLang(rowObj.RootLanguage);
         if (el != -1) {
           var count = langBreakdown[el].Count;

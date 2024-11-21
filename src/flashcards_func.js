@@ -2,190 +2,6 @@
 //cute little encouragement every 10? in a row?
 //confetti on the streak????
 
-//put all the words in
-//procedurally make the other array with just any basic word that isn't in it already
-
-var vocab = [
-  [
-    "akax",
-    "peix",
-    "pak",
-    "oros",
-    "tahik",
-    "yem",
-    "itiram",
-    "nur",
-    "hek",
-    "epek",
-    "haos",
-    "ten",
-    "raox",
-    "rixat",
-    "kam",
-    "yis",
-    "saox",
-    "uan",
-    "pos",
-    "nir",
-    "ut",
-    "ret",
-    "nah",
-    "am",
-    "xon",
-    "yur",
-    "niy",
-    "nom",
-    "hapatak",
-    "meir",
-  ], //lesson 1
-  [
-    "pien",
-    "op",
-    "tar",
-    "nix",
-    "pasir",
-    "puah",
-    "titam",
-    "tesat",
-    "sisan",
-    "asur",
-    "mek",
-    "kox",
-    "pir",
-    "num",
-    "nor",
-    "nes",
-    "pah",
-    "tan",
-    "ekot",
-    "ak",
-    "pox",
-    "as",
-    "pet",
-    "nen",
-    "yor",
-    "xam",
-    "tak",
-    "on",
-    "sun",
-    "ur",
-  ], //lesson 2
-  [
-    "tis",
-    "rek",
-    "xan",
-    "hos",
-    "xok",
-    "pax",
-    "nit",
-    "kor",
-    "neh",
-    "xin",
-    "tax",
-    "kar",
-    "sut",
-    "kiy",
-    "aum",
-    "hat",
-    "hir",
-    "pix",
-    "yah",
-    "xeh",
-    "ik",
-    "yot",
-    "mas",
-    "ham",
-    "kup",
-    "ax",
-    "kum",
-    "sar",
-    "sek",
-    "mak",
-    "kun",
-    "tay",
-    "em",
-    "muk",
-    "mat",
-    "et",
-    "yus",
-    "rum",
-    "mep",
-    "rais",
-    "tah",
-    "kut",
-    "mur",
-    "rik",
-    "is",
-    "es",
-    "xuek",
-    "ar",
-    "mik",
-    "ek",
-    "toy",
-    "tin",
-    "pon",
-    "sik",
-    "ruk",
-    "sex",
-    "hax",
-    "nep",
-    "tes",
-    "set",
-    "has",
-    "taxar",
-    "xipak",
-    "oprikat",
-    "karipay",
-    "huanin",
-    "perton",
-    "sarut",
-    "soxen",
-  ], //lesson 3
-  [
-    "nis",
-    "armas",
-    "hon",
-    "kep",
-    "sis",
-    "huah",
-    "hak",
-    "ist",
-    "sak",
-    "met",
-    "arx",
-    "upr",
-    "mux",
-    "hep",
-    "tunx",
-    "ink",
-    "tos",
-    "air",
-    "pay",
-    "kot",
-    "sip",
-    "map",
-    "pep",
-    "ix",
-    "apas",
-    "pahar",
-    "xonat",
-    "xip",
-    "hay",
-    "xar",
-    "xiy",
-    "at",
-    "hes",
-    "mut",
-    "metot",
-  ], //lesson 4
-  ["kux", "satakat", "rey", "yep", "xuey", "yet"], //lesson 5
-  ["xor", "tam", "nien", "miy", "pap", "en"], //lesson 6
-  ["ney", "kapes", "tokar", "har", "satan", "rep"], //lesson7
-  ["xiyen", "manrak", "maux", "apeh", "ip", "er"], //lesson 8
-  ["xis", "panin", "paxit", "mes", "tux", "kamar"], //lesson 9
-  ["atit", "men", "net", "pam", "us", "tok"], //lesson 10
-  ["rakax", "hanam", "yon"], //other
-];
 var activeSets = [1];
 var activePrevAll = [1];
 var currSet = [];
@@ -201,6 +17,33 @@ var currWord = "";
 var currAnswer = "";
 
 var givenAns = "";
+
+//remember to turn other array into emtpy in vocab before running this
+function calcOther() {
+  var other = "";
+  for (var i = 0; i < basicOnly.length; i++) {
+    var found = false;
+    for (var j = 0; j < vocab.length; j++) {
+      for (var k = 0; k < vocab[j].length; k++) {
+        if (vocab[j][k] == basicOnly[i]) {
+          found = true;
+          break;
+        }
+      }
+      if (found) {
+        break;
+      }
+    }
+    if (!found) {
+      if (other == "") {
+        other = "'" + basicOnly[i];
+      } else {
+        other = other + "','" + basicOnly[i];
+      }
+    }
+  }
+  console.log(other + "'");
+}
 
 function evalSet(num) {
   if (num == 12) {
@@ -261,6 +104,13 @@ function evalSet(num) {
 }
 
 function setSets() {
+  if (activeSets.length == 11) {
+    //then all set to all
+    currSet = basicOnly;
+    tempSet = [];
+    return;
+  }
+
   currSet = [];
   for (var i = 0; i < activeSets.length; i++) {
     currSet = currSet.concat(vocab[activeSets[i] - 1]);
@@ -316,6 +166,7 @@ function toggleActive(id, forceActive) {
 }
 
 function startFlash() {
+  //calcOther();
   resetElements();
   if (document.getElementById("startBut").innerHTML == "Start") {
     document.getElementById("game").style.display = "flex";
@@ -489,6 +340,38 @@ function flipCard() {
   document.getElementById("flashAnswer").classList.add("shiftOverAnim");
 }
 
+//list is wordEntry.Nouns/Verbs/Adjectives/Etc
+//tempCurrWord is currWord but DEFINITELY an array
+//ending is a, o, i, e, or ''; matches list
+//returns if redundant entry is found so givenAns might be right even if it isn't technically
+function checkForRedundant(list, tempCurrWord, ending) {
+  var found = false;
+  var temp = [false, false];
+  if (Array.isArray(list)) {
+    for (var j = 0; j < tempCurrWord.length; j++) {
+      temp = arrayHasWord(list, tempCurrWord[j]);
+      if (temp[0] || temp[1]) {
+        break;
+      }
+      found = (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + ending;
+      if (found) {
+        return found;
+      }
+    }
+  } else {
+    found = list == tempCurrWord[0] && givenAns == wordEntry.Orostara + ending;
+    for (var j = 0; j < tempCurrWord.length; j++) {
+      found =
+        found ||
+        (list == tempCurrWord[j] && givenAns == wordEntry.Orostara + ending);
+      if (found) {
+        return found;
+      }
+    }
+  }
+  return found;
+}
+
 function checkAnswer() {
   flipCard();
   givenAns = cleanupTextInput(document.getElementById("flashAnswerBar").value);
@@ -606,65 +489,31 @@ function checkAnswer() {
     //English, answer in Orostara AND not perfect match
 
     //for when 2+ orostara words translate to same english word. Not the players fault! good enough
-    var found = false;
-    var temp;
+    var tempCurrWord = currWord;
+    if (!Array.isArray(tempCurrWord)) {
+      tempCurrWord = [tempCurrWord];
+    }
+    var found;
     for (var i = 0; i < options.length; i++) {
       switch (options[i]) {
         case 1:
-          if (Array.isArray(wordEntry.Nouns)) {
-            temp = arrayHasWord(wordEntry.Nouns, currWord);
-            found =
-              (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "a";
-          } else {
-            found =
-              wordEntry.Nouns == currWord &&
-              givenAns == wordEntry.Orostara + "a";
-          }
+          found = checkForRedundant(wordEntry.Nouns, tempCurrWord, "a");
           break;
         case 2:
-          if (Array.isArray(wordEntry.Verbs)) {
-            temp = arrayHasWord(wordEntry.Verbs, currWord);
-            found =
-              (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "o";
-          } else {
-            found =
-              wordEntry.Verbs == currWord &&
-              givenAns == wordEntry.Orostara + "o";
-          }
+          found = checkForRedundant(wordEntry.Verbs, tempCurrWord, "o");
           break;
         case 3:
-          if (Array.isArray(wordEntry.Adjectives)) {
-            temp = arrayHasWord(wordEntry.Adjectives, currWord);
-            found =
-              (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "i";
-          } else {
-            found =
-              wordEntry.Adjectives == currWord &&
-              givenAns == wordEntry.Orostara + "i";
-          }
+          found = checkForRedundant(wordEntry.Adjectives, tempCurrWord, "i");
           break;
         case 4:
-          if (Array.isArray(wordEntry.Adverbs)) {
-            temp = arrayHasWord(wordEntry.Adverbs, currWord);
-            found =
-              (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + "e";
-          } else {
-            found =
-              wordEntry.Adverbs == currWord &&
-              givenAns == wordEntry.Orostara + "e";
-          }
+          found = checkForRedundant(wordEntry.Adverbs, tempCurrWord, "e");
           break;
         case 5:
-          if (Array.isArray(wordEntry.Other)) {
-            temp = arrayHasWord(wordEntry.Other, currWord);
-            found = (temp[0] || temp[1]) && givenAns == wordEntry.Orostara;
-          } else {
-            found =
-              wordEntry.Other == currWord && givenAns == wordEntry.Orostara;
-          }
+          found = checkForRedundant(wordEntry.Other, tempCurrWord, "");
           break;
         default:
           currWord = "Error: No Definitions Found";
+          found = false;
       }
       if (found) {
         feedback("good");
