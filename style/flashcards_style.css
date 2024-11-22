@@ -26,6 +26,7 @@
 
 .flashcard {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: var(--hugehuge);
@@ -34,30 +35,40 @@
     border-radius: 12px;
     width: 45%;
     aspect-ratio: 4/3;
-    //height: 25vw;
     padding: 8px;
     margin: 8px;
     background-color: white;
 }
 
-.flashSpacer{
+.label {
+    font-size: var(--mini);
+    color: grey;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.word {
+    flex-grow: 1;
+}
+
+.flashSpacer {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity:0;
-    width: 0;//40vw;
+    opacity: 0;
+    width: 0;
     padding: 8px;
     margin: 8px;
 }
 
-.shiftOverAnim{
+.shiftOverAnim {
     animation: shiftOver 0.8s 1;
     -webkit-animation: shiftOver 0.8s 1;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
 }
 
-.behind{
+.behind {
     margin-left: -45%;
 
     z-index: -1;

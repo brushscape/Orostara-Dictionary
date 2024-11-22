@@ -256,6 +256,7 @@ function pickWord() {
 
   if (currLang == 1) {
     //orostara
+    document.getElementById("label").innerHTML = "OROSTARA";
     switch (pos) {
       case 1:
         currWord = wordEntry.Orostara + "a";
@@ -283,6 +284,7 @@ function pickWord() {
     document.getElementById("flashWord").innerHTML = currWord;
   } else {
     //english
+    document.getElementById("label").innerHTML = "ENGLISH";
     switch (pos) {
       case 1:
         currAnswer = wordEntry.Orostara + "a";
@@ -342,28 +344,22 @@ function flipCard() {
 
 //list is wordEntry.Nouns/Verbs/Adjectives/Etc
 //tempCurrWord is currWord but DEFINITELY an array
-//ending is a, o, i, e, or ''; matches list
 //returns if redundant entry is found so givenAns might be right even if it isn't technically
-function checkForRedundant(list, tempCurrWord, ending) {
+function checkForRedundant(list, tempCurrWord) {
   var found = false;
   var temp = [false, false];
   if (Array.isArray(list)) {
     for (var j = 0; j < tempCurrWord.length; j++) {
       temp = arrayHasWord(list, tempCurrWord[j]);
-      if (temp[0] || temp[1]) {
-        break;
-      }
-      found = (temp[0] || temp[1]) && givenAns == wordEntry.Orostara + ending;
+      found = temp[0] || temp[1];
       if (found) {
         return found;
       }
     }
   } else {
-    found = list == tempCurrWord[0] && givenAns == wordEntry.Orostara + ending;
+    found = list == tempCurrWord[0];
     for (var j = 0; j < tempCurrWord.length; j++) {
-      found =
-        found ||
-        (list == tempCurrWord[j] && givenAns == wordEntry.Orostara + ending);
+      found = found || list == tempCurrWord[j];
       if (found) {
         return found;
       }
@@ -487,29 +483,40 @@ function checkAnswer() {
     }
   } else {
     //English, answer in Orostara AND not perfect match
-
-    //for when 2+ orostara words translate to same english word. Not the players fault! good enough
-    var tempCurrWord = currWord;
-    if (!Array.isArray(tempCurrWord)) {
-      tempCurrWord = [tempCurrWord];
+    var giv = givenAns;
+    var ans = currAnswer;
+    var endChar = "";
+    if (endList.indexOf(givenAns.charAt(givenAns.length - 1)) != -1) {
+      giv = givenAns.substring(0, givenAns.length - 1);
+      endChar = givenAns.charAt(givenAns.length - 1);
     }
-    var found;
-    for (var i = 0; i < options.length; i++) {
-      switch (options[i]) {
-        case 1:
-          found = checkForRedundant(wordEntry.Nouns, tempCurrWord, "a");
+    if (endList.indexOf(currAnswer.charAt(currAnswer.length - 1)) != -1) {
+      ans = currAnswer.substring(0, currAnswer.length - 1);
+    }
+    if (giv == ans) {
+      //part of speach is wrong but word is correct
+
+      //for when 2+ orostara words translate to same english word. Not the players fault! good enough
+      var tempCurrWord = currWord;
+      if (!Array.isArray(tempCurrWord)) {
+        tempCurrWord = [tempCurrWord];
+      }
+      var found;
+      switch (endChar) {
+        case "a":
+          found = checkForRedundant(wordEntry.Nouns, tempCurrWord);
           break;
-        case 2:
-          found = checkForRedundant(wordEntry.Verbs, tempCurrWord, "o");
+        case "o":
+          found = checkForRedundant(wordEntry.Verbs, tempCurrWord);
           break;
-        case 3:
-          found = checkForRedundant(wordEntry.Adjectives, tempCurrWord, "i");
+        case "i":
+          found = checkForRedundant(wordEntry.Adjectives, tempCurrWord);
           break;
-        case 4:
-          found = checkForRedundant(wordEntry.Adverbs, tempCurrWord, "e");
+        case "e":
+          found = checkForRedundant(wordEntry.Adverbs, tempCurrWord);
           break;
-        case 5:
-          found = checkForRedundant(wordEntry.Other, tempCurrWord, "");
+        case "":
+          found = checkForRedundant(wordEntry.Other, tempCurrWord);
           break;
         default:
           currWord = "Error: No Definitions Found";
@@ -519,18 +526,7 @@ function checkAnswer() {
         feedback("good");
         return;
       }
-    }
 
-    var giv = givenAns;
-    var ans = currAnswer;
-    if (endList.indexOf(givenAns.charAt(givenAns.length - 1)) != -1) {
-      giv = givenAns.substring(0, givenAns.length - 1);
-    }
-    if (endList.indexOf(currAnswer.charAt(currAnswer.length - 1)) != -1) {
-      ans = currAnswer.substring(0, currAnswer.length - 1);
-    }
-    if (giv == ans) {
-      //part of speach is wrong but word is correct
       feedback("correct");
     } else {
       //answer is wrong
@@ -560,7 +556,7 @@ function feedback(type) {
     document.getElementById("correctCount").innerHTML = parseFloat(num) + 1;
     num = document.getElementById("streakCount").innerHTML;
     document.getElementById("streakCount").innerHTML = parseInt(num) + 1;
-    document.getElementById("feedback").innerHTML = "Good Enough!";
+
     document.getElementById("feedback").style.color = "limegreen";
     document.getElementById("feedback").style.opacity = 1;
     //document.getElementById("flashAnswer").style.borderColor = "limegreen";
