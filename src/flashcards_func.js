@@ -369,66 +369,42 @@ function flipCard() {
 //tempCurrWord is currWord but DEFINITELY an array
 //returns if redundant entry is found so givenAns might be right even if it isn't technically
 function checkForRedundant(list, tempCurrWord) {
-  var found = false;
+  var ticker = 0;
   var temp = [false, false];
   if (Array.isArray(list)) {
+    //multiple things in wordEntry.whatever
     for (var j = 0; j < tempCurrWord.length; j++) {
+      //ALL entries in currWord have to be in this option
       temp = arrayHasWord(list, tempCurrWord[j]);
-      found = temp[0] || temp[1];
-      if (found) {
-        return found;
+      if (temp[0] || temp[1]) {
+        ticker++;
       }
+    }
+    if (ticker == tempCurrWord.length) {
+      //then all entries in currWord found in givenAns's list of definitions
+      //ie there's redundancy and there's no way person could know. good enough
+      return true;
     }
   } else {
-    found = list == tempCurrWord[0];
-    for (var j = 0; j < tempCurrWord.length; j++) {
-      found = found || list == tempCurrWord[j];
-      if (found) {
-        return found;
-      }
+    if (tempCurrWord.length == 1) {
+      return list == tempCurrWord[0];
     }
+    //if there's more than one entry in tempCurrWord then you should have enough context to know which conj it should be
+    //especially since the entry you gave doesn't have enough definitons to be redundant
+
+    // for (var j = 0; j < tempCurrWord.length; j++) {
+    //   found = found || list == tempCurrWord[j];
+    //   if (found) {
+    //     return found;
+    //   }
+    // }
   }
-  return found;
+  return false;
 }
 
 function checkAnswer() {
   flipCard();
   givenAns = cleanupTextInput(document.getElementById("flashAnswerBar").value);
-
-  if (
-    //this is cheating. Don't cheat
-    givenAns == "colloquially" ||
-    givenAns == "(colloquially)" ||
-    givenAns == "(temporally)" ||
-    givenAns == "honorific" ||
-    givenAns == "(honorific)" ||
-    givenAns == "(spacially)" ||
-    givenAns == "slang" ||
-    givenAns == "(slang)"
-  ) {
-    feedback("missed");
-    return;
-  }
-
-  if (givenAns == "temporally") {
-    if (currWord == "seke") {
-      feedback("perfect");
-    } else if (wordEntry.Orostara == "sek") {
-      feedback("correct");
-    } else {
-      feedback("missed");
-    }
-  }
-
-  if (givenAns == "spacially") {
-    if (currWord == "make") {
-      feedback("perfect");
-    } else if (wordEntry.Orostara == "mak") {
-      feedback("correct");
-    } else {
-      feedback("missed");
-    }
-  }
 
   //rare case with English! common with Orostara
   if (givenAns == currAnswer) {
@@ -440,7 +416,7 @@ function checkAnswer() {
   if (currLang == 1) {
     // Orostara, answer in english
     if (Array.isArray(currAnswer)) {
-      var result = arrayHasWord(currAnswer, givenAns);
+      var result = arrayHasWord(currAnswer, givenAns); //already disregards paratheticals
 
       if (result[0] || result[1]) {
         // word is a match to an entry of correct part of speech
@@ -579,7 +555,7 @@ function feedback(type) {
     document.getElementById("correctCount").innerHTML = parseFloat(num) + 1;
     num = document.getElementById("streakCount").innerHTML;
     document.getElementById("streakCount").innerHTML = parseInt(num) + 1;
-
+    document.getElementById("feedback").innerHTML = "Good Enough!";
     document.getElementById("feedback").style.color = "limegreen";
     document.getElementById("feedback").style.opacity = 1;
     //document.getElementById("flashAnswer").style.borderColor = "limegreen";

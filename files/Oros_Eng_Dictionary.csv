@@ -383,7 +383,7 @@ Mekox,proper,inspired by the creator god in Tongva/Payomkawichum/Acjachemem myth
 mem,basic,,memory,memorize/remember,memorable,memorably,,,,,Italian,memoria,,/meˈmɔ.rja/,Latin
 men,basic,,noodle/pasta,,,,,food,,,Japanese,麺類,Menrui,[mẽ̞nɾɯ̟ᵝi],Proto-Japonic?
 mep,basic,,furniture,,,,,,,,Russian,мебель,mebel,[ˈmʲebʲɪlʲ],Latin
-mer,basic,,west,,west,west,,direction,adv,4,Tamil,மேற்கு,mēṟku,/meːrku/,Proto-Dravidian
+mer,basic,,west,,west/western,west/westerly,,direction,adv,4,Tamil,மேற்கு,mēṟku,/meːrku/,Proto-Dravidian
 mes,basic,,message/text/email/mail,text/DM/send/transmit/upload,,,,,,,English,message,,/ˈmɛsɪd͡ʒ/,Latin
 mesok,basic,,mixture/solution,mix,mixed,,,,,,Spanish,mezcla,,/ˈmeskla/,
 Mesox,proper,inspired by the messager of the gods in Roman mythology,Mercury,,,,,space,,9,Orostara,mes hox,flying planet,,
@@ -471,7 +471,7 @@ ninsax,,,,dream,,,,,,,Orostara,nin sax,,,
 nip,,Ni suffix comes from the chemical symbol for nickel,nickel,,,,,,,,Orostara,ni peres,,,
 nipat,basic,,election,elect/vote,,,,,,,Marathi,निवडून,Nivaḍūna,,Unknown
 nipatasis,,,democracy,,democratic,democratically,,,,,Orostara,nipat sis,,,
-nir,basic,,length/meter/distance,extend,long/distant/far,distantly,,measurement,,,Tamil,நீளம்,Nīḷam,/n̪iːɭɐm/,Unknown
+nir,basic,,length/meter/distance,extend/measure (length)/lengthen,long/distant/far,distantly,,measurement,,,Tamil,நீளம்,Nīḷam,/n̪iːɭɐm/,Unknown
 nirum,,on Earth; physical; for Venus see 'nikas',class,,,,,,,,Orostara,niy rum,,,
 nis,basic,,art/drawing/painting,draw/paint/craft,artistic,,,,,,Wu Chinese,艺术,gni-zeq,/n̠ʲi²² zəʔ⁴⁴/,Proto-Sino
 nisar,,,artist,,,,,,,,Orostara,nis sar,art person,,
@@ -489,7 +489,7 @@ nixter,,,valley,,,,,nature,,,Orostara,nix ter,,,
 niy,basic,,learning/analysis/research,learn/study/practice/analyze/investigate,studious,,,,,,Wu Chinese,研,gni,/n̠ʲi⁵³/,Proto-Sino
 niyot,,on Earth; physical; for Venus see 'nikas',school/university/college,,,,,,,,Orostara,niy tah,learn place,,
 nn,,,,,,,mm mm/nuh uh,interjection,oth,,Orostara,nah,,,
-nom,basic,,name,,,,,,,,Portuguese,nome,,/ˈnõ.mi/,Latin
+nom,basic,,name,name,,,,,,,Portuguese,nome,,/ˈnõ.mi/,Latin
 non,slang,slang; short form; quick way to say something is not belonging to someone or that they don’t have something,,,,,not of,,,,Orostara,nahon,,,
 nop,basic,,,,new/novel/fresh,,,,,,Portuguese,novo,,/ˈno.vu/,Latin
 nor,basic,,music/song,make music,musical/lyrical,,,,,,Korean,노래,norae,[no̞ɾɛ] ,
@@ -500,7 +500,7 @@ numetot,,,calculation,calculate,,,,,,,Orostara,num metot,,,
 numniy,,,math,,,,,,,,Orostara,num niy,,,
 numsar,,,mathematician,,,,,,,,Orostara,num sar,,,
 nun,basic,,density,,thick/dense/viscous,,,measurement,,,Mandarin Chinese,浓厚,Nónghòu,/nʊŋ³⁵ xoʊ̯⁵¹/,Proto-Sino
-nur,basic,,effort/attempt,try/attempt,,,,,,,Mandarin Chinese,努力,Nǔlì,/nu²¹⁴⁻²¹ li⁵¹/,Proto-Sino
+nur,basic,,effort/attempt/try,try/attempt,,,,,,,Mandarin Chinese,努力,Nǔlì,/nu²¹⁴⁻²¹ li⁵¹/,Proto-Sino
 nuy,basic,,mountain,,,,,nature,,,Vietnamese,núi,,[nuj˧˦],Proto-Vietic
 o,basic,indicate an 'is/am/are' phrase; optional and used for clarity,,,,,,,,,Orostara,?,,,
 ok,,,,,okay/ok/O.K.,okay/ok/O.K.,,,,,English,okay,,,
@@ -787,7 +787,7 @@ sunot,,in terms of movement; return to here,,return,,,,,,,Orostara,sun ot,,,
 sunrik,,in terms of movement; return to a place away from here ,,return,,,,,,,Orostara,sun rik,,,
 sup,basic,,soup/stew,,,,,food,,,English,soup,,/suːp/,
 super,basic,,,randomize,random,randomly,,,,,German,zufällig,,/ˈt͡suːfɛlɪç/,
-sur,basic,,south,,south,south,,direction,adv,2,Spanish,sur,,/ˈsuɾ/,Proto-Germanic
+sur,basic,,south,,south/southern,south/southerly,,direction,adv,2,Spanish,sur,,/ˈsuɾ/,Proto-Germanic
 Surameter,proper,the continent; 'ter' added for clarity; 'sud' replaced with 'xanup' for clarity,South America,,,,,continent,,,Spanish,Sudamérica,,/sudaˈmeɾika/,
 sus,basic,,milk,,,,,body/food,,66,Javanese,susu,,[ˈsusu],
 sut,basic,,speed/velocity,,fast/quick,,,measurement,,,Mandarin Chinese,速度,Sùdù,/su⁵¹⁻⁵³ tu⁵¹/,
@@ -797,7 +797,7 @@ sux,basic,,,stop/cease/prevent,,,,,,,Mandarin Chinese,阻止,Zǔzhǐ,/t͡su²¹�
 suxer,basic,,dirt/soil/earth,,dirty,,,nature,,,Portuguese,sujeira,,/suˈʒe(j).ɾɐ/,
 tah,basic,,structure/building,construct/build,,,,,,,Wu Chinese,大厦,da-gho,/da²² ɦo⁴⁴/,
 tahat,basic,,pie/dumpling/tart,,,,,,,,Portuguese,torta,,/ˈtɔʁ.tɐ/,
-tahik,basic,,humor/laughter,laugh,funny/humorous,,,,,,Arabic,ضَحِك,ḍaḥik,/dˤa.ħik/,Arabic
+tahik,basic,,humor/laughter/laugh,laugh,funny/humorous,,,,,,Arabic,ضَحِك,ḍaḥik,/dˤa.ħik/,Arabic
 tak,basic,,dog,,,,,animal/nature,,,English,dog,,/dɔɡ/,
 takik,,,puppy/pup,,,,,animal/nature,,,Orostara,tak ik,,,
 Takmon,proper,month of the dog,Twelfth Month/November/December,,,,,month,,12,Orostara,tak mon,,,
@@ -871,7 +871,7 @@ tokarnit,,,sweat,,,,,,,,Orostara,tokar nit,,,
 tokatay,,,,,scary/frightening,,,,,,Orostara,tok tay,,,
 tokem,,,fear/fright/nerves,scare,scared/afraid/nervous,,,,,,Orostara,tok em,,,
 tom,basic,,tail,,,,,body,,58,Farsi,دم,dom,[d̪om],
-ton,basic,,east,,east,east,,direction,adv,3,Korean,동쪽,dongjjok,[to̞ŋt͡ɕ͈o̞k̚],
+ton,basic,,east,,east/eastern,east/easterly,,direction,adv,3,Korean,동쪽,dongjjok,[to̞ŋt͡ɕ͈o̞k̚],
 top,basic,,help/service/benefit,assist/serve,helpful,helpfully,for,preposition,oth,,Korean,돕다,dobda,[ˈto̞(ː)p̚t͈a̠],
 topasar,,,assistant,,,,,,,,Orostara,top sar,,,
 tor,basic,,storm,,,,,nature,,,Spanish,tormenta,,/toɾˈmenta/,
@@ -921,7 +921,7 @@ urnit,,,,drain,,,,,,,Orostara,ur nit,,,
 Urtutar,proper,'tar' added for clarity,Urdu,,,,,language,,,Urdu,اردو,,/ʊɾ.d̪uː/,
 urxamkut,,,key,unlock,,,,,,,Orostara,ur xamkut,,,
 us,basic,the direction of right (vs left),right,,right,right,,direction,adv,7,Marathi,उजवे,Ujavē,/ud͡z.ʋe/,
-ut,basic,,north,,north,north,,direction,adv,1,Hindi,उत्तर,uttar,/ʊt̪.t̪əɾ/,Sanskrit
+ut,basic,,north,,north/northern,north/northerly,,direction,adv,1,Hindi,उत्तर,uttar,/ʊt̪.t̪əɾ/,Sanskrit
 Utameter,proper,the continent; 'ter' added for clarity; 'North' replaced with 'nor',North America,,,,,continent,,,English,North America,,/ˌnɔː(ɹ)θ əˈmɛɹɪkə/,
 utaper,,,shoulder,,,,,body,,45,Orostara,ut per,,,
 utaxot,,,elbow,,,,,body,,48,Orostara,ut xot,,,
@@ -976,7 +976,7 @@ xit,basic/swear,also a swear; not very vulgar; akin to saying 'balls',hole/(coll
 xiy,basic,,writing/essay/book/article,write,written,,,,,,Mandarin Chinese,写,Xiě,/ɕi̯ɛ²¹⁴/,
 xok,basic,,appearance/sight/image/picture,look/see/watch/notice/check/observe,,,,,,,Bangla,চোখ,Cōkha,/tɕokʰ/,
 xokor,,,eye,,,,,body,,12,Orostara,xok or,,,
-xon,basic,,order/series/list/arrangement/row/sequence,organize/sort/arrange,orderly,,,,,,Mandarin Chinese,整理,zhěnglǐ,/ʈ͡ʂɤŋ²¹⁴⁻³⁵ li²¹⁴⁻²¹⁽⁴⁾/,
+xon,basic,,order/series/list/arrangement/row/sequence,organize/sort/arrange,orderly/organized,,,,,,Mandarin Chinese,整理,zhěnglǐ,/ʈ͡ʂɤŋ²¹⁴⁻³⁵ li²¹⁴⁻²¹⁽⁴⁾/,
 xonat,basic,,degree/level/rank/grade/score/quality/integrity,rank/score/grade,quality,,,,,,Mandarin Chinese,程度,chéngdù,/ʈ͡ʂʰɤŋ³⁵ tu⁵¹/,
 xop,basic,,arm,throw/toss/launch,,,,body,,47,Mandarin Chinese,手臂,shǒubì,/ʂoʊ̯²¹⁴⁻²¹ pi⁵¹/,
 xor,basic,,temperature/degree/warmth/heat,heat/warm,warm,,,measurement,,,Mandarin Chinese,热力,rèlì,/ʐɤ⁵¹⁻⁵³ li⁵¹/,
