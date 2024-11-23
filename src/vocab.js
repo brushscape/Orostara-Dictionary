@@ -466,7 +466,6 @@ var vocab = [
     "sapes",
     "saput",
     "sat",
-    "satun", //CHANGE
     "sep",
     "sem",
     "sikat",
