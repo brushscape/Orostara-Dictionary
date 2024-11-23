@@ -18,6 +18,28 @@ var currAnswer = "";
 
 var givenAns = "";
 
+function checkForVocabDuplicates() {
+  for (var i = 0; i < vocab.length - 1; i++) {
+    //don't check other
+    for (var j = 0; j < vocab[i].length; j++) {
+      var word = vocab[i][j];
+      var found = false;
+      for (var k = i; k < vocab.length - 1; k++) {
+        for (var m = 0; m < vocab[k].length; m++) {
+          if (k != i && m != j && vocab[k][m] == word) {
+            console.log("repeat found: " + word);
+            found = true;
+            break;
+          }
+        }
+        if (found) {
+          break;
+        }
+      }
+    }
+  }
+}
+
 //remember to turn other array into emtpy in vocab before running this
 function calcOther() {
   var other = "";
@@ -167,6 +189,7 @@ function toggleActive(id, forceActive) {
 
 function startFlash() {
   //calcOther();
+  //checkForVocabDuplicates();
   resetElements();
   if (document.getElementById("startBut").innerHTML == "Start") {
     document.getElementById("game").style.display = "flex";
