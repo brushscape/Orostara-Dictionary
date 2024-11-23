@@ -83,7 +83,7 @@ estir,basic,,rubber/gum,stretch/strain,stretched/strained/(colloquially) stresse
 et,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,,,French,étoffe,,/e.tɔf/,Proto-Germanic
 etos,,,bag,,,,,,,,Orostara,et hos,,,
 ex,basic,,debt,have/borrow/rent/loan/owe,,,of/from,economy,,,Farsi,اجاره,ejâre,[ʔe.d͡ʒɒː.ɹé],Proto-Germanic
-hon,basic,,equivalence/equality,equate/balance,equal/same/identical,equally/identically,,,,,Mandarin Chinese,恆等,héngděng,/xɤŋ³⁵ tɤŋ²¹⁴⁻²¹⁽⁴⁾/,Proto-Turkic
+hon,basic,,equivalence/equality,equate/balance/neutralize,equal/same/identical/neutral/bland,equally/identically,,,,,Mandarin Chinese,恆等,héngděng,/xɤŋ³⁵ tɤŋ²¹⁴⁻²¹⁽⁴⁾/,Proto-Turkic
 honpien,,,,,parallel,,,,,,Orostara,ex pien,equal line,,
 ey,basic,Interjection to get someone's attention,,,,,hey,interjection,oth,,Tamil,ஏய்,Ēy,/eːj/,Unknown
 ha,,exclamation marker ,,,,,,,,,Orostara,ham,,,
@@ -146,7 +146,7 @@ hos,basic,,container/box/basin/cup/vessel/bottle/trap,contain/catch,,,,,,,Mandar
 hot,basic,,deal/contract/vow,deal/bargain/promise/swear,,,,economy,,,Mandarin Chinese,合同,Hétóng,/xɤ³⁵ tʰʊŋ³⁵/,Proto-Sino
 hox,basic,,planet/world,,,,,space,,2,Japanese,星,Hoshi,[ho̞ɕi],Proto-Japonic
 huah,basic,,fire,burn,firey,,,,,6,Mandarin Chinese,火,huǒ,/xu̯ɔ²¹⁴/,Proto-Sino
-huanin,basic,,,welcome/accept/admit/approve,acceptable,acceptably,,,,,Mandarin Chinese,欢迎,Huānyíng,/xu̯än⁵⁵ iŋ³⁵/,Proto-Sino
+huanin,basic,,,welcome/accept/admit/approve/allow/let/permit/tolerate/invite  ,acceptable,acceptably,,,,,Mandarin Chinese,欢迎,Huānyíng,/xu̯än⁵⁵ iŋ³⁵/,Proto-Sino
 huax,basic,,chemical,,chemical,chemically,,,,,Mandarin Chinese,化学,Huàxué,/xu̯ä⁵¹ ɕy̯ɛ³⁵/,Proto-Sino
 huaxniy,,,chemistry,,,,,,,,Orostara,huax niy,,,
 hues,basic,,gray,,grey/(colloquially) dismal/dull,,,color,,9,Mandarin Chinese,灰色,huīsè,/xu̯eɪ̯⁵⁵ sɤ⁵¹/,Proto-Sino
@@ -233,7 +233,6 @@ kas,basic,,simulation/VR/virtual reality,simulate,virtual,,,,,,Korean,가상,gas
 kasetx,slang/swear,slang swear; can be used as a very vulgar way to call someone a top,phallus/dick/cock/clit/strap,fuck/peg,fucking,,,,,,Portuguese,cacete,,/kaˈse.t͡ʃi/,
 kasip,basic,,projectile,shoot,,,,,,,Arabic,قذيفة,qaḏīfa,/qa.ðiː.fa/,Arabic
 kasit,basic,,poem/poetry/verse,,poetic,,,,,,Arabic,قصيدة,qaṣīda,/qa.sˤiː.da/,Arabic
-kat,basic,,cut,cut/slice,,,,,,,Urdu,کاٹنا,Kāṭā,[ˈkɑ.ʈɑ],Sanskrit
 katan,,the fiber,flax,,,,,,,,Arabic,كتان,kattān,/kat.taːn/,
 kaus,basic,,arch,curve/bend/flex,flexible,flexibly,,,,,Arabic,قَوْس,qaws,/qaws/,Arabic
 kax,slang/swear,can be used as a derogatory honorific suffix or just a swear; less vulgar than 'kant',shit/garbage/(honorific) shithead/dumbass/idiot/dumbfuck/shit for brains,kill/die/kill yourself,useless/stupid/shitty,,,,,,Orostara,kaxar,,,
@@ -399,7 +398,7 @@ mon,basic,,month,,monthly,,,measurement,,6,German,Monat,,/ˈmoːnat/,Proto-Germa
 mor,basic,,purple,,purple,,,color,,6,Spanish,morado,,/moˈɾado/,Latin
 morup,basic,,desert,,,,,nature,,,Bangla,মরুভূমি,morubhumi,/mo.ru.bʱu.mi/,
 mox,basic,,spice/seasoning,,seasoned,,,food,,6,Bangla,মশলা,Maśalā,/mɔʃla/,Arabic
-muax,basic,,model,pose,,,,,,,Mandarin Chinese,模型,Móxíng,/mu̯ɔ³⁵ ɕiŋ³⁵/,Proto-Sino
+muax,basic,,model/sculpture,pose/sculpt,,,,,,,Mandarin Chinese,模型,Móxíng,/mu̯ɔ³⁵ ɕiŋ³⁵/,Proto-Sino
 muh,basic,,tree,,,,,plant/nature,,,Mandarin Chinese,木,Mù,/mu⁵¹/,Proto-Karen?
 Muhox,proper,inspired by the Vietnamese term for Jupiter 'sao Mộc' meaning 'wood star' (referring to the Chinese idea of Wuxing and it's Five 'Elements'),Jupiter,,,,,space,,14,Orostara,muh hox,tree planet,,
 muk,basic,,object/item/thing,,,,,,,,Vietnamese,mục,,[mʊwk͡p̚˧˨ʔ],Proto-Mon-Khmer
@@ -449,7 +448,6 @@ netasis,,,administration/government/politics,administrate/govern,administrative/
 ney,basic,,inside/entrance,enter/put in,inside,,in/into/throughout,preposition,oth,,Mandarin Chinese,内,Nèi,/neɪ̯⁵¹/,Proto-Sino
 ni,,particle to indicate something is a rhetorical question ,,,,,,,,,Orostara,nah ki,,,
 nien,basic,,year/age,age,yearly/annual/aged/mature,,,measurement,,7,Mandarin Chinese,年,Nián,/ni̯ɛn³⁵/,Proto-Sino
-nih,basic,,greeting,hi/hello/greet,,,,,,,Mandarin Chinese,你好,Nǐ hǎo,/ni²¹⁴⁻³⁵ xɑʊ̯²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
 Nihonmur,proper,'mur' added for clarity,Japan,,,,,country,,,Japanese,日本,Nihon,[ɲ̟ihõ̞ɴ],
 Nihontar,proper,語 replaced with 'tar',Japanese,,,,,language,,,Japanese,日本語,Nihongo,,
 nik,basic/swear,vulgar now; use 'ak' for chest,chest/breast/(colloquially) tit/tits,,,,,body,,23,Vietnamese,ngực,,[ŋɨk̚˧˨ʔ],Proto-Vietic
@@ -462,7 +460,7 @@ nipat,basic,,election,elect/vote,,,,,,,Marathi,निवडून,Nivaḍūna,,U
 nipatasis,,,democracy,,democratic,democratically,,,,,Orostara,nipat sis,,,
 nir,basic,,length/meter/distance,extend,long/distant/far,distantly,,measurement,,,Tamil,நீளம்,Nīḷam,/n̪iːɭɐm/,Unknown
 nirum,,on Earth; physical; for Venus see 'nikas',class,,,,,,,,Orostara,niy rum,,,
-nis,basic,,art,,artistic,,,,,,Wu Chinese,艺术,gni-zeq,/n̠ʲi²² zəʔ⁴⁴/,Proto-Sino
+nis,basic,,art/drawing/painting,draw/paint/craft,artistic,,,,,,Wu Chinese,艺术,gni-zeq,/n̠ʲi²² zəʔ⁴⁴/,Proto-Sino
 nisar,,,artist,,,,,,,,Orostara,nis sar,art person,,
 nit,basic,all drinks are 'water' unless otherwise specified ,water,drink,watery/wet,,,food,,0,Telugu,నీటి,Nīṭi,/niːʈi/,Proto-Dravidian
 Nitox,proper,inspired by the Chinese water god,Gonggong,,,,,space,,24,Orostara,nit hox,,,
@@ -575,7 +573,7 @@ pex,basic,,bean,,,,,food,,,Portuguese,feijão,,/fe(j)ˈʒɐ̃w̃/,Ancient Greek
 pey,basic,,adipose,fatten,fat/fatty,,,body/food,adj,2,Mandarin Chinese,肥,féi ,/feɪ̯³⁵/,Proto-Sino
 Piatar,proper,'tiếng' replaced with 'tar' for clarity,Vietnamese,,,,,language,,,Vietnamese,tiếng việt,,[tiəŋ˧˦ viət̚˧˨ʔ],
 Piatnamur,proper,'mur' added for clarity,Vietnam/Socialist Republic of Vietnam,,,,,country,,,Vietnamese,Việt Nam,,[viət̚˧˨ʔ naːm˧˧],
-pien,basic,,edge/border/limit/line,,,,,,,,Mandarin Chinese,边界,Biānjiè,/pi̯ɛn⁵⁵ t͡ɕi̯ɛ⁵¹/,Proto-Sino
+pien,basic,,edge/border/limit/line,draw/draft/trace,,,,,,,Mandarin Chinese,边界,Biānjiè,/pi̯ɛn⁵⁵ t͡ɕi̯ɛ⁵¹/,Proto-Sino
 piensun,,,stripe ,,striped,,,,,,Orostara,pien sun,,,
 pies,basic,,party/congratulations/congrats,celebrate/congratulate,,,,,,,Spanish,fiesta,,/ˈfjesta/,Latin
 pik,basic,,complexity,complicate,complex/complicated,,,,,,Vietnamese,phức tap,,[fɨk̚˧˦ taːp̚˧˨ʔ],Proto-Sino
@@ -589,7 +587,6 @@ Piripinasmur,proper,'mur' already included! No need to add,Phillipines/Republic 
 pis,basic,,scent/odor/smell,sniff/smell,,,,,,,Mandarin Chinese,鼻子,Bízi,/pi³⁵ d͡z̥z̩³/,Proto-Sino
 pisor,,,nose,,,,,body,,14,Orostara,pis or,,,
 pit,basic,,plant/vegetable,,,,,plant/nature/food,,0,Turkish,bitki,,/bitki/,Proto-Turkic
-pitux,basic,,belief/trust,believe/trust/entrust,believable/honest,,,,,,Italian,Fiducia,,/fiˈdu.t͡ʃa/,Latin
 pix,basic,,seed,,,,,food/plant/nature,,1,Bangla,বীজ,Bīja,/bidʒ/,Sanskrit
 poh,basic,,strength/force,push/shove/pull,strong/forceful,strongly/forcefully,,measurement,,,Portuguese,força,,/ˈfoʁ.sɐ/,Latin
 Pohtukesatar,proper,'tar' added for clarity,Portuguese,,,,,language,,,Portuguese,portuguesa,,/poʁ.tuˈɡe.zɐ/,
@@ -629,7 +626,6 @@ ran,basic,,color/shade/tone/paint,paint,colorful/vivid/saturated,,,color,,0,Hind
 raox,basic,,mouse/rodent,,,,,animal/nature,,,Mandarin Chinese,老鼠,Lǎoshǔ,/lɑʊ̯²¹⁴⁻³⁵ ʂu²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
 rap,basic,,texture,,rough/harsh,,,,,,English,rough,,/ɹʌf/,Proto-Germanic
 ras,basic,,secret/mystery/cover,hide/cover,,,,,,,Farsi,راز,râz,/ɾɒːz/ ,Proto-Iranian
-rasam,basic,,drawing,draw,,,,,,,Arabic,رَسَمَ,rasam,/ra.sa.ma/,Arabic
 Rasiyamur,proper,'mur' added for clarity,Russia/Russian Federation,,,,,country,,,Russian,Россия,Rossiya,[rɐˈsʲijə],
 rastay,,,,,shy,,,,,,Orostara,ras tay,,,
 rax,basic,,house/lodge/home/apartment,dwell/reside/live/inhabit,homey,,,,,,English,lodge,,/lɑd͡ʒ/,Proto-Germanic
@@ -729,7 +725,7 @@ sinsar,,,representative,,,,,,,,Orostara,sin sar,,,
 sip,basic,,sibling/sister/brother,,,,,,,,English,sibling,,/ˈsɪblɪŋ/,
 sis,basic,,system,,systemic,,,,,,Spanish,sistema,,/sisˈtema/,
 sisan,basic,time of year,season,,,,,,,,English,season,,/ˈsiː.zən/,
-sit,basic,,truth/honesty,,true/real/actual/honest,truly/really/actually,,,,,Cantonese,实际,sat zai,/sit̚³² tai³³/,
+sit,basic,,truth/honesty/belief/trust,believe/trust/entrust,true/real/actual/honest/believable,truly/really/actually,,,,,Cantonese,实际,sat zai,/sit̚³² tai³³/,
 siuk,basic,,care/compassion,care,caring,,,,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/,
 six,basic,the economic concept,interest,,,,,economy,,,Mandarin Chinese,利息,zǐjīn,/t͡sz̩²¹⁴⁻²¹ t͡ɕin⁵⁵/,
 siy,basic,,environment/nature,,natural/wild,naturally,,nature,,,Mandarin Chinese,自然,Zìrán,/t͡siː²² jiːn²¹/,
@@ -769,7 +765,7 @@ tantitam,,,accident ,,,,,,,,Orostara,tan titam,,,
 tanun,,indicates a dependent clause following,,,,,though/in spite of/despite,,,,Orostara,tan hun,,,
 tanxar,slang,meaner than 'naxar' but kinder than 'orp',idiot/dimwit,,stupid,,,,,,Orostara,tan xar,,,
 Tanxonarox,proper,inspired by the Roman god of the discord ,Eris,,,,,space,,25,Orostara,tan xonar hox,,,
-taox,basic,,blade/knife,,sharp/keen,,,,,,Mandarin Chinese,刀刃,Dāorèn,/tɑʊ̯⁵⁵ ʐən⁵¹/,
+taox,basic,,blade/knife,cut/slice,sharp/keen,,,,,,Mandarin Chinese,刀刃,Dāorèn,/tɑʊ̯⁵⁵ ʐən⁵¹/,
 xotiy,basic,,crease/fold/pleat,crease/fold/tuck,,,,,,,Mandarin Chinese,折疊,zhédié,/ʈ͡ʂɤ³⁵ ti̯ɛ³⁵/,
 tapar,basic,,frog,,,,,animal/nature,,,Tamil,தவளை,Tavaḷai,/t̪ɐʋɐɭaɪ̯/,
 tar,basic,,speech/language/communication/conversation/dialogue,talk/speak/say/tell/discuss,,,,,,,Portuguese,tratar,,/faˈla(ʁ)/,
@@ -777,7 +773,6 @@ tarak,basic,,dragon,,,,,fantasy,,,Portuguese,dragão,,/dɾaˈɡɐ̃w̃/,
 taran,basic,,,stand,,,,,,,Bangla,দাঁড়ানো,dãṛanō,/d̪aɹano/,
 tarat,basic,,pain,hurt/feel pain,painful,,,body,,,Punjabi,ਦਰਦ,Darada,/dərədə/,
 tas,basic,,cough,cough,,,,body,,70,Portuguese,tosse,,/ˈtɔ.si/,
-tat,basic,,,neutralize,neutral/bland,,,,,,Telugu,తటస్థ,Taṭastha,/taʈas.tʰʌ/,
 tax,basic,,size,,big,,,measurement,,,Mandarin Chinese,大小,Dàxiǎo,/tä⁵¹ ɕi̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/,
 taxar,basic,,million,,1000000,,,number,,25,Bangla,দশলক্ষ,Daśalakṣa,/dɔʃɔlɔksɔ/,
 tay,basic,,attitude/mood/vibe/personality/disposition/temperment,,,,,,,,Mandarin Chinese,态度,tàidù ,/tʰaɪ̯⁵¹⁻⁵³ tu⁵¹/,
@@ -972,7 +967,6 @@ Yenox,proper,literally means 'ring planet'; referencing the rings of saturn,Satu
 yep,basic,,load/freight/cargo/burden,carry/bring/convey/transport,,,,,,,Spanish,llevar,,/ʝeˈbaɾ/,
 yer,basic,,yellow,,yellow,,,color,,3,English,yellow,,/ˈjɛl.oʊ/,
 yet,basic,,book/article/paper,read,,,,,,,Mandarin Chinese,阅读,Yuèdú,/ɥɛ⁵¹ tu³⁵/,
-yin,basic,,,allow/let/permit/tolerate/invite,,,,,,,Mandarin Chinese,允许,Yǔnxǔ,/yn²¹⁴⁻³⁵ ɕy²¹⁴⁻²¹⁽⁴⁾/,
 yis,basic,,face,,,,,body,,12,Turkish,yüz,,/jyz/,
 yiset,,,mask/cloth mask,,,,,,,,Orostara,yis et,,,
 yisras,,full face mask; meant to conceal your face,mask,,,,,,,,Orostara,yis ras,,,
@@ -1042,4 +1036,4 @@ xepen,,when referring to a concept (not object) that is NOT within the sentence;
 kupem,,'my condolences’ type of sorry,,sorry,,,,,,,Orostara,kup em,,,
 sarut,basic,,greeting,greet/hello,,,,,,,English,salute,,/səˈlut/,
 hapatak,basic,,teamwork/collaboration/cooperation,collaborate/cooperate,cooperative/collaborative ,,,value,,,Vietnamese,hợp tác,,[həːp̚˧˨ʔ taːk̚˧˦],
-xuanxin,basic,,innovation/creativity/originality,innovate/create,creative/innovative/original,,,value,,,Mandarin Chinese,创新,chuàngxīn,/ʈ͡ʂʰu̯ɑŋ⁵¹ ɕin⁵⁵/,
+xuanxin,basic,,innovation/creativity/originality,innovate/create,creative/innovative/original/seminal,,,value,,,Mandarin Chinese,创新,chuàngxīn,/ʈ͡ʂʰu̯ɑŋ⁵¹ ɕin⁵⁵/,
