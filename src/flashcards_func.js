@@ -403,7 +403,6 @@ function checkForRedundant(list, tempCurrWord) {
 }
 
 function findAnswer(list) {
-  console.log("find " + givenAns + " in " + list);
   var temp;
   if (Array.isArray(list)) {
     temp = arrayHasWord(list, givenAns);
