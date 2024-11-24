@@ -402,6 +402,17 @@ function checkForRedundant(list, tempCurrWord) {
   return false;
 }
 
+function findAnswer(list) {
+  console.log("find " + givenAns + " in " + list);
+  var temp;
+  if (Array.isArray(list)) {
+    temp = arrayHasWord(list, givenAns);
+    return temp[0] || temp[1];
+  } else {
+    return list == givenAns;
+  }
+}
+
 function checkAnswer() {
   flipCard();
   givenAns = cleanupTextInput(document.getElementById("flashAnswerBar").value);
@@ -417,69 +428,45 @@ function checkAnswer() {
     // Orostara, answer in english
     if (Array.isArray(currAnswer)) {
       var result = arrayHasWord(currAnswer, givenAns); //already disregards paratheticals
-
       if (result[0] || result[1]) {
         // word is a match to an entry of correct part of speech
         feedback("perfect");
-      } else {
-        var result2 = false;
-        var temp;
-        for (var i = 0; i < options.length; i++) {
-          switch (options[i]) {
-            case 1:
-              if (Array.isArray(wordEntry.Nouns)) {
-                temp = arrayHasWord(wordEntry.Nouns, givenAns);
-                result2 = result2 || temp[0] || temp[1];
-              } else {
-                result2 = result2 || wordEntry.Nouns == givenAns;
-              }
-              break;
-            case 2:
-              if (Array.isArray(wordEntry.Verbs)) {
-                temp = arrayHasWord(wordEntry.Verbs, givenAns);
-                result2 = result2 || temp[0] || temp[1];
-              } else {
-                result2 = result2 || wordEntry.Verbs == givenAns;
-              }
-              break;
-            case 3:
-              if (Array.isArray(wordEntry.Adjectives)) {
-                temp = arrayHasWord(wordEntry.Adjectives, givenAns);
-                result2 = result2 || temp[0] || temp[1];
-              } else {
-                result2 = result2 || wordEntry.Adjectives == givenAns;
-              }
-              break;
-            case 4:
-              if (Array.isArray(wordEntry.Adverbs)) {
-                temp = arrayHasWord(wordEntry.Adverbs, givenAns);
-                result2 = result2 || temp[0] || temp[1];
-              } else {
-                result2 = result2 || wordEntry.Adverbs == givenAns;
-              }
-              break;
-            case 5:
-              if (Array.isArray(wordEntry.Other)) {
-                temp = arrayHasWord(wordEntry.Other, givenAns);
-                result2 = result2 || temp[0] || temp[1];
-              } else {
-                result2 = result2 || wordEntry.Other == givenAns;
-              }
-              break;
-            default:
-              currWord = "Error: No Definitions Found";
-          }
-          if (result2) {
-            feedback("correct");
-            return;
-          }
-        }
-        feedback("missed");
+        return;
       }
-    } else {
-      //already know they're not a perfect match, so if not array, then not correct
-      feedback("missed");
     }
+    //check if answer given is simply from another part of speech
+    var result2 = false;
+    for (var i = 0; i < options.length; i++) {
+      switch (options[i]) {
+        case 1:
+          result2 = findAnswer(wordEntry.Nouns);
+          break;
+        case 2:
+          result2 = findAnswer(wordEntry.Verbs);
+          break;
+        case 3:
+          result2 = findAnswer(wordEntry.Adjectives);
+          break;
+        case 4:
+          result2 = findAnswer(wordEntry.Adverbs);
+          break;
+        case 5:
+          result2 = findAnswer(wordEntry.Other);
+          break;
+        default:
+          currWord = "Error: No Definitions Found";
+      }
+      if (result2) {
+        feedback("correct");
+        return;
+      }
+    }
+    feedback("missed");
+
+    // } else {
+    //   //already know they're not a perfect match, so if not array, then not correct
+    //   feedback("missed");
+    // }
   } else {
     //English, answer in Orostara AND not perfect match
     var giv = givenAns;
