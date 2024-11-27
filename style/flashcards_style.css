@@ -37,7 +37,7 @@
     aspect-ratio: 4/3;
     padding: 8px;
     margin: 8px;
-    background-color: white;
+    background-color: var(--background);
 }
 
 .label {
@@ -207,7 +207,7 @@
 .lessSelect {
     border-radius: 25px;
     padding: var(--superMini);
-    background-color: White;
+    background-color: var(--background);
     color: var(--dark2);
     border-style: solid;
     border-color: var(--light2);

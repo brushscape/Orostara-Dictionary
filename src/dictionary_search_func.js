@@ -55,6 +55,9 @@ function cleanupTextInput(input) {
   while (input.length > 0 && input.charAt(input.length - 1) == " ") {
     input = input.substring(0, input.length - 1);
   }
+  if(input.charAt(input.length-1)=='-'){
+    return input.substring(0,input.length-1).toLowerCase();
+  }
   return input.toLowerCase();
 }
 

@@ -21,12 +21,12 @@
 }
 
 a:link {
-    color: #cc410e;
+    color: var(--link);
     text-decoration: none;
 }
 
 a:visited {
-    color: #cc410e;
+    color: var(--link);
 }
 
 a:hover {

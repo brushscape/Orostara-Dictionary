@@ -1,4 +1,9 @@
 :root {
+    --background: #ffffff;
+    --text: #000000;
+    --disabledBG:#c3c9d6;
+    --disabledText:#d3d9e6;
+    --link:#cc410e;
     --superlight1: #c6ec90;
     --lightlight1: #9ad14d;
     --light1: #71b535;
@@ -73,11 +78,12 @@
     display: flex;
     flex-direction: column;
     align-self: center;
+    
 }
 .menuBar {
     width: 100vw;
     background-color: var(--dark1);
-    color: White;
+    color: var(--background);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -121,19 +127,19 @@
 
 .activeSpecial {
     background-color: var(--lightlight1) !important;
-    border-color: White !important;
-    color: White !important;
+    border-color: var(--background) !important;
+    color: var(--background) !important;
 }
 
 .active {
-    background-color: White !important;
-    border-color: White !important;
+    background-color: var(--background) !important;
+    border-color: var(--background) !important;
     color: var(--medium1) !important;
 }
 
 .quickActive {
-    background-color: White !important;
-    border-color: White !important;
+    background-color: var(--background) !important;
+    border-color: var(--background) !important;
     color: var(--darkdark2) !important;
 }
 
@@ -167,6 +173,8 @@ body {
     font-family: Optima, Helvetica, Ariel, sans-serif;
     font-size: var(--midSize);
     margin: 0 auto;
+    background-color: var(--background);
+    color:var(--text);
 }
 
 .h2 {

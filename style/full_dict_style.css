@@ -15,7 +15,7 @@
 /* Dropdown Button */
 .dropbtn {
     background-color: var(--light1);
-    color: white;
+    color: var(--background);
     padding: var(--large);
     margin-bottom: var(--large);
     font-size: var(--hugehuge);

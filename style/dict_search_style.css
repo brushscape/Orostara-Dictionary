@@ -8,7 +8,7 @@
 button {
     background-color: var(--light1);
     border: none;
-    color: white;
+    color: var(--background);
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
@@ -23,8 +23,8 @@ button:hover {
     color: var(--lightlight1);
 }
 button:disabled {
-    background-color: #c3c9d6;
-    color: #d3d9e6;
+    background-color: var(--disabledBG);
+    color: var(--disabledText);
 }
 
 .translatorTitle {
@@ -68,6 +68,7 @@ button:disabled {
     padding: var(--minimini);
     font-family: Optima, Helvetica, Ariel, sans-serif;
     font-size: var(--large);
+    background-color: var(--background);
 }
 
 .searchBar:disabled {
