@@ -1,0 +1,75 @@
+<div id='translator' class='translator pageBody'>
+    <div class='buttonContainer'>
+        <button type='button' class='fbButton' onclick='goback()' id='backBut'> &#60; </button>
+        <button type='button' class='fbButton' onclick='goforward()' id='forBut'> &#62; </button>
+        <div class='directions'> Click the language in gold to switch between Orostara and English</div>
+    </div>
+    <div class='searchBlock'>
+        <div class='wordEntry'>
+            <div class='translatorTitle'>Enter <span class='langSelect' id='langSelect'>Orostara</span> Word
+                Here:</div>
+            <input type='text' class='searchBar' id='searchBar'>
+            <button type='button' onclick='translateClicked()' class='langButton'
+                id='translateButton'>Translate</button>
+        </div>
+        <div class='notFound' id='notFoundOros'>
+            <div class='notFoundLarge'>Word not found in dictionary.</div>
+            <div class='notFoundSmall'>
+                Please check spelling and try again.
+                <br>
+                Search function works best when words are in their base form.
+            </div>
+        </div>
+        <div class='notFound' id='notFoundEng'>
+            <div class='notFoundLarge'>Word not found in dictionary.</div>
+            <div class='notFoundSmall'>
+                Please check spelling or type a synonym and try again.
+                <br>
+                Search function works best when words are singular and/or in present tense.
+                <br>
+                <br>
+                If you can't find the concept you're looking for, make your own compound word to approximate it!
+            </div>
+        </div>
+    </div>
+
+    <div id='wordDefContainer' class='wordDefContainer'>
+        <hr id='line' class='line'>
+        <div id='wordDef' class='wordDef'>
+            <div class='wordOriginContain'>
+                <div class='word' id='word'>WORD</div>
+                <div class='etym' id='etym'> from <i>blankword</i> in Language </div>
+            </div>
+            <div id='def' class='def'>
+                <div id='notes' class='notes'>Put a definition here</div>
+                <div id='defSpacer' class='defSpacer'></div>
+                <div id='other' class='other'>other, list, here, prepositions, time markers, pronouns, etc</div>
+            </div>
+            <br>
+            <div class='conjDef'>
+                <div id='nounContain' class='conj'>
+                    <i><b id='noun'>worda</b></i>
+                    <div class='marker'>n.&nbsp;&nbsp;&nbsp;</div>
+                    <div id='nounFill' class='wordList'> - noun, list, here</div>
+                </div>
+                <div id='verbContain' class='conj'>
+                    <i><b id='verb'>wordo</b></i>
+                    <div class='marker'>v.&nbsp;&nbsp;&nbsp;</div>
+                    <div id='verbFill' class='wordList'> - verb, list, here</div>
+                </div>
+                <div id='adjContain' class='conj'>
+                    <i><b id='adj'>wordi</b></i>
+                    <div class='marker'>&nbsp;adj.</div>
+                    <div id='adjFill' class='wordList'> - desc, list, here</div>
+                </div>
+                <div id='advContain' class='conj'>
+                    <i><b id='adv'>worde</b></i>
+                    <div class='marker'>adv.</div>
+                    <div id='advFill' class='wordList'> - desc, list, here</div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div id='extraWordDefs' class='extraWordDefs'></div>
+    </div>
+</div>

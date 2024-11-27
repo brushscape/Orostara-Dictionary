@@ -1,0 +1,49 @@
+<div id='flashcards' class='flashPage'>
+    <div class="flashOptions">
+        <div class="flashLessSelect">
+            <button type='button' class='activeLess' onclick="evalSet(1)" id="less1Butt">Lesson 1</button>
+            <button type='button' class='lessSelect' onclick="evalSet(2)" id="less2Butt">Lesson 2</button>
+            <button type='button' class='lessSelect' onclick="evalSet(3)" id="less3Butt">Lesson 3</button>
+            <button type='button' class='lessSelect' onclick="evalSet(4)" id="less4Butt">Lesson 4</button>
+            <button type='button' class='lessSelect' onclick="evalSet(5)" id="less5Butt">Lesson 5</button>
+            <button type='button' class='lessSelect' onclick="evalSet(6)" id="less6Butt">Lesson 6</button>
+            <button type='button' class='lessSelect' onclick="evalSet(7)" id="less7Butt">Lesson 7</button>
+            <button type='button' class='lessSelect' onclick="evalSet(8)" id="less8Butt">Lesson 8</button>
+            <button type='button' class='lessSelect' onclick="evalSet(9)" id="less9Butt">Lesson 9</button>
+            <button type='button' class='lessSelect' onclick="evalSet(10)" id="less10Butt">Lesson 10</button>
+            <button type='button' class='lessSelect' onclick="evalSet(11)" id="less11Butt">Other</button>
+            <button type='button' class='lessSelect' onclick="evalSet(12)" id="allButt">All</button>
+        </div>
+        <div class="vl"></div>
+        <div class="flashLangSelect">
+            <button type='button' class='lessSelect' onclick="selectFlashLang(1)" id="orosButt">Orostara</button>
+            <button type='button' class='lessSelect' onclick="selectFlashLang(2)" id="engButt">English</button>
+            <button type='button' class='activeLess' onclick="selectFlashLang(3)" id="bothButt">Both</button>
+        </div>
+    </div>
+    <div id='game' class='flashgame'>
+        <div id="feedback" class="flashFeedback">Skipped</div>
+        <div class="cardContain" id="cardContain">
+            <div class="flashcard">
+                <div id='label' class="label"></div>
+                <div id="flashWord" class="word"></div>
+            </div>
+            <div id="flashAnswer" class='flashcard behind'></div>
+        </div>
+        <input type='text' class='searchBar' id='flashAnswerBar'>
+        <div class="gameButtContain">
+            <button type='button' class='langbutton gameButt' onclick="skipCard()" id="skipBut">Skip</button>
+            <button type='button' class='langbutton gameButt' onclick="checkAnswer()" id="checkBut" disabled>Check</button>
+        </div>
+        <div class="stats">
+            <div class='statEl'><b>Correct: </b><span id="correctCount">0</span></div>
+            <div class='statEl'><b>Missed: </b><span id="missedCount">0</span></div>
+            <div class='skipped'>
+                <div class='statEl'><b>Skipped: </b><span id="skippedCount">0</span></div>
+                <div id="skippedMax"> • • • </div>
+            </div>
+            <div class='statEl'><b>Streak: </b><span id="streakCount">0</span></div>
+        </div>
+    </div>
+    <button type='button' class='langbutton' onclick="startFlash()" id="startBut">Start</button>
+</div>
