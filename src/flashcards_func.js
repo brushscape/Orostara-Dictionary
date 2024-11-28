@@ -40,7 +40,7 @@ function checkForVocabDuplicates() {
   }
 }
 
-//remember to turn other array into emtpy in vocab before running this
+//remember to turn other array into empty in vocab before running this
 function calcOther() {
   var other = "";
   for (var i = 0; i < basicOnly.length; i++) {
@@ -57,10 +57,20 @@ function calcOther() {
       }
     }
     if (!found) {
-      if (other == "") {
-        other = "'" + basicOnly[i];
-      } else {
-        other = other + "','" + basicOnly[i];
+      var isSpecial = false; 
+      for(var m = 0; m < specialCases.length;m++){
+        if(basicOnly[i]==specialCases[m]){
+          isSpecial= true;
+          break; 
+        }
+      }
+      //skip special case words like particles 
+      if(!isSpecial){
+        if (other == "") {
+          other = "'" + basicOnly[i];
+        } else {
+          other = other + "','" + basicOnly[i];
+        }
       }
     }
   }
@@ -250,6 +260,7 @@ function pickWord() {
   }
 
   if (wordEntry == undefined) {
+    console.log("Error: wordEntry undefined");
     return;
   }
 
@@ -302,7 +313,7 @@ function pickWord() {
         currAnswer = wordEntry.Other;
         break;
       default:
-        currWord = "Error: No Definitions Found";
+        currWord = "Error: No Definitions Found for orostara pos "+pos;
     }
     document.getElementById("flashWord").innerHTML = currWord;
   } else {
@@ -330,7 +341,7 @@ function pickWord() {
         currWord = wordEntry.Other;
         break;
       default:
-        currWord = "Error: No Definitions Found";
+        currWord = "Error: No Definitions Found for english pos "+pos;
     }
     document.getElementById("flashWord").innerHTML = displayWordList(
       currWord,
@@ -341,8 +352,8 @@ function pickWord() {
 }
 
 function skipCard() {
-  flipCard();
   feedback("skipped");
+  flipCard();
 }
 
 function flipCard() {
@@ -453,7 +464,7 @@ function checkAnswer() {
           result2 = findAnswer(wordEntry.Other);
           break;
         default:
-          currWord = "Error: No Definitions Found";
+          currWord = "Error: No Definitions Found for "+options[i]+' in '+options;
       }
       if (result2) {
         feedback("correct");
@@ -504,7 +515,7 @@ function checkAnswer() {
           found = checkForRedundant(wordEntry.Other, tempCurrWord);
           break;
         default:
-          currWord = "Error: No Definitions Found";
+          currWord = "Error: No Definitions Found for endChar "+endChar;
           found = false;
       }
       if (found) {

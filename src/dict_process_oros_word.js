@@ -1,24 +1,25 @@
 /* jshint esversion: 8 */
 var endList = ["a", "e", "o", "i", "u"];
+var specialCases = [
+  "ni",
+  "mi",
+  "ki",
+  "ha",
+  "na",
+  "o",
+  "ma",
+  "ko",
+  "tu",
+  "axa",
+  "anti",
+  "xu",
+  "haha",
+  "hihi",
+];
 function orosClick(searchedWord) {
   clearPage();
   var lastChar = searchedWord.charAt(searchedWord.length - 1);
-  var specialCases = [
-    "ni",
-    "mi",
-    "ki",
-    "ha",
-    "na",
-    "o",
-    "ma",
-    "ko",
-    "tu",
-    "axa",
-    "anti",
-    "xu",
-    "haha",
-    "hihi",
-  ];
+ 
 
   //not a special case and DOES end in a vowel
   if (
