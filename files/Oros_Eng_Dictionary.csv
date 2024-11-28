@@ -90,7 +90,7 @@ Espanamur,proper,'mur' added for clarity,Spain/Kingdom of Spain,,,,,country,,,Sp
 Espanortar,proper,'tar' added for clarity,Spanish,,,,,language,,,Spanish,español,,/espaˈɲol/,
 Espantar,proper/slang,informal slang; short form,Spanish,,,,,language,,,Orostara,Espanortar,,,
 estir,basic,,rubber/gum,stretch/strain,stretched/strained/(colloquially) stressed,,,,,,Spanish,estirar,,/estiˈɾaɾ/,Latin? 
-et,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,,,,French,étoffe,,/e.tɔf/,Proto-Germanic
+et,basic,,cloth/fabric/clothing,wear/dress/clothe,,,,textile,,,French,étoffe,,/e.tɔf/,Proto-Germanic
 etos,,,bag,,,,,,,,Orostara,et hos,,,
 ex,basic,,debt,have/borrow/rent/loan/owe,,,of/from,economy,,,Farsi,اجاره,ejâre,[ʔe.d͡ʒɒː.ɹé],Proto-Germanic
 ey,basic,Interjection to get someone's attention,,,,,hey,interjection,oth,,Tamil,ஏய்,Ēy,/eːj/,Unknown
@@ -108,7 +108,7 @@ hamsar,,,everyone,,,,,,,,Orostara,ham sar,,,
 hamsax,,,attention/obsession,focus/obsess,attentive,,,,,,Orostara,ham sax,all thought,,
 hamsek,,,,,permanent,permanently,always/forever,,,,Orostara,ham sek,,,
 han,basic,specifically to touch with your hand,hand,touch,,,,body,,50,English,hand,,/hænd/,Proto-Germanic
-hanam,basic,,sheep/goat/llama/alpaca/vicuna,,,,,animal/nature,,,Arabic,غَنَم,ḡanam,/ɣanam/,Arabic
+hanam,basic,,sheep/goat/llama/alpaca/vicuna/wool,,,,,animal/nature/textile,,,Arabic,غَنَم,ḡanam,/ɣanam/,Arabic
 hanamkex,,the fiber,wool,,,,,,,,Orostara,hanam kex ,,,
 hanamkexet,,,wool fabric,,,,,,,,Orostara,hanamkex et,,,
 Hanamon,proper,month of the goat,Ninth Month/August/September,,,,,month,,9,Orostara,hanam mon,,,
@@ -195,7 +195,7 @@ insan,basic,,human,,,,,animal/nature,,,Hindi,इंसान,insaan,[ɪnˈsa(ː)
 insisan,,time of year,spring,,,,,,,,Orostara,in sisan,,,
 Intonesiamur,proper,'mur' added for clarity,Indonesia/Republic of Indonesia,,,,,country,,,Indonesian,Indonesia,,/in.ˈdo.nɛ.sɪ.(j)a/,
 inxiy,basic,,rhythm,,rhythmic,,,,,,Mandarin Chinese,音节,Yīnjié,/in⁵⁵ t͡ɕi̯ɛ³⁵/,Proto-Sino
-ip,basic,,cord/cable/wire/rope/string,,,,,,,,Turkish,ip,,/ip/,Proto-Turkic
+ip,basic,,cord/cable/wire/rope/string/thread,sew/knit/crochet,,,,textile,,,Turkish,ip,,/ip/,Proto-Turkic
 ipit,,,vine,,,,,plant/nature,,,Orostara,ip pit,rope plant,,
 ir,basic,,alternative,switch/swap/alternate,alternate/other,instead,xor/either/or/else/instead of/(temporally) until,,,,Russian,или,ili,[ˈilʲɪ],Proto-Slavic
 Irakmur,proper,'mur' added for clarity,Iraq/Republic of Iraq,,,,,country,,,Arabic,العراق,aleiraq,/al.ʕi.raːq/,
@@ -244,7 +244,7 @@ kasetx,slang/swear,slang swear; can be used as a very vulgar way to call someone
 kasip,basic,,projectile,shoot,,,,,,,Arabic,قذيفة,qaḏīfa,/qa.ðiː.fa/,Arabic
 kasit,basic,,poem/poetry/verse,,poetic,,,,,,Arabic,قصيدة,qaṣīda,/qa.sˤiː.da/,Arabic
 kat,basic,,ability/availability/possibility/potential/(colloquially) value,able/can/might,able/available/capable/possible/feasible,possibly/potentially/maybe,,,,,Arabic,قادر,qādir,/qaː.dir/,
-katan,,the fiber,flax,,,,,,,,Arabic,كتان,kattān,/kat.taːn/,
+katan,basic,,flax/hemp,,,,,textile,,,Arabic,كتان,kattān,/kat.taːn/,
 kaus,basic,,arch,curve/bend/flex,flexible,flexibly,,,,,Arabic,قَوْس,qaws,/qaws/,Arabic
 kax,slang/swear,can be used as a derogatory honorific suffix or just a swear; less vulgar than 'kant',shit/garbage/(honorific) shithead/dumbass/idiot/dumbfuck/shit for brains,kill/die/kill yourself,useless/stupid/shitty,,,,,,Orostara,kaxar,,,
 kaxar,basic,,waste/trash/(polite) poop,,,,,,,,Hindi,कचरा,kacrā,/kət͡ʃ.ɾɑː/,Sanskrit
@@ -372,7 +372,7 @@ masuan,,commonly used with the -u ending as a greeting,,good evening ,,,,,,,Oros
 mat,basic,,material/matter/stuff/resource,,,,,,,,Arabic,مادة,mada,/maːd.da/,Arabic
 max,basic,,magic,do magic/cast,magical,magically,,fantasy,,,Portuguese,magia,,/maˈʒi.ɐ/,Ancient Greek
 maxan,,,,hurry,,,,,,,Orostara,mas xan,go a lot,,
-maxaom,slang,only used in the Warren; condensed from the phrase 'ma xa o hama' that literally means 'you are (my) everything',,love,,,,,,,Orostara,ma x o y ham,,,
+oxaom,slang,only used in the Warren; condensed from the phrase 'o hoxa on hama ma' that literally means '(you) are (my) whole world',,love,,,,,,,Orostara,ma x o y ham,,,
 maxok,,,,stare,,,,,,,Orostara,mas xok,,,
 maxor,,,,,hot/sweltering,,,,,,Orostara,mas xor,,masu,
 Mayanmamur,proper,'mur' added for clarity,Myanmar/Republic of the Union of Myanmar,,,,,country,,,Burmese,မြန်မာ,myanmar,/mjàɴmà/,
@@ -397,7 +397,7 @@ mipor,,,flour,,,,,food,,,Orostara,miy por,grain powder,,
 mir,slang,Affectionate honorific suffix that means 'someone I take care of',beloved/baby/little sister/little brother,,,,,,,,Orostara,?,,,
 Misramur,proper,'mur' added for clarity,Egypt/Arab Republic of Egypt,,,,,country,,,Arabic,مصر,Misr,/misˤr/,
 mitut,basic,,locust/grasshopper/cricket/katydid,,,,,animal/nature,,,Telugu,మిడుత,miḍuta,/miɖut̪a/,Proto-Dravidian
-miy,basic,,grain,,,,,food,,,Mandarin Chinese,米,Mǐ,/mi²¹⁴/,Proto-Sino
+miy,basic,,rice/swamp grain,,,,,food,,,Mandarin Chinese,米,Mǐ,/mi²¹⁴/,Proto-Sino
 miyet,,the fabric,linen,,,,,,,,Orostara,miy et,,,
 Miyox,proper,inspired by the Roman goddess of grain and agriculture,Ceres,,,,,space,,13,Orostara,miy hox,,,
 mm,,,,,,,Mmhm/uh huh,interjection,oth,,Orostara,Am,Yes,,
@@ -538,7 +538,7 @@ pakar,basic,,judgment,judge,judgy ,,,,,,Mandarin Chinese,法官,Fǎguān,/fä²�
 pakasar,,,accountant,,,,,,,,Orostara,pak sar,money person,,
 pakasis,,,economy,,economic,,,,,,Orostara,pak sis,,,
 Pakmur,proper,'stan' replaced with 'mur' for clarity,Pakistan/Islamic Republic of Pakistan,,,,,country,,,Punjabi,ਪਾਕਿਸਤਾਨ,Pākisatāna,/ˈpäː.kɪs.t̪äːn/,
-pam,basic,the direction of left (vs right),left,,,left,,direction,adv,8,Bangla,বামে,bāmē,/bame/,Sanskrit?
+suh,basic,the direction of left (vs right),left,,,left,,direction,adv,8,Mandarin Chinese,左,zuǒ ,/t͡su̯ɔ²¹⁴/,Sanskrit?
 pamin,,for discrete times; 'ten minutes later'; see 'omin' for general times like 'in the next few minutes',next minute,,,,,,,,Orostara,pas min,,,
 pamon,,for discrete times; 'ten months later'; see 'omon' for general times like 'in the next few months',next month,,,,,,,,Orostara,pas mon,,,
 pamur,,,,,foreign,,,,,,Orostara,pah mur,,,
@@ -548,7 +548,7 @@ panien,,for discrete times; 'ten years later'; see 'onien' for general times lik
 panin,basic,,reaction/response/answer,react/respond/reply/answer,reactive/responsive,responsively,,,,,Mandarin Chinese,反应,fǎnyìng,fän²¹⁴⁻²¹ iŋ⁵¹/,Proto-Japonic
 Panratar,proper,'tar' added for clarity,Bangla/Bengali,,,,,language,,,Bangla,বাংলা,Bānlā,/baŋla/,
 Panratexmur,proper,'mur' added for clarity,Bangladesh/People's Republic of Bangladesh,,,,,country,,,Bangla,বাংলাদেশ,Bānlādēśa,/baŋlad̪eʃ/,
-panur,basic,,needle/pin,,,,,,,,Korean,바늘,baneul,[pa̠nɯɭ],Proto-Koreanic
+panur,basic,,needle/pin,,,,,textile,,,Korean,바늘,baneul,[pa̠nɯɭ],Proto-Koreanic
 Panxapitar,proper,'tar' added for clarity,Punjabi,,,,,language,,,Punjabi,ਪੰਜਾਬੀ,Pajābī,/pən.d͡ʒɑː.bːi/,
 paox,basic,,insurance,insure ,insured,,,economy,,,Mandarin Chinese,保险,Bǎoxiǎn,/pɑʊ̯²¹⁴⁻³⁵ ɕi̯ɛn²¹⁴⁻²¹⁽⁴⁾/,Proto-Sino
 pap,basic,,price/bill/invoice/cost/receipt/fee,charge,,,,economy,,,Mandarin Chinese,发票,Fāpiào,/fä⁵⁵ pʰi̯ɑʊ̯⁵¹/,Proto-Sino
@@ -590,7 +590,7 @@ Perumur,proper,'mur' added for clarity,Peru/Republic of Peru,,,,,country,,,Spani
 pes,basic/slang,refers to a substance with a pH greater than neutral,base,,basic/bitter/(colloquially) rude/mean,,,food,adj,4,English,base,,/beɪs/,Ancient Greek
 pet,basic,,seat/chair/(colloquially) butt,sit,,,,,,,Hindi,बैठना,baithana,/bɛːʈʰ.nɑː/,Sanskrit
 petamep,,,chair,,,,,,,,Orostara,pet mep,sit furniture,,
-pex,basic,,bean,,,,,food,,,Portuguese,feijão,,/fe(j)ˈʒɐ̃w̃/,Ancient Greek
+pex,basic,,soy/bean/lentil/pea/legume,,,,,food,,,Portuguese,feijão,,/fe(j)ˈʒɐ̃w̃/,Ancient Greek
 pey,basic,,adipose,fatten,fat/fatty,,,body/food,adj,2,Mandarin Chinese,肥,féi ,/feɪ̯³⁵/,Proto-Sino
 Piatar,proper,'tiếng' replaced with 'tar' for clarity,Vietnamese,,,,,language,,,Vietnamese,tiếng việt,,[tiəŋ˧˦ viət̚˧˨ʔ],
 Piatnamur,proper,'mur' added for clarity,Vietnam/Socialist Republic of Vietnam,,,,,country,,,Vietnamese,Việt Nam,,[viət̚˧˨ʔ naːm˧˧],
@@ -609,7 +609,7 @@ Piripinasmur,proper,'mur' already included! No need to add,Phillipines/Republic 
 pis,basic,,scent/odor/smell,sniff/smell,,,,,,,Mandarin Chinese,鼻子,Bízi,/pi³⁵ d͡z̥z̩³/,Proto-Sino
 pisor,,,nose,,,,,body,,14,Orostara,pis or,,,
 pit,basic,,plant/vegetable,,,,,plant/nature/food,,0,Turkish,bitki,,/bitki/,Proto-Turkic
-pix,basic,,seed,,,,,food/plant/nature,,1,Bangla,বীজ,Bīja,/bidʒ/,Sanskrit
+pix,basic,,seed/nut/(generic) grain,,,,,food/plant/nature,,1,Bangla,বীজ,Bīja,/bidʒ/,Sanskrit
 poh,basic,,strength/force,push/shove/pull,strong/forceful,strongly/forcefully,,measurement,,,Portuguese,força,,/ˈfoʁ.sɐ/,Latin
 Pohtukesatar,proper,'tar' added for clarity,Portuguese,,,,,language,,,Portuguese,portuguesa,,/poʁ.tuˈɡe.zɐ/,
 pok,basic,,mouth,(colloquially) suck,,,,body,,15,Portuguese,boca,,/ˈbo.kɐ/,Proto-Celtic
@@ -627,7 +627,7 @@ posat,,,steel,,,,,,,,Orostara,poh sat,strong iron,,
 pot,basic,,contest/competition,compete,competitive ,competitively,,,,,Telugu,పోటీ,Pōṭī,/poːʈiː/,Proto-Dravidian
 pox,basic,,animal,,animalistic,animalistically,,animal/nature,,,Bangla,পশু,pôshu,,Sanskrit
 Poxpuritar,proper,'tar' added for clarity,Bhojpuri,,,,,language,,,Bhojpuri,भोजपुरी,bhojapuree,/bʱoːd͡ʒ.pʊ.ɾiː/,
-poy,basic,,chicken,,,,,animal/nature,,,Spanish,pollo,,/ˈpoʝo/,Latin
+poy,basic,,chicken/turkey/fowl,,,,,animal/nature,,,Spanish,pollo,,/ˈpoʝo/,Latin
 Poymon,proper,month of the hen,Eleventh Month/October/November,,,,,month,,11,Orostara,poy mon,,,
 puah,basic,,disgust,disgust,disgusting/repulsive,,ew/yuck,interjection,oth,,Spanish,puaj,,/ˈpwax/,Unknown
 pum,basic,,paper,,,,,,,,Russian,бумага,bumaga,[bʊˈmaɡə],Ancient Greek
@@ -767,7 +767,7 @@ sis,basic,,system,,systemic,,,,,,Spanish,sistema,,/sisˈtema/,
 sisan,basic,time of year,season,,,,,,,,English,season,,/ˈsiː.zən/,
 sit,basic,,truth/honesty/belief/trust,believe/trust/entrust,true/real/actual/honest/believable,truly/really/actually,,,,,Cantonese,实际,sat zai,/sit̚³² tai³³/,
 siuk,basic,,care/compassion,care,caring,,,,,,Cantonese,照顾,ziu gu,/t͡siːu̯³³ kuː³³/,
-six,basic,the economic concept,interest,,,,,economy,,,Mandarin Chinese,利息,zǐjīn,/t͡sz̩²¹⁴⁻²¹ t͡ɕin⁵⁵/,
+sixin,basic,the economic concept,interest,,,,,economy,,,Mandarin Chinese,利息,zǐjīn,/t͡sz̩²¹⁴⁻²¹ t͡ɕin⁵⁵/,
 siy,basic,,environment/nature,,natural/wild,naturally,,nature,,,Mandarin Chinese,自然,Zìrán,/t͡siː²² jiːn²¹/,
 soah,,,,,,,wow,interjection,oth,,Orostara,sor,,[vɒːj],
 son,basic,both the creature and the computer term,bug,,,,,animal/nature,,,Wu Chinese,蟲,zon,/zoŋ²³/,
@@ -782,7 +782,7 @@ suar,basic,,pig,,,,,animal/nature,,,Hindi,सूअर,suar,/suː.əɾ/,
 Suaramon,proper,month of the pig,Thirteen Month/December,,,,,month,,13,Orostara,suar mon,,,
 suk,basic/slang,,sugar,,sweet/(colloquially) cute,sweetly,,food,,2,English,sugar,,/ˈʃʊɡɚ/,
 sukrut,,,cake,,,,,food,,,Orostara,suk rut,,,
-sun,basic,,repetition/pattern,repeat/copy/duplicate,repetitive/repeated,repetitively/again/repeatedly,,,,,Cantonese,重複,cung4 fuk1,/t͡sʰʊŋ²¹ fʊk̚⁵/,
+sun,basic,,repetition/pattern/repeat/copy/duplicate,repeat/copy/duplicate,repetitive/repeated,repetitively/again/repeatedly,,,,,Cantonese,重複,cung4 fuk1,/t͡sʰʊŋ²¹ fʊk̚⁵/,
 sunot,,in terms of movement; return to here,,return,,,,,,,Orostara,sun ot,,,
 sunrik,,in terms of movement; return to a place away from here ,,return,,,,,,,Orostara,sun rik,,,
 sup,basic,,soup/stew,,,,,food,,,English,soup,,/suːp/,
@@ -947,7 +947,7 @@ xas,basic,,hour,,,,,measurement,,3,Russian,час,chas,[t͡ɕas],
 xat,basic,,shutdown/ending/finale,close/shut/turn off/finish/end/complete,closed/off/ended/finished/complete/done/final/last,finally,to (as in from here to there),preposition,oth,,English,shut,,/ʃʌt/,
 xatneh,,,consonant,,,,,,,,Orostara,xat neh,,,
 Xauatar,proper,'tar' added for clarity,Javanese,,,,,language,,,Javanese,jawa,,/dʒɔ.wɔ/,
-xay,basic,,petroleum/fuel/gas/petrol/natural gas/gasoline,,,,,,,,Mandarin Chinese,柴油,cháiyóu,/ʈ͡ʂʰaɪ̯³⁵ joʊ̯³⁵/,
+patar,basic,,petroleum/fuel/gas/petrol/natural gas/gasoline,,,,,,,,English,petroleum,,/pəˈtɹoʊliəm/,
 Xayirmur,proper,'mur' added for clarity,Algeria/People's Democratic Republic of Algeria,,,,,country,,,Arabic,الجزائر,"al-Jazāʾir,",/(ɪ)d.dzaː.jir/,
 xeh,basic,used to describe anything outside your bubble/circle of influence; the colloquial meaning is not direct possession,that/(temporally) then/(spacially) there,,that/(colloquially) your/their/his/her,,,,,,Bangla,যে,jē,/dʒe/,
 xehontay,slang,informal slang; generalized form is 'sarontay' if you want to just say 'jealous',,,jealous of you,,,,,,Orostara,xeh on tay,,,
@@ -1036,3 +1036,15 @@ yur,basic,,star,,,,,space,,4,Turkish,yıldız,,/jɯɫ.ˈdɯz/,
 yurkun,,,galaxy,,,,,space,,6,Orostara,yur kun,star group,,
 yursis,,,solar system,,,,,space,,5,Orostara,yur sis,star system,,
 yus,basic,,instrument/tool/equipment,use/play,equipped,,,,,,English,use,,/jus/,
+hinat,basic,,wheat/barely/rye/oat/spelt/grassy grain,,,,,food,,,Arabic,حِنْطَة,ḥinṭa,/ħin.tˤa/,
+manyok,basic,,cassava/yuca/manioc/potato/yam/tuber/tapioca,,,,,food,,,Italian,manioca,,,
+mais,basic,,maize/corn/sorghum/millet/quinoa/amaranth/cluster grain,,,,,food,,,German,mais,,/maɪ̯s/,
+katan,basic,,banana/plantain/breadfruit/jackfruit/durian/starch fruit,,,,,food,,,Javanese,gedhang,,/ɡə.daŋ/,
+pam,basic,,cotton,,,,,textile,,,Persian,پنبه,panbe,[pʰæm.bé],
+xay,basic,,tea/herb,,,,,food,,,Mandarin Chinese,茶葉,cháyè,/ʈ͡ʂʰä³⁵ jɛ⁵¹/,
+kap,basic,,coffee,,,,,food,,,Turkish,Kahve,,[kɑːˈve],
+piyas,basic,,onion/garlic/shallot/scallion/bulb vegetable,,,,,food,,,Farsi,پیاز,piyâz,[pi.jɒ́ːz],
+six,basic,,silk,,,,,textile,,,Mandarin Chinese,丝绸,sīchóu,/sz̩⁵⁵ ʈ͡ʂʰoʊ̯³⁵/,
+rokaxus,,,,fry,,,,food,,,Orostara,rok xus,,,
+nitaxus,,,,boil,,,,food,,,Orostara,nit xus,,,
+hoxus,,,,bake,,,,food,,,Orostara,hos xus,,,

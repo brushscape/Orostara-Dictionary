@@ -351,7 +351,7 @@ var vocab = [
     "atit",
     "men",
     "net",
-    "pam",
+    "suh",
     "us",
     "tok",
     "ux",
