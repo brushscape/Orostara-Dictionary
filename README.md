@@ -1,1 +1,1 @@
-View website at https://brushscape.github.io/Orostara-Dictionary/
+View website at https://orostara.github.io/Orostara-Dictionary/
