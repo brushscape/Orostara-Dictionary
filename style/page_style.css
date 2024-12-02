@@ -148,7 +148,7 @@
     display: flex;
     flex-grow: 1;
     background-color: var(--light1);
-    padding: calc(3px + 1vw);
+    padding: var(--huge);
     justify-content: center;
     align-items: flex-end;
     font-size: var(--midSize);

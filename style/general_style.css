@@ -42,7 +42,7 @@ table {
     margin-left: 15px;
     text-align: left;
     border-collapse: collapse;
-    width: calc(200px + 30vw);
+    width: 80%;
     margin-bottom: var(--small);
 }
 
