@@ -17,7 +17,7 @@ a:hover {
 }
 
 button {
-    background-color: var(--light1);
+    background-color: var(--darkdark2);
     border: none;
     color: var(--background);
     padding: 15px 25px;
@@ -30,8 +30,8 @@ button {
     font-family: Optima, Helvetica, Ariel, sans-serif;
 }
 button:hover {
-    background-color: var(--medium1);
-    color: var(--lightlight1);
+    background-color: var(--dark2);
+    color: var(--lightlight2);
 }
 button:disabled {
     background-color: var(--disabledBG);

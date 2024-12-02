@@ -9,6 +9,7 @@
 //stop content flashing unstyled *crying emoji*
 //optimize categories somehow. it's so slow
 //states aren't persisting from home page. why????
+//width property is wigging on the flashcard game when window is small. fix
 
 /* jshint esversion: 8 */
 
