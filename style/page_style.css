@@ -148,10 +148,10 @@
     display: flex;
     flex-grow: 1;
     background-color: var(--light1);
-    padding: var(--huge);
+    padding: var(--large);
     justify-content: center;
     align-items: flex-end;
-    font-size: var(--midSize);
+    font-size: var(--huge);
     border-color: var(--dark1);
     border-top-style: solid;
     border-left-style: solid;
@@ -196,6 +196,7 @@
     background-color: var(--lightlight2);
     border-color: var(--lightlight1);
     color: var(--superdark2);
+    font-size: var(--midSize);
 }
 
 .quickItem:hover {
