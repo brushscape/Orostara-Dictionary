@@ -1,4 +1,4 @@
-var cprev = "color";
+var cprev = "na";
 var currCategory = "color";
 
 function cfillTable() {

@@ -5,7 +5,7 @@
     padding-left: 30px;
     text-align: left;
     width: 100%;
-    max-width: 1000px;
+    max-width: var(--maxWidth);
 }
 
 .exampleSentences {

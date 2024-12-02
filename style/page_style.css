@@ -15,7 +15,7 @@
     --light2: #f5ec9f;
     --medium2: #f5de82;
     --dark2: #f5ba56;
-    --darkdark2: #d68727;
+    --darkdark2: #e49a1c;
     --superdark2: #bb731b;
     --superMini: calc(15px + 0.25vw);
     --minimini: calc(22px + 0.25vw);
@@ -26,6 +26,7 @@
     --huge: calc(40px + 0.25vw);
     --hugehuge: calc(44px + 0.25vw);
     --superHuge: calc(50px + 0.25vw);
+    --maxWidth: 1000px;
 }
 
 /* If the screen size is 601px wide or more, set fonts to be smaller*/
@@ -40,6 +41,7 @@
         --huge: calc(19px + 0.25vw);
         --hugehuge: calc(23px + 0.25vw);
         --superHuge: calc(30px + 1vw);
+        /* --maxWidth: 1500px; */
     }
 }
 
@@ -118,7 +120,7 @@
 
 .pageBody {
     width: 100%;
-    max-width: 1000px;
+    max-width: var(--maxWidth);
     height: 100%;
     display: flex;
     flex-direction: column;

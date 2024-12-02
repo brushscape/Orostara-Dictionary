@@ -42,7 +42,7 @@ function setupDictionarySearch() {
 function refreshPage() {
   localStorage.clear();
   // window.location.reload();
-  newPage(currPage);
+  newPage(currPage, true);
 }
 
 function clearCookies() {
@@ -80,11 +80,10 @@ function loadStoredData() {
   return dataPresent;
 }
 
-function newPage(page) {
-  if (page == currPage) {
+function newPage(page, force) {
+  if (!force && page == currPage) {
     return;
   }
-  var folder = "";
   switch (currPage) {
     case "lessons":
       setCookie("learning", learningPage);
@@ -118,9 +117,6 @@ function newPage(page) {
       setCookie("dict", currDict);
       setCookie("resource", resourcePage);
       break;
-    case "home":
-      folder = "pages/";
-      break;
   }
 
   switch (page) {
@@ -131,7 +127,7 @@ function newPage(page) {
       } else {
         pg = resourcePage;
       }
-      location.href = folder + pg + ".html";
+      location.href = pg + ".html";
       break;
     case "learning":
       var pg = getCookie("learning");
@@ -140,23 +136,25 @@ function newPage(page) {
       } else {
         pg = learningPage;
       }
-      location.href = folder + pg + ".html";
+      location.href = pg + ".html";
       break;
     case "community":
-      location.href = folder + "social.html";
+      location.href = "social.html";
       break;
     case "home":
-      location.href = "../index.html";
+      location.href = "index.html";
       break;
     default:
-      location.href = folder + page + ".html";
+      location.href = page + ".html";
       break;
   }
   currPage = page;
 }
 
 function displayPage() {
-  document.getElementById("loading").style.display = "flex";
+  if (document.getElementById("loading")) {
+    document.getElementById("loading").style.display = "flex";
+  }
   switch (currPage) {
     case "lessons":
       learningPage = "lessons";
@@ -215,7 +213,9 @@ function displayPage() {
       console.log("currPage value invalid: " + currPage);
       break;
   }
-  document.getElementById("loading").style.display = "none";
+  if (document.getElementById("loading")) {
+    document.getElementById("loading").style.display = "none";
+  }
 }
 
 //exdays is the number of days until the cookie expires

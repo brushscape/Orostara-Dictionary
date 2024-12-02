@@ -1,6 +1,6 @@
 .flashPage {
     width: 100%;
-    max-width: 1000px;
+    max-width: var(--maxWidth);
     height: 100%;
     display: flex;
     flex-direction: column;
