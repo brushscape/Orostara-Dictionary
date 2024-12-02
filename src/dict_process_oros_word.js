@@ -16,10 +16,16 @@ var specialCases = [
   "haha",
   "hihi",
 ];
+
 function orosClick(searchedWord) {
-  clearPage();
+  if (currPage == "translator") {
+    clearPage();
+  } else if (currPage == "rhymes") {
+    rhymeClearPage();
+  } else {
+    console.log("invalid currPage in orosClick(): " + currPage);
+  }
   var lastChar = searchedWord.charAt(searchedWord.length - 1);
- 
 
   //not a special case and DOES end in a vowel
   if (
@@ -37,17 +43,36 @@ function orosClick(searchedWord) {
 }
 
 function orosEntry(searchedWord) {
-  var entry1 = searchOros(searchedWord);
-  if (entry1.length == 0) {
-    document.getElementById("notFoundOros").style.display = "flex";
-    return 0;
-  } else {
-    displayEntryArry(entry1, "");
-    if (entry1.length != 0) {
-      return 1;
+  var entry1;
+  if (currPage == "translator") {
+    entry1 = searchOros(searchedWord);
+    if (entry1.length == 0) {
+      document.getElementById("notFoundOros").style.display = "flex";
+      return 0;
     } else {
-      return 2;
+      displayEntryArry(entry1, "");
+      if (entry1.length != 0) {
+        return 1;
+      } else {
+        return 2;
+      }
     }
+  } else if (currPage == "rhymes") {
+    entry1 = rhymeOros(searchedWord);
+    if (entry1.length == 0) {
+      document.getElementById("notFoundOros").style.display = "flex";
+      return 0;
+    } else {
+      displayRhymeEntryArry(
+        entry1[1],
+        entry1[2],
+        searchedWord,
+        getSyllables(searchedWord).length,
+      );
+      return 1;
+    }
+  } else {
+    console.log("invalid currPage in orosEntry: " + currPage);
   }
 }
 

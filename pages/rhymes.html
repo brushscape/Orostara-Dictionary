@@ -2,7 +2,7 @@
 <!--xlsx.js (C) 2013-present SheetJS http://sheetjs.com-->
 <html>
     <head>
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script
             src="https://kit.fontawesome.com/571f0d4f05.js"
             crossorigin="anonymous"
@@ -10,19 +10,20 @@
 
         <link rel="stylesheet" href="../style/page_style.css" />
         <link rel="stylesheet" href="../style/general_style.css" />
-        <script src="../src/page_func.js"></script>
         <script src="../src/process_CSV_new.js"></script>
+        <script src="../src/page_func.js"></script>
         <script src="../src/general_func.js"></script>
 
         <link rel="stylesheet" href="../style/dict_entry_style.css" />
         <link rel="stylesheet" href="../style/dict_search_style.css" />
+        <link rel="stylesheet" href="../style/rhyme_style.css" />
         <script src="../src/dict_memory_func.js"></script>
-        <script src="../src/dict_process_eng_word.js"></script>
+        <script src="../src/rhyme_func.js"></script>
         <script src="../src/dict_process_oros_word.js"></script>
         <script src="../src/dictionary_search_func.js"></script>
     </head>
 
-    <body onload="load2('translator')">
+    <body onload="load2('rhymes')">
         <div class="menuBar">
             <div class="header">
                 <div class="feedback headerItem">
@@ -62,7 +63,7 @@
                 </div>
                 <div
                     class="menuItem"
-                    id="resourcesPg"
+                    id="crashcoursePg"
                     onclick="newPage('quickstart')"
                 >
                     CrashCourse
@@ -77,14 +78,14 @@
                 </div>
             </div>
             <div class="quickMenu menuItemContainer" id="resourcesMenu">
-                <div class="quickItem menuItem quickActive" id="translatorPg">
-                    Translator
-                </div>
                 <div
                     class="quickItem menuItem"
-                    id="rhymesPg"
-                    onclick="newPage('rhymes')"
+                    id="translatorPg"
+                    onclick="newPage('translator')"
                 >
+                    Translator
+                </div>
+                <div class="quickItem menuItem quickActive" id="rhymesPg">
                     Rhymes
                 </div>
                 <div
@@ -124,18 +125,10 @@
                 >
                     &#62;
                 </button>
-                <div class="directions">
-                    Click the language in gold to switch between Orostara and
-                    English
-                </div>
             </div>
             <div class="searchBlock">
                 <div class="wordEntry">
-                    <div class="translatorTitle">
-                        Enter
-                        <span class="langSelect" id="langSelect">Orostara</span>
-                        Word Here:
-                    </div>
+                    <div class="translatorTitle">Enter Orostara Word Here:</div>
                     <input type="text" class="searchBar" id="searchBar" />
                     <button
                         type="button"
@@ -143,7 +136,7 @@
                         class="langButton"
                         id="translateButton"
                     >
-                        Translate
+                        Rhyme
                     </button>
                 </div>
                 <div class="notFound" id="notFoundOros">
@@ -157,61 +150,44 @@
                         form.
                     </div>
                 </div>
-                <div class="notFound" id="notFoundEng">
-                    <div class="notFoundLarge">
-                        Word not found in dictionary.
-                    </div>
-                    <div class="notFoundSmall">
-                        Please check spelling or type a synonym and try again.
-                        <br />
-                        Search function works best when words are singular
-                        and/or in present tense.
-                        <br />
-                        <br />
-                        If you can't find the concept you're looking for, make
-                        your own compound word to approximate it!
-                    </div>
-                </div>
             </div>
 
-            <div id="wordDefContainer" class="wordDefContainer">
-                <hr id="line" class="line" />
-                <div id="wordDef" class="wordDef">
-                    <div class="wordOriginContain">
-                        <div class="word" id="word">WORD</div>
-                        <div class="etym" id="etym">
-                            from <i>blankword</i> in Language
+            <div class="rhymeTemplateContainer">
+                <div id="wordDef" class="rhymeWordDef">
+                    <div class="wordnDef">
+                        <div class="wordOriginContain">
+                            <div class="word" id="word">WORD</div>
                         </div>
-                    </div>
-                    <div id="def" class="def">
-                        <div id="notes" class="notes">
-                            Put a definition here
-                        </div>
-                        <div id="defSpacer" class="defSpacer"></div>
-                        <div id="other" class="other">
-                            other, list, here, prepositions, time markers,
-                            pronouns, etc
+                        <div id="def" class="def">
+                            <div id="other">
+                                other, list, here, prepositions, time markers,
+                                pronouns, etc
+                            </div>
+                            <div id="notes" class="notes">
+                                Put a definition here
+                            </div>
                         </div>
                     </div>
                     <br />
-                    <div class="conjDef">
+
+                    <div class="conjug">
                         <div id="nounContain" class="conj">
                             <i><b id="noun">worda</b></i>
-                            <div class="marker">n.&nbsp;&nbsp;&nbsp;</div>
+                            <div class="marker">n.</div>
                             <div id="nounFill" class="wordList">
                                 - noun, list, here
                             </div>
                         </div>
                         <div id="verbContain" class="conj">
                             <i><b id="verb">wordo</b></i>
-                            <div class="marker">v.&nbsp;&nbsp;&nbsp;</div>
+                            <div class="marker">v.</div>
                             <div id="verbFill" class="wordList">
                                 - verb, list, here
                             </div>
                         </div>
                         <div id="adjContain" class="conj">
                             <i><b id="adj">wordi</b></i>
-                            <div class="marker">&nbsp;adj.</div>
+                            <div class="marker">adj.</div>
                             <div id="adjFill" class="wordList">
                                 - desc, list, here
                             </div>
@@ -226,7 +202,55 @@
                     </div>
                     <br />
                 </div>
-                <div id="extraWordDefs" class="extraWordDefs"></div>
+                <div id="tempSyll" class="extraWordDefs">
+                    <h3>1 Syllable Matches</h3>
+                </div>
+            </div>
+            <div id="perfectRhymes" class="wordDefContainer">
+                <h2>Perfect Rhymes</h2>
+                <div id="1SyllPerfCon" class="extraWordDefs">
+                    <h3>1 Syllable Matches</h3>
+                    <div id="1SyllPerf" class="extraWordDefs"></div>
+                </div>
+                <div id="2SyllPerfCon" class="extraWordDefs">
+                    <hr class="line" />
+                    <h3>2 Syllable Matches</h3>
+                    <div id="2SyllPerf" class="extraWordDefs"></div>
+                </div>
+                <div id="3SyllPerfCon" class="extraWordDefs">
+                    <hr class="line" />
+                    <h3>3 Syllable Matches</h3>
+                    <div id="3SyllPerf" class="extraWordDefs"></div>
+                </div>
+                <div id="4SyllPerfCon" class="extraWordDefs">
+                    <hr class="line" />
+                    <h3>4+ Syllable Matches</h3>
+                    <div id="4SyllPerf" class="extraWordDefs"></div>
+                </div>
+            </div>
+            <div id="nearRhymes" class="wordDefContainer">
+                <hr class="line" />
+                <hr class="line" />
+                <h2>Near Rhymes</h2>
+                <div id="1SyllNearCon" class="extraWordDefs">
+                    <h3>1 Syllable Matches</h3>
+                    <div id="1SyllNear" class="extraWordDefs"></div>
+                </div>
+                <div id="2SyllNearCon" class="extraWordDefs">
+                    <hr class="line" />
+                    <h3>2 Syllable Matches</h3>
+                    <div id="2SyllNear" class="extraWordDefs"></div>
+                </div>
+                <div id="3SyllNearCon" class="extraWordDefs">
+                    <hr class="line" />
+                    <h3>3 Syllable Matches</h3>
+                    <div id="3SyllNear" class="extraWordDefs"></div>
+                </div>
+                <div id="4SyllNearCon" class="extraWordDefs">
+                    <hr class="line" />
+                    <h3>4+ Syllable Matches</h3>
+                    <div id="4SyllNear" class="extraWordDefs"></div>
+                </div>
             </div>
         </div>
     </body>

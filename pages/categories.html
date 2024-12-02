@@ -1,38 +1,264 @@
-<div id='category' class='fullDict'>
-    <div class='catMenu' id='catMenu'>
-        <div class='catMenuItem' id='cmenubody' onclick="cShowOnly('body')">Anatomy</div>
-        <div class='catMenuItem' id='cmenuanimal' onclick="cShowOnly('animal')">Animals</div>
-        <div class='catMenuItem' id='cmenucolor' disabled onclick="cShowOnly('color')">
-            Colors</div>
-        <div class='catMenuItem' id='cmenucontinent' onclick="cShowOnly('continent')">Continents</div>
-        <div class='catMenuItem' id='cmenucountry' onclick="cShowOnly('country')">Countries</div>
-        <div class='catMenuItem' id='cmenudirection' onclick="cShowOnly('direction')">Directions</div>
-        <div class='catMenuItem' id='cmenuweek' onclick="cShowOnly('week')">Weekdays</div>
-        <div class='catMenuItem' id='cmenueconomy' onclick="cShowOnly('economy')">Economy</div>
-        <div class='catMenuItem' id='cmenufantasy' onclick="cShowOnly('fantasy')">Fantasy</div>
-        <div class='catMenuItem' id='cmenufood' onclick="cShowOnly('food')">Food</div>
-        <div class='catMenuItem' id='cmenuinterjection' onclick="cShowOnly('interjection')">Interjections
-        </div>
-        <div class='catMenuItem' id='cmenulanguage' onclick="cShowOnly('language')">Languages</div>
-        <div class='catMenuItem' id='cmenumeasurement' onclick="cShowOnly('measurement')">Measurements
-        </div>
-        <div class='catMenuItem' id='cmenumonth' onclick="cShowOnly('month')">Months</div>
-        <div class='catMenuItem' id='cmenunature' onclick="cShowOnly('nature')">Nature</div>
-        <div class='catMenuItem' id='cmenunumber' onclick="cShowOnly('number')">Numbers</div>
-        <div class='catMenuItem' id='cmenuplant' onclick="cShowOnly('plant')">Plants</div>
-        <div class='catMenuItem' id='cmenupreposition' onclick="cShowOnly('preposition')">Prepositions</div>
-        <div class='catMenuItem' id='cmenuspace' onclick="cShowOnly('space')">Space</div>
-        <div class='catMenuItem' id='cmenuvalue' onclick="cShowOnly('value')">Values</div>
-    </div>
+<!doctype html>
+<!--xlsx.js (C) 2013-present SheetJS http://sheetjs.com-->
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script
+            src="https://kit.fontawesome.com/571f0d4f05.js"
+            crossorigin="anonymous"
+        ></script>
 
-    <table class='fullDictTable' id='categoryDictTable' style='font-size: var(--mini);'>
-        <tr>
-            <th>Orostara</th>
-            <th>Meaning</th>
-        </tr>
-        <tr id='categoryDataRow'>
-            <td>word</td>
-            <td>meaning</td>
-        </tr>
-    </table>
-</div>
+        <link rel="stylesheet" href="../style/page_style.css" />
+        <link rel="stylesheet" href="../style/general_style.css" />
+        <script src="../src/process_CSV_new.js"></script>
+        <script src="../src/page_func.js"></script>
+        <script src="../src/general_func.js"></script>
+
+        <link rel="stylesheet" href="../style/category_style.css" />
+        <script src="../src/categories_func.js"></script>
+    </head>
+
+    <body onload="load2('categories')">
+        <div class="menuBar">
+            <div class="header">
+                <div class="feedback headerItem">
+                    <i
+                        class="fa fa-home pageFuncButt"
+                        title="home"
+                        onclick="newPage('home')"
+                    ></i>
+                    <i class="fa fa-spinner fa-spin" id="loading"></i>
+                </div>
+                <div class="headerItem headerText" onclick="newPage('home')">
+                    <div class="title">OROSTARA</div>
+                    <hr id="line" class="line" />
+                    <div class="subTitle">THE BOOTLEG VENUSIAN DIALECT</div>
+                </div>
+                <div class="pageFuncButtCont headerItem">
+                    <i
+                        class="fa fa-refresh pageFuncButt"
+                        title="refresh dictionary data"
+                        onclick="refreshPage()"
+                        id="refreshIcon"
+                    ></i>
+                    <i
+                        class="fa-solid fa-cookie pageFuncButt"
+                        title="clear cookies"
+                        onclick="clearCookies()"
+                    ></i>
+                </div>
+            </div>
+            <div class="menuItemContainer">
+                <div
+                    class="menuItem"
+                    id="learningPg"
+                    onclick="newPage('learning')"
+                >
+                    Learning
+                </div>
+                <div
+                    class="menuItem"
+                    id="crashcoursePg"
+                    onclick="newPage('quickstart')"
+                >
+                    CrashCourse
+                </div>
+                <div class="menuItem active" id="resourcesPg">Resources</div>
+                <div
+                    class="menuItem"
+                    id="communityPg"
+                    onclick="newPage('community')"
+                >
+                    Community
+                </div>
+            </div>
+            <div class="quickMenu menuItemContainer" id="resourcesMenu">
+                <div
+                    class="quickItem menuItem"
+                    id="translatorPg"
+                    onclick="newPage('translator')"
+                >
+                    Translator
+                </div>
+                <div
+                    class="quickItem menuItem"
+                    id="rhymesPg"
+                    onclick="newPage('rhymes')"
+                >
+                    Rhymes
+                </div>
+                <div class="quickItem menuItem quickActive" id="categoriesPg">
+                    Categories
+                </div>
+                <div
+                    class="quickItem menuItem"
+                    id="fullDictPg"
+                    onclick="newPage('fullDict')"
+                >
+                    Full Dictionary
+                </div>
+            </div>
+        </div>
+
+        <div id="category" class="pageBody" style="display: none">
+            <div class="catMenu" id="catMenu">
+                <div
+                    class="multiOptionItem"
+                    id="cmenubody"
+                    onclick="cShowOnly('body')"
+                >
+                    Anatomy
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenuanimal"
+                    onclick="cShowOnly('animal')"
+                >
+                    Animals
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenucolor"
+                    disabled
+                    onclick="cShowOnly('color')"
+                >
+                    Colors
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenucontinent"
+                    onclick="cShowOnly('continent')"
+                >
+                    Continents
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenucountry"
+                    onclick="cShowOnly('country')"
+                >
+                    Countries
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenudirection"
+                    onclick="cShowOnly('direction')"
+                >
+                    Directions
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenuweek"
+                    onclick="cShowOnly('week')"
+                >
+                    Weekdays
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenueconomy"
+                    onclick="cShowOnly('economy')"
+                >
+                    Economy
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenufantasy"
+                    onclick="cShowOnly('fantasy')"
+                >
+                    Fantasy
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenufood"
+                    onclick="cShowOnly('food')"
+                >
+                    Food
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenuinterjection"
+                    onclick="cShowOnly('interjection')"
+                >
+                    Interjections
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenulanguage"
+                    onclick="cShowOnly('language')"
+                >
+                    Languages
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenumeasurement"
+                    onclick="cShowOnly('measurement')"
+                >
+                    Measurements
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenumonth"
+                    onclick="cShowOnly('month')"
+                >
+                    Months
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenunature"
+                    onclick="cShowOnly('nature')"
+                >
+                    Nature
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenunumber"
+                    onclick="cShowOnly('number')"
+                >
+                    Numbers
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenuplant"
+                    onclick="cShowOnly('plant')"
+                >
+                    Plants
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenupreposition"
+                    onclick="cShowOnly('preposition')"
+                >
+                    Prepositions
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenuspace"
+                    onclick="cShowOnly('space')"
+                >
+                    Space
+                </div>
+                <div
+                    class="multiOptionItem"
+                    id="cmenuvalue"
+                    onclick="cShowOnly('value')"
+                >
+                    Values
+                </div>
+            </div>
+
+            <table
+                class="fullTable"
+                id="categoryDictTable"
+                style="font-size: var(--mini)"
+            >
+                <tr>
+                    <th>Orostara</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr id="categoryDataRow">
+                    <td>word</td>
+                    <td>meaning</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

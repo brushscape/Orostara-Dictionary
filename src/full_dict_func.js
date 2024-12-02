@@ -1,16 +1,19 @@
+//TODO add popup dict entries if you click on a row
+//TODO Add loading icon
+
 var prev = "full";
+var currDict = "full";
 
 function onDropHover() {
   $(".menuItem").hover(function (event) {});
 }
 
 function fillTable() {
+  document.getElementById("loading").style.display = "flex";
   var containerEl = document.getElementById("fullDictTable");
   var baseEl = document.getElementById("dictDataRow");
-
   for (var i = 0; i < orosDict.length; i++) {
     var rowObj = orosDict[i];
-
     var wordTypes;
     if (Array.isArray(rowObj.Type)) {
       wordTypes = rowObj.Type;
@@ -39,28 +42,15 @@ function fillTable() {
 
   baseEl.style.display = "none";
   document.getElementById("numWords").innerHTML = orosDict.length;
-}
-
-function simpleListDisplay(array) {
-  if (!Array.isArray(array)) {
-    return array.toLowerCase();
-  }
-  var string = "";
-  for (i = 0; i < array.length; i++) {
-    if (i < array.length - 1) {
-      string += array[i] + ", ";
-    } else {
-      string += array[i];
-    }
-  }
-  return string.toLowerCase();
+  showOnly(currDict);
 }
 
 function showOnly(type) {
   if (type == prev) {
+    showLoadedDict();
     return;
   }
-
+  currDict = type;
   var fullTable = document.getElementById("fullDictTable");
   var counter = 0;
 
@@ -112,4 +102,10 @@ function showOnly(type) {
   prev = type;
 
   document.getElementById("numWords").innerHTML = counter;
+  showLoadedDict();
+}
+
+function showLoadedDict() {
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("fullDict").style.display = "flex";
 }

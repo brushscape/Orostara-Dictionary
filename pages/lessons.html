@@ -1,4 +1,5 @@
 <!doctype html>
+<!--xlsx.js (C) 2013-present SheetJS http://sheetjs.com-->
 <html>
     <head>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -7,14 +8,14 @@
             crossorigin="anonymous"
         ></script>
 
-        <link rel="stylesheet" href="style/page_style.css" />
-        <link rel="stylesheet" href="style/general_style.css" />
-        <script src="src/page_func.js"></script>
-        <script src="src/process_CSV_new.js"></script>
-        <script src="src/general_func.js"></script>
+        <link rel="stylesheet" href="../style/page_style.css" />
+        <link rel="stylesheet" href="../style/general_style.css" />
+        <script src="../src/page_func.js"></script>
+        <script src="../src/process_CSV_new.js"></script>
+        <script src="../src/general_func.js"></script>
     </head>
 
-    <body>
+    <body onload="load2('lessons')">
         <div class="menuBar">
             <div class="header">
                 <div class="feedback headerItem">
@@ -23,7 +24,7 @@
                         title="home"
                         onclick="newPage('home')"
                     ></i>
-                    <!-- <i class="fa fa-spinner fa-spin" id="loading"></i> -->
+                    <i class="fa fa-spinner fa-spin" id="loading"></i>
                 </div>
                 <div class="headerItem headerText" onclick="newPage('home')">
                     <div class="title">OROSTARA</div>
@@ -45,13 +46,7 @@
                 </div>
             </div>
             <div class="menuItemContainer">
-                <div
-                    class="menuItem"
-                    id="learningPg"
-                    onclick="newPage('learning')"
-                >
-                    Learning
-                </div>
+                <div class="menuItem active" id="learningPg">Learning</div>
                 <div
                     class="menuItem"
                     id="resourcesPg"
@@ -74,41 +69,19 @@
                     Community
                 </div>
             </div>
+            <div class="quickMenu menuItemContainer" id="learningMenu">
+                <div class="quickItem menuItem quickActive" id="lessonsPg">
+                    Lessons
+                </div>
+                <div
+                    class="quickItem menuItem"
+                    id="flashcardsPg"
+                    onclick="newPage('flashcards')"
+                >
+                    Flashcards
+                </div>
+            </div>
         </div>
-        <div class="pageBody centered">
-            <div class="introText">
-                <h2>HUANINO, WELCOME!</h2>
-                <p>
-                    To the unoffical home of the Orostara conlang. Sure, the
-                    Oros has their own resources that are prettier and nicer and
-                    easier to use but... this is free. And, I'll teach you how
-                    to swear. So who's really winning here.
-                </p>
-                <p>
-                    Feel free to contact me with any suggestions or questions or
-                    bugs or whatever. I'll be updating this as much as I can,
-                    but freetime here is hard to come by, so your patience is
-                    appreciated. Hoping to get more versions up in other
-                    languages someday, but so far I just have English.
-                </p>
-                <p>Other than that: Koro xepaxa ko, masnuru!</p>
-            </div>
-            <div class="indexOption" onclick="newPage('lessons')">
-                START LEARNING
-            </div>
-            <div class="indexOption" onclick="newPage('flashcards')">
-                QUIZ YOURSELF
-            </div>
-            <div class="indexOption" onclick="newPage('translator')">
-                USE TRANSLATOR
-            </div>
-            <a
-                class="indexOption"
-                href="mailto:kiya@orostara.com"
-                target="_blank"
-            >
-                ASK ME ANYTHING
-            </a>
-        </div>
+        <div id="lessons" class="pageBody">No Content (yet)</div>
     </body>
 </html>

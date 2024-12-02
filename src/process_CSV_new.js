@@ -8,7 +8,6 @@ var langBreakdown = [];
 var numWords = 0;
 var properNouns = [];
 
-var basicOnly = []; // for the flashcards
 //predicted 2070 data
 var idealBreakdownNum = {
   "Mandarin Chinese": 110,
@@ -38,35 +37,6 @@ var idealBreakdownNum = {
   Farsi: 12,
 };
 
-//2023 data
-// var idealBreakdownNum = {
-//   "Mandarin Chinese": 111,
-//   Spanish: 57,
-//   English: 45,
-//   Hindi: 42,
-//   Bangla: 28,
-//   Portuguese: 28,
-//   Russian: 17,
-//   Japanese: 15,
-//   Cantonese: 10,
-//   Vietnamese: 10,
-//   Marathi: 10,
-//   Telugu: 10,
-//   Turkish: 10,
-//   "Wu Chinese": 10,
-//   Korean: 10,
-//   French: 10,
-//   Tamil: 9,
-//   German: 8,
-//   Arabic: 9,
-//   Urdu: 8,
-//   Javanese: 8,
-//   Punjabi: 8,
-//   Italian: 8,
-//   Gujarati: 7,
-//   Farsi: 7,
-// };
-
 var alph = [
   "i",
   "e",
@@ -86,6 +56,8 @@ var alph = [
 ];
 
 function readCSVFile() {
+  document.getElementById("refreshIcon").classList.add("fa-spin");
+  document.getElementById("loading").style.display = "flex";
   $.get(filePath, function (csvdata) {
     var rowData = csvdata.split("\n");
     var colHeaders = rowData[0].split(",");
@@ -148,10 +120,29 @@ function readCSVFile() {
         }
       }
     }
-    fillTable(); //in full_dict_func.js
-    cfillTable(); //in categories_func.js
+    console.log("loaded whole dict");
+    //save info to persist between html pages
+    localStorage.setItem("orosDict", JSON.stringify(orosDict));
+    localStorage.setItem("basicOnly", JSON.stringify(basicOnly));
+    document.getElementById("refreshIcon").classList.remove("fa-spin");
+    document.getElementById("loading").style.display = "none";
+    displayPage();
+    //fillTable(); //in full_dict_func.js
+    //cfillTable(); //in categories_func.js
     //langAnalysis();
   });
+}
+
+function isJsonString(str) {
+  if (str == "" || str == null) {
+    return false;
+  }
+  try {
+    JSON.parse(str);
+  } catch (e) {
+    return false;
+  }
+  return true;
 }
 
 function langAnalysis() {

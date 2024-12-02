@@ -1,8 +1,14 @@
 /* jshint esversion: 8 */
 
-var orosDict = [];
 var currLinkNum = 0;
 
+function loadTranslator() {
+  load2();
+  updateForBackButtons();
+  setupButtons();
+}
+
+//used for translator and rhyme
 function setupButtons() {
   $("#searchBar").keyup(function (event) {
     if (event.which == 13) {
@@ -17,14 +23,16 @@ function setupButtons() {
     this.select();
   });
 
-  $("#langSelect").click(function (event) {
-    if (this.innerHTML == "Orostara") {
-      this.innerHTML = "English";
-    } else {
-      this.innerHTML = "Orostara";
-    }
-    document.getElementById("searchBar").select();
-  });
+  if (currPage == "translator") {
+    $("#langSelect").click(function (event) {
+      if (this.innerHTML == "Orostara") {
+        this.innerHTML = "English";
+      } else {
+        this.innerHTML = "Orostara";
+      }
+      document.getElementById("searchBar").select();
+    });
+  }
 }
 
 function clearPage() {
@@ -35,30 +43,19 @@ function clearPage() {
   currLinkNum = 0;
 }
 
+//used in both translator and rhyme
 function translateClicked() {
   var searchedWord = cleanupTextInput(
     document.getElementById("searchBar").value,
   );
-  if (document.getElementById("langSelect").innerHTML == "Orostara") {
+  if (
+    currPage == "rhymes" ||
+    document.getElementById("langSelect").innerHTML == "Orostara"
+  ) {
     orosClick(searchedWord);
   } else {
     engClick(searchedWord);
   }
-}
-
-function cleanupTextInput(input) {
-  //cleanup whitespace as front
-  while (input.length > 0 && input.charAt(0) == " ") {
-    input = input.substring(1);
-  }
-  //cleanup whitespace at back
-  while (input.length > 0 && input.charAt(input.length - 1) == " ") {
-    input = input.substring(0, input.length - 1);
-  }
-  if(input.charAt(input.length-1)=='-'){
-    return input.substring(0,input.length-1).toLowerCase();
-  }
-  return input.toLowerCase();
 }
 
 function displayEntryArry(entryArr, searchedTerm) {
@@ -100,18 +97,20 @@ function displayEntry(entry, searchedTerm, only, el) {
 
   getChildElement(wordDefEl, "word").innerHTML = entry.Orostara;
 
-  var rootLang = entry.RootLanguage;
-  if (Array.isArray(entry.RootLanguage)) {
-    rootLang = entry.RootLanguage[0];
-    for (var i = 1; i < entry.RootLanguage.length; i++) {
-      rootLang += "/" + entry.RootLanguage[i];
+  if (currPage == "translator") {
+    var rootLang = entry.RootLanguage;
+    if (Array.isArray(entry.RootLanguage)) {
+      rootLang = entry.RootLanguage[0];
+      for (var i = 1; i < entry.RootLanguage.length; i++) {
+        rootLang += "/" + entry.RootLanguage[i];
+      }
     }
+    getChildElement(wordDefEl, "etym").innerHTML =
+      "from " +
+      displayRootWord(entry.RLWord, entry.RootLanguage) +
+      " in " +
+      rootLang;
   }
-  getChildElement(wordDefEl, "etym").innerHTML =
-    "from " +
-    displayRootWord(entry.RLWord, entry.RootLanguage) +
-    " in " +
-    rootLang;
 
   // display Notes and Other in the same section right under the word definition
   var shown = false;
@@ -134,19 +133,21 @@ function displayEntry(entry, searchedTerm, only, el) {
     getChildElement(childEl, "notes").style.display = "none";
     both = false;
   } else {
-    shown = true;
     var notesEl = getChildElement(childEl, "notes");
     notesEl.innerHTML = "*" + processNote(entry.Notes);
     notesEl.style.display = "block";
+    shown = true;
   }
 
   if (shown) {
     childEl.style.display = "flex";
-    var spacer = getChildElement(childEl, "defSpacer");
-    if (both) {
-      spacer.style.display = "block";
-    } else {
-      spacer.style.display = "none";
+    if (currPage == "translator") {
+      var spacer = getChildElement(childEl, "defSpacer");
+      if (both) {
+        spacer.style.display = "block";
+      } else {
+        spacer.style.display = "none";
+      }
     }
   } else {
     childEl.style.display = "none";
@@ -192,7 +193,12 @@ function displayEntry(entry, searchedTerm, only, el) {
     getChildElement(wordDefEl, "advContain").style.display = "flex";
   }
 
-  document.getElementById("wordDefContainer").style.display = "flex";
+  if (currPage == "translator") {
+    document.getElementById("wordDefContainer").style.display = "flex";
+  } else if (currPage == "rhymes") {
+  } else {
+    console.log("invalid currPage in displayEntry: " + currPage);
+  }
 }
 
 function processNote(text) {
@@ -253,13 +259,25 @@ function gotoLinkWord(num) {
 }
 
 function gotoWord(word) {
-  clearPage();
-  var entry = searchOros(word);
-  displayEntryArry(entry, "");
+  var entry;
+  if (currPage == "translator") {
+    clearPage();
+    entry = searchOros(word);
+    displayEntryArry(entry, "");
+  } else if (currPage == "rhymes") {
+    rhymeClearPage();
+    entry = rhymeOros(word);
+    displayRhymeEntryArry(entry, "");
+  } else {
+    console.log("invalid currPage in gotoWord(" + word + "): " + currPage);
+  }
   incMemory("Orostara", word);
 }
 
 function returnLink(word) {
+  if (currPage == "rhymes") {
+    return word;
+  }
   if (searchOros(word).length != 0) {
     var str =
       "<u><span class='orosLinkWord' id='" +
@@ -289,11 +307,15 @@ function displayWordList(list1, searched, commaSeparated) {
   var stringList = "";
   for (var i = 0; i < list.length; i++) {
     //element in list matches searched english term
-    if (list[i].toLowerCase() == searched.toLowerCase()) {
+    //don't bother underlining anything if we're just rhyming
+    if (
+      searched != "findingRhyme" &&
+      list[i].toLowerCase() == searched.toLowerCase()
+    ) {
       stringList += "<u>" + list[i] + "</u>";
     }
     //element in list has more than one word
-    else if (list[i].indexOf(" ") != -1) {
+    else if (searched != "findingRhyme" && list[i].indexOf(" ") != -1) {
       stringList += displayWordList(list[i].split(" "), searched, false);
     }
     //element doesn't match and is only one word

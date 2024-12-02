@@ -6,32 +6,39 @@ var memoryIndex = 0;
 function goback() {
   if (memoryIndex > 0) {
     memoryIndex--;
-    clearPage();
-    var word = memory[memoryIndex];
-    if (word[0] == 'English') {
-      engEntry(word[1]);
-    } else if (word[0] == 'Orostara') {
-      orosEntry(word[1]);
-    } else {
-      console.log("error in back command, invalid language");
-    }
+    reloadMem();
   }
 
   updateForBackButtons();
 }
 
+function reloadMem() {
+  if (currPage == "translator") {
+    clearPage();
+  } else if (currPage == "rhymes") {
+    rhymeClearPage();
+  } else {
+    console.log("invalid currPage in goforward: " + currPage);
+  }
+  var word = memory[memoryIndex];
+  if (word[0] == "English") {
+    engEntry(word[1]);
+  } else if (word[0] == "Orostara") {
+    orosEntry(word[1]);
+  } else {
+    console.log("error in back command, invalid language: " + word);
+  }
+
+  document.getElementById("searchBar").value = word[1];
+  if (currPage == "translator") {
+    document.getElementById("langSelect").innerHTML = word[0];
+  }
+}
+
 function goforward() {
   if (memoryIndex < memory.length - 1) {
     memoryIndex++;
-    clearPage();
-    var word = memory[memoryIndex];
-    if (word[0] == 'English') {
-      engEntry(word[1]);
-    } else if (word[0] == 'Orostara') {
-      orosEntry(word[1]);
-    } else {
-      console.log("error in back command, invalid language");
-    }
+    reloadMem();
   }
 
   updateForBackButtons();
@@ -68,9 +75,9 @@ function printArray(arr) {
     console.log("empty array");
     return;
   }
-  var str = '[' + arr[0] + ']';
+  var str = "[" + arr[0] + "]";
   for (var i = 1; i < arr.length; i++) {
-    str += ',  [' + arr[i] + ']';
+    str += ",  [" + arr[i] + "]";
   }
   console.log(str);
 }
@@ -86,6 +93,6 @@ function compareElements(ar1, ar2) {
 }
 
 function updateForBackButtons() {
-  document.getElementById('backBut').disabled = memoryIndex <= 0;
-  document.getElementById('forBut').disabled = memoryIndex >= memory.length - 1;
+  document.getElementById("backBut").disabled = memoryIndex <= 0;
+  document.getElementById("forBut").disabled = memoryIndex >= memory.length - 1;
 }

@@ -44,6 +44,7 @@
     font-size: var(--small);
     margin-bottom: calc(var(--superMini) / 2);
     white-space: pre;
+    text-wrap: wrap;
 }
 
 .notes {
@@ -52,6 +53,7 @@
     white-space: normal;
     display: block;
     margin-bottom: var(--superMini);
+    text-wrap: wrap;
 }
 
 .other {
@@ -102,9 +104,4 @@
     color: var(--dark2);
     cursor: default;
     background-color: var(--lightlight2);
-}
-
-.line {
-    color: var(--white);
-    width: 100%;
 }

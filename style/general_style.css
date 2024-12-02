@@ -1,0 +1,154 @@
+a:link {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--dark2);
+}
+
+.socialLink {
+    font-size: var(--huge);
+    padding: var(--minimini);
+}
+
+button {
+    background-color: var(--light1);
+    border: none;
+    color: var(--background);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--hugehuge);
+    border-radius: 50px;
+    margin: 1vw 0.5vw 0.5vw 1vw;
+    font-family: Optima, Helvetica, Ariel, sans-serif;
+}
+button:hover {
+    background-color: var(--medium1);
+    color: var(--lightlight1);
+}
+button:disabled {
+    background-color: var(--disabledBG);
+    color: var(--disabledText);
+}
+
+table {
+    margin-left: 15px;
+    text-align: left;
+    border-collapse: collapse;
+    width: calc(200px + 30vw);
+    margin-bottom: var(--small);
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid var(--dark2);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--lightlight2);
+}
+tr:nth-child(1) {
+    background-color: var(--medium2);
+}
+
+.fullTable {
+    width: 100%;
+    padding: 0;
+    font-size: var(--superMini);
+    margin: 0;
+    align-self: center;
+}
+
+.searchBar {
+    width: 40%;
+    border-radius: 20px;
+    margin: var(--minimini);
+    padding: var(--minimini);
+    font-family: Optima, Helvetica, Ariel, sans-serif;
+    font-size: var(--large);
+    background-color: var(--background);
+}
+
+.searchBar:disabled {
+    background-color: gainsboro;
+}
+
+.multiOptionItem {
+    background-color: var(--lightlight2);
+    border-color: var(--medium2);
+    color: var(--superdark2);
+    padding: var(--minimini);
+    margin: calc(var(--superMini) / 2);
+    flex-basis: 15%;
+    flex-grow: 1;
+    font-size: var(--small);
+    border-radius: var(--hugehuge);
+    border-style: solid;
+    font-weight: normal;
+    flex-basis: 15%;
+    flex-grow: 1;
+}
+
+.multiOptionItem:hover {
+    color: var(--darkdark2);
+    background-color: var(--medium2);
+    cursor: default;
+}
+
+.multiOptionItem[disabled] {
+    color: var(--background);
+    background-color: var(--darkdark2);
+    cursor: default;
+    border-color: var(--darkdark2);
+    font-weight: bold;
+}
+
+/* same as disabled */
+.multiOpActive {
+    color: var(--background);
+    background-color: var(--darkdark2);
+    cursor: default;
+    border-color: var(--darkdark2);
+    font-weight: bold;
+}
+
+.line {
+    color: var(--white);
+    width: 100%;
+}
+
+.indexOption {
+    width: 80%;
+    font-size: var(--hugehuge);
+    background-color: var(--darkdark2);
+    color: var(--background) !important;
+    padding: var(--hugehuge);
+    margin: var(--superMini);
+    /* align-self: center; */
+    font-weight: bold;
+    border-radius: var(--mini);
+}
+
+.indexOption:hover {
+    background-color: var(--medium2);
+    color: var(--darkdark2);
+    cursor: default;
+}
+
+.introText {
+    padding: var(--hugehuge);
+}
+
+.centered {
+    align-items: center;
+    justify-content: center;
+}

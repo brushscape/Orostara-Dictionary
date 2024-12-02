@@ -1,4 +1,5 @@
 <!doctype html>
+<!--xlsx.js (C) 2013-present SheetJS http://sheetjs.com-->
 <html>
     <head>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -7,14 +8,14 @@
             crossorigin="anonymous"
         ></script>
 
-        <link rel="stylesheet" href="style/page_style.css" />
-        <link rel="stylesheet" href="style/general_style.css" />
-        <script src="src/page_func.js"></script>
-        <script src="src/process_CSV_new.js"></script>
-        <script src="src/general_func.js"></script>
+        <link rel="stylesheet" href="../style/page_style.css" />
+        <link rel="stylesheet" href="../style/general_style.css" />
+        <script src="../src/page_func.js"></script>
+        <script src="../src/process_CSV_new.js"></script>
+        <script src="../src/general_func.js"></script>
     </head>
 
-    <body>
+    <body onload="load2('social')">
         <div class="menuBar">
             <div class="header">
                 <div class="feedback headerItem">
@@ -23,7 +24,7 @@
                         title="home"
                         onclick="newPage('home')"
                     ></i>
-                    <!-- <i class="fa fa-spinner fa-spin" id="loading"></i> -->
+                    <i class="fa fa-spinner fa-spin" id="loading"></i>
                 </div>
                 <div class="headerItem headerText" onclick="newPage('home')">
                     <div class="title">OROSTARA</div>
@@ -66,49 +67,51 @@
                 >
                     Resources
                 </div>
-                <div
-                    class="menuItem"
-                    id="communityPg"
-                    onclick="newPage('community')"
-                >
-                    Community
+                <div class="menuItem active" id="communityPg">Community</div>
+            </div>
+            <!-- <div class="quickMenu menuItemContainer" id="communityMenu">
+                <div class="quickItem menuItem quickActive" id="socialsPg">
+                    Socials & Support
                 </div>
-            </div>
+                <div class="quickItem menuItem" id="techPg">
+                    Technical Issues
+                </div>
+            </div> -->
         </div>
-        <div class="pageBody centered">
-            <div class="introText">
-                <h2>HUANINO, WELCOME!</h2>
-                <p>
-                    To the unoffical home of the Orostara conlang. Sure, the
-                    Oros has their own resources that are prettier and nicer and
-                    easier to use but... this is free. And, I'll teach you how
-                    to swear. So who's really winning here.
-                </p>
-                <p>
-                    Feel free to contact me with any suggestions or questions or
-                    bugs or whatever. I'll be updating this as much as I can,
-                    but freetime here is hard to come by, so your patience is
-                    appreciated. Hoping to get more versions up in other
-                    languages someday, but so far I just have English.
-                </p>
-                <p>Other than that: Koro xepaxa ko, masnuru!</p>
-            </div>
-            <div class="indexOption" onclick="newPage('lessons')">
-                START LEARNING
-            </div>
-            <div class="indexOption" onclick="newPage('flashcards')">
-                QUIZ YOURSELF
-            </div>
-            <div class="indexOption" onclick="newPage('translator')">
-                USE TRANSLATOR
-            </div>
+        <div class="pageBody">
+            <h3>Socials and Other</h3>
             <a
-                class="indexOption"
+                class="socialLink"
+                href="https://orostara.tumblr.com"
+                target="_blank"
+                >Tumblr</a
+            >
+            <a
+                class="socialLink"
+                href="https://bsky.app/profile/orostara.bsky.social"
+                target="_blank"
+                >BlueSky</a
+            >
+            <a
+                class="socialLink"
+                href="https://github.com/orostara/Orostara-Dictionary"
+                target="_blank"
+                >GitHub</a
+            >
+            <br />
+            <h3>Contact</h3>
+            <a
+                class="socialLink"
+                href="mailto:topa@orostara.com"
+                target="_blank"
+                >Language Help</a
+            >
+            <a
+                class="socialLink"
                 href="mailto:kiya@orostara.com"
                 target="_blank"
+                >AMA</a
             >
-                ASK ME ANYTHING
-            </a>
         </div>
     </body>
 </html>

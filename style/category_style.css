@@ -6,37 +6,5 @@
     align-items: flex-start;
     text-align: center;
     width: 100%;
-    padding: var(--small);
     margin-bottom: var(--midSize);
-}
-
-.catMenuItem {
-    background-color: var(--lightlight2);
-    border-color: var(--medium2);
-    color: var(--superdark2);
-    padding-top: var(--small);
-    padding-bottom: var(--minimini);
-    padding-left: var(--minimini);
-    padding-right: var(--minimini);
-    margin: calc(var(--superMini) / 2);
-    flex-basis: 15%;
-    flex-grow: 1;
-    font-size: var(--small);
-    border-radius: var(--mini);
-    border-style: solid;
-    font-weight: normal;
-}
-
-.catMenuItem:hover {
-    color: var(--darkdark2);
-    background-color: var(--medium2);
-    cursor: default;
-}
-
-.catMenuItem[disabled] {
-    color: var(--superdark2);
-    background-color: var(--dark2);
-    cursor: default;
-    border-color: var(--dark2);
-    font-weight: bold;
 }

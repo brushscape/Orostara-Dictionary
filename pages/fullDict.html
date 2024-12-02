@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--xlsx.js (C) 2013-present SheetJS http://sheetjs.com-->
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script
+        src="https://kit.fontawesome.com/571f0d4f05.js"
+        crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../style/page_style.css">
+    <link rel="stylesheet" href="../style/general_style.css">
+    <script src='../src/page_func.js'></script>
+    <script src='../src/process_CSV_new.js'></script>
+    <script src='../src/general_func.js'></script>
+
+    <link rel="stylesheet" href="../style/full_dict_style.css">
+    <script src='../src/full_dict_func.js'></script>
+</head>
+
+
+<body onload="load2('fullDict')">
+    <div class='menuBar'>
+        <div class="header">
+            <div class="feedback headerItem">
+                <i
+                    class="fa fa-home pageFuncButt"
+                    title="home"
+                    onclick="newPage('home')"
+                ></i>
+                <i class="fa fa-spinner fa-spin" id="loading"></i>
+            </div>
+            <div class="headerItem headerText" onclick="newPage('home')">
+                <div class="title">OROSTARA</div>
+                <hr id="line" class="line" />
+                <div class="subTitle">THE BOOTLEG VENUSIAN DIALECT</div>
+            </div>
+            <div class="pageFuncButtCont headerItem">
+                <i
+                    class="fa fa-refresh pageFuncButt"
+                    title="refresh dictionary data"
+                    onclick="refreshPage()"
+                    id="refreshIcon"
+                ></i>
+                <i
+                    class="fa-solid fa-cookie pageFuncButt"
+                    title="clear cookies"
+                    onclick="clearCookies()"
+                ></i>
+            </div>
+        </div>
+        <div class='menuItemContainer' id="mainMenu">
+            <div class='menuItem' id='learningPg' onclick="newPage('learning')">Learning</div>
+            <div class='menuItem' id='crashcoursePg' onclick="newPage('quickstart')">CrashCourse</div>
+            <div class='menuItem active' id='resourcesPg'>Resources</div>
+            <div class='menuItem' id='communityPg' onclick="newPage('community')">Community</div>
+        </div>
+        <div class='quickMenu menuItemContainer' id='subMenu'>
+            <div class='quickItem menuItem' id='translatorPg' onclick="newPage('translator')">Translator</div>
+            <div class="quickItem menuItem" id="rhymesPg" onclick="newPage('rhymes')">Rhymes</div>
+            <div class='quickItem menuItem' id='categoriesPg' onclick="newPage('categories')">Categories</div>
+            <div class='quickItem menuItem quickActive' id='fullDictPg'">Full Dictionary</div>
+        </div>
+    </div>
+
+    <div id='fullDict' class='pageBody' style="display:none;">
+            <div class="dropdown">
+                <button class="dropbtn" id='dropbtn'>Full Dictionary <span
+                        style='font-size: var(--midSize);'>&#9660</span></button>
+                <div class="dropdown-content" id='dropdown'>
+                    <div class='dropdownOption' id='dropfull' disabled onclick="showOnly('full')">Full
+                        Dictionary</div>
+                    <div class='dropdownOption' id='dropbasic' onclick="showOnly('basic')">Basic Words</div>
+                    <div class='dropdownOption' id='dropconstruct' onclick="showOnly('construct')">Constructed Words
+                    </div>
+                    <div class='dropdownOption' id='dropproper' onclick="showOnly('proper')">Proper Nouns</div>
+                    <div class='dropdownOption' id='dropslang' onclick="showOnly('slang')">Slang Words</div>
+                    <div class='dropdownOption' id='dropswear' onclick="showOnly('swear')">Swear Words</div>
+                </div>
+            </div>
+            <div class='countContainer'>
+                <div id='numWords'></div>
+                <div>&nbsp;Listed</div>
+            </div>
+            <table class='fullTable' id='fullDictTable'>
+                <tr>
+                    <th>Orostara</th>
+                    <th>Noun Forms</th>
+                    <th>Verb Forms</th>
+                    <th>Adj Forms</th>
+                    <th>Adv Forms</th>
+                    <th>Other Forms</th>
+                    <th>Add. Notes</th>
+                </tr>
+                <tr id='dictDataRow'>
+                    <td>Example</td>
+                    <td>noun list</td>
+                    <td>verb list</td>
+                    <td>adj list</td>
+                    <td>adv list</td>
+                    <td>other list</td>
+                    <td>*notes here</td>
+                </tr>
+            </table>
+        </div>
+</body>

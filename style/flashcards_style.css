@@ -8,11 +8,11 @@
 }
 
 .flashgame {
-    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: inherit;
+    display: none;
 }
 
 .cardContain {
@@ -202,44 +202,6 @@
     flex-wrap: wrap;
     justify-content: center;
     flex-basis: 15%;
-}
-
-.lessSelect {
-    border-radius: 25px;
-    padding: var(--superMini);
-    background-color: var(--background);
-    color: var(--dark2);
-    border-style: solid;
-    border-color: var(--light2);
-    font-size: var(--small);
-    flex-basis: 15%;
-    flex-grow: 1;
-}
-
-.lessSelect:hover {
-    color: var(--dark2);
-    cursor: default;
-    background-color: var(--lightlight2);
-    border-color: var(--medium2);
-}
-
-.activeLess {
-    border-radius: 25px;
-    padding: var(--superMini);
-    background-color: var(--superlight1);
-    color: var(--dark1);
-    border-style: solid;
-    border-color: var(--medium1);
-    font-size: var(--small);
-    flex-basis: 15%;
-    flex-grow: 1;
-}
-
-.activeLess:hover {
-    color: var(--medium1);
-    cursor: default;
-    background-color: var(--lightlight1);
-    border-color: var(--medium1);
 }
 
 .gameButtContain {

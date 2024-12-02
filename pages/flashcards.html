@@ -1,0 +1,283 @@
+<!doctype html>
+<!--xlsx.js (C) 2013-present SheetJS http://sheetjs.com-->
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script
+            src="https://kit.fontawesome.com/571f0d4f05.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <link rel="stylesheet" href="../style/page_style.css" />
+        <link rel="stylesheet" href="../style/general_style.css" />
+        <script src="../src/page_func.js"></script>
+        <script src="../src/process_CSV_new.js"></script>
+        <script src="../src/general_func.js"></script>
+
+        <link rel="stylesheet" href="../style/flashcards_style.css" />
+        <script src="../src/flashcards_func.js"></script>
+        <script src="../src/dict_process_oros_word.js"></script>
+        <script src="../src/dict_process_eng_word.js"></script>
+        <script src="../src/dictionary_search_func.js"></script>
+        <script src="../src/vocab.js"></script>
+    </head>
+
+    <body onload="load2('flashcards')">
+        <div class="menuBar">
+            <div class="header">
+                <div class="feedback headerItem">
+                    <i
+                        class="fa fa-home pageFuncButt"
+                        title="home"
+                        onclick="newPage('home')"
+                    ></i>
+                    <i class="fa fa-spinner fa-spin" id="loading"></i>
+                </div>
+                <div class="headerItem headerText" onclick="newPage('home')">
+                    <div class="title">OROSTARA</div>
+                    <hr id="line" class="line" />
+                    <div class="subTitle">THE BOOTLEG VENUSIAN DIALECT</div>
+                </div>
+                <div class="pageFuncButtCont headerItem">
+                    <i
+                        class="fa fa-refresh pageFuncButt"
+                        title="refresh dictionary data"
+                        onclick="refreshPage()"
+                        id="refreshIcon"
+                    ></i>
+                    <i
+                        class="fa-solid fa-cookie pageFuncButt"
+                        title="clear cookies"
+                        onclick="clearCookies()"
+                    ></i>
+                </div>
+            </div>
+            <div class="menuItemContainer">
+                <div
+                    class="menuItem active"
+                    id="learningPg"
+                    onclick="newPage('learning')"
+                >
+                    Learning
+                </div>
+                <div
+                    class="menuItem"
+                    id="resourcesPg"
+                    onclick="newPage('quickstart')"
+                >
+                    CrashCourse
+                </div>
+                <div
+                    class="menuItem"
+                    id="resourcesPg"
+                    onclick="newPage('resources')"
+                >
+                    Resources
+                </div>
+                <div
+                    class="menuItem"
+                    id="communityPg"
+                    onclick="newPage('community')"
+                >
+                    Community
+                </div>
+            </div>
+            <div class="quickMenu menuItemContainer" id="learningMenu">
+                <div
+                    class="quickItem menuItem"
+                    id="lessonsPg"
+                    onclick="newPage('lessons')"
+                >
+                    Lessons
+                </div>
+                <div class="quickItem menuItem quickActive" id="flashcardsPg">
+                    Flashcards
+                </div>
+            </div>
+        </div>
+        <div id="flashcards" class="flashPage">
+            <div class="flashOptions">
+                <div class="flashLessSelect">
+                    <button
+                        type="button"
+                        class="multiOptionItem multiOpActive"
+                        onclick="evalSet(1)"
+                        id="less1Butt"
+                    >
+                        Lesson 1
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(2)"
+                        id="less2Butt"
+                    >
+                        Lesson 2
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(3)"
+                        id="less3Butt"
+                    >
+                        Lesson 3
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(4)"
+                        id="less4Butt"
+                    >
+                        Lesson 4
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(5)"
+                        id="less5Butt"
+                    >
+                        Lesson 5
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(6)"
+                        id="less6Butt"
+                    >
+                        Lesson 6
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(7)"
+                        id="less7Butt"
+                    >
+                        Lesson 7
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(8)"
+                        id="less8Butt"
+                    >
+                        Lesson 8
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(9)"
+                        id="less9Butt"
+                    >
+                        Lesson 9
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(10)"
+                        id="less10Butt"
+                    >
+                        Lesson 10
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(11)"
+                        id="less11Butt"
+                    >
+                        Other
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="evalSet(12)"
+                        id="allButt"
+                    >
+                        All
+                    </button>
+                </div>
+                <div class="vl"></div>
+                <div class="flashLangSelect">
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="selectFlashLang(1)"
+                        id="orosButt"
+                    >
+                        Orostara
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem"
+                        onclick="selectFlashLang(2)"
+                        id="engButt"
+                    >
+                        English
+                    </button>
+                    <button
+                        type="button"
+                        class="multiOptionItem multiOpActive"
+                        onclick="selectFlashLang(3)"
+                        id="bothButt"
+                    >
+                        Both
+                    </button>
+                </div>
+            </div>
+            <div id="game" class="flashgame">
+                <div id="feedback" class="flashFeedback">Skipped</div>
+                <div class="cardContain" id="cardContain">
+                    <div class="flashcard">
+                        <div id="label" class="label"></div>
+                        <div id="flashWord" class="word"></div>
+                    </div>
+                    <div id="flashAnswer" class="flashcard behind"></div>
+                </div>
+                <input type="text" class="searchBar" id="flashAnswerBar" />
+                <div class="gameButtContain">
+                    <button
+                        type="button"
+                        class="langbutton gameButt"
+                        onclick="skipCard()"
+                        id="skipBut"
+                    >
+                        Skip
+                    </button>
+                    <button
+                        type="button"
+                        class="langbutton gameButt"
+                        onclick="checkAnswer()"
+                        id="checkBut"
+                        disabled
+                    >
+                        Check
+                    </button>
+                </div>
+                <div class="stats">
+                    <div class="statEl">
+                        <b>Correct: </b><span id="correctCount">0</span>
+                    </div>
+                    <div class="statEl">
+                        <b>Missed: </b><span id="missedCount">0</span>
+                    </div>
+                    <div class="skipped">
+                        <div class="statEl">
+                            <b>Skipped: </b><span id="skippedCount">0</span>
+                        </div>
+                        <div id="skippedMax">• • •</div>
+                    </div>
+                    <div class="statEl">
+                        <b>Streak: </b><span id="streakCount">0</span>
+                    </div>
+                </div>
+            </div>
+            <button
+                type="button"
+                class="langbutton"
+                onclick="startFlash()"
+                id="startBut"
+            >
+                Start
+            </button>
+        </div>
+    </body>
+</html>

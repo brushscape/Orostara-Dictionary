@@ -1,10 +1,8 @@
 add comments
-make each tab a separate page
 
 In Progress:
 
 Not Pressing:
 make so dropdown menu disappears after selecting an option or if someone clicks the button again
-change category dropdown to a submenu?
 
 Stretch Goals:

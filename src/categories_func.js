@@ -1,12 +1,8 @@
-var cprev = "na";
-
-// function onDropHover() {
-//   $('.menuItem').hover(function(event) {
-
-//   });
-// }
+var cprev = "color";
+var currCategory = "color";
 
 function cfillTable() {
+  document.getElementById("loading").style.display = "flex";
   var containerEl = document.getElementById("categoryDictTable");
   var baseEl = document.getElementById("categoryDataRow");
 
@@ -83,7 +79,7 @@ function cfillTable() {
     }
   }
 
-  cShowOnly("color");
+  cShowOnly(currCategory);
   baseEl.style.display = "none";
 }
 
@@ -111,7 +107,9 @@ function sortArray(arr) {
 }
 
 function cShowOnly(type) {
+  currCategory = type;
   if (type == cprev) {
+    showCatContent();
     return;
   }
 
@@ -206,6 +204,11 @@ function cShowOnly(type) {
     //document.getElementById("cdropdown").style.display = "none";
   }
   cprev = type;
-
+  showCatContent();
   // document.getElementById('numWords').innerHTML = counter;
+}
+
+function showCatContent() {
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("category").style.display = "flex";
 }

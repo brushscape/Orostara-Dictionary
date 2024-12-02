@@ -4,6 +4,8 @@
     align-items: flex-start;
     padding-left: 30px;
     text-align: left;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .exampleSentences {
@@ -18,39 +20,4 @@
 
 .links {
     padding: var(--large);
-}
-
-a:link {
-    color: var(--link);
-    text-decoration: none;
-}
-
-a:visited {
-    color: var(--link);
-}
-
-a:hover {
-    color: var(--dark2);
-}
-
-table {
-    margin-left: 15px;
-    text-align: left;
-    border-collapse: collapse;
-    width: calc(200px + 30vw);
-    margin-bottom: var(--small);
-}
-
-td,
-th {
-    text-align: left;
-    padding: 8px;
-    border: 1px solid var(--dark2);
-}
-
-tr:nth-child(odd) {
-    background-color: var(--lightlight2);
-}
-tr:nth-child(1) {
-    background-color: var(--medium2);
 }

@@ -57,15 +57,15 @@ function calcOther() {
       }
     }
     if (!found) {
-      var isSpecial = false; 
-      for(var m = 0; m < specialCases.length;m++){
-        if(basicOnly[i]==specialCases[m]){
-          isSpecial= true;
-          break; 
+      var isSpecial = false;
+      for (var m = 0; m < specialCases.length; m++) {
+        if (basicOnly[i] == specialCases[m]) {
+          isSpecial = true;
+          break;
         }
       }
-      //skip special case words like particles 
-      if(!isSpecial){
+      //skip special case words like particles
+      if (!isSpecial) {
         if (other == "") {
           other = "'" + basicOnly[i];
         } else {
@@ -80,7 +80,9 @@ function calcOther() {
 function evalSet(num) {
   if (num == 12) {
     // all button
-    if (document.getElementById("allButt").classList.contains("lessSelect")) {
+    if (
+      !document.getElementById("allButt").classList.contains("multiOpActive")
+    ) {
       // toggling on; activate all
       toggleActive("allButt");
 
@@ -121,7 +123,9 @@ function evalSet(num) {
       activeSets.splice(isThere, 1);
       toggleActive("less" + num + "Butt");
 
-      if (document.getElementById("allButt").classList.contains("activeLess")) {
+      if (
+        document.getElementById("allButt").classList.contains("multiOpActive")
+      ) {
         toggleActive("allButt");
       }
     }
@@ -184,15 +188,15 @@ function selectFlashLang(num) {
 
 function toggleActive(id, forceActive) {
   if (forceActive) {
-    document.getElementById(id).classList.remove("lessSelect");
-    document.getElementById(id).classList.add("activeLess");
+    //document.getElementById(id).classList.remove("multiOptionItem");
+    document.getElementById(id).classList.add("multiOpActive");
   } else {
-    if (document.getElementById(id).classList.contains("activeLess")) {
-      document.getElementById(id).classList.add("lessSelect");
-      document.getElementById(id).classList.remove("activeLess");
+    if (document.getElementById(id).classList.contains("multiOpActive")) {
+      //document.getElementById(id).classList.add("multiOptionItem");
+      document.getElementById(id).classList.remove("multiOpActive");
     } else {
-      document.getElementById(id).classList.remove("lessSelect");
-      document.getElementById(id).classList.add("activeLess");
+      //document.getElementById(id).classList.remove("multiOptionItem");
+      document.getElementById(id).classList.add("multiOpActive");
     }
   }
 }
@@ -201,7 +205,9 @@ function startFlash() {
   //calcOther();
   //checkForVocabDuplicates();
   resetElements();
-  if (document.getElementById("startBut").innerHTML == "Start") {
+  if (
+    cleanupTextInput(document.getElementById("startBut").innerHTML) == "start"
+  ) {
     document.getElementById("game").style.display = "flex";
     document.getElementById("startBut").innerHTML = "Restart";
 
@@ -313,7 +319,7 @@ function pickWord() {
         currAnswer = wordEntry.Other;
         break;
       default:
-        currWord = "Error: No Definitions Found for orostara pos "+pos;
+        currWord = "Error: No Definitions Found for orostara pos " + pos;
     }
     document.getElementById("flashWord").innerHTML = currWord;
   } else {
@@ -341,7 +347,7 @@ function pickWord() {
         currWord = wordEntry.Other;
         break;
       default:
-        currWord = "Error: No Definitions Found for english pos "+pos;
+        currWord = "Error: No Definitions Found for english pos " + pos;
     }
     document.getElementById("flashWord").innerHTML = displayWordList(
       currWord,
@@ -464,7 +470,8 @@ function checkAnswer() {
           result2 = findAnswer(wordEntry.Other);
           break;
         default:
-          currWord = "Error: No Definitions Found for "+options[i]+' in '+options;
+          currWord =
+            "Error: No Definitions Found for " + options[i] + " in " + options;
       }
       if (result2) {
         feedback("correct");
@@ -515,7 +522,7 @@ function checkAnswer() {
           found = checkForRedundant(wordEntry.Other, tempCurrWord);
           break;
         default:
-          currWord = "Error: No Definitions Found for endChar "+endChar;
+          currWord = "Error: No Definitions Found for endChar " + endChar;
           found = false;
       }
       if (found) {

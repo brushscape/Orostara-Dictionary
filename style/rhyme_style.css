@@ -1,0 +1,17 @@
+.rhymeTemplateContainer {
+    display: none;
+}
+.rhymeWordDef {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-left: var(--small);
+}
+
+.wordnDef {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-wrap: wrap;
+    margin-right: var(--small);
+}

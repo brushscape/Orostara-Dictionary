@@ -5,27 +5,6 @@
     align-items: center;
     width: 100%;
 }
-button {
-    background-color: var(--light1);
-    border: none;
-    color: var(--background);
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: var(--hugehuge);
-    border-radius: 50px;
-    margin: 1vw 0.5vw 0.5vw 1vw;
-    font-family: Optima, Helvetica, Ariel, sans-serif;
-}
-button:hover {
-    background-color: var(--medium1);
-    color: var(--lightlight1);
-}
-button:disabled {
-    background-color: var(--disabledBG);
-    color: var(--disabledText);
-}
 
 .translatorTitle {
     margin-bottom: var(--large);
@@ -59,20 +38,6 @@ button:disabled {
     align-items: center;
     width: 100%;
     font-size: var(--huge);
-}
-
-.searchBar {
-    width: 40%;
-    border-radius: 20px;
-    margin: var(--minimini);
-    padding: var(--minimini);
-    font-family: Optima, Helvetica, Ariel, sans-serif;
-    font-size: var(--large);
-    background-color: var(--background);
-}
-
-.searchBar:disabled {
-    background-color: gainsboro;
 }
 
 .notFound {
