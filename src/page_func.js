@@ -5,11 +5,10 @@
 //persist selection for lessons selected in flashcard game??? and lang?
 //flashgame state persist please
 //give feedback (checkmark?) indication that cookie deletion completed
-//format links page. she's ugly
 //stop content flashing unstyled *crying emoji*
-//optimize categories somehow. it's so slow
-//states aren't persisting from home page. why????
 //width property is wigging on the flashcard game when window is small. fix
+//add one of those jump back to top of page buttons for full dict and such
+//hardcode in the categories table (and full dict?) once it's more complete
 
 /* jshint esversion: 8 */
 

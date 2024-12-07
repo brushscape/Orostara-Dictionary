@@ -1,14 +1,14 @@
 a:link {
-    color: var(--link);
+    color: var(--dark2);
     text-decoration: none;
 }
 
 a:visited {
-    color: var(--link);
+    color: var(--darkdark2);
 }
 
 a:hover {
-    color: var(--dark2);
+    color: var(--medium2);
 }
 
 .socialLink {
@@ -17,7 +17,7 @@ a:hover {
 }
 
 button {
-    background-color: var(--darkdark2);
+    background-color: var(--medium1);
     border: none;
     color: var(--background);
     padding: 15px 25px;
@@ -30,8 +30,8 @@ button {
     font-family: Optima, Helvetica, Ariel, sans-serif;
 }
 button:hover {
-    background-color: var(--dark2);
-    color: var(--lightlight2);
+    background-color: var(--dark1);
+    color: var(--superlight1);
 }
 button:disabled {
     background-color: var(--disabledBG);
@@ -50,7 +50,7 @@ td,
 th {
     text-align: left;
     padding: 8px;
-    border: 1px solid var(--dark2);
+    border: 1px solid var(--darkdark2);
 }
 
 tr:nth-child(odd) {
@@ -58,6 +58,7 @@ tr:nth-child(odd) {
 }
 tr:nth-child(1) {
     background-color: var(--medium2);
+    /* color: var(--background); */
 }
 
 .fullTable {
@@ -106,18 +107,18 @@ tr:nth-child(1) {
 
 .multiOptionItem[disabled] {
     color: var(--background);
-    background-color: var(--darkdark2);
+    background-color: var(--dark2);
     cursor: default;
-    border-color: var(--darkdark2);
+    border-color: var(--dark2);
     font-weight: bold;
 }
 
 /* same as disabled */
 .multiOpActive {
     color: var(--background);
-    background-color: var(--darkdark2);
+    background-color: var(--dark2);
     cursor: default;
-    border-color: var(--darkdark2);
+    border-color: var(--dark2);
     font-weight: bold;
 }
 

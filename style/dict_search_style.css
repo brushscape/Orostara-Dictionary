@@ -13,17 +13,17 @@
 .langSelect {
     border-radius: 25px;
     padding: calc(10px + 0.25vw);
-    background-color: var(--white);
-    color: var(--darkdark2);
+    background-color: var(--lightlight2);
+    color: var(--superdark2);
     border-style: solid;
-    border-color: var(--dark2);
+    border-color: var(--medium2);
 }
 
 .langSelect:hover {
-    color: var(--dark2);
+    color: var(--darkdark2);
     cursor: default;
-    background-color: var(--lightlight2);
-    border-color: var(--medium2);
+    background-color: var(--light2);
+    border-color: var(--dark2);
 }
 
 .searchBlock {

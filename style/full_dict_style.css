@@ -7,7 +7,7 @@
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: var(--light1);
+    background-color: var(--dark2);
     color: var(--background);
     padding: var(--large);
     margin-bottom: var(--large);
@@ -54,7 +54,7 @@
 }
 
 .dropdownOption[disabled] {
-    color: var(--lightlight2);
+    color: var(--white);
     background-color: var(--dark2);
     font-weight: bold;
 }
