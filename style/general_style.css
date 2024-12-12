@@ -130,7 +130,7 @@ tr:nth-child(1) {
 .indexOption {
     width: 80%;
     font-size: var(--hugehuge);
-    background-color: var(--darkdark2);
+    background-color: var(--dark1);
     color: var(--background) !important;
     padding: var(--hugehuge);
     margin: var(--superMini);
@@ -140,8 +140,7 @@ tr:nth-child(1) {
 }
 
 .indexOption:hover {
-    background-color: var(--medium2);
-    color: var(--darkdark2);
+    background-color: var(--light1);
     cursor: default;
 }
 
