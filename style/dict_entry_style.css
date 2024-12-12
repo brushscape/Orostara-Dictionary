@@ -30,7 +30,7 @@
 
 .etym {
     font-size: var(--mini);
-    color: DarkGrey;
+    color: grey;
     margin-left: var(--mini);
     margin-top: calc(var(--hugehuge) - 1.1 * var(--mini));
     display: flex;
@@ -49,7 +49,7 @@
 
 .notes {
     font-size: var(--mini);
-    color: Grey;
+    color: dimgray;
     white-space: normal;
     display: block;
     margin-bottom: var(--superMini);
@@ -71,7 +71,7 @@
 
 .marker {
     font-size: var(--mini);
-    color: SlateGrey;
+    color: gray;
     margin-top: calc(var(--midSize) - var(--mini));
     margin-left: var(--minimini);
     margin-right: var(--mini);

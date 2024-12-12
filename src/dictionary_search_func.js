@@ -114,13 +114,23 @@ function displayEntry(entry, searchedTerm, only, el) {
 
   // display Notes and Other in the same section right under the word definition
   var shown = false;
-  var both = false;
+  var onCount = 0;
   var childEl = getChildElement(wordDefEl, "def");
+  if (entry.AltSpellings == "" || entry.AltSpellings == undefined) {
+    getChildElement(childEl, "altSpells").style.display = "none";
+  } else {
+    shown = true;
+    getChildElement(childEl, "altSpells").innerHTML =
+      "<b>Alternate Spellings:</b>&nbsp" +
+      displayWordList(entry.AltSpellings, searchedTerm, true);
+    getChildElement(childEl, "altSpells").style.display = "flex";
+  }
+
   if (entry.Other == "") {
     getChildElement(childEl, "other").style.display = "none";
   } else {
     shown = true;
-    both = true;
+    onCount++;
     getChildElement(childEl, "other").innerHTML = displayWordList(
       entry.Other,
       searchedTerm,
@@ -131,19 +141,19 @@ function displayEntry(entry, searchedTerm, only, el) {
 
   if (entry.Notes == "") {
     getChildElement(childEl, "notes").style.display = "none";
-    both = false;
   } else {
+    shown = true;
+    onCount++;
     var notesEl = getChildElement(childEl, "notes");
     notesEl.innerHTML = "*" + processNote(entry.Notes);
     notesEl.style.display = "block";
-    shown = true;
   }
 
   if (shown) {
     childEl.style.display = "flex";
     if (currPage == "translator") {
       var spacer = getChildElement(childEl, "defSpacer");
-      if (both) {
+      if (onCount > 1) {
         spacer.style.display = "block";
       } else {
         spacer.style.display = "none";

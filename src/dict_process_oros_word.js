@@ -50,7 +50,7 @@ function orosEntry(searchedWord) {
       document.getElementById("notFoundOros").style.display = "flex";
       return 0;
     } else {
-      displayEntryArry(entry1, "");
+      displayEntryArry(entry1, searchedWord);
       if (entry1.length != 0) {
         return 1;
       } else {
@@ -81,9 +81,20 @@ function searchOros(word1) {
   var word = word1.toLowerCase();
   //check every word in case there's more than one (rare but not unheardof)
   for (var i = 0; i < orosDict.length; i++) {
-    var checkWord = orosDict[i].Orostara.toLowerCase();
-    if (checkWord == word) {
-      entryArr.push(orosDict[i]);
+    var options = [orosDict[i].Orostara];
+    if (orosDict[i].AltSpellings != "") {
+      if (!Array.isArray(orosDict[i].AltSpellings)) {
+        // only one entry
+        options.push(orosDict[i].AltSpellings);
+      } else {
+        options = options.concat(orosDict[i].AltSpellings);
+      }
+    }
+    for (var j = 0; j < options.length; j++) {
+      if (options[j].toLowerCase() == word) {
+        entryArr.push(orosDict[i]);
+        break; //just out of this inner for loop
+      }
     }
   }
   return entryArr;

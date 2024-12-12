@@ -9,6 +9,9 @@
 //width property is wigging on the flashcard game when window is small. fix
 //add one of those jump back to top of page buttons for full dict and such
 //hardcode in the categories table (and full dict?) once it's more complete
+//show alternate spellings in rhymezone
+//fix the spacing in the rhymezone so it's actually lined up always
+//make rhymezone work for multiple syllables (currently only cares about last for some reason)
 
 /* jshint esversion: 8 */
 
